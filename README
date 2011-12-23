@@ -1,0 +1,38 @@
+This repository contains various metadata to be used by build scripts to support proper
+building of KDE projects.
+
+As I currently envision it, this will at least do the following:
+
+1. Mark repositories that should not be downloaded, built or otherwise handled
+by build scripts but are actually active (the big example being -www
+directories which simply hold websites).
+
+This will be held in the file 'build-script-ignore', which will be just a
+newline-separated list of KDE Project path names to ignore, as given in the
+<path> tag under <component>, <module>, etc.
+
+2. Give dependency data to show which KDE project modules depend on other ones,
+so that sub-projects of a given project can still be built in the right order
+no matter how they are arranged in the XML database.
+
+I would imagine this will be in the file 'dependency-data', which would have a
+newline-separated list of KDE Project path names to KDE Project path name
+dependencies, in Makefile format.
+
+e.g.
+
+extragear/kdevelop/kdevelop: extragear/kdevelop/kdevplatform
+extragear/kdevelop/utilities/*: extragear/kdevelop/kdevelop
+
+(A wildcard format would be permissible to force all modules in that XML path
+to develop on some module $foo (except $foo itself, if $foo happens to be in
+that set)).
+
+However I still haven't coded this or fully fleshed it out, and I need to
+consult with Michael Jansen to see what he could use or would need for his
+kde-build Ruby script.
+
+At some point comments should be supported in both files, but I haven't coded anything
+special for that yet in kdesrc-build.
+
+ - Michael Pyne, mpyne@kde.org
