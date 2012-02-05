@@ -17,3 +17,11 @@ kde/kde-baseapps/kate: kde/kde-baseapps
 
 kde/kdepim-runtime: kde/kdepimlibs
 kde/kdepim: kde/kdepimlibs
+
+# kdegraphics
+kde/kdegraphics/ksaneplugin: kde/kdegraphics/libs/libksane
+kde/kdegraphics/kdegraphics-thumbnailers: kde/kdegraphics/libs/libkexiv2
+kde/kdegraphics/kdegraphics-thumbnailers: kde/kdegraphics/libs/libkdcraw
+kde/kdegraphics/gwenview: kde/kdegraphics/libs/libkexiv2
+kde/kdegraphics/gwenview: kde/kdegraphics/libs/libkipi
+kde/kdegraphics/ksnapshot: kde/kdegraphics/libs/libkipi
