@@ -15,8 +15,11 @@ kdesupport/strigi/strigiclient: kdesupport/strigi/strigiutils
 kde/kde-baseapps/konsole: kde/kde-baseapps
 kde/kde-baseapps/kate: kde/kde-baseapps
 
-kde/kdepim-runtime: kde/kdepimlibs
+# kdepim*
+kde/kdepimlibs: kde/kdelibs
+kde/kdepimlibs: kdesupport/akonadi
 kde/kdepim: kde/kdepimlibs
+kde/kdepim-runtime: kde/kdepim
 
 # kdegraphics
 kde/kdegraphics/ksaneplugin: kde/kdegraphics/libs/libksane
