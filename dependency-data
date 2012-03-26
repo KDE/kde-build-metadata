@@ -29,6 +29,7 @@ extragear/kdevelop/kdevelop: extragear/kdevelop/kdevplatform
 # 5, that is handled by the build-script-ignore metadata in this repo.
 kdesupport/strigi/strigiutils: kdesupport/strigi/libstreams
 kdesupport/strigi/strigiutils: kdesupport/strigi/libstreamanalyzer
+kdesupport/strigi/libstreamanalyzer: kdesupport/strigi/libstreams
 kdesupport/strigi/strigidaemon: kdesupport/strigi/strigiutils
 kdesupport/strigi/strigiclient: kdesupport/strigi/strigiutils
 
