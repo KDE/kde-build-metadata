@@ -39,6 +39,11 @@ kdesupport/strigi/strigiclient: kdesupport/strigi/strigiutils
 kde/kde-baseapps/konsole: kde/kde-baseapps
 kde/kde-baseapps/kate: kde/kde-baseapps
 
+# NOTE: There's a proposal to use the same technique for kwebkitpart. If it's
+# approved the following rule will apply, if it's not applies then the
+# following rule will be baggage but not otherwise harmful.
+kde/kde-baseapps/kwebkitpart: kde/kde-baseapps
+
 # kdepim*
 kde/kdepimlibs: kde/kdelibs
 kde/kdepimlibs: kdesupport/akonadi
