@@ -12,6 +12,15 @@
 #
 # Don't bother listing kdelibs or Qt as dependencies, that will be assumed.
 
+# KDE Workspace
+# kactivities is a separate library now, or something like that.
+kde/kde-workspace: kde/kdelibs/kactivities
+kde/kde-workspace: kdesupport/strigi/libstreams
+
+# KDE Runtime
+kde/kde-runtime: kdesupport/strigi/libstreams
+kde/kde-runtime: kdesupport/attica
+
 # KDevelop dependencies
 extragear/kdevelop/kdevelop: extragear/kdevelop/kdevplatform
 
