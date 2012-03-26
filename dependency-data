@@ -1,3 +1,17 @@
+# This is a listing of build order dependencies for some of the KDE project
+# modules. See the README in this same directory for the syntax. Not all
+# inter-project dependencies are listed so don't treat this as the
+# authoritative source, instead consult projects' CMakeLists.txt files.
+#
+# Of course feel free to document your own project dependencies here, but
+# please limit to intra-projects dependencies (there's not yet any way to mark
+# a dependency on something hosted on e.g. gitorious).
+#
+# Right now there's no way to mark that a given module is actually required or
+# optional, that might change in the future.
+#
+# Don't bother listing kdelibs or Qt as dependencies, that will be assumed.
+
 # KDevelop dependencies
 extragear/kdevelop/kdevelop: extragear/kdevelop/kdevplatform
 
