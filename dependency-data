@@ -19,6 +19,7 @@ kde/kde-workspace: kdesupport/strigi/libstreams
 
 # KDE Runtime
 kde/kde-runtime: kdesupport/strigi/libstreams
+kde/kde-runtime: kde/kdelibs/kactivities
 kde/kde-runtime: kdesupport/attica
 
 # KDevelop dependencies
