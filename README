@@ -36,3 +36,10 @@ At some point comments should be supported in both files, but I haven't coded an
 special for that yet in kdesrc-build.
 
  - Michael Pyne, mpyne@kde.org
+
+Syntax:
+
+<path_specifier>[<branch>]: <path_specifier>[<branch>]
+
+<path_specifier> on the right hand side might be prefixed with "-" to indicate that
+that dependency is not valid for the given project and branch.

@@ -10,7 +10,14 @@
 # Right now there's no way to mark that a given module is actually required or
 # optional, that might change in the future.
 #
-# Don't bother listing kdelibs or Qt as dependencies, that will be assumed.
+# Don't bother listing kdelibs or Qt as dependencies unless a certain branch
+# is needed.
+
+kde/*: kde/kdelibs
+kde/*: Qt
+
+kde/kdelibs[frameworks]: Qt5
+kde/kdelibs[frameworks]: -Qt
 
 # KDE Workspace
 # kactivities is a separate library now, or something like that.
@@ -46,8 +53,9 @@ kde/kde-baseapps/kate: kde/kde-baseapps
 kde/kde-baseapps/kwebkitpart: kde/kde-baseapps
 
 # kdepim*
-kde/kdepimlibs: kde/kdelibs
 kde/kdepimlibs: kdesupport/akonadi
+kde/kdepimlibs[frameworks]: Qt5
+kde/kdepimlibs[frameworks]: -Qt
 kde/kdepim: kde/kdepimlibs
 kde/kdepim-runtime: kde/kdepim
 
