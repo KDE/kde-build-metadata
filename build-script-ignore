@@ -1,2 +1,8 @@
 extragear/kdevelop/kdev-www
 kdesupport/strigi/strigi
+
+# No modules to install yet
+kde/kdemultimedia/strigi-multimedia
+
+# Convenience module for packagers, redundant with kipi-plugins, digikam, etc.
+extragear/graphics/digikam/digikam-software-compilation
