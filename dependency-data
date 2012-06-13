@@ -47,15 +47,25 @@ kdesupport/strigi/strigiclient: kdesupport/strigi/strigiutils
 # Konsole and Kate logically fall under kde-baseapps, but unlike other
 # virtual "containers", kde-baseapps is a *real* checkout and so must be built
 # first!
+# Note: This can possibly be removed around 2012-12-31 assuming enough kdesrc-build
+# users have upgraded to a version that automatically adds these dependencies.
 kde/kde-baseapps/konsole: kde/kde-baseapps
 kde/kde-baseapps/kate: kde/kde-baseapps
+
+# This is redundant as above, but might be useful for other scripts.
+kde/kdelibs/nepomuk-core: kde/kdelibs
 
 # NOTE: There's a proposal to use the same technique for kwebkitpart. If it's
 # approved the following rule will apply, if it's not applies then the
 # following rule will be baggage but not otherwise harmful.
 kde/kde-baseapps/kwebkitpart: kde/kde-baseapps
 
+# Allow addons to build after these.
+kde/kdeplasma-addons: kde/kde-baseapps
+kde/kdeplasma-addons: kde/kde-workspace
+
 # kdepim*
+kde/kdepimlibs: kde/kdelibs
 kde/kdepimlibs: kdesupport/akonadi
 kde/kdepimlibs[frameworks]: Qt5
 kde/kdepimlibs[frameworks]: -Qt
@@ -71,4 +81,7 @@ kde/kdegraphics/gwenview: kde/kdegraphics/libs/libkipi
 kde/kdegraphics/ksnapshot: kde/kdegraphics/libs/libkipi
 
 # kdemultimedia
-# Only Qt and kdelibs
+kde/kdemultimedia/kscd: kde/kdemultimedia/libkcddb
+kde/kdemultimedia/kscd: kde/kdemultimedia/libkcompactdisc
+kde/kdemultimedia/audiocd-kio: kde/kdemultimedia/libkcddb
+kde/kdemultimedia/audiocd-kio: kde/kdemultimedia/libkcompactdisc
