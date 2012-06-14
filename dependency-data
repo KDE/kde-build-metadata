@@ -19,8 +19,7 @@ kde/*: Qt
 kde/kdelibs[frameworks]: Qt5
 kde/kdelibs[frameworks]: -Qt
 kde/kdelibs: kdesupport/automoc[master]
-
-kdesupport/automoc[master]: kdesupport/phonon/phonon[master]
+kde/kdelibs: kdesupport/attica
 
 # KDE Workspace
 # kactivities is a separate library now, or something like that.
