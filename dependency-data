@@ -14,7 +14,7 @@
 # is needed.
 
 kde/*: kde/kdelibs
-kde/*: Qt
+*: Qt
 
 kde/kdelibs[frameworks]: Qt5
 kde/kdelibs[frameworks]: -Qt
