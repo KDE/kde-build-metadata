@@ -23,6 +23,7 @@ kde/kdelibs: kdesupport/attica[master]
 kde/kdelibs: kdesupport/phonon/phonon[master]
 kde/kdelibs: kdesupport/strigi/strigi[master]
 kde/kdelibs: kdesupport/polkit-qt-1[master]
+kde/kdelibs: kdesupport/soprano[master]
 
 # KDE Workspace
 # kactivities is a separate library now, or something like that.
