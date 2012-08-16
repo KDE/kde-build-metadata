@@ -88,3 +88,6 @@ kde/kdemultimedia/kscd: kde/kdemultimedia/libkcddb
 kde/kdemultimedia/kscd: kde/kdemultimedia/libkcompactdisc
 kde/kdemultimedia/audiocd-kio: kde/kdemultimedia/libkcddb
 kde/kdemultimedia/audiocd-kio: kde/kdemultimedia/libkcompactdisc
+
+# kdesupport
+kdesupport/akonadi: kdesupport/soprano
