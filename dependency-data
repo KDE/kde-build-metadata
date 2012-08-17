@@ -91,3 +91,7 @@ kde/kdemultimedia/audiocd-kio: kde/kdemultimedia/libkcompactdisc
 
 # kdesupport
 kdesupport/akonadi: kdesupport/soprano
+
+# extragear/graphics
+extragear/graphics/digikam: extragear/graphics/libs/libkgeomap
+extragear/graphics/digikam: extragear/graphics/libs/libkface
