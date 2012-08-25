@@ -47,6 +47,16 @@ kdesupport/strigi/libstreamanalyzer: kdesupport/strigi/libstreams
 kdesupport/strigi/strigidaemon: kdesupport/strigi/strigiutils
 kdesupport/strigi/strigiclient: kdesupport/strigi/strigiutils
 
+# Phonon backends are dependent upon phonon itself.
+kdesupport/phonon/phonon-directshow: kdesupport/phonon/phonon
+kdesupport/phonon/phonon-gstreamer: kdesupport/phonon/phonon
+kdesupport/phonon/phonon-mmf: kdesupport/phonon/phonon
+kdesupport/phonon/phonon-mplayer: kdesupport/phonon/phonon
+kdesupport/phonon/phonon-quicktime: kdesupport/phonon/phonon
+kdesupport/phonon/phonon-vlc: kdesupport/phonon/phonon
+kdesupport/phonon/phonon-waveout: kdesupport/phonon/phonon
+kdesupport/phonon/phonon-xine: kdesupport/phonon/phonon
+
 # Konsole and Kate logically fall under kde-baseapps, but unlike other
 # virtual "containers", kde-baseapps is a *real* checkout and so must be built
 # first!
