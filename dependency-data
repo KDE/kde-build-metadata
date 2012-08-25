@@ -67,6 +67,7 @@ kde/kde-baseapps/kate: kde/kde-baseapps
 
 # This is redundant as above, but might be useful for other scripts.
 kde/kdelibs/nepomuk-core: kde/kdelibs
+kde/kdelibs/kactivities: kdesupport/soprano
 kde/kdelibs/kactivities: kde/kdelibs/nepomuk-core
 kde/kdelibs/nepomuk-widgets: kde/kdelibs/nepomuk-core
 
