@@ -67,6 +67,7 @@ kde/kde-baseapps/kate: kde/kde-baseapps
 
 # This is redundant as above, but might be useful for other scripts.
 kde/kdelibs/nepomuk-core: kde/kdelibs
+kde/kdelibs/kactivities: kde/kdelibs/nepomuk-core
 
 # NOTE: There's a proposal to use the same technique for kwebkitpart. If it's
 # approved the following rule will apply, if it's not applies then the
