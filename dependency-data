@@ -47,6 +47,7 @@ kdesupport/strigi/strigiutils: kdesupport/strigi/libstreamanalyzer
 kdesupport/strigi/libstreamanalyzer: kdesupport/strigi/libstreams
 kdesupport/strigi/strigidaemon: kdesupport/strigi/strigiutils
 kdesupport/strigi/strigiclient: kdesupport/strigi/strigiutils
+kdesupport/strigi/strigiclient: kdesupport/strigi/strigidaemon
 
 # Phonon backends are dependent upon phonon itself.
 kdesupport/phonon/phonon-directshow: kdesupport/phonon/phonon
