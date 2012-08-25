@@ -83,6 +83,7 @@ kde/kdeplasma-addons: kde/kde-workspace
 # kdepim*
 kde/kdepimlibs: kde/kdelibs
 kde/kdepimlibs: kdesupport/akonadi
+kde/kdepimlibs: kdesupport/prison
 kde/kdepimlibs[frameworks]: Qt5
 kde/kdepimlibs[frameworks]: -Qt
 kde/kdepim: kde/kdepimlibs
