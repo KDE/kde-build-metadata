@@ -143,6 +143,7 @@ kde/kdebindings/smoke/smokeqt: kde/kdebindings/smoke/smokegen
 kde/kdebindings/smoke/smokekde: kde/kdebindings/smoke/smokeqt
 kde/kdebindings/perl/perlqt: kde/kdebindings/smoke/smokeqt
 kde/kdebindings/ruby/qtruby: kde/kdebindings/smoke/smokeqt
+kde/kdebindings/csharp/qyoto: kde/kdebindings/smoke/smokeqt
 
 # extragear/graphics
 extragear/graphics/digikam: extragear/graphics/libs/libkgeomap
