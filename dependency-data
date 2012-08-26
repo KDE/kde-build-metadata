@@ -112,7 +112,7 @@ kde/kdeedu/kalgebra: kde/kdeedu/analitza
 kde/kdeedu/kanagram: kde/kdeedu/libkdeedu
 kde/kdeedu/khangman: kde/kdeedu/libkdeedu
 kde/kdeedu/kwordquiz: kde/kdeedu/libkdeedu
-kde/kdeedu/parley: kde/kdeedu/parley
+kde/kdeedu/parley: kde/kdeedu/libkdeedu
 
 # kdesupport
 kdesupport/akonadi: kdesupport/soprano
