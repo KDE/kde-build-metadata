@@ -109,6 +109,7 @@ kde/kdemultimedia/audiocd-kio: kde/kdemultimedia/libkcompactdisc
 # kdeedu
 kde/kdeedu/cantor: kde/kdeedu/analitza
 kde/kdeedu/kalgebra: kde/kdeedu/analitza
+kde/kdeedu/kanagram: kde/kdeedu/libkdeedu
 
 # kdesupport
 kdesupport/akonadi: kdesupport/soprano
