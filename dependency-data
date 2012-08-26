@@ -31,7 +31,7 @@ kde/kde-workspace: kdesupport/akonadi[master]
 kde/kde-workspace: kdesupport/prison[master]
 kde/kde-workspace: kde/kdepimlibs
 kde/kde-workspace: kde/kdelibs/kactivities
-kde/kde-workspace: kdesupport/strigi/libstreams
+kde/kde-workspace: kdesupport/strigi/libstreams[master]
 
 # KDE Runtime
 kde/kde-runtime: kdesupport/strigi/libstreams[master]
