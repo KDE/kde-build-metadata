@@ -118,6 +118,9 @@ kde/kdeedu/khangman: kde/kdeedu/libkdeedu
 kde/kdeedu/kwordquiz: kde/kdeedu/libkdeedu
 kde/kdeedu/parley: kde/kdeedu/libkdeedu
 
+# kdeutils
+kde/kdeutils/ark: kde/kde-baseapps
+
 # kdesupport
 kdesupport/akonadi: kdesupport/soprano
 
