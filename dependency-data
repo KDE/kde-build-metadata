@@ -129,6 +129,9 @@ kde/kdeedu/parley: kde/kdeedu/libkdeedu
 kde/kdeutils/ark: kde/kde-baseapps
 kde/kdeutils/kgpg: kde/kdepimlibs
 
+# kdeexamples
+kde/kdeexamples: kde/kdelibs/nepomuk-core
+
 # kdesupport
 kdesupport/akonadi: kdesupport/soprano
 
