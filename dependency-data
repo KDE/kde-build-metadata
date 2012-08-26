@@ -87,6 +87,8 @@ kde/kde-baseapps/kwebkitpart: kde/kde-baseapps
 # Allow addons to build after these.
 kde/kdeplasma-addons: kde/kde-baseapps
 kde/kdeplasma-addons: kde/kde-workspace
+kde/kdeplasma-addons: kde/kdegraphics/libkexiv2
+kde/kdeplasma-addons: kde/kdeedu/marble
 
 # kdepim*
 kde/kdepimlibs: kde/kdelibs
