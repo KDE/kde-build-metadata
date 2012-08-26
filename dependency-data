@@ -27,6 +27,9 @@ kde/kdelibs: kdesupport/soprano[master]
 
 # KDE Workspace
 # kactivities is a separate library now, or something like that.
+kde/kde-workspace: kdesupport/akonadi
+kde/kde-workspace: kdesupport/prison
+kde/kde-workspace: kde/kdepimlibs
 kde/kde-workspace: kde/kdelibs/kactivities
 kde/kde-workspace: kdesupport/strigi/libstreams
 
@@ -92,6 +95,7 @@ kde/kdepimlibs: kdesupport/prison
 kde/kdepimlibs[frameworks]: Qt5
 kde/kdepimlibs[frameworks]: -Qt
 kde/kdepim: kde/kdepimlibs
+kde/kdepim: kde/kdelibs/nepomuk-core
 kde/kdepim-runtime: kde/kdepim
 
 # kdegraphics
