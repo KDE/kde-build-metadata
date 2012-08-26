@@ -120,6 +120,7 @@ kde/kdeedu/parley: kde/kdeedu/libkdeedu
 
 # kdeutils
 kde/kdeutils/ark: kde/kde-baseapps
+kde/kdeutils/kgpg: kde/kdepimlibs
 
 # kdesupport
 kdesupport/akonadi: kdesupport/soprano
