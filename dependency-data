@@ -134,6 +134,8 @@ kde/kdeexamples: kde/kdelibs/nepomuk-core
 
 # kdesupport
 kdesupport/akonadi: kdesupport/soprano
+libkolab: kde/kdelibs[master]
+libkolab: kde/kdepimlibs[master]
 
 # extragear/graphics
 extragear/graphics/digikam: extragear/graphics/libs/libkgeomap
