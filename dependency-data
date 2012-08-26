@@ -141,6 +141,7 @@ libkolab: kde/kdepimlibs[master]
 # kdebindings
 kde/kdebindings/smoke/smokeqt: kde/kdebindings/smoke/smokegen
 kde/kdebindings/smoke/smokekde: kde/kdebindings/smoke/smokeqt
+kde/kdebindings/perl/perlqt: kde/kdebindings/smoke/smokeqt
 
 # extragear/graphics
 extragear/graphics/digikam: extragear/graphics/libs/libkgeomap
