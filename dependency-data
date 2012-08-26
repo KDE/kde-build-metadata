@@ -138,6 +138,9 @@ kdesupport/akonadi: kdesupport/soprano[master]
 libkolab: kde/kdelibs[master]
 libkolab: kde/kdepimlibs[master]
 
+# kdebindings
+kde/kdebindings/smoke/smokeqt: kde/kdebindings/smoke/smokegen
+
 # extragear/graphics
 extragear/graphics/digikam: extragear/graphics/libs/libkgeomap
 extragear/graphics/digikam: extragear/graphics/libs/libkface
