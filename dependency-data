@@ -120,6 +120,7 @@ kde/kdemultimedia/audiocd-kio: kde/kdemultimedia/libkcompactdisc
 # kdeedu
 kde/kdeedu/cantor: kde/kdeedu/analitza
 kde/kdeedu/kalgebra: kde/kdeedu/analitza
+kde/kdeedu/kalgebra: kde/kdeedi/libkdeedu
 kde/kdeedu/kanagram: kde/kdeedu/libkdeedu
 kde/kdeedu/khangman: kde/kdeedu/libkdeedu
 kde/kdeedu/kwordquiz: kde/kdeedu/libkdeedu
