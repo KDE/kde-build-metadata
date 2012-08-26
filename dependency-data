@@ -73,6 +73,9 @@ kde/kdelibs/kactivities: kdesupport/soprano
 kde/kdelibs/kactivities: kde/kdelibs/nepomuk-core
 kde/kdelibs/nepomuk-widgets: kde/kdelibs/nepomuk-core
 
+# kde-baseapps
+kde/kde-baseapps: kde/kdelibs/kactivities
+
 # NOTE: There's a proposal to use the same technique for kwebkitpart. If it's
 # approved the following rule will apply, if it's not applies then the
 # following rule will be baggage but not otherwise harmful.
@@ -95,6 +98,7 @@ kde/kdepim-runtime: kde/kdepim
 kde/kdegraphics/ksaneplugin: kde/kdegraphics/libs/libksane
 kde/kdegraphics/kdegraphics-thumbnailers: kde/kdegraphics/libs/libkexiv2
 kde/kdegraphics/kdegraphics-thumbnailers: kde/kdegraphics/libs/libkdcraw
+kde/kdegraphics/gwenview: kde/kde-baseapps
 kde/kdegraphics/gwenview: kde/kdegraphics/libs/libkexiv2
 kde/kdegraphics/gwenview: kde/kdegraphics/libs/libkipi
 kde/kdegraphics/ksnapshot: kde/kdegraphics/libs/libkipi
