@@ -98,12 +98,16 @@ kde/kdegraphics/kdegraphics-thumbnailers: kde/kdegraphics/libs/libkdcraw
 kde/kdegraphics/gwenview: kde/kdegraphics/libs/libkexiv2
 kde/kdegraphics/gwenview: kde/kdegraphics/libs/libkipi
 kde/kdegraphics/ksnapshot: kde/kdegraphics/libs/libkipi
+kde/kdegraphics/kdegraphics-mobipocket: kde/kdegraphics/okular
 
 # kdemultimedia
 kde/kdemultimedia/kscd: kde/kdemultimedia/libkcddb
 kde/kdemultimedia/kscd: kde/kdemultimedia/libkcompactdisc
 kde/kdemultimedia/audiocd-kio: kde/kdemultimedia/libkcddb
 kde/kdemultimedia/audiocd-kio: kde/kdemultimedia/libkcompactdisc
+
+# kdeedu
+kde/kdeedu/cantor: kde/kdeedu/analitza
 
 # kdesupport
 kdesupport/akonadi: kdesupport/soprano
