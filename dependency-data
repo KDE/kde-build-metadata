@@ -111,6 +111,7 @@ kde/kdeedu/cantor: kde/kdeedu/analitza
 kde/kdeedu/kalgebra: kde/kdeedu/analitza
 kde/kdeedu/kanagram: kde/kdeedu/libkdeedu
 kde/kdeedu/khangman: kde/kdeedu/libkdeedu
+kde/kdeedu/kwordquiz: kde/kdeedi/libkdeedu
 
 # kdesupport
 kdesupport/akonadi: kdesupport/soprano
