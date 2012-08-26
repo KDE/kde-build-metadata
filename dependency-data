@@ -97,6 +97,7 @@ kde/kdepimlibs[frameworks]: -Qt
 kde/kdepim: kde/kdepimlibs
 kde/kdepim: kde/kdelibs/nepomuk-core
 kde/kdepim-runtime: kde/kdepim
+kde/kdepim-runtime: kdesupport/akonadi
 
 # kdegraphics
 kde/kdegraphics/ksaneplugin: kde/kdegraphics/libs/libksane
