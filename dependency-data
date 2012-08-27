@@ -98,6 +98,7 @@ kde/kdepimlibs[frameworks]: Qt5
 kde/kdepimlibs[frameworks]: -Qt
 kde/kdepim: kde/kdepimlibs
 kde/kdepim: kde/kdelibs/nepomuk-core
+kde/kdepim[master]: kde/kdelibs/nepomuk-widgets
 kde/kdepim-runtime: kde/kdepim
 kde/kdepim-runtime: kdesupport/akonadi[master]
 
