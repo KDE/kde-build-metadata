@@ -148,6 +148,12 @@ kde/kdebindings/ruby/korundum: kde/kdebindings/smoke/smokekde
 kde/kdebindings/csharp/qyoto: kde/kdebindings/smoke/smokeqt
 kde/kdebindings/csharp/kimono: kde/kdebindings/smoke/smokekde
 
+# extragear/network
+extragear/network/konversation: kde/kdelibs
+
+# extragear/multimedia
+extragear/multimedia/amarok: kde/kdelibs
+
 # extragear/graphics
 extragear/graphics/digikam: extragear/graphics/libs/libkgeomap
 extragear/graphics/digikam: extragear/graphics/libs/libkface
