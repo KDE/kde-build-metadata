@@ -150,6 +150,7 @@ kde/kdebindings/csharp/kimono: kde/kdebindings/smoke/smokekde
 
 # extragear/network
 extragear/network/konversation: kde/kdelibs
+extragear/network/konversation: kde/kdepimlibs
 
 # extragear/multimedia
 extragear/multimedia/amarok: kde/kdelibs
