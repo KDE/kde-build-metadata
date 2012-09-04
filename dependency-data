@@ -160,3 +160,11 @@ extragear/multimedia/amarok: kde/kdelibs
 # extragear/graphics
 extragear/graphics/digikam: extragear/graphics/libs/libkgeomap
 extragear/graphics/digikam: extragear/graphics/libs/libkface
+
+# office suites
+calligra: kde/kdelibs
+calligra: kde/kdepimlibs
+calligra: kde/kdeedu/marble
+calligra: kde/kdegraphics/libs/libkdcraw
+calligra: kde/kdegraphics/okular
+calligra: kdesupport/soprano[master]
