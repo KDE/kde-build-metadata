@@ -197,6 +197,12 @@ kde/kdebindings/ruby/korundum: kde/kdebindings/smoke/smokekde
 kde/kdebindings/csharp/qyoto: kde/kdebindings/smoke/smokeqt
 kde/kdebindings/csharp/kimono: kde/kdebindings/smoke/smokekde
 
+# extragear/base
+extragear/base/plasma-mobile: kde/kdelibs
+extragear/base/plasma-mobile: kde/kdepimlibs
+extragear/base/plasma-mobile: kde/kdelibs/kactivities
+extragear/base/plasma-mobile: kdesupport/soprano[master]
+
 # extragear/network
 extragear/network/konversation: kde/kdelibs
 extragear/network/konversation: kde/kdepimlibs
