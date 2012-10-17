@@ -205,6 +205,9 @@ extragear/base/plasma-mobile: kde/kdelibs/kactivities
 extragear/base/plasma-mobile: kdesupport/soprano[master]
 extragear/base/plasma-mobile: kde/kde-workspace
 
+# extragear/kdevelop
+extragear/kdevelop/kdevplatform: kde/kdelibs
+
 # extragear/network
 extragear/network/konversation: kde/kdelibs
 extragear/network/konversation: kde/kdepimlibs
