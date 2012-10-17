@@ -158,6 +158,7 @@ kde/kdegraphics/gwenview: kde/kde-baseapps
 kde/kdegraphics/gwenview: kde/kdegraphics/libs/libkexiv2
 kde/kdegraphics/gwenview: kde/kdegraphics/libs/libkipi
 kde/kdegraphics/ksnapshot: kde/kdegraphics/libs/libkipi
+kde/kdegraphics/okular: extragear/base/plasma-mobile
 kde/kdegraphics/kdegraphics-mobipocket: kde/kdegraphics/okular
 
 # kdemultimedia
