@@ -40,9 +40,6 @@ kde/kde-runtime: kde/kdelibs/kactivities
 kde/kde-runtime: kdesupport/attica[master]
 kde/kde-runtime: kde/kdepimlibs
 
-# KDevelop dependencies
-extragear/kdevelop/kdevelop: extragear/kdevelop/kdevplatform
-
 # Several Strigi modules are inter-dependent.
 # Also the kdesupport/strigi/strigi module mustn't be built along with these
 # 5, that is handled by the build-script-ignore metadata in this repo.
@@ -205,8 +202,16 @@ extragear/base/plasma-mobile: kde/kdelibs/kactivities
 extragear/base/plasma-mobile: kdesupport/soprano[master]
 extragear/base/plasma-mobile: kde/kde-workspace
 
-# extragear/kdevelop
+# KDevelop
 extragear/kdevelop/kdevplatform: kde/kdelibs
+extragear/kdevelop/kdevelop: extragear/kdevelop/kdevplatform
+extragear/kdevelop/utilities/kdevelop-pg-qt: extragear/kdevelop/kdevplatform
+extragear/kdevelop/plugins/kdev-php: extragear/kdevelop/utilities/kdevelop-pg-qt
+extragear/kdevelop/plugins/kdev-php-docs: extragear/kdevelop/kdevplatform
+extragear/kdevelop/plugins/kdev-custom-buildsystem: extragear/kdevelop/kdevplatform
+playground/devtools/plugins/kdev-qmake: extragear/kdevelop/kdevelop
+playground/devtools/plugins/kdev-qmake: extragear/kdevelop/utilities/kdevelop-pg-qt
+playground/devtools/plugins/kdev-ruby: extragear/kdevelop/kdevplatform
 
 # extragear/network
 extragear/network/konversation: kde/kdelibs
