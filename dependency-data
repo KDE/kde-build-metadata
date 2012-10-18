@@ -203,15 +203,15 @@ extragear/base/plasma-mobile: kdesupport/soprano[master]
 extragear/base/plasma-mobile: kde/kde-workspace
 
 # KDevelop
-extragear/kdevelop/kdevplatform: kde/kdelibs
+extragear/kdevelop/*: kde/kdelibs
+extragear/kdevelop/*: kde/kde-baseapps/kate
+extragear/kdevelop/*: kde/kde-baseapps/konsole
 extragear/kdevelop/kdevelop: extragear/kdevelop/kdevplatform
+extragear/kdevelop/kdevelop: kde/kde-workspace
 extragear/kdevelop/utilities/kdevelop-pg-qt: extragear/kdevelop/kdevplatform
 extragear/kdevelop/plugins/kdev-php: extragear/kdevelop/utilities/kdevelop-pg-qt
 extragear/kdevelop/plugins/kdev-php-docs: extragear/kdevelop/kdevplatform
 extragear/kdevelop/plugins/kdev-custom-buildsystem: extragear/kdevelop/kdevplatform
-playground/devtools/plugins/kdev-qmake: extragear/kdevelop/kdevelop
-playground/devtools/plugins/kdev-qmake: extragear/kdevelop/utilities/kdevelop-pg-qt
-playground/devtools/plugins/kdev-ruby: extragear/kdevelop/kdevplatform
 
 # extragear/network
 extragear/network/konversation: kde/kdelibs
@@ -231,3 +231,10 @@ calligra: kde/kdeedu/marble
 calligra: kde/kdegraphics/libs/libkdcraw
 calligra: kde/kdegraphics/okular
 calligra: kdesupport/soprano[master]
+
+# Playground KDevelop
+playground/devtools/*: kde/kdelibs
+playground/devtools/*: kde/kde-baseapps/kate
+playground/devtools/plugins/kdev-qmake: extragear/kdevelop/kdevelop
+playground/devtools/plugins/kdev-qmake: extragear/kdevelop/utilities/kdevelop-pg-qt
+playground/devtools/plugins/kdev-ruby: extragear/kdevelop/kdevplatform
