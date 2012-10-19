@@ -238,3 +238,4 @@ playground/devtools/*: kde/kde-baseapps/kate
 playground/devtools/plugins/kdev-qmake: extragear/kdevelop/kdevelop
 playground/devtools/plugins/kdev-qmake: extragear/kdevelop/utilities/kdevelop-pg-qt
 playground/devtools/plugins/kdev-ruby: extragear/kdevelop/kdevplatform
+playground/devtools/plugins/kdev-python: extragear/kdevelop/kdevplatform
