@@ -206,7 +206,8 @@ extragear/base/plasma-mobile: kde/kde-workspace
 extragear/kdevelop/*: kde/kdelibs
 extragear/kdevelop/*: kde/kde-baseapps/kate
 extragear/kdevelop/*: kde/kde-baseapps/konsole
-extragear/kdevelop/kdevelop: extragear/kdevelop/kdevplatform
+extragear/kdevelop/kdevelop[master]: extragear/kdevelop/kdevplatform[master]
+extragear/kdevelop/kdevelop[4.4]: extragear/kdevelop/kdevplatform[1.4]
 extragear/kdevelop/kdevelop: kde/kde-workspace
 extragear/kdevelop/utilities/kdevelop-pg-qt: extragear/kdevelop/kdevplatform
 extragear/kdevelop/plugins/kdev-php: extragear/kdevelop/utilities/kdevelop-pg-qt
