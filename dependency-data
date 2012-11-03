@@ -227,6 +227,7 @@ extragear/graphics/digikam: extragear/graphics/libs/libkface
 
 # office suites
 calligra: kde/kdelibs
+calligra: kde/kdelibs/kactivities
 calligra: kde/kdepimlibs
 calligra: kde/kdeedu/marble
 calligra: kde/kdegraphics/libs/libkdcraw
