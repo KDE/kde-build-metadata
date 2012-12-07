@@ -195,6 +195,14 @@ kde/kdebindings/ruby/korundum: kde/kdebindings/smoke/smokekde
 kde/kdebindings/csharp/qyoto: kde/kdebindings/smoke/smokeqt
 kde/kdebindings/csharp/kimono: kde/kdebindings/smoke/smokekde
 
+# extragear/libs
+extragear/libs/libkface: kde/kdelibs
+extragear/libs/libkgeomap: kde/kdelibs
+extragear/libs/libkgeomap: kde/kdeedu/marble
+extragear/libs/libkgeomap: kde/kdegraphics/libs/libkexiv2
+extragear/libs/libmediawiki: kde/kdelibs
+extragear/libs/libkvkontakte: kde/kdelibs
+
 # extragear/base
 extragear/base/plasma-mobile: kde/kdelibs
 extragear/base/plasma-mobile: kde/kdepimlibs
@@ -222,8 +230,33 @@ extragear/network/konversation: kde/kdepimlibs
 extragear/multimedia/amarok: kde/kdelibs
 
 # extragear/graphics
-extragear/graphics/digikam: extragear/graphics/libs/libkgeomap
-extragear/graphics/digikam: extragear/graphics/libs/libkface
+extragear/graphics/kipi-plugins: kde/kdelibs
+extragear/graphics/kipi-plugins: kde/kdepimlibs
+extragear/graphics/kipi-plugins: kde/kdegraphics/libs/libksane
+extragear/graphics/kipi-plugins: kde/kdegraphics/libs/libkipi
+extragear/graphics/kipi-plugins: kde/kdegraphics/libs/libkexiv2
+extragear/graphics/kipi-plugins: kde/kdegraphics/libs/libkdcraw
+extragear/graphics/kipi-plugins: extragear/libs/libkgeomap
+extragear/graphics/kipi-plugins: extragear/libs/libkface
+extragear/graphics/kipi-plugins: extragear/libs/libkvkontakte
+extragear/graphics/kipi-plugins: extragear/libs/libmediawiki
+extragear/graphics/digikam: kde/kdelibs
+extragear/graphics/digikam: kde/kdepimlibs
+extragear/graphics/digikam: extragear/libs/libkgeomap
+extragear/graphics/digikam: extragear/libs/libkface
+extragear/graphics/digikam: kde/kdegraphics/libs/libkipi
+extragear/graphics/digikam: kde/kdegraphics/libs/libkexiv2
+extragear/graphics/digikam: kde/kdegraphics/libs/libkdcraw
+
+# extragear/utils
+extragear/utils/krusader: kde/kdelibs
+extragear/utils/krusader: kde/kde-baseapps
+
+# extragear/office
+extragear/office/tellico: kde/kdelibs
+extragear/office/tellico: kde/kdepimlibs
+extragear/office/tellico: kde/kdemultimedia/libkcddb
+extragear/office/tellico: kde/kdegraphics/libs/libksane
 
 # office suites
 calligra: kde/kdelibs
