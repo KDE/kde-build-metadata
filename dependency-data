@@ -92,6 +92,7 @@ kde/kdeplasma-addons: kde/kdeedu/marble
 kde/kdepimlibs: kde/kdelibs
 kde/kdepimlibs: kdesupport/akonadi[master]
 kde/kdepimlibs: kdesupport/prison[master]
+kde/kdepimlibs: kde/kdelibs/nepomuk-core
 kde/kdepimlibs[frameworks]: Qt5
 kde/kdepimlibs[frameworks]: -Qt
 kde/kdepim: kde/kdepimlibs
