@@ -83,6 +83,7 @@ kde/kde-baseapps: kde/kdelibs/kactivities
 kde/kde-baseapps/kwebkitpart: kde/kde-baseapps
 
 # Allow addons to build after these.
+kde/kdeplasma-addons: kde/kdelibs/nepomuk-core
 kde/kdeplasma-addons: kde/kde-baseapps
 kde/kdeplasma-addons: kde/kde-workspace
 kde/kdeplasma-addons: kde/kdegraphics/libs/libkexiv2
