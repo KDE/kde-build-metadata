@@ -267,6 +267,7 @@ extragear/office/tellico: kde/kdegraphics/libs/libksane
 extragear/office/kmymoney: kde/kdelibs
 extragear/office/kmymoney: extragear/office/alkimia
 extragear/office/kmymoney: kde/kdepimlibs
+extragear/office/kmymoney: kde/kdelibs/kactivities
 extragear/office/skrooge: kde/kdelibs
 extragear/office/skrooge: kde/kdepimlibs
 extragear/office/skrooge: kde/kdelibs/kactivities
