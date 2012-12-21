@@ -250,6 +250,7 @@ extragear/graphics/digikam: extragear/libs/libkface
 extragear/graphics/digikam: kde/kdegraphics/libs/libkipi
 extragear/graphics/digikam: kde/kdegraphics/libs/libkexiv2
 extragear/graphics/digikam: kde/kdegraphics/libs/libkdcraw
+extragear/graphics/kphotoalbum: kde/kdelibs
 extragear/graphics/kphotoalbum: kde/kdegraphics/libs/libkipi
 extragear/graphics/kphotoalbum: kde/kdegraphics/libs/libkdcraw
 extragear/graphics/kphotoalbum: kde/kdeedu/marble
@@ -263,12 +264,15 @@ extragear/office/tellico: kde/kdelibs
 extragear/office/tellico: kde/kdepimlibs
 extragear/office/tellico: kde/kdemultimedia/libkcddb
 extragear/office/tellico: kde/kdegraphics/libs/libksane
+extragear/office/kmymoney: kde/kdelibs
 extragear/office/kmymoney: extragear/office/alkimia
 extragear/office/kmymoney: kde/kdepimlibs
+extragear/office/skrooge: kde/kdelibs
 extragear/office/skrooge: kde/kdepimlibs
 extragear/office/skrooge: kde/kdelibs/kactivities
 
 # extragear/accessibility
+extragear/accessibility/simon: kde/kdelibs
 extragear/accessibility/simon: kde/kdepimlibs
 
 # office suites
