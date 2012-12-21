@@ -270,6 +270,7 @@ extragear/office/kmymoney: kde/kdepimlibs
 extragear/office/skrooge: kde/kdelibs
 extragear/office/skrooge: kde/kdepimlibs
 extragear/office/skrooge: kde/kdelibs/kactivities
+extragear/office/alkimia: kde/kdelibs
 
 # extragear/accessibility
 extragear/accessibility/simon: kde/kdelibs
