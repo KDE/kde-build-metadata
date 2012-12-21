@@ -228,6 +228,10 @@ extragear/kdevelop/plugins/kdev-custom-buildsystem: extragear/kdevelop/kdevplatf
 # extragear/network
 extragear/network/konversation: kde/kdelibs
 extragear/network/konversation: kde/kdepimlibs
+extragear/network/libktorrent: kde/kdelibs
+extragear/network/ktorrent: kde/kdelibs
+extragear/network/ktorrent: extragear/network/libktorrent
+extragear/network/ktorrent: kde/kdepimlibs
 
 # extragear/multimedia
 extragear/multimedia/amarok: kde/kdelibs
