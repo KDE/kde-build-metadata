@@ -235,6 +235,7 @@ extragear/network/ktorrent: kde/kdepimlibs
 
 # extragear/multimedia
 extragear/multimedia/amarok: kde/kdelibs
+extragear/multimedia/amarok: kde/kdelibs/nepomuk-core
 
 # extragear/graphics
 extragear/graphics/kipi-plugins: kde/kdelibs
