@@ -17,6 +17,10 @@ kde/*: kde/kdelibs
 *: Qt
 *: kdesupport/automoc[master]
 
+# Clean Qt5
+Qt5: -Qt
+Qt5: -kdesupport/automoc[master]
+
 kde/kdelibs[frameworks]: Qt5[stable]
 kde/kdelibs[frameworks]: kdesupport/phonon/phonon[five]
 kde/kdelibs[frameworks]: -Qt
@@ -60,6 +64,7 @@ kdesupport/strigi/strigiclient: kdesupport/strigi/strigidaemon
 
 # Phonon[five] wants Qt5
 kdesupport/phonon/phonon[five]: Qt5[stable]
+kdesupport/phonon/phonon[five]: kdesupport/extra-cmake-modules[master]
 kdesupport/phonon/phonon[five]: -Qt
 kdesupport/phonon/phonon[five]: -kdesupport/automoc[master]
 
