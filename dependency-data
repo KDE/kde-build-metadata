@@ -17,8 +17,15 @@ kde/*: kde/kdelibs
 *: Qt
 *: kdesupport/automoc[master]
 
-#kde/kdelibs[frameworks]: Qt5
-#kde/kdelibs[frameworks]: -Qt
+kde/kdelibs[frameworks]: Qt5
+kde/kdelibs[frameworks]: kdesupport/phonon/phonon[five]
+kde/kdelibs[frameworks]: -Qt
+kde/kdelibs[frameworks]: -kdesupport/attica[master]
+kde/kdelibs[frameworks]: -kdesupport/phonon/phonon[master]
+kde/kdelibs[frameworks]: -kdesupport/strigi/strigi[master]
+kde/kdelibs[frameworks]: -kdesupport/polkit-qt-1[master]
+kde/kdelibs[frameworks]: -kdesupport/soprano[master]
+
 kde/kdelibs: kdesupport/attica[master]
 kde/kdelibs: kdesupport/phonon/phonon[master]
 kde/kdelibs: kdesupport/strigi/strigi[master]
@@ -49,6 +56,10 @@ kdesupport/strigi/libstreamanalyzer: kdesupport/strigi/libstreams
 kdesupport/strigi/strigidaemon: kdesupport/strigi/strigiutils
 kdesupport/strigi/strigiclient: kdesupport/strigi/strigiutils
 kdesupport/strigi/strigiclient: kdesupport/strigi/strigidaemon
+
+# Phonon[five] wants Qt5
+kdesupport/phonon/phonon[five]: Qt5
+kdesupport/phonon/phonon[five]: -Qt
 
 # Phonon backends are dependent upon phonon itself.
 kdesupport/phonon/phonon-directshow: kdesupport/phonon/phonon
