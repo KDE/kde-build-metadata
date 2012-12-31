@@ -25,9 +25,7 @@ kde/kdelibs[frameworks]: Qt5[stable]
 kde/kdelibs[frameworks]: kdesupport/phonon/phonon[five]
 kde/kdelibs[frameworks]: -Qt
 kde/kdelibs[frameworks]: -kdesupport/automoc[master]
-kde/kdelibs[frameworks]: -kdesupport/attica[master]
 kde/kdelibs[frameworks]: -kdesupport/phonon/phonon[master]
-kde/kdelibs[frameworks]: -kdesupport/strigi/strigi[master]
 kde/kdelibs[frameworks]: -kdesupport/polkit-qt-1[master]
 kde/kdelibs[frameworks]: -kdesupport/soprano[master]
 
