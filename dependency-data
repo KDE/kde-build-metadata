@@ -96,6 +96,7 @@ kde/kdelibs/nepomuk-widgets: kde/kdelibs/nepomuk-core
 
 # kde-baseapps
 kde/kde-baseapps: kde/kdelibs/kactivities
+kde/kde-baseapps: kde/kdelibs/nepomuk-widgets
 
 # NOTE: There's a proposal to use the same technique for kwebkitpart. If it's
 # approved the following rule will apply, if it's not applies then the
