@@ -17,10 +17,6 @@ kde/*: kde/kdelibs
 *: Qt
 *: kdesupport/automoc[master]
 
-# Clean Qt5
-Qt5: -Qt
-Qt5: -kdesupport/automoc[master]
-
 kde/kdelibs[frameworks]: Qt5[stable]
 kde/kdelibs[frameworks]: kdesupport/phonon/phonon[five]
 kde/kdelibs[frameworks]: -Qt
@@ -36,7 +32,6 @@ kde/kdelibs: kdesupport/strigi/libstreamanalyzer[master]
 kde/kdelibs: kdesupport/strigi/strigiclient[master]
 kde/kdelibs: kdesupport/polkit-qt-1[master]
 kde/kdelibs: kdesupport/soprano[master]
-kde/kdelibs: kdesupport/extra-cmake-modules[master]
 
 # KDE Workspace
 # kactivities is a separate library now, or something like that.
@@ -64,7 +59,6 @@ kdesupport/strigi/strigiclient: kdesupport/strigi/strigidaemon
 
 # Phonon[five] wants Qt5
 kdesupport/phonon/phonon[five]: Qt5[stable]
-kdesupport/phonon/phonon[five]: kdesupport/extra-cmake-modules[master]
 kdesupport/phonon/phonon[five]: -Qt
 kdesupport/phonon/phonon[five]: -kdesupport/automoc[master]
 
@@ -77,10 +71,6 @@ kdesupport/phonon/phonon-quicktime: kdesupport/phonon/phonon
 kdesupport/phonon/phonon-vlc: kdesupport/phonon/phonon
 kdesupport/phonon/phonon-waveout: kdesupport/phonon/phonon
 kdesupport/phonon/phonon-xine: kdesupport/phonon/phonon
-
-# extra-cmake-modules shouldn't drag in Qt or automoc
-kdesupport/extra-cmake-modules[master]: -Qt
-kdesupport/extra-cmake-modules[master]: -kdesupport/automoc[master]
 
 # Konsole and Kate logically fall under kde-baseapps, but unlike other
 # virtual "containers", kde-baseapps is a *real* checkout and so must be built
