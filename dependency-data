@@ -210,6 +210,7 @@ kde/kdebindings/ruby/qtruby: kde/kdebindings/smoke/smokeqt
 kde/kdebindings/ruby/korundum: kde/kdebindings/smoke/smokekde
 kde/kdebindings/csharp/qyoto: kde/kdebindings/smoke/smokeqt
 kde/kdebindings/csharp/kimono: kde/kdebindings/smoke/smokekde
+kde/kdebindings/pykde4: kde/kdepimlibs
 
 # extragear/libs
 extragear/libs/libkface: kde/kdelibs
