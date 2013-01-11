@@ -219,6 +219,8 @@ extragear/libs/libkgeomap: kde/kdeedu/marble
 extragear/libs/libkgeomap: kde/kdegraphics/libs/libkexiv2
 extragear/libs/libmediawiki: kde/kdelibs
 extragear/libs/libkvkontakte: kde/kdelibs
+extragear/libs/libkfbapi: kde/kdelibs
+extragear/libs/libkfbapi: kde/kdepimlibs
 
 # extragear/base
 extragear/base/plasma-mobile: kde/kdelibs
