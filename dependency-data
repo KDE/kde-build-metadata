@@ -114,6 +114,8 @@ kde/kdepim: kde/kdelibs/nepomuk-core
 kde/kdepim: kde/kdelibs/nepomuk-widgets
 kde/kdepim-runtime: kde/kdepim
 kde/kdepim-runtime: kdesupport/akonadi[master]
+kde/kdepim-runtime: extragear/libs/libkfbapi
+kde/kdepim-runtime: extragear/libs/libkgapi
 
 # kdegames
 kde/kdegames/libkdegames: kde/kdelibs
