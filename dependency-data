@@ -314,6 +314,12 @@ calligra: kde/kdegraphics/libs/libkdcraw
 calligra: kde/kdegraphics/okular
 calligra: kdesupport/soprano[master]
 
+# Playground Libs
+playground/libs/libkscreen: kde/kdelibs
+
+# Playground Base
+playground/base/kscreen: playground/libs/libkscreen
+
 # Playground KDevelop
 playground/devtools/*: kde/kdelibs
 playground/devtools/*: kde/kde-baseapps/kate
