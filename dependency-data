@@ -305,6 +305,7 @@ extragear/office/kile: kde/kdegraphics/okular
 # extragear/accessibility
 extragear/accessibility/simon: kde/kdelibs
 extragear/accessibility/simon: kde/kdepimlibs
+extragear/accessibility/simon: kde/kde-workspace
 
 # office suites
 calligra: kde/kdelibs
