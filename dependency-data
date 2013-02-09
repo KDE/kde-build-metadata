@@ -198,6 +198,9 @@ kde/kdeutils/kgpg: kde/kdepimlibs
 # kdesdk
 kde/kdesdk/dolphin-plugins: kde/kde-baseapps
 
+# kdetoys
+kde/kdetoys/ktux: kde/kde-workspace
+
 # kdeexamples
 kde/kdeexamples: kde/kdelibs/nepomuk-core
 
