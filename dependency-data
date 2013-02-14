@@ -260,6 +260,7 @@ extragear/network/ktorrent: kde/kdelibs
 extragear/network/ktorrent: extragear/network/libktorrent
 extragear/network/ktorrent: kde/kdepimlibs
 extragear/network/ktorrent: kde/kde-workspace
+extragear/network/telepathy/*: kde/kdelibs
 
 # extragear/multimedia
 extragear/multimedia/amarok: kde/kdelibs
