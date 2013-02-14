@@ -261,6 +261,7 @@ extragear/network/ktorrent: extragear/network/libktorrent
 extragear/network/ktorrent: kde/kdepimlibs
 extragear/network/ktorrent: kde/kde-workspace
 extragear/network/telepathy/*: kde/kdelibs
+extragear/network/telepathy/ktp-common-internals: extragear/network/telepathy/telepathy-logger-qt
 
 # extragear/multimedia
 extragear/multimedia/amarok: kde/kdelibs
