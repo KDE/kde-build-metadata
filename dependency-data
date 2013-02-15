@@ -272,6 +272,7 @@ extragear/network/telepathy/ktp-contact-runner: extragear/network/telepathy/ktp-
 extragear/network/telepathy/ktp-desktop-applets: extragear/network/telepathy/ktp-common-internals
 extragear/network/telepathy/ktp-filetransfer-handler: extragear/network/telepathy/ktp-common-internals
 extragear/network/telepathy/ktp-kded-module: extragear/network/telepathy/ktp-common-internals
+extragear/network/telepathy/ktp-presence-applet: extragear/network/telepathy/ktp-common-internals
 extragear/network/telepathy/ktp-send-file: extragear/network/telepathy/ktp-common-internals
 extragear/network/telepathy/ktp-text-ui: extragear/network/telepathy/ktp-common-internals
 extragear/network/telepathy/ktp-text-ui: extragear/network/telepathy/telepathy-logger-qt[kde-telepathy-0.5]
