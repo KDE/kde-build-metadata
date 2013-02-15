@@ -261,9 +261,9 @@ extragear/network/ktorrent: extragear/network/libktorrent
 extragear/network/ktorrent: kde/kdepimlibs
 extragear/network/ktorrent: kde/kde-workspace
 extragear/network/telepathy/*: kde/kdelibs
-extragear/network/telepathy/ktp-common-internals: extragear/network/telepathy/telepathy-logger-qt[kde-telepathy-0.5]
+extragear/network/telepathy/ktp-common-internals: extragear/network/telepathy/telepathy-logger-qt
 extragear/network/telepathy/ktp-accounts-kcm: extragear/network/telepathy/ktp-common-internals
-extragear/network/telepathy/ktp-accounts-kcm: extragear/network/telepathy/telepathy-logger-qt[kde-telepathy-0.5]
+extragear/network/telepathy/ktp-accounts-kcm: extragear/network/telepathy/telepathy-logger-qt
 extragear/network/telepathy/ktp-approver: extragear/network/telepathy/ktp-common-internals
 extragear/network/telepathy/ktp-auth-handler: extragear/network/telepathy/ktp-common-internals
 extragear/network/telepathy/ktp-call-ui: extragear/network/telepathy/ktp-common-internals
@@ -275,7 +275,7 @@ extragear/network/telepathy/ktp-kded-module: extragear/network/telepathy/ktp-com
 extragear/network/telepathy/ktp-presence-applet: extragear/network/telepathy/ktp-common-internals
 extragear/network/telepathy/ktp-send-file: extragear/network/telepathy/ktp-common-internals
 extragear/network/telepathy/ktp-text-ui: extragear/network/telepathy/ktp-common-internals
-extragear/network/telepathy/ktp-text-ui: extragear/network/telepathy/telepathy-logger-qt[kde-telepathy-0.5]
+extragear/network/telepathy/ktp-text-ui: extragear/network/telepathy/telepathy-logger-qt
 
 
 # extragear/multimedia
