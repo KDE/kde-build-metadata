@@ -197,6 +197,8 @@ kde/kdeutils/kgpg: kde/kdepimlibs
 
 # kdesdk
 kde/kdesdk/dolphin-plugins: kde/kde-baseapps
+kde/kdesdk/kdesdk-strigi-analyzers: kdesupport/strigi/libstreams
+kde/kdesdk/kdesdk-strigi-analyzers: kdesupport/strigi/libstreamanalyzer
 
 # kdetoys
 kde/kdetoys/ktux: kde/kde-workspace
