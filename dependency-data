@@ -76,6 +76,7 @@ kde/kde-baseapps/konsole: kde/kde-baseapps
 
 # Make kde-baseapps depend on kate, needed for tests
 kde/kde-baseapps: kde/kde-baseapps/kate
+kde/kde-baseapps/kate: kde/kdelibs/kactivities
 
 # This is redundant as above, but might be useful for other scripts.
 kde/kdelibs/nepomuk-core: kde/kdelibs
