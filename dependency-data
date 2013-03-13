@@ -72,12 +72,6 @@ kdesupport/phonon/phonon-vlc: kdesupport/phonon/phonon
 kdesupport/phonon/phonon-waveout: kdesupport/phonon/phonon
 kdesupport/phonon/phonon-xine: kdesupport/phonon/phonon
 
-kde/kde-baseapps/konsole: kde/kde-baseapps
-
-# Make kde-baseapps depend on kate, needed for tests
-kde/kde-baseapps: kde/kde-baseapps/kate
-kde/kde-baseapps/kate: kde/kdelibs/kactivities
-
 # This is redundant as above, but might be useful for other scripts.
 kde/kdelibs/nepomuk-core: kde/kdelibs
 kde/kdelibs/kactivities: kdesupport/soprano[master]
@@ -85,17 +79,19 @@ kde/kdelibs/kactivities: kde/kdelibs/nepomuk-core
 kde/kdelibs/nepomuk-widgets: kde/kdelibs/nepomuk-core
 
 # kde-baseapps
-kde/kde-baseapps: kde/kdelibs/kactivities
-kde/kde-baseapps: kde/kdelibs/nepomuk-widgets
+kde/applications/kde-baseapps: kde/kdelibs/kactivities
+kde/applications/kde-baseapps: kde/kdelibs/nepomuk-widgets
+kde/applications/kde-baseapps: kde/applications/kate
 
-# NOTE: There's a proposal to use the same technique for kwebkitpart. If it's
-# approved the following rule will apply, if it's not applies then the
-# following rule will be baggage but not otherwise harmful.
-kde/kde-baseapps/kwebkitpart: kde/kde-baseapps
+# Kate needs KActivities
+kde/applications/kate: kde/kdelibs/kactivities
+
+# Konsole needs kde-baseapps (for libkonq)
+kde/applications/konsole: kde/applications/kde-baseapps
 
 # Allow addons to build after these.
 kde/kdeplasma-addons: kde/kdelibs/nepomuk-core
-kde/kdeplasma-addons: kde/kde-baseapps
+kde/kdeplasma-addons: kde/applications/kde-baseapps
 kde/kdeplasma-addons: kde/kde-workspace
 kde/kdeplasma-addons: kde/kdegraphics/libs/libkexiv2
 kde/kdeplasma-addons: kde/kdeedu/marble
@@ -168,7 +164,7 @@ kde/kdegraphics/ksaneplugin: kde/kdegraphics/libs/libksane
 kde/kdegraphics/kdegraphics-thumbnailers: kde/kdegraphics/libs/libkexiv2
 kde/kdegraphics/kdegraphics-thumbnailers: kde/kdegraphics/libs/libkdcraw
 kde/kdegraphics/gwenview: kde/kdelibs/nepomuk-core
-kde/kdegraphics/gwenview: kde/kde-baseapps
+kde/kdegraphics/gwenview: kde/applications/kde-baseapps
 kde/kdegraphics/gwenview: kde/kdegraphics/libs/libkexiv2
 kde/kdegraphics/gwenview: kde/kdegraphics/libs/libkipi
 kde/kdegraphics/ksnapshot: kde/kdegraphics/libs/libkipi
@@ -191,11 +187,11 @@ kde/kdeedu/kwordquiz: kde/kdeedu/libkdeedu
 kde/kdeedu/parley: kde/kdeedu/libkdeedu
 
 # kdeutils
-kde/kdeutils/ark: kde/kde-baseapps
+kde/kdeutils/ark: kde/applications/kde-baseapps
 kde/kdeutils/kgpg: kde/kdepimlibs
 
 # kdesdk
-kde/kdesdk/dolphin-plugins: kde/kde-baseapps
+kde/kdesdk/dolphin-plugins: kde/applications/kde-baseapps
 kde/kdesdk/kdesdk-strigi-analyzers: kdesupport/strigi/libstreams
 kde/kdesdk/kdesdk-strigi-analyzers: kdesupport/strigi/libstreamanalyzer
 
@@ -242,8 +238,8 @@ extragear/base/plasma-mobile: kde/kde-workspace
 
 # KDevelop
 extragear/kdevelop/*: kde/kdelibs
-extragear/kdevelop/*: kde/kde-baseapps/kate
-extragear/kdevelop/*: kde/kde-baseapps/konsole
+extragear/kdevelop/*: kde/applications/kate
+extragear/kdevelop/*: kde/applications/konsole
 extragear/kdevelop/kdevelop[master]: extragear/kdevelop/kdevplatform[master]
 extragear/kdevelop/kdevelop[4.4]: extragear/kdevelop/kdevplatform[1.4]
 extragear/kdevelop/kdevelop[4.5]: extragear/kdevelop/kdevplatform[1.5]
@@ -308,7 +304,7 @@ extragear/graphics/kphotoalbum: kde/kdeedu/marble
 
 # extragear/utils
 extragear/utils/krusader: kde/kdelibs
-extragear/utils/krusader: kde/kde-baseapps
+extragear/utils/krusader: kde/applications/kde-baseapps
 
 # extragear/office
 extragear/office/tellico: kde/kdelibs
@@ -349,7 +345,7 @@ playground/base/kscreen: playground/libs/libkscreen
 
 # Playground KDevelop
 playground/devtools/*: kde/kdelibs
-playground/devtools/*: kde/kde-baseapps/kate
+playground/devtools/*: kde/applications/kate
 playground/devtools/plugins/kdev-qmake: extragear/kdevelop/kdevelop
 playground/devtools/plugins/kdev-qmake: extragear/kdevelop/utilities/kdevelop-pg-qt
 playground/devtools/plugins/kdev-ruby: extragear/kdevelop/kdevplatform
