@@ -235,6 +235,10 @@ extragear/base/plasma-mobile: kde/kdepimlibs
 extragear/base/plasma-mobile: kde/kdelibs/kactivities
 extragear/base/plasma-mobile: kdesupport/soprano[master]
 extragear/base/plasma-mobile: kde/kde-workspace
+extragear/base/wacomtablet: kde/kdelibs
+extragear/base/networkmanagement: kde/kdelibs
+extragear/base/networkmanagement: extragear/libs/libnm-qt
+extragear/base/networkmanagement: extragear/libs/libmm-qt
 
 # KDevelop
 extragear/kdevelop/*: kde/kdelibs
@@ -273,6 +277,9 @@ extragear/network/telepathy/ktp-presence-applet: extragear/network/telepathy/ktp
 extragear/network/telepathy/ktp-send-file: extragear/network/telepathy/ktp-common-internals
 extragear/network/telepathy/ktp-text-ui: extragear/network/telepathy/ktp-common-internals
 extragear/network/telepathy/ktp-text-ui: extragear/network/telepathy/telepathy-logger-qt
+extragear/network/rekonq: kde/kdelibs
+extragear/network/rekonq: kde/kdelibs/nepomuk-core
+extragear/network/rekonq: kde/kdelibs/kactivities
 
 
 # extragear/multimedia
