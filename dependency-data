@@ -228,6 +228,7 @@ extragear/libs/libkfbapi: kde/kdelibs
 extragear/libs/libkfbapi: kde/kdepimlibs
 extragear/libs/libkgapi: kde/kdelibs
 extragear/libs/libkgapi: kde/kdepimlibs
+extragear/libs/libnm-qt: extragear/libs/libmm-qt
 
 # extragear/base
 extragear/base/plasma-mobile: kde/kdelibs
