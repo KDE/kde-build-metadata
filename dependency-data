@@ -240,6 +240,9 @@ extragear/base/wacomtablet: kde/kdelibs
 extragear/base/networkmanagement: kde/kdelibs
 extragear/base/networkmanagement: extragear/libs/libnm-qt
 extragear/base/networkmanagement: extragear/libs/libmm-qt
+extragear/base/bluedevil: kde/kdelibs
+extragear/base/bluedevil: playground/libs/libbluedevil
+extragear/base/kde-gtk-config: kde/kdelibs
 
 # KDevelop
 extragear/kdevelop/*: kde/kdelibs
@@ -286,6 +289,8 @@ extragear/network/rekonq: kde/kdelibs/kactivities
 # extragear/multimedia
 extragear/multimedia/amarok: kde/kdelibs
 extragear/multimedia/amarok: kde/kdelibs/nepomuk-core
+extragear/multimedia/k3b: kde/kdelibs
+extragear/multimedia/k3b: kde/kdemultimedia/libkcddb
 
 # extragear/graphics
 extragear/graphics/kipi-plugins: kde/kdelibs
@@ -309,6 +314,8 @@ extragear/graphics/kphotoalbum: kde/kdelibs
 extragear/graphics/kphotoalbum: kde/kdegraphics/libs/libkipi
 extragear/graphics/kphotoalbum: kde/kdegraphics/libs/libkdcraw
 extragear/graphics/kphotoalbum: kde/kdeedu/marble
+extragear/graphics/skanlite: kde/kdelibs
+extragear/graphics/skanlite: kde/kdegraphics/libs/libksane
 
 # extragear/utils
 extragear/utils/krusader: kde/kdelibs
