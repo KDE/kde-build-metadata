@@ -291,6 +291,9 @@ extragear/multimedia/amarok: kde/kdelibs
 extragear/multimedia/amarok: kde/kdelibs/nepomuk-core
 extragear/multimedia/k3b: kde/kdelibs
 extragear/multimedia/k3b: kde/kdemultimedia/libkcddb
+extragear/multimedia/plasma-mediacenter: kde/kdelibs
+extragear/multimedia/plasma-mediacenter: kde/kdelibs/nepomuk-core
+extragear/multimedia/plasma-mediacenter: kde/kde-workspace
 
 # extragear/graphics
 extragear/graphics/kipi-plugins: kde/kdelibs
