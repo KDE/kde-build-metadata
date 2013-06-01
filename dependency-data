@@ -252,6 +252,7 @@ extragear/kdevelop/kdevelop[master]: extragear/kdevelop/kdevplatform[master]
 extragear/kdevelop/kdevelop[4.4]: extragear/kdevelop/kdevplatform[1.4]
 extragear/kdevelop/kdevelop[4.5]: extragear/kdevelop/kdevplatform[1.5]
 extragear/kdevelop/kdevelop: kde/kde-workspace
+extragear/kdevelop/kdevelop: kde/kdesdk/okteta
 extragear/kdevelop/plugins/kdev-php: extragear/kdevelop/kdevplatform
 extragear/kdevelop/plugins/kdev-php: extragear/kdevelop/utilities/kdevelop-pg-qt
 extragear/kdevelop/plugins/kdev-php-docs: extragear/kdevelop/kdevplatform
