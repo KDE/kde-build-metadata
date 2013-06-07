@@ -202,6 +202,9 @@ kde/kdenetwork/kget: kde/kde-workspace
 kde/kdenetwork/kget: kde/kde-baseapps
 kde/kdenetwork/kget: extragear/network/libktorrent
 
+# kdeadmin
+kde/kdeadmin/kuser: kde/kdepimlibs
+
 # kdetoys
 kde/kdetoys/ktux: kde/kde-workspace
 
