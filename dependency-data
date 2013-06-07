@@ -195,6 +195,13 @@ kde/kdesdk/dolphin-plugins: kde/applications/kde-baseapps
 kde/kdesdk/kdesdk-strigi-analyzers: kdesupport/strigi/libstreams
 kde/kdesdk/kdesdk-strigi-analyzers: kdesupport/strigi/libstreamanalyzer
 
+# kdenetwork
+kde/kdenetwork/kopete: kde/kdepimlibs
+kde/kdenetwork/kget: kde/kdepimlibs
+kde/kdenetwork/kget: kde/kde-workspace
+kde/kdenetwork/kget: kde/kde-baseapps
+kde/kdenetwork/kget: extragear/network/libktorrent
+
 # kdetoys
 kde/kdetoys/ktux: kde/kde-workspace
 
