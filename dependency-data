@@ -219,6 +219,10 @@ libkolab: kde/kdepimlibs[master]
 # kdebindings
 kde/kdebindings/smoke/smokeqt: kde/kdebindings/smoke/smokegen
 kde/kdebindings/smoke/smokekde: kde/kdebindings/smoke/smokeqt
+kde/kdebindings/smoke/smokekde: kdesupport/akonadi[master]
+kde/kdebindings/smoke/smokekde: kde/kdepimlibs
+kde/kdebindings/smoke/smokekde: kde/kdegraphics/okular
+kde/kdebindings/smoke/smokekde: kde/applications/kate
 kde/kdebindings/perl/perlqt: kde/kdebindings/smoke/smokeqt
 kde/kdebindings/perl/perlkde: kde/kdebindings/smoke/smokekde
 kde/kdebindings/perl/perlkde: kde/kdebindings/perl/perlqt
