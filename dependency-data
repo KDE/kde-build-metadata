@@ -225,6 +225,9 @@ kde/kdebindings/perl/perlkde: kde/kdebindings/perl/perlqt
 kde/kdebindings/ruby/qtruby: kde/kdebindings/smoke/smokeqt
 kde/kdebindings/ruby/korundum: kde/kdebindings/smoke/smokekde
 kde/kdebindings/ruby/korundum: kde/kdebindings/ruby/qtruby
+kde/kdebindings/ruby/korundum: kde/kdegraphics/okular
+kde/kdebindings/ruby/korundum: kde/applications/kate
+kde/kdebindings/ruby/korundum: kdesupport/akonadi[master]
 kde/kdebindings/csharp/qyoto: kde/kdebindings/smoke/smokeqt
 kde/kdebindings/csharp/kimono: kde/kdebindings/smoke/smokekde
 kde/kdebindings/csharp/kimono: kde/kdebindings/csharp/qyoto
