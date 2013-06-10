@@ -221,6 +221,7 @@ kde/kdebindings/smoke/smokeqt: kde/kdebindings/smoke/smokegen
 kde/kdebindings/smoke/smokekde: kde/kdebindings/smoke/smokeqt
 kde/kdebindings/perl/perlqt: kde/kdebindings/smoke/smokeqt
 kde/kdebindings/perl/perlkde: kde/kdebindings/smoke/smokekde
+kde/kdebindings/perl/perlkde: kde/kdebindings/perl/perlqt
 kde/kdebindings/ruby/qtruby: kde/kdebindings/smoke/smokeqt
 kde/kdebindings/ruby/korundum: kde/kdebindings/smoke/smokekde
 kde/kdebindings/csharp/qyoto: kde/kdebindings/smoke/smokeqt
