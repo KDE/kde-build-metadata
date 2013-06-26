@@ -6,3 +6,6 @@ kde/kdemultimedia/strigi-multimedia
 
 # Convenience module for packagers, redundant with kipi-plugins, digikam, etc.
 extragear/graphics/digikam/digikam-software-compilation
+
+# Nothing to build? http://blogs.kde.org/2013/06/18/compiling-all-kde-sc-svngit
+extragear/network/bodega-webapp-client
