@@ -306,6 +306,7 @@ extragear/network/telepathy/ktp-text-ui: extragear/network/telepathy/telepathy-l
 extragear/network/rekonq: kde/kdelibs
 extragear/network/rekonq: kde/kdelibs/nepomuk-core
 extragear/network/rekonq: kde/kdelibs/kactivities
+extragear/network/choqok: kde/kdelibs
 
 
 # extragear/multimedia
@@ -368,6 +369,9 @@ extragear/office/kile: kde/kdegraphics/okular
 extragear/accessibility/simon: kde/kdelibs
 extragear/accessibility/simon: kde/kdepimlibs
 extragear/accessibility/simon: kde/kde-workspace
+
+# extragear/sysadmin
+extragear/sysadmin/muon: kde/kdelibs
 
 # office suites
 calligra: kde/kdelibs
