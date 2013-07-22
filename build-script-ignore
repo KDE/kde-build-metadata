@@ -11,6 +11,7 @@ extragear/graphics/digikam/digikam-software-compilation
 extragear/network/bodega-webapp-client
 
 # Nothing to build
+kdesupport/inqlude-data
 playground/utils/kpaste
 playground/base/plasma-active-kickstart
 playground/base/activities-support
