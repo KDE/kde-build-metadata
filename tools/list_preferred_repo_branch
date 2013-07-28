@@ -1,0 +1,118 @@
+#!/usr/bin/env python
+#
+# Tool to process KDE project metadata describing which git branch to build for
+# the various KDE git repositories, in order to get the desired development
+# branch.
+#
+# See also: http://community.kde.org/Infrastructure/Project_Metadata
+#
+# Copyright (c) 2013 Michael Pyne <mpyne@kde.org>
+#
+# Redistribution and use in source and binary forms, with or without
+# modification, are permitted provided that the following conditions
+# are met:
+# 
+# 1. Redistributions of source code must retain the above copyright
+#    notice, this list of conditions and the following disclaimer.
+# 2. Redistributions in binary form must reproduce the above copyright
+#    notice, this list of conditions and the following disclaimer in the
+#    documentation and/or other materials provided with the distribution.
+# 
+# THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
+# IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+# OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+# IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
+# INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+# NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+# DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+# THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+# (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
+# THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+import json, sys, argparse
+
+version = "0.1"
+
+class LogicalGroups:
+    def __init__(self, fileName):
+        json_groups = self.importLogicalGroups(fileName)
+        self.logical_groups = json_groups['groups']
+
+        # Speed-up searching of wildcarded groups by keeping them in their
+        # own set for searching later. Keep the required prefix portion separate,
+        # also for ease of searching, and count path separators so that we don't
+        # accidentally match something like kde/kdelibs to kde/kdelibs/*
+        self.catch_alls = [(group, group[:group.rfind("/", 0)], group.count("/"))
+                for group in self.logical_groups
+                if group.endswith("/*") or group == "*"]
+        self.catch_alls.sort(key=lambda x:x[1], reverse=True)
+
+    def importLogicalGroups(self, fileName):
+        with open(fileName, 'r') as file:
+            result = json.load(file)
+        return result
+
+    def _findLogicalGroup(self, module_spec, group):
+        if group not in self.logical_groups[module_spec]:
+            # The spec allows for groups to be unspecified (esp. for wildcards).
+            # Might be prudent to warn for this though...
+            return None
+        return self.logical_groups[module_spec][group]
+
+    def findModuleBranch(self, module, group):
+        if module in self.logical_groups:
+            return self._findLogicalGroup(module, group)
+        else:
+            # Find all 'catch-all' definitions that aren't actually too long to
+            # possibly match. We have to sort those out now as otherwise we'd
+            # have the possibility of an impossible match still having the
+            # longest common-prefix with our module path.
+            module_path_comps = module.count("/") + 1
+            search_gen = (group_spec[0] for group_spec in self.catch_alls
+                    if group_spec[2] < module_path_comps and
+                        module.startswith(group_spec[1]))
+
+            # We use next to avoid searching the whole list when we just want
+            # the first match. Due to the way we sorted self.catch_alls the
+            # first match that makes it through the search_gen is the one we
+            # want.
+            winner = next(search_gen, None)
+            if winner:
+                return self._findLogicalGroup(winner, group)
+
+            return None
+
+if __name__ == '__main__':
+    arg_parser = argparse.ArgumentParser(
+            description="Maps git.kde.org modules and logical groups to git branches. " +
+            "If no branch is configured for a given module path, a string containing <nothing set> " +
+            "is returned, which should be converted into a default git branch, such as master")
+    arg_parser.add_argument("logical_group",
+            help="Logical group to find branch from e.g. stable-qt4, latest-qt4, or kf5-qt5")
+    arg_parser.add_argument("module_path", nargs="+",
+            help="KDE project module path e.g. kde/kdelibs. If multiple paths are " +
+            "specified, they have their branches printed one-per-line in the order listed")
+    arg_parser.add_argument("-f", "--metadata-file",
+            default="../logical-module-structure",
+            help="Path to logical-module-structure file (default: %(default)s)")
+    arg_parser.add_argument("-v", "--version",
+            action='version', version=('%(prog)s ' + str(version)))
+    arg_parser.add_argument("-p", "--print-module-path", action="store_true",
+            help="Prints the module path before the branch (useful when multiple modules passed)")
+    args = arg_parser.parse_args()
+
+    json_groups = LogicalGroups(args.metadata_file)
+
+    for module_path in args.module_path:
+        try:
+            branch = json_groups.findModuleBranch(module_path, args.logical_group)
+            if not branch:
+                branch = "<nothing set> (use master?)"
+
+            if args.print_module_path:
+                print ("%s: %s" % (module_path, branch))
+            else:
+                print (branch)
+        except KeyError as k:
+            sys.stderr.write ("An error occurred: %s\n" % k)
+            sys.exit(1)
