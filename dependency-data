@@ -195,6 +195,7 @@ kde/kdeutils/kgpg: kde/kdepimlibs
 kde/kdesdk/dolphin-plugins: kde/applications/kde-baseapps
 kde/kdesdk/kdesdk-strigi-analyzers: kdesupport/strigi/libstreams
 kde/kdesdk/kdesdk-strigi-analyzers: kdesupport/strigi/libstreamanalyzer
+kde/kdesdk/kompare[master]: kde/kdesdk/libkomparediff2
 
 # kdenetwork
 kde/kdenetwork/kopete: kde/kdepimlibs
