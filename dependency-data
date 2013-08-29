@@ -402,3 +402,8 @@ playground/devtools/plugins/kdev-qmake: extragear/kdevelop/utilities/kdevelop-pg
 playground/devtools/plugins/kdev-ruby: extragear/kdevelop/kdevplatform
 playground/devtools/plugins/kdev-python: extragear/kdevelop/kdevplatform
 playground/devtools/plugins/kdev-python: extragear/kdevelop/utilities/kdevelop-pg-qt
+
+# Playground Net
+playground/network/sflphone-kde: kde/kdelibs
+playground/network/sflphone-kde: kde/kdepimlibs
+
