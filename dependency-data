@@ -406,5 +406,4 @@ playground/devtools/plugins/kdev-python: extragear/kdevelop/utilities/kdevelop-p
 # Playground Net
 playground/network/sflphone-kde: kde/kdelibs
 playground/network/sflphone-kde: kde/kdepimlibs
-playground/network/sflphone-kde: kdesupport/akonadi
 
