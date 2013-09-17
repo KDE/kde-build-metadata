@@ -89,6 +89,7 @@ kde/applications/kate: kde/kdelibs/kactivities
 
 # Konsole needs kde-baseapps (for libkonq)
 kde/applications/konsole: kde/applications/kde-baseapps
+kde/applications/konsole[frameworks]: -kde/applications/kde-baseapps
 
 # Allow addons to build after these.
 kde/kdeplasma-addons: kde/kdelibs/nepomuk-core
