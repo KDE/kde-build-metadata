@@ -40,6 +40,14 @@ kde/kde-workspace: kdesupport/prison[master]
 kde/kde-workspace: kde/kdepimlibs
 kde/kde-workspace: kde/kdelibs/kactivities
 kde/kde-workspace: kdesupport/strigi/libstreams[master]
+# But the Qt 5 version lives in master and things are a mess...
+kde/kde-workspace[master]: -kdesupport/akonadi[master]
+kde/kde-workspace[master]: -kdesupport/prison[master]
+kde/kde-workspace[master]: -kde/kdepimlibs
+kde/kde-workspace[master]: -kde/kdelibs/kactivities
+kde/kde-workspace[master]: -kde/kdelibs
+kde/kde-workspace[master]: kde/kdelibs[frameworks]
+kde/kde-workspace[master]: playground/libs/plasma-framework
 
 # KDE Runtime
 kde/kde-runtime: kdesupport/strigi/libstreams[master]
