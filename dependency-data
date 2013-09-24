@@ -102,7 +102,7 @@ kde/applications/konsole[frameworks]: -kde/applications/kde-baseapps
 # Allow addons to build after these.
 kde/kdeplasma-addons: kde/kdelibs/nepomuk-core
 kde/kdeplasma-addons: kde/applications/kde-baseapps
-kde/kdeplasma-addons: kde/kde-workspace
+kde/kdeplasma-addons: kde/kde-workspace[KDE/4.11]
 kde/kdeplasma-addons: kde/kdegraphics/libs/libkexiv2
 kde/kdeplasma-addons: kde/kdeedu/marble
 
@@ -209,7 +209,7 @@ kde/kdesdk/kompare[master]: kde/kdesdk/libkomparediff2
 # kdenetwork
 kde/kdenetwork/kopete: kde/kdepimlibs
 kde/kdenetwork/kget: kde/kdepimlibs
-kde/kdenetwork/kget: kde/kde-workspace
+kde/kdenetwork/kget: kde/kde-workspace[KDE/4.11]
 kde/kdenetwork/kget: kde/kde-baseapps
 kde/kdenetwork/kget: extragear/network/libktorrent
 
@@ -217,7 +217,7 @@ kde/kdenetwork/kget: extragear/network/libktorrent
 kde/kdeadmin/kuser: kde/kdepimlibs
 
 # kdetoys
-kde/kdetoys/ktux: kde/kde-workspace
+kde/kdetoys/ktux: kde/kde-workspace[KDE/4.11]
 
 # kdeexamples
 kde/kdeexamples: kde/kdelibs/nepomuk-core
@@ -267,7 +267,7 @@ extragear/base/plasma-mobile: kde/kdelibs
 extragear/base/plasma-mobile: kde/kdepimlibs
 extragear/base/plasma-mobile: kde/kdelibs/kactivities
 extragear/base/plasma-mobile: kdesupport/soprano[master]
-extragear/base/plasma-mobile: kde/kde-workspace
+extragear/base/plasma-mobile: kde/kde-workspace[KDE/4.11]
 extragear/base/wacomtablet: kde/kdelibs
 extragear/base/networkmanagement: kde/kdelibs
 extragear/base/networkmanagement: extragear/libs/libnm-qt
@@ -283,7 +283,7 @@ extragear/kdevelop/*: kde/applications/konsole
 extragear/kdevelop/kdevelop[master]: extragear/kdevelop/kdevplatform[master]
 extragear/kdevelop/kdevelop[4.4]: extragear/kdevelop/kdevplatform[1.4]
 extragear/kdevelop/kdevelop[4.5]: extragear/kdevelop/kdevplatform[1.5]
-extragear/kdevelop/kdevelop: kde/kde-workspace
+extragear/kdevelop/kdevelop: kde/kde-workspace[KDE/4.11]
 extragear/kdevelop/kdevelop: kde/kdesdk/okteta
 extragear/kdevelop/plugins/kdev-php: extragear/kdevelop/kdevplatform
 extragear/kdevelop/plugins/kdev-php: extragear/kdevelop/utilities/kdevelop-pg-qt
@@ -297,7 +297,7 @@ extragear/network/libktorrent: kde/kdelibs
 extragear/network/ktorrent: kde/kdelibs
 extragear/network/ktorrent: extragear/network/libktorrent
 extragear/network/ktorrent: kde/kdepimlibs
-extragear/network/ktorrent: kde/kde-workspace
+extragear/network/ktorrent: kde/kde-workspace[KDE/4.11]
 extragear/network/telepathy/*: kde/kdelibs
 extragear/network/telepathy/ktp-common-internals: extragear/network/telepathy/telepathy-logger-qt
 extragear/network/telepathy/ktp-accounts-kcm: extragear/network/telepathy/ktp-common-internals
@@ -327,7 +327,7 @@ extragear/multimedia/k3b: kde/kdelibs
 extragear/multimedia/k3b: kde/kdemultimedia/libkcddb
 extragear/multimedia/plasma-mediacenter: kde/kdelibs
 extragear/multimedia/plasma-mediacenter: kde/kdelibs/nepomuk-core
-extragear/multimedia/plasma-mediacenter: kde/kde-workspace
+extragear/multimedia/plasma-mediacenter: kde/kde-workspace[KDE/4.11]
 extragear/multimedia/kamoso: kde/kdelibs
 extragear/multimedia/kamoso: kde/kdegraphics/libs/libkipi
 
@@ -379,7 +379,7 @@ extragear/office/kile: kde/kdegraphics/okular
 # extragear/accessibility
 extragear/accessibility/simon: kde/kdelibs
 extragear/accessibility/simon: kde/kdepimlibs
-extragear/accessibility/simon: kde/kde-workspace
+extragear/accessibility/simon: kde/kde-workspace[KDE/4.11]
 
 # extragear/sysadmin
 extragear/sysadmin/muon: kde/kdelibs
