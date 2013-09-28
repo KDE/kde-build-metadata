@@ -18,10 +18,8 @@ kde/*: kde/kdelibs
 *: kdesupport/automoc[master]
 
 kde/kdelibs[frameworks]: Qt5[stable]
-kde/kdelibs[frameworks]: kdesupport/phonon/phonon[phonon4qt5]
 kde/kdelibs[frameworks]: -Qt
 kde/kdelibs[frameworks]: -kdesupport/automoc[master]
-kde/kdelibs[frameworks]: -kdesupport/phonon/phonon[master]
 kde/kdelibs[frameworks]: -kdesupport/polkit-qt-1[master]
 kde/kdelibs[frameworks]: -kdesupport/soprano[master]
 
