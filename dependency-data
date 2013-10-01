@@ -401,6 +401,11 @@ playground/base/kscreen: playground/libs/libkscreen
 # Playground Edu
 playground/edu/artikulate: kde/kdelibs
 
+# Playground Network
+playground/network/plasma-nm: kde/kdelibs
+playground/network/plasma-nm: extragear/libs/libnm-qt
+playground/network/plasma-nm: extragear/libs/libmm-qt
+
 # Playground KDevelop
 playground/devtools/*: kde/kdelibs
 playground/devtools/*: kde/applications/kate
