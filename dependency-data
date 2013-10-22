@@ -45,6 +45,7 @@ kde/kde-workspace[master]: -kde/kdepimlibs
 kde/kde-workspace[master]: -kde/kdelibs/kactivities
 kde/kde-workspace[master]: -kde/kdelibs
 kde/kde-workspace[master]: kde/kdelibs[frameworks]
+kde/kde-workspace[master]: kde/kdelibs/kactivities[frameworks]
 kde/kde-workspace[master]: playground/libs/plasma-framework
 
 # KDE Runtime
@@ -81,9 +82,10 @@ kdesupport/phonon/phonon-xine: kdesupport/phonon/phonon
 
 # This is redundant as above, but might be useful for other scripts.
 kde/kdelibs/nepomuk-core: kde/kdelibs
-kde/kdelibs/kactivities: kdesupport/soprano[master]
 kde/kdelibs/kactivities: kde/kdelibs/nepomuk-core
 kde/kdelibs/nepomuk-widgets: kde/kdelibs/nepomuk-core
+# But some things haven't yet been ported for the Qt 5 versions....
+kde/kdelibs/kactivities[frameworks]: -kde/kdelibs/nepomuk-core
 
 # kde-baseapps
 kde/applications/kde-baseapps: kde/kdelibs/kactivities
@@ -395,6 +397,7 @@ calligra: kdesupport/soprano[master]
 # Playground Libs
 playground/libs/libkscreen: kde/kdelibs
 playground/libs/plasma-framework: kde/kdelibs[frameworks]
+playground/libs/plasma-framework: kde/kdelibs/kactivities[frameworks]
 
 # Playground Base
 playground/base/kscreen: playground/libs/libkscreen
