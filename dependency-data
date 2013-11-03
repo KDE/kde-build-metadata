@@ -385,6 +385,10 @@ extragear/accessibility/simon: kde/kde-workspace[KDE/4.11]
 # extragear/sysadmin
 extragear/sysadmin/muon: kde/kdelibs
 
+# extragear/sdk
+extragear/sdk/plasmate: kde/kdelibs
+extragear/sdk/plasmate[frameworks]: playground/libs/plasma-framework[master]
+
 # office suites
 calligra: kde/kdelibs
 calligra: kde/kdelibs/kactivities
