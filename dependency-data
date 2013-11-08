@@ -54,6 +54,8 @@ kde/kde-runtime: kde/kdelibs/kactivities
 kde/kde-runtime: kdesupport/attica[master]
 kde/kde-runtime: kde/kdepimlibs
 kde/kde-runtime: kde/applications/kate
+kde/kde-runtime[frameworks]: -kde/kdepimlibs
+kde/kde-runtime[frameworks]: -kde/applications/kate
 
 # Several Strigi modules are inter-dependent.
 # Also the kdesupport/strigi/strigi module mustn't be built along with these
