@@ -47,6 +47,13 @@ kde/kde-workspace[master]: -kde/kdelibs
 kde/kde-workspace[master]: kde/kdelibs[frameworks]
 kde/kde-workspace[master]: kde/kdelibs/kactivities[frameworks]
 kde/kde-workspace[master]: playground/libs/plasma-framework
+# And because things are stupid, the stable branch is a mess as well - 4.11 depends on 4.12, go figure
+kde/kde-workspace[KDE/4.11]: -kde/kdelibs
+kde/kde-workspace[KDE/4.11]: -kde/kdelibs/kactivities
+kde/kde-workspace[KDE/4.11]: -kde/kdepimlibs
+kde/kde-workspace[KDE/4.11]: kde/kdelibs[KDE/4.12]
+kde/kde-workspace[KDE/4.11]: kde/kdelibs/kactivities[KDE/4.12]
+kde/kde-workspace[KDE/4.11]: kde/kdepimlibs[KDE/4.12]
 
 # KDE Runtime
 kde/kde-runtime: kdesupport/strigi/libstreams[master]
