@@ -272,6 +272,7 @@ extragear/libs/libkgapi: kde/kdelibs
 extragear/libs/libkgapi: kde/kdepimlibs
 extragear/libs/libnm-qt: kde/kdelibs
 extragear/libs/libnm-qt: extragear/libs/libmm-qt
+extragear/libs/libkscreen: kde/kdelibs
 
 # extragear/base
 extragear/base/plasma-mobile: kde/kdelibs
@@ -286,6 +287,7 @@ extragear/base/networkmanagement: extragear/libs/libmm-qt
 extragear/base/bluedevil: kde/kdelibs
 extragear/base/bluedevil: playground/libs/libbluedevil
 extragear/base/kde-gtk-config: kde/kdelibs
+extragear/base/kscreen: extragear/libs/libkscreen
 
 # KDevelop
 extragear/kdevelop/*: kde/kdelibs[KDE/4.12]
@@ -411,12 +413,8 @@ calligra: kde/kdegraphics/okular
 calligra: kdesupport/soprano[master]
 
 # Playground Libs
-playground/libs/libkscreen: kde/kdelibs
 playground/libs/plasma-framework: kde/kdelibs[frameworks]
 playground/libs/plasma-framework: kde/kdelibs/kactivities[frameworks]
-
-# Playground Base
-playground/base/kscreen: playground/libs/libkscreen
 
 # Playground Edu
 playground/edu/artikulate: kde/kdelibs
