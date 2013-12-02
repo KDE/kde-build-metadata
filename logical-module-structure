@@ -31,7 +31,7 @@
             "kf5-qt5": "frameworks"
         },
         "kde/kdelibs" : {
-            "stable-qt4": "KDE/4.11",
+            "stable-qt4": "KDE/4.12",
             "latest-qt4": "master",
             "kf5-qt5": "frameworks"
         },
