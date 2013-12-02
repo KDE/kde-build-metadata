@@ -29,6 +29,7 @@ kde/kdelibs: kdesupport/strigi/libstreamanalyzer[master]
 kde/kdelibs: kdesupport/strigi/strigiclient[master]
 kde/kdelibs: kdesupport/polkit-qt-1[master]
 kde/kdelibs: kdesupport/soprano[master]
+kde/kdelibs: kdesupport/qca
 
 # KDE Workspace
 # kactivities is a separate library now, or something like that.
