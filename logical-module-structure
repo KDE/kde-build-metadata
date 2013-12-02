@@ -18,9 +18,17 @@
     ],
 
     "groups" : {
+        "qt": {
+            "stable-qt4": "4.8",
+            "latest-qt4": "4.8"
+        },
+        "qt5": {
+            "kf5-qt5": "stable"
+        },
         "kde/*" : {
             "stable-qt4": "KDE/4.11",
-            "latest-qt4": "master"
+            "latest-qt4": "master",
+            "kf5-qt5": "frameworks"
         },
         "kde/kdelibs" : {
             "stable-qt4": "KDE/4.11",
@@ -30,6 +38,26 @@
         "kde/kde-workspace" : {
             "stable-qt4": "KDE/4.11",
             "latest-qt4": "KDE/4.11",
+            "kf5-qt5": "master"
+        },
+        "kdesupport/polkit-qt-1": {
+            "stable-qt4": "master",
+            "latest-qt4": "master",
+            "kf5-qt5": "qt5"
+        },
+        "extragear/kdevelop/kdevelop": {
+            "stable-qt4": "4.6",
+            "latest-qt4": "master"
+        },
+        "extragear/kdevelop/kdevplatform": {
+            "stable-qt4": "1.6",
+            "latest-qt4": "master"
+        },
+        "calligra": {
+            "stable-qt4": "calligra/2.7",
+            "latest-qt4": "master"
+        },
+        "playground/libs/plasma-framework": {
             "kf5-qt5": "master"
         }
     }
