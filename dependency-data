@@ -19,9 +19,7 @@ kde/*: kde/kdelibs
 
 kde/kdelibs[frameworks]: Qt5[stable]
 kde/kdelibs[frameworks]: -Qt
-kde/kdelibs[frameworks]: kdesupport/polkit-qt-1[qt5]
 kde/kdelibs[frameworks]: -kdesupport/automoc[master]
-kde/kdelibs[frameworks]: -kdesupport/polkit-qt-1[master]
 kde/kdelibs[frameworks]: -kdesupport/soprano[master]
 
 kde/kdelibs: kdesupport/attica[master]
@@ -43,18 +41,7 @@ kde/kde-workspace: kdesupport/strigi/libstreams[master]
 kde/kde-workspace[master]: -kdesupport/akonadi[master]
 kde/kde-workspace[master]: -kdesupport/prison[master]
 kde/kde-workspace[master]: -kde/kdepimlibs
-kde/kde-workspace[master]: -kde/kdelibs/kactivities
-kde/kde-workspace[master]: -kde/kdelibs
-kde/kde-workspace[master]: kde/kdelibs[frameworks]
-kde/kde-workspace[master]: kde/kdelibs/kactivities[frameworks]
 kde/kde-workspace[master]: playground/libs/plasma-framework
-# And because things are stupid, the stable branch is a mess as well - 4.11 depends on 4.12, go figure
-kde/kde-workspace[KDE/4.11]: -kde/kdelibs
-kde/kde-workspace[KDE/4.11]: -kde/kdelibs/kactivities
-kde/kde-workspace[KDE/4.11]: -kde/kdepimlibs
-kde/kde-workspace[KDE/4.11]: kde/kdelibs[KDE/4.12]
-kde/kde-workspace[KDE/4.11]: kde/kdelibs/kactivities[KDE/4.12]
-kde/kde-workspace[KDE/4.11]: kde/kdepimlibs[KDE/4.12]
 
 # KDE Runtime
 kde/kde-runtime: kdesupport/strigi/libstreams[master]
@@ -76,11 +63,6 @@ kdesupport/strigi/strigidaemon: kdesupport/strigi/strigiutils
 kdesupport/strigi/strigiclient: kdesupport/strigi/strigiutils
 kdesupport/strigi/strigiclient: kdesupport/strigi/strigidaemon
 
-# Phonon[five] wants Qt5
-kdesupport/phonon/phonon[five]: Qt5[stable]
-kdesupport/phonon/phonon[five]: -Qt
-kdesupport/phonon/phonon[five]: -kdesupport/automoc[master]
-
 # Phonon backends are dependent upon phonon itself.
 kdesupport/phonon/phonon-directshow: kdesupport/phonon/phonon
 kdesupport/phonon/phonon-gstreamer: kdesupport/phonon/phonon
@@ -92,7 +74,6 @@ kdesupport/phonon/phonon-waveout: kdesupport/phonon/phonon
 kdesupport/phonon/phonon-xine: kdesupport/phonon/phonon
 
 # This is redundant as above, but might be useful for other scripts.
-kde/kdelibs/nepomuk-core: kde/kdelibs
 kde/kdelibs/kactivities: kde/kdelibs/nepomuk-core
 kde/kdelibs/nepomuk-widgets: kde/kdelibs/nepomuk-core
 # But some things haven't yet been ported for the Qt 5 versions....
@@ -113,7 +94,7 @@ kde/applications/konsole[frameworks]: -kde/applications/kde-baseapps
 # Allow addons to build after these.
 kde/kdeplasma-addons: kde/kdelibs/nepomuk-core
 kde/kdeplasma-addons: kde/applications/kde-baseapps
-kde/kdeplasma-addons: kde/kde-workspace[KDE/4.11]
+kde/kdeplasma-addons: kde/kde-workspace
 kde/kdeplasma-addons: kde/kdegraphics/libs/libkexiv2
 kde/kdeplasma-addons: kde/kdeedu/marble
 
@@ -222,7 +203,7 @@ kde/kdesdk/kompare: kde/kdesdk/libkomparediff2
 # kdenetwork
 kde/kdenetwork/kopete: kde/kdepimlibs
 kde/kdenetwork/kget: kde/kdepimlibs
-kde/kdenetwork/kget: kde/kde-workspace[KDE/4.11]
+kde/kdenetwork/kget: kde/kde-workspace
 kde/kdenetwork/kget: kde/kde-baseapps
 kde/kdenetwork/kget: extragear/network/libktorrent
 
@@ -230,15 +211,13 @@ kde/kdenetwork/kget: extragear/network/libktorrent
 kde/kdeadmin/kuser: kde/kdepimlibs
 
 # kdetoys
-kde/kdetoys/ktux: kde/kde-workspace[KDE/4.11]
+kde/kdetoys/ktux: kde/kde-workspace
 
 # kdeexamples
 kde/kdeexamples: kde/kdelibs/nepomuk-core
 
 # kdesupport
 kdesupport/akonadi: kdesupport/soprano[master]
-libkolab: kde/kdelibs[master]
-libkolab: kde/kdepimlibs[master]
 
 # kdebindings
 kde/kdebindings/smoke/smokeqt: kde/kdebindings/smoke/smokegen
@@ -281,7 +260,7 @@ extragear/base/plasma-mobile: kde/kdelibs
 extragear/base/plasma-mobile: kde/kdepimlibs
 extragear/base/plasma-mobile: kde/kdelibs/kactivities
 extragear/base/plasma-mobile: kdesupport/soprano[master]
-extragear/base/plasma-mobile: kde/kde-workspace[KDE/4.11]
+extragear/base/plasma-mobile: kde/kde-workspace
 extragear/base/wacomtablet: kde/kdelibs
 extragear/base/networkmanagement: kde/kdelibs
 extragear/base/networkmanagement: extragear/libs/libnm-qt
@@ -292,15 +271,12 @@ extragear/base/kde-gtk-config: kde/kdelibs
 extragear/base/kscreen: extragear/libs/libkscreen
 
 # KDevelop
-extragear/kdevelop/*: kde/kdelibs[KDE/4.12]
-extragear/kdevelop/*: kde/applications/kate[KDE/4.12]
-extragear/kdevelop/*: kde/applications/konsole[KDE/4.12]
-extragear/kdevelop/kdevelop[master]: extragear/kdevelop/kdevplatform[master]
-extragear/kdevelop/kdevelop[4.4]: extragear/kdevelop/kdevplatform[1.4]
-extragear/kdevelop/kdevelop[4.5]: extragear/kdevelop/kdevplatform[1.5]
-extragear/kdevelop/kdevelop[4.6]: extragear/kdevelop/kdevplatform[1.6]
-extragear/kdevelop/kdevelop: kde/kde-workspace[KDE/4.11]
-extragear/kdevelop/kdevelop: kde/kdesdk/okteta[KDE/4.12]
+extragear/kdevelop/*: kde/kdelibs
+extragear/kdevelop/*: kde/applications/kate
+extragear/kdevelop/*: kde/applications/konsole
+extragear/kdevelop/kdevelop: extragear/kdevelop/kdevplatform
+extragear/kdevelop/kdevelop: kde/kde-workspace
+extragear/kdevelop/kdevelop: kde/kdesdk/okteta
 extragear/kdevelop/plugins/kdev-php: extragear/kdevelop/kdevplatform
 extragear/kdevelop/plugins/kdev-php: extragear/kdevelop/utilities/kdevelop-pg-qt
 extragear/kdevelop/plugins/kdev-php-docs: extragear/kdevelop/kdevplatform
@@ -313,8 +289,9 @@ extragear/network/libktorrent: kde/kdelibs
 extragear/network/ktorrent: kde/kdelibs
 extragear/network/ktorrent: extragear/network/libktorrent
 extragear/network/ktorrent: kde/kdepimlibs
-extragear/network/ktorrent: kde/kde-workspace[KDE/4.11]
+extragear/network/ktorrent: kde/kde-workspace
 extragear/network/telepathy/*: kde/kdelibs
+extragear/network/telepathy/ktp-common-internals: kde/kdepimlibs
 extragear/network/telepathy/ktp-common-internals: extragear/network/telepathy/telepathy-logger-qt
 extragear/network/telepathy/ktp-accounts-kcm: extragear/network/telepathy/ktp-common-internals
 extragear/network/telepathy/ktp-accounts-kcm: extragear/network/telepathy/telepathy-logger-qt
@@ -343,7 +320,7 @@ extragear/multimedia/k3b: kde/kdelibs
 extragear/multimedia/k3b: kde/kdemultimedia/libkcddb
 extragear/multimedia/plasma-mediacenter: kde/kdelibs
 extragear/multimedia/plasma-mediacenter: kde/kdelibs/nepomuk-core
-extragear/multimedia/plasma-mediacenter: kde/kde-workspace[KDE/4.11]
+extragear/multimedia/plasma-mediacenter: kde/kde-workspace
 extragear/multimedia/kamoso: kde/kdelibs
 extragear/multimedia/kamoso: kde/kdegraphics/libs/libkipi
 
@@ -395,7 +372,7 @@ extragear/office/kile: kde/kdegraphics/okular
 # extragear/accessibility
 extragear/accessibility/simon: kde/kdelibs
 extragear/accessibility/simon: kde/kdepimlibs
-extragear/accessibility/simon: kde/kde-workspace[KDE/4.11]
+extragear/accessibility/simon: kde/kde-workspace
 
 # extragear/sysadmin
 extragear/sysadmin/muon: kde/kdelibs
@@ -403,7 +380,7 @@ extragear/sysadmin/muon: kde/kdelibs
 # extragear/sdk
 extragear/sdk/plasmate: kde/kdelibs
 extragear/sdk/plasmate[master]: kde/kdepimlibs
-extragear/sdk/plasmate[frameworks]: playground/libs/plasma-framework[master]
+extragear/sdk/plasmate[frameworks]: playground/libs/plasma-framework
 
 # office suites
 calligra: kde/kdelibs
@@ -415,8 +392,8 @@ calligra: kde/kdegraphics/okular
 calligra: kdesupport/soprano[master]
 
 # Playground Libs
-playground/libs/plasma-framework: kde/kdelibs[frameworks]
-playground/libs/plasma-framework: kde/kdelibs/kactivities[frameworks]
+playground/libs/plasma-framework: kde/kdelibs
+playground/libs/plasma-framework: kde/kdelibs/kactivities
 
 # Playground Edu
 playground/edu/artikulate: kde/kdelibs
@@ -427,8 +404,8 @@ playground/network/plasma-nm: extragear/libs/libnm-qt
 playground/network/plasma-nm: extragear/libs/libmm-qt
 
 # Playground KDevelop
-playground/devtools/*: kde/kdelibs[KDE/4.12]
-playground/devtools/*: kde/applications/kate[KDE/4.12]
+playground/devtools/*: kde/kdelibs
+playground/devtools/*: kde/applications/kate
 playground/devtools/plugins/kdev-qmake: extragear/kdevelop/kdevelop
 playground/devtools/plugins/kdev-qmake: extragear/kdevelop/utilities/kdevelop-pg-qt
 playground/devtools/plugins/kdev-ruby: extragear/kdevelop/kdevplatform
