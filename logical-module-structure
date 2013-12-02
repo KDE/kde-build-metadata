@@ -65,6 +65,14 @@
             "stable-qt4": "1.6",
             "latest-qt4": "master"
         },
+        "extragear/kdevelop/kdev-php": {
+            "stable-qt4": "1.6",
+            "latest-qt4": "master"
+        },
+        "extragear/kdevelop/kdev-php-docs": {
+            "stable-qt4": "1.6",
+            "latest-qt4": "master"
+        },
         "extragear/sdk/plasmate": {
             "latest-qt4": "master",
             "kf5-qt5": "frameworks"
