@@ -57,6 +57,10 @@
             "stable-qt4": "1.6",
             "latest-qt4": "master"
         },
+        "extragear/sdk/plasmate": {
+            "latest-qt4": "master",
+            "kf5-qt5": "frameworks"
+        },
         "calligra": {
             "stable-qt4": "calligra/2.7",
             "latest-qt4": "master"
