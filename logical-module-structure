@@ -53,24 +53,12 @@
             "stable-qt4": "MM/1.0",
             "latest-qt4": "MM/1.0"
         },
+        "extragear/kdevelop/*": {
+            "stable-qt4": "1.6",
+            "latest-qt4": "master"
+        },
         "extragear/kdevelop/kdevelop": {
             "stable-qt4": "4.6",
-            "latest-qt4": "master"
-        },
-        "extragear/kdevelop/kdevplatform": {
-            "stable-qt4": "1.6",
-            "latest-qt4": "master"
-        },
-        "extragear/kdevelop/kdev-python": {
-            "stable-qt4": "1.6",
-            "latest-qt4": "master"
-        },
-        "extragear/kdevelop/kdev-php": {
-            "stable-qt4": "1.6",
-            "latest-qt4": "master"
-        },
-        "extragear/kdevelop/kdev-php-docs": {
-            "stable-qt4": "1.6",
             "latest-qt4": "master"
         },
         "extragear/sdk/plasmate": {
