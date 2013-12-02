@@ -53,6 +53,10 @@
             "stable-qt4": "1.6",
             "latest-qt4": "master"
         },
+        "extragear/kdevelop/kdev-python": {
+            "stable-qt4": "1.6",
+            "latest-qt4": "master"
+        },
         "calligra": {
             "stable-qt4": "calligra/2.7",
             "latest-qt4": "master"
