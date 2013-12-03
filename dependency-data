@@ -293,7 +293,7 @@ extragear/network/ktorrent: kde/kdepimlibs
 extragear/network/ktorrent: kde/kde-workspace
 extragear/network/telepathy/*: kde/kdelibs
 extragear/network/telepathy/ktp-common-internals: kde/kdepimlibs
-extragear/network/telepathy/ktp-common-internals[master]: playground/network/kpeople
+extragear/network/telepathy/ktp-common-internals[master]: playground/network/libkpeople
 extragear/network/telepathy/ktp-common-internals: extragear/network/telepathy/telepathy-logger-qt
 extragear/network/telepathy/ktp-accounts-kcm: extragear/network/telepathy/ktp-common-internals
 extragear/network/telepathy/ktp-accounts-kcm: extragear/network/telepathy/telepathy-logger-qt
@@ -424,5 +424,5 @@ playground/pim/zanshin: kde/kdelibs
 playground/pim/zanshin: kde/kdepimlibs
 
 # Playground KPeople
-playground/network/kpeople : kde/kdelibs
-playground/network/kpeople : kde/kdepimlibs
+playground/network/libkpeople : kde/kdelibs
+playground/network/libkpeople : kde/kdepimlibs
