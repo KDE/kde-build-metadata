@@ -424,5 +424,5 @@ playground/pim/zanshin: kde/kdelibs
 playground/pim/zanshin: kde/kdepimlibs
 
 # Playground KPeople
-playground/network/libkpeople : kde/kdelibs
-playground/network/libkpeople : kde/kdepimlibs
+playground/network/libkpeople: kde/kdelibs
+playground/network/libkpeople: kde/kdepimlibs
