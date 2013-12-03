@@ -293,7 +293,7 @@ extragear/network/ktorrent: kde/kdepimlibs
 extragear/network/ktorrent: kde/kde-workspace
 extragear/network/telepathy/*: kde/kdelibs
 extragear/network/telepathy/ktp-common-internals: kde/kdepimlibs
-extragear/network/telepathy/ktp-common-internals: playground/network/kpeople
+extragear/network/telepathy/ktp-common-internals[master]: playground/network/kpeople
 extragear/network/telepathy/ktp-common-internals: extragear/network/telepathy/telepathy-logger-qt
 extragear/network/telepathy/ktp-accounts-kcm: extragear/network/telepathy/ktp-common-internals
 extragear/network/telepathy/ktp-accounts-kcm: extragear/network/telepathy/telepathy-logger-qt
@@ -301,7 +301,6 @@ extragear/network/telepathy/ktp-approver: extragear/network/telepathy/ktp-common
 extragear/network/telepathy/ktp-auth-handler: extragear/network/telepathy/ktp-common-internals
 extragear/network/telepathy/ktp-call-ui: extragear/network/telepathy/ktp-common-internals
 extragear/network/telepathy/ktp-contact-list: extragear/network/telepathy/ktp-common-internals
-extragear/network/telepathy/ktp-contact-list: playground/network/kpeople
 extragear/network/telepathy/ktp-contact-list: kde/kdepimlibs
 extragear/network/telepathy/ktp-contact-runner: extragear/network/telepathy/ktp-common-internals
 extragear/network/telepathy/ktp-desktop-applets: extragear/network/telepathy/ktp-common-internals
