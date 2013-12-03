@@ -69,6 +69,10 @@
             "stable-qt4": "kde-telepathy-0.7",
             "latest-qt4": "master"
         },
+        "extragear/network/telepathy/telepathy-logger-qt": {
+            "stable-qt4": "master",
+            "latest-qt4": "master"
+        },
         "calligra": {
             "stable-qt4": "calligra/2.7",
             "latest-qt4": "master"
