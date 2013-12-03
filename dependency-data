@@ -420,3 +420,7 @@ playground/network/sflphone-kde: kde/kdepimlibs
 # Playground PIM
 playground/pim/zanshin: kde/kdelibs
 playground/pim/zanshin: kde/kdepimlibs
+
+# Playground KPeople
+playground/network/kpeople : kde/kdelibs
+playground/network/kpeople : kde/kdepimlibs
