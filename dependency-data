@@ -398,6 +398,10 @@ calligra: kdesupport/soprano[master]
 playground/libs/plasma-framework: kde/kdelibs
 playground/libs/plasma-framework: kde/kdelibs/kactivities
 
+# Playground Base
+playground/base/kwin-compositing-kcm: kde/kde-workspace
+playground/base/kwin-compositing-kcm: playground/libs/plasma-framework
+
 # Playground Edu
 playground/edu/artikulate: kde/kdelibs
 
