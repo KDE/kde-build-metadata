@@ -35,7 +35,7 @@ kde/kdelibs: kdesupport/qca
 frameworks/*: Qt5[stable]
 
 #tier2
-frameworks/kdnssd: frameworks/kconfig
+frameworks/kdnssd-framework: frameworks/kconfig
 frameworks/kauth: frameworks/kcoreaddons
 frameworks/kcompletion: frameworks/kconfig
 frameworks/kcompletion: frameworks/kwidgetsaddons
@@ -46,8 +46,8 @@ frameworks/kjobwidgets: frameworks/kwidgetsaddons
 frameworks/knotifications: frameworks/kwindowsystem
 frameworks/ki18n: frameworks/kjs
 frameworks/kdoctools: frameworks/karchive
-frameworks/kwallet: frameworks/kconfig
-frameworks/kwallet: frameworks/kwindowsystem
+frameworks/kwallet-framework: frameworks/kconfig
+frameworks/kwallet-framework: frameworks/kwindowsystem
 
 #tier3
 frameworks/kbookmarks: frameworks/kconfigwidgets
@@ -170,7 +170,7 @@ frameworks/kmediaplayer: frameworks/ki18n
 frameworks/kmediaplayer: frameworks/kparts
 frameworks/kmediaplayer: frameworks/kxmlgui
 frameworks/kdewebkit: frameworks/kcoreaddons
-frameworks/kdewebkit: frameworks/kwallet
+frameworks/kdewebkit: frameworks/kwallet-framework
 frameworks/kdewebkit: frameworks/kio
 frameworks/kdewebkit: frameworks/knotifications
 frameworks/kdewebkit: frameworks/kparts
@@ -234,7 +234,7 @@ frameworks/khtml: frameworks/ktextwidgets
 frameworks/khtml: frameworks/kxmlgui
 frameworks/khtml: frameworks/kparts
 frameworks/khtml: frameworks/kio
-frameworks/khtml: frameworks/kwallet
+frameworks/khtml: frameworks/kwallet-framework
 frameworks/khtml: frameworks/kglobalaccel
 
 # KDE Workspace
