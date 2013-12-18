@@ -219,7 +219,6 @@ frameworks/kde4support: frameworks/kglobalaccel
 frameworks/kfileaudiopreview: kdesupport/phonon/phonon
 frameworks/kfileaudiopreview: frameworks/kio
 frameworks/kfileaudiopreview: frameworks/ki18n
-frameworks/khtml: kdesupport/phonon/phonon
 frameworks/khtml: frameworks/karchive
 frameworks/khtml: frameworks/ki18n
 frameworks/khtml: frameworks/kcoreaddons
