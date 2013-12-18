@@ -33,6 +33,7 @@ kde/kdelibs: kdesupport/qca
 
 #KDE Frameworks
 frameworks/*: Qt5[stable]
+frameworks/*: kdesupport/extra-cmake-modules
 
 #tier2
 frameworks/kdnssd-framework: frameworks/kconfig
