@@ -290,6 +290,14 @@ kde/kdelibs/kactivities: kde/kdelibs/nepomuk-core
 kde/kdelibs/nepomuk-widgets: kde/kdelibs/nepomuk-core
 # But some things haven't yet been ported for the Qt 5 versions....
 kde/kdelibs/kactivities[frameworks]: -kde/kdelibs/nepomuk-core
+kde/kdelibs/kactivities[frameworks]: -kde/kdelibs[frameworks]
+kde/kdelibs/kactivities[frameworks]: frameworks/kconfig
+kde/kdelibs/kactivities[frameworks]: frameworks/kcoreaddons
+kde/kdelibs/kactivities[frameworks]: frameworks/kdbusaddons
+kde/kdelibs/kactivities[frameworks]: frameworks/kdeclarative
+kde/kdelibs/kactivities[frameworks]: frameworks/ki18n
+kde/kdelibs/kactivities[frameworks]: frameworks/kservice
+kde/kdelibs/kactivities[frameworks]: frameworks/kwindowsystem
 
 # kde-baseapps
 kde/applications/kde-baseapps: kde/kdelibs/kactivities
