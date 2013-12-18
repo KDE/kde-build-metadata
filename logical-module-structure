@@ -40,6 +40,11 @@
             "latest-qt4": "KDE/4.11",
             "kf5-qt5": "master"
         },
+        "kde/kdeedu/marble": {
+            "stable-qt4": "KDE/4.12",
+            "latest-qt4": "master",
+            "kf5-qt5": "master"
+        },
         "kdesupport/polkit-qt-1": {
             "stable-qt4": "master",
             "latest-qt4": "master",
