@@ -76,6 +76,7 @@ frameworks/kdesignerplugin: frameworks/kdoctools
 frameworks/kdesignerplugin: frameworks/kio
 frameworks/kemoticons: frameworks/karchive
 frameworks/kemoticons: frameworks/kservice
+frameworks/knewstuff: kdesupport/attica
 frameworks/knewstuff: frameworks/ki18n
 frameworks/knewstuff: frameworks/kitemviews
 frameworks/knewstuff: frameworks/karchive
@@ -215,8 +216,10 @@ frameworks/kde4support: frameworks/knotifications
 frameworks/kde4support: frameworks/kparts
 frameworks/kde4support: frameworks/kdesignerplugin
 frameworks/kde4support: frameworks/kglobalaccel
+frameworks/kfileaudiopreview: kdesupport/phonon/phonon
 frameworks/kfileaudiopreview: frameworks/kio
 frameworks/kfileaudiopreview: frameworks/ki18n
+frameworks/khtml: kdesupport/phonon/phonon
 frameworks/khtml: frameworks/karchive
 frameworks/khtml: frameworks/ki18n
 frameworks/khtml: frameworks/kcoreaddons
