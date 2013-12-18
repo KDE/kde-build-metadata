@@ -238,6 +238,7 @@ frameworks/khtml: frameworks/kparts
 frameworks/khtml: frameworks/kio
 frameworks/khtml: frameworks/kwallet-framework
 frameworks/khtml: frameworks/kglobalaccel
+frameworks/khtml: kdesupport/phonon/phonon[phonon_master_qt5]
 
 # KDE Workspace
 # kactivities is a separate library now, or something like that.
