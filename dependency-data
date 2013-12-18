@@ -295,6 +295,7 @@ kde/kdelibs/kactivities[frameworks]: frameworks/kconfig
 kde/kdelibs/kactivities[frameworks]: frameworks/kcoreaddons
 kde/kdelibs/kactivities[frameworks]: frameworks/kdbusaddons
 kde/kdelibs/kactivities[frameworks]: frameworks/kdeclarative
+kde/kdelibs/kactivities[frameworks]: frameworks/kf5umbrella
 kde/kdelibs/kactivities[frameworks]: frameworks/ki18n
 kde/kdelibs/kactivities[frameworks]: frameworks/kservice
 kde/kdelibs/kactivities[frameworks]: frameworks/kwindowsystem
