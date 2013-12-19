@@ -645,6 +645,7 @@ playground/libs/plasma-framework: frameworks/kparts
 playground/libs/plasma-framework: frameworks/kross
 playground/libs/plasma-framework: frameworks/kservice
 playground/libs/plasma-framework: frameworks/ktextwidgets
+playground/libs/plasma-framework: frameworks/kwallet-framework
 playground/libs/plasma-framework: frameworks/kwindowsystem
 playground/libs/plasma-framework: frameworks/kxmlgui
 playground/libs/plasma-framework: frameworks/solid
