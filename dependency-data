@@ -618,6 +618,9 @@ calligra: kdesupport/soprano[master]
 # Playground Libs
 playground/libs/plasma-framework: frameworks/karchive
 playground/libs/plasma-framework: frameworks/kauth
+playground/libs/plasma-framework: frameworks/kbookmarks
+playground/libs/plasma-framework: frameworks/kcodecs
+playground/libs/plasma-framework: frameworks/kcompletion
 playground/libs/plasma-framework: frameworks/kconfig
 playground/libs/plasma-framework: frameworks/kconfigwidgets
 playground/libs/plasma-framework: frameworks/kcoreaddons
@@ -625,18 +628,28 @@ playground/libs/plasma-framework: frameworks/kcrash
 playground/libs/plasma-framework: frameworks/kdbusaddons
 playground/libs/plasma-framework: frameworks/kde4support
 playground/libs/plasma-framework: frameworks/kdeclarative
+playground/libs/plasma-framework: frameworks/kdesignerplugin
 playground/libs/plasma-framework: frameworks/kdnssd-framework
+playground/libs/plasma-framework: frameworks/kdoctools
 playground/libs/plasma-framework: frameworks/kglobalaccel
 playground/libs/plasma-framework: frameworks/kguiaddons
 playground/libs/plasma-framework: frameworks/ki18n
 playground/libs/plasma-framework: frameworks/kiconthemes
 playground/libs/plasma-framework: frameworks/kidletime
 playground/libs/plasma-framework: frameworks/kio
+playground/libs/plasma-framework: frameworks/kitemmodels
+playground/libs/plasma-framework: frameworks/kjobwidgets
+playground/libs/plasma-framework: frameworks/kjs
+playground/libs/plasma-framework: frameworks/knotifications
+playground/libs/plasma-framework: frameworks/kparts
+playground/libs/plasma-framework: frameworks/kross
 playground/libs/plasma-framework: frameworks/kservice
+playground/libs/plasma-framework: frameworks/ktextwidgets
+playground/libs/plasma-framework: frameworks/kwindowsystem
 playground/libs/plasma-framework: frameworks/kxmlgui
 playground/libs/plasma-framework: frameworks/solid
+playground/libs/plasma-framework: frameworks/sonnet
 playground/libs/plasma-framework: frameworks/threadweaver
-playground/libs/plasma-framework: frameworks/kwindowsystem
 playground/libs/plasma-framework: kde/kdelibs/kactivities
 
 # Playground Base
