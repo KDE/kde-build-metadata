@@ -652,6 +652,7 @@ playground/libs/plasma-framework: frameworks/solid
 playground/libs/plasma-framework: frameworks/sonnet
 playground/libs/plasma-framework: frameworks/threadweaver
 playground/libs/plasma-framework: kde/kdelibs/kactivities
+playground/libs/plasma-framework: kdesupport/attica
 
 # Playground Base
 playground/base/kwin-compositing-kcm: kde/kde-workspace
