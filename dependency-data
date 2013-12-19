@@ -630,6 +630,7 @@ playground/libs/plasma-framework: frameworks/kglobalaccel
 playground/libs/plasma-framework: frameworks/kguiaddons
 playground/libs/plasma-framework: frameworks/ki18n
 playground/libs/plasma-framework: frameworks/kiconthemes
+playground/libs/plasma-framework: frameworks/kidletime
 playground/libs/plasma-framework: frameworks/kio
 playground/libs/plasma-framework: frameworks/kservice
 playground/libs/plasma-framework: frameworks/kxmlgui
