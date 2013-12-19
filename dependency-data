@@ -623,6 +623,7 @@ playground/libs/plasma-framework: frameworks/kconfigwidgets
 playground/libs/plasma-framework: frameworks/kcoreaddons
 playground/libs/plasma-framework: frameworks/kcrash
 playground/libs/plasma-framework: frameworks/kdbusaddons
+playground/libs/plasma-framework: frameworks/kde4support
 playground/libs/plasma-framework: frameworks/kdeclarative
 playground/libs/plasma-framework: frameworks/kdnssd-framework
 playground/libs/plasma-framework: frameworks/kglobalaccel
