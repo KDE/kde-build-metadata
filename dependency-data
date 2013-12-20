@@ -210,6 +210,7 @@ frameworks/kde4support: frameworks/ktextwidgets
 frameworks/kde4support: frameworks/kxmlgui
 frameworks/kde4support: frameworks/kbookmarks
 frameworks/kde4support: frameworks/kio
+frameworks/kde4support: frameworks/kinit
 frameworks/kde4support: frameworks/kdoctools
 frameworks/kde4support: frameworks/kcrash
 frameworks/kde4support: frameworks/knotifications
