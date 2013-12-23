@@ -421,6 +421,7 @@ kde/kdesdk/dolphin-plugins: kde/applications/kde-baseapps
 kde/kdesdk/kdesdk-strigi-analyzers: kdesupport/strigi/libstreams
 kde/kdesdk/kdesdk-strigi-analyzers: kdesupport/strigi/libstreamanalyzer
 kde/kdesdk/kompare: kde/kdesdk/libkomparediff2
+kde/kdesdk/okteta: kdesupport/qca
 
 # kdenetwork
 kde/kdenetwork/kopete: kde/kdepimlibs
