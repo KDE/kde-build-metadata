@@ -45,6 +45,11 @@
             "latest-qt4": "master",
             "kf5-qt5": "master"
         },
+        "kde/kdesdk/okteta": {
+            "stable-qt4": "KDE/4.12",
+            "latest-qt4": "master",
+            "kf5-qt5": "kf5-port"
+        },
         "kdesupport/polkit-qt-1": {
             "stable-qt4": "master",
             "latest-qt4": "master",
