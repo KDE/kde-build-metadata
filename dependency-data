@@ -74,6 +74,7 @@ frameworks/kconfigwidgets: frameworks/kwidgetsaddons
 frameworks/kdesignerplugin: frameworks/kplotting
 frameworks/kdesignerplugin: frameworks/kdoctools
 frameworks/kdesignerplugin: frameworks/kio
+frameworks/kdesignerplugin: frameworks/kdewebkit
 frameworks/kemoticons: frameworks/karchive
 frameworks/kemoticons: frameworks/kservice
 frameworks/knewstuff: kdesupport/attica
