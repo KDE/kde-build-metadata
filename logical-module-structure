@@ -25,6 +25,11 @@
         "qt5": {
             "kf5-qt5": "stable"
         },
+        "frameworks/*" : {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master"
+        },
         "kde/*" : {
             "stable-qt4": "KDE/4.12",
             "latest-qt4": "master",
@@ -33,7 +38,7 @@
         "kde/kdelibs" : {
             "stable-qt4": "KDE/4.12",
             "latest-qt4": "master",
-            "kf5-qt5": "frameworks"
+            "kf5-qt5": ""
         },
         "kde/kde-workspace" : {
             "stable-qt4": "KDE/4.11",
