@@ -264,7 +264,8 @@ kde/kdelibs/kactivities: frameworks/kwindowsystem
 
 # Kate needs KActivities
 kde/applications/kate: kde/kdelibs/kactivities
-kde/applications/kate: frameworks/kde4support # listing individual frameworks is painful
+# listing individual frameworks is painful
+kde/applications/kate: frameworks/kde4support
 
 # kdepim*
 kde/kdepimlibs: kdesupport/akonadi[master]
@@ -277,7 +278,8 @@ kde/kdepim-runtime: kdesupport/akonadi[master]
 #kde/kdepim-runtime: extragear/libs/libkgapi
 
 # kdesdk
-kde/kdesdk/okteta: frameworks/kde4support # listing individual frameworks is painful (see below ;)
+# listing individual frameworks is painful (see below ;)
+kde/kdesdk/okteta: frameworks/kde4support
 
 # Playground Libs
 playground/libs/plasma-framework: frameworks/karchive
