@@ -271,6 +271,7 @@ kde/applications/kate: frameworks/kprintutils
 kde/applications/kate: frameworks/knewstuff
 kde/applications/kate: frameworks/sonnet
 kde/applications/kate: frameworks/kitemmodels
+kde/applications/kate: frameworks/kded
 
 # kdepim*
 kde/kdepimlibs: kdesupport/akonadi[master]
