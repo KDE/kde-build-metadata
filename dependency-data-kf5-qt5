@@ -266,6 +266,10 @@ kde/kdelibs/kactivities: frameworks/kwindowsystem
 kde/applications/kate: kde/kdelibs/kactivities
 # listing individual frameworks is painful
 kde/applications/kate: frameworks/kde4support
+kde/applications/kate: frameworks/kcmutils
+kde/applications/kate: frameworks/kprintutils
+kde/applications/kate: frameworks/knewstuff
+kde/applications/kate: frameworks/sonnet
 
 # kdepim*
 kde/kdepimlibs: kdesupport/akonadi[master]
