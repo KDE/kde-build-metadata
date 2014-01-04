@@ -264,6 +264,7 @@ kde/kdelibs/kactivities: frameworks/kwindowsystem
 
 # Kate needs KActivities
 kde/applications/kate: kde/kdelibs/kactivities
+kde/applications/kate: frameworks/kinit
 
 # kdepim*
 kde/kdepimlibs: kdesupport/akonadi[master]
