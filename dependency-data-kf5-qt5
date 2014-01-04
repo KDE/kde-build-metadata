@@ -270,7 +270,7 @@ kde/applications/kate: frameworks/kcmutils
 kde/applications/kate: frameworks/kprintutils
 kde/applications/kate: frameworks/knewstuff
 kde/applications/kate: frameworks/sonnet
-kde/applications/kate: frameworks/itemmodels
+kde/applications/kate: frameworks/kitemmodels
 
 # kdepim*
 kde/kdepimlibs: kdesupport/akonadi[master]
