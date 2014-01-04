@@ -247,31 +247,60 @@ frameworks/khtml: frameworks/kwallet-framework
 frameworks/khtml: frameworks/kglobalaccel
 frameworks/khtml: kdesupport/phonon/phonon[master]
 
+# Lie about kf5umbrella: it doesn't depend on anything, but we use it as way to depend on all frameworks
+frameworks/kf5umbrella: frameworks/karchive
+frameworks/kf5umbrella: frameworks/kauth
+frameworks/kf5umbrella: frameworks/kbookmarks
+frameworks/kf5umbrella: frameworks/kcmutils
+frameworks/kf5umbrella: frameworks/kcodecs
+frameworks/kf5umbrella: frameworks/kcompletion
+frameworks/kf5umbrella: frameworks/kconfig
+frameworks/kf5umbrella: frameworks/kconfigwidgets
+frameworks/kf5umbrella: frameworks/kcoreaddons
+frameworks/kf5umbrella: frameworks/kcrash
+frameworks/kf5umbrella: frameworks/kdbusaddons
+frameworks/kf5umbrella: frameworks/kde4support
+frameworks/kf5umbrella: frameworks/kdeclarative
+frameworks/kf5umbrella: frameworks/kded
+frameworks/kf5umbrella: frameworks/kdesignerplugin
+frameworks/kf5umbrella: frameworks/kdnssd-framework
+frameworks/kf5umbrella: frameworks/kdoctools
+frameworks/kf5umbrella: frameworks/kglobalaccel
+frameworks/kf5umbrella: frameworks/kguiaddons
+frameworks/kf5umbrella: frameworks/khtml
+frameworks/kf5umbrella: frameworks/ki18n
+frameworks/kf5umbrella: frameworks/kiconthemes
+frameworks/kf5umbrella: frameworks/kidletime
+frameworks/kf5umbrella: frameworks/kinit
+frameworks/kf5umbrella: frameworks/kio
+frameworks/kf5umbrella: frameworks/kitemmodels
+frameworks/kf5umbrella: frameworks/kjobwidgets
+frameworks/kf5umbrella: frameworks/kjs
+frameworks/kf5umbrella: frameworks/knewstuff
+frameworks/kf5umbrella: frameworks/knotifications
+frameworks/kf5umbrella: frameworks/kparts
+frameworks/kf5umbrella: frameworks/kprintutils
+frameworks/kf5umbrella: frameworks/kross
+frameworks/kf5umbrella: frameworks/kservice
+frameworks/kf5umbrella: frameworks/ktextwidgets
+frameworks/kf5umbrella: frameworks/kwallet-framework
+frameworks/kf5umbrella: frameworks/kwindowsystem
+frameworks/kf5umbrella: frameworks/kxmlgui
+frameworks/kf5umbrella: frameworks/solid
+frameworks/kf5umbrella: frameworks/sonnet
+frameworks/kf5umbrella: frameworks/threadweaver
+
+# The generic dependency on all frameworks
+kde/*: frameworks/kf5umbrella
+
 # KDE Workspace
 kde/kde-workspace: playground/libs/plasma-framework
 
 # KDE Runtime
 kde/kde-runtime: playground/libs/plasma-framework
 
-kde/kdelibs/kactivities: frameworks/kconfig
-kde/kdelibs/kactivities: frameworks/kcoreaddons
-kde/kdelibs/kactivities: frameworks/kdbusaddons
-kde/kdelibs/kactivities: frameworks/kdeclarative
-kde/kdelibs/kactivities: frameworks/kf5umbrella
-kde/kdelibs/kactivities: frameworks/ki18n
-kde/kdelibs/kactivities: frameworks/kservice
-kde/kdelibs/kactivities: frameworks/kwindowsystem
-
 # Kate needs KActivities
 kde/applications/kate: kde/kdelibs/kactivities
-# listing individual frameworks is painful
-kde/applications/kate: frameworks/kde4support
-kde/applications/kate: frameworks/kcmutils
-kde/applications/kate: frameworks/kprintutils
-kde/applications/kate: frameworks/knewstuff
-kde/applications/kate: frameworks/sonnet
-kde/applications/kate: frameworks/kitemmodels
-kde/applications/kate: frameworks/kded
 
 # kdepim*
 kde/kdepimlibs: kdesupport/akonadi[master]
@@ -283,47 +312,7 @@ kde/kdepim-runtime: kdesupport/akonadi[master]
 #kde/kdepim-runtime: extragear/libs/libkfbapi
 #kde/kdepim-runtime: extragear/libs/libkgapi
 
-# kdesdk
-# listing individual frameworks is painful (see below ;)
-kde/kdesdk/okteta: frameworks/kde4support
-
 # Playground Libs
-playground/libs/plasma-framework: frameworks/karchive
-playground/libs/plasma-framework: frameworks/kauth
-playground/libs/plasma-framework: frameworks/kbookmarks
-playground/libs/plasma-framework: frameworks/kcodecs
-playground/libs/plasma-framework: frameworks/kcompletion
-playground/libs/plasma-framework: frameworks/kconfig
-playground/libs/plasma-framework: frameworks/kconfigwidgets
-playground/libs/plasma-framework: frameworks/kcoreaddons
-playground/libs/plasma-framework: frameworks/kcrash
-playground/libs/plasma-framework: frameworks/kdbusaddons
-playground/libs/plasma-framework: frameworks/kde4support
-playground/libs/plasma-framework: frameworks/kdeclarative
-playground/libs/plasma-framework: frameworks/kdesignerplugin
-playground/libs/plasma-framework: frameworks/kdnssd-framework
-playground/libs/plasma-framework: frameworks/kdoctools
-playground/libs/plasma-framework: frameworks/kglobalaccel
-playground/libs/plasma-framework: frameworks/kguiaddons
-playground/libs/plasma-framework: frameworks/ki18n
-playground/libs/plasma-framework: frameworks/kiconthemes
-playground/libs/plasma-framework: frameworks/kidletime
-playground/libs/plasma-framework: frameworks/kinit
-playground/libs/plasma-framework: frameworks/kio
-playground/libs/plasma-framework: frameworks/kitemmodels
-playground/libs/plasma-framework: frameworks/kjobwidgets
-playground/libs/plasma-framework: frameworks/kjs
-playground/libs/plasma-framework: frameworks/knotifications
-playground/libs/plasma-framework: frameworks/kparts
-playground/libs/plasma-framework: frameworks/kross
-playground/libs/plasma-framework: frameworks/kservice
-playground/libs/plasma-framework: frameworks/ktextwidgets
-playground/libs/plasma-framework: frameworks/kwallet-framework
-playground/libs/plasma-framework: frameworks/kwindowsystem
-playground/libs/plasma-framework: frameworks/kxmlgui
-playground/libs/plasma-framework: frameworks/solid
-playground/libs/plasma-framework: frameworks/sonnet
-playground/libs/plasma-framework: frameworks/threadweaver
 playground/libs/plasma-framework: kde/kdelibs/kactivities
 playground/libs/plasma-framework: kdesupport/attica
 
