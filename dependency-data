@@ -14,6 +14,7 @@
 # is needed.
 
 kde/*: kde/kdelibs
+kde/*[frameworks]: -kde/kdelibs
 *: Qt
 *: kdesupport/automoc[master]
 
@@ -289,7 +290,6 @@ kde/kdelibs/kactivities: kde/kdelibs/nepomuk-core
 kde/kdelibs/nepomuk-widgets: kde/kdelibs/nepomuk-core
 # But some things haven't yet been ported for the Qt 5 versions....
 kde/kdelibs/kactivities[frameworks]: -kde/kdelibs/nepomuk-core
-kde/kdelibs/kactivities[frameworks]: -kde/kdelibs[frameworks]
 kde/kdelibs/kactivities[frameworks]: frameworks/kconfig
 kde/kdelibs/kactivities[frameworks]: frameworks/kcoreaddons
 kde/kdelibs/kactivities[frameworks]: frameworks/kdbusaddons
@@ -420,7 +420,6 @@ kde/kdesdk/kdesdk-strigi-analyzers: kdesupport/strigi/libstreams
 kde/kdesdk/kdesdk-strigi-analyzers: kdesupport/strigi/libstreamanalyzer
 kde/kdesdk/kompare: kde/kdesdk/libkomparediff2
 kde/kdesdk/okteta: kdesupport/qca
-kde/kdesdk/okteta[kf5-port]: -kde/kdelibs
 kde/kdesdk/okteta[kf5-port]: frameworks/kde4support # frameworks/* doesn't seem to work; listing individually is painful
 
 # kdenetwork
