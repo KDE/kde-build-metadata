@@ -280,6 +280,7 @@ frameworks/kf5umbrella: frameworks/kjs
 frameworks/kf5umbrella: frameworks/knewstuff
 frameworks/kf5umbrella: frameworks/knotifications
 frameworks/kf5umbrella: frameworks/knotifyconfig
+frameworks/kf5umbrella: frameworks/frameworkintegration
 frameworks/kf5umbrella: frameworks/kparts
 frameworks/kf5umbrella: frameworks/kprintutils
 frameworks/kf5umbrella: frameworks/kross
