@@ -264,6 +264,7 @@ frameworks/kf5umbrella: frameworks/kdeclarative
 frameworks/kf5umbrella: frameworks/kded
 frameworks/kf5umbrella: frameworks/kdesignerplugin
 frameworks/kf5umbrella: frameworks/kdnssd-framework
+frameworks/kf5umbrella: frameworks/kemoticons
 frameworks/kf5umbrella: frameworks/kdoctools
 frameworks/kf5umbrella: frameworks/kglobalaccel
 frameworks/kf5umbrella: frameworks/kguiaddons
