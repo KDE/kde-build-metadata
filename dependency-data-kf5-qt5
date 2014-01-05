@@ -316,6 +316,10 @@ kde/kdepim-runtime: kdesupport/akonadi[master]
 #kde/kdepim-runtime: extragear/libs/libkfbapi
 #kde/kdepim-runtime: extragear/libs/libkgapi
 
+# Extragear SDK
+extragear/sdk/plasmate: frameworks/kf5umbrella
+extragear/sdk/plasmate: playground/libs/plasma-framework
+
 # Playground Libs
 playground/libs/plasma-framework: kde/kdelibs/kactivities
 playground/libs/plasma-framework: kdesupport/attica
