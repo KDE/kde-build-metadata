@@ -276,6 +276,7 @@ frameworks/kf5umbrella: frameworks/kparts
 frameworks/kf5umbrella: frameworks/kprintutils
 frameworks/kf5umbrella: frameworks/kross
 frameworks/kf5umbrella: frameworks/kservice
+frameworks/kf5umbrella: frameworks/ktexteditor
 frameworks/kf5umbrella: frameworks/ktextwidgets
 frameworks/kf5umbrella: frameworks/kwallet-framework
 frameworks/kf5umbrella: frameworks/kwindowsystem
