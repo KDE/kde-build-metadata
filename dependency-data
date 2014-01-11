@@ -412,7 +412,7 @@ kde/kdesdk/kdesdk-strigi-analyzers: kdesupport/strigi/libstreams
 kde/kdesdk/kdesdk-strigi-analyzers: kdesupport/strigi/libstreamanalyzer
 kde/kdesdk/kompare: kde/kdesdk/libkomparediff2
 kde/kdesdk/okteta: kdesupport/qca
-kde/kdesdk/okteta[kf5-port]: frameworks/kde4support # frameworks/* doesn't seem to work; listing individually is painful
+kde/kdesdk/okteta[frameworks]: frameworks/kde4support # frameworks/* doesn't seem to work; listing individually is painful
 
 # kdenetwork
 kde/kdenetwork/kopete: kde/kdepimlibs
