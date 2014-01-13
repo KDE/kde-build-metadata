@@ -169,7 +169,6 @@ frameworks/ktexteditor: frameworks/kconfig
 frameworks/ktexteditor: frameworks/kguiaddons
 frameworks/ktexteditor: frameworks/ki18n
 frameworks/ktexteditor: frameworks/kjobwidgets
-frameworks/ktexteditor: frameworks/kcmutils
 frameworks/ktexteditor: frameworks/kio
 frameworks/ktexteditor: frameworks/kparts
 frameworks/ktexteditor: frameworks/kprintutils
