@@ -46,7 +46,14 @@ frameworks/knotifications: frameworks/kwindowsystem
 frameworks/ki18n: frameworks/kjs
 frameworks/kdoctools: frameworks/karchive
 frameworks/kwallet-framework: frameworks/kconfig
+frameworks/kwallet-framework: frameworks/kcoreaddons
+frameworks/kwallet-framework: frameworks/kdbusaddons
+frameworks/kwallet-framework: frameworks/kiconthemes
+frameworks/kwallet-framework: frameworks/ki18n
+frameworks/kwallet-framework: frameworks/knotifications
+frameworks/kwallet-framework: frameworks/kservice
 frameworks/kwallet-framework: frameworks/kwindowsystem
+frameworks/kwallet-framework: frameworks/kwidgetsaddons
 
 #tier3
 frameworks/kbookmarks: frameworks/kconfigwidgets
