@@ -12,6 +12,10 @@
 #
 # Don't bother listing kdelibs or Qt as dependencies unless a certain branch
 # is needed.
+#
+# ====== KF5 WARNING =====================
+# for KF5 use dependency-data-kf5-qt5 file
+# ========================================
 
 kde/*: kde/kdelibs
 *: Qt
