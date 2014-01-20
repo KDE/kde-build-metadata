@@ -269,6 +269,7 @@ frameworks/kf5umbrella: frameworks/ki18n
 frameworks/kf5umbrella: frameworks/kiconthemes
 frameworks/kf5umbrella: frameworks/kidletime
 frameworks/kf5umbrella: frameworks/kinit
+frameworks/kf5umbrella: frameworks/kjsembed
 frameworks/kf5umbrella: frameworks/kio
 frameworks/kf5umbrella: frameworks/kitemmodels
 frameworks/kf5umbrella: frameworks/kjobwidgets
