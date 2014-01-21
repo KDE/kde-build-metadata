@@ -181,7 +181,6 @@ frameworks/ktexteditor: frameworks/kparts
 frameworks/ktexteditor: frameworks/kprintutils
 frameworks/ktexteditor: frameworks/sonnet
 frameworks/ktexteditor: frameworks/kxmlgui
-frameworks/ktexteditor: frameworks/knotifications
 
 # Frameworks, tier4
 frameworks/frameworkintegration: frameworks/ki18n
