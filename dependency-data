@@ -78,10 +78,11 @@ kde/kdepimlibs: kde/kdelibs
 kde/kdepimlibs: kdesupport/akonadi[master]
 kde/kdepimlibs: kdesupport/prison[master]
 kde/kdepimlibs: kde/kdelibs/nepomuk-core
-kde/kdepim: kde/kdepimlibs
+kde/kdepim: kde/kdelibs/baloo
+kde/kdepim: kde/kdelibs/kactivities
 kde/kdepim: kde/kdelibs/nepomuk-core
 kde/kdepim: kde/kdelibs/nepomuk-widgets
-kde/kdepim: kde/kdelibs/kactivities
+kde/kdepim: kde/kdepimlibs
 kde/kdepim-runtime: kde/kdepim
 kde/kdepim-runtime: kdesupport/akonadi[master]
 kde/kdepim-runtime: extragear/libs/libkfbapi
