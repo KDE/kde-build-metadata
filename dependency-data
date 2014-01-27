@@ -51,6 +51,7 @@ kde/kde-runtime: kde/kdepimlibs
 kde/kde-runtime: kde/applications/kate
 
 # This is redundant as above, but might be useful for other scripts.
+kde/kdelibs/baloo: kde/kdelibs/kfilemetadata
 kde/kdelibs/kactivities: kde/kdelibs/nepomuk-core
 kde/kdelibs/nepomuk-widgets: kde/kdelibs/nepomuk-core
 # But some things haven't yet been ported for the Qt 5 versions....
