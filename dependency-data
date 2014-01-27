@@ -50,9 +50,10 @@ kde/kde-runtime: kdesupport/attica[master]
 kde/kde-runtime: kde/kdepimlibs
 kde/kde-runtime: kde/applications/kate
 
-# baloo
+# baloo*
 kde/kdelibs/baloo: kde/kdepimlibs
 kde/kdelibs/baloo: kde/kdelibs/kfilemetadata
+kde/kdelibs/baloo-widgets: kde/kdelibs/baloo
 
 # This is redundant as above, but might be useful for other scripts.
 kde/kdelibs/kactivities: kde/kdelibs/nepomuk-core
