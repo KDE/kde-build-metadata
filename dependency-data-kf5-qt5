@@ -296,12 +296,14 @@ kde/*: frameworks/kf5umbrella
 
 # KDE Workspace
 kde/kde-workspace: playground/libs/plasma-framework
+kde/kde-workspace: frameworks/kded
 
 # KDE Runtime
 kde/kde-runtime: playground/libs/plasma-framework
 
 # Kate needs KActivities
 kde/applications/kate: kde/kdelibs/kactivities
+kde/applications/kate: frameworks/ktexteditor
 
 # kdepim*
 kde/kdepimlibs: kdesupport/akonadi[master]
