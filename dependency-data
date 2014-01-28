@@ -89,7 +89,7 @@ kde/kdepim: kde/kdelibs/kactivities
 kde/kdepim: kde/kdelibs/nepomuk-core
 kde/kdepim: kde/kdelibs/nepomuk-widgets
 kde/kdepim: kde/kdepimlibs
-kde/kdepim-runtime: kde/kdepim
+kde/kdepim-runtime: kde/kdepimlibs
 kde/kdepim-runtime: kdesupport/akonadi[master]
 kde/kdepim-runtime: extragear/libs/libkfbapi
 kde/kdepim-runtime: extragear/libs/libkgapi
