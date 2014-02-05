@@ -86,6 +86,11 @@
             "stable-qt4": "calligra/2.8",
             "latest-qt4": "master"
         },
+        "kdesupport/attica": {
+            "stable-qt4": "qt4",
+            "latest-qt4": "qt4",
+            "kf5-qt5": "master"
+        },
         "playground/libs/plasma-framework": {
             "kf5-qt5": "master"
         }
