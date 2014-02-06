@@ -62,7 +62,7 @@ kde/kdelibs/nepomuk-widgets: kde/kdelibs/nepomuk-core
 
 # kde-baseapps
 kde/applications/kde-baseapps: kde/kdelibs/kactivities
-kde/applications/kde-baseapps: kde/kdelibs/nepomuk-widgets
+kde/applications/kde-baseapps: kde/kdelibs/baloo-widgets
 kde/applications/kde-baseapps: kde/applications/kate
 
 # Kate needs KActivities
