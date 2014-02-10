@@ -145,7 +145,8 @@ kde/kdegames/picmi: kde/kdegames/libkdegames
 kde/kdegraphics/ksaneplugin: kde/kdegraphics/libs/libksane
 kde/kdegraphics/kdegraphics-thumbnailers: kde/kdegraphics/libs/libkexiv2
 kde/kdegraphics/kdegraphics-thumbnailers: kde/kdegraphics/libs/libkdcraw
-kde/kdegraphics/gwenview: kde/kdelibs/baloo
+kde/kdegraphics/gwenview[master]: kde/kdelibs/baloo
+kde/kdegraphics/gwenview[KDE/4.12]: kde/kdelibs/nepomuk-core
 kde/kdegraphics/gwenview: kde/applications/kde-baseapps
 kde/kdegraphics/gwenview: kde/kdegraphics/libs/libkexiv2
 kde/kdegraphics/gwenview: kde/kdegraphics/libs/libkipi
