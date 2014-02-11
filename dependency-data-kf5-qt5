@@ -251,6 +251,8 @@ frameworks/khtml: frameworks/kglobalaccel
 frameworks/khtml: kdesupport/phonon/phonon[master]
 
 # Lie about kf5umbrella: it doesn't depend on anything, but we use it as way to depend on all frameworks
+frameworks/kf5umbrella: kdesupport/attica
+frameworks/kf5umbrella: frameworks/kactivities
 frameworks/kf5umbrella: frameworks/karchive
 frameworks/kf5umbrella: frameworks/kauth
 frameworks/kf5umbrella: frameworks/kbookmarks
@@ -298,6 +300,8 @@ frameworks/kf5umbrella: frameworks/kxmlgui
 frameworks/kf5umbrella: frameworks/solid
 frameworks/kf5umbrella: frameworks/sonnet
 frameworks/kf5umbrella: frameworks/threadweaver
+frameworks/kf5umbrella: frameworks/krunner
+#frameworks/kf5umbrella: playground/libs/plasma-framework # TODO once it's in frameworks/
 
 # The generic dependency on all frameworks
 kde/*: frameworks/kf5umbrella
