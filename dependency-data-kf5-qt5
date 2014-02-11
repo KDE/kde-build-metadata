@@ -219,6 +219,14 @@ frameworks/kde4support: frameworks/kglobalaccel
 frameworks/kfileaudiopreview: kdesupport/phonon/phonon
 frameworks/kfileaudiopreview: frameworks/kio
 frameworks/kfileaudiopreview: frameworks/ki18n
+frameworks/krunner: frameworks/solid
+frameworks/krunner: frameworks/kio
+frameworks/krunner: frameworks/kconfig
+frameworks/krunner: frameworks/kcompletion
+frameworks/krunner: frameworks/kservice
+frameworks/krunner: frameworks/threadweaver
+frameworks/krunner: frameworks/ki18n
+frameworks/krunner: playground/libs/plasma-framework
 frameworks/khtml: frameworks/karchive
 frameworks/khtml: frameworks/ki18n
 frameworks/khtml: frameworks/kcoreaddons
@@ -297,6 +305,7 @@ kde/*: frameworks/kf5umbrella
 # KDE Workspace
 kde/kde-workspace: playground/libs/plasma-framework
 kde/kde-workspace: frameworks/kded
+kde/kde-workspace: frameworks/krunner
 
 # KDE Runtime
 kde/kde-runtime: playground/libs/plasma-framework
