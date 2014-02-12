@@ -306,6 +306,15 @@ frameworks/kf5umbrella: frameworks/krunner
 # The generic dependency on all frameworks
 kde/*: frameworks/kf5umbrella
 
+# KActivities has to be special cased as it is actually a framework
+kde/kdelibs/kactivities: -frameworks/kf5umbrella
+kde/kdelibs/kactivities: frameworks/kconfig
+kde/kdelibs/kactivities: frameworks/ki18n
+kde/kdelibs/kactivities: frameworks/kdbusaddons
+kde/kdelibs/kactivities: frameworks/kwindowsystem
+kde/kdelibs/kactivities: frameworks/kcoreaddons
+kde/kdelibs/kactivities: frameworks/kservice
+
 # KDE Workspace
 kde/kde-workspace: playground/libs/plasma-framework
 kde/kde-workspace: frameworks/kded
