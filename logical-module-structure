@@ -84,6 +84,11 @@
             "stable-qt4": "master",
             "latest-qt4": "master"
         },
+        "extragear/utils/yakuake": {
+            "stable-qt4": "master",
+            "latest-qt4": "master",
+            "kf5-qt5": "frameworks"
+        },
         "calligra": {
             "stable-qt4": "calligra/2.8",
             "latest-qt4": "master"
