@@ -378,6 +378,7 @@ playground/libs/plasma-framework: frameworks/kwallet
 playground/libs/plasma-framework: frameworks/kwidgetsaddons
 playground/libs/plasma-framework: frameworks/kwindowsystem
 playground/libs/plasma-framework: frameworks/kxmlgui
+playground/libs/plasma-framework: frameworks/ktexteditor
 
 # Playground Base
 playground/base/kwin-compositing-kcm: kde/kde-workspace
