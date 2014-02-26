@@ -11,6 +11,7 @@
     ],
 
     "layers" : [
+        "oldstable-qt4",
         "stable-qt4",
         "latest-qt4",
         "kf5-qt5"
@@ -18,6 +19,7 @@
 
     "groups" : {
         "qt": {
+            "oldstable-qt4": "4.8",
             "stable-qt4": "4.8",
             "latest-qt4": "4.8"
         },
@@ -25,31 +27,37 @@
             "kf5-qt5": "stable"
         },
         "frameworks/*" : {
+            "oldstable-qt4": "",
             "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master"
         },
         "kde/*" : {
+            "oldstable-qt4": "KDE/4.12",
             "stable-qt4": "KDE/4.12",
             "latest-qt4": "master",
             "kf5-qt5": "frameworks"
         },
         "kde/kdelibs" : {
+            "oldstable-qt4": "KDE/4.12",
             "stable-qt4": "KDE/4.12",
             "latest-qt4": "master",
             "kf5-qt5": ""
         },
         "kde/kde-workspace" : {
+            "oldstable-qt4": "KDE/4.12",
             "stable-qt4": "KDE/4.11",
             "latest-qt4": "KDE/4.11",
             "kf5-qt5": "master"
         },
         "kde/kdeedu/marble": {
+            "oldstable-qt4": "KDE/4.12",
             "stable-qt4": "KDE/4.12",
             "latest-qt4": "master",
             "kf5-qt5": "master"
         },
         "kdesupport/polkit-qt-1": {
+            "oldstable-qt4": "master",
             "stable-qt4": "master",
             "latest-qt4": "master",
             "kf5-qt5": "qt5"
@@ -94,11 +102,13 @@
             "latest-qt4": "master"
         },
         "kdesupport/attica": {
+            "oldstable-qt4": "qt4",
             "stable-qt4": "qt4",
             "latest-qt4": "qt4",
             "kf5-qt5": "master"
         },
         "kdesupport/extra-cmake-modules": {
+            "oldstable-qt4": "",
             "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master"
