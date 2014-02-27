@@ -34,25 +34,25 @@
         },
         "kde/*" : {
             "oldstable-qt4": "KDE/4.12",
-            "stable-qt4": "KDE/4.12",
+            "stable-qt4": "KDE/4.13",
             "latest-qt4": "master",
             "kf5-qt5": "frameworks"
         },
         "kde/kdelibs" : {
             "oldstable-qt4": "KDE/4.12",
-            "stable-qt4": "KDE/4.12",
+            "stable-qt4": "KDE/4.13",
             "latest-qt4": "master",
             "kf5-qt5": ""
         },
         "kde/kde-workspace" : {
-            "oldstable-qt4": "KDE/4.12",
+            "oldstable-qt4": "KDE/4.11",
             "stable-qt4": "KDE/4.11",
             "latest-qt4": "KDE/4.11",
             "kf5-qt5": "master"
         },
         "kde/kdeedu/marble": {
             "oldstable-qt4": "KDE/4.12",
-            "stable-qt4": "KDE/4.12",
+            "stable-qt4": "KDE/4.13",
             "latest-qt4": "master",
             "kf5-qt5": "master"
         },
