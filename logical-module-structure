@@ -44,6 +44,12 @@
             "latest-qt4": "master",
             "kf5-qt5": ""
         },
+        "kde/kdelibs/kactivities" : {
+            "oldstable-qt4": "KDE/4.12",
+            "stable-qt4": "KDE/4.13",
+            "latest-qt4": "KDE/4.13",
+            "kf5-qt5": "master"
+        },
         "kde/kde-workspace" : {
             "oldstable-qt4": "KDE/4.11",
             "stable-qt4": "KDE/4.11",
