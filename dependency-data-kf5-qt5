@@ -68,6 +68,7 @@ frameworks/knewstuff: frameworks/kio
 frameworks/knotifications: frameworks/kwindowsystem
 frameworks/knotifications: frameworks/kservice
 frameworks/knotifications: frameworks/kiconthemes
+frameworks/knotifications: kdesupport/phonon/phonon
 frameworks/kservice: frameworks/kconfig
 frameworks/kservice: frameworks/kcoreaddons
 frameworks/kservice: frameworks/kcrash
