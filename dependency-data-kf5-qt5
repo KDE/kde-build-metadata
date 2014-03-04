@@ -383,3 +383,7 @@ playground/libs/plasma-framework: frameworks/ktexteditor
 # Playground Base
 playground/base/kwin-compositing-kcm: kde/kde-workspace
 playground/base/kwin-compositing-kcm: playground/libs/plasma-framework
+
+# Playground Network
+playground/network/plasma-nm: extragear/libs/libnm-qt
+playground/network/plasma-nm: playground/libs/plasma-framework
