@@ -25,7 +25,6 @@ frameworks/kcrash: frameworks/kcoreaddons
 frameworks/kcrash: frameworks/kwindowsystem
 frameworks/kjobwidgets: frameworks/kcoreaddons
 frameworks/kjobwidgets: frameworks/kwidgetsaddons
-frameworks/knotifications: frameworks/kwindowsystem
 frameworks/ki18n: frameworks/kjs
 frameworks/kdoctools: frameworks/karchive
 
@@ -66,6 +65,9 @@ frameworks/knewstuff: frameworks/kxmlgui
 frameworks/knewstuff: frameworks/solid
 frameworks/knewstuff: frameworks/kbookmarks
 frameworks/knewstuff: frameworks/kio
+frameworks/knotifications: frameworks/kwindowsystem
+frameworks/knotifications: frameworks/kservice
+frameworks/knotifications: frameworks/kiconthemes
 frameworks/kservice: frameworks/kconfig
 frameworks/kservice: frameworks/kcoreaddons
 frameworks/kservice: frameworks/kcrash
