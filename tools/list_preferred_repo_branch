@@ -70,7 +70,8 @@ class LogicalGroups:
             module_path_comps = module.count("/") + 1
             search_gen = (group_spec[0] for group_spec in self.catch_alls
                     if group_spec[2] < module_path_comps and
-                        module.startswith(group_spec[1]))
+                        (module.startswith(group_spec[1] + "/") or
+                            group_spec[1] == "*")) # This would always be the last group
 
             # We use next to avoid searching the whole list when we just want
             # the first match. Due to the way we sorted self.catch_alls the
