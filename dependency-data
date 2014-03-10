@@ -255,6 +255,9 @@ extragear/base/bluedevil: kde/kdelibs
 extragear/base/bluedevil: playground/libs/libbluedevil
 extragear/base/kde-gtk-config: kde/kdelibs
 extragear/base/kscreen: extragear/libs/libkscreen
+extragear/base/kwebkitpart: kde/kdelibs
+extragear/base/polkit-kde-agent-1: kde/kdelibs
+extragear/base/polkit-kde-agent-1: kdesupport/polkit-qt-1
 
 # KDevelop
 extragear/kdevelop/*: kde/kdelibs
@@ -340,6 +343,7 @@ extragear/graphics/skanlite: kde/kdegraphics/libs/libksane
 # extragear/utils
 extragear/utils/krusader: kde/kdelibs
 extragear/utils/krusader: kde/applications/kde-baseapps
+extragear/utils/yakuake: kde/kdelibs
 
 # extragear/office
 extragear/office/tellico: kde/kdelibs

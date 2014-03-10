@@ -308,6 +308,7 @@ frameworks/kf5umbrella: frameworks/krunner
 
 # The generic dependency on all frameworks
 kde/*: frameworks/kf5umbrella
+extragear/*: frameworks/kf5umbrella
 
 # KActivities has to be special cased as it is actually a framework
 kde/kdelibs/kactivities: -frameworks/kf5umbrella
