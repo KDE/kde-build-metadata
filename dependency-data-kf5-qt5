@@ -345,6 +345,9 @@ kde/kdepim-runtime: kdesupport/akonadi[master]
 extragear/sdk/plasmate: frameworks/kf5umbrella
 extragear/sdk/plasmate: playground/libs/plasma-framework
 
+# KDevelop
+extragear/kdevelop/kdevelop: extragear/kdevelop/kdevplatform
+
 # Playground Libs
 playground/libs/plasma-framework: kde/kdelibs/kactivities
 playground/libs/plasma-framework: frameworks/karchive
