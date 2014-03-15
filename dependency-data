@@ -56,6 +56,7 @@ kde/kdelibs/baloo: kde/kdelibs/kfilemetadata
 kde/kdelibs/baloo-widgets: kde/kdelibs/baloo
 
 # This is redundant as above, but might be useful for other scripts.
+# Note that kactivities still _optionally_ depends on nepomuk-core for KDE 4 as of Mar 2014.
 kde/kdelibs/kactivities: kde/kdelibs/nepomuk-core
 kde/kdelibs/nepomuk-widgets: kde/kdelibs/nepomuk-core
 # But some things haven't yet been ported for the Qt 5 versions....
@@ -73,6 +74,7 @@ kde/applications/kate: kde/kdelibs/kactivities
 kde/applications/konsole: kde/applications/kde-baseapps
 
 # Allow addons to build after these.
+# nepomuk-core is optional, used for comics applet as of Mar 2014.
 kde/kdeplasma-addons: kde/kdelibs/nepomuk-core
 kde/kdeplasma-addons: kde/applications/kde-baseapps
 kde/kdeplasma-addons: kde/kde-workspace
@@ -83,12 +85,12 @@ kde/kdeplasma-addons: kde/kdeedu/marble
 kde/kdepimlibs: kde/kdelibs
 kde/kdepimlibs: kdesupport/akonadi[master]
 kde/kdepimlibs: kdesupport/prison[master]
-kde/kdepimlibs: kde/kdelibs/nepomuk-core
+kde/kdepimlibs[KDE/4.12]: kde/kdelibs/nepomuk-core
 kde/kdepim: extragear/libs/libkgapi
 kde/kdepim: kde/kdelibs/baloo
 kde/kdepim: kde/kdelibs/kactivities
-kde/kdepim: kde/kdelibs/nepomuk-core
-kde/kdepim: kde/kdelibs/nepomuk-widgets
+kde/kdepim[KDE/4.12]: kde/kdelibs/nepomuk-core
+kde/kdepim[KDE/4.12]: kde/kdelibs/nepomuk-widgets
 kde/kdepim: kde/kdepimlibs
 kde/kdepim[KDE/4.12]: -extragear/libs/libkgapi
 kde/kdepim[KDE/4.12]: -kde/kdelibs/baloo
