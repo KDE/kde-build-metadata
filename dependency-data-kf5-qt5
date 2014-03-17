@@ -17,7 +17,7 @@
 *: kdesupport/extra-cmake-modules
 
 # Frameworks, tier2
-frameworks/kdnssd-framework: frameworks/kconfig
+frameworks/kdnssd: frameworks/kconfig
 frameworks/kauth: frameworks/kcoreaddons
 frameworks/kcompletion: frameworks/kconfig
 frameworks/kcompletion: frameworks/kwidgetsaddons
@@ -271,7 +271,7 @@ frameworks/kf5umbrella: frameworks/kde4support
 frameworks/kf5umbrella: frameworks/kdeclarative
 frameworks/kf5umbrella: frameworks/kded
 frameworks/kf5umbrella: frameworks/kdesignerplugin
-frameworks/kf5umbrella: frameworks/kdnssd-framework
+frameworks/kf5umbrella: frameworks/kdnssd
 frameworks/kf5umbrella: frameworks/kemoticons
 frameworks/kf5umbrella: frameworks/kdoctools
 frameworks/kf5umbrella: frameworks/kglobalaccel
@@ -360,7 +360,7 @@ playground/libs/plasma-framework: frameworks/kconfigwidgets
 playground/libs/plasma-framework: frameworks/kcoreaddons
 playground/libs/plasma-framework: frameworks/kcrash
 playground/libs/plasma-framework: frameworks/kdbusaddons
-playground/libs/plasma-framework: frameworks/kdnssd-framework
+playground/libs/plasma-framework: frameworks/kdnssd
 playground/libs/plasma-framework: frameworks/kdeclarative
 playground/libs/plasma-framework: frameworks/kglobalaccel
 playground/libs/plasma-framework: frameworks/kguiaddons
