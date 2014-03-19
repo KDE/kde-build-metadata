@@ -56,6 +56,11 @@
             "latest-qt4": "KDE/4.11",
             "kf5-qt5": "master"
         },
+        "kde/kdeexamples" : {
+            "stable-qt4": "master",
+            "latest-qt4": "master",
+            "kf5-qt5": "master"
+        },
         "kde/kdeedu/marble": {
             "oldstable-qt4": "KDE/4.12",
             "stable-qt4": "KDE/4.13",
@@ -90,6 +95,11 @@
         },
         "extragear/kdevelop/kdevelop": {
             "stable-qt4": "4.6",
+            "latest-qt4": "master",
+            "kf5-qt5": "frameworks"
+        },
+        "extragear/kdevelop/utilities/kdevelop-pg-qt": {
+            "stable-qt4": "1.1",
             "latest-qt4": "master",
             "kf5-qt5": "frameworks"
         },
