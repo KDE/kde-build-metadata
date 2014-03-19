@@ -17,15 +17,19 @@
 *: kdesupport/extra-cmake-modules
 
 # Frameworks, tier2
-frameworks/kdnssd: frameworks/kconfig
 frameworks/kauth: frameworks/kcoreaddons
 frameworks/kcompletion: frameworks/kconfig
 frameworks/kcompletion: frameworks/kwidgetsaddons
 frameworks/kcrash: frameworks/kcoreaddons
 frameworks/kcrash: frameworks/kwindowsystem
+frameworks/kdnssd: frameworks/kconfig
+frameworks/kdoctools: frameworks/karchive
 frameworks/kjobwidgets: frameworks/kcoreaddons
 frameworks/kjobwidgets: frameworks/kwidgetsaddons
-frameworks/kdoctools: frameworks/karchive
+frameworks/kpty: frameworks/kcoreaddons
+frameworks/kpty: frameworks/ki18n
+frameworks/kunitconversion: frameworks/ki18n
+frameworks/kunitconversion: frameworks/kconfig
 
 # Frameworks, tier3
 frameworks/kbookmarks: frameworks/kconfigwidgets
@@ -83,8 +87,6 @@ frameworks/ktextwidgets: frameworks/kservice
 frameworks/ktextwidgets: frameworks/kwidgetsaddons
 frameworks/ktextwidgets: frameworks/kwindowsystem
 frameworks/ktextwidgets: frameworks/sonnet
-frameworks/kunitconversion: frameworks/ki18n
-frameworks/kunitconversion: frameworks/kconfig
 frameworks/kparts: frameworks/kio
 frameworks/kparts: frameworks/kxmlgui
 frameworks/kparts: frameworks/ktextwidgets
@@ -157,8 +159,6 @@ frameworks/kdewebkit: frameworks/kwallet
 frameworks/kdewebkit: frameworks/kio
 frameworks/kdewebkit: frameworks/knotifications
 frameworks/kdewebkit: frameworks/kparts
-frameworks/kpty: frameworks/kcoreaddons
-frameworks/kpty: frameworks/ki18n
 frameworks/kdesu: frameworks/kcoreaddons
 frameworks/kdesu: frameworks/kservice
 frameworks/kdesu: frameworks/kpty
