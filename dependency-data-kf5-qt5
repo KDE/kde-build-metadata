@@ -25,7 +25,6 @@ frameworks/kcrash: frameworks/kcoreaddons
 frameworks/kcrash: frameworks/kwindowsystem
 frameworks/kjobwidgets: frameworks/kcoreaddons
 frameworks/kjobwidgets: frameworks/kwidgetsaddons
-frameworks/ki18n: frameworks/kjs
 frameworks/kdoctools: frameworks/karchive
 
 # Frameworks, tier3
