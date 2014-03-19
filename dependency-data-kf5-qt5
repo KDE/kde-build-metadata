@@ -102,8 +102,6 @@ frameworks/kxmlgui: frameworks/kiconthemes
 frameworks/kxmlgui: frameworks/ktextwidgets
 frameworks/kxmlgui: frameworks/kwidgetsaddons
 frameworks/kxmlgui: frameworks/kwindowsystem
-frameworks/kprintutils: frameworks/ki18n
-frameworks/kprintutils: frameworks/kparts
 frameworks/kdeclarative: frameworks/kconfig
 frameworks/kdeclarative: frameworks/ki18n
 frameworks/kdeclarative: frameworks/kiconthemes
@@ -171,7 +169,6 @@ frameworks/ktexteditor: frameworks/ki18n
 frameworks/ktexteditor: frameworks/kjobwidgets
 frameworks/ktexteditor: frameworks/kio
 frameworks/ktexteditor: frameworks/kparts
-frameworks/ktexteditor: frameworks/kprintutils
 frameworks/ktexteditor: frameworks/sonnet
 frameworks/ktexteditor: frameworks/kxmlgui
 frameworks/kwallet: frameworks/kconfig
@@ -291,7 +288,6 @@ frameworks/kf5umbrella: frameworks/knotifyconfig
 frameworks/kf5umbrella: frameworks/frameworkintegration
 frameworks/kf5umbrella: frameworks/kdesu
 frameworks/kf5umbrella: frameworks/kparts
-frameworks/kf5umbrella: frameworks/kprintutils
 frameworks/kf5umbrella: frameworks/kross
 frameworks/kf5umbrella: frameworks/kservice
 frameworks/kf5umbrella: frameworks/ktexteditor
