@@ -323,6 +323,7 @@ kde/kdelibs/kactivities: frameworks/kservice
 kde/kde-workspace: playground/libs/plasma-framework
 kde/kde-workspace: frameworks/kded
 kde/kde-workspace: frameworks/krunner
+kde/kde-workspace: playground/artwork/oxygen-fonts
 
 # KDE Runtime
 kde/kde-runtime: playground/libs/plasma-framework
