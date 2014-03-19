@@ -303,7 +303,6 @@ frameworks/kf5umbrella: frameworks/kxmlgui
 frameworks/kf5umbrella: frameworks/solid
 frameworks/kf5umbrella: frameworks/sonnet
 frameworks/kf5umbrella: frameworks/threadweaver
-frameworks/kf5umbrella: frameworks/krunner
 #frameworks/kf5umbrella: playground/libs/plasma-framework # TODO once it's in frameworks/
 
 # The generic dependency on all frameworks
@@ -324,6 +323,10 @@ kde/kde-workspace: playground/libs/plasma-framework
 kde/kde-workspace: frameworks/kded
 kde/kde-workspace: frameworks/krunner
 kde/kde-workspace: playground/artwork/oxygen-fonts
+
+# Things that depend on krunner
+kde/kdeplasma-addons: frameworks/krunner
+kde/kdelibs/baloo: frameworks/krunner
 
 # KDE Runtime
 kde/kde-runtime: playground/libs/plasma-framework
