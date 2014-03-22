@@ -340,9 +340,10 @@ kde/kdepim-runtime: kdesupport/akonadi[master]
 #kde/kdepim-runtime: extragear/libs/libkfbapi
 #kde/kdepim-runtime: extragear/libs/libkgapi
 
-# Extragear SDK
+# Extragear
 extragear/sdk/plasmate: frameworks/kf5umbrella
 extragear/sdk/plasmate: playground/libs/plasma-framework
+extragear/multimedia/plasma-mediacenter: playground/libs/plasma-framework
 
 # KDevelop
 extragear/kdevelop/kdevelop: extragear/kdevelop/kdevplatform
