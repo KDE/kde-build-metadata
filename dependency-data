@@ -314,6 +314,7 @@ extragear/multimedia/k3b: kde/kdemultimedia/libkcddb
 extragear/multimedia/plasma-mediacenter: kde/kdelibs
 extragear/multimedia/plasma-mediacenter: kde/kdelibs/nepomuk-core
 extragear/multimedia/plasma-mediacenter: kde/kde-workspace
+extragear/multimedia/plasma-mediacenter: kde/kdelibs/baloo
 extragear/multimedia/kamoso: kde/kdelibs
 extragear/multimedia/kamoso: kde/kdegraphics/libs/libkipi
 
