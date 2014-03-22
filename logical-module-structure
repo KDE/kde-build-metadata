@@ -115,6 +115,11 @@
             "stable-qt4": "master",
             "latest-qt4": "master"
         },
+        "extragear/multimedia/plasma-mediacenter": {
+            "stable-qt4": "master",
+            "latest-qt4": "master",
+            "kf5-qt5": "frameworks-scratch"
+        },
         "extragear/utils/yakuake": {
             "stable-qt4": "master",
             "latest-qt4": "master",
