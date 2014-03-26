@@ -391,6 +391,12 @@ playground/libs/plasma-framework: frameworks/ktexteditor
 # Playground Base
 playground/base/kwin-compositing-kcm: kde/kde-workspace
 playground/base/kwin-compositing-kcm: playground/libs/plasma-framework
+Playground/base/kde-gtk-config: frameworks/ki18n
+Playground/base/kde-gtk-config: frameworks/kconfigwidgets
+Playground/base/kde-gtk-config: frameworks/knewstuff
+Playground/base/kde-gtk-config: Frameworks/karchive
+Playground/base/kde-gtk-config: frameworks/kcmutils
+Playground/base/kde-gtk-config: Frameworks/kauth
 
 # Playground Network
 playground/network/plasma-nm: extragear/libs/libnm-qt
