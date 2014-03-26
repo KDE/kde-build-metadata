@@ -95,6 +95,7 @@ frameworks/kiconthemes: frameworks/ki18n
 frameworks/kiconthemes: frameworks/kconfigwidgets
 frameworks/kiconthemes: frameworks/kwidgetsaddons
 frameworks/kiconthemes: frameworks/kitemviews
+frameworks/kxmlgui: kdesupport/attica
 frameworks/kxmlgui: frameworks/kitemviews
 frameworks/kxmlgui: frameworks/kconfig
 frameworks/kxmlgui: frameworks/kglobalaccel
