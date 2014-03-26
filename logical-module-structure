@@ -125,6 +125,11 @@
             "latest-qt4": "master",
             "kf5-qt5": "frameworks"
         },
+        "extragear/base/kde-gtk-config": {
+            "stable-qt4": "2.2",
+            "latest-qt4": "master",
+            "kf5-qt5": "frameworks"
+        },
         "calligra": {
             "stable-qt4": "calligra/2.8",
             "latest-qt4": "master"
