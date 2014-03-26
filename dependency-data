@@ -418,6 +418,7 @@ playground/network/sflphone-kde: kde/kdepimlibs
 # Playground PIM
 playground/pim/zanshin: kde/kdelibs
 playground/pim/zanshin: kde/kdepimlibs
+playground/pim/zanshin: kde/kdepim-runtime
 
 # Playground KPeople
 playground/network/libkpeople: kde/kdelibs
