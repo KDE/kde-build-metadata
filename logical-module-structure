@@ -76,7 +76,7 @@
         "extragear/libs/libnm-qt": {
             "stable-qt4": "NM/0.9.8",
             "latest-qt4": "NM/0.9.8",
-            "kf5-qt5": "qt5"
+            "kf5-qt5": "master"
         },
         "playground/network/plasma-nm": {
             "kf5-qt5": "frameworks"
