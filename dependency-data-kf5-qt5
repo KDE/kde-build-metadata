@@ -58,6 +58,7 @@ frameworks/kdesignerplugin: frameworks/kio
 frameworks/kdesignerplugin: frameworks/kdewebkit
 frameworks/kemoticons: frameworks/karchive
 frameworks/kemoticons: frameworks/kservice
+frameworks/kemoticons: frameworks/kded # tests require this due to kservice usage
 frameworks/knewstuff: kdesupport/attica
 frameworks/knewstuff: frameworks/ki18n
 frameworks/knewstuff: frameworks/kitemviews
@@ -105,6 +106,7 @@ frameworks/kxmlgui: frameworks/kiconthemes
 frameworks/kxmlgui: frameworks/ktextwidgets
 frameworks/kxmlgui: frameworks/kwidgetsaddons
 frameworks/kxmlgui: frameworks/kwindowsystem
+frameworks/kxmlgui: frameworks/kded # tests require this due to kglobalaccel usage
 frameworks/kdeclarative: frameworks/kconfig
 frameworks/kdeclarative: frameworks/ki18n
 frameworks/kdeclarative: frameworks/kiconthemes
@@ -153,6 +155,7 @@ frameworks/kio: frameworks/kxmlgui
 frameworks/kio: frameworks/kbookmarks
 frameworks/kio: frameworks/knotifications
 frameworks/kio: frameworks/kwallet
+frameworks/kio: frameworks/kded # tests require this due to kservice usage
 frameworks/kmediaplayer: frameworks/ki18n
 frameworks/kmediaplayer: frameworks/kparts
 frameworks/kmediaplayer: frameworks/kxmlgui
