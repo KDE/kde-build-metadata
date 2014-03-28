@@ -155,7 +155,6 @@ frameworks/kio: frameworks/kxmlgui
 frameworks/kio: frameworks/kbookmarks
 frameworks/kio: frameworks/knotifications
 frameworks/kio: frameworks/kwallet
-frameworks/kio: frameworks/kded # tests require this due to kservice usage
 frameworks/kmediaplayer: frameworks/ki18n
 frameworks/kmediaplayer: frameworks/kparts
 frameworks/kmediaplayer: frameworks/kxmlgui
