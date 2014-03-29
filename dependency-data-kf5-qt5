@@ -58,7 +58,6 @@ frameworks/kdesignerplugin: frameworks/kio
 frameworks/kdesignerplugin: frameworks/kdewebkit
 frameworks/kemoticons: frameworks/karchive
 frameworks/kemoticons: frameworks/kservice
-frameworks/kemoticons: frameworks/kded # tests require this due to kservice usage
 frameworks/knewstuff: kdesupport/attica
 frameworks/knewstuff: frameworks/ki18n
 frameworks/knewstuff: frameworks/kitemviews
