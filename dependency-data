@@ -64,6 +64,7 @@ kde/kdelibs/nepomuk-widgets: kde/kdelibs/nepomuk-core
 # kde-baseapps
 kde/applications/kde-baseapps: kde/kdelibs/kactivities
 kde/applications/kde-baseapps[master]: kde/kdelibs/baloo-widgets
+kde/applications/kde-baseapps[KDE/4.13]: kde/kdelibs/baloo-widgets
 kde/applications/kde-baseapps[KDE/4.12]: kde/kdelibs/nepomuk-widgets
 kde/applications/kde-baseapps: kde/applications/kate
 
