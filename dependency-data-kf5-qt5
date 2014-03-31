@@ -315,11 +315,158 @@ kde/kdelibs/kactivities: frameworks/kwindowsystem
 kde/kdelibs/kactivities: frameworks/kcoreaddons
 kde/kdelibs/kactivities: frameworks/kservice
 
-# KDE Workspace
-kde/kde-workspace: playground/libs/plasma-framework
-kde/kde-workspace: frameworks/kded
-kde/kde-workspace: frameworks/krunner
-kde/kde-workspace: playground/artwork/oxygen-fonts
+# libksysguard
+kde/kde-workspace/libksysguard: frameworks/ki18n
+kde/kde-workspace/libksysguard: frameworks/kde4support
+kde/kde-workspace/libksysguard: frameworks/kconfig
+kde/kde-workspace/libksysguard: playground/libs/plasma-framework
+
+# khotkeys
+kde/kde-workspace/khotkeys: frameworks/kglobalaccel
+kde/kde-workspace/khotkeys: frameworks/ki18n
+kde/kde-workspace/khotkeys: frameworks/kio
+kde/kde-workspace/khotkeys: frameworks/kxmlgui
+kde/kde-workspace/khotkeys: frameworks/kde4support
+kde/kde-workspace/khotkeys: frameworks/kglobalaccel
+kde/kde-workspace/khotkeys: frameworks/kdbusaddons
+kde/kde-workspace/khotkeys: frameworks/kcmutils
+kde/kde-workspace/khotkeys: playground/libs/plasma-framework
+
+# kinfocenter
+kde/kde-workspace/kinfocenter: frameworks/ki18n
+kde/kde-workspace/kinfocenter: frameworks/kxmlgui
+kde/kde-workspace/kinfocenter: frameworks/kde4support
+kde/kde-workspace/kinfocenter: frameworks/kwindowsystem
+kde/kde-workspace/kinfocenter: frameworks/kcmutils
+kde/kde-workspace/kinfocenter: frameworks/solid
+kde/kde-workspace/kinfocenter: playground/libs/plasma-framework
+
+# kmenuedit
+kde/kde-workspace/kmenuedit: frameworks/ki18n
+kde/kde-workspace/kmenuedit: frameworks/kxmlgui
+kde/kde-workspace/kmenuedit: frameworks/kwindowsystem
+kde/kde-workspace/kmenuedit: frameworks/kcmutils
+kde/kde-workspace/kmenuedit: frameworks/solid
+kde/kde-workspace/kmenuedit: frameworks/kdbusaddons
+kde/kde-workspace/kmenuedit: frameworks/kiconthemes
+kde/kde-workspace/kmenuedit: frameworks/kio
+kde/kde-workspace/kmenuedit: frameworks/sonnet
+kde/kde-workspace/kmenuedit: frameworks/kinit
+kde/kde-workspace/kmenuedit: frameworks/kde4support
+kde/kde-workspace/kmenuedit: frameworks/kplasma
+
+# ksysguard
+kde/kde-workspace/ksysguard: frameworks/kcoreaddons
+kde/kde-workspace/ksysguard: frameworks/ki18n
+kde/kde-workspace/ksysguard: frameworks/kitemviews
+kde/kde-workspace/ksysguard: frameworks/knewstuff
+kde/kde-workspace/ksysguard: frameworks/kconfig
+kde/kde-workspace/ksysguard: frameworks/kinit
+kde/kde-workspace/ksysguard: frameworks/kiconthemes
+kde/kde-workspace/ksysguard: frameworks/kde4support
+kde/kde-workspace/ksysguard: kde/kde-workspace/libksysguard
+kde/kde-workspace/ksysguard: playground/libs/plasma-framework
+
+#kwin
+kde/kde-workspace/kwin: frameworks/kconfig
+kde/kde-workspace/kwin: frameworks/kconfigwidgets
+kde/kde-workspace/kwin: frameworks/kcoreaddons
+kde/kde-workspace/kwin: frameworks/kcrash
+kde/kde-workspace/kwin: frameworks/kglobalaccel
+kde/kde-workspace/kwin: frameworks/ki18n
+kde/kde-workspace/kwin: frameworks/knotifications
+kde/kde-workspace/kwin: frameworks/kservice
+kde/kde-workspace/kwin: frameworks/kwidgetsaddons
+kde/kde-workspace/kwin: frameworks/kwindowsystem
+kde/kde-workspace/kwin: frameworks/kcompletion
+kde/kde-workspace/kwin: frameworks/kcmutils
+kde/kde-workspace/kwin: frameworks/kio
+kde/kde-workspace/kwin: frameworks/knewstuff
+kde/kde-workspace/kwin: frameworks/kxmlgui
+kde/kde-workspace/kwin: frameworks/kactivities
+kde/kde-workspace/kwin: playground/libs/plasma-framework
+
+#kwrited
+kde/kde-workspace/kwrited: frameworks/ki18n
+kde/kde-workspace/kwrited: frameworks/kconfig
+kde/kde-workspace/kwrited: frameworks/kguiaddons
+kde/kde-workspace/kwrited: frameworks/kwidgetsaddons
+kde/kde-workspace/kwrited: frameworks/kservice
+kde/kde-workspace/kwrited: frameworks/kcompletion
+kde/kde-workspace/kwrited: frameworks/frameworkintegration
+kde/kde-workspace/kwrited: frameworks/kwindowsystem
+kde/kde-workspace/kwrited: frameworks/kde4support
+kde/kde-workspace/kwrited: kde/kde-workspace/kwin  # KDecorations
+
+#oxygen
+kde/kde-workspace/oxygen: frameworks/ki18n
+kde/kde-workspace/oxygen: frameworks/kconfig
+kde/kde-workspace/oxygen: frameworks/kguiaddons
+kde/kde-workspace/oxygen: frameworks/kwidgetsaddons
+kde/kde-workspace/oxygen: frameworks/kservice
+kde/kde-workspace/oxygen: frameworks/kcompletion
+kde/kde-workspace/oxygen: frameworks/frameworkintegration
+kde/kde-workspace/oxygen: frameworks/kwindowsystem
+kde/kde-workspace/oxygen: frameworks/kde4support
+
+# Plasma Workspace
+kde/kde-workspace/plasma-workspace: frameworks/kdoctools
+kde/kde-workspace/plasma-workspace: frameworks/krunner
+kde/kde-workspace/plasma-workspace: frameworks/kjsembed
+kde/kde-workspace/plasma-workspace: frameworks/knotifyconfig
+kde/kde-workspace/plasma-workspace: frameworks/kdesu
+kde/kde-workspace/plasma-workspace: frameworks/knewstuff
+kde/kde-workspace/plasma-workspace: frameworks/kidletime
+kde/kde-workspace/plasma-workspace: frameworks/threadweaver
+kde/kde-workspace/plasma-workspace: frameworks/kdeclarative
+kde/kde-workspace/plasma-workspace: playground/libs/plasma-framework
+kde/kde-workspace/plasma-workspace: frameworks/kde4support
+kde/kde-workspace/plasma-workspace: kde/kde-workspace/libksysguard
+kde/kde-workspace/plasma-workspace: kde/kde-workspace/kwin
+
+# PowerDevil
+kde/kde-workspace/powerdevil: frameworks/kauth
+kde/kde-workspace/powerdevil: frameworks/kidletime
+kde/kde-workspace/powerdevil: frameworks/kconfig
+kde/kde-workspace/powerdevil: frameworks/solid
+kde/kde-workspace/powerdevil: frameworks/ki18n
+kde/kde-workspace/powerdevil: frameworks/kglobalaccel
+kde/kde-workspace/powerdevil: frameworks/kio
+kde/kde-workspace/powerdevil: frameworks/kwindowsystem
+kde/kde-workspace/powerdevil: frameworks/knotifyconfig
+kde/kde-workspace/powerdevil: frameworks/kde4support
+kde/kde-workspace/powerdevil: playground/libs/plasma-framework
+kde/kde-workspace/powerdevil: kde/kde-workspace/plasma-workspace
+
+# System Settings
+kde/kde-workspace/systemsettings: frameworks/kitemviews
+kde/kde-workspace/systemsettings: frameworks/kcmutils
+kde/kde-workspace/systemsettings: frameworks/ki18n
+kde/kde-workspace/systemsettings: frameworks/kio
+kde/kde-workspace/systemsettings: frameworks/kservice
+kde/kde-workspace/systemsettings: frameworks/kiconthemes
+kde/kde-workspace/systemsettings: frameworks/kwindowsystem
+kde/kde-workspace/systemsettings: frameworks/kxmlgui
+kde/kde-workspace/systemsettings: frameworks/kdbusaddons
+kde/kde-workspace/systemsettings: frameworks/kconfig
+kde/kde-workspace/systemsettings: frameworks/khtml
+kde/kde-workspace/systemsettings: frameworks/kde4support
+
+
+# Plasma Desktop
+kde/kde-workspace/plasma-desktop: frameworks/kdoctools
+kde/kde-workspace/plasma-desktop: frameworks/ki18n
+kde/kde-workspace/plasma-desktop: frameworks/kcmutils
+kde/kde-workspace/plasma-desktop: frameworks/knewstuff
+kde/kde-workspace/plasma-desktop: frameworks/kde4support
+kde/kde-workspace/plasma-desktop: frameworks/knotifyconfig
+kde/kde-workspace/plasma-desktop: frameworks/kdesu
+kde/kde-workspace/plasma-desktop: frameworks/krunner
+kde/kde-workspace/plasma-desktop: playground/libs/plasma-framework
+kde/kde-workspace/plasma-desktop: kde/kde-workspace/systemsettings
+kde/kde-workspace/plasma-desktop: kde/kde-workspace/powerdevil
+kde/kde-workspace/plasma-desktop: kde/kde-workspace/ksysguard
+kde/kde-workspace/plasma-desktop: kde/kde-workspace/oxygen
 
 # Things that depend on krunner
 kde/kdeplasma-addons: frameworks/krunner
@@ -390,7 +537,7 @@ playground/libs/plasma-framework: frameworks/kxmlgui
 playground/libs/plasma-framework: frameworks/ktexteditor
 
 # Playground Base
-playground/base/kwin-compositing-kcm: kde/kde-workspace
+playground/base/kwin-compositing-kcm: kde/kde-workspace/kwin
 playground/base/kwin-compositing-kcm: playground/libs/plasma-framework
 Playground/base/kde-gtk-config: frameworks/ki18n
 Playground/base/kde-gtk-config: frameworks/kconfigwidgets
