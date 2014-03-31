@@ -353,7 +353,7 @@ kde/kde-workspace/kmenuedit: frameworks/kio
 kde/kde-workspace/kmenuedit: frameworks/sonnet
 kde/kde-workspace/kmenuedit: frameworks/kinit
 kde/kde-workspace/kmenuedit: frameworks/kde4support
-kde/kde-workspace/kmenuedit: frameworks/kplasma
+kde/kde-workspace/kmenuedit: frameworks/plasma-workspace
 
 # ksysguard
 kde/kde-workspace/ksysguard: frameworks/kcoreaddons
