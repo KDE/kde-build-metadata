@@ -56,6 +56,12 @@
             "latest-qt4": "KDE/4.11",
             "kf5-qt5": "master"
         },
+        "kde/kde-workspace/*" : {
+            "oldstable-qt4": "",
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master"
+        },
         "kde/kdeexamples" : {
             "stable-qt4": "master",
             "latest-qt4": "master",
