@@ -50,17 +50,17 @@
             "latest-qt4": "KDE/4.13",
             "kf5-qt5": "master"
         },
-        "kde/kde-workspace" : {
-            "oldstable-qt4": "KDE/4.11",
-            "stable-qt4": "KDE/4.11",
-            "latest-qt4": "KDE/4.11",
-            "kf5-qt5": "master"
-        },
-        "kde/kde-workspace/*" : {
+        "kde/workspace/*" : {
             "oldstable-qt4": "",
             "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master"
+        },
+        "kde/workspace/kde-workspace" : {
+            "oldstable-qt4": "KDE/4.11",
+            "stable-qt4": "KDE/4.11",
+            "latest-qt4": "KDE/4.11",
+            "kf5-qt5": ""
         },
         "kde/kdeexamples" : {
             "stable-qt4": "master",
