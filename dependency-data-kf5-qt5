@@ -330,6 +330,7 @@ kde/workspace/khotkeys: frameworks/kde4support
 kde/workspace/khotkeys: frameworks/kglobalaccel
 kde/workspace/khotkeys: frameworks/kdbusaddons
 kde/workspace/khotkeys: frameworks/kcmutils
+kde/workspace/khotkeys: kde/workspace/plasma-workspace
 kde/workspace/khotkeys: playground/libs/plasma-framework
 
 # kinfocenter
