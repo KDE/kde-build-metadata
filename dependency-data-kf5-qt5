@@ -538,8 +538,6 @@ playground/libs/plasma-framework: frameworks/kxmlgui
 playground/libs/plasma-framework: frameworks/ktexteditor
 
 # Playground Base
-playground/base/kwin-compositing-kcm: kde/workspace/kwin
-playground/base/kwin-compositing-kcm: playground/libs/plasma-framework
 Playground/base/kde-gtk-config: frameworks/ki18n
 Playground/base/kde-gtk-config: frameworks/kconfigwidgets
 Playground/base/kde-gtk-config: frameworks/knewstuff
