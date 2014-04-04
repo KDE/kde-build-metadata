@@ -424,6 +424,7 @@ kde/workspace/plasma-workspace: playground/libs/plasma-framework
 kde/workspace/plasma-workspace: frameworks/kde4support
 kde/workspace/plasma-workspace: kde/workspace/libksysguard
 kde/workspace/plasma-workspace: kde/workspace/kwin
+kde/workspace/plasma-workspace: extragear/base/milou[frameworks]
 
 # PowerDevil
 extragear/base/powerdevil: frameworks/kauth
@@ -471,7 +472,18 @@ kde/workspace/plasma-desktop: kde/workspace/oxygen
 
 # Things that depend on krunner
 kde/kdeplasma-addons: frameworks/krunner
-kde/kdelibs/baloo: frameworks/krunner
+kde/kdelibs/baloo[frameworks]: frameworks/krunner
+
+# Baloo
+kde/kdelibs/baloo[frameworks]: kde/kdelibs/kfilemetadata[frameworks]
+kde/kdelibs/baloo[frameworks]: frameworks/kde4support
+
+kde/kdelibs/kfilemetadata[frameworks]: frameworks/ki18n
+kde/kdelibs/kfilemetadata[frameworks]: frameworks/kservice
+kde/kdelibs/kfilemetadata[frameworks]: frameworks/karchive
+
+extragear/base/milou[frameworks]: frameworks/kde4support
+extragear/base/milou[frameworks]: kde/kdelibs/baloo[frameworks]
 
 # KDE Runtime
 kde/kde-runtime: playground/libs/plasma-framework
