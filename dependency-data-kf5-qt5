@@ -417,6 +417,13 @@ kde/workspace/khelpcenter: frameworks/kcmutils
 kde/workspace/khelpcenter: frameworks/khtml
 kde/workspace/khelpcenter: frameworks/kde4support
 
+#KDE CLI Tools
+kde/workspace/khelpcenter: frameworks/kconfig
+kde/workspace/khelpcenter: frameworks/kinit
+kde/workspace/khelpcenter: frameworks/kcmutils
+kde/workspace/khelpcenter: frameworks/su
+kde/workspace/khelpcenter: frameworks/kde4support
+
 # Plasma Workspace
 kde/workspace/plasma-workspace: frameworks/kdoctools
 kde/workspace/plasma-workspace: frameworks/krunner
@@ -433,6 +440,7 @@ kde/workspace/plasma-workspace: kde/workspace/libksysguard
 kde/workspace/plasma-workspace: kde/workspace/kwin
 kde/workspace/plasma-workspace: extragear/base/milou[frameworks]
 kde/workspace/plasma-workspace: kde/workspace/khelpcenter
+kde/workspace/plasma-workspace: kde/workspace/kde-cli-tools
 
 # PowerDevil
 extragear/base/powerdevil: frameworks/kauth
