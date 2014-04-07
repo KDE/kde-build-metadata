@@ -410,6 +410,13 @@ kde/workspace/oxygen: frameworks/frameworkintegration
 kde/workspace/oxygen: frameworks/kwindowsystem
 kde/workspace/oxygen: frameworks/kde4support
 
+#KHelpCenter
+kde/workspace/khelpcenter: frameworks/kconfig
+kde/workspace/khelpcenter: frameworks/kinit
+kde/workspace/khelpcenter: frameworks/kcmutils
+kde/workspace/khelpcenter: frameworks/khtml
+kde/workspace/khelpcenter: frameworks/kde4support
+
 # Plasma Workspace
 kde/workspace/plasma-workspace: frameworks/kdoctools
 kde/workspace/plasma-workspace: frameworks/krunner
@@ -425,6 +432,7 @@ kde/workspace/plasma-workspace: frameworks/kde4support
 kde/workspace/plasma-workspace: kde/workspace/libksysguard
 kde/workspace/plasma-workspace: kde/workspace/kwin
 kde/workspace/plasma-workspace: extragear/base/milou[frameworks]
+kde/workspace/plasma-workspace: kde/workspace/khelpcenter
 
 # PowerDevil
 extragear/base/powerdevil: frameworks/kauth
@@ -488,7 +496,8 @@ extragear/base/milou[frameworks]: kde/kdelibs/baloo[frameworks]
 # KDE Runtime
 kde/kde-runtime: playground/libs/plasma-framework
 
-# Kate needs KActivities
+# Kate
+kde/applications/kate: kde/workspace/khelpcenter
 kde/applications/kate: kde/kdelibs/kactivities
 kde/applications/kate: frameworks/ktexteditor
 
@@ -508,6 +517,7 @@ extragear/sdk/plasmate: playground/libs/plasma-framework
 extragear/multimedia/plasma-mediacenter: playground/libs/plasma-framework
 
 # KDevelop
+extragear/kdevelop/kdevelop: kde/workspace/khelpcenter
 extragear/kdevelop/kdevelop: extragear/kdevelop/kdevplatform
 
 # Playground Libs
