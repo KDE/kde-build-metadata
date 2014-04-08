@@ -434,6 +434,9 @@ kde/workspace/plasma-workspace: frameworks/knewstuff
 kde/workspace/plasma-workspace: frameworks/kidletime
 kde/workspace/plasma-workspace: frameworks/threadweaver
 kde/workspace/plasma-workspace: frameworks/kdeclarative
+kde/workspace/plasma-workspace: frameworks/kwallet
+kde/workspace/plasma-workspace: frameworks/kcmutils
+kde/workspace/plasma-workspace: frameworks/kdewebkit
 kde/workspace/plasma-workspace: playground/libs/plasma-framework
 kde/workspace/plasma-workspace: frameworks/kdelibs4support
 kde/workspace/plasma-workspace: kde/workspace/libksysguard
