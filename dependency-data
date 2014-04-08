@@ -263,6 +263,7 @@ extragear/base/polkit-kde-agent-1: kde/kdelibs
 extragear/base/polkit-kde-agent-1: kdesupport/polkit-qt-1
 extragear/base/milou: kde/kdelibs
 extragear/base/milou: kde/kdelibs/baloo
+extragear/base/milou: kde/kdelibs/kfilemetadata
 extragear/base/milou: kde/kdepimlibs
 
 # KDevelop
