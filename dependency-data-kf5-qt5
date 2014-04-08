@@ -194,29 +194,29 @@ frameworks/frameworkintegration: frameworks/kiconthemes
 frameworks/frameworkintegration: frameworks/knotifications
 frameworks/frameworkintegration: frameworks/ki18n
 frameworks/frameworkintegration: frameworks/kio
-frameworks/kde4support: frameworks/ki18n
-frameworks/kde4support: frameworks/kguiaddons
-frameworks/kde4support: frameworks/kwidgetsaddons
-frameworks/kde4support: frameworks/kdbusaddons
-frameworks/kde4support: frameworks/kconfig
-frameworks/kde4support: frameworks/kconfigwidgets
-frameworks/kde4support: frameworks/kitemviews
-frameworks/kde4support: frameworks/kiconthemes
-frameworks/kde4support: frameworks/kunitconversion
-frameworks/kde4support: frameworks/kwindowsystem
-frameworks/kde4support: frameworks/kservice
-frameworks/kde4support: frameworks/kcompletion
-frameworks/kde4support: frameworks/ktextwidgets
-frameworks/kde4support: frameworks/kxmlgui
-frameworks/kde4support: frameworks/kbookmarks
-frameworks/kde4support: frameworks/kio
-frameworks/kde4support: frameworks/kinit
-frameworks/kde4support: frameworks/kdoctools
-frameworks/kde4support: frameworks/kcrash
-frameworks/kde4support: frameworks/knotifications
-frameworks/kde4support: frameworks/kparts
-frameworks/kde4support: frameworks/kdesignerplugin
-frameworks/kde4support: frameworks/kglobalaccel
+frameworks/kdelibs4support: frameworks/ki18n
+frameworks/kdelibs4support: frameworks/kguiaddons
+frameworks/kdelibs4support: frameworks/kwidgetsaddons
+frameworks/kdelibs4support: frameworks/kdbusaddons
+frameworks/kdelibs4support: frameworks/kconfig
+frameworks/kdelibs4support: frameworks/kconfigwidgets
+frameworks/kdelibs4support: frameworks/kitemviews
+frameworks/kdelibs4support: frameworks/kiconthemes
+frameworks/kdelibs4support: frameworks/kunitconversion
+frameworks/kdelibs4support: frameworks/kwindowsystem
+frameworks/kdelibs4support: frameworks/kservice
+frameworks/kdelibs4support: frameworks/kcompletion
+frameworks/kdelibs4support: frameworks/ktextwidgets
+frameworks/kdelibs4support: frameworks/kxmlgui
+frameworks/kdelibs4support: frameworks/kbookmarks
+frameworks/kdelibs4support: frameworks/kio
+frameworks/kdelibs4support: frameworks/kinit
+frameworks/kdelibs4support: frameworks/kdoctools
+frameworks/kdelibs4support: frameworks/kcrash
+frameworks/kdelibs4support: frameworks/knotifications
+frameworks/kdelibs4support: frameworks/kparts
+frameworks/kdelibs4support: frameworks/kdesignerplugin
+frameworks/kdelibs4support: frameworks/kglobalaccel
 frameworks/kfileaudiopreview: kdesupport/phonon/phonon
 frameworks/kfileaudiopreview: frameworks/kio
 frameworks/kfileaudiopreview: frameworks/ki18n
@@ -265,7 +265,7 @@ frameworks/kf5umbrella: frameworks/kconfigwidgets
 frameworks/kf5umbrella: frameworks/kcoreaddons
 frameworks/kf5umbrella: frameworks/kcrash
 frameworks/kf5umbrella: frameworks/kdbusaddons
-frameworks/kf5umbrella: frameworks/kde4support
+frameworks/kf5umbrella: frameworks/kdelibs4support
 frameworks/kf5umbrella: frameworks/kdeclarative
 frameworks/kf5umbrella: frameworks/kded
 frameworks/kf5umbrella: frameworks/kdesignerplugin
@@ -317,7 +317,7 @@ kde/kdelibs/kactivities: frameworks/kservice
 
 # libksysguard
 kde/workspace/libksysguard: frameworks/ki18n
-kde/workspace/libksysguard: frameworks/kde4support
+kde/workspace/libksysguard: frameworks/kdelibs4support
 kde/workspace/libksysguard: frameworks/kconfig
 kde/workspace/libksysguard: playground/libs/plasma-framework
 
@@ -326,7 +326,7 @@ kde/workspace/khotkeys: frameworks/kglobalaccel
 kde/workspace/khotkeys: frameworks/ki18n
 kde/workspace/khotkeys: frameworks/kio
 kde/workspace/khotkeys: frameworks/kxmlgui
-kde/workspace/khotkeys: frameworks/kde4support
+kde/workspace/khotkeys: frameworks/kdelibs4support
 kde/workspace/khotkeys: frameworks/kglobalaccel
 kde/workspace/khotkeys: frameworks/kdbusaddons
 kde/workspace/khotkeys: frameworks/kcmutils
@@ -336,7 +336,7 @@ kde/workspace/khotkeys: playground/libs/plasma-framework
 # kinfocenter
 kde/workspace/kinfocenter: frameworks/ki18n
 kde/workspace/kinfocenter: frameworks/kxmlgui
-kde/workspace/kinfocenter: frameworks/kde4support
+kde/workspace/kinfocenter: frameworks/kdelibs4support
 kde/workspace/kinfocenter: frameworks/kwindowsystem
 kde/workspace/kinfocenter: frameworks/kcmutils
 kde/workspace/kinfocenter: frameworks/solid
@@ -353,7 +353,7 @@ kde/workspace/kmenuedit: frameworks/kiconthemes
 kde/workspace/kmenuedit: frameworks/kio
 kde/workspace/kmenuedit: frameworks/sonnet
 kde/workspace/kmenuedit: frameworks/kinit
-kde/workspace/kmenuedit: frameworks/kde4support
+kde/workspace/kmenuedit: frameworks/kdelibs4support
 kde/workspace/kmenuedit: kde/workspace/plasma-workspace
 
 # ksysguard
@@ -364,7 +364,7 @@ kde/workspace/ksysguard: frameworks/knewstuff
 kde/workspace/ksysguard: frameworks/kconfig
 kde/workspace/ksysguard: frameworks/kinit
 kde/workspace/ksysguard: frameworks/kiconthemes
-kde/workspace/ksysguard: frameworks/kde4support
+kde/workspace/ksysguard: frameworks/kdelibs4support
 kde/workspace/ksysguard: kde/workspace/libksysguard
 kde/workspace/ksysguard: playground/libs/plasma-framework
 
@@ -396,7 +396,7 @@ kde/workspace/kwrited: frameworks/kservice
 kde/workspace/kwrited: frameworks/kcompletion
 kde/workspace/kwrited: frameworks/frameworkintegration
 kde/workspace/kwrited: frameworks/kwindowsystem
-kde/workspace/kwrited: frameworks/kde4support
+kde/workspace/kwrited: frameworks/kdelibs4support
 kde/workspace/kwrited: kde/workspace/kwin  # KDecorations
 
 #oxygen
@@ -408,21 +408,21 @@ kde/workspace/oxygen: frameworks/kservice
 kde/workspace/oxygen: frameworks/kcompletion
 kde/workspace/oxygen: frameworks/frameworkintegration
 kde/workspace/oxygen: frameworks/kwindowsystem
-kde/workspace/oxygen: frameworks/kde4support
+kde/workspace/oxygen: frameworks/kdelibs4support
 
 #KHelpCenter
 kde/workspace/khelpcenter: frameworks/kconfig
 kde/workspace/khelpcenter: frameworks/kinit
 kde/workspace/khelpcenter: frameworks/kcmutils
 kde/workspace/khelpcenter: frameworks/khtml
-kde/workspace/khelpcenter: frameworks/kde4support
+kde/workspace/khelpcenter: frameworks/kdelibs4support
 
 #KDE CLI Tools
 kde/workspace/khelpcenter: frameworks/kconfig
 kde/workspace/khelpcenter: frameworks/kinit
 kde/workspace/khelpcenter: frameworks/kcmutils
 kde/workspace/khelpcenter: frameworks/kdesu
-kde/workspace/khelpcenter: frameworks/kde4support
+kde/workspace/khelpcenter: frameworks/kdelibs4support
 
 # Plasma Workspace
 kde/workspace/plasma-workspace: frameworks/kdoctools
@@ -435,7 +435,7 @@ kde/workspace/plasma-workspace: frameworks/kidletime
 kde/workspace/plasma-workspace: frameworks/threadweaver
 kde/workspace/plasma-workspace: frameworks/kdeclarative
 kde/workspace/plasma-workspace: playground/libs/plasma-framework
-kde/workspace/plasma-workspace: frameworks/kde4support
+kde/workspace/plasma-workspace: frameworks/kdelibs4support
 kde/workspace/plasma-workspace: kde/workspace/libksysguard
 kde/workspace/plasma-workspace: kde/workspace/kwin
 kde/workspace/plasma-workspace: extragear/base/milou[frameworks]
@@ -452,7 +452,7 @@ extragear/base/powerdevil: frameworks/kglobalaccel
 extragear/base/powerdevil: frameworks/kio
 extragear/base/powerdevil: frameworks/kwindowsystem
 extragear/base/powerdevil: frameworks/knotifyconfig
-extragear/base/powerdevil: frameworks/kde4support
+extragear/base/powerdevil: frameworks/kdelibs4support
 extragear/base/powerdevil: playground/libs/plasma-framework
 extragear/base/powerdevil: kde/workspace/plasma-workspace
 
@@ -468,7 +468,7 @@ kde/workspace/systemsettings: frameworks/kxmlgui
 kde/workspace/systemsettings: frameworks/kdbusaddons
 kde/workspace/systemsettings: frameworks/kconfig
 kde/workspace/systemsettings: frameworks/khtml
-kde/workspace/systemsettings: frameworks/kde4support
+kde/workspace/systemsettings: frameworks/kdelibs4support
 
 
 # Plasma Desktop
@@ -476,7 +476,7 @@ kde/workspace/plasma-desktop: frameworks/kdoctools
 kde/workspace/plasma-desktop: frameworks/ki18n
 kde/workspace/plasma-desktop: frameworks/kcmutils
 kde/workspace/plasma-desktop: frameworks/knewstuff
-kde/workspace/plasma-desktop: frameworks/kde4support
+kde/workspace/plasma-desktop: frameworks/kdelibs4support
 kde/workspace/plasma-desktop: frameworks/knotifyconfig
 kde/workspace/plasma-desktop: frameworks/kdesu
 kde/workspace/plasma-desktop: frameworks/krunner
@@ -492,13 +492,13 @@ kde/kdelibs/baloo[frameworks]: frameworks/krunner
 
 # Baloo
 kde/kdelibs/baloo[frameworks]: kde/kdelibs/kfilemetadata[frameworks]
-kde/kdelibs/baloo[frameworks]: frameworks/kde4support
+kde/kdelibs/baloo[frameworks]: frameworks/kdelibs4support
 
 kde/kdelibs/kfilemetadata[frameworks]: frameworks/ki18n
 kde/kdelibs/kfilemetadata[frameworks]: frameworks/kservice
 kde/kdelibs/kfilemetadata[frameworks]: frameworks/karchive
 
-extragear/base/milou[frameworks]: frameworks/kde4support
+extragear/base/milou[frameworks]: frameworks/kdelibs4support
 extragear/base/milou[frameworks]: kde/kdelibs/baloo[frameworks]
 
 # KDE Runtime
