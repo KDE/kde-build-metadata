@@ -114,6 +114,7 @@ frameworks/kinit: frameworks/kio
 frameworks/kinit: frameworks/ki18n
 frameworks/kinit: frameworks/kwindowsystem
 frameworks/kinit: frameworks/kcrash
+frameworks/kinit: frameworks/kdoctools
 frameworks/kjsembed: frameworks/kjs
 frameworks/kjsembed: frameworks/ki18n
 frameworks/kjsembed: frameworks/kdoctools
