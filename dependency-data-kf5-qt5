@@ -419,11 +419,11 @@ kde/workspace/khelpcenter: frameworks/khtml
 kde/workspace/khelpcenter: frameworks/kdelibs4support
 
 #KDE CLI Tools
-kde/workspace/khelpcenter: frameworks/kconfig
-kde/workspace/khelpcenter: frameworks/kinit
-kde/workspace/khelpcenter: frameworks/kcmutils
-kde/workspace/khelpcenter: frameworks/kdesu
-kde/workspace/khelpcenter: frameworks/kdelibs4support
+kde/workspace/kde-cli-tools: frameworks/kconfig
+kde/workspace/kde-cli-tools: frameworks/kinit
+kde/workspace/kde-cli-tools: frameworks/kcmutils
+kde/workspace/kde-cli-tools: frameworks/kdesu
+kde/workspace/kde-cli-tools: frameworks/kdelibs4support
 
 # Plasma Workspace
 kde/workspace/plasma-workspace: frameworks/kdoctools
