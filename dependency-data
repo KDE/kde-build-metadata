@@ -35,7 +35,7 @@ kde/kdelibs: kdesupport/qca
 kde/kde-workspace: kdesupport/akonadi[master]
 kde/kde-workspace: kdesupport/prison[master]
 kde/kde-workspace: kde/kdepimlibs
-kde/kde-workspace: kde/kdelibs/kactivities
+kde/kde-workspace: frameworks/kactivities
 kde/kde-workspace: kdesupport/strigi/libstreams[master]
 # But the Qt 5 version lives in master and things are a mess...
 kde/kde-workspace[master]: -kdesupport/akonadi[master]
@@ -45,7 +45,7 @@ kde/kde-workspace[master]: playground/libs/plasma-framework
 
 # KDE Runtime
 kde/kde-runtime: kdesupport/strigi/libstreams[master]
-kde/kde-runtime: kde/kdelibs/kactivities
+kde/kde-runtime: frameworks/kactivities
 kde/kde-runtime: kdesupport/attica[qt4]
 kde/kde-runtime: kde/kdepimlibs
 kde/kde-runtime: kde/applications/kate
@@ -57,19 +57,19 @@ kde/kdelibs/baloo-widgets: kde/kdelibs/baloo
 
 # This is redundant as above, but might be useful for other scripts.
 # Note that kactivities still _optionally_ depends on nepomuk-core for KDE 4 as of Mar 2014.
-kde/kdelibs/kactivities: kde/kdelibs/nepomuk-core
+frameworks/kactivities: kde/kdelibs/nepomuk-core
 kde/kdelibs/nepomuk-widgets: kde/kdelibs/nepomuk-core
 # But some things haven't yet been ported for the Qt 5 versions....
 
 # kde-baseapps
-kde/applications/kde-baseapps: kde/kdelibs/kactivities
+kde/applications/kde-baseapps: frameworks/kactivities
 kde/applications/kde-baseapps[master]: kde/kdelibs/baloo-widgets
 kde/applications/kde-baseapps[KDE/4.13]: kde/kdelibs/baloo-widgets
 kde/applications/kde-baseapps[KDE/4.12]: kde/kdelibs/nepomuk-widgets
 kde/applications/kde-baseapps: kde/applications/kate
 
 # Kate needs KActivities
-kde/applications/kate: kde/kdelibs/kactivities
+kde/applications/kate: frameworks/kactivities
 
 # Konsole needs kde-baseapps (for libkonq)
 kde/applications/konsole: kde/applications/kde-baseapps
@@ -89,7 +89,7 @@ kde/kdepimlibs: kdesupport/prison[master]
 kde/kdepimlibs[KDE/4.12]: kde/kdelibs/nepomuk-core
 kde/kdepim: extragear/libs/libkgapi
 kde/kdepim: kde/kdelibs/baloo
-kde/kdepim: kde/kdelibs/kactivities
+kde/kdepim: frameworks/kactivities
 kde/kdepim[KDE/4.12]: kde/kdelibs/nepomuk-core
 kde/kdepim[KDE/4.12]: kde/kdelibs/nepomuk-widgets
 kde/kdepim: kde/kdepimlibs
@@ -247,7 +247,7 @@ extragear/libs/libkscreen: kde/kdelibs
 # extragear/base
 extragear/base/plasma-mobile: kde/kdelibs
 extragear/base/plasma-mobile: kde/kdepimlibs
-extragear/base/plasma-mobile: kde/kdelibs/kactivities
+extragear/base/plasma-mobile: frameworks/kactivities
 extragear/base/plasma-mobile: kdesupport/soprano[master]
 extragear/base/plasma-mobile: kde/kde-workspace
 extragear/base/wacomtablet: kde/kdelibs
@@ -307,7 +307,7 @@ extragear/network/telepathy/ktp-text-ui: extragear/network/telepathy/ktp-common-
 extragear/network/telepathy/ktp-text-ui: extragear/network/telepathy/telepathy-logger-qt
 extragear/network/rekonq: kde/kdelibs
 extragear/network/rekonq: kde/kdelibs/nepomuk-core
-extragear/network/rekonq: kde/kdelibs/kactivities
+extragear/network/rekonq: frameworks/kactivities
 extragear/network/choqok: kde/kdelibs
 
 
@@ -361,10 +361,10 @@ extragear/office/tellico: kde/kdegraphics/libs/libksane
 extragear/office/kmymoney: kde/kdelibs
 extragear/office/kmymoney: extragear/office/alkimia
 extragear/office/kmymoney: kde/kdepimlibs
-extragear/office/kmymoney: kde/kdelibs/kactivities
+extragear/office/kmymoney: frameworks/kactivities
 extragear/office/skrooge: kde/kdelibs
 extragear/office/skrooge: kde/kdepimlibs
-extragear/office/skrooge: kde/kdelibs/kactivities
+extragear/office/skrooge: frameworks/kactivities
 extragear/office/skrooge: kde/kde-workspace
 extragear/office/alkimia: kde/kdelibs
 extragear/office/kile: kde/kdelibs
@@ -384,7 +384,7 @@ extragear/sdk/plasmate[master]: kde/kdepimlibs
 
 # office suites
 calligra: kde/kdelibs
-calligra: kde/kdelibs/kactivities
+calligra: frameworks/kactivities
 calligra: kde/kdepimlibs
 calligra: kde/kdeedu/marble
 calligra: kde/kdegraphics/libs/libkdcraw
@@ -392,7 +392,7 @@ calligra: kde/kdegraphics/okular
 calligra: kdesupport/soprano[master]
 
 # Playground Libs
-playground/libs/plasma-framework: kde/kdelibs/kactivities
+playground/libs/plasma-framework: frameworks/kactivities
 playground/libs/plasma-framework: kdesupport/attica
 
 # Playground Base

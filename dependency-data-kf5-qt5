@@ -308,13 +308,13 @@ kde/*: frameworks/kf5umbrella
 extragear/*: frameworks/kf5umbrella
 
 # KActivities has to be special cased as it is actually a framework
-kde/kdelibs/kactivities: -frameworks/kf5umbrella
-kde/kdelibs/kactivities: frameworks/kconfig
-kde/kdelibs/kactivities: frameworks/ki18n
-kde/kdelibs/kactivities: frameworks/kdbusaddons
-kde/kdelibs/kactivities: frameworks/kwindowsystem
-kde/kdelibs/kactivities: frameworks/kcoreaddons
-kde/kdelibs/kactivities: frameworks/kservice
+frameworks/kactivities: -frameworks/kf5umbrella
+frameworks/kactivities: frameworks/kconfig
+frameworks/kactivities: frameworks/ki18n
+frameworks/kactivities: frameworks/kdbusaddons
+frameworks/kactivities: frameworks/kwindowsystem
+frameworks/kactivities: frameworks/kcoreaddons
+frameworks/kactivities: frameworks/kservice
 
 # libksysguard
 kde/workspace/libksysguard: frameworks/ki18n
@@ -514,14 +514,14 @@ kde/kde-runtime: playground/libs/plasma-framework
 
 # Kate
 kde/applications/kate: kde/workspace/khelpcenter
-kde/applications/kate: kde/kdelibs/kactivities
+kde/applications/kate: frameworks/kactivities
 kde/applications/kate: frameworks/ktexteditor
 
 # kdepim*
 kde/kdepimlibs: kdesupport/akonadi[master]
 kde/kdepimlibs: kdesupport/prison[master]
 kde/kdepim: kde/kdepimlibs
-kde/kdepim: kde/kdelibs/kactivities
+kde/kdepim: frameworks/kactivities
 kde/kdepim-runtime: kde/kdepim
 kde/kdepim-runtime: kdesupport/akonadi[master]
 #kde/kdepim-runtime: extragear/libs/libkfbapi
@@ -537,7 +537,7 @@ extragear/kdevelop/kdevelop: kde/workspace/khelpcenter
 extragear/kdevelop/kdevelop: extragear/kdevelop/kdevplatform
 
 # Playground Libs
-playground/libs/plasma-framework: kde/kdelibs/kactivities
+playground/libs/plasma-framework: frameworks/kactivities
 playground/libs/plasma-framework: frameworks/karchive
 playground/libs/plasma-framework: frameworks/kauth
 playground/libs/plasma-framework: frameworks/kbookmarks
