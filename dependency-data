@@ -32,16 +32,16 @@ kde/kdelibs: kdesupport/qca
 
 # KDE Workspace
 # kactivities is a separate library now, or something like that.
-kde/workspace/kde-workspace: kdesupport/akonadi[master]
-kde/workspace/kde-workspace: kdesupport/prison[master]
-kde/workspace/kde-workspace: kde/kdepimlibs
-kde/workspace/kde-workspace: frameworks/kactivities
-kde/workspace/kde-workspace: kdesupport/strigi/libstreams[master]
+kde/kde-workspace: kdesupport/akonadi[master]
+kde/kde-workspace: kdesupport/prison[master]
+kde/kde-workspace: kde/kdepimlibs
+kde/kde-workspace: frameworks/kactivities
+kde/kde-workspace: kdesupport/strigi/libstreams[master]
 # But the Qt 5 version lives in master and things are a mess...
-kde/workspace/kde-workspace[master]: -kdesupport/akonadi[master]
-kde/workspace/kde-workspace[master]: -kdesupport/prison[master]
-kde/workspace/kde-workspace[master]: -kde/kdepimlibs
-kde/workspace/kde-workspace[master]: playground/libs/plasma-framework
+kde/kde-workspace[master]: -kdesupport/akonadi[master]
+kde/kde-workspace[master]: -kdesupport/prison[master]
+kde/kde-workspace[master]: -kde/kdepimlibs
+kde/kde-workspace[master]: playground/libs/plasma-framework
 
 # KDE Runtime
 kde/kde-runtime: kdesupport/strigi/libstreams[master]
@@ -78,7 +78,7 @@ kde/applications/konsole: kde/applications/kde-baseapps
 # nepomuk-core is optional, used for comics applet as of Mar 2014.
 kde/kdeplasma-addons: kde/kdelibs/nepomuk-core
 kde/kdeplasma-addons: kde/applications/kde-baseapps
-kde/kdeplasma-addons: kde/workspace/kde-workspace
+kde/kdeplasma-addons: kde/kde-workspace
 kde/kdeplasma-addons: kde/kdegraphics/libs/libkexiv2
 kde/kdeplasma-addons: kde/kdeedu/marble
 
@@ -192,7 +192,7 @@ kde/kdesdk/okteta: kdesupport/qca
 # kdenetwork
 kde/kdenetwork/kopete: kde/kdepimlibs
 kde/kdenetwork/kget: kde/kdepimlibs
-kde/kdenetwork/kget: kde/workspace/kde-workspace
+kde/kdenetwork/kget: kde/kde-workspace
 kde/kdenetwork/kget: kde/kde-baseapps
 kde/kdenetwork/kget: extragear/network/libktorrent
 
@@ -200,7 +200,7 @@ kde/kdenetwork/kget: extragear/network/libktorrent
 kde/kdeadmin/kuser: kde/kdepimlibs
 
 # kdetoys
-kde/kdetoys/ktux: kde/workspace/kde-workspace
+kde/kdetoys/ktux: kde/kde-workspace
 
 # kdeexamples
 kde/kdeexamples: kde/kdelibs/nepomuk-core
@@ -249,7 +249,7 @@ extragear/base/plasma-mobile: kde/kdelibs
 extragear/base/plasma-mobile: kde/kdepimlibs
 extragear/base/plasma-mobile: frameworks/kactivities
 extragear/base/plasma-mobile: kdesupport/soprano[master]
-extragear/base/plasma-mobile: kde/workspace/kde-workspace
+extragear/base/plasma-mobile: kde/kde-workspace
 extragear/base/wacomtablet: kde/kdelibs
 extragear/base/networkmanagement: kde/kdelibs
 extragear/base/networkmanagement: extragear/libs/libnm-qt
@@ -271,7 +271,7 @@ extragear/kdevelop/*: kde/kdelibs
 extragear/kdevelop/*: kde/applications/kate
 extragear/kdevelop/*: kde/applications/konsole
 extragear/kdevelop/kdevelop: extragear/kdevelop/kdevplatform
-extragear/kdevelop/kdevelop: kde/workspace/kde-workspace
+extragear/kdevelop/kdevelop: kde/kde-workspace
 extragear/kdevelop/kdevelop: kde/kdesdk/okteta
 extragear/kdevelop/plugins/kdev-php: extragear/kdevelop/kdevplatform
 extragear/kdevelop/plugins/kdev-php: extragear/kdevelop/utilities/kdevelop-pg-qt
@@ -285,7 +285,7 @@ extragear/network/libktorrent: kde/kdelibs
 extragear/network/ktorrent: kde/kdelibs
 extragear/network/ktorrent: extragear/network/libktorrent
 extragear/network/ktorrent: kde/kdepimlibs
-extragear/network/ktorrent: kde/workspace/kde-workspace
+extragear/network/ktorrent: kde/kde-workspace
 extragear/network/telepathy/*: kde/kdelibs
 extragear/network/telepathy/ktp-common-internals: kde/kdepimlibs
 extragear/network/telepathy/ktp-common-internals[master]: playground/network/libkpeople
@@ -318,7 +318,7 @@ extragear/multimedia/k3b: kde/kdelibs
 extragear/multimedia/k3b: kde/kdemultimedia/libkcddb
 extragear/multimedia/plasma-mediacenter: kde/kdelibs
 extragear/multimedia/plasma-mediacenter: kde/kdelibs/nepomuk-core
-extragear/multimedia/plasma-mediacenter: kde/workspace/kde-workspace
+extragear/multimedia/plasma-mediacenter: kde/kde-workspace
 extragear/multimedia/plasma-mediacenter: kde/kdelibs/baloo
 extragear/multimedia/kamoso: kde/kdelibs
 extragear/multimedia/kamoso: kde/kdegraphics/libs/libkipi
@@ -365,7 +365,7 @@ extragear/office/kmymoney: frameworks/kactivities
 extragear/office/skrooge: kde/kdelibs
 extragear/office/skrooge: kde/kdepimlibs
 extragear/office/skrooge: frameworks/kactivities
-extragear/office/skrooge: kde/workspace/kde-workspace
+extragear/office/skrooge: kde/kde-workspace
 extragear/office/alkimia: kde/kdelibs
 extragear/office/kile: kde/kdelibs
 extragear/office/kile: kde/kdegraphics/okular
@@ -373,7 +373,7 @@ extragear/office/kile: kde/kdegraphics/okular
 # extragear/accessibility
 extragear/accessibility/simon: kde/kdelibs
 extragear/accessibility/simon: kde/kdepimlibs
-extragear/accessibility/simon: kde/workspace/kde-workspace
+extragear/accessibility/simon: kde/kde-workspace
 
 # extragear/sysadmin
 extragear/sysadmin/muon: kde/kdelibs
@@ -396,7 +396,7 @@ playground/libs/plasma-framework: frameworks/kactivities
 playground/libs/plasma-framework: frameworks/attica
 
 # Playground Base
-playground/base/kwin-compositing-kcm: kde/workspace/kde-workspace
+playground/base/kwin-compositing-kcm: kde/kde-workspace
 playground/base/kwin-compositing-kcm: playground/libs/plasma-framework
 
 # Playground Edu
