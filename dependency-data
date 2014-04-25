@@ -21,7 +21,7 @@ kde/*: kde/kdelibs
 *: Qt
 *: kdesupport/automoc[master]
 
-kde/kdelibs: kdesupport/attica[qt4]
+kde/kdelibs: frameworks/attica[qt4]
 kde/kdelibs: kdesupport/phonon/phonon[master]
 kde/kdelibs: kdesupport/strigi/libstreams[master]
 kde/kdelibs: kdesupport/strigi/libstreamanalyzer[master]
@@ -46,7 +46,7 @@ kde/kde-workspace[master]: playground/libs/plasma-framework
 # KDE Runtime
 kde/kde-runtime: kdesupport/strigi/libstreams[master]
 kde/kde-runtime: frameworks/kactivities
-kde/kde-runtime: kdesupport/attica[qt4]
+kde/kde-runtime: frameworks/attica[qt4]
 kde/kde-runtime: kde/kdepimlibs
 kde/kde-runtime: kde/applications/kate
 
@@ -393,7 +393,7 @@ calligra: kdesupport/soprano[master]
 
 # Playground Libs
 playground/libs/plasma-framework: frameworks/kactivities
-playground/libs/plasma-framework: kdesupport/attica
+playground/libs/plasma-framework: frameworks/attica
 
 # Playground Base
 playground/base/kwin-compositing-kcm: kde/kde-workspace

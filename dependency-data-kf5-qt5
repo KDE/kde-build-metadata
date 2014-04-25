@@ -58,7 +58,7 @@ frameworks/kdesignerplugin: frameworks/kio
 frameworks/kdesignerplugin: frameworks/kdewebkit
 frameworks/kemoticons: frameworks/karchive
 frameworks/kemoticons: frameworks/kservice
-frameworks/knewstuff: kdesupport/attica
+frameworks/knewstuff: frameworks/attica
 frameworks/knewstuff: frameworks/ki18n
 frameworks/knewstuff: frameworks/kitemviews
 frameworks/knewstuff: frameworks/karchive
@@ -95,7 +95,7 @@ frameworks/kiconthemes: frameworks/ki18n
 frameworks/kiconthemes: frameworks/kconfigwidgets
 frameworks/kiconthemes: frameworks/kwidgetsaddons
 frameworks/kiconthemes: frameworks/kitemviews
-frameworks/kxmlgui: kdesupport/attica
+frameworks/kxmlgui: frameworks/attica
 frameworks/kxmlgui: frameworks/kitemviews
 frameworks/kxmlgui: frameworks/kconfig
 frameworks/kxmlgui: frameworks/kglobalaccel
@@ -253,7 +253,7 @@ frameworks/khtml: frameworks/kglobalaccel
 frameworks/khtml: kdesupport/phonon/phonon[master]
 
 # Lie about kf5umbrella: it doesn't depend on anything, but we use it as way to depend on all frameworks
-frameworks/kf5umbrella: kdesupport/attica
+frameworks/kf5umbrella: frameworks/attica
 frameworks/kf5umbrella: frameworks/kactivities
 frameworks/kf5umbrella: frameworks/karchive
 frameworks/kf5umbrella: frameworks/kauth

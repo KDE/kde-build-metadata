@@ -150,7 +150,7 @@
             "stable-qt4": "calligra/2.8",
             "latest-qt4": "master"
         },
-        "kdesupport/attica": {
+        "frameworks/attica": {
             "oldstable-qt4": "qt4",
             "stable-qt4": "qt4",
             "latest-qt4": "qt4",
