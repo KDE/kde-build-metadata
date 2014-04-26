@@ -228,7 +228,7 @@ frameworks/krunner: frameworks/kcompletion
 frameworks/krunner: frameworks/kservice
 frameworks/krunner: frameworks/threadweaver
 frameworks/krunner: frameworks/ki18n
-frameworks/krunner: playground/libs/plasma-framework
+frameworks/krunner: frameworks/plasma-framework
 frameworks/khtml: frameworks/karchive
 frameworks/khtml: frameworks/ki18n
 frameworks/khtml: frameworks/kcoreaddons
@@ -301,7 +301,7 @@ frameworks/kf5umbrella: frameworks/kxmlgui
 frameworks/kf5umbrella: frameworks/solid
 frameworks/kf5umbrella: frameworks/sonnet
 frameworks/kf5umbrella: frameworks/threadweaver
-#frameworks/kf5umbrella: playground/libs/plasma-framework # TODO once it's in frameworks/
+#frameworks/kf5umbrella: frameworks/plasma-framework # TODO once it's in frameworks/
 
 # The generic dependency on all frameworks
 kde/*: frameworks/kf5umbrella
@@ -320,7 +320,7 @@ frameworks/kactivities: frameworks/kservice
 kde/workspace/libksysguard: frameworks/ki18n
 kde/workspace/libksysguard: frameworks/kdelibs4support
 kde/workspace/libksysguard: frameworks/kconfig
-kde/workspace/libksysguard: playground/libs/plasma-framework
+kde/workspace/libksysguard: frameworks/plasma-framework
 
 # khotkeys
 kde/workspace/khotkeys: frameworks/kglobalaccel
@@ -332,7 +332,7 @@ kde/workspace/khotkeys: frameworks/kglobalaccel
 kde/workspace/khotkeys: frameworks/kdbusaddons
 kde/workspace/khotkeys: frameworks/kcmutils
 kde/workspace/khotkeys: kde/workspace/plasma-workspace
-kde/workspace/khotkeys: playground/libs/plasma-framework
+kde/workspace/khotkeys: frameworks/plasma-framework
 
 # kinfocenter
 kde/workspace/kinfocenter: frameworks/ki18n
@@ -341,7 +341,7 @@ kde/workspace/kinfocenter: frameworks/kdelibs4support
 kde/workspace/kinfocenter: frameworks/kwindowsystem
 kde/workspace/kinfocenter: frameworks/kcmutils
 kde/workspace/kinfocenter: frameworks/solid
-kde/workspace/kinfocenter: playground/libs/plasma-framework
+kde/workspace/kinfocenter: frameworks/plasma-framework
 
 # kmenuedit
 kde/workspace/kmenuedit: frameworks/ki18n
@@ -367,7 +367,7 @@ kde/workspace/ksysguard: frameworks/kinit
 kde/workspace/ksysguard: frameworks/kiconthemes
 kde/workspace/ksysguard: frameworks/kdelibs4support
 kde/workspace/ksysguard: kde/workspace/libksysguard
-kde/workspace/ksysguard: playground/libs/plasma-framework
+kde/workspace/ksysguard: frameworks/plasma-framework
 
 #kwin
 kde/workspace/kwin: frameworks/kconfig
@@ -386,7 +386,7 @@ kde/workspace/kwin: frameworks/kio
 kde/workspace/kwin: frameworks/knewstuff
 kde/workspace/kwin: frameworks/kxmlgui
 kde/workspace/kwin: frameworks/kactivities
-kde/workspace/kwin: playground/libs/plasma-framework
+kde/workspace/kwin: frameworks/plasma-framework
 
 #kwrited
 kde/workspace/kwrited: frameworks/ki18n
@@ -439,7 +439,7 @@ kde/workspace/plasma-workspace: frameworks/kdeclarative
 kde/workspace/plasma-workspace: frameworks/kwallet
 kde/workspace/plasma-workspace: frameworks/kcmutils
 kde/workspace/plasma-workspace: frameworks/kdewebkit
-kde/workspace/plasma-workspace: playground/libs/plasma-framework
+kde/workspace/plasma-workspace: frameworks/plasma-framework
 kde/workspace/plasma-workspace: frameworks/kdelibs4support
 kde/workspace/plasma-workspace: kde/workspace/libksysguard
 kde/workspace/plasma-workspace: kde/workspace/kwin
@@ -459,7 +459,7 @@ extragear/base/powerdevil: frameworks/kio
 extragear/base/powerdevil: frameworks/kwindowsystem
 extragear/base/powerdevil: frameworks/knotifyconfig
 extragear/base/powerdevil: frameworks/kdelibs4support
-extragear/base/powerdevil: playground/libs/plasma-framework
+extragear/base/powerdevil: frameworks/plasma-framework
 extragear/base/powerdevil: kde/workspace/plasma-workspace
 
 # System Settings
@@ -488,7 +488,7 @@ kde/workspace/plasma-desktop: frameworks/kdesu
 kde/workspace/plasma-desktop: frameworks/krunner
 kde/workspace/plasma-desktop: frameworks/kwallet
 kde/workspace/plasma-desktop: frameworks/attica
-kde/workspace/plasma-desktop: playground/libs/plasma-framework
+kde/workspace/plasma-desktop: frameworks/plasma-framework
 kde/workspace/plasma-desktop: kde/workspace/systemsettings
 kde/workspace/plasma-desktop: extragear/base/powerdevil
 kde/workspace/plasma-desktop: kde/workspace/ksysguard
@@ -510,7 +510,7 @@ extragear/base/milou[frameworks]: frameworks/kdelibs4support
 extragear/base/milou[frameworks]: kde/kdelibs/baloo[frameworks]
 
 # KDE Runtime
-kde/kde-runtime: playground/libs/plasma-framework
+kde/kde-runtime: frameworks/plasma-framework
 
 # Kate
 kde/applications/kate: kde/workspace/khelpcenter
@@ -529,51 +529,51 @@ kde/kdepim-runtime: kdesupport/akonadi[master]
 
 # Extragear
 extragear/sdk/plasmate: frameworks/kf5umbrella
-extragear/sdk/plasmate: playground/libs/plasma-framework
-extragear/multimedia/plasma-mediacenter: playground/libs/plasma-framework
+extragear/sdk/plasmate: frameworks/plasma-framework
+extragear/multimedia/plasma-mediacenter: frameworks/plasma-framework
 
 # KDevelop
 extragear/kdevelop/kdevelop: kde/workspace/khelpcenter
 extragear/kdevelop/kdevelop: extragear/kdevelop/kdevplatform
 
 # Playground Libs
-playground/libs/plasma-framework: frameworks/kactivities
-playground/libs/plasma-framework: frameworks/karchive
-playground/libs/plasma-framework: frameworks/kauth
-playground/libs/plasma-framework: frameworks/kbookmarks
-playground/libs/plasma-framework: frameworks/kcodecs
-playground/libs/plasma-framework: frameworks/kcompletion
-playground/libs/plasma-framework: frameworks/kconfig
-playground/libs/plasma-framework: frameworks/kconfigwidgets
-playground/libs/plasma-framework: frameworks/kcoreaddons
-playground/libs/plasma-framework: frameworks/kcrash
-playground/libs/plasma-framework: frameworks/kdbusaddons
-playground/libs/plasma-framework: frameworks/kdnssd
-playground/libs/plasma-framework: frameworks/kdeclarative
-playground/libs/plasma-framework: frameworks/kglobalaccel
-playground/libs/plasma-framework: frameworks/kguiaddons
-playground/libs/plasma-framework: frameworks/ki18n
-playground/libs/plasma-framework: frameworks/kiconthemes
-playground/libs/plasma-framework: frameworks/kidletime
-playground/libs/plasma-framework: frameworks/kitemmodels
-playground/libs/plasma-framework: frameworks/kitemviews
-playground/libs/plasma-framework: frameworks/kjs
-playground/libs/plasma-framework: frameworks/kjobwidgets
-playground/libs/plasma-framework: frameworks/kio
-playground/libs/plasma-framework: frameworks/kross
-playground/libs/plasma-framework: frameworks/knotifications
-playground/libs/plasma-framework: frameworks/kparts
-playground/libs/plasma-framework: frameworks/kservice
-playground/libs/plasma-framework: frameworks/solid
-playground/libs/plasma-framework: frameworks/sonnet
-playground/libs/plasma-framework: frameworks/ktextwidgets
-playground/libs/plasma-framework: frameworks/threadweaver
-playground/libs/plasma-framework: frameworks/kunitconversion
-playground/libs/plasma-framework: frameworks/kwallet
-playground/libs/plasma-framework: frameworks/kwidgetsaddons
-playground/libs/plasma-framework: frameworks/kwindowsystem
-playground/libs/plasma-framework: frameworks/kxmlgui
-playground/libs/plasma-framework: frameworks/ktexteditor
+frameworks/plasma-framework: frameworks/kactivities
+frameworks/plasma-framework: frameworks/karchive
+frameworks/plasma-framework: frameworks/kauth
+frameworks/plasma-framework: frameworks/kbookmarks
+frameworks/plasma-framework: frameworks/kcodecs
+frameworks/plasma-framework: frameworks/kcompletion
+frameworks/plasma-framework: frameworks/kconfig
+frameworks/plasma-framework: frameworks/kconfigwidgets
+frameworks/plasma-framework: frameworks/kcoreaddons
+frameworks/plasma-framework: frameworks/kcrash
+frameworks/plasma-framework: frameworks/kdbusaddons
+frameworks/plasma-framework: frameworks/kdnssd
+frameworks/plasma-framework: frameworks/kdeclarative
+frameworks/plasma-framework: frameworks/kglobalaccel
+frameworks/plasma-framework: frameworks/kguiaddons
+frameworks/plasma-framework: frameworks/ki18n
+frameworks/plasma-framework: frameworks/kiconthemes
+frameworks/plasma-framework: frameworks/kidletime
+frameworks/plasma-framework: frameworks/kitemmodels
+frameworks/plasma-framework: frameworks/kitemviews
+frameworks/plasma-framework: frameworks/kjs
+frameworks/plasma-framework: frameworks/kjobwidgets
+frameworks/plasma-framework: frameworks/kio
+frameworks/plasma-framework: frameworks/kross
+frameworks/plasma-framework: frameworks/knotifications
+frameworks/plasma-framework: frameworks/kparts
+frameworks/plasma-framework: frameworks/kservice
+frameworks/plasma-framework: frameworks/solid
+frameworks/plasma-framework: frameworks/sonnet
+frameworks/plasma-framework: frameworks/ktextwidgets
+frameworks/plasma-framework: frameworks/threadweaver
+frameworks/plasma-framework: frameworks/kunitconversion
+frameworks/plasma-framework: frameworks/kwallet
+frameworks/plasma-framework: frameworks/kwidgetsaddons
+frameworks/plasma-framework: frameworks/kwindowsystem
+frameworks/plasma-framework: frameworks/kxmlgui
+frameworks/plasma-framework: frameworks/ktexteditor
 
 # Playground Base
 Playground/base/kde-gtk-config: frameworks/ki18n
@@ -585,4 +585,4 @@ Playground/base/kde-gtk-config: Frameworks/kauth
 
 # Playground Network
 playground/network/plasma-nm: extragear/libs/libnm-qt
-playground/network/plasma-nm: playground/libs/plasma-framework
+playground/network/plasma-nm: frameworks/plasma-framework

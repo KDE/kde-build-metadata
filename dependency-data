@@ -41,7 +41,7 @@ kde/kde-workspace: kdesupport/strigi/libstreams[master]
 kde/kde-workspace[master]: -kdesupport/akonadi[master]
 kde/kde-workspace[master]: -kdesupport/prison[master]
 kde/kde-workspace[master]: -kde/kdepimlibs
-kde/kde-workspace[master]: playground/libs/plasma-framework
+kde/kde-workspace[master]: frameworks/plasma-framework
 
 # KDE Runtime
 kde/kde-runtime: kdesupport/strigi/libstreams[master]
@@ -392,12 +392,12 @@ calligra: kde/kdegraphics/okular
 calligra: kdesupport/soprano[master]
 
 # Playground Libs
-playground/libs/plasma-framework: frameworks/kactivities
-playground/libs/plasma-framework: frameworks/attica
+frameworks/plasma-framework: frameworks/kactivities
+frameworks/plasma-framework: frameworks/attica
 
 # Playground Base
 playground/base/kwin-compositing-kcm: kde/kde-workspace
-playground/base/kwin-compositing-kcm: playground/libs/plasma-framework
+playground/base/kwin-compositing-kcm: frameworks/plasma-framework
 
 # Playground Edu
 playground/edu/artikulate: kde/kdelibs

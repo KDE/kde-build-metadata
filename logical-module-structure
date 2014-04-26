@@ -162,7 +162,7 @@
             "latest-qt4": "",
             "kf5-qt5": "master"
         },
-        "playground/libs/plasma-framework": {
+        "frameworks/plasma-framework": {
             "kf5-qt5": "master"
         }
     }
