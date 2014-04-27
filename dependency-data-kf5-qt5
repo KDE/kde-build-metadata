@@ -582,3 +582,11 @@ Playground/base/kde-gtk-config: Frameworks/kauth
 # Playground Network
 playground/network/plasma-nm: extragear/libs/libnm-qt
 playground/network/plasma-nm: frameworks/plasma-framework
+
+# KTp
+extragear/network/telepathy/ktp-common-internals[frameworks]: frameworks/kcmutils
+extragear/network/telepathy/ktp-common-internals[frameworks]: frameworks/knotifyconfig
+extragear/network/telepathy/ktp-common-internals[frameworks]: frameworks/ktexteditor
+extragear/network/telepathy/ktp-common-internals[frameworks]: frameworks/kde4support
+extragear/network/telepathy/ktp-common-internals[frameworks]: frameworks/kwallet
+extragear/network/telepathy/ktp-desktop-applets[frameworks]: extragear/network/telepathy/ktp-common-internals[frameworks]
