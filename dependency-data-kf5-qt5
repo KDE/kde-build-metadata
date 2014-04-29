@@ -570,6 +570,7 @@ extragear/multimedia/plasma-mediacenter: frameworks/plasma-framework
 # KDevelop
 extragear/kdevelop/kdevelop: kde/workspace/khelpcenter
 extragear/kdevelop/kdevelop: extragear/kdevelop/kdevplatform
+extragear/kdevelop/kdevplatform: kde/kdesdk/libkomparediff2
 
 # Playground Base
 Playground/base/kde-gtk-config: frameworks/ki18n
