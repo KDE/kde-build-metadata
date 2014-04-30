@@ -134,7 +134,7 @@
         "extragear/multimedia/plasma-mediacenter": {
             "stable-qt4": "master",
             "latest-qt4": "master",
-            "kf5-qt5": "frameworks-scratch"
+            "kf5-qt5": "frameworks"
         },
         "extragear/utils/yakuake": {
             "stable-qt4": "master",
