@@ -566,6 +566,7 @@ kde/kdepim-runtime: kdesupport/akonadi[master]
 extragear/sdk/plasmate: frameworks/kf5umbrella
 extragear/sdk/plasmate: frameworks/plasma-framework
 extragear/multimedia/plasma-mediacenter: frameworks/plasma-framework
+extragear/multimedia/plasma-mediacenter: kde/kdelibs/baloo[frameworks]
 
 # KDevelop
 extragear/kdevelop/kdevelop: kde/workspace/khelpcenter
