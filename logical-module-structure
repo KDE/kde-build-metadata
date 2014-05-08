@@ -89,6 +89,16 @@
             "latest-qt4": "master",
             "kf5-qt5": "frameworks"
         },
+        "extragear/base/bluedevil": {
+            "stable-qt4": "master",
+            "latest-qt4": "master",
+            "kf5-qt5": "frameworks"
+        },
+        "playground/libs/libbluedevil": {
+            "stable-qt4": "master",
+            "latest-qt4": "master",
+            "kf5-qt5": "frameworks"
+        },
         "extragear/libs/libnm-qt": {
             "stable-qt4": "NM/0.9.8",
             "latest-qt4": "NM/0.9.8",
