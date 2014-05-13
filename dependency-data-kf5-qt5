@@ -351,7 +351,7 @@ kde/*: frameworks/kf5umbrella
 extragear/*: frameworks/kf5umbrella
 
 # libkscreen
-extagear/libs/libkscreen: kdesupport/extra-cmake-modules
+extragear/libs/libkscreen: kdesupport/extra-cmake-modules
 
 # libksysguard
 kde/workspace/libksysguard: frameworks/ki18n
@@ -485,7 +485,7 @@ kde/workspace/plasma-workspace: kde/workspace/khelpcenter
 kde/workspace/plasma-workspace: kde/workspace/kde-cli-tools
 kde/workspace/plasma-workspace: kde/workspace/kio-extras
 kde/workspace/plasma-workspace: kde/workspace/breeze
-kde/workspace/plasma-workspace: extagear/libs/libkscreen[frameworks]
+kde/workspace/plasma-workspace: extragear/libs/libkscreen
 
 # PowerDevil
 extragear/base/powerdevil: frameworks/kauth
