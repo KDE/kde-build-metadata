@@ -1,0 +1,312 @@
+#!/usr/bin/env python
+#
+# Tool to read KDE project metadata to determine which modules are required
+# (or recommended) to build a given KDE repository.
+#
+# See also: http://community.kde.org/Infrastructure/Project_Metadata
+#
+# Copyright (c) 2014 Michael Pyne <mpyne@kde.org>
+#
+# Redistribution and use in source and binary forms, with or without
+# modification, are permitted provided that the following conditions
+# are met:
+#
+# 1. Redistributions of source code must retain the above copyright
+#    notice, this list of conditions and the following disclaimer.
+# 2. Redistributions in binary form must reproduce the above copyright
+#    notice, this list of conditions and the following disclaimer in the
+#    documentation and/or other materials provided with the distribution.
+#
+# THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
+# IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+# OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+# IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
+# INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+# NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+# DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+# THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+# (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
+# THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+import sys, argparse, re
+
+version = "0.1"
+
+# Handles all aspects of dependency parsing and ordering.
+# This is probably too monolithic though -- feel free to fix!
+#
+# Several conceps are tracked:
+# "Direct dependencies": A depends directly on B, like
+#   kde/kdemultimedia/juk: kde/kdelibs
+#
+# "Wildcard dependencies": A grouping of items depend on a specific item, like
+#   kde/kdegames/*: frameworks/kcoreaddons
+#
+# As a special case, "implicit dependencies" are tracked. *All items* depends
+#   on these:
+#   *: frameworks/kf5umbrella
+#
+# "Negative dependencies": A dependency that would otherwise be in effect is
+#   manually removed. Usually to fixup a wildcard dep, or to account for different
+#   possible branches before branch groups were popular. E.g.
+#   kde/kdelibs/kactivities: -Qt4[stable]
+#   kde/kdelibs/kactivities: Qt5[stable]
+#
+#   would remove a wildcard dep on Qt4[stable] and add one for Qt5 instead.
+#
+# Each dependency is really an item-branch pair, where each item is the full
+# kde-projects virtual path from the projects database (e.g.
+# extragear/utils/kdesrc-build would be an item, but not kdesrc-build). If no
+# branch is given (which should be the goal nowadays with branch groups!) then
+# '*' is used.
+#
+# The dependency-data file that is read is dependent upon the branch group, and
+# can change dependencies accordingly, even for projects that participate in
+# multiple such groups.
+#
+# The data structure in use for dependencies is basically (for foo[foo-branch]:
+# bar[bar-branch]):
+#
+# dependencies = {
+#   foo: {
+#     foo-branch: {
+#       bar: bar-branch,
+#       # and other deps for foo[foo-branch]
+#       # it is now not legal for other dependencies of foo[foo-branch] on bar
+#       # besides '*' or bar-branch
+#     },
+#     # other deps for foo[some-other-branch]
+#   }
+# }
+class KDEDependencies:
+    def __init__(self, fileName):
+        self.memoizedDependencies = dict()
+        self.wildcardDependencies = dict()
+        self.dependencies, self.negativeDeps, self.wildcardItems \
+                = self.importDependencies(fileName)
+        self.implicitDependencies = self.dependencies.get('*', {}).get('*', [])
+        self.showDirectOnly = False
+
+    # Whether or not to show all dependencies recursively, or only direct
+    # dependencies. Note: I wasn't able to implement correct ordering if
+    # direct dependencies only are shown. It turns out to be quite nuanced too
+    # so be careful if you fix this yourself, as getting the ordering right
+    # still requires going recursively through every possible dependency.
+    def setShowDirectOnly(self, showDirectOnly):
+        self.showDirectOnly = showDirectOnly
+
+    # Read dependencies in from the given file.
+    def importDependencies(self, fileName):
+        dependencies = dict()
+        negativeDeps = dict()
+        wildcardItems = set()
+
+        with open(fileName, 'r') as file:
+            for line in file:
+                line = line.partition('#')[0].lstrip()
+                if line:
+                    lineParts = line.partition(':')
+                    repoItem = lineParts[0].lstrip().rstrip()
+                    dependentItem = lineParts[2].lstrip().rstrip()
+
+                    repo, repoBranch = self.itemToPathAndBranch(repoItem)
+                    if repo.endswith('/*'):
+                        wildcardItems.add(repo.rstrip('/*'))
+
+                    negativeDep = False
+                    if dependentItem.startswith('-'):
+                        negativeDep = True
+                        dependentItem = dependentItem.lstrip('-')
+                    dependency, dependencyBranch = self.itemToPathAndBranch(dependentItem)
+
+                    dictRepoItem = None
+                    if negativeDep:
+                        dictRepoItem = negativeDeps.setdefault(repo, dict())
+                    else:
+                        dictRepoItem = dependencies.setdefault(repo, dict())
+
+                    dictBranchItem = dictRepoItem.setdefault(repoBranch, dict())
+                    if dependency in dictBranchItem:
+                        # Verify same branch
+                        curBranchDep = dictBranchItem[dependency]
+                        if curBranchDep != dependencyBranch:
+                            msg = '%s:%s depends on %s and two of its branches, %s and %s' % (\
+                                    repo, repoBranch, dependency, dependencyBranch, curBranchDep)
+                            raise RuntimeError(msg)
+
+                    dictBranchItem[dependency] = dependencyBranch
+
+        return dependencies, negativeDeps, wildcardItems
+
+    # Splits a foo[foo-branch] dependency into its item and branch pairs
+    def itemToPathAndBranch(self, item):
+        branch = "*"
+
+        # Look for match everything up to [, then [,
+        # then match to end of line and find the last ]
+        result = re.search('(^[^[]*)[[](.*)]$', item)
+        if result:
+            return result.group(1), result.group(2)
+        else:
+            return item, '*' # No branch, use wildcard
+
+    # Merges module and branch into a single item for storage
+    def keyFromModuleBranch(self, module, branch):
+        return (module, branch)
+
+    #
+    # For the following functions, we keep track of a concept of "dependency
+    # candidates" due to the negative dependencies and wildcards. Basically we
+    # add all possible implicit and wildcard dependencies for a module (using
+    # dependencies that don't care about the branch, and dependencies that care
+    # about the branch we're using), and then remove negative dependencies
+    # (again, ones that are branch-independent and ones that match branches
+    # present in the list).
+    #
+
+    def _addModuleBranchDirectDependencies(self, depCandidates, module, branch):
+        if module not in self.dependencies or branch not in self.dependencies[module]:
+            return
+        for depModule, depBranch in self.dependencies[module][branch].iteritems():
+            if depModule == module:
+                continue
+            newKey = self.keyFromModuleBranch(depModule, depBranch)
+            if newKey not in depCandidates:
+                depCandidates.append(newKey)
+
+    def _removeModuleBranchNegativeDependencies(self, depCandidates, module, branch):
+        if module not in self.negativeDeps or branch not in self.negativeDeps[module]:
+            return
+        for depModule, depBranch in self.negativeDeps[module][branch].iteritems():
+            if depModule == '*':
+                # The [:] is just to ensure we're assigning to the list passed
+                # in to make depCandidates a mutable parameter, otherwise it
+                # would only be a local effect.
+                depCandidates[:] = filter(lambda x: not x.startswith(depModule), depCandidates)
+            else:
+                key = self.keyFromModuleBranch(depModule, depBranch)
+                depCandidates[:] = filter(lambda x: x != key, depCandidates)
+
+    # Adds all effective dependencies of the given module/branch, storing
+    # the result as a tree under node. To be useful the tree of node and its
+    # children must still be processed to get the list of dependencies.
+    def _addEffectiveDeps(self, node, module, branch):
+        depCandidates = list()
+        for w in self.wildcardItems:
+            if not module.endswith('/*') and module.startswith(w + '/'):
+                wildcardRepo = w + "/*"
+                self._addModuleBranchDirectDependencies(depCandidates, wildcardRepo, '*')
+
+        if module not in self.implicitDependencies:
+            for depModule, depBranch in self.implicitDependencies.iteritems():
+                depCandidates.append(self.keyFromModuleBranch(depModule, depBranch))
+
+        self._addModuleBranchDirectDependencies(depCandidates, module, '*')
+        self._addModuleBranchDirectDependencies(depCandidates, module, branch)
+        self._removeModuleBranchNegativeDependencies(depCandidates, module, '*')
+        self._removeModuleBranchNegativeDependencies(depCandidates, module, branch)
+
+        # Don't let modules depend on themselves by accident
+        key = self.keyFromModuleBranch(module, branch)
+        depCandidates = filter(lambda x: x != key, depCandidates)
+
+        for candidate in depCandidates:
+            depModule, depBranch = candidate
+            newNode = self._findDepsInternal(depModule, depBranch)
+            node["children"].append(newNode)
+
+    # Finds all dependencies recursively for the given module and branch,
+    # returns a "node" structure (which is itself a tree) describing the
+    # dependencies and their proper order.
+    def _findDepsInternal(self, module, branch):
+        node = self.memoizedDependencies.get(module, None)
+        if not node:
+            node = { "node": module, "branch": branch, "children": [ ] }
+            if module not in self.implicitDependencies:
+                self._addEffectiveDeps(node, module, branch)
+            self.memoizedDependencies[module] = node
+        else:
+            if node["branch"] != branch and branch != "*" and node["branch"] != "*":
+                raise RuntimeError("%s depends on branch %s and on branch %s!" %
+                        (module, branch, node["branch"]))
+
+        return node
+
+    # Takes the "node" as returned from _findDepsInternal and pretty prints
+    # a tree version of the dependencies, without removing common deps.
+    def printTree(self, node, level=0):
+        branch = node["branch"]
+        if branch != '*':
+            print "%s%s[%s]" % (' '.ljust(level), node["node"], node["branch"])
+        else:
+            print "%s%s" % (' '.ljust(level), node["node"])
+
+        for child in node["children"]:
+            self.printTree(child, level + 2)
+
+    # Prints a module/branch combination, showing the branch only if it was
+    # actually set or otherwise mentioned (most dependencies are
+    # branch-independent).
+    def printableModuleBranch(self, module, branch):
+        if branch != '*':
+            return "%s[%s]" % (module, branch)
+        else:
+            return "%s" % (module)
+
+    # Takes a "node" returned by _findDepsInternal and prints all of the
+    # dependencies in pre-order fashion. Dependency items are only printed
+    # once, the first time they are encountered.
+    def printOrdering(self, node, visitedSet):
+        module = node["node"]
+        branch = node["branch"]
+
+        if module not in visitedSet:
+            visitedSet.add(module)
+            for child in node["children"]:
+                self.printOrdering(child, visitedSet)
+            print self.printableModuleBranch(module, branch)
+
+    # Finds dependencies of the given modules (plural) and prints them
+    # out.
+    def findDependenciesOf(self, modules, branch):
+        if self.showDirectOnly:
+            # TODO: Fix to keep right order. Set setShowDirectOnly's comment
+            for module in modules:
+                print "%s:" % (module)
+                node = self._findDepsInternal(module, branch)
+                for child in node["children"]:
+                    module, branch = child["node"], child["branch"]
+                    print "\t", self.printableModuleBranch(module, branch)
+        else:
+            # Fake supporting multiple module paths by merging into virtual dependent
+            rootModule = "*"
+            self.dependencies[rootModule] = { "*": { x : branch for x in modules } }
+
+            node = self._findDepsInternal(rootModule, branch)
+            visitSet = set()
+            for child in node["children"]:
+                self.printOrdering(child, visitSet)
+
+if __name__ == '__main__':
+    arg_parser = argparse.ArgumentParser(
+            description="Shows the git.kde.org dependencies of git.kde.org modules.")
+    arg_parser.add_argument("-d", "--direct-dependencies", action="store_true",
+            help="Shows *unordered* direct dependencies only (default is recursive).")
+    arg_parser.add_argument("-g", "--branch-group", default="kf5-qt5",
+            help="Branch group to use for dependencies (stable-qt4, latest-qt4, or kf5-qt5)")
+    arg_parser.add_argument("-b", "--branch", default="*",
+            help="Specific repository branch to find dependencies of (prefer --branch-group though). Default is '*'")
+    arg_parser.add_argument("module_path",
+            nargs="+",
+            help="KDE project module path e.g. kde/kdelibs. If multiple paths are " +
+            "specified, they have their branches printed one-per-line in the order listed")
+    arg_parser.add_argument("-m", "--metadata-path",
+            default="../",
+            help="Path to kde-build-metadata *directory*")
+    arg_parser.add_argument("-v", "--version",
+            action='version', version=('%(prog)s ' + str(version)))
+    args = arg_parser.parse_args()
+
+    deps = KDEDependencies("%s/dependency-data-%s" % (args.metadata_path, args.branch_group))
+    deps.setShowDirectOnly(args.direct_dependencies)
+    deps.findDependenciesOf(args.module_path, args.branch)
