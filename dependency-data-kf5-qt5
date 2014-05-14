@@ -593,3 +593,11 @@ extragear/network/telepathy/ktp-common-internals[frameworks]: frameworks/ktexted
 extragear/network/telepathy/ktp-common-internals[frameworks]: frameworks/kde4support
 extragear/network/telepathy/ktp-common-internals[frameworks]: frameworks/kwallet
 extragear/network/telepathy/ktp-desktop-applets[frameworks]: extragear/network/telepathy/ktp-common-internals[frameworks]
+
+# KScreen
+extagear/base/libkscreen: frameworks/kdbusaddons
+extagear/base/libkscreen: frameworks/kconfigwidgets
+extagear/base/libkscreen: frameworks/ki18n
+extagear/base/libkscreen: frameworks/kxmlgui
+extagear/base/libkscreen: frameworks/kglobalaccel
+extagear/base/libkscreen: extragear/libs/libkscreen
