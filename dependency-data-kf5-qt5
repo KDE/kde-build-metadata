@@ -422,6 +422,9 @@ kde/workspace/kwin: frameworks/kxmlgui
 kde/workspace/kwin: frameworks/kactivities
 kde/workspace/kwin: frameworks/plasma-framework
 
+#breeze
+kde/workspace/breeze: kde/workspace/kwin
+
 #kwrited
 kde/workspace/kwrited: frameworks/ki18n
 kde/workspace/kwrited: frameworks/kconfig
