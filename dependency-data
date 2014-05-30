@@ -395,6 +395,9 @@ calligra: kdesupport/soprano[master]
 frameworks/plasma-framework: frameworks/kactivities
 frameworks/plasma-framework: frameworks/attica
 
+# Playground Accessibility
+playground/accessibility/qtatspi: kde/kdelibs
+
 # Playground Base
 playground/base/kwin-compositing-kcm: kde/kde-workspace
 playground/base/kwin-compositing-kcm: frameworks/plasma-framework
