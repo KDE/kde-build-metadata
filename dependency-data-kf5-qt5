@@ -349,7 +349,7 @@ kde/*: frameworks/kf5umbrella
 extragear/*: frameworks/kf5umbrella
 
 # libkscreen
-extragear/libs/libkscreen: kdesupport/extra-cmake-modules
+extragear/libs/libkscreen[frameworks]: kdesupport/extra-cmake-modules
 
 # libksysguard
 kde/workspace/libksysguard: frameworks/ki18n
@@ -486,7 +486,7 @@ kde/workspace/plasma-workspace: kde/workspace/khelpcenter
 kde/workspace/plasma-workspace: kde/workspace/kde-cli-tools
 kde/workspace/plasma-workspace: kde/workspace/kio-extras
 kde/workspace/plasma-workspace: kde/workspace/breeze
-kde/workspace/plasma-workspace: extragear/libs/libkscreen
+kde/workspace/plasma-workspace: extragear/libs/libkscreen[frameworks]
 
 # PowerDevil
 extragear/base/powerdevil: frameworks/kauth
@@ -599,9 +599,9 @@ extragear/network/telepathy/ktp-common-internals[frameworks]: frameworks/kwallet
 extragear/network/telepathy/ktp-desktop-applets[frameworks]: extragear/network/telepathy/ktp-common-internals[frameworks]
 
 # KScreen
-extagear/base/libkscreen: frameworks/kdbusaddons
-extagear/base/libkscreen: frameworks/kconfigwidgets
-extagear/base/libkscreen: frameworks/ki18n
-extagear/base/libkscreen: frameworks/kxmlgui
-extagear/base/libkscreen: frameworks/kglobalaccel
-extagear/base/libkscreen: extragear/libs/libkscreen
+extragear/base/kscreen[frameworks]: frameworks/kdbusaddons
+extragear/base/kscreen[frameworks]: frameworks/kconfigwidgets
+extragear/base/kscreen[frameworks]: frameworks/ki18n
+extragear/base/kscreen[frameworks]: frameworks/kxmlgui
+extragear/base/kscreen[frameworks]: frameworks/kglobalaccel
+extragear/base/kscreen[frameworks]: extragear/libs/libkscreen[frameworks]
