@@ -534,6 +534,9 @@ kde/workspace/plasma-desktop: extragear/base/powerdevil
 kde/workspace/plasma-desktop: kde/workspace/ksysguard
 kde/workspace/plasma-desktop: kde/workspace/oxygen
 
+kde/workspace/plasma-nm: extragear/libs/libnm-qt
+kde/workspace/plasma-nm: frameworks/plasma-framework
+
 # Things that depend on krunner
 kde/kdeplasma-addons: frameworks/krunner
 kde/kdelibs/baloo[frameworks]: frameworks/krunner
@@ -585,10 +588,6 @@ Playground/base/kde-gtk-config: frameworks/knewstuff
 Playground/base/kde-gtk-config: Frameworks/karchive
 Playground/base/kde-gtk-config: frameworks/kcmutils
 Playground/base/kde-gtk-config: Frameworks/kauth
-
-# Playground Network
-playground/network/plasma-nm: extragear/libs/libnm-qt
-playground/network/plasma-nm: frameworks/plasma-framework
 
 # KTp
 extragear/network/telepathy/ktp-common-internals[frameworks]: frameworks/kcmutils

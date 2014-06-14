@@ -104,7 +104,7 @@
             "latest-qt4": "NM/0.9.8",
             "kf5-qt5": "master"
         },
-        "kdereview/plasma-nm": {
+        "kde/workspace/plasma-nm": {
             "latest-qt4": "0.9.3",
             "stable-qt4": "0.9.3",
             "kf5-qt5": "master"
