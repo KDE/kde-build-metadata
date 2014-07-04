@@ -78,6 +78,12 @@
             "latest-qt4": "master",
             "kf5-qt5": "master"
         },
+        "kde/kdeedu/libkeduvocdocument" : {
+            "oldstable-qt4": "",
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master"
+        },
         "kdesupport/polkit-qt-1": {
             "oldstable-qt4": "master",
             "stable-qt4": "master",
