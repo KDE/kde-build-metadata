@@ -123,12 +123,12 @@
             "kf5-qt5": "frameworks"
         },
         "extragear/kdevelop/*": {
-            "stable-qt4": "1.6",
+            "stable-qt4": "1.7",
             "latest-qt4": "master",
             "kf5-qt5": "frameworks"
         },
         "extragear/kdevelop/kdevelop": {
-            "stable-qt4": "4.6",
+            "stable-qt4": "4.7",
             "latest-qt4": "master",
             "kf5-qt5": "frameworks"
         },
