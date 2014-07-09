@@ -88,7 +88,7 @@
             "oldstable-qt4": "master",
             "stable-qt4": "master",
             "latest-qt4": "master",
-            "kf5-qt5": "qt5"
+            "kf5-qt5": "master"
         },
         "extragear/base/milou": {
             "stable-qt4": "master",
