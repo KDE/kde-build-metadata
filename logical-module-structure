@@ -110,6 +110,11 @@
             "latest-qt4": "NM/0.9.8",
             "kf5-qt5": "master"
         },
+        "extragear/office/alkimia": {
+            "stable-qt4": "master",
+            "latest-qt4": "master",
+            "kf5-qt5": "frameworks"
+        },
         "kde/workspace/plasma-nm": {
             "latest-qt4": "0.9.3",
             "stable-qt4": "0.9.3",
