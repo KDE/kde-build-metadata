@@ -90,7 +90,6 @@ kde/kdeplasma-addons: kde/kdeedu/marble
 kde/kdepimlibs: kde/kdelibs
 kde/kdepimlibs: kdesupport/akonadi[master]
 kde/kdepimlibs: kdesupport/prison[master]
-kde/kdepimlibs: extragear/libs/libkgapi
 kde/kdepimlibs[KDE/4.12]: kde/kdelibs/nepomuk-core
 kde/kdepim: kde/kdelibs/baloo
 kde/kdepim: frameworks/kactivities
