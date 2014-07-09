@@ -110,6 +110,11 @@
             "latest-qt4": "NM/0.9.8",
             "kf5-qt5": "master"
         },
+        "extragear/libs/libkgapi": {
+            "stable-qt4": "LibKGAPI/2.1",
+            "latest-qt4": "master",
+            "kf5-qt5": "frameworks"
+        },
         "extragear/office/alkimia": {
             "stable-qt4": "master",
             "latest-qt4": "master",
