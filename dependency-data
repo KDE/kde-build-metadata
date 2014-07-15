@@ -67,9 +67,7 @@ kde/kdelibs/nepomuk-widgets: kde/kdelibs/nepomuk-core
 
 # kde-baseapps
 kde/applications/kde-baseapps: frameworks/kactivities
-kde/applications/kde-baseapps[master]: kde/kdelibs/baloo-widgets
-kde/applications/kde-baseapps[KDE/4.13]: kde/kdelibs/baloo-widgets
-kde/applications/kde-baseapps[KDE/4.12]: kde/kdelibs/nepomuk-widgets
+kde/applications/kde-baseapps: kde/kdelibs/baloo-widgets
 kde/applications/kde-baseapps: kde/applications/kate
 
 # Kate needs KActivities
@@ -90,14 +88,9 @@ kde/kdeplasma-addons: kde/kdeedu/marble
 kde/kdepimlibs: kde/kdelibs
 kde/kdepimlibs: kdesupport/akonadi[master]
 kde/kdepimlibs: kdesupport/prison[master]
-kde/kdepimlibs[KDE/4.12]: kde/kdelibs/nepomuk-core
 kde/kdepim: kde/kdelibs/baloo
 kde/kdepim: frameworks/kactivities
-kde/kdepim[KDE/4.12]: kde/kdelibs/nepomuk-core
-kde/kdepim[KDE/4.12]: kde/kdelibs/nepomuk-widgets
 kde/kdepim: kde/kdepimlibs
-kde/kdepim[KDE/4.12]: -extragear/libs/libkgapi
-kde/kdepim[KDE/4.12]: -kde/kdelibs/baloo
 kde/kdepim-runtime: kde/kdepimlibs
 kde/kdepim-runtime: kdesupport/akonadi[master]
 kde/kdepim-runtime: extragear/libs/libkfbapi
@@ -155,8 +148,6 @@ kde/kdegraphics/ksaneplugin: kde/kdegraphics/libs/libksane
 kde/kdegraphics/kdegraphics-thumbnailers: kde/kdegraphics/libs/libkexiv2
 kde/kdegraphics/kdegraphics-thumbnailers: kde/kdegraphics/libs/libkdcraw
 kde/kdegraphics/gwenview: kde/kdelibs/baloo
-kde/kdegraphics/gwenview[KDE/4.12]: kde/kdelibs/nepomuk-core
-kde/kdegraphics/gwenview[KDE/4.12]: -kde/kdelibs/baloo
 kde/kdegraphics/gwenview: kde/applications/kde-baseapps
 kde/kdegraphics/gwenview: kde/kdegraphics/libs/libkexiv2
 kde/kdegraphics/gwenview: kde/kdegraphics/libs/libkipi
