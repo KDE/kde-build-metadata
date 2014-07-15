@@ -33,25 +33,26 @@
             "kf5-qt5": "master"
         },
         "kde/*" : {
-            "oldstable-qt4": "KDE/4.12",
-            "stable-qt4": "KDE/4.13",
+            "oldstable-qt4": "KDE/4.13",
+            "stable-qt4": "KDE/4.14",
             "latest-qt4": "master",
             "kf5-qt5": "frameworks"
         },
         "kde/kdelibs" : {
-            "oldstable-qt4": "KDE/4.12",
-            "stable-qt4": "KDE/4.13",
+            "oldstable-qt4": "KDE/4.13",
+            "stable-qt4": "KDE/4.14",
             "latest-qt4": "master",
             "kf5-qt5": ""
         },
         "frameworks/kactivities" : {
-            "oldstable-qt4": "KDE/4.12",
+            "oldstable-qt4": "KDE/4.13",
             "stable-qt4": "KDE/4.13",
             "latest-qt4": "KDE/4.13",
             "kf5-qt5": "master"
         },
         "kde/kdelibs/kfilemetadata" : {
-            "stable-qt4": "KDE/4.13",
+            "oldstable-qt4": "KDE/4.13",
+            "stable-qt4": "KDE/4.14",
             "latest-qt4": "master",
             "kf5-qt5": "frameworks"
         },
@@ -73,8 +74,8 @@
             "kf5-qt5": "master"
         },
         "kde/kdeedu/marble": {
-            "oldstable-qt4": "KDE/4.12",
-            "stable-qt4": "KDE/4.13",
+            "oldstable-qt4": "KDE/4.13",
+            "stable-qt4": "KDE/4.14",
             "latest-qt4": "master",
             "kf5-qt5": "master"
         },
@@ -82,6 +83,12 @@
             "oldstable-qt4": "",
             "stable-qt4": "",
             "latest-qt4": "",
+            "kf5-qt5": "master"
+        },
+        "kdesupport/akonadi": {
+            "oldstable-qt4": "1.12",
+            "stable-qt4": "1.13",
+            "latest-qt4": "master",
             "kf5-qt5": "master"
         },
         "kdesupport/polkit-qt-1": {
