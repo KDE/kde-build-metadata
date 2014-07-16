@@ -209,6 +209,18 @@
         },
         "frameworks/plasma-framework": {
             "kf5-qt5": "master"
+        },
+        "kde/kdeedu/analitza": {
+            "oldstable-qt4": "master",
+            "stable-qt4": "master",
+            "latest-qt4": "master",
+            "kf5-qt5": "frameworks"
+        },
+        "kde/kdeedu/kalgebra": {
+            "oldstable-qt4": "master",
+            "stable-qt4": "master",
+            "latest-qt4": "master",
+            "kf5-qt5": "frameworks"
         }
     }
 }

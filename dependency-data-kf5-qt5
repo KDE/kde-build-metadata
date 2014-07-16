@@ -606,3 +606,6 @@ extragear/base/kscreen[frameworks]: frameworks/ki18n
 extragear/base/kscreen[frameworks]: frameworks/kxmlgui
 extragear/base/kscreen[frameworks]: frameworks/kglobalaccel
 extragear/base/kscreen[frameworks]: extragear/libs/libkscreen[frameworks]
+
+# kdeedu
+kde/kdeedu/kalgebra: kde/kdeedu/analitza
