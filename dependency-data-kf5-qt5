@@ -613,3 +613,6 @@ kde/kdeedu/kalgebra: kde/kdeedu/analitza
 # kmymoney
 extragear/office/kmymoney: extragear/office/alkimia
 extragear/office/kmymoney: kde/kdepimlibs
+
+# konversation
+extragear/network/konversation: kdesupport/qca
