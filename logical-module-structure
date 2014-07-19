@@ -209,6 +209,11 @@
         },
         "frameworks/plasma-framework": {
             "kf5-qt5": "master"
+        },
+        "extragear/network/konversation": {
+            "stable-qt4": "1.5",
+            "latest-qt4": "master",
+            "kf5-qt5": "frameworks"
         }
     }
 }
