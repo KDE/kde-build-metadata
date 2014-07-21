@@ -98,9 +98,9 @@
             "kf5-qt5": "master"
         },
         "extragear/base/milou": {
-            "stable-qt4": "master",
-            "latest-qt4": "master",
-            "kf5-qt5": "frameworks"
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master"
         },
         "extragear/base/bluedevil": {
             "stable-qt4": "master",
