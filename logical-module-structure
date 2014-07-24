@@ -220,6 +220,12 @@
             "stable-qt4": "1.5",
             "latest-qt4": "master",
             "kf5-qt5": "frameworks"
+        },
+        "kde/applications/kate" : {
+            "oldstable-qt4": "KDE/4.13",
+            "stable-qt4": "KDE/4.14",
+            "latest-qt4": "KDE/4.14",
+            "kf5-qt5": "master"
         }
     }
 }
