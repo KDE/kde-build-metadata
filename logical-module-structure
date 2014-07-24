@@ -85,6 +85,12 @@
             "latest-qt4": "",
             "kf5-qt5": "master"
         },
+        "kde/kdeedu/kdeedu-math-artwork" : {
+            "oldstable-qt4": "",
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master"
+        },
         "kdesupport/akonadi": {
             "oldstable-qt4": "1.12",
             "stable-qt4": "1.13",
