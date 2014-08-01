@@ -184,8 +184,8 @@
         },
         "extragear/base/kde-gtk-config": {
             "stable-qt4": "2.2",
-            "latest-qt4": "master",
-            "kf5-qt5": "frameworks"
+            "latest-qt4": "2.2",
+            "kf5-qt5": "master"
         },
         "extragear/libs/libkscreen": {
             "stable-qt4": "master",
