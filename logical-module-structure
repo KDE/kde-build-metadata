@@ -53,8 +53,14 @@
         "kde/kdelibs/kfilemetadata" : {
             "oldstable-qt4": "KDE/4.13",
             "stable-qt4": "KDE/4.14",
-            "latest-qt4": "master",
-            "kf5-qt5": "frameworks"
+            "latest-qt4": "KDE/4.14",
+            "kf5-qt5": "master"
+        },
+        "kde/kdelibs/baloo" : {
+            "oldstable-qt4": "KDE/4.13",
+            "stable-qt4": "KDE/4.14",
+            "latest-qt4": "KDE/4.14",
+            "kf5-qt5": "master"
         },
         "kde/workspace/*" : {
             "oldstable-qt4": "",
