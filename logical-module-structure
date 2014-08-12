@@ -56,6 +56,24 @@
             "latest-qt4": "KDE/4.14",
             "kf5-qt5": "master"
         },
+        "kde/kdepim" : {
+            "oldstable-qt4": "KDE/4.13",
+            "stable-qt4": "KDE/4.14",
+            "latest-qt4": "KDE/4.14",
+            "kf5-qt5": "master"
+        },
+        "kde/kdepimlibs" : {
+            "oldstable-qt4": "KDE/4.13",
+            "stable-qt4": "KDE/4.14",
+            "latest-qt4": "KDE/4.14",
+            "kf5-qt5": "master"
+        },
+        "kde/kdepim-runtime" : {
+            "oldstable-qt4": "KDE/4.13",
+            "stable-qt4": "KDE/4.14",
+            "latest-qt4": "KDE/4.14",
+            "kf5-qt5": "master"
+        },
         "kde/kdelibs/baloo" : {
             "oldstable-qt4": "KDE/4.13",
             "stable-qt4": "KDE/4.14",
