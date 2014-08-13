@@ -546,6 +546,9 @@ kde/kdepim: frameworks/kactivities
 kde/kdepim-runtime: kde/kdepim
 kde/kdepim-runtime: kdesupport/akonadi
 
+# KDE Graphics
+kde/kdegraphics/gwenview: frameworks/kdelibs4support
+
 # KDE Edu
 kde/kdeedu/kalgebra: kde/kdeedu/analitza
 
