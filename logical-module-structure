@@ -97,6 +97,12 @@
             "latest-qt4": "master",
             "kf5-qt5": "master"
         },
+        "kde/kdegraphics/gwenview" : {
+            "oldstable-qt4": "",
+            "stable-qt4": "KDE/4.14",
+            "latest-qt4": "KDE/4.14",
+            "kf5-qt5": "master"
+        },
         "kde/kdeedu/marble": {
             "oldstable-qt4": "KDE/4.13",
             "stable-qt4": "KDE/4.14",
