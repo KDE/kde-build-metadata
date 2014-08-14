@@ -196,6 +196,11 @@
             "latest-qt4": "master",
             "kf5-qt5": "frameworks"
         },
+        "playground/devtools/plugins/kdev-qmljs": {
+            "stable-qt4": "kde4",
+            "latest-qt4": "master",
+            "kf5-qt5": "frameworks"
+        },
         "extragear/sdk/plasmate": {
             "latest-qt4": "master",
             "kf5-qt5": "frameworks"
