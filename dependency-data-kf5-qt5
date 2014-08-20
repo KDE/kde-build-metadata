@@ -189,7 +189,9 @@ frameworks/kactivities: frameworks/kdbusaddons
 frameworks/kactivities: frameworks/kwindowsystem
 frameworks/kactivities: frameworks/kcoreaddons
 frameworks/kactivities: frameworks/kservice
+frameworks/kactivities: frameworks/kcmutils
 frameworks/kactivities: frameworks/kio
+frameworks/kactivities: frameworks/kdeclarative
 frameworks/plasma-framework: frameworks/kactivities
 frameworks/plasma-framework: frameworks/karchive
 frameworks/plasma-framework: frameworks/kauth
