@@ -556,6 +556,7 @@ kde/kdegraphics/gwenview: kde/applications/kde-baseapps
 # KDE Edu
 kde/kdeedu/kalgebra: kde/kdeedu/analitza
 kde/kdeedu/kanagram: kde/kdeedu/libkeduvocdocument
+kde/kdeedu/parley: kde/kdeedu/libkeduvocdocument
 
 # KDE Plasma Addons
 kde/kdeplasma-addons: frameworks/krunner
