@@ -188,13 +188,13 @@
         },
         "extragear/kdevelop/*": {
             "stable-qt4": "1.7",
-            "latest-qt4": "master",
-            "kf5-qt5": "frameworks"
+            "latest-qt4": "4.7",
+            "kf5-qt5": "master"
         },
         "extragear/kdevelop/kdevelop": {
             "stable-qt4": "4.7",
-            "latest-qt4": "master",
-            "kf5-qt5": "frameworks"
+            "latest-qt4": "4.7",
+            "kf5-qt5": "master"
         },
         "extragear/kdevelop/utilities/kdevelop-pg-qt": {
             "stable-qt4": "1.1",
