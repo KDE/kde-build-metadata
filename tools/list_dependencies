@@ -298,8 +298,14 @@ if __name__ == '__main__':
             help="Specific repository branch to find dependencies of (prefer --branch-group though). Default is '*'")
     arg_parser.add_argument("module_path",
             nargs="+",
-            help="KDE project module path e.g. kde/kdelibs. If multiple paths are " +
-            "specified, they have their branches printed one-per-line in the order listed")
+            help=
+        """KDE project module path e.g. kde/kdelibs. If multiple paths are
+        specified (with the -d option), they have their branches printed
+        one-per-line in the order listed. Without the -d option, dependencies
+        are shown recursively, and in the needed build order, *including* the
+        module paths passed in on the command line.
+        """
+    )
     arg_parser.add_argument("-m", "--metadata-path",
             default="../",
             help="Path to kde-build-metadata *directory*")
@@ -309,4 +315,13 @@ if __name__ == '__main__':
 
     deps = KDEDependencies("%s/dependency-data-%s" % (args.metadata_path, args.branch_group))
     deps.setShowDirectOnly(args.direct_dependencies)
-    deps.findDependenciesOf(args.module_path, args.branch)
+
+    mistake_modules = [x for x in args.module_path if x.find("/") == -1]
+    if len(mistake_modules) > 0:
+        print "The following modules are probably mis-typed. You need full paths."
+        print "e.g. kde/kdelibs, not just kdelibs. Patches accepted..."
+        for module in mistake_modules:
+            print "\t%s" % (module)
+        sys.exit(1)
+    else:
+        deps.findDependenciesOf(args.module_path, args.branch)
