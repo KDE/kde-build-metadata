@@ -141,7 +141,7 @@
         "kdesupport/akonadi": {
             "oldstable-qt4": "1.12",
             "stable-qt4": "1.13",
-            "latest-qt4": "master",
+            "latest-qt4": "1.13",
             "kf5-qt5": "master"
         },
         "kdesupport/polkit-qt-1": {
