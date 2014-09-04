@@ -597,6 +597,10 @@ extragear/kdevelop/kdevelop: extragear/kdevelop/kdevplatform
 extragear/kdevelop/kdevplatform: kde/kdesdk/libkomparediff2
 extragear/kdevelop/kdevplatform: kde/workspace/kio-extras
 
+# KDevelop Plugins
+playground/devtools/plugins/kdev-clang: extragear/kdevelop/kdevelop
+playground/devtools/plugins/kdev-qmljs: extragear/kdevelop/kdevelop
+
 # Extragear Network
 extragear/network/konversation: kdesupport/qca
 
