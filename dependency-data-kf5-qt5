@@ -539,6 +539,7 @@ kde/kde-runtime: frameworks/plasma-framework
 kde/applications/kate: kde/workspace/khelpcenter
 kde/applications/kate: frameworks/kactivities
 kde/applications/kate: frameworks/ktexteditor
+kde/applications/kate: frameworks/plasma-framework
 
 kde/applications/konsole: frameworks/kwidgetsaddons
 kde/applications/konsole: frameworks/ki18n
