@@ -213,9 +213,9 @@
             "kf5-qt5": "frameworks"
         },
         "playground/devtools/plugins/kdev-clang": {
-            "stable-qt4": "master",
-            "latest-qt4": "master",
-            "kf5-qt5": "frameworks"
+            "stable-qt4": "1.7",
+            "latest-qt4": "1.7",
+            "kf5-qt5": "master"
         },
         "playground/devtools/plugins/kdev-qmljs": {
             "stable-qt4": "kde4",
