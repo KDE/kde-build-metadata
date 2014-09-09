@@ -682,3 +682,6 @@ playground/base/kde-gtk-config: frameworks/knewstuff
 playground/base/kde-gtk-config: frameworks/karchive
 playground/base/kde-gtk-config: frameworks/kcmutils
 playground/base/kde-gtk-config: frameworks/kauth
+
+# KDE Games
+kde/kdegames/bovo: kde/kdegames/libkdegames
