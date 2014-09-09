@@ -209,8 +209,8 @@
         },
         "extragear/kdevelop/utilities/kdevelop-pg-qt": {
             "stable-qt4": "1.1",
-            "latest-qt4": "master",
-            "kf5-qt5": "frameworks"
+            "latest-qt4": "1.1",
+            "kf5-qt5": "master"
         },
         "playground/devtools/plugins/kdev-clang": {
             "stable-qt4": "1.7",
