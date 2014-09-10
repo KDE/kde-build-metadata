@@ -354,6 +354,7 @@ extragear/*: frameworks/kf5umbrella
 kde/kdelibs/baloo: frameworks/krunner
 kde/kdelibs/baloo: kde/kdelibs/kfilemetadata
 kde/kdelibs/baloo: frameworks/kdelibs4support
+kde/kdelibs/baloo-widgets: kde/kdelibs/baloo
 kde/kdelibs/kfilemetadata: frameworks/ki18n
 kde/kdelibs/kfilemetadata: frameworks/kservice
 kde/kdelibs/kfilemetadata: frameworks/karchive
@@ -540,6 +541,13 @@ kde/applications/kate: kde/workspace/khelpcenter
 kde/applications/kate: frameworks/kactivities
 kde/applications/kate: frameworks/ktexteditor
 kde/applications/kate: frameworks/plasma-framework
+
+kde/applications/kde-baseapps: frameworks/kactivities
+kde/applications/kde-baseapps: kde/kdelibs/baloo
+kde/applications/kde-baseapps: kde/kdelibs/baloo-widgets
+kde/applications/kde-baseapps: kde/kdelibs/kfilemetadata
+# Provides KTextEditor for konqueror
+kde/applications/kde-baseapps: kde/applications/kate
 
 kde/applications/konsole: frameworks/kwidgetsaddons
 kde/applications/konsole: frameworks/ki18n
