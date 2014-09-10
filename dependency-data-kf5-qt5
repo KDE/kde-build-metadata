@@ -659,6 +659,8 @@ extragear/kdevelop/kdevplatform: kde/workspace/kio-extras
 # KDevelop Plugins
 playground/devtools/plugins/kdev-clang: extragear/kdevelop/kdevelop
 playground/devtools/plugins/kdev-qmljs: extragear/kdevelop/kdevelop
+playground/devtools/plugins/kdev-php: extragear/kdevelop/kdevelop
+playground/devtools/plugins/kdev-php: extragear/kdevelop/kdevelop-pg-qt
 
 # Extragear Network
 extragear/network/konversation: kdesupport/qca
