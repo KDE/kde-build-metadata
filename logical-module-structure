@@ -80,6 +80,12 @@
             "latest-qt4": "KDE/4.14",
             "kf5-qt5": "master"
         },
+        "kde/kdelibs/baloo-widgets" : {
+            "oldstable-qt4": "KDE/4.13",
+            "stable-qt4": "KDE/4.14",
+            "latest-qt4": "KDE/4.14",
+            "kf5-qt5": "master"
+        },
         "kde/workspace/*" : {
             "oldstable-qt4": "",
             "stable-qt4": "",
