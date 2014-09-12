@@ -607,6 +607,8 @@ kde/applications/konsole: frameworks/kpty
 kde/applications/konsole: frameworks/kdesu
 kde/applications/konsole: frameworks/kf5umbrella
 
+kde/ark: frameworks/kdelibs4support
+
 # KDE PIM
 kde/kdepimlibs: kdesupport/akonadi
 kde/kdepimlibs: kdesupport/prison
