@@ -234,6 +234,11 @@
             "latest-qt4": "kde4",
             "kf5-qt5": "frameworks"
         },
+        "playground/devtools/plugins/kdev-ruby": {
+            "stable-qt4": "1.7",
+            "latest-qt4": "1.7",
+            "kf5-qt5": "master"
+        },
         "extragear/kdevelop/plugins/kdev-php": {
             "stable-qt4": "1.7",
             "latest-qt4": "1.7",
