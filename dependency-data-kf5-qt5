@@ -655,6 +655,7 @@ extragear/base/powerdevil: kde/workspace/plasma-workspace
 # Extragear SDK
 extragear/sdk/plasmate: frameworks/kf5umbrella
 extragear/sdk/plasmate: frameworks/plasma-framework
+extragear/sdk/plasmate: extragear/kdevelop/kdevplatform 
 
 # Extragear Multimedia
 extragear/multimedia/plasma-mediacenter: frameworks/plasma-framework
