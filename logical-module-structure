@@ -230,9 +230,9 @@
             "kf5-qt5": "master"
         },
         "playground/devtools/plugins/kdev-qmljs": {
-            "stable-qt4": "kde4",
-            "latest-qt4": "kde4",
-            "kf5-qt5": "frameworks"
+            "stable-qt4": "1.7",
+            "latest-qt4": "1.7",
+            "kf5-qt5": "master"
         },
         "playground/devtools/plugins/kdev-ruby": {
             "stable-qt4": "1.7",
