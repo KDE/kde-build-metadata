@@ -664,6 +664,7 @@ extragear/multimedia/plasma-mediacenter: kde/kdelibs/baloo
 # KDevelop
 extragear/kdevelop/kdevelop: kde/workspace/khelpcenter
 extragear/kdevelop/kdevelop: extragear/kdevelop/kdevplatform
+extragear/kdevelop/kdevelop: frameworks/krunner
 extragear/kdevelop/kdevplatform: kde/kdesdk/libkomparediff2
 extragear/kdevelop/kdevplatform: kde/workspace/kio-extras
 
