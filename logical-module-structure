@@ -114,6 +114,18 @@
             "latest-qt4": "KDE/4.14",
             "kf5-qt5": "master"
         },
+        "kde/kdeedu/analitza": {
+            "oldstable-qt4": "KDE/4.13",
+            "stable-qt4": "KDE/4.14",
+            "latest-qt4": "KDE/4.14",
+            "kf5-qt5": "master"
+        },
+        "kde/kdeedu/kalgebra": {
+            "oldstable-qt4": "KDE/4.13",
+            "stable-qt4": "KDE/4.14",
+            "latest-qt4": "KDE/4.14",
+            "kf5-qt5": "master"
+        },
         "kde/kdeedu/kanagram": {
             "oldstable-qt4": "KDE/4.13",
             "stable-qt4": "KDE/4.14",
