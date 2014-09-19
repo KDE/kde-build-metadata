@@ -430,6 +430,7 @@ kde/workspace/kwin: frameworks/knewstuff
 kde/workspace/kwin: frameworks/kxmlgui
 kde/workspace/kwin: frameworks/kactivities
 kde/workspace/kwin: frameworks/plasma-framework
+kde/workspace/kwin: kde/workspace/kwayland
 
 # Breeze
 kde/workspace/breeze: kde/workspace/kwin
