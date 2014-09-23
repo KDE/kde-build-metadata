@@ -658,6 +658,17 @@ extragear/sdk/plasmate: frameworks/kf5umbrella
 extragear/sdk/plasmate: frameworks/plasma-framework
 extragear/sdk/plasmate: extragear/kdevelop/kdevplatform 
 
+# Extragear Sysadmin
+extragear/base/muon: frameworks/solid
+extragear/base/muon: frameworks/kwidgetsaddons
+extragear/base/muon: frameworks/kconfig
+extragear/base/muon: frameworks/kwallet
+extragear/base/muon: frameworks/kdbusaddons
+extragear/base/muon: frameworks/ki18n
+extragear/base/muon: frameworks/kconfigwidgets
+extragear/base/muon: frameworks/knotifications
+extragear/base/muon: frameworks/kdeclarative
+
 # Extragear Multimedia
 extragear/multimedia/plasma-mediacenter: frameworks/plasma-framework
 extragear/multimedia/plasma-mediacenter: kde/kdelibs/baloo
