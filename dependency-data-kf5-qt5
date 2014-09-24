@@ -385,6 +385,7 @@ kde/workspace/kinfocenter: frameworks/kwindowsystem
 kde/workspace/kinfocenter: frameworks/kcmutils
 kde/workspace/kinfocenter: frameworks/solid
 kde/workspace/kinfocenter: frameworks/plasma-framework
+kde/workspace/kinfocenter: kde/workspace/kwayland
 
 # KMenuEdit
 kde/workspace/kmenuedit: frameworks/ki18n
