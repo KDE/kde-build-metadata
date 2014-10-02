@@ -660,15 +660,15 @@ extragear/sdk/plasmate: frameworks/plasma-framework
 extragear/sdk/plasmate: extragear/kdevelop/kdevplatform 
 
 # Extragear Sysadmin
-extragear/base/muon: frameworks/solid
-extragear/base/muon: frameworks/kwidgetsaddons
-extragear/base/muon: frameworks/kconfig
-extragear/base/muon: frameworks/kwallet
-extragear/base/muon: frameworks/kdbusaddons
-extragear/base/muon: frameworks/ki18n
-extragear/base/muon: frameworks/kconfigwidgets
-extragear/base/muon: frameworks/knotifications
-extragear/base/muon: frameworks/kdeclarative
+kde/workspace/muon: frameworks/solid
+kde/workspace/muon: frameworks/kwidgetsaddons
+kde/workspace/muon: frameworks/kconfig
+kde/workspace/muon: frameworks/kwallet
+kde/workspace/muon: frameworks/kdbusaddons
+kde/workspace/muon: frameworks/ki18n
+kde/workspace/muon: frameworks/kconfigwidgets
+kde/workspace/muon: frameworks/knotifications
+kde/workspace/muon: frameworks/kdeclarative
 
 # Extragear Multimedia
 extragear/multimedia/plasma-mediacenter: frameworks/plasma-framework
@@ -703,12 +703,12 @@ extragear/office/kmymoney: extragear/office/alkimia
 extragear/office/kmymoney: kde/kdepimlibs
 
 # Playground Base
-playground/base/kde-gtk-config: frameworks/ki18n
-playground/base/kde-gtk-config: frameworks/kconfigwidgets
-playground/base/kde-gtk-config: frameworks/knewstuff
-playground/base/kde-gtk-config: frameworks/karchive
-playground/base/kde-gtk-config: frameworks/kcmutils
-playground/base/kde-gtk-config: frameworks/kauth
+kde/workspace/kde-gtk-config: frameworks/ki18n
+kde/workspace/kde-gtk-config: frameworks/kconfigwidgets
+kde/workspace/kde-gtk-config: frameworks/knewstuff
+kde/workspace/kde-gtk-config: frameworks/karchive
+kde/workspace/kde-gtk-config: frameworks/kcmutils
+kde/workspace/kde-gtk-config: frameworks/kauth
 
 # KDE Games
 kde/kdegames/bovo: kde/kdegames/libkdegames
