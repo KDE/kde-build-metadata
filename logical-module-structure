@@ -278,7 +278,7 @@
             "latest-qt4": "master",
             "kf5-qt5": "frameworks"
         },
-        "extragear/base/kde-gtk-config": {
+        "kde/workspace/kde-gtk-config": {
             "stable-qt4": "2.2",
             "latest-qt4": "2.2",
             "kf5-qt5": "master"
@@ -293,7 +293,7 @@
             "latest-qt4": "master",
             "kf5-qt5": "frameworks"
         },
-        "extragear/sysadmin/muon": {
+        "kde/workspace/muon": {
             "stable-qt4": "2.2",
             "latest-qt4": "master",
             "kf5-qt5": "frameworks"
