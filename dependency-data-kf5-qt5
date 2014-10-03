@@ -715,3 +715,6 @@ kde/kdegames/bovo: kde/kdegames/libkdegames
 
 # Playground Libs
 playground/libs/kpackage: frameworks/karchive
+playground/libs/kpackage: frameworks/kcoreaddons
+playground/libs/kpackage: frameworks/ki18n
+playground/libs/kpackage: frameworks/kservice
