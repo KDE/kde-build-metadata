@@ -712,3 +712,6 @@ kde/workspace/kde-gtk-config: frameworks/kauth
 
 # KDE Games
 kde/kdegames/bovo: kde/kdegames/libkdegames
+
+# Playground Libs
+playground/libs/kpackage: frameworks/karchive

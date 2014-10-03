@@ -333,6 +333,9 @@
             "stable-qt4": "KDE/4.14",
             "latest-qt4": "KDE/4.14",
             "kf5-qt5": "master"
+        },
+        "playground/libs/kpackage" : {
+            "kf5-qt5": "master"
         }
     }
 }
