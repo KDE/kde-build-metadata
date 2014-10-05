@@ -347,5 +347,9 @@
             "latest-qt4": "master",
             "kf5-qt5": "master"
         }
+        "playground/base/kdeconnect-kde" : {
+            "latest-qt4": "master",
+            "kf5-qt5": "frameworks"
+        }
     }
 }
