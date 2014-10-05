@@ -395,6 +395,7 @@ playground/accessibility/qtatspi: kde/kdelibs
 # Playground Base
 playground/base/kwin-compositing-kcm: kde/kde-workspace
 playground/base/kwin-compositing-kcm: frameworks/plasma-framework
+playground/base/qtcurve: kde/kde-workspace
 
 # Playground Edu
 playground/edu/artikulate: kde/kdelibs
