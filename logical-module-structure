@@ -168,6 +168,10 @@
             "latest-qt4": "1.13",
             "kf5-qt5": "master"
         },
+        "playground/pim/akonadi-search": {
+            "kf5-qt5": "master"
+        },
+
         "kdesupport/polkit-qt-1": {
             "oldstable-qt4": "master",
             "stable-qt4": "master",
