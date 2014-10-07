@@ -180,6 +180,11 @@
             "latest-qt4": "master",
             "kf5-qt5": "frameworks"
         },
+        "extragear/base/kscreen": {
+            "stable-qt4": "master",
+            "latest-qt4": "master",
+            "kf5-qt5": "frameworks"
+        },
         "extragear/base/milou": {
             "stable-qt4": "milou/0.1",
             "latest-qt4": "",
