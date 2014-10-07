@@ -301,8 +301,8 @@
         },
         "kde/workspace/muon": {
             "stable-qt4": "2.2",
-            "latest-qt4": "master",
-            "kf5-qt5": "frameworks"
+            "latest-qt4": "2.2",
+            "kf5-qt5": "master"
         },
         "calligra": {
             "stable-qt4": "calligra/2.8",
