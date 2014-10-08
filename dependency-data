@@ -317,6 +317,7 @@ extragear/multimedia/plasma-mediacenter: kde/kdelibs/baloo
 extragear/multimedia/kamoso: kde/kdelibs
 extragear/multimedia/kamoso: kde/kdegraphics/libs/libkipi
 extragear/multimedia/kdenlive: kde/kdelibs
+extragear/multimedia/kdenlive: kde/kdelibs/nepomuk-core
 
 # extragear/graphics
 extragear/graphics/kipi-plugins: kde/kdelibs
