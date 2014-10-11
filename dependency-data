@@ -337,10 +337,12 @@ extragear/graphics/digikam: extragear/libs/libkface
 extragear/graphics/digikam: kde/kdegraphics/libs/libkipi
 extragear/graphics/digikam: kde/kdegraphics/libs/libkexiv2
 extragear/graphics/digikam: kde/kdegraphics/libs/libkdcraw
+extragear/graphics/digikam: kde/kdelibs/baloo
 extragear/graphics/kphotoalbum: kde/kdelibs
 extragear/graphics/kphotoalbum: kde/kdegraphics/libs/libkipi
 extragear/graphics/kphotoalbum: kde/kdegraphics/libs/libkdcraw
 extragear/graphics/kphotoalbum: kde/kdeedu/marble
+extragear/graphics/kphotoalbum: extragear/libs/libkface
 extragear/graphics/skanlite: kde/kdelibs
 extragear/graphics/skanlite: kde/kdegraphics/libs/libksane
 
