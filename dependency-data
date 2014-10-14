@@ -224,7 +224,6 @@ kde/kdebindings/csharp/kimono: kde/kdebindings/csharp/qyoto
 kde/kdebindings/pykde4: kde/kdepimlibs
 
 # extragear/libs
-extragear/libs/libkface: kde/kdelibs
 extragear/libs/libkgeomap: kde/kdelibs
 extragear/libs/libkgeomap: kde/kdeedu/marble
 extragear/libs/libkgeomap: kde/kdegraphics/libs/libkexiv2
@@ -327,13 +326,13 @@ extragear/graphics/kipi-plugins: kde/kdegraphics/libs/libkipi
 extragear/graphics/kipi-plugins: kde/kdegraphics/libs/libkexiv2
 extragear/graphics/kipi-plugins: kde/kdegraphics/libs/libkdcraw
 extragear/graphics/kipi-plugins: extragear/libs/libkgeomap
-extragear/graphics/kipi-plugins: extragear/libs/libkface
+extragear/graphics/kipi-plugins: kde/kdegraphics/libs/libkface
 extragear/graphics/kipi-plugins: extragear/libs/libkvkontakte
 extragear/graphics/kipi-plugins: extragear/libs/libmediawiki
 extragear/graphics/digikam: kde/kdelibs
 extragear/graphics/digikam: kde/kdepimlibs
 extragear/graphics/digikam: extragear/libs/libkgeomap
-extragear/graphics/digikam: extragear/libs/libkface
+extragear/graphics/digikam: kde/kdegraphics/libs/libkface
 extragear/graphics/digikam: kde/kdegraphics/libs/libkipi
 extragear/graphics/digikam: kde/kdegraphics/libs/libkexiv2
 extragear/graphics/digikam: kde/kdegraphics/libs/libkdcraw
@@ -342,7 +341,7 @@ extragear/graphics/kphotoalbum: kde/kdelibs
 extragear/graphics/kphotoalbum: kde/kdegraphics/libs/libkipi
 extragear/graphics/kphotoalbum: kde/kdegraphics/libs/libkdcraw
 extragear/graphics/kphotoalbum: kde/kdeedu/marble
-extragear/graphics/kphotoalbum: extragear/libs/libkface
+extragear/graphics/kphotoalbum: kde/kdegraphics/libs/libkface
 extragear/graphics/skanlite: kde/kdelibs
 extragear/graphics/skanlite: kde/kdegraphics/libs/libksane
 
