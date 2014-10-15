@@ -108,7 +108,7 @@
             "latest-qt4": "KDE/4.14",
             "kf5-qt5": "master"
         },
-        "kde/kdegraphics/libkface" : {
+        "kde/kdegraphics/libs/libkface" : {
             "stable-qt4": "master",
             "latest-qt4": "master",
             "kf5-qt5": ""
