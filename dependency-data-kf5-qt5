@@ -697,6 +697,8 @@ extragear/network/telepathy/ktp-common-internals: frameworks/ktexteditor
 extragear/network/telepathy/ktp-common-internals: frameworks/kdelibs4support
 extragear/network/telepathy/ktp-common-internals: frameworks/kwallet
 extragear/network/telepathy/ktp-desktop-applets: extragear/network/telepathy/ktp-common-internals
+extragear/network/telepathy/ktp-contact-list: extragear/network/telepathy/ktp-common-internals
+extragear/network/telepathy/ktp-contact-list: frameworks/kdelibs4support
 
 # Extragear Office
 extragear/office/kmymoney: extragear/office/alkimia
