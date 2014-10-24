@@ -700,6 +700,18 @@ extragear/network/telepathy/ktp-common-internals: frameworks/kwallet
 extragear/network/telepathy/ktp-desktop-applets: extragear/network/telepathy/ktp-common-internals
 extragear/network/telepathy/ktp-contact-list: extragear/network/telepathy/ktp-common-internals
 extragear/network/telepathy/ktp-contact-list: frameworks/kdelibs4support
+extragear/network/telepathy/ktp-text-ui: extragear/network/telepathy/ktp-common-internals
+extragear/network/telepathy/ktp-text-ui: frameworks/karchive
+extragear/network/telepathy/ktp-text-ui: frameworks/sonnet
+extragear/network/telepathy/ktp-text-ui: frameworks/kwidgetsaddons
+extragear/network/telepathy/ktp-text-ui: frameworks/kservice
+extragear/network/telepathy/ktp-text-ui: frameworks/kemoticons
+extragear/network/telepathy/ktp-text-ui: frameworks/kio
+extragear/network/telepathy/ktp-text-ui: frameworks/kcmutils
+extragear/network/telepathy/ktp-text-ui: frameworks/knotifyconfig
+extragear/network/telepathy/ktp-text-ui: frameworks/ki18n
+extragear/network/telepathy/ktp-text-ui: frameworks/kdewebkit
+extragear/network/telepathy/ktp-text-ui: frameworks/kdelibs4support
 
 # Extragear Office
 extragear/office/kmymoney: extragear/office/alkimia
