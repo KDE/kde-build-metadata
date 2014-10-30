@@ -179,6 +179,12 @@
             "latest-qt4": "master",
             "kf5-qt5": "frameworks"
         },
+        "kde/kdesdk/kapptemplate" : {
+            "oldstable-qt4": "KDE/4.13",
+            "stable-qt4": "KDE/4.14",
+            "latest-qt4": "KDE/4.14",
+            "kf5-qt5": "master"
+        },
         "kde/kdesdk/okteta" : {
             "oldstable-qt4": "KDE/4.13",
             "stable-qt4": "KDE/4.14",
