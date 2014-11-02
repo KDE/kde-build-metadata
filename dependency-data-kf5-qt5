@@ -716,6 +716,9 @@ extragear/network/telepathy/ktp-text-ui: frameworks/kdelibs4support
 # Extragear Office
 extragear/office/kmymoney: extragear/office/alkimia
 extragear/office/kmymoney: kde/kdepimlibs
+extragear/office/skrooge: frameworks/kactivities
+extragear/office/skrooge: general/grantlee
+extragear/office/skrooge: kdesupport/qca
 
 # Playground Base
 kde/workspace/kde-gtk-config: frameworks/ki18n

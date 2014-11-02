@@ -343,6 +343,12 @@
             "latest-qt4": "master",
             "kf5-qt5": "frameworks"
         },
+        "extragear/office/skrooge": {
+            "oldstable-qt4": "master",
+            "stable-qt4": "master",
+            "latest-qt4": "master",
+            "kf5-qt5": "kf5"
+        },
         "kde/workspace/muon": {
             "stable-qt4": "2.2",
             "latest-qt4": "2.2",
