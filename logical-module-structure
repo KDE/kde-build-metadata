@@ -182,8 +182,8 @@
         "kde/kdeedu/rocs" : {
             "oldstable-qt4": "KDE/4.13",
             "stable-qt4": "KDE/4.14",
-            "latest-qt4": "master",
-            "kf5-qt5": "frameworks"
+            "latest-qt4": "Applications/14.12",
+            "kf5-qt5": "master"
         },
         "kde/kdesdk/kapptemplate" : {
             "oldstable-qt4": "KDE/4.13",
