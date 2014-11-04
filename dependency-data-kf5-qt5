@@ -687,6 +687,7 @@ extragear/kdevelop/devtools/plugins/kdev-clang: extragear/kdevelop/kdevelop
 extragear/kdevelop/devtools/plugins/kdev-qmljs: extragear/kdevelop/kdevelop
 extragear/kdevelop/plugins/kdev-php: extragear/kdevelop/kdevplatform
 extragear/kdevelop/plugins/kdev-php: extragear/kdevelop/kdevelop-pg-qt
+extragear/kdevelop/plugins/kdev-php-docs: extragear/kdevelop/kdevplatform
 
 # Extragear Network
 extragear/network/konversation: kdesupport/qca
