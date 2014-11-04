@@ -411,6 +411,12 @@
         "playground/base/kdeconnect-kde" : {
             "latest-qt4": "master",
             "kf5-qt5": "frameworks"
+        },
+        "kde/kdeedu/kstars": {
+            "oldstable-qt4": "KDE/4.13",
+            "stable-qt4": "KDE/4.14",
+            "latest-qt4": "KDE/4.14",
+            "kf5-qt5": "master"
         }
     }
 }
