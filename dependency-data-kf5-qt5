@@ -611,10 +611,17 @@ kde/applications/konsole: frameworks/kf5umbrella
 
 kde/kdeutils/ark: frameworks/kdelibs4support
 
-# KDE PIM
+# KDE PIM Dependencies
 kde/kdepimlibs: kdesupport/akonadi
 kde/kdepimlibs: kdesupport/prison
+extragear/libs/libkgapi: kde/kdepimlibs
+
+# KDE PIM
 kde/kdepim: kde/kdepimlibs
+kde/kdepim: kde/kdepimlibs
+kde/kdepim: kde/kdepim/akonadi-search
+kde/kdepim: playground/pim/akonadi-search
+kde/kdepim: extragear/libs/libkgapi
 kde/kdepim: frameworks/kactivities
 kde/kdepim-runtime: kde/kdepim
 kde/kdepim-runtime: kdesupport/akonadi
@@ -699,6 +706,7 @@ extragear/network/telepathy/ktp-common-internals: frameworks/ktexteditor
 extragear/network/telepathy/ktp-common-internals: frameworks/kdelibs4support
 extragear/network/telepathy/ktp-common-internals: frameworks/kwallet
 extragear/network/telepathy/ktp-desktop-applets: extragear/network/telepathy/ktp-common-internals
+extragear/network/telepathy/ktp-auth-handler: extragear/network/telepathy/ktp-common-internals
 extragear/network/telepathy/ktp-contact-list: extragear/network/telepathy/ktp-common-internals
 extragear/network/telepathy/ktp-contact-list: frameworks/kdelibs4support
 extragear/network/telepathy/ktp-text-ui: extragear/network/telepathy/ktp-common-internals
