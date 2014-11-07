@@ -729,6 +729,9 @@ extragear/office/skrooge: frameworks/kactivities
 extragear/office/skrooge: general/grantlee
 extragear/office/skrooge: kdesupport/qca
 
+# Extragear Utils
+extragear/utils/yakuake: kde/applications/konsole
+
 # Playground Base
 kde/workspace/kde-gtk-config: frameworks/ki18n
 kde/workspace/kde-gtk-config: frameworks/kconfigwidgets
@@ -740,6 +743,14 @@ playground/base/ksshaskpass: frameworks/kcoreaddons
 playground/base/ksshaskpass: frameworks/ki18n
 playground/base/ksshaskpass: frameworks/kwallet
 playground/base/ksshaskpass: frameworks/kwidgetsaddons
+
+playground/base/kdeconnect-kde: frameworks/kio
+playground/base/kdeconnect-kde: frameworks/ki18n
+playground/base/kdeconnect-kde: frameworks/knotifications
+playground/base/kdeconnect-kde: frameworks/kconfigwidgets
+playground/base/kdeconnect-kde: frameworks/kdbusaddons
+playground/base/kdeconnect-kde: frameworks/kcmutils
+playground/base/kdeconnect-kde: frameworks/kiconthemes
 
 
 # KDE Games
