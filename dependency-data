@@ -349,6 +349,7 @@ extragear/graphics/skanlite: kde/kdegraphics/libs/libksane
 extragear/utils/krusader: kde/kdelibs
 extragear/utils/krusader: kde/applications/kde-baseapps
 extragear/utils/yakuake: kde/kdelibs
+extragear/utils/krecipes: kde/kdelibs
 
 # extragear/office
 extragear/office/tellico: kde/kdelibs
