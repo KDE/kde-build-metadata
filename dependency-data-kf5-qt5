@@ -618,7 +618,6 @@ extragear/libs/libkgapi: kde/kdepimlibs
 
 # KDE PIM
 kde/kdepim: kde/kdepimlibs
-kde/kdepim: kde/kdepimlibs
 kde/kdepim: kde/kdepim/akonadi-search
 kde/kdepim: playground/pim/akonadi-search
 kde/kdepim: extragear/libs/libkgapi
