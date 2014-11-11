@@ -299,9 +299,9 @@
             "latest-qt4": "master"
         },
         "extragear/multimedia/plasma-mediacenter": {
-            "stable-qt4": "master",
-            "latest-qt4": "master",
-            "kf5-qt5": "frameworks"
+            "stable-qt4": "v1.4",
+            "latest-qt4": "v1.4",
+            "kf5-qt5": "master"
         },
         "extragear/utils/yakuake": {
             "stable-qt4": "master",
