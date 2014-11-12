@@ -30,7 +30,7 @@
             "kf5-qt5": "master"
         },
         "kde/*" : {
-            "stable-qt4": "KDE/4.14",
+            "stable-qt4": "Applications/14.12",
             "latest-qt4": "master",
             "kf5-qt5": "frameworks"
         },
@@ -105,7 +105,7 @@
             "kf5-qt5": "master"
         },
         "kde/kdegraphics/ksnapshot" : {
-            "stable-qt4": "KDE/4.14",
+            "stable-qt4": "Applications/14.12",
             "latest-qt4": "master",
             "kf5-qt5": "frameworks"
         },
@@ -130,9 +130,8 @@
             "kf5-qt5": "master"
         },
         "kde/kdeedu/kbruch": {
-            "oldstable-qt4": "KDE/4.13",
-            "stable-qt4": "KDE/4.14",
-            "latest-qt4": "KDE/4.14",
+            "stable-qt4": "Applications/14.12",
+            "latest-qt4": "Applications/14.12",
             "kf5-qt5": "master"
         },
         "kde/kdeedu/kig": {
@@ -141,7 +140,7 @@
             "kf5-qt5": "master"
         },
         "kde/kdeedu/marble": {
-            "stable-qt4": "KDE/4.14",
+            "stable-qt4": "Applications/14.12",
             "latest-qt4": "master",
             "kf5-qt5": "master"
         },
@@ -161,7 +160,7 @@
             "kf5-qt5": "master"
         },
         "kde/kdeedu/rocs" : {
-            "stable-qt4": "KDE/4.14",
+            "stable-qt4": "Applications/14.12",
             "latest-qt4": "Applications/14.12",
             "kf5-qt5": "master"
         },
@@ -324,7 +323,6 @@
             "kf5-qt5": "frameworks"
         },
         "extragear/office/skrooge": {
-            "oldstable-qt4": "master",
             "stable-qt4": "master",
             "latest-qt4": "master",
             "kf5-qt5": "kf5"
@@ -378,9 +376,8 @@
             "kf5-qt5": "frameworks"
         },
         "kde/kdeedu/kstars": {
-            "oldstable-qt4": "KDE/4.13",
-            "stable-qt4": "KDE/4.14",
-            "latest-qt4": "KDE/4.14",
+            "stable-qt4": "Applications/14.12",
+            "latest-qt4": "Applications/14.12",
             "kf5-qt5": "master"
         }
     }
