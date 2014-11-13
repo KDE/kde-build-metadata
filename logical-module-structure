@@ -74,6 +74,16 @@
             "latest-qt4": "KDE/4.14",
             "kf5-qt5": "master"
         },
+        "kde/kdelibs/nepomuk-core" : {
+            "stable-qt4": "KDE/4.14",
+            "latest-qt4": "KDE/4.14",
+            "kf5-qt5": ""
+        },
+        "kde/kdelibs/nepomuk-widgets" : {
+            "stable-qt4": "KDE/4.14",
+            "latest-qt4": "KDE/4.14",
+            "kf5-qt5": ""
+        },
         "kde/workspace/*" : {
             "stable-qt4": "",
             "latest-qt4": "",
