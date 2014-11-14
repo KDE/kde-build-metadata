@@ -773,6 +773,16 @@ playground/base/kdeconnect-kde: frameworks/kdbusaddons
 playground/base/kdeconnect-kde: frameworks/kcmutils
 playground/base/kdeconnect-kde: frameworks/kiconthemes
 
+# KAccounts
+playground/base/kde-accounts/kaccounts-integration: frameworks/kcmutils
+playground/base/kde-accounts/kaccounts-integration: frameworks/kio
+playground/base/kde-accounts/kaccounts-integration: frameworks/ki18n
+playground/base/kde-accounts/kaccounts-integration: frameworks/kwidgetsaddons
+playground/base/kde-accounts/kaccounts-integration: frameworks/kcoreaddons
+playground/base/kde-accounts/kaccounts-integration: frameworks/kiconthemes
+playground/base/kde-accounts/kaccounts-integration: frameworks/kconfig
+playground/base/kde-accounts/kaccounts-integration: frameworks/kwallet
+playground/base/kde-accounts/kaccounts-integration: frameworks/kdbusaddons
 
 # KDE Games
 kde/kdegames/bovo: kde/kdegames/libkdegames
