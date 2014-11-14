@@ -13,7 +13,8 @@
     "layers" : [
         "stable-qt4",
         "latest-qt4",
-        "kf5-qt5"
+        "kf5-qt5",
+        "stable-kf5-qt5"
     ],
 
     "groups" : {
@@ -22,17 +23,20 @@
             "latest-qt4": "4.8"
         },
         "qt5": {
-            "kf5-qt5": "stable"
+            "kf5-qt5": "stable",
+            "stable-kf5-qt5": "stable"
         },
         "frameworks/*" : {
             "stable-qt4": "",
             "latest-qt4": "",
-            "kf5-qt5": "master"
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "master"
         },
         "kde/*" : {
             "stable-qt4": "Applications/14.12",
             "latest-qt4": "master",
-            "kf5-qt5": "frameworks"
+            "kf5-qt5": "frameworks",
+            "stable-kf5-qt5": "Applications/14.12"
         },
         "kde/kdelibs" : {
             "stable-qt4": "KDE/4.14",
@@ -42,152 +46,176 @@
         "frameworks/kactivities" : {
             "stable-qt4": "KDE/4.13",
             "latest-qt4": "KDE/4.13",
-            "kf5-qt5": "master"
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "master"
         },
         "kde/kdelibs/kfilemetadata" : {
             "stable-qt4": "KDE/4.14",
             "latest-qt4": "KDE/4.14",
-            "kf5-qt5": "master"
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "Plasma/5.1"
         },
         "kde/kdepim" : {
             "stable-qt4": "KDE/4.14",
             "latest-qt4": "KDE/4.14",
-            "kf5-qt5": "master"
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
         },
         "kde/kdepimlibs" : {
             "stable-qt4": "KDE/4.14",
             "latest-qt4": "KDE/4.14",
-            "kf5-qt5": "master"
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
         },
         "kde/kdepim-runtime" : {
             "stable-qt4": "KDE/4.14",
             "latest-qt4": "KDE/4.14",
-            "kf5-qt5": "master"
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
         },
         "kde/kdelibs/baloo" : {
             "stable-qt4": "KDE/4.14",
             "latest-qt4": "KDE/4.14",
-            "kf5-qt5": "master"
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "Plasma/5.1"
         },
         "kde/kdelibs/baloo-widgets" : {
             "stable-qt4": "KDE/4.14",
             "latest-qt4": "KDE/4.14",
-            "kf5-qt5": "master"
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
         },
         "kde/kdelibs/nepomuk-core" : {
             "stable-qt4": "KDE/4.14",
             "latest-qt4": "KDE/4.14",
-            "kf5-qt5": ""
+            "kf5-qt5": "",
+            "stable-kf5-qt5": ""
         },
         "kde/kdelibs/nepomuk-widgets" : {
             "stable-qt4": "KDE/4.14",
             "latest-qt4": "KDE/4.14",
-            "kf5-qt5": ""
+            "kf5-qt5": "",
+            "stable-kf5-qt5": ""
         },
         "kde/workspace/*" : {
             "stable-qt4": "",
             "latest-qt4": "",
-            "kf5-qt5": "master"
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "Plasma/5.1"
         },
         "kde/kde-workspace" : {
             "stable-qt4": "KDE/4.11",
             "latest-qt4": "KDE/4.11",
-            "kf5-qt5": ""
+            "kf5-qt5": "",
+            "stable-kf5-qt5": ""
         },
         "kde/kdeexamples" : {
             "stable-qt4": "master",
             "latest-qt4": "master",
-            "kf5-qt5": "master"
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
         },
         "kde/kdeplasma-addons" : {
             "stable-qt4": "KDE/4.14",
             "latest-qt4": "KDE/4.14",
-            "kf5-qt5": "master"
-        },
-        "kde/kdegraphics/libs/libkface" : {
-            "stable-qt4": "master",
-            "latest-qt4": "master",
-            "kf5-qt5": ""
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "Plasma/5.1"
         },
         "kde/kdegraphics/gwenview" : {
             "stable-qt4": "KDE/4.14",
             "latest-qt4": "KDE/4.14",
-            "kf5-qt5": "master"
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "Applications/14.12"
         },
         "kde/kdegraphics/ksnapshot" : {
             "stable-qt4": "Applications/14.12",
             "latest-qt4": "master",
-            "kf5-qt5": "frameworks"
+            "kf5-qt5": "frameworks",
+            "stable-kf5-qt5": ""
         },
         "kde/kdeedu/analitza": {
             "stable-qt4": "KDE/4.14",
             "latest-qt4": "KDE/4.14",
-            "kf5-qt5": "master"
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "Applications/14.12"
         },
         "kde/kdeedu/kalgebra": {
             "stable-qt4": "KDE/4.14",
             "latest-qt4": "KDE/4.14",
-            "kf5-qt5": "master"
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "Applications/14.12"
         },
         "kde/kdeedu/khangman": {
             "stable-qt4": "KDE/4.14",
             "latest-qt4": "KDE/4.14",
-            "kf5-qt5": "master"
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "Applications/14.12"
         },
         "kde/kdeedu/kanagram": {
             "stable-qt4": "KDE/4.14",
             "latest-qt4": "KDE/4.14",
-            "kf5-qt5": "master"
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "Applications/14.12"
         },
         "kde/kdeedu/kbruch": {
             "stable-qt4": "Applications/14.12",
             "latest-qt4": "Applications/14.12",
-            "kf5-qt5": "master"
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
         },
         "kde/kdeedu/kig": {
             "stable-qt4": "KDE/4.14",
             "latest-qt4": "KDE/4.14",
-            "kf5-qt5": "master"
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "Applications/14.12"
         },
         "kde/kdeedu/marble": {
             "stable-qt4": "Applications/14.12",
             "latest-qt4": "master",
-            "kf5-qt5": "master"
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "Applications/14.12"
         },
         "kde/kdeedu/libkeduvocdocument" : {
             "stable-qt4": "",
             "latest-qt4": "",
-            "kf5-qt5": "master"
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "Applications/14.12"
         },
         "kde/kdeedu/kdeedu-data" : {
             "stable-qt4": "",
             "latest-qt4": "",
-            "kf5-qt5": "master"
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "Applications/14.12"
         },
         "kde/kdeedu/parley": {
             "stable-qt4": "KDE/4.14",
             "latest-qt4": "KDE/4.14",
-            "kf5-qt5": "master"
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "Applications/14.12"
         },
         "kde/kdeedu/rocs" : {
             "stable-qt4": "Applications/14.12",
             "latest-qt4": "Applications/14.12",
-            "kf5-qt5": "master"
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
         },
         "kde/kdesdk/kapptemplate" : {
             "stable-qt4": "KDE/4.14",
             "latest-qt4": "KDE/4.14",
-            "kf5-qt5": "master"
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "Applications/14.12"
         },
         "kde/kdesdk/okteta" : {
             "stable-qt4": "KDE/4.14",
             "latest-qt4": "KDE/4.14",
-            "kf5-qt5": "master"
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "Applications/14.12"
         },
         "kdesupport/akonadi": {
             "stable-qt4": "1.13",
             "latest-qt4": "1.13",
-            "kf5-qt5": "master"
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "master"
         },
         "playground/pim/akonadi-search": {
             "kf5-qt5": "master"
