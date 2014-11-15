@@ -634,6 +634,7 @@ kde/kdeedu/kalgebra: kde/kdeedu/analitza
 kde/kdeedu/kanagram: kde/kdeedu/libkeduvocdocument
 kde/kdeedu/parley: kde/kdeedu/libkeduvocdocument
 kde/kdeedu/khangman: kde/kdeedu/libkeduvocdocument
+kde/kdeedu/kwordquiz: kde/kdeedu/libkeduvocdocument
 
 # KDE Plasma Addons
 kde/kdeplasma-addons: frameworks/krunner
