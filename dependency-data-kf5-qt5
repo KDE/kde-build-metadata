@@ -677,6 +677,9 @@ kde/workspace/muon: frameworks/kconfigwidgets
 kde/workspace/muon: frameworks/knotifications
 kde/workspace/muon: frameworks/kdeclarative
 
+# kdesdk
+kde/kdesdk/kompare: kde/kdesdk/libkomparediff2
+
 # Extragear Multimedia
 extragear/multimedia/plasma-mediacenter: frameworks/plasma-framework
 extragear/multimedia/plasma-mediacenter: kde/kdelibs/baloo
