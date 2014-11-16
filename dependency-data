@@ -344,6 +344,7 @@ extragear/graphics/kphotoalbum: kde/kdeedu/marble
 extragear/graphics/kphotoalbum: kde/kdegraphics/libs/libkface
 extragear/graphics/skanlite: kde/kdelibs
 extragear/graphics/skanlite: kde/kdegraphics/libs/libksane
+extragear/graphics/kxstitch: kde/kdelibs
 
 # extragear/utils
 extragear/utils/krusader: kde/kdelibs
