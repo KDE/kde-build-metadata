@@ -626,7 +626,6 @@ kde/kdepim-runtime: kdesupport/akonadi
 
 # KDE Graphics
 kde/kdegraphics/gwenview: frameworks/kdelibs4support
-kde/kdegraphics/gwenview: kde/applications/kde-baseapps
 
 
 # KDE Edu
