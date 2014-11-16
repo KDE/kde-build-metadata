@@ -270,6 +270,10 @@
             "latest-qt4": "master",
             "kf5-qt5": "frameworks"
         },
+        "extragear/base/powerdevil": {
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "Plasma/5.1"
+        },
         "extragear/libs/libnm-qt": {
             "stable-qt4": "NM/0.9.8",
             "latest-qt4": "NM/0.9.8",
