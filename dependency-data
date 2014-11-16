@@ -368,6 +368,7 @@ extragear/office/skrooge: kde/kde-workspace
 extragear/office/alkimia: kde/kdelibs
 extragear/office/kile: kde/kdelibs
 extragear/office/kile: kde/kdegraphics/okular
+extragear/office/kbibtex: kde/kdelibs
 
 # extragear/accessibility
 extragear/accessibility/simon: kde/kdelibs
