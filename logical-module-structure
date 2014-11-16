@@ -441,6 +441,12 @@
             "stable-qt4": "Applications/14.12",
             "latest-qt4": "Applications/14.12",
             "kf5-qt5": "master"
+        },
+        "kde/kdesdk/libkomparediff2": {
+            "stable-qt4": "Applications/14.12",
+            "latest-qt4": "Applications/14.12",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
         }
     }
 }
