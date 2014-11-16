@@ -257,7 +257,8 @@
         "extragear/base/milou": {
             "stable-qt4": "milou/0.1",
             "latest-qt4": "",
-            "kf5-qt5": "master"
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "Plasma/5.1"
         },
         "extragear/base/bluedevil": {
             "stable-qt4": "master",
