@@ -538,7 +538,6 @@ kde/workspace/plasma-nm: frameworks/plasma-framework
 kde/kde-runtime: frameworks/plasma-framework
 
 # KDE/Applications
-kde/applications/kate: kde/workspace/khelpcenter
 kde/applications/kate: frameworks/kactivities
 kde/applications/kate: frameworks/ktexteditor
 kde/applications/kate: frameworks/plasma-framework
