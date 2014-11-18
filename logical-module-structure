@@ -223,6 +223,11 @@
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/14.12"
         },
+        "kde/kdesdk/lokalize" : {
+            "stable-qt4": "KDE/4.14",
+            "latest-qt4": "master",
+            "kf5-qt5": "frameworks"
+        },
         "kde/kdesdk/okteta" : {
             "stable-qt4": "KDE/4.14",
             "latest-qt4": "KDE/4.14",
