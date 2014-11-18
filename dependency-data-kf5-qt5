@@ -691,7 +691,9 @@ extragear/kdevelop/kdevplatform: kde/workspace/kio-extras
 
 # KDevelop Plugins
 extragear/kdevelop/devtools/plugins/kdev-clang: extragear/kdevelop/kdevelop
+extragear/kdevelop/devtools/plugins/kdev-qmake: extragear/kdevelop/kdevelop
 extragear/kdevelop/devtools/plugins/kdev-qmljs: extragear/kdevelop/kdevelop
+extragear/kdevelop/devtools/plugins/kdev-ruby: extragear/kdevelop/kdevelop
 extragear/kdevelop/plugins/kdev-php: extragear/kdevelop/kdevplatform
 extragear/kdevelop/plugins/kdev-php: extragear/kdevelop/kdevelop-pg-qt
 extragear/kdevelop/plugins/kdev-php-docs: extragear/kdevelop/kdevplatform
