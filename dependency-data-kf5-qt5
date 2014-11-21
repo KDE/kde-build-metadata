@@ -777,6 +777,17 @@ playground/base/kdeconnect-kde: frameworks/kdbusaddons
 playground/base/kdeconnect-kde: frameworks/kcmutils
 playground/base/kdeconnect-kde: frameworks/kiconthemes
 
+playground/base/qtcurve: frameworks/karchive
+playground/base/qtcurve: frameworks/kconfig
+playground/base/qtcurve: frameworks/kconfigwidgets
+playground/base/qtcurve: frameworks/ki18n
+playground/base/qtcurve: frameworks/kdelibs4support
+playground/base/qtcurve: frameworks/kio
+playground/base/qtcurve: frameworks/kwidgetsaddons
+playground/base/qtcurve: frameworks/kxmlgui
+playground/base/qtcurve: frameworks/kemoticons
+playground/base/qtcurve: frameworks/kitemmodels
+
 # KAccounts
 playground/base/kde-accounts/kaccounts-integration: frameworks/kcmutils
 playground/base/kde-accounts/kaccounts-integration: frameworks/kio
@@ -796,3 +807,4 @@ playground/libs/kpackage: frameworks/karchive
 playground/libs/kpackage: frameworks/kcoreaddons
 playground/libs/kpackage: frameworks/ki18n
 playground/libs/kpackage: frameworks/kservice
+
