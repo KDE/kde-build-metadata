@@ -403,8 +403,9 @@
         },
         "extragear/network/konversation": {
             "stable-qt4": "1.5",
-            "latest-qt4": "master",
-            "kf5-qt5": "frameworks"
+            "latest-qt4": "1.5",
+            "stable-kf5-qt5": "1.6",
+            "kf5-qt5": "master"
         },
         "kde/applications/kate" : {
             "stable-qt4": "KDE/4.14",
