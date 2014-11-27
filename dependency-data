@@ -37,13 +37,9 @@ kde/kde-workspace: kdesupport/prison[master]
 kde/kde-workspace: kde/kdepimlibs
 kde/kde-workspace: frameworks/kactivities
 kde/kde-workspace: kdesupport/strigi/libstreams[master]
-# But the Qt 5 version lives in master and things are a mess...
-kde/kde-workspace[master]: -kdesupport/akonadi[master]
-kde/kde-workspace[master]: -kdesupport/prison[master]
-kde/kde-workspace[master]: -kde/kdepimlibs
-kde/kde-workspace[master]: frameworks/plasma-framework
 
-kde/workspace/plasma-nm: kde/kdelibs
+kde/workspace/oxygen: kdesupport/extra-cmake-modules
+kde/workspace/breeze: kdesupport/extra-cmake-modules
 kde/workspace/plasma-nm: extragear/libs/libnm-qt
 kde/workspace/plasma-nm: extragear/libs/libmm-qt
 
