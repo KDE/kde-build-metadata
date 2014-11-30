@@ -722,6 +722,7 @@ extragear/network/telepathy/ktp-auth-handler: frameworks/kwidgetsaddons
 extragear/network/telepathy/ktp-auth-handler: frameworks/kwallet
 extragear/network/telepathy/ktp-auth-handler: frameworks/ki18n
 extragear/network/telepathy/ktp-auth-handler: frameworks/kio
+extragear/network/telepathy/ktp-auth-handler: kdesupport/qca
 extragear/network/telepathy/ktp-contact-list: extragear/network/telepathy/ktp-common-internals
 extragear/network/telepathy/ktp-contact-list: frameworks/kdelibs4support
 extragear/network/telepathy/ktp-filetransfer-handler: extragear/network/telepathy/ktp-common-internals
