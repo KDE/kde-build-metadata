@@ -747,6 +747,8 @@ extragear/network/telepathy/ktp-text-ui: frameworks/knotifyconfig
 extragear/network/telepathy/ktp-text-ui: frameworks/ki18n
 extragear/network/telepathy/ktp-text-ui: frameworks/kdewebkit
 extragear/network/telepathy/ktp-text-ui: frameworks/kdelibs4support
+extragear/network/telepathy/ktp-contact-runner: extragear/network/telepathy/ktp-common-internals
+extragear/network/telepathy/ktp-contact-runner: frameworks/krunner
 
 # Extragear Office
 extragear/office/kmymoney: extragear/office/alkimia
