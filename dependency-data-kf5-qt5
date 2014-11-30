@@ -800,6 +800,7 @@ playground/base/kde-accounts/kaccounts-integration: frameworks/kiconthemes
 playground/base/kde-accounts/kaccounts-integration: frameworks/kconfig
 playground/base/kde-accounts/kaccounts-integration: frameworks/kwallet
 playground/base/kde-accounts/kaccounts-integration: frameworks/kdbusaddons
+playground/base/kde-accounts/kaccounts-integration: kdesupport/akonadi
 
 # KDE Games
 kde/kdegames/bovo: kde/kdegames/libkdegames
