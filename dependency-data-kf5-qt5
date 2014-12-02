@@ -446,7 +446,6 @@ kde/workspace/kwrited: frameworks/kcompletion
 kde/workspace/kwrited: frameworks/frameworkintegration
 kde/workspace/kwrited: frameworks/kwindowsystem
 kde/workspace/kwrited: frameworks/kdelibs4support
-kde/workspace/kwrited: kde/workspace/kwin  # KDecorations
 
 # Oxygen
 kde/workspace/oxygen: frameworks/ki18n
