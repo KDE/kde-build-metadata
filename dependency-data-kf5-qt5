@@ -458,7 +458,6 @@ kde/workspace/oxygen: frameworks/kcompletion
 kde/workspace/oxygen: frameworks/frameworkintegration
 kde/workspace/oxygen: frameworks/kwindowsystem
 kde/workspace/oxygen: frameworks/kdelibs4support
-kde/workspace/oxygen: kde/workspace/kwin
 
 # KHelpCenter
 kde/workspace/khelpcenter: frameworks/kconfig
