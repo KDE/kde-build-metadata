@@ -434,7 +434,6 @@ kde/workspace/kwin: kde/workspace/kwayland
 kde/workspace/kwin: kde/workspace/kdecoration
 
 # Breeze
-kde/workspace/breeze: kde/workspace/kwin
 kde/workspace/breeze: kde/workspace/kdecoration
 
 # KWrited
