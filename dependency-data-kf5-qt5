@@ -805,6 +805,20 @@ playground/base/kde-accounts/kaccounts-integration: kde/kdepimlibs
 
 # KDE Games
 kde/kdegames/bovo: kde/kdegames/libkdegames
+kde/kdegames/granatier: kde/kdegames/libkdegames
+kde/kdegames/kdiamond: kde/kdegames/libkdegames
+kde/kdegames/killbots: kde/kdegames/libkdegames
+kde/kdegames/ktuberling: kde/kdegames/libkdegames
+kde/kdegames/kmahjongg: kde/kdegames/libkdegames
+kde/kdegames/kmahjongg: kde/kdegames/libkmahjongg
+kde/kdegames/kbounce: kde/kdegames/libkdegames
+kde/kdegames/knavalbattle: kde/kdegames/libkdegames
+kde/kdegames/kmines: kde/kdegames/libkdegames
+kde/kdegames/klines: kde/kdegames/libkdegames
+kde/kdegames/lskat: kde/kdegames/libkdegames
+kde/kdegames/palapeli: kde/kdegames/libkdegames
+kde/kdegames/ksirk: kde/kdegames/libkdegames
+kde/kdegames/kreversi: kde/kdegames/libkdegames
 
 # Playground Libs
 playground/libs/kpackage: frameworks/karchive
