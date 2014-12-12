@@ -797,6 +797,7 @@ extragear/network/telepathy/ktp-common-internals: frameworks/knotifyconfig
 extragear/network/telepathy/ktp-common-internals: frameworks/ktexteditor
 extragear/network/telepathy/ktp-common-internals: frameworks/kdelibs4support
 extragear/network/telepathy/ktp-common-internals: frameworks/kwallet
+extragear/network/telepathy/ktp-common-internals: playground/network/libkpeople
 extragear/network/telepathy/ktp-desktop-applets: extragear/network/telepathy/ktp-common-internals
 extragear/network/telepathy/ktp-kded-module: extragear/network/telepathy/ktp-common-internals
 extragear/network/telepathy/ktp-kded-module: frameworks/kdbusaddons
@@ -916,3 +917,7 @@ playground/libs/kpackage: frameworks/kcoreaddons
 playground/libs/kpackage: frameworks/ki18n
 playground/libs/kpackage: frameworks/kservice
 
+playground/network/libkpeople: frameworks/kcoreaddons
+playground/network/libkpeople: frameworks/kio
+playground/network/libkpeople: frameworks/ki18n
+playground/network/libkpeople: frameworks/kitemviews
