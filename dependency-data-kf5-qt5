@@ -692,6 +692,7 @@ kde/pim/ktnef: kde/pim/kcalcore
 kde/pim/ktnef: kde/pim/kcalutils
 kde/pim/ktnef: kde/pim/kcontacts
 kde/pim/kcalutils: frameworks/kcoreaddons
+kde/pim/kcalutils: kde/pim/kcalcore
 kde/pim/kcalutils: frameworks/kconfig
 kde/pim/kcalutils: frameworks/ki18n
 kde/pim/kcalutils: frameworks/kdelibs4support
