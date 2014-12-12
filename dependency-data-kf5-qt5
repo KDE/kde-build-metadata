@@ -604,7 +604,6 @@ kde/applications/konsole: frameworks/kded
 kde/applications/konsole: frameworks/kemoticons
 kde/applications/konsole: frameworks/kpty
 kde/applications/konsole: frameworks/kdesu
-kde/applications/konsole: frameworks/kf5umbrella
 
 kde/kdeutils/ark: frameworks/kdelibs4support
 
