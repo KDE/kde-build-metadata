@@ -924,3 +924,4 @@ playground/network/libkpeople: frameworks/kcoreaddons
 playground/network/libkpeople: frameworks/kio
 playground/network/libkpeople: frameworks/ki18n
 playground/network/libkpeople: frameworks/kitemviews
+playground/network/libkpeople: kde/pim/kcontacts
