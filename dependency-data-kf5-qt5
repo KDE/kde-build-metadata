@@ -672,6 +672,7 @@ kde/pim/kidentitymanagement: frameworks/kio
 kde/pim/kidentitymanagement: frameworks/kconfig
 kde/pim/kidentitymanagement: frameworks/kemoticons
 kde/pim/kidentitymanagement: frameworks/kcodecs
+kde/pim/kidentitymanagement: kde/pim/kpimtextedit
 kde/pim/kblog: frameworks/kcoreaddons
 kde/pim/kblog: frameworks/kdelibs4support
 kde/pim/kblog: frameworks/kio
@@ -697,6 +698,7 @@ kde/pim/kcalutils: frameworks/kconfig
 kde/pim/kcalutils: frameworks/ki18n
 kde/pim/kcalutils: frameworks/kdelibs4support
 kde/pim/kcalutils: frameworks/kcodecs
+kde/pim/kcalutils: kde/pim/kidentitymanagement
 
 extragear/libs/libkgapi: frameworks/kcoreaddons
 extragear/libs/libkgapi: kde/pim/kcontacts
