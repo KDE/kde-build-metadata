@@ -842,6 +842,8 @@ extragear/network/telepathy/ktp-text-ui: frameworks/kdewebkit
 extragear/network/telepathy/ktp-text-ui: frameworks/kdelibs4support
 extragear/network/telepathy/ktp-contact-runner: extragear/network/telepathy/ktp-common-internals
 extragear/network/telepathy/ktp-contact-runner: frameworks/krunner
+extragear/network/telepathy/ktp-accounts-kcm: extragear/network/telepathy/ktp-common-internals
+extragear/network/telepathy/ktp-accounts-kcm: kdereview/kaccounts-integration
 
 # Extragear Office
 extragear/office/kmymoney: extragear/office/alkimia
@@ -886,16 +888,16 @@ playground/base/qtcurve: frameworks/kemoticons
 playground/base/qtcurve: frameworks/kitemmodels
 
 # KAccounts
-playground/base/kde-accounts/kaccounts-integration: frameworks/kcmutils
-playground/base/kde-accounts/kaccounts-integration: frameworks/kio
-playground/base/kde-accounts/kaccounts-integration: frameworks/ki18n
-playground/base/kde-accounts/kaccounts-integration: frameworks/kwidgetsaddons
-playground/base/kde-accounts/kaccounts-integration: frameworks/kcoreaddons
-playground/base/kde-accounts/kaccounts-integration: frameworks/kiconthemes
-playground/base/kde-accounts/kaccounts-integration: frameworks/kconfig
-playground/base/kde-accounts/kaccounts-integration: frameworks/kwallet
-playground/base/kde-accounts/kaccounts-integration: frameworks/kdbusaddons
-playground/base/kde-accounts/kaccounts-integration: kde/kdepimlibs
+kdereview/kaccounts-integration: frameworks/kcmutils
+kdereview/kaccounts-integration: frameworks/kio
+kdereview/kaccounts-integration: frameworks/ki18n
+kdereview/kaccounts-integration: frameworks/kwidgetsaddons
+kdereview/kaccounts-integration: frameworks/kcoreaddons
+kdereview/kaccounts-integration: frameworks/kiconthemes
+kdereview/kaccounts-integration: frameworks/kconfig
+kdereview/kaccounts-integration: frameworks/kwallet
+kdereview/kaccounts-integration: frameworks/kdbusaddons
+kdereview/kaccounts-integration: kde/kdepimlibs
 
 # KDE Games
 kde/kdegames/bovo: kde/kdegames/libkdegames
