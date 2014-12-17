@@ -707,6 +707,7 @@ extragear/libs/libkgapi: kde/pim/kcalcore
 # KDE PIM
 kde/kdepim: kde/kdepimlibs
 kde/kdepim: kde/kdepim/akonadi-search
+kde/kdepim: kde/kdepim/akonadi-calendar
 kde/kdepim: playground/pim/akonadi-search
 kde/kdepim: extragear/libs/libkgapi
 kde/kdepim: frameworks/kactivities
