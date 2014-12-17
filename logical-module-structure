@@ -181,6 +181,12 @@
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/14.12"
         },
+        "kde/kdeedu/step": {
+            "stable-qt4": "KDE/4.14",
+            "latest-qt4": "Applications/14.12",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
+        },
         "kde/kdeedu/kiten": {
             "stable-qt4": "KDE/4.14",
             "latest-qt4": "Applications/14.12",
