@@ -774,6 +774,14 @@ kde/kdesdk/kompare: kde/kdesdk/libkomparediff2
 # Extragear Multimedia
 extragear/multimedia/plasma-mediacenter: frameworks/plasma-framework
 extragear/multimedia/plasma-mediacenter: kde/kdelibs/baloo
+extragear/multimedia/kamoso: frameworks/kwidgetsaddons
+extragear/multimedia/kamoso: frameworks/kconfig
+extragear/multimedia/kamoso: frameworks/kconfigwidgets
+extragear/multimedia/kamoso: frameworks/kdoctools
+extragear/multimedia/kamoso: frameworks/solid
+extragear/multimedia/kamoso: frameworks/kio
+extragear/multimedia/kamoso: frameworks/kdeclarative
+extragear/multimedia/kamoso: frameworks/ki18n
 
 # KDevelop
 extragear/kdevelop/kdevelop: kde/workspace/khelpcenter

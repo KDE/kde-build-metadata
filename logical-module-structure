@@ -382,6 +382,11 @@
             "latest-qt4": "v1.4",
             "kf5-qt5": "master"
         },
+        "extragear/multimedia/kamoso": {
+            "stable-qt4": "2.1",
+            "latest-qt4": "master",
+            "kf5-qt5": "frameworks"
+        },
         "extragear/utils/yakuake": {
             "stable-qt4": "master",
             "latest-qt4": "master",
