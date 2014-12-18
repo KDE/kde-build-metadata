@@ -530,7 +530,7 @@ kde/workspace/plasma-desktop: kde/workspace/oxygen
 
 # Plasma NM
 kde/workspace/plasma-nm: extragear/libs/libmm-qt
-kde/workspace/plasma-nm: extragear/libs/libnm-qt
+kde/workspace/plasma-nm: frameworks/libnm-qt
 kde/workspace/plasma-nm: frameworks/plasma-framework
 
 # KDE Runtime

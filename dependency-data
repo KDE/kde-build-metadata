@@ -41,7 +41,7 @@ kde/kde-workspace: kdesupport/strigi/libstreams[master]
 kde/workspace/oxygen: kdesupport/extra-cmake-modules
 kde/workspace/oxygen: kde/kde-workspace
 kde/workspace/breeze: kdesupport/extra-cmake-modules
-kde/workspace/plasma-nm: extragear/libs/libnm-qt
+kde/workspace/plasma-nm: frameworks/libnm-qt
 kde/workspace/plasma-nm: extragear/libs/libmm-qt
 
 # KDE Runtime
