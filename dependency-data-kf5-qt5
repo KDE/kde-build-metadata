@@ -932,7 +932,8 @@ playground/libs/kpackage: frameworks/ki18n
 playground/libs/kpackage: frameworks/kservice
 
 playground/network/libkpeople: frameworks/kcoreaddons
-playground/network/libkpeople: frameworks/kio
+playground/network/libkpeople: frameworks/kwidgetsaddons
+playground/network/libkpeople: frameworks/kservice
 playground/network/libkpeople: frameworks/ki18n
 playground/network/libkpeople: frameworks/kitemviews
 playground/network/libkpeople: kde/pim/kcontacts
