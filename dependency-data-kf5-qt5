@@ -217,6 +217,7 @@ frameworks/plasma-framework: frameworks/kio
 frameworks/plasma-framework: frameworks/kross
 frameworks/plasma-framework: frameworks/knotifications
 frameworks/plasma-framework: frameworks/kparts
+frameworks/plasma-framework: frameworks/kpackage
 frameworks/plasma-framework: frameworks/kservice
 frameworks/plasma-framework: frameworks/solid
 frameworks/plasma-framework: frameworks/sonnet
