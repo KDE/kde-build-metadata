@@ -420,7 +420,7 @@
             "kf5-qt5": "master"
         },
         "calligra": {
-            "stable-qt4": "calligra/2.8",
+            "stable-qt4": "calligra/2.9",
             "latest-qt4": "master"
         },
         "frameworks/attica": {
