@@ -32,7 +32,7 @@
             "kf5-qt5": "master",
             "stable-kf5-qt5": "master"
         },
-        "frameworks/libnm-qt": {
+        "frameworks/networkmanager-qt": {
             "stable-qt4": "NM/0.9.8",
             "latest-qt4": "NM/0.9.8",
             "kf5-qt5": "master",
