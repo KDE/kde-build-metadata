@@ -228,6 +228,7 @@ frameworks/plasma-framework: frameworks/kwidgetsaddons
 frameworks/plasma-framework: frameworks/kwindowsystem
 frameworks/plasma-framework: frameworks/kxmlgui
 frameworks/plasma-framework: frameworks/ktexteditor
+frameworks/plasma-framework: frameworks/kpackage
 
 # Frameworks, tier4
 frameworks/frameworkintegration: frameworks/ki18n
