@@ -121,6 +121,12 @@
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Plasma/5.1"
         },
+        "kde/workspace/polkit-kde-agent-1" : {
+            "stable-qt4": "master",
+            "latest-qt4": "master",
+            "kf5-qt5": "frameworks",
+            "stable-kf5-qt5": "frameworks"
+        },
         "kde/workspace/breeze" : {
             "stable-qt4": "Plasma/5.1",
             "latest-qt4": "master",
