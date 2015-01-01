@@ -324,7 +324,7 @@
             "latest-qt4": "master",
             "kf5-qt5": "frameworks"
         },
-        "playground/libs/libbluedevil": {
+        "kdereview/libbluedevil": {
             "stable-qt4": "master",
             "latest-qt4": "master",
             "kf5-qt5": "frameworks"
