@@ -383,7 +383,7 @@
         },
         "extragear/network/telepathy/*": {
             "stable-qt4": "kde-telepathy-0.8",
-            "latest-qt4": "master"
+            "latest-qt4": "kde-telepathy-0.9"
         },
         "extragear/network/telepathy/telepathy-logger-qt": {
             "stable-qt4": "master",
