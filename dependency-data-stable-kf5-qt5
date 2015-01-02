@@ -626,8 +626,10 @@ kde/kdegraphics/gwenview: frameworks/kdelibs4support
 # KDE Edu
 kde/kdeedu/kalgebra: kde/kdeedu/analitza
 kde/kdeedu/kanagram: kde/kdeedu/libkeduvocdocument
+kde/kdeedu/kanagram: kde/kdeedu/kdeedu-data
 kde/kdeedu/parley: kde/kdeedu/libkeduvocdocument
 kde/kdeedu/khangman: kde/kdeedu/libkeduvocdocument
+kde/kdeedu/khangman: kde/kdeedu/kdeedu-data
 kde/kdeedu/kwordquiz: kde/kdeedu/libkeduvocdocument
 
 # KDE Plasma Addons
