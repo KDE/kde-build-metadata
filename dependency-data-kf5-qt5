@@ -803,6 +803,7 @@ extragear/kdevelop/devtools/plugins/kdev-ruby: extragear/kdevelop/kdevelop
 extragear/kdevelop/plugins/kdev-php: extragear/kdevelop/kdevplatform
 extragear/kdevelop/plugins/kdev-php: extragear/kdevelop/kdevelop-pg-qt
 extragear/kdevelop/plugins/kdev-php-docs: extragear/kdevelop/kdevplatform
+extragear/kdevelop/plugins/kdev-python: extragear/kdevelop/kdevplatform
 
 # Extragear Network
 extragear/network/konversation: kdesupport/qca
