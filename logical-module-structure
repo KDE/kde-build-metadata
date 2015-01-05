@@ -404,6 +404,11 @@
             "latest-qt4": "master",
             "kf5-qt5": "frameworks"
         },
+        "extragear/sysadmin/partitionmanager": {
+            "stable-qt4": "1.1",
+            "latest-qt4": "1.1",
+            "kf5-qt5": "master"
+        },
         "kde/workspace/kde-gtk-config": {
             "stable-qt4": "2.2",
             "latest-qt4": "2.2",
