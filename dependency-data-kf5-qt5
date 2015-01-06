@@ -681,7 +681,6 @@ kde/pim/kblog: frameworks/kio
 kde/pim/kblog: kde/pim/kcalcore
 kde/pim/kblog: kde/pim/syndication
 kde/pim/kblog: kde/pim/kxmlrpcclient
-kde/pim/gpgmepp: frameworks/kio
 kde/pim/kholidays: frameworks/kitemviews
 kde/pim/kholidays: frameworks/kdelibs4support
 kde/pim/kmbox: frameworks/kcoreaddons
