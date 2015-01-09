@@ -319,7 +319,7 @@
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Plasma/5.1"
         },
-        "extragear/base/bluedevil": {
+        "kde/workspace/bluedevil": {
             "stable-qt4": "master",
             "latest-qt4": "master",
             "kf5-qt5": "frameworks"
