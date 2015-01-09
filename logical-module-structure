@@ -314,11 +314,6 @@
             "kf5-qt5": "qt5",
             "stable-kf5-qt5": "qt5"
         },
-        "extragear/base/kscreen": {
-            "stable-qt4": "master",
-            "latest-qt4": "master",
-            "kf5-qt5": "frameworks"
-        },
         "extragear/base/milou": {
             "stable-qt4": "milou/0.1",
             "latest-qt4": "",
@@ -420,11 +415,17 @@
             "latest-qt4": "2.2",
             "kf5-qt5": "master"
         },
-        "extragear/libs/libkscreen": {
-            "stable-qt4": "master",
-            "latest-qt4": "master",
-            "kf5-qt5": "frameworks",
-            "stable-kf5-qt5": "Plasma/5.1"
+        "kde/workspace/libkscreen": {
+            "stable-qt4": "kdelibs4",
+            "latest-qt4": "kdelibs4",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "Plasma/5.2"
+        },
+        "kde/workspace/kscreen": {
+            "stable-qt4": "kdelibs4",
+            "latest-qt4": "kdelibs4",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "Plasma/5.2"
         },
         "extragear/office/kmymoney": {
             "stable-qt4": "4.7",
