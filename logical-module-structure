@@ -308,6 +308,12 @@
             "latest-qt4": "master",
             "kf5-qt5": "frameworks"
         },
+        "kdesupport/qca": {
+            "stable-qt4": "master",
+            "latest-qt4": "master",
+            "kf5-qt5": "qt5",
+            "stable-kf5-qt5": "qt5"
+        },
         "extragear/base/kscreen": {
             "stable-qt4": "master",
             "latest-qt4": "master",
