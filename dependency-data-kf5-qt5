@@ -946,3 +946,6 @@ playground/network/libkpeople: frameworks/kservice
 playground/network/libkpeople: frameworks/ki18n
 playground/network/libkpeople: frameworks/kitemviews
 playground/network/libkpeople: kde/pim/kcontacts
+
+# A standalone application, no need to install KF5
+extragear/pim/trojita: -frameworks/kf5umbrella
