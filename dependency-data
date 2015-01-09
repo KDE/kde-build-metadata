@@ -60,7 +60,6 @@ kde/kdelibs/baloo-widgets: kde/kdelibs/baloo
 # Note that kactivities still _optionally_ depends on nepomuk-core for KDE 4 as of Mar 2014.
 frameworks/kactivities: kde/kdelibs/nepomuk-core
 kde/kdelibs/nepomuk-widgets: kde/kdelibs/nepomuk-core
-# But some things haven't yet been ported for the Qt 5 versions....
 
 # kde-baseapps
 kde/applications/kde-baseapps: frameworks/kactivities
@@ -220,6 +219,10 @@ kde/kdebindings/csharp/kimono: kde/kdebindings/smoke/smokekde
 kde/kdebindings/csharp/kimono: kde/kdebindings/csharp/qyoto
 kde/kdebindings/pykde4: kde/kdepimlibs
 
+# frameworks
+frameworks/networkmanager-qt: kde/kdelibs
+frameworks/networkmanager-qt: extragear/libs/libmm-qt
+
 # extragear/libs
 extragear/libs/libkgeomap: kde/kdelibs
 extragear/libs/libkgeomap: kde/kdeedu/marble
@@ -230,8 +233,6 @@ extragear/libs/libkfbapi: kde/kdelibs
 extragear/libs/libkfbapi: kde/kdepimlibs
 extragear/libs/libkgapi: kde/kdelibs
 extragear/libs/libkgapi: kde/kdepimlibs
-extragear/libs/libnm-qt: kde/kdelibs
-extragear/libs/libnm-qt: extragear/libs/libmm-qt
 extragear/libs/libkscreen: kde/kdelibs
 
 # extragear/base
