@@ -379,6 +379,35 @@
             "kf5-qt5": "master"
         },
         "playground/devtools/plugins/*": {
+            "stable-qt4": "master",
+            "latest-qt4": "master"
+        },
+        "playground/devtools/plugins/kdev-clang": {
+            "stable-qt4": "1.7",
+            "latest-qt4": "1.7",
+            "kf5-qt5": "master"
+        },
+        "playground/devtools/plugins/kdev-qmljs": {
+            "stable-qt4": "1.7",
+            "latest-qt4": "1.7",
+            "kf5-qt5": "master"
+        },
+        "playground/devtools/plugins/kdev-ruby": {
+            "stable-qt4": "1.7",
+            "latest-qt4": "1.7",
+            "kf5-qt5": "master"
+        },
+        "extragear/kdevelop/plugins/kdev-php": {
+            "stable-qt4": "1.7",
+            "latest-qt4": "1.7",
+            "kf5-qt5": "master"
+        },
+        "extragear/kdevelop/plugins/kdev-php-docs": {
+            "stable-qt4": "1.7",
+            "latest-qt4": "1.7",
+            "kf5-qt5": "master"
+        },
+        "extragear/kdevelop/plugins/kdev-python": {
             "stable-qt4": "1.7",
             "latest-qt4": "1.7",
             "kf5-qt5": "master"
