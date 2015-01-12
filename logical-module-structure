@@ -387,6 +387,11 @@
             "latest-qt4": "1.7",
             "kf5-qt5": "master"
         },
+        "playground/devtools/plugins/kdev-cppcheck": {
+            "stable-qt4": "1.7",
+            "latest-qt4": "1.7",
+            "kf5-qt5": "master"
+        },
         "playground/devtools/plugins/kdev-qmljs": {
             "stable-qt4": "1.7",
             "latest-qt4": "1.7",
