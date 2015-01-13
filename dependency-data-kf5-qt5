@@ -816,7 +816,6 @@ extragear/network/konversation: kdesupport/qca
 extragear/network/telepathy/ktp-common-internals: frameworks/kcmutils
 extragear/network/telepathy/ktp-common-internals: frameworks/knotifyconfig
 extragear/network/telepathy/ktp-common-internals: frameworks/ktexteditor
-extragear/network/telepathy/ktp-common-internals: frameworks/kdelibs4support
 extragear/network/telepathy/ktp-common-internals: frameworks/kwallet
 extragear/network/telepathy/ktp-common-internals: playground/network/libkpeople
 extragear/network/telepathy/ktp-desktop-applets: extragear/network/telepathy/ktp-common-internals
@@ -827,7 +826,6 @@ extragear/network/telepathy/ktp-kded-module: frameworks/ki18n
 extragear/network/telepathy/ktp-kded-module: frameworks/knotifications
 extragear/network/telepathy/ktp-kded-module: frameworks/kconfigwidgets
 extragear/network/telepathy/ktp-kded-module: frameworks/kidletime
-extragear/network/telepathy/ktp-kded-module: frameworks/kdelibs4support
 extragear/network/telepathy/ktp-auth-handler: extragear/network/telepathy/ktp-common-internals
 extragear/network/telepathy/ktp-auth-handler: frameworks/kwidgetsaddons
 extragear/network/telepathy/ktp-auth-handler: frameworks/kwallet
@@ -835,7 +833,7 @@ extragear/network/telepathy/ktp-auth-handler: frameworks/ki18n
 extragear/network/telepathy/ktp-auth-handler: frameworks/kio
 extragear/network/telepathy/ktp-auth-handler: kdesupport/qca
 extragear/network/telepathy/ktp-contact-list: extragear/network/telepathy/ktp-common-internals
-extragear/network/telepathy/ktp-contact-list: frameworks/kdelibs4support
+extragear/network/telepathy/ktp-contact-list: playground/network/libkpeople
 extragear/network/telepathy/ktp-filetransfer-handler: extragear/network/telepathy/ktp-common-internals
 extragear/network/telepathy/ktp-filetransfer-handler: frameworks/kcoreaddons
 extragear/network/telepathy/ktp-filetransfer-handler: frameworks/ki18n
@@ -857,7 +855,6 @@ extragear/network/telepathy/ktp-text-ui: frameworks/kcmutils
 extragear/network/telepathy/ktp-text-ui: frameworks/knotifyconfig
 extragear/network/telepathy/ktp-text-ui: frameworks/ki18n
 extragear/network/telepathy/ktp-text-ui: frameworks/kdewebkit
-extragear/network/telepathy/ktp-text-ui: frameworks/kdelibs4support
 extragear/network/telepathy/ktp-contact-runner: extragear/network/telepathy/ktp-common-internals
 extragear/network/telepathy/ktp-contact-runner: frameworks/krunner
 extragear/network/telepathy/ktp-accounts-kcm: extragear/network/telepathy/ktp-common-internals
@@ -945,7 +942,6 @@ playground/network/libkpeople: frameworks/kwidgetsaddons
 playground/network/libkpeople: frameworks/kservice
 playground/network/libkpeople: frameworks/ki18n
 playground/network/libkpeople: frameworks/kitemviews
-playground/network/libkpeople: kde/pim/kcontacts
 
 # A standalone application, no need to install KF5
 extragear/pim/trojita: -frameworks/kf5umbrella
