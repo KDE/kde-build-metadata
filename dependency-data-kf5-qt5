@@ -725,6 +725,35 @@ kde/kdepim-runtime: kdesupport/akonadi
 # KDE Graphics
 kde/kdegraphics/gwenview: frameworks/kdelibs4support
 
+kde/kdegraphics/okular: frameworks/kactivities
+kde/kdegraphics/okular: frameworks/karchive
+kde/kdegraphics/okular: frameworks/kbookmarks
+kde/kdegraphics/okular: frameworks/kconfig
+kde/kdegraphics/okular: frameworks/kconfigwidgets
+kde/kdegraphics/okular: frameworks/kcoreaddons
+kde/kdegraphics/okular: frameworks/kdbusaddons
+kde/kdegraphics/okular: frameworks/kjs
+kde/kdegraphics/okular: frameworks/kdelibs4support
+kde/kdegraphics/okular: frameworks/kio
+kde/kdegraphics/okular: frameworks/kparts
+kde/kdegraphics/okular: frameworks/threadweaver
+kde/kdegraphics/okular: frameworks/kwallet
+kde/kdegraphics/okular: frameworks/khtml
+kde/kdegraphics/okular: frameworks/libkscreen
+kde/kdegraphics/okular: frameworks/phonon
+
+kde/kdegraphics/ksnapshot: frameworks/kconfig
+kde/kdegraphics/ksnapshot: frameworks/kconfigwidgets
+kde/kdegraphics/ksnapshot: frameworks/kcoreaddons
+kde/kdegraphics/ksnapshot: frameworks/kdoctools
+kde/kdegraphics/ksnapshot: frameworks/kguiaddons
+kde/kdegraphics/ksnapshot: frameworks/ki18n
+kde/kdegraphics/ksnapshot: frameworks/kio
+kde/kdegraphics/ksnapshot: frameworks/kservice
+kde/kdegraphics/ksnapshot: frameworks/kwindowsystem
+kde/kdegraphics/ksnapshot: frameworks/kxmlgui
+kde/kdegraphics/ksnapshot: frameworks/kdbusaddons
+kde/kdegraphics/ksnapshot: frameworks/kparts
 
 # KDE Edu
 kde/kdeedu/kalgebra: kde/kdeedu/analitza
