@@ -739,6 +739,7 @@ kde/kdeedu/kwordquiz: kde/kdeedu/libkeduvocdocument
 kde/kdeplasma-addons: frameworks/krunner
 
 # Extragear Base
+kde/workspace/bluedevil: kde/workspace/libbluedevil
 extragear/base/milou: frameworks/kdelibs4support
 extragear/base/milou: kde/kdelibs/baloo
 extragear/base/kscreen: frameworks/kdbusaddons

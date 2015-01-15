@@ -331,7 +331,7 @@
             "latest-qt4": "master",
             "kf5-qt5": "frameworks"
         },
-        "kdereview/libbluedevil": {
+        "kde/workspace/libbluedevil": {
             "stable-qt4": "master",
             "latest-qt4": "master",
             "kf5-qt5": "frameworks"

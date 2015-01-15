@@ -245,8 +245,8 @@ extragear/base/wacomtablet: kde/kdelibs
 extragear/base/networkmanagement: kde/kdelibs
 extragear/base/networkmanagement: extragear/libs/libnm-qt
 extragear/base/networkmanagement: extragear/libs/libmm-qt
-extragear/base/bluedevil: kde/kdelibs
-extragear/base/bluedevil: playground/libs/libbluedevil
+kde/workspace/bluedevil: kde/kdelibs
+kde/workspace/bluedevil: kde/workspace/libbluedevil
 extragear/base/kde-gtk-config: kde/kdelibs
 extragear/base/kscreen: extragear/libs/libkscreen
 extragear/base/kwebkitpart: kde/kdelibs
