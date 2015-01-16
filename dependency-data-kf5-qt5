@@ -962,6 +962,10 @@ kde/kdegames/ksirk: kde/kdegames/libkdegames
 kde/kdegames/ksirk: kdesupport/qca
 kde/kdegames/kreversi: kde/kdegames/libkdegames
 kde/kdegames/ksnakeduel: kde/kdegames/libkdegames
+kde/kdegames/knetwalk: kde/kdegames/libkdegames
+kde/kdegames/kapman: kde/kdegames/libkdegames
+kde/kdegames/bomber: kde/kdegames/libkdegames
+kde/kdegames/kshisen: kde/kdegames/libkmahjongg
 
 # Playground Libs
 playground/libs/kpackage: frameworks/karchive
