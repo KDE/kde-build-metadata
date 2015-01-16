@@ -59,7 +59,7 @@
             "stable-qt4": "KDE/4.14",
             "latest-qt4": "KDE/4.14",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": "Plasma/5.1"
+            "stable-kf5-qt5": "Plasma/5.2"
         },
         "kde/kdepim" : {
             "stable-qt4": "KDE/4.14",
@@ -95,7 +95,7 @@
             "stable-qt4": "KDE/4.14",
             "latest-qt4": "KDE/4.14",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": "Plasma/5.1"
+            "stable-kf5-qt5": "Plasma/5.2"
         },
         "kde/kdelibs/baloo-widgets" : {
             "stable-qt4": "KDE/4.14",
@@ -119,7 +119,7 @@
             "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": "Plasma/5.1"
+            "stable-kf5-qt5": "Plasma/5.2"
         },
         "kde/workspace/polkit-kde-agent-1" : {
             "stable-qt4": "master",
@@ -128,16 +128,16 @@
             "stable-kf5-qt5": "frameworks"
         },
         "kde/workspace/breeze" : {
-            "stable-qt4": "Plasma/5.1",
+            "stable-qt4": "Plasma/5.2",
             "latest-qt4": "master",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": "Plasma/5.1"
+            "stable-kf5-qt5": "Plasma/5.2"
         },
         "kde/workspace/oxygen" : {
             "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": "Plasma/5.1"
+            "stable-kf5-qt5": "Plasma/5.2"
         },
         "kde/kde-workspace" : {
             "stable-qt4": "KDE/4.11",
@@ -155,7 +155,7 @@
             "stable-qt4": "KDE/4.14",
             "latest-qt4": "KDE/4.14",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": "Plasma/5.1"
+            "stable-kf5-qt5": "Plasma/5.2"
         },
         "kde/kdegraphics/gwenview" : {
             "stable-qt4": "KDE/4.14",
@@ -330,7 +330,7 @@
             "stable-qt4": "milou/0.1",
             "latest-qt4": "",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": "Plasma/5.1"
+            "stable-kf5-qt5": "Plasma/5.2"
         },
         "kde/workspace/bluedevil": {
             "stable-qt4": "master",
@@ -344,7 +344,7 @@
         },
         "extragear/base/powerdevil": {
             "kf5-qt5": "master",
-            "stable-kf5-qt5": "Plasma/5.1"
+            "stable-kf5-qt5": "Plasma/5.2"
         },
         "extragear/libs/libkgapi": {
             "stable-qt4": "LibKGAPI/2.1",
@@ -365,7 +365,7 @@
             "stable-qt4": "MM/1.0",
             "latest-qt4": "MM/1.0",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": "Plasma/5.1"
+            "stable-kf5-qt5": "Plasma/5.2"
         },
         "extragear/graphics/skanlite": {
             "kf5-qt5": "frameworks"
