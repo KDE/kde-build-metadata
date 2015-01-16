@@ -36,7 +36,7 @@
             "stable-qt4": "NM/0.9.8",
             "latest-qt4": "NM/0.9.8",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": "Plasma/5.1"
+            "stable-kf5-qt5": "master"
         },
         "kde/*" : {
             "stable-qt4": "Applications/14.12",
