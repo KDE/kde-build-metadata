@@ -959,6 +959,7 @@ kde/kdegames/klines: kde/kdegames/libkdegames
 kde/kdegames/lskat: kde/kdegames/libkdegames
 kde/kdegames/palapeli: kde/kdegames/libkdegames
 kde/kdegames/ksirk: kde/kdegames/libkdegames
+kde/kdegames/ksirk: kdesupport/qca
 kde/kdegames/kreversi: kde/kdegames/libkdegames
 kde/kdegames/ksnakeduel: kde/kdegames/libkdegames
 
