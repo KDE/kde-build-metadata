@@ -945,27 +945,50 @@ kdereview/kaccounts-integration: frameworks/kdbusaddons
 kdereview/kaccounts-integration: kde/kdepimlibs
 
 # KDE Games
+kde/kdegames/libkmahjongg: kde/kdegames/libkdegames
+kde/kdegames/kmahjongg: kde/kdegames/libkmahjongg
+kde/kdegames/kshisen: kde/kdegames/libkmahjongg
+
+kde/kdegames/bomber: kde/kdegames/libkdegames
 kde/kdegames/bovo: kde/kdegames/libkdegames
 kde/kdegames/granatier: kde/kdegames/libkdegames
-kde/kdegames/kdiamond: kde/kdegames/libkdegames
-kde/kdegames/killbots: kde/kdegames/libkdegames
-kde/kdegames/ktuberling: kde/kdegames/libkdegames
-kde/kdegames/kmahjongg: kde/kdegames/libkdegames
-kde/kdegames/kmahjongg: kde/kdegames/libkmahjongg
+# kajongg has a lot of PyQt4 and other binding req's
+kde/kdegames/kapman: kde/kdegames/libkdegames
+kde/kdegames/katomic: kde/kdegames/libkdegames
+kde/kdegames/kblackbox: kde/kdegames/libkdegames
+kde/kdegames/kblocks: kde/kdegames/libkdegames
 kde/kdegames/kbounce: kde/kdegames/libkdegames
-kde/kdegames/knavalbattle: kde/kdegames/libkdegames
-kde/kdegames/kmines: kde/kdegames/libkdegames
+kde/kdegames/kbreakout: kde/kdegames/libkdegames
+kde/kdegames/kdiamond: kde/kdegames/libkdegames
+kde/kdegames/kfourinline: kde/kdegames/libkdegames
+kde/kdegames/kgoldrunner: kde/kdegames/libkdegames
+kde/kdegames/kigo: kde/kdegames/libkdegames
+kde/kdegames/killbots: kde/kdegames/libkdegames
+kde/kdegames/kiriki: kde/kdegames/libkdegames
+kde/kdegames/kjumpingcube: kde/kdegames/libkdegames
+kde/kdegames/klickety: kde/kdegames/libkdegames
 kde/kdegames/klines: kde/kdegames/libkdegames
-kde/kdegames/lskat: kde/kdegames/libkdegames
-kde/kdegames/palapeli: kde/kdegames/libkdegames
+kde/kdegames/kmahjongg: kde/kdegames/libkdegames
+kde/kdegames/kmines: kde/kdegames/libkdegames
+kde/kdegames/knavalbattle: kde/kdegames/libkdegames
+kde/kdegames/knetwalk: kde/kdegames/libkdegames
+kde/kdegames/kolf: kde/kdegames/libkdegames
+kde/kdegames/kollision: kde/kdegames/libkdegames
+kde/kdegames/konquest: kde/kdegames/libkdegames
+kde/kdegames/kpat: kde/kdegames/libkdegames
+kde/kdegames/kreversi: kde/kdegames/libkdegames
+kde/kdegames/kshisen: kde/kdegames/libkdegames
 kde/kdegames/ksirk: kde/kdegames/libkdegames
 kde/kdegames/ksirk: kdesupport/qca
-kde/kdegames/kreversi: kde/kdegames/libkdegames
 kde/kdegames/ksnakeduel: kde/kdegames/libkdegames
-kde/kdegames/knetwalk: kde/kdegames/libkdegames
-kde/kdegames/kapman: kde/kdegames/libkdegames
-kde/kdegames/bomber: kde/kdegames/libkdegames
-kde/kdegames/kshisen: kde/kdegames/libkmahjongg
+kde/kdegames/kspaceduel: kde/kdegames/libkdegames
+kde/kdegames/ksquares: kde/kdegames/libkdegames
+kde/kdegames/ksudoku: kde/kdegames/libkdegames
+kde/kdegames/ktuberling: kde/kdegames/libkdegames
+kde/kdegames/kubrick: kde/kdegames/libkdegames
+kde/kdegames/lskat: kde/kdegames/libkdegames
+kde/kdegames/palapeli: kde/kdegames/libkdegames
+kde/kdegames/picmi: kde/kdegames/libkdegames
 
 # Playground Libs
 playground/libs/kpackage: frameworks/karchive
