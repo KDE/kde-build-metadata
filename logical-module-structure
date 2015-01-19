@@ -192,6 +192,11 @@
             "latest-qt4": "KDE/4.14",
             "kf5-qt5": "master"
         },
+        "kde/kdeedu/blinken": {
+            "stable-qt4": "KDE/4.14",
+            "latest-qt4": "KDE/4.14",
+            "kf5-qt5": "master"
+        },
         "kde/kdeedu/khangman": {
             "stable-qt4": "KDE/4.14",
             "latest-qt4": "KDE/4.14",
