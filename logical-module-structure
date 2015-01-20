@@ -375,6 +375,11 @@
         "extragear/graphics/skanlite": {
             "kf5-qt5": "frameworks"
         },
+        "extragear/office/kile": {
+            "stable-qt4": "master",
+            "latest-qt4": "master",
+            "kf5-qt5": "frameworks"
+        },
         "extragear/kdevelop/*": {
             "stable-qt4": "1.7",
             "latest-qt4": "1.7",
