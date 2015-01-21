@@ -891,8 +891,12 @@ extragear/network/telepathy/ktp-accounts-kcm: extragear/network/telepathy/ktp-co
 extragear/network/telepathy/ktp-accounts-kcm: kdereview/kaccounts-integration
 
 # Extragear Office
+extragear/office/kmymoney: kdesupport/akonadi
 extragear/office/kmymoney: extragear/office/alkimia
-extragear/office/kmymoney: kde/kdepimlibs
+extragear/office/kmymoney: kde/pim/kholidays
+extragear/office/kmymoney: kde/pim/kidentitymanagement
+extragear/office/kmymoney: kde/pim/gpgmepp
+extragear/office/kmymoney: kde/pim/kcontacts
 extragear/office/skrooge: frameworks/kactivities
 extragear/office/skrooge: general/grantlee
 extragear/office/skrooge: kdesupport/qca
