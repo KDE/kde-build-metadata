@@ -196,6 +196,10 @@ frameworks/kactivities: frameworks/kservice
 frameworks/kactivities: frameworks/kcmutils
 frameworks/kactivities: frameworks/kio
 frameworks/kactivities: frameworks/kdeclarative
+frameworks/kpackage: frameworks/karchive
+frameworks/kpackage: frameworks/kcoreaddons
+frameworks/kpackage: frameworks/ki18n
+frameworks/kpackage: frameworks/kservice
 frameworks/plasma-framework: frameworks/kactivities
 frameworks/plasma-framework: frameworks/karchive
 frameworks/plasma-framework: frameworks/kauth
@@ -350,6 +354,7 @@ frameworks/kf5umbrella: frameworks/solid
 frameworks/kf5umbrella: frameworks/sonnet
 frameworks/kf5umbrella: frameworks/threadweaver
 frameworks/kf5umbrella: frameworks/plasma-framework
+frameworks/kf5umbrella: frameworks/kpackage
 
 # The generic dependency on all frameworks
 kde/*: frameworks/kf5umbrella
@@ -995,11 +1000,6 @@ kde/kdegames/palapeli: kde/kdegames/libkdegames
 kde/kdegames/picmi: kde/kdegames/libkdegames
 
 # Playground Libs
-playground/libs/kpackage: frameworks/karchive
-playground/libs/kpackage: frameworks/kcoreaddons
-playground/libs/kpackage: frameworks/ki18n
-playground/libs/kpackage: frameworks/kservice
-
 playground/network/libkpeople: frameworks/kcoreaddons
 playground/network/libkpeople: frameworks/kwidgetsaddons
 playground/network/libkpeople: frameworks/kservice
