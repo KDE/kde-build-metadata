@@ -23,7 +23,7 @@
             "latest-qt4": "4.8"
         },
         "qt5": {
-            "kf5-qt5": "5.4.0",
+            "kf5-qt5": "5.4",
             "stable-kf5-qt5": "5.3.2"
         },
         "frameworks/*" : {
