@@ -151,6 +151,12 @@
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Plasma/5.2"
         },
+        "kde/kdeadmin/kcron" : {
+            "stable-qt4": "Applications/14.12",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
+        },
         "kde/kdegraphics/gwenview" : {
             "stable-qt4": "KDE/4.14",
             "latest-qt4": "KDE/4.14",
@@ -299,6 +305,18 @@
             "stable-kf5-qt5": ""
         },
         "kde/kdeutils/filelight" : {
+            "stable-qt4": "Applications/14.12",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
+        },
+        "kde/kdeutils/kcalc" : {
+            "stable-qt4": "Applications/14.12",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
+        },
+        "kde/kdeutils/kcharselect" : {
             "stable-qt4": "Applications/14.12",
             "latest-qt4": "",
             "kf5-qt5": "master",
