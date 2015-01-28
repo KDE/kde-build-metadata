@@ -843,6 +843,7 @@ extragear/kdevelop/plugins/kdev-php: extragear/kdevelop/kdevplatform
 extragear/kdevelop/plugins/kdev-php: extragear/kdevelop/kdevelop-pg-qt
 extragear/kdevelop/plugins/kdev-php-docs: extragear/kdevelop/kdevplatform
 extragear/kdevelop/plugins/kdev-python: extragear/kdevelop/kdevelop
+playground/devtools/plugins/kdev-cppcheck: extragear/kdevelop/kdevelop
 
 # Extragear Network
 extragear/network/konversation: kdesupport/qca
