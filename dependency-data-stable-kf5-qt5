@@ -356,13 +356,13 @@ kde/*: frameworks/kf5umbrella
 extragear/*: frameworks/kf5umbrella
 
 # As yet unmigrated frameworks
-kde/kdelibs/baloo: frameworks/krunner
-kde/kdelibs/baloo: kde/kdelibs/kfilemetadata
-kde/kdelibs/baloo: frameworks/kdelibs4support
-kde/kdelibs/baloo-widgets: kde/kdelibs/baloo
-kde/kdelibs/kfilemetadata: frameworks/ki18n
-kde/kdelibs/kfilemetadata: frameworks/kservice
-kde/kdelibs/kfilemetadata: frameworks/karchive
+kde/workspace/baloo: frameworks/krunner
+kde/workspace/baloo: kde/workspace/kfilemetadata
+kde/workspace/baloo: frameworks/kdelibs4support
+kde/kdelibs/baloo-widgets: kde/workspace/baloo
+kde/workspace/kfilemetadata: frameworks/ki18n
+kde/workspace/kfilemetadata: frameworks/kservice
+kde/workspace/kfilemetadata: frameworks/karchive
 
 # libksysguard
 kde/workspace/libksysguard: frameworks/ki18n
@@ -501,7 +501,7 @@ kde/workspace/plasma-workspace: kde/workspace/kde-cli-tools
 kde/workspace/plasma-workspace: kde/workspace/kio-extras
 kde/workspace/plasma-workspace: kde/workspace/breeze
 kde/workspace/plasma-workspace: extragear/libs/libkscreen
-kde/workspace/plasma-workspace: kde/kdelibs/baloo
+kde/workspace/plasma-workspace: kde/workspace/baloo
 kde/workspace/plasma-workspace: kde/workspace/kwayland
 
 # System Settings
@@ -549,9 +549,9 @@ kde/applications/kate: frameworks/ktexteditor
 kde/applications/kate: frameworks/plasma-framework
 
 kde/applications/kde-baseapps: frameworks/kactivities
-kde/applications/kde-baseapps: kde/kdelibs/baloo
+kde/applications/kde-baseapps: kde/workspace/baloo
 kde/applications/kde-baseapps: kde/kdelibs/baloo-widgets
-kde/applications/kde-baseapps: kde/kdelibs/kfilemetadata
+kde/applications/kde-baseapps: kde/workspace/kfilemetadata
 # Provides KTextEditor for konqueror
 kde/applications/kde-baseapps: kde/applications/kate
 
@@ -647,7 +647,7 @@ kde/kdeplasma-addons: frameworks/krunner
 
 # Extragear Base
 extragear/base/milou: frameworks/kdelibs4support
-extragear/base/milou: kde/kdelibs/baloo
+extragear/base/milou: kde/workspace/baloo
 extragear/base/kscreen: frameworks/kdbusaddons
 extragear/base/kscreen: frameworks/kconfigwidgets
 extragear/base/kscreen: frameworks/ki18n
@@ -688,7 +688,7 @@ kde/kdesdk/kompare: kde/kdesdk/libkomparediff2
 
 # Extragear Multimedia
 extragear/multimedia/plasma-mediacenter: frameworks/plasma-framework
-extragear/multimedia/plasma-mediacenter: kde/kdelibs/baloo
+extragear/multimedia/plasma-mediacenter: kde/workspace/baloo
 
 # KDevelop
 extragear/kdevelop/kdevelop: kde/workspace/khelpcenter
