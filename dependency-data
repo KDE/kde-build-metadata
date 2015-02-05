@@ -52,6 +52,7 @@ kde/kde-runtime: kde/kdepimlibs
 kde/kde-runtime: kde/applications/kate
 
 # baloo*
+kde/workspace/baloo: kde/kdepimlibs
 kde/workspace/baloo: kde/workspace/kfilemetadata
 kde/kdelibs/baloo-widgets: kde/workspace/baloo
 
