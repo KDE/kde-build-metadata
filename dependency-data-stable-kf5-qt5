@@ -540,6 +540,9 @@ kde/workspace/plasma-nm: extragear/libs/libmm-qt
 kde/workspace/plasma-nm: frameworks/networkmanager-qt
 kde/workspace/plasma-nm: frameworks/plasma-framework
 
+# Bludedevil
+kde/workspace/bluedevil: kde/workspace/libbluedevil
+
 # KDE Runtime
 kde/kde-runtime: frameworks/plasma-framework
 
