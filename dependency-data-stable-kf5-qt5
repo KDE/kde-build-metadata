@@ -500,7 +500,7 @@ kde/workspace/plasma-workspace: kde/workspace/khelpcenter
 kde/workspace/plasma-workspace: kde/workspace/kde-cli-tools
 kde/workspace/plasma-workspace: kde/workspace/kio-extras
 kde/workspace/plasma-workspace: kde/workspace/breeze
-kde/workspace/plasma-workspace: extragear/libs/libkscreen
+kde/workspace/plasma-workspace: kde/workspace/libkscreen
 kde/workspace/plasma-workspace: kde/workspace/baloo
 kde/workspace/plasma-workspace: kde/workspace/kwayland
 
@@ -653,7 +653,7 @@ extragear/base/kscreen: frameworks/kconfigwidgets
 extragear/base/kscreen: frameworks/ki18n
 extragear/base/kscreen: frameworks/kxmlgui
 extragear/base/kscreen: frameworks/kglobalaccel
-extragear/base/kscreen: extragear/libs/libkscreen
+extragear/base/kscreen: kde/workspace/libkscreen
 extragear/base/powerdevil: frameworks/kauth
 extragear/base/powerdevil: frameworks/kidletime
 extragear/base/powerdevil: frameworks/kconfig

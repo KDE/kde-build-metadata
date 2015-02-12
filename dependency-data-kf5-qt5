@@ -505,7 +505,7 @@ kde/workspace/plasma-workspace: kde/workspace/khelpcenter
 kde/workspace/plasma-workspace: kde/workspace/kde-cli-tools
 kde/workspace/plasma-workspace: kde/workspace/kio-extras
 kde/workspace/plasma-workspace: kde/workspace/breeze
-kde/workspace/plasma-workspace: extragear/libs/libkscreen
+kde/workspace/plasma-workspace: kde/workspace/libkscreen
 kde/workspace/plasma-workspace: kde/workspace/baloo
 kde/workspace/plasma-workspace: kde/workspace/kwayland
 
@@ -744,7 +744,7 @@ kde/kdegraphics/okular: frameworks/kparts
 kde/kdegraphics/okular: frameworks/threadweaver
 kde/kdegraphics/okular: frameworks/kwallet
 kde/kdegraphics/okular: frameworks/khtml
-kde/kdegraphics/okular: frameworks/libkscreen
+kde/kdegraphics/okular: kde/workspace/libkscreen
 kde/kdegraphics/okular: frameworks/phonon
 
 kde/kdegraphics/ksnapshot: frameworks/kconfig
@@ -781,7 +781,7 @@ extragear/base/kscreen: frameworks/kconfigwidgets
 extragear/base/kscreen: frameworks/ki18n
 extragear/base/kscreen: frameworks/kxmlgui
 extragear/base/kscreen: frameworks/kglobalaccel
-extragear/base/kscreen: extragear/libs/libkscreen
+extragear/base/kscreen: kde/workspace/libkscreen
 extragear/base/powerdevil: frameworks/kauth
 extragear/base/powerdevil: frameworks/kidletime
 extragear/base/powerdevil: frameworks/kconfig
