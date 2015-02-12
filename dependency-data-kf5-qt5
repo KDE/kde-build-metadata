@@ -238,6 +238,7 @@ frameworks/plasma-framework: frameworks/kwidgetsaddons
 frameworks/plasma-framework: frameworks/kwindowsystem
 frameworks/plasma-framework: frameworks/kxmlgui
 frameworks/plasma-framework: frameworks/ktexteditor
+frameworks/kxmlrpcclient: frameworks/kio
 
 # Frameworks, tier4
 frameworks/frameworkintegration: frameworks/ki18n
@@ -355,6 +356,7 @@ frameworks/kf5umbrella: frameworks/sonnet
 frameworks/kf5umbrella: frameworks/threadweaver
 frameworks/kf5umbrella: frameworks/plasma-framework
 frameworks/kf5umbrella: frameworks/kpackage
+frameworks/kf5umbrella: frameworks/kxmlrpcclient
 
 # The generic dependency on all frameworks
 kde/*: frameworks/kf5umbrella
