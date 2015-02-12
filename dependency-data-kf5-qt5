@@ -499,6 +499,7 @@ kde/workspace/plasma-workspace: frameworks/kwallet
 kde/workspace/plasma-workspace: frameworks/kcmutils
 kde/workspace/plasma-workspace: frameworks/kdewebkit
 kde/workspace/plasma-workspace: frameworks/plasma-framework
+kde/workspace/plasma-workspace: frameworks/kxmlrpcclient
 kde/workspace/plasma-workspace: frameworks/kdelibs4support
 kde/workspace/plasma-workspace: kde/workspace/libksysguard
 kde/workspace/plasma-workspace: kde/workspace/kwin
