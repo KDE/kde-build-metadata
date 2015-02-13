@@ -626,7 +626,7 @@ kde/kdeutils/ark: frameworks/kdelibs4support
 kde/kdepimlibs: kdesupport/akonadi
 kde/kdepimlibs: kdesupport/prison
 kde/kdepimlibs: kde/pim/kcontacts
-kde/kdepimlibs: kde/pim/kxmlrpcclient
+kde/kdepimlibs: frameworks/kxmlrpcclient
 kde/kdepimlibs: kde/pim/kblog
 kde/kdepimlibs: kde/pim/kcalcore
 kde/kdepimlibs: kde/pim/kcalutils
@@ -693,13 +693,13 @@ kde/pim/kblog: frameworks/kdelibs4support
 kde/pim/kblog: frameworks/kio
 kde/pim/kblog: kde/pim/kcalcore
 kde/pim/kblog: kde/pim/syndication
-kde/pim/kblog: kde/pim/kxmlrpcclient
+kde/pim/kblog: frameworks/kxmlrpcclient
 kde/pim/kholidays: frameworks/kitemviews
 kde/pim/kholidays: frameworks/kdelibs4support
 kde/pim/kmbox: frameworks/kcoreaddons
 kde/pim/kmbox: frameworks/kdelibs4support
 kde/pim/kmbox: kde/pim/kmime
-kde/pim/kxmlrpcclient: frameworks/kio
+frameworks/kxmlrpcclient: frameworks/kio
 kde/pim/kontactinterface: frameworks/kparts
 kde/pim/kontactinterface: frameworks/kdelibs4support
 kde/pim/ktnef: frameworks/kdelibs4support
