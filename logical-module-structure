@@ -42,7 +42,7 @@
             "stable-qt4": "Applications/14.12",
             "latest-qt4": "master",
             "kf5-qt5": "frameworks",
-            "stable-kf5-qt5": "Applications/14.12"
+            "stable-kf5-qt5": "frameworks"
         },
         "kde/kdelibs" : {
             "stable-qt4": "KDE/4.14",
