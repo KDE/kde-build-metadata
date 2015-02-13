@@ -57,6 +57,7 @@ frameworks/kdesignerplugin: frameworks/kio
 frameworks/kdesignerplugin: frameworks/kdewebkit
 frameworks/kemoticons: frameworks/karchive
 frameworks/kemoticons: frameworks/kservice
+frameworks/kjs: frameworks/kdoctools
 frameworks/knewstuff: frameworks/attica
 frameworks/knewstuff: frameworks/ki18n
 frameworks/knewstuff: frameworks/kitemviews
