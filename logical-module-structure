@@ -42,7 +42,7 @@
             "stable-qt4": "Applications/14.12",
             "latest-qt4": "master",
             "kf5-qt5": "frameworks",
-            "stable-kf5-qt5": "frameworks"
+            "stable-kf5-qt5": "Applications/14.12"
         },
         "kde/kdelibs" : {
             "stable-qt4": "KDE/4.14",
@@ -561,6 +561,12 @@
             "stable-qt4": "KDE/4.14",
             "latest-qt4": "KDE/4.14",
             "kf5-qt5": "master"
+        },
+        "kde/applications/kde-baseapps" : {
+            "stable-qt4": "Applications/14.12",
+            "latest-qt4": "master",
+            "kf5-qt5": "frameworks",
+            "stable-kf5-qt5": ""
         },
         "playground/libs/kpackage" : {
             "kf5-qt5": "master"
