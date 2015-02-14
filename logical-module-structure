@@ -496,6 +496,11 @@
             "latest-qt4": "1.7",
             "kf5-qt5": "master"
         },
+        "playground/devtools/plugins/kdev-qmake": {
+            "stable-qt4": "1.7",
+            "latest-qt4": "1.7",
+            "kf5-qt5": "master"
+        },
         "extragear/kdevelop/plugins/kdev-php": {
             "stable-qt4": "1.7",
             "latest-qt4": "1.7",
