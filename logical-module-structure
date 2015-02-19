@@ -652,7 +652,7 @@
         },
         "kde/kdegames/*": {
             "stable-qt4": "Applications/14.12",
-            "latest-qt4": "Applications/14.12",
+            "latest-qt4": "master",
             "kf5-qt5": "frameworks",
             "stable-kf5-qt5": ""
         },
