@@ -745,6 +745,24 @@
             "latest-qt4": "Applications/14.12",
             "kf5-qt5": "master",
             "stable-kf5-qt5": ""
+        },
+        "kde/kdegames/killbots": {
+            "stable-qt4": "Applications/14.12",
+            "latest-qt4": "Applications/14.12",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
+        },
+        "kde/kdegames/katomic": {
+            "stable-qt4": "Applications/14.12",
+            "latest-qt4": "Applications/14.12",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
+        },
+        "kde/kdegames/kjumpingcube": {
+            "stable-qt4": "Applications/14.12",
+            "latest-qt4": "Applications/14.12",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
         }
     }
 }
