@@ -55,7 +55,7 @@
             "kf5-qt5": "master",
             "stable-kf5-qt5": "master"
         },
-        "kde/kdelibs/kfilemetadata" : {
+        "kde/workspace/kfilemetadata" : {
             "stable-qt4": "KDE/4.14",
             "latest-qt4": "KDE/4.14",
             "kf5-qt5": "master",
