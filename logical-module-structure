@@ -805,6 +805,12 @@
             "latest-qt4": "Applications/14.12",
             "kf5-qt5": "master",
             "stable-kf5-qt5": ""
+        },
+        "kde/kdemultimedia/kdenlive": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
         }
     }
 }
