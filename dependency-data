@@ -187,6 +187,24 @@ kde/kdenetwork/kget: kde/kdepimlibs
 kde/kdenetwork/kget: kde/kde-workspace
 kde/kdenetwork/kget: kde/kde-baseapps
 kde/kdenetwork/kget: extragear/network/libktorrent
+kde/kdenetwork/ktp*: kde/kdelibs
+kde/kdenetwork/ktp-common-internals: kde/kdepimlibs
+kde/kdenetwork/ktp-common-internals: playground/network/kpeople
+kde/kdenetwork/ktp-common-internals: kde/kdenetwork/telepathy-logger-qt
+kde/kdenetwork/ktp-accounts-kcm: kde/kdenetwork/ktp-common-internals
+kde/kdenetwork/ktp-accounts-kcm: kde/kdenetwork/telepathy-logger-qt
+kde/kdenetwork/ktp-approver: kde/kdenetwork/ktp-common-internals
+kde/kdenetwork/ktp-auth-handler: kde/kdenetwork/ktp-common-internals
+kde/kdenetwork/ktp-contact-list: kde/kdenetwork/ktp-common-internals
+kde/kdenetwork/ktp-contact-list: kde/kdepimlibs
+kde/kdenetwork/ktp-contact-runner: kde/kdenetwork/ktp-common-internals
+kde/kdenetwork/ktp-desktop-applets: kde/kdenetwork/ktp-common-internals
+kde/kdenetwork/ktp-filetransfer-handler: kde/kdenetwork/ktp-common-internals
+kde/kdenetwork/ktp-kded-module: kde/kdenetwork/ktp-common-internals
+kde/kdenetwork/ktp-presence-applet: kde/kdenetwork/ktp-common-internals
+kde/kdenetwork/ktp-send-file: kde/kdenetwork/ktp-common-internals
+kde/kdenetwork/ktp-text-ui: kde/kdenetwork/ktp-common-internals
+kde/kdenetwork/ktp-text-ui: kde/kdenetwork/telepathy-logger-qt
 
 # kdeadmin
 kde/kdeadmin/kuser: kde/kdepimlibs
@@ -279,29 +297,12 @@ extragear/network/ktorrent: kde/kdelibs
 extragear/network/ktorrent: extragear/network/libktorrent
 extragear/network/ktorrent: kde/kdepimlibs
 extragear/network/ktorrent: kde/kde-workspace
-extragear/network/telepathy/*: kde/kdelibs
-extragear/network/telepathy/ktp-common-internals: kde/kdepimlibs
-extragear/network/telepathy/ktp-common-internals[master]: playground/network/libkpeople
-extragear/network/telepathy/ktp-common-internals: extragear/network/telepathy/telepathy-logger-qt
-extragear/network/telepathy/ktp-accounts-kcm: extragear/network/telepathy/ktp-common-internals
-extragear/network/telepathy/ktp-accounts-kcm: extragear/network/telepathy/telepathy-logger-qt
-extragear/network/telepathy/ktp-approver: extragear/network/telepathy/ktp-common-internals
-extragear/network/telepathy/ktp-auth-handler: extragear/network/telepathy/ktp-common-internals
-extragear/network/telepathy/ktp-call-ui: extragear/network/telepathy/ktp-common-internals
-extragear/network/telepathy/ktp-contact-list: extragear/network/telepathy/ktp-common-internals
-extragear/network/telepathy/ktp-contact-list: kde/kdepimlibs
-extragear/network/telepathy/ktp-contact-runner: extragear/network/telepathy/ktp-common-internals
-extragear/network/telepathy/ktp-desktop-applets: extragear/network/telepathy/ktp-common-internals
-extragear/network/telepathy/ktp-filetransfer-handler: extragear/network/telepathy/ktp-common-internals
-extragear/network/telepathy/ktp-kded-module: extragear/network/telepathy/ktp-common-internals
-extragear/network/telepathy/ktp-presence-applet: extragear/network/telepathy/ktp-common-internals
-extragear/network/telepathy/ktp-send-file: extragear/network/telepathy/ktp-common-internals
-extragear/network/telepathy/ktp-text-ui: extragear/network/telepathy/ktp-common-internals
-extragear/network/telepathy/ktp-text-ui: extragear/network/telepathy/telepathy-logger-qt
 extragear/network/rekonq: kde/kdelibs
 extragear/network/rekonq: kde/kdelibs/nepomuk-core
 extragear/network/rekonq: frameworks/kactivities
 extragear/network/choqok: kde/kdelibs
+extragear/network/telepathy/*: kde/kdelibs
+extragear/network/telepathy/ktp-call-ui: kde/kdenetwork/ktp-common-internals
 
 
 # extragear/multimedia
