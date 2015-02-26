@@ -540,7 +540,7 @@
             "stable-qt4": "kde-telepathy-0.9",
             "latest-qt4": "kde-telepathy-0.9",
             "kf5-qt5": "master"
-        }
+        },
         "extragear/network/telepathy/telepathy-logger-qt": {
             "stable-qt4": "master",
             "latest-qt4": "master"
