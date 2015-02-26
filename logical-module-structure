@@ -86,8 +86,8 @@
             "stable-kf5-qt5": ""
         },
         "playground/network/kpeople" : {
-            "stable-qt4": "",
-            "latest-qt4": "",
+            "stable-qt4": "libkpeople-0.3",
+            "latest-qt4": "libkpeople-0.3",
             "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         },

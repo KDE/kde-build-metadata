@@ -433,5 +433,5 @@ playground/pim/zanshin: kde/kdepimlibs
 playground/pim/zanshin: kde/kdepim-runtime
 
 # Playground KPeople
-playground/network/libkpeople: kde/kdelibs
-playground/network/libkpeople: kde/kdepimlibs
+playground/network/kpeople: kde/kdelibs
+playground/network/kpeople: kde/kdepimlibs
