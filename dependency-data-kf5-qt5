@@ -574,6 +574,28 @@ kde/applications/kde-baseapps: kde/workspace/kfilemetadata
 # Provides KTextEditor for konqueror
 kde/applications/kde-baseapps: kde/applications/kate
 
+kde/applications/dolphin: frameworks/kdoctools
+kde/applications/dolphin: frameworks/kinit
+kde/applications/dolphin: frameworks/kcmutils
+kde/applications/dolphin: frameworks/knewstuff
+kde/applications/dolphin: frameworks/kcoreaddons
+kde/applications/dolphin: frameworks/ki18n
+kde/applications/dolphin: frameworks/kdbusaddons
+kde/applications/dolphin: frameworks/kbookmarks
+kde/applications/dolphin: frameworks/kconfig
+kde/applications/dolphin: frameworks/kio
+kde/applications/dolphin: frameworks/kparts
+kde/applications/dolphin: frameworks/solid
+kde/applications/dolphin: frameworks/kiconthemes
+kde/applications/dolphin: frameworks/kcompletion
+kde/applications/dolphin: frameworks/ktexteditor
+kde/applications/dolphin: frameworks/kwindowsystem
+kde/applications/dolphin: frameworks/knotifications
+kde/applications/dolphin: frameworks/kactivities
+kde/applications/dolphin: kdesupport/phonon/phonon
+kde/applications/dolphin: kde/workspace/kfilemetadata
+kde/applications/dolphin: kde/workspace/baloo
+
 kde/applications/konsole: frameworks/kwidgetsaddons
 kde/applications/konsole: frameworks/ki18n
 kde/applications/konsole: frameworks/kconfig
