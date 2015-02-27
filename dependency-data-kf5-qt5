@@ -926,6 +926,7 @@ kde/kdenetwork/ktp-text-ui: frameworks/ki18n
 kde/kdenetwork/ktp-text-ui: frameworks/kdewebkit
 kde/kdenetwork/ktp-contact-runner: frameworks/krunner
 kde/kdenetwork/ktp-accounts-kcm: kde/kdenetwork/kaccounts-integration
+kde/kdenetwork/ktp-desktop-applets: frameworks/plasma-framework
 
 # Extragear Office
 extragear/office/kmymoney: extragear/graphics/kdiagram
