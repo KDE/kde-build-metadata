@@ -839,6 +839,7 @@ extragear/multimedia/kamoso: frameworks/solid
 extragear/multimedia/kamoso: frameworks/kio
 extragear/multimedia/kamoso: frameworks/kdeclarative
 extragear/multimedia/kamoso: frameworks/ki18n
+extragear/multimedia/kamoso: playground/libs/purpose
 
 # KDevelop
 extragear/kdevelop/kdevelop: kde/workspace/khelpcenter
