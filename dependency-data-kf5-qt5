@@ -560,6 +560,14 @@ kde/workspace/polkit-kde-agent-1: frameworks/kconfig
 kde/workspace/polkit-kde-agent-1: frameworks/kiconthemes
 kde/workspace/polkit-kde-agent-1: frameworks/knotifications
 
+# KScreen
+kde/workspace/kscreen: frameworks/kdbusaddons
+kde/workspace/kscreen: frameworks/kconfigwidgets
+kde/workspace/kscreen: frameworks/ki18n
+kde/workspace/kscreen: frameworks/kxmlgui
+kde/workspace/kscreen: frameworks/kglobalaccel
+kde/workspace/kscreen: kde/workspace/libkscreen
+
 # KDE Runtime
 kde/kde-runtime: frameworks/plasma-framework
 
@@ -813,12 +821,6 @@ kde/kdeplasma-addons: frameworks/krunner
 kde/workspace/bluedevil: kde/workspace/libbluedevil
 extragear/base/milou: frameworks/kdelibs4support
 extragear/base/milou: kde/workspace/baloo
-extragear/base/kscreen: frameworks/kdbusaddons
-extragear/base/kscreen: frameworks/kconfigwidgets
-extragear/base/kscreen: frameworks/ki18n
-extragear/base/kscreen: frameworks/kxmlgui
-extragear/base/kscreen: frameworks/kglobalaccel
-extragear/base/kscreen: kde/workspace/libkscreen
 extragear/base/powerdevil: frameworks/kauth
 extragear/base/powerdevil: frameworks/kidletime
 extragear/base/powerdevil: frameworks/kconfig

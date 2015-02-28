@@ -38,6 +38,9 @@ kde/kde-workspace: kde/kdepimlibs
 kde/kde-workspace: frameworks/kactivities
 kde/kde-workspace: kdesupport/strigi/libstreams[master]
 
+kde/workspace/libkscreen: kde/kdelibs
+
+kde/workspace/kscreen: kde/workspace/libkscreen
 kde/workspace/oxygen: kdesupport/extra-cmake-modules
 kde/workspace/oxygen: kde/kde-workspace
 kde/workspace/breeze: kdesupport/extra-cmake-modules
@@ -253,7 +256,6 @@ extragear/libs/libkfbapi: kde/kdelibs
 extragear/libs/libkfbapi: kde/kdepimlibs
 extragear/libs/libkgapi: kde/kdelibs
 extragear/libs/libkgapi: kde/kdepimlibs
-extragear/libs/libkscreen: kde/kdelibs
 
 # extragear/base
 extragear/base/plasma-mobile: kde/kdelibs
@@ -268,7 +270,6 @@ extragear/base/networkmanagement: extragear/libs/libmm-qt
 kde/workspace/bluedevil: kde/kdelibs
 kde/workspace/bluedevil: kde/workspace/libbluedevil
 extragear/base/kde-gtk-config: kde/kdelibs
-extragear/base/kscreen: extragear/libs/libkscreen
 extragear/base/kwebkitpart: kde/kdelibs
 extragear/base/polkit-kde-agent-1: kde/kdelibs
 extragear/base/polkit-kde-agent-1: kdesupport/polkit-qt-1
