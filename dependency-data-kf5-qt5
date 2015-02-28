@@ -929,7 +929,7 @@ kde/kdenetwork/ktp-accounts-kcm: kde/kdenetwork/kaccounts-integration
 kde/kdenetwork/ktp-desktop-applets: frameworks/plasma-framework
 
 # Extragear Office
-extragear/office/kmymoney: extragear/graphics/libs/kdiagram
+extragear/office/kmymoney: extragear/graphics/kdiagram
 extragear/office/kmymoney: kde/kdepimlibs
 extragear/office/kmymoney: extragear/office/alkimia
 extragear/office/kmymoney: kde/pim/kholidays
