@@ -197,6 +197,7 @@ frameworks/kactivities: frameworks/kservice
 frameworks/kactivities: frameworks/kcmutils
 frameworks/kactivities: frameworks/kio
 frameworks/kactivities: frameworks/kdeclarative
+frameworks/kactivities: frameworks/kpackage
 frameworks/kpackage: frameworks/karchive
 frameworks/kpackage: frameworks/kcoreaddons
 frameworks/kpackage: frameworks/ki18n
