@@ -197,6 +197,7 @@ frameworks/kactivities: frameworks/kservice
 frameworks/kactivities: frameworks/kcmutils
 frameworks/kactivities: frameworks/kio
 frameworks/kactivities: frameworks/kdeclarative
+frameworks/kactivities: frameworks/kpackage
 frameworks/plasma-framework: frameworks/kactivities
 frameworks/plasma-framework: frameworks/karchive
 frameworks/plasma-framework: frameworks/kauth
