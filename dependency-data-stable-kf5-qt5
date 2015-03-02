@@ -236,6 +236,11 @@ frameworks/plasma-framework: frameworks/kwidgetsaddons
 frameworks/plasma-framework: frameworks/kwindowsystem
 frameworks/plasma-framework: frameworks/kxmlgui
 frameworks/plasma-framework: frameworks/ktexteditor
+frameworks/kpeople: frameworks/kcoreaddons
+frameworks/kpeople: frameworks/kwidgetsaddons
+frameworks/kpeople: frameworks/kservice
+frameworks/kpeople: frameworks/ki18n
+frameworks/kpeople: frameworks/kitemviews
 
 # Frameworks, tier4
 frameworks/frameworkintegration: frameworks/ki18n
@@ -642,7 +647,7 @@ kde/kdenetwork/ktp-common-internals: frameworks/kcmutils
 kde/kdenetwork/ktp-common-internals: frameworks/knotifyconfig
 kde/kdenetwork/ktp-common-internals: frameworks/ktexteditor
 kde/kdenetwork/ktp-common-internals: frameworks/kwallet
-kde/kdenetwork/ktp-common-internals: playground/network/kpeople
+kde/kdenetwork/ktp-common-internals: frameworks/kpeople
 kde/kdenetwork/ktp-common-internals: kde/kdenetwork/kaccounts-integration
 kde/kdenetwork/ktp*: kde/kdenetwork/ktp-common-internals
 kde/kdenetwork/ktp-kded-module: frameworks/kdbusaddons
@@ -657,7 +662,7 @@ kde/kdenetwork/ktp-auth-handler: frameworks/ki18n
 kde/kdenetwork/ktp-auth-handler: frameworks/kio
 kde/kdenetwork/ktp-auth-handler: kdesupport/qca
 kde/kdenetwork/ktp-auth-handler: kde/kdenetwork/kaccounts-integration
-kde/kdenetwork/ktp-contact-list: playground/network/kpeople
+kde/kdenetwork/ktp-contact-list: frameworks/kpeople
 kde/kdenetwork/ktp-filetransfer-handler: frameworks/kcoreaddons
 kde/kdenetwork/ktp-filetransfer-handler: frameworks/ki18n
 kde/kdenetwork/ktp-filetransfer-handler: frameworks/kio
