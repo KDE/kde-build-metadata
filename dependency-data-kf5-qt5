@@ -895,7 +895,7 @@ kde/kdenetwork/ktp-common-internals: frameworks/kcmutils
 kde/kdenetwork/ktp-common-internals: frameworks/knotifyconfig
 kde/kdenetwork/ktp-common-internals: frameworks/ktexteditor
 kde/kdenetwork/ktp-common-internals: frameworks/kwallet
-kde/kdenetwork/ktp-common-internals: playground/network/kpeople
+kde/kdenetwork/ktp-common-internals: frameworks/kpeople
 kde/kdenetwork/ktp-common-internals: kde/kdenetwork/kaccounts-integration
 kde/kdenetwork/ktp*: kde/kdenetwork/ktp-common-internals
 kde/kdenetwork/ktp-kded-module: frameworks/kdbusaddons
@@ -910,7 +910,7 @@ kde/kdenetwork/ktp-auth-handler: frameworks/ki18n
 kde/kdenetwork/ktp-auth-handler: frameworks/kio
 kde/kdenetwork/ktp-auth-handler: kdesupport/qca
 kde/kdenetwork/ktp-auth-handler: kde/kdenetwork/kaccounts-integration
-kde/kdenetwork/ktp-contact-list: playground/network/kpeople
+kde/kdenetwork/ktp-contact-list: frameworks/kpeople
 kde/kdenetwork/ktp-filetransfer-handler: frameworks/kcoreaddons
 kde/kdenetwork/ktp-filetransfer-handler: frameworks/ki18n
 kde/kdenetwork/ktp-filetransfer-handler: frameworks/kio
@@ -1040,11 +1040,11 @@ kde/kdegames/palapeli: kde/kdegames/libkdegames
 kde/kdegames/picmi: kde/kdegames/libkdegames
 
 # Playground Libs
-playground/network/kpeople: frameworks/kcoreaddons
-playground/network/kpeople: frameworks/kwidgetsaddons
-playground/network/kpeople: frameworks/kservice
-playground/network/kpeople: frameworks/ki18n
-playground/network/kpeople: frameworks/kitemviews
+frameworks/kpeople: frameworks/kcoreaddons
+frameworks/kpeople: frameworks/kwidgetsaddons
+frameworks/kpeople: frameworks/kservice
+frameworks/kpeople: frameworks/ki18n
+frameworks/kpeople: frameworks/kitemviews
 
 # A standalone application, no need to install KF5
 extragear/pim/trojita: -frameworks/kf5umbrella
