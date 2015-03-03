@@ -820,5 +820,26 @@ playground/base/kde-accounts/kaccounts-integration: frameworks/kdbusaddons
 playground/base/kde-accounts/kaccounts-integration: kde/kdepimlibs
 
 # KDE Games
+kde/kdegames/bomber: kde/kdegames/libkdegames
 kde/kdegames/bovo: kde/kdegames/libkdegames
-
+kde/kdegames/granatier: kde/kdegames/libkdegames
+kde/kdegames/kapman: kde/kdegames/libkdegames
+kde/kdegames/katomic: kde/kdegames/libkdegames
+kde/kdegames/kblackbox: kde/kdegames/libkdegames
+kde/kdegames/kblocks: kde/kdegames/libkdegames
+kde/kdegames/kbounce: kde/kdegames/libkdegames
+kde/kdegames/kbreakout: kde/kdegames/libkdegames
+kde/kdegames/kdiamond: kde/kdegames/libkdegames
+kde/kdegames/kfourinline: kde/kdegames/libkdegames
+kde/kdegames/kgoldrunner: kde/kdegames/libkdegames
+kde/kdegames/kigo: kde/kdegames/libkdegames
+kde/kdegames/killbots: kde/kdegames/libkdegames
+kde/kdegames/kjumpingcube: kde/kdegames/libkdegames
+kde/kdegames/klickety: kde/kdegames/libkdegames
+kde/kdegames/klines: kde/kdegames/libkdegames
+kde/kdegames/kmines: kde/kdegames/libkdegames
+kde/kdegames/kollision: kde/kdegames/libkdegames
+kde/kdegames/kpat: kde/kdegames/libkdegames
+kde/kdegames/kshisen: kde/kdegames/libkdegames
+kde/kdegames/kshisen: kde/kdegames/libkmahjongg
+kde/kdegames/libkmahjongg: kde/kdegames/libkdegames
