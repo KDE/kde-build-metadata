@@ -808,16 +808,16 @@ playground/base/qtcurve: frameworks/kemoticons
 playground/base/qtcurve: frameworks/kitemmodels
 
 # KAccounts
-playground/base/kde-accounts/kaccounts-integration: frameworks/kcmutils
-playground/base/kde-accounts/kaccounts-integration: frameworks/kio
-playground/base/kde-accounts/kaccounts-integration: frameworks/ki18n
-playground/base/kde-accounts/kaccounts-integration: frameworks/kwidgetsaddons
-playground/base/kde-accounts/kaccounts-integration: frameworks/kcoreaddons
-playground/base/kde-accounts/kaccounts-integration: frameworks/kiconthemes
-playground/base/kde-accounts/kaccounts-integration: frameworks/kconfig
-playground/base/kde-accounts/kaccounts-integration: frameworks/kwallet
-playground/base/kde-accounts/kaccounts-integration: frameworks/kdbusaddons
-playground/base/kde-accounts/kaccounts-integration: kde/kdepimlibs
+kde/kdenetwork/kaccounts-integration: frameworks/kcmutils
+kde/kdenetwork/kaccounts-integration: frameworks/kio
+kde/kdenetwork/kaccounts-integration: frameworks/ki18n
+kde/kdenetwork/kaccounts-integration: frameworks/kwidgetsaddons
+kde/kdenetwork/kaccounts-integration: frameworks/kcoreaddons
+kde/kdenetwork/kaccounts-integration: frameworks/kiconthemes
+kde/kdenetwork/kaccounts-integration: frameworks/kconfig
+kde/kdenetwork/kaccounts-integration: frameworks/kwallet
+kde/kdenetwork/kaccounts-integration: frameworks/kdbusaddons
+kde/kdenetwork/kaccounts-integration: kde/kdepimlibs
 
 # KDE Games
 kde/kdegames/bomber: kde/kdegames/libkdegames
