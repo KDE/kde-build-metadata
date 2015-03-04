@@ -114,6 +114,7 @@ frameworks/kdeclarative: frameworks/kconfig
 frameworks/kdeclarative: frameworks/ki18n
 frameworks/kdeclarative: frameworks/kiconthemes
 frameworks/kdeclarative: frameworks/kio
+frameworks/kdeclarative: frameworks/kpackage
 frameworks/kinit: frameworks/kservice
 frameworks/kinit: frameworks/kio
 frameworks/kinit: frameworks/ki18n
