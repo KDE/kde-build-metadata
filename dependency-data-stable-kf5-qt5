@@ -838,8 +838,10 @@ kde/kdegames/kjumpingcube: kde/kdegames/libkdegames
 kde/kdegames/klickety: kde/kdegames/libkdegames
 kde/kdegames/klines: kde/kdegames/libkdegames
 kde/kdegames/kmines: kde/kdegames/libkdegames
+kde/kdegames/knetwalk: kde/kdegames/libkdegames
 kde/kdegames/kollision: kde/kdegames/libkdegames
 kde/kdegames/kpat: kde/kdegames/libkdegames
 kde/kdegames/kshisen: kde/kdegames/libkdegames
 kde/kdegames/kshisen: kde/kdegames/libkmahjongg
+kde/kdegames/ksquares: kde/kdegames/libkdegames
 kde/kdegames/libkmahjongg: kde/kdegames/libkdegames
