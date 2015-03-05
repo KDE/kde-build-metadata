@@ -431,6 +431,11 @@
             "latest-qt4": "master",
             "kf5-qt5": "frameworks"
         },
+        "extragear/libs/libmediawiki": {
+            "stable-qt4": "",
+            "latest-qt4": "master",
+            "kf5-qt5": "frameworks"
+        },
         "extragear/office/alkimia": {
             "stable-qt4": "master",
             "latest-qt4": "master",
