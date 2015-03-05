@@ -540,8 +540,10 @@
             "kf5-qt5": "master"
         },
         "extragear/network/telepathy/telepathy-logger-qt": {
-            "stable-qt5": "master",
-            "latest-qt5": "master"
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "stable-kf5-qt5": "master",
+            "kf5-qt5": "master"
         },
         "extragear/multimedia/plasma-mediacenter": {
             "stable-qt4": "v1.4",
