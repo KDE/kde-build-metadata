@@ -638,9 +638,6 @@
             "kf5-qt5": "frameworks",
             "stable-kf5-qt5": ""
         },
-        "playground/libs/kpackage" : {
-            "kf5-qt5": "master"
-        },
         "playground/base/qtcurve" : {
             "latest-qt4": "master",
             "kf5-qt5": "master"
