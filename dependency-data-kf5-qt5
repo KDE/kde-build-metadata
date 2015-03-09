@@ -242,6 +242,11 @@ frameworks/plasma-framework: frameworks/kwindowsystem
 frameworks/plasma-framework: frameworks/kxmlgui
 frameworks/plasma-framework: frameworks/ktexteditor
 frameworks/kxmlrpcclient: frameworks/kio
+frameworks/kpeople: frameworks/kcoreaddons
+frameworks/kpeople: frameworks/kwidgetsaddons
+frameworks/kpeople: frameworks/kservice
+frameworks/kpeople: frameworks/ki18n
+frameworks/kpeople: frameworks/kitemviews
 
 # Frameworks, tier4
 frameworks/frameworkintegration: frameworks/ki18n
@@ -742,7 +747,6 @@ kde/pim/kholidays: frameworks/kdelibs4support
 kde/pim/kmbox: frameworks/kcoreaddons
 kde/pim/kmbox: frameworks/kdelibs4support
 kde/pim/kmbox: kde/pim/kmime
-frameworks/kxmlrpcclient: frameworks/kio
 kde/pim/kontactinterface: frameworks/kparts
 kde/pim/kontactinterface: frameworks/kdelibs4support
 kde/pim/ktnef: frameworks/kdelibs4support
@@ -814,6 +818,14 @@ kde/kdeedu/parley: kde/kdeedu/libkeduvocdocument
 kde/kdeedu/khangman: kde/kdeedu/libkeduvocdocument
 kde/kdeedu/khangman: kde/kdeedu/kdeedu-data
 kde/kdeedu/kwordquiz: kde/kdeedu/libkeduvocdocument
+kdereview/labplot: frameworks/karchive
+kdereview/labplot: frameworks/ki18n
+kdereview/labplot: frameworks/kwidgetsaddons
+kdereview/labplot: frameworks/kxmlgui
+kdereview/labplot: frameworks/kio
+kdereview/labplot: frameworks/kdelibs4support
+kdereview/labplot: frameworks/kemoticons
+kdereview/labplot: frameworks/kitemmodels
 
 # KDE Plasma Addons
 kde/kdeplasma-addons: frameworks/krunner
@@ -874,6 +886,8 @@ extragear/multimedia/kamoso: frameworks/solid
 extragear/multimedia/kamoso: frameworks/kio
 extragear/multimedia/kamoso: frameworks/kdeclarative
 extragear/multimedia/kamoso: frameworks/ki18n
+extragear/multimedia/k3b: frameworks/kfilemetadata
+extragear/multimedia/k3b: kde/kdemultimedia/libkcddb
 extragear/multimedia/kamoso: playground/libs/purpose
 
 # KDevelop
@@ -941,6 +955,8 @@ kde/kdenetwork/ktp-contact-runner: frameworks/krunner
 kde/kdenetwork/ktp-accounts-kcm: kde/kdenetwork/kaccounts-integration
 kde/kdenetwork/ktp-desktop-applets: frameworks/plasma-framework
 
+kde/kdenetwork/zeroconf-ioslave: frameworks/ki18n
+
 # Extragear Office
 extragear/office/kmymoney: extragear/graphics/kdiagram
 extragear/office/kmymoney: kde/kdepimlibs
@@ -957,6 +973,9 @@ extragear/office/skrooge: frameworks/krunner
 
 # Extragear Utils
 extragear/utils/yakuake: kde/applications/konsole
+
+# Extragear Libs
+extragear/libs/libkgeomap: kde/kdeedu/marble
 
 # Playground Base
 kde/workspace/kde-gtk-config: frameworks/ki18n
@@ -988,6 +1007,26 @@ playground/base/qtcurve: frameworks/kwidgetsaddons
 playground/base/qtcurve: frameworks/kxmlgui
 playground/base/qtcurve: frameworks/kemoticons
 playground/base/qtcurve: frameworks/kitemmodels
+
+playground/base/kio-mtp: frameworks/ki18n
+playground/base/kio-mtp: frameworks/solid
+playground/base/kio-mtp: frameworks/kio
+
+# Playground Libs
+playground/libs/purpose: frameworks/kcoreaddons
+playground/libs/purpose: frameworks/kconfig
+playground/libs/purpose: frameworks/ki18n
+playground/libs/purpose: frameworks/kdeclarative
+
+# Playground Utils
+playground/utils/kdebugsettings: frameworks/kcoreaddons
+playground/utils/kdebugsettings: frameworks/kconfig
+playground/utils/kdebugsettings: frameworks/kconfigwidgets
+playground/utils/kdebugsettings: frameworks/kdbusaddons
+playground/utils/kdebugsettings: frameworks/kiconthemes
+playground/utils/kdebugsettings: frameworks/kwidgetsaddons
+playground/utils/kdebugsettings: frameworks/kitemviews
+playground/utils/kdebugsettings: frameworks/kio
 
 # KAccounts
 kde/kdenetwork/kaccounts-integration: frameworks/kcmutils
@@ -1045,13 +1084,7 @@ kde/kdegames/kubrick: kde/kdegames/libkdegames
 kde/kdegames/lskat: kde/kdegames/libkdegames
 kde/kdegames/palapeli: kde/kdegames/libkdegames
 kde/kdegames/picmi: kde/kdegames/libkdegames
-
-# Playground Libs
-frameworks/kpeople: frameworks/kcoreaddons
-frameworks/kpeople: frameworks/kwidgetsaddons
-frameworks/kpeople: frameworks/kservice
-frameworks/kpeople: frameworks/ki18n
-frameworks/kpeople: frameworks/kitemviews
+extragear/games/knights: kde/kdegames/libkdegames
 
 # A standalone application, no need to install KF5
 extragear/pim/trojita: -frameworks/kf5umbrella

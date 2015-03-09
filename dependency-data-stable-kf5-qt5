@@ -241,6 +241,7 @@ frameworks/plasma-framework: frameworks/kwidgetsaddons
 frameworks/plasma-framework: frameworks/kwindowsystem
 frameworks/plasma-framework: frameworks/kxmlgui
 frameworks/plasma-framework: frameworks/ktexteditor
+frameworks/kxmlrpcclient: frameworks/kio
 frameworks/kpeople: frameworks/kcoreaddons
 frameworks/kpeople: frameworks/kwidgetsaddons
 frameworks/kpeople: frameworks/kservice
@@ -362,6 +363,7 @@ frameworks/kf5umbrella: frameworks/solid
 frameworks/kf5umbrella: frameworks/sonnet
 frameworks/kf5umbrella: frameworks/threadweaver
 frameworks/kf5umbrella: frameworks/plasma-framework
+frameworks/kf5umbrella: frameworks/kxmlrpcclient
 
 # The generic dependency on all frameworks
 kde/*: frameworks/kf5umbrella
@@ -505,6 +507,7 @@ kde/workspace/plasma-workspace: frameworks/kcmutils
 kde/workspace/plasma-workspace: frameworks/kdewebkit
 kde/workspace/plasma-workspace: frameworks/plasma-framework
 kde/workspace/plasma-workspace: frameworks/kdelibs4support
+kde/workspace/plasma-workspace: frameworks/kxmlrpcclient
 kde/workspace/plasma-workspace: kde/workspace/libksysguard
 kde/workspace/plasma-workspace: kde/workspace/kwin
 kde/workspace/plasma-workspace: extragear/base/milou
