@@ -855,6 +855,13 @@ kde/workspace/muon: frameworks/kdeclarative
 kde/kdesdk/kompare: kde/kdesdk/libkomparediff2
 kde/kdesdk/okteta: kdesupport/qca
 kde/kdesdk/dolphin-plugins: kde/applications/dolphin
+kde/kdesdk/kapptemplate: frameworks/kdoctools
+kde/kdesdk/kapptemplate: frameworks/kcoreaddons
+kde/kdesdk/kapptemplate: frameworks/kconfigwidgets
+kde/kdesdk/kapptemplate: frameworks/kcompletion
+kde/kdesdk/kapptemplate: frameworks/karchive
+kde/kdesdk/kapptemplate: frameworks/kio
+kde/kdesdk/kapptemplate: frameworks/ki18n
 
 # Extragear Multimedia
 kde/workspace/plasma-mediacenter: frameworks/plasma-framework
