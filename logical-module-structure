@@ -492,9 +492,9 @@
             "stable-kf5-qt5": ""
         },
         "kde/workspace/bluedevil": {
-            "stable-qt4": "master",
-            "latest-qt4": "master",
-            "kf5-qt5": "frameworks",
+            "stable-qt4": "kdelibs",
+            "latest-qt4": "kdelibs",
+            "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         },
         "kde/workspace/libbluedevil": {
