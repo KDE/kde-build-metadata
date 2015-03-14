@@ -977,6 +977,11 @@ extragear/utils/yakuake: kde/applications/konsole
 # Extragear Libs
 extragear/libs/libkgeomap: kde/kdeedu/marble
 
+# Extragear Graphics
+extragear/graphics/kipi-plugins: kde/kdegraphics/libs/libkipi
+extragear/graphics/kipi-plugins: kde/kdegraphics/libs/libkdcraw
+extragear/graphics/kipi-plugins: kde/kdegraphics/libs/libkexiv2
+
 # Playground Base
 kde/workspace/kde-gtk-config: frameworks/ki18n
 kde/workspace/kde-gtk-config: frameworks/kconfigwidgets
