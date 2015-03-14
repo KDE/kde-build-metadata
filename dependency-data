@@ -354,6 +354,7 @@ extragear/utils/krusader: kde/kdelibs
 extragear/utils/krusader: kde/applications/kde-baseapps
 extragear/utils/yakuake: kde/kdelibs
 extragear/utils/krecipes: kde/kdelibs
+extragear/utils/kronometer: kde/kdelibs
 
 # extragear/office
 extragear/office/tellico: kde/kdelibs
