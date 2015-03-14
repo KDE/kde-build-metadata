@@ -910,15 +910,16 @@ extragear/kdevelop/kdevplatform: kde/workspace/kio-extras
 
 # KDevelop Plugins
 extragear/kdevelop/devtools/plugins/kdev-clang: extragear/kdevelop/kdevelop
+extragear/kdevelop/devtools/plugins/kdev-cppcheck: extragear/kdevelop/kdevelop
 extragear/kdevelop/devtools/plugins/kdev-qmake: extragear/kdevelop/kdevelop
 extragear/kdevelop/devtools/plugins/kdev-qmake: extragear/kdevelop/utilities/kdevelop-pg-qt
 extragear/kdevelop/devtools/plugins/kdev-qmljs: extragear/kdevelop/kdevelop
 extragear/kdevelop/devtools/plugins/kdev-ruby: extragear/kdevelop/kdevelop
+extragear/kdevelop/devtools/plugins/kdev-valgrind: extragear/kdevelop/kdevplatform
 extragear/kdevelop/plugins/kdev-php: extragear/kdevelop/kdevplatform
 extragear/kdevelop/plugins/kdev-php: extragear/kdevelop/kdevelop-pg-qt
 extragear/kdevelop/plugins/kdev-php-docs: extragear/kdevelop/kdevplatform
 extragear/kdevelop/plugins/kdev-python: extragear/kdevelop/kdevelop
-playground/devtools/plugins/kdev-cppcheck: extragear/kdevelop/kdevelop
 
 # Extragear Network
 extragear/network/konversation: kdesupport/qca
