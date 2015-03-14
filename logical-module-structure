@@ -1088,6 +1088,12 @@
             "latest-qt4": "master",
             "kf5-qt5": "frameworks",
             "stable-kf5-qt5": ""
+        },
+        "extragear/office/tellico": {
+            "stable-qt4": "",
+            "latest-qt4": "master",
+            "kf5-qt5": "frameworks",
+            "stable-kf5-qt5": ""
         }
     }
 }
