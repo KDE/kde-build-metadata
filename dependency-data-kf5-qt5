@@ -781,6 +781,7 @@ kde/kdepim-runtime: kdesupport/akonadi
 kde/kdegraphics/gwenview: frameworks/kdelibs4support
 kde/kdegraphics/gwenview: kde/kdegraphics/libs/libkdcraw
 kde/kdegraphics/gwenview: kde/kdegraphics/libs/libkipi
+kde/kdegraphics/gwenview: kde/kdegraphics/libs/baloo
 extragear/graphics/digikam: kde/kdegraphics/libs/libkipi
 extragear/graphics/digikam: kde/kdegraphics/libs/libkdcraw
 extragear/graphics/digikam: kde/kdegraphics/libs/libkexiv2
