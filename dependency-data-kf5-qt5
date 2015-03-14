@@ -785,7 +785,8 @@ kde/kdegraphics/gwenview: kde/kdegraphics/libs/baloo
 extragear/graphics/digikam: kde/kdegraphics/libs/libkipi
 extragear/graphics/digikam: kde/kdegraphics/libs/libkdcraw
 extragear/graphics/digikam: kde/kdegraphics/libs/libkexiv2
-extragear/graphics/digikam: kde/kdegraphics/libs/libkface
+# libkface doesn't build on Jenkins due to missing opencv:
+#extragear/graphics/digikam: kde/kdegraphics/libs/libkface
 extragear/graphics/digikam: kde/kdegraphics/libs/libkgeomap
 extragear/graphics/digikam: kde/kdegraphics/libs/baloo
 extragear/graphics/digikam: kde/workspace/kfilemetadata
@@ -921,6 +922,7 @@ playground/devtools/plugins/kdev-cppcheck: extragear/kdevelop/kdevelop
 
 # Extragear Network
 extragear/network/konversation: kdesupport/qca
+extragear/network/choqok: kdesupport/qca
 
 # KDE Network: Telepathy
 kde/kdenetwork/ktp-common-internals: frameworks/kcmutils
