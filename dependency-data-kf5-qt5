@@ -983,6 +983,7 @@ extragear/office/skrooge: frameworks/kactivities
 extragear/office/skrooge: general/grantlee
 extragear/office/skrooge: kdesupport/qca
 extragear/office/skrooge: frameworks/krunner
+extragear/office/tellico: frameworks/kdelibs4support
 
 # Extragear Utils
 extragear/utils/yakuake: kde/applications/konsole
