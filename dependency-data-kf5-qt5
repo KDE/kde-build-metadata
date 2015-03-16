@@ -785,8 +785,7 @@ kde/kdegraphics/gwenview: kde/kdegraphics/libs/baloo
 extragear/graphics/digikam: kde/kdegraphics/libs/libkipi
 extragear/graphics/digikam: kde/kdegraphics/libs/libkdcraw
 extragear/graphics/digikam: kde/kdegraphics/libs/libkexiv2
-# libkface doesn't build on Jenkins due to missing opencv:
-#extragear/graphics/digikam: kde/kdegraphics/libs/libkface
+extragear/graphics/digikam: kde/kdegraphics/libs/libkface
 extragear/graphics/digikam: kde/kdegraphics/libs/libkgeomap
 extragear/graphics/digikam: kde/workspace/kfilemetadata
 
