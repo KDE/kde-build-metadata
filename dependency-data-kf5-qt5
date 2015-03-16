@@ -978,7 +978,6 @@ extragear/office/kmymoney: kde/pim/gpgmepp
 extragear/office/kmymoney: kde/pim/kcontacts
 extragear/office/kmymoney: frameworks/kactivities
 extragear/office/skrooge: frameworks/kactivities
-extragear/office/skrooge: general/grantlee
 extragear/office/skrooge: kdesupport/qca
 extragear/office/skrooge: frameworks/krunner
 extragear/office/tellico: frameworks/kdelibs4support
