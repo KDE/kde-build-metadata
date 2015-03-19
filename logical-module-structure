@@ -1011,8 +1011,8 @@
             "stable-kf5-qt5": "Applications/15.04"
         },
         "kde/kdenetwork/kget": {
-            "stable-qt4": "master",
-            "latest-qt4": "Applications/15.04",
+            "stable-qt4": "Applications/15.04",
+            "latest-qt4": "master",
             "kf5-qt5": "kf5_port",
             "stable-kf5-qt5": ""
         },
