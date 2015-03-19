@@ -173,7 +173,7 @@
             "stable-kf5-qt5": ""
         },
         "kde/kdegraphics/libs/libkexiv2" : {
-            "stable-qt4": "Applications/14.12",
+            "stable-qt4": "Applications/15.04",
             "latest-qt4": "master",
             "kf5-qt5": "frameworks",
             "stable-kf5-qt5": ""
@@ -209,7 +209,7 @@
             "stable-kf5-qt5": ""
         },
         "kde/kdegraphics/svgpart" : {
-            "stable-qt4": "Applications/14.12",
+            "stable-qt4": "Applications/15.04",
             "latest-qt4": "master",
             "kf5-qt5": "frameworks",
             "stable-kf5-qt5": ""
@@ -365,19 +365,19 @@
             "stable-kf5-qt5": "Applications/15.04"
         },
         "kde/kdesdk/kde-dev-scripts" : {
-            "stable-qt4": "KDE/4.14",
-            "latest-qt4": "KDE/4.14",
+            "stable-qt4": "Applications/15.04",
+            "latest-qt4": "master",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": "Applications/14.12"
+            "stable-kf5-qt5": "Applications/15.04"
         },
         "kde/kdesdk/kdesdk-thumbnailers" : {
-            "stable-qt4": "Applications/14.12",
+            "stable-qt4": "Applications/15.04",
             "latest-qt4": "master",
             "kf5-qt5": "frameworks",
             "stable-kf5-qt5": ""
         },
         "kde/kdesdk/umbrello" : {
-            "stable-qt4": "Applications/14.12",
+            "stable-qt4": "Applications/15.04",
             "latest-qt4": "master",
             "kf5-qt5": "frameworks"
         },
@@ -419,9 +419,9 @@
         },
         "kde/kdeutils/print-manager" : {
             "stable-qt4": "Applications/14.12",
-            "latest-qt4": "master",
-            "kf5-qt5": "",
-            "stable-kf5-qt5": ""
+            "latest-qt4": "Applications/14.12",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "Applications/15.04"
         },
         "kde/kdeutils/kwalletmanager" : {
             "stable-qt4": "Applications/14.12",
@@ -515,7 +515,7 @@
             "stable-kf5-qt5": ""
         },
         "kde/kdegraphics/libs/libkface": {
-            "stable-qt4": "Applications/14.12",
+            "stable-qt4": "Applications/15.04",
             "latest-qt4": "master",
             "kf5-qt5": "frameworks",
             "stable-kf5-qt5": ""
@@ -527,7 +527,7 @@
             "stable-kf5-qt5": ""
         },
         "kde/kdegraphics/libs/libkgeomap": {
-            "stable-qt4": "master",
+            "stable-qt4": "Applications/15.04",
             "latest-qt4": "master",
             "kf5-qt5": "frameworks",
             "stable-kf5-qt5": ""
@@ -668,7 +668,7 @@
             "stable-qt4": "kde-telepathy-0.9",
             "latest-qt4": "kde-telepathy-0.9",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": ""
+            "stable-kf5-qt5": "Applications/15.04"
         },
         "extragear/network/telepathy/telepathy-logger-qt": {
             "stable-qt4": "",
@@ -701,20 +701,20 @@
             "stable-kf5-qt5": ""
         },
         "kde/kdemultimedia/libkcddb": {
-            "stable-qt4": "master",
+            "stable-qt4": "Applications/15.04",
             "latest-qt4": "master",
             "kf5-qt5": "kf5",
             "stable-kf5-qt5": ""
         },
         "kde/kdemultimedia/kmix": {
-            "stable-qt4": "master",
+            "stable-qt4": "Applications/15.04",
             "latest-qt4": "master",
             "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         },
         "kde/kdemultimedia/dragon": {
             "stable-qt4": "master",
-            "latest-qt4": "master",
+            "latest-qt4": "Applications/15.04",
             "kf5-qt5": "frameworks",
             "stable-kf5-qt5": ""
         },
@@ -727,8 +727,8 @@
         "kde/multimedia/kdenlive": {
             "stable-qt4": "15.04",
             "latest-qt4": "master",
-            "kf5-qt5": "frameworks",
-            "stable-kf5-qt5": ""
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "Applications/15.04"
         },
         "extragear/utils/yakuake": {
             "stable-qt4": "master",
@@ -834,7 +834,7 @@
             "stable-qt4": "KDE/4.14",
             "latest-qt4": "KDE/4.14",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": ""
+            "stable-kf5-qt5": "Applications/15.04"
         },
         "kde/applications/dolphin" : {
             "kf5-qt5": "master",
@@ -876,7 +876,7 @@
             "stable-qt4": "Applications/14.12",
             "latest-qt4": "Applications/14.12",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": ""
+            "stable-kf5-qt5": "Applications/15.04"
         },
         "kde/kdesdk/kompare": {
             "stable-qt4": "Applications/14.12",
@@ -1012,7 +1012,7 @@
         },
         "kde/kdenetwork/kget": {
             "stable-qt4": "master",
-            "latest-qt4": "master",
+            "latest-qt4": "Applications/15.04",
             "kf5-qt5": "kf5_port",
             "stable-kf5-qt5": ""
         },
@@ -1077,7 +1077,7 @@
             "stable-kf5-qt5": ""
         },
         "kde/kdegraphics/kdegraphics-thumbnailers": {
-            "stable-qt4": "Applications/14.12",
+            "stable-qt4": "Applications/15.04",
             "latest-qt4": "master",
             "kf5-qt5": "frameworks",
             "stable-kf5-qt5": ""
