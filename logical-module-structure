@@ -713,8 +713,8 @@
             "stable-kf5-qt5": ""
         },
         "kde/kdemultimedia/dragon": {
-            "stable-qt4": "master",
-            "latest-qt4": "Applications/15.04",
+            "stable-qt4": "Applications/15.04",
+            "latest-qt4": "master",
             "kf5-qt5": "frameworks",
             "stable-kf5-qt5": ""
         },
