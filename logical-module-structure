@@ -828,7 +828,7 @@
             "stable-qt4": "KDE/4.14",
             "latest-qt4": "KDE/4.14",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": ""
+            "stable-kf5-qt5": "Applications/15.04"
         },
         "kde/applications/konsole" : {
             "stable-qt4": "KDE/4.14",
