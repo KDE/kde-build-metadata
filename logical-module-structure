@@ -758,7 +758,7 @@
             "stable-qt4": "2.2",
             "latest-qt4": "2.2",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": ""
+            "stable-kf5-qt5": "Plasma/5.2"
         },
         "kde/workspace/libkscreen": {
             "stable-qt4": "kdelibs4",
@@ -788,7 +788,7 @@
             "stable-qt4": "2.2",
             "latest-qt4": "2.2",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": ""
+            "stable-kf5-qt5": "Plasma/5.2"
         },
         "calligra": {
             "stable-qt4": "calligra/2.9",
