@@ -996,6 +996,7 @@ extragear/graphics/kipi-plugins: kde/kdegraphics/libs/libkexiv2
 
 # Calligra
 calligra: frameworks/kf5umbrella
+calligra: kdesupport/qca
 calligra: kde/kdepimlibs
 calligra: kde/kdeedu/marble
 calligra: kde/kdegraphics/libs/libkdcraw

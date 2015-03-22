@@ -390,6 +390,7 @@ extragear/sdk/massif-visualizer: kde/kdelibs
 # office suites
 calligra: kde/kdelibs
 calligra: frameworks/kactivities
+calligra: kdesupport/qca
 calligra: kde/kdepimlibs
 calligra: kde/kdeedu/marble
 calligra: kde/kdegraphics/libs/libkdcraw
