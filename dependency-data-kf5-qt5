@@ -1001,6 +1001,7 @@ calligra: kde/kdepimlibs
 calligra: kde/kdeedu/marble
 calligra: kde/kdegraphics/libs/libkdcraw
 calligra: kde/kdegraphics/okular
+calligra: extragear/graphics/kdiagram
 
 # Playground Base
 kde/workspace/kde-gtk-config: frameworks/ki18n
