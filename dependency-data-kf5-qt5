@@ -43,6 +43,7 @@ frameworks/kcmutils: frameworks/ki18n
 frameworks/kcmutils: frameworks/kiconthemes
 frameworks/kcmutils: frameworks/kservice
 frameworks/kcmutils: frameworks/kxmlgui
+frameworks/kcmutils: frameworks/kdeclarative
 frameworks/kconfigwidgets: frameworks/kauth
 frameworks/kconfigwidgets: frameworks/kcoreaddons
 frameworks/kconfigwidgets: frameworks/kcodecs
