@@ -998,10 +998,11 @@ extragear/graphics/kipi-plugins: kde/kdegraphics/libs/libkexiv2
 # Calligra
 calligra: frameworks/kf5umbrella
 calligra: kdesupport/qca
-calligra: kde/kdepimlibs
+calligra: kde/pim/kcalcore
+calligra: kde/pim/kcontacts
+calligra: kdesupport/akonadi
 calligra: kde/kdeedu/marble
 calligra: kde/kdegraphics/libs/libkdcraw
-calligra: kde/kdegraphics/okular
 calligra: extragear/graphics/kdiagram
 
 # Playground Base
