@@ -1004,6 +1004,7 @@ calligra: kdesupport/akonadi
 calligra: kde/kdeedu/marble
 calligra: kde/kdegraphics/libs/libkdcraw
 calligra: extragear/graphics/kdiagram
+calligra: kde/kdegraphics/okular
 
 # Playground Base
 kde/workspace/kde-gtk-config: frameworks/ki18n
