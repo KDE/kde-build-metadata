@@ -1000,7 +1000,7 @@ calligra: frameworks/kf5umbrella
 calligra: kdesupport/qca
 calligra: kde/pim/kcalcore
 calligra: kde/pim/kcontacts
-calligra: kdesupport/akonadi
+calligra: kde/kdepimlibs # #needed because of akonadi-contacts and akonadi-core
 calligra: kde/kdeedu/marble
 calligra: kde/kdegraphics/libs/libkdcraw
 calligra: extragear/graphics/kdiagram
