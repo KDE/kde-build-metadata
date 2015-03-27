@@ -390,6 +390,7 @@
         "kde/kdetoys/amor" : {
             "stable-qt4": "Applications/15.04",
             "latest-qt4": "master",
+            "kf5-qt5": ""
         },
         "kde/kdeutils/ark" : {
             "stable-qt4": "Applications/15.04",
