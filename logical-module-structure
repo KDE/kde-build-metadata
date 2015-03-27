@@ -387,6 +387,10 @@
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/15.04"
         },
+        "kde/kdetoys/amor" : {
+            "stable-qt4": "Applications/15.04",
+            "latest-qt4": "master",
+        },
         "kde/kdeutils/ark" : {
             "stable-qt4": "Applications/15.04",
             "latest-qt4": "master",
