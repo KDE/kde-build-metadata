@@ -735,6 +735,12 @@
             "kf5-qt5": "",
             "stable-kf5-qt5": ""
         },
+        "kde/kdemultimedia/juk": {
+            "stable-qt4": "Applications/15.04",
+            "latest-qt4": "master",
+            "kf5-qt5": "",
+            "stable-kf5-qt5": ""
+        },
         "extragear/multimedia/k3b": {
             "stable-qt4": "2.0",
             "latest-qt4": "master",
