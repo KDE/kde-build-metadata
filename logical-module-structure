@@ -1117,6 +1117,12 @@
             "kf5-qt5": "frameworks",
             "stable-kf5-qt5": ""
         },
+        "kde/kdegraphics/kamera": {
+            "stable-qt4": "Applications/15.04",
+            "latest-qt4": "master",
+            "kf5-qt5": "",
+            "stable-kf5-qt5": ""
+        },
         "kde/kdesdk/kcachegrind": {
             "stable-qt4": "Applications/15.04",
             "latest-qt4": "master",
