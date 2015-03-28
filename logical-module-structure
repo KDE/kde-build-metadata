@@ -381,6 +381,12 @@
             "latest-qt4": "master",
             "kf5-qt5": "frameworks"
         },
+        "kde/kdesdk/cervisia" : {
+            "stable-qt4": "Applications/15.04",
+            "latest-qt4": "master",
+            "kf5-qt5": "",
+            "stable-kf5-qt5": ""
+        },
         "kde/kdetoys/kteatime" : {
             "stable-qt4": "Applications/14.12",
             "latest-qt4": "Applications/14.12",
