@@ -594,9 +594,6 @@ kde/workspace/powerdevil: frameworks/kdelibs4support
 kde/workspace/powerdevil: frameworks/plasma-framework
 kde/workspace/powerdevil: kde/workspace/plasma-workspace
 
-# KDE Runtime
-kde/kde-runtime: frameworks/plasma-framework
-
 # KDE/Applications
 kde/applications/kate: frameworks/kactivities
 kde/applications/kate: frameworks/ktexteditor
