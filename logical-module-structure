@@ -693,6 +693,12 @@
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/15.04"
         },
+        "kde/kdenetwork/kdenetwork-filesharing": {
+            "stable-qt4": "Applications/15.04",
+            "latest-qt4": "master",
+            "kf5-qt5": "",
+            "stable-kf5-qt5": ""
+        },        
         "extragear/network/telepathy/telepathy-logger-qt": {
             "stable-qt4": "",
             "latest-qt4": "",
