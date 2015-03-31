@@ -45,7 +45,7 @@ kde/workspace/oxygen: kdesupport/extra-cmake-modules
 kde/workspace/oxygen: kde/kde-workspace
 kde/workspace/breeze: kdesupport/extra-cmake-modules
 kde/workspace/plasma-nm: frameworks/networkmanager-qt
-kde/workspace/plasma-nm: extragear/libs/libmm-qt
+kde/workspace/plasma-nm: frameworks/modemmanager-qt
 kde/workspace/kfilemetadata: kde/kdegraphics/kdegraphics-mobipocket
 
 # KDE Runtime
@@ -244,7 +244,7 @@ kde/kdebindings/pykde4: kde/kdepimlibs
 
 # frameworks
 frameworks/networkmanager-qt: kde/kdelibs
-frameworks/networkmanager-qt: extragear/libs/libmm-qt
+frameworks/networkmanager-qt: frameworks/modemmanager-qt
 
 # extragear/libs
 extragear/libs/libkgeomap: kde/kdelibs
@@ -266,7 +266,7 @@ extragear/base/plasma-mobile: kde/kde-workspace
 extragear/base/wacomtablet: kde/kdelibs
 extragear/base/networkmanagement: kde/kdelibs
 extragear/base/networkmanagement: extragear/libs/libnm-qt
-extragear/base/networkmanagement: extragear/libs/libmm-qt
+extragear/base/networkmanagement: frameworks/modemmanager-qt
 kde/workspace/bluedevil: kde/kdelibs
 kde/workspace/bluedevil: kde/workspace/libbluedevil
 extragear/base/kde-gtk-config: kde/kdelibs
