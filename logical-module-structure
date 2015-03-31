@@ -46,6 +46,12 @@
             "kf5-qt5": "master",
             "stable-kf5-qt5": "master"
         },
+        "frameworks/modemmanager-qt": {
+            "stable-qt4": "MM/1.0",
+            "latest-qt4": "MM/1.0",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "master"
+        },
         "kde/*" : {
             "stable-qt4": "Applications/15.04",
             "latest-qt4": "master",
@@ -576,12 +582,6 @@
         "kde/workspace/plasma-nm": {
             "latest-qt4": "0.9.3",
             "stable-qt4": "0.9.3",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "Plasma/5.2"
-        },
-        "extragear/libs/libmm-qt": {
-            "stable-qt4": "MM/1.0",
-            "latest-qt4": "MM/1.0",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Plasma/5.2"
         },

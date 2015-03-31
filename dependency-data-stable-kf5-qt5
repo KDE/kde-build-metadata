@@ -511,7 +511,7 @@ kde/workspace/plasma-workspace: frameworks/kdelibs4support
 kde/workspace/plasma-workspace: frameworks/kxmlrpcclient
 kde/workspace/plasma-workspace: kde/workspace/libksysguard
 kde/workspace/plasma-workspace: kde/workspace/kwin
-kde/workspace/plasma-workspace: extragear/base/milou
+kde/workspace/plasma-workspace: kde/workspace/milou
 kde/workspace/plasma-workspace: kde/workspace/khelpcenter
 kde/workspace/plasma-workspace: kde/workspace/kde-cli-tools
 kde/workspace/plasma-workspace: kde/workspace/kio-extras
@@ -547,7 +547,7 @@ kde/workspace/plasma-desktop: frameworks/kwallet
 kde/workspace/plasma-desktop: frameworks/attica
 kde/workspace/plasma-desktop: frameworks/plasma-framework
 kde/workspace/plasma-desktop: kde/workspace/systemsettings
-kde/workspace/plasma-desktop: extragear/base/powerdevil
+kde/workspace/plasma-desktop: kde/workspace/powerdevil
 kde/workspace/plasma-desktop: kde/workspace/ksysguard
 kde/workspace/plasma-desktop: kde/workspace/oxygen
 
@@ -559,8 +559,28 @@ kde/workspace/plasma-nm: frameworks/plasma-framework
 # Bludedevil
 kde/workspace/bluedevil: kde/workspace/libbluedevil
 
-# KDE Runtime
-kde/kde-runtime: frameworks/plasma-framework
+kde/workspace/milou: frameworks/kdelibs4support
+kde/workspace/milou: kde/workspace/baloo
+
+kde/workspace/kscreen: frameworks/kdbusaddons
+kde/workspace/kscreen: frameworks/kconfigwidgets
+kde/workspace/kscreen: frameworks/ki18n
+kde/workspace/kscreen: frameworks/kxmlgui
+kde/workspace/kscreen: frameworks/kglobalaccel
+kde/workspace/kscreen: kde/workspace/libkscreen
+
+kde/workspace/powerdevil: frameworks/kauth
+kde/workspace/powerdevil: frameworks/kidletime
+kde/workspace/powerdevil: frameworks/kconfig
+kde/workspace/powerdevil: frameworks/solid
+kde/workspace/powerdevil: frameworks/ki18n
+kde/workspace/powerdevil: frameworks/kglobalaccel
+kde/workspace/powerdevil: frameworks/kio
+kde/workspace/powerdevil: frameworks/kwindowsystem
+kde/workspace/powerdevil: frameworks/knotifyconfig
+kde/workspace/powerdevil: frameworks/kdelibs4support
+kde/workspace/powerdevil: frameworks/plasma-framework
+kde/workspace/powerdevil: kde/workspace/plasma-workspace
 
 # KDE/Applications
 kde/applications/kate: frameworks/kactivities
@@ -704,28 +724,6 @@ kde/kdeedu/kwordquiz: kde/kdeedu/libkeduvocdocument
 
 # KDE Plasma Addons
 kde/kdeplasma-addons: frameworks/krunner
-
-# Extragear Base
-extragear/base/milou: frameworks/kdelibs4support
-extragear/base/milou: kde/workspace/baloo
-extragear/base/kscreen: frameworks/kdbusaddons
-extragear/base/kscreen: frameworks/kconfigwidgets
-extragear/base/kscreen: frameworks/ki18n
-extragear/base/kscreen: frameworks/kxmlgui
-extragear/base/kscreen: frameworks/kglobalaccel
-extragear/base/kscreen: kde/workspace/libkscreen
-extragear/base/powerdevil: frameworks/kauth
-extragear/base/powerdevil: frameworks/kidletime
-extragear/base/powerdevil: frameworks/kconfig
-extragear/base/powerdevil: frameworks/solid
-extragear/base/powerdevil: frameworks/ki18n
-extragear/base/powerdevil: frameworks/kglobalaccel
-extragear/base/powerdevil: frameworks/kio
-extragear/base/powerdevil: frameworks/kwindowsystem
-extragear/base/powerdevil: frameworks/knotifyconfig
-extragear/base/powerdevil: frameworks/kdelibs4support
-extragear/base/powerdevil: frameworks/plasma-framework
-extragear/base/powerdevil: kde/workspace/plasma-workspace
 
 # Extragear SDK
 extragear/sdk/plasmate: frameworks/kf5umbrella
