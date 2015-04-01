@@ -1183,6 +1183,12 @@
             "kf5-qt5": "",
             "stable-kf5-qt5": ""
         },
+        "kde/kdesdk/kdesdk-strigi-analyzers": {
+            "stable-qt4": "Applications/15.04",
+            "latest-qt4": "master",
+            "kf5-qt5": "",
+            "stable-kf5-qt5": ""
+        },
         "playground/utils/kdebugsettings": {
             "stable-qt4": "",
             "latest-qt4": "",
