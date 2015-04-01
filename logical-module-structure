@@ -704,7 +704,13 @@
             "latest-qt4": "master",
             "kf5-qt5": "",
             "stable-kf5-qt5": ""
-        },        
+        },
+        "kde/kdenetwork/kdenetwork-strigi-analyzers": {
+            "stable-qt4": "Applications/15.04",
+            "latest-qt4": "master",
+            "kf5-qt5": "",
+            "stable-kf5-qt5": ""
+        },  
         "extragear/network/telepathy/telepathy-logger-qt": {
             "stable-qt4": "",
             "latest-qt4": "",
