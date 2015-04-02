@@ -452,6 +452,12 @@
             "kf5-qt5": "",
             "stable-kf5-qt5": ""
         },
+        "kde/kdeutils/kgpg" : {
+            "stable-qt4": "Applications/15.04",
+            "latest-qt4": "master",
+            "kf5-qt5": "",
+            "stable-kf5-qt5": ""
+        },
         "kde/kdeutils/ktimer" : {
             "stable-qt4": "Applications/14.12",
             "latest-qt4": "Applications/14.12",
