@@ -446,7 +446,7 @@
             "kf5-qt5": "",
             "stable-kf5-qt5": ""
         },
-        "kde/kdeutils/floppy" : {
+        "kde/kdeutils/kfloppy" : {
             "stable-qt4": "Applications/15.04",
             "latest-qt4": "master",
             "kf5-qt5": "",
