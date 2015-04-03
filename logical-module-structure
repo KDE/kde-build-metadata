@@ -397,7 +397,8 @@
         "kde/kdesdk/umbrello" : {
             "stable-qt4": "Applications/15.04",
             "latest-qt4": "master",
-            "kf5-qt5": "frameworks"
+            "kf5-qt5": "frameworks"'
+            "stable-kf5-qt5": ""
         },
         "kde/kdesdk/cervisia" : {
             "stable-qt4": "Applications/15.04",
@@ -414,12 +415,14 @@
         "kde/kdetoys/amor" : {
             "stable-qt4": "Applications/15.04",
             "latest-qt4": "master",
-            "kf5-qt5": ""
+            "kf5-qt5": "",
+            "stable-kf5-qt5": ""
         },
         "kde/kdetoys/ktux" : {
             "stable-qt4": "Applications/15.04",
             "latest-qt4": "master",
-            "kf5-qt5": ""
+            "kf5-qt5": "",
+            "stable-kf5-qt5": ""
         },
         "kde/kdeutils/ark" : {
             "stable-qt4": "Applications/15.04",
@@ -578,7 +581,8 @@
         "kde/workspace/libbluedevil": {
             "stable-qt4": "master",
             "latest-qt4": "master",
-            "kf5-qt5": "frameworks"
+            "kf5-qt5": "frameworks",
+            "stable-kf5-qt5": ""
         },
         "extragear/base/powerdevil": {
             "kf5-qt5": "master",
@@ -675,52 +679,63 @@
         "playground/devtools/plugins/kdev-clang": {
             "stable-qt4": "1.7",
             "latest-qt4": "1.7",
-            "kf5-qt5": "master"
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
         },
         "playground/devtools/plugins/kdev-cppcheck": {
             "stable-qt4": "1.7",
             "latest-qt4": "1.7",
-            "kf5-qt5": "master"
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
         },
         "playground/devtools/plugins/kdev-qmljs": {
             "stable-qt4": "1.7",
             "latest-qt4": "1.7",
-            "kf5-qt5": "master"
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
         },
         "playground/devtools/plugins/kdev-ruby": {
             "stable-qt4": "1.7",
             "latest-qt4": "1.7",
-            "kf5-qt5": "master"
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
         },
         "playground/devtools/plugins/kdev-qmake": {
             "stable-qt4": "1.7",
             "latest-qt4": "1.7",
-            "kf5-qt5": "master"
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
         },
         "playground/devtools/plugins/kdev-valgrind": {
             "stable-qt4": "1.7",
             "latest-qt4": "1.7",
-            "kf5-qt5": "master"
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
         },
         "extragear/kdevelop/plugins/kdev-php": {
             "stable-qt4": "1.7",
             "latest-qt4": "1.7",
-            "kf5-qt5": "master"
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
         },
         "extragear/kdevelop/plugins/kdev-php-docs": {
             "stable-qt4": "1.7",
             "latest-qt4": "1.7",
-            "kf5-qt5": "master"
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
         },
         "extragear/kdevelop/plugins/kdev-python": {
             "stable-qt4": "1.7",
             "latest-qt4": "1.7",
-            "kf5-qt5": "master"
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
         },
         "extragear/sdk/plasmate": {
+            "stable-qt4": "",
             "latest-qt4": "master",
             "kf5-qt5": "frameworks",
             "stable-kf5-qt5": ""
+            
         },
         "extragear/sdk/massif-visualizer": {
             "stable-qt4": "",
@@ -975,6 +990,7 @@
         },
         "playground/base/kdeconnect-kde" : {
             "stable-qt4": "kde4",
+            "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         },
