@@ -1183,6 +1183,12 @@
             "kf5-qt5": "",
             "stable-kf5-qt5": ""
         },
+        "kde/kdenetwork/krdc": {
+            "stable-qt4": "Applications/15.04",
+            "latest-qt4": "master",
+            "kf5-qt5": "",
+            "stable-kf5-qt5": ""
+        },
         "kde/kdeadmin/ksystemlog": {
             "stable-qt4": "Applications/15.04",
             "latest-qt4": "master",
