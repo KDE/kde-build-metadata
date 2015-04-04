@@ -577,7 +577,8 @@ kde/workspace/kscreen: frameworks/kxmlgui
 kde/workspace/kscreen: frameworks/kglobalaccel
 kde/workspace/kscreen: kde/workspace/libkscreen
 
-kde/workspace/bluedevil: kde/workspace/libbluedevil
+# Bluedevil
+kde/workspace/bluedevil: kde/workspace/bluez-qt
 
 kde/workspace/milou: frameworks/kdelibs4support
 kde/workspace/milou: kde/workspace/baloo
