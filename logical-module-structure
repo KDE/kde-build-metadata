@@ -941,6 +941,12 @@
             "kf5-qt5": "master",
             "stable-kf5-qt5": "master"
         },
+        "kdesupport/strigi": {
+            "stable-qt4": "master",
+            "latest-qt4": "master",
+            "kf5-qt5": "",
+            "stable-kf5-qt5": ""
+        },
         "frameworks/plasma-framework": {
             "kf5-qt5": "master",
             "stable-kf5-qt5": "master"
