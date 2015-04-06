@@ -804,8 +804,9 @@ kde/pim/akonadi-search: frameworks/ki18n
 kde/pim/akonadi-search: frameworks/kconfig
 kde/pim/akonadi-search: frameworks/kcrash
 kde/pim/akonadi-search: frameworks/kdelibs4support
-kde/pim/akonadi-search: kdesupport/akonadi[frameworks]
+kde/pim/akonadi-search: kdesupport/akonadi
 kde/pim/akonadi-search: kde/pim/kcontacts
+kde/pim/akonadi-search: kde/pim/kmime
 
 # KDE Graphics
 kde/kdegraphics/gwenview: frameworks/kdelibs4support
