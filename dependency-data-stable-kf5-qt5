@@ -670,8 +670,6 @@ kde/kdepim: extragear/libs/libkgapi
 kde/kdepim: frameworks/kactivities
 kde/kdepim-runtime: kde/kdepim
 kde/kdepim-runtime: kdesupport/akonadi
-kde/pim/akonadi-search: kdesupport/akonadi[frameworks]
-kde/pim/akonadi-search: kde/pim/kcontacts
 
 #Akonadi
 kde/pim/akonadi-calendar: kde/pim/kmailtransport
@@ -679,6 +677,8 @@ kde/pim/akonadi-search: frameworks/ki18n
 kde/pim/akonadi-search: frameworks/kconfig
 kde/pim/akonadi-search: frameworks/kcrash
 kde/pim/akonadi-search: frameworks/kdelibs4support
+kde/pim/akonadi-search: kdesupport/akonadi[frameworks]
+kde/pim/akonadi-search: kde/pim/kcontacts
 
 # KDE Graphics
 kde/kdegraphics/gwenview: frameworks/kdelibs4support
