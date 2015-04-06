@@ -550,6 +550,7 @@ kde/workspace/plasma-desktop: frameworks/krunner
 kde/workspace/plasma-desktop: frameworks/kwallet
 kde/workspace/plasma-desktop: frameworks/attica
 kde/workspace/plasma-desktop: frameworks/plasma-framework
+kde/workspace/plasma-desktop: frameworks/kpeople
 kde/workspace/plasma-desktop: kde/workspace/systemsettings
 kde/workspace/plasma-desktop: kde/workspace/powerdevil
 kde/workspace/plasma-desktop: kde/workspace/ksysguard
