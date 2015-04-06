@@ -15,6 +15,7 @@
 
 *: Qt5[stable]
 *: kdesupport/extra-cmake-modules
+kdesupport/qca: qt5
 
 # Frameworks, tier2
 frameworks/kauth: frameworks/kcoreaddons
@@ -926,6 +927,7 @@ extragear/network/konversation: kdesupport/qca
 extragear/network/choqok: kdesupport/qca
 
 # KDE Network: Telepathy
+kde/kdenetwork/kget: kdesupport/qca
 kde/kdenetwork/ktp-common-internals: frameworks/kcmutils
 kde/kdenetwork/ktp-common-internals: frameworks/knotifyconfig
 kde/kdenetwork/ktp-common-internals: frameworks/ktexteditor
@@ -1017,7 +1019,7 @@ playground/base/ksshaskpass: frameworks/kcoreaddons
 playground/base/ksshaskpass: frameworks/ki18n
 playground/base/ksshaskpass: frameworks/kwallet
 playground/base/ksshaskpass: frameworks/kwidgetsaddons
-
+playground/base/kdeconnect-kde: kdesupport/qca
 playground/base/kdeconnect-kde: frameworks/kio
 playground/base/kdeconnect-kde: frameworks/ki18n
 playground/base/kdeconnect-kde: frameworks/knotifications

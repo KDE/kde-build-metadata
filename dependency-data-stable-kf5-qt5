@@ -18,6 +18,7 @@
 
 # Frameworks, tier2
 frameworks/kauth: frameworks/kcoreaddons
+frameworks/kauth: kdesupport/polkit-qt-1
 frameworks/kcompletion: frameworks/kconfig
 frameworks/kcompletion: frameworks/kwidgetsaddons
 frameworks/kcrash: frameworks/kcoreaddons
@@ -268,6 +269,7 @@ frameworks/kdelibs4support: frameworks/kconfig
 frameworks/kdelibs4support: frameworks/kconfigwidgets
 frameworks/kdelibs4support: frameworks/kitemviews
 frameworks/kdelibs4support: frameworks/kiconthemes
+frameworks/kdelibs4support: frameworks/kitemmodels
 frameworks/kdelibs4support: frameworks/kunitconversion
 frameworks/kdelibs4support: frameworks/kwindowsystem
 frameworks/kdelibs4support: frameworks/kservice
@@ -658,6 +660,7 @@ kde/kdeutils/ark: frameworks/kdelibs4support
 kde/kdepimlibs: kdesupport/akonadi
 kde/kdepimlibs: kdesupport/prison
 extragear/libs/libkgapi: kde/kdepimlibs
+kde/kdenetwork/kaccounts-integration[master]: kdesupport/akonadi[frameworks]
 
 # KDE PIM
 kde/kdepim: kde/kdepimlibs
@@ -667,6 +670,15 @@ kde/kdepim: extragear/libs/libkgapi
 kde/kdepim: frameworks/kactivities
 kde/kdepim-runtime: kde/kdepim
 kde/kdepim-runtime: kdesupport/akonadi
+kde/pim/akonadi-search: kdesupport/akonadi[frameworks]
+kde/pim/akonadi-search: kde/pim/kcontacts
+
+#Akonadi
+kde/pim/akonadi-calendar: kde/pim/kmailtransport
+kde/pim/akonadi-search: frameworks/ki18n
+kde/pim/akonadi-search: frameworks/kconfig
+kde/pim/akonadi-search: frameworks/kcrash
+kde/pim/akonadi-search: frameworks/kdelibs4support
 
 # KDE Graphics
 kde/kdegraphics/gwenview: frameworks/kdelibs4support
