@@ -752,8 +752,7 @@
             "stable-qt4": "",
             "latest-qt4": "master",
             "kf5-qt5": "frameworks",
-            "stable-kf5-qt5": ""
-            
+            "stable-kf5-qt5": ""            
         },
         "extragear/sdk/massif-visualizer": {
             "stable-qt4": "",
@@ -792,6 +791,12 @@
             "stable-kf5-qt5": ""
         },
         "kde/kdebindings/kross-interpreters": {
+            "stable-qt4": "KDE/4.14",
+            "latest-qt4": "master",
+            "kf5-qt5": "",
+            "stable-kf5-qt5": ""
+        },
+        "kde/kdebindings/csharp/kimono": {
             "stable-qt4": "KDE/4.14",
             "latest-qt4": "master",
             "kf5-qt5": "",
