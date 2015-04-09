@@ -1181,10 +1181,10 @@
             "stable-kf5-qt5": ""
         },
         "kde/kdenetwork/kaccounts-providers": {
-            "stable-qt4": "Applications/14.12",
-            "latest-qt4": "master",
-            "kf5-qt5": "frameworks",
-            "stable-kf5-qt5": ""
+            "stable-qt4": "vlast_kde4",
+            "latest-qt4": "vlast_kde4",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "Applications/15.04"
         },
         "kde/kdenetwork/kaccounts-integration": {
             "stable-qt4": "stable",
