@@ -64,6 +64,12 @@
             "kf5-qt5": "",
             "stable-kf5-qt5": ""
         },
+         "kde/kde-runtime" : {
+            "stable-qt4": "Applications/15.04",
+            "latest-qt4": "master",
+            "kf5-qt5": "",
+            "stable-kf5-qt5": ""
+        },
         "frameworks/kactivities" : {
             "stable-qt4": "KDE/4.13",
             "latest-qt4": "KDE/4.13",
@@ -472,6 +478,18 @@
             "kf5-qt5": "",
             "stable-kf5-qt5": ""
         },
+        "kde/kdeutils/superkaramba" : {
+            "stable-qt4": "Applications/15.04",
+            "latest-qt4": "master",
+            "kf5-qt5": "",
+            "stable-kf5-qt5": ""
+        },
+        "kde/kdeutils/sweeper" : {
+            "stable-qt4": "Applications/15.04",
+            "latest-qt4": "master",
+            "kf5-qt5": "",
+            "stable-kf5-qt5": ""
+        },
         "kde/kdeutils/ktimer" : {
             "stable-qt4": "Applications/14.12",
             "latest-qt4": "Applications/14.12",
@@ -734,8 +752,7 @@
             "stable-qt4": "",
             "latest-qt4": "master",
             "kf5-qt5": "frameworks",
-            "stable-kf5-qt5": ""
-            
+            "stable-kf5-qt5": ""            
         },
         "extragear/sdk/massif-visualizer": {
             "stable-qt4": "",
@@ -774,6 +791,12 @@
             "stable-kf5-qt5": ""
         },
         "kde/kdebindings/kross-interpreters": {
+            "stable-qt4": "KDE/4.14",
+            "latest-qt4": "master",
+            "kf5-qt5": "",
+            "stable-kf5-qt5": ""
+        },
+        "kde/kdebindings/csharp/kimono": {
             "stable-qt4": "KDE/4.14",
             "latest-qt4": "master",
             "kf5-qt5": "",
@@ -823,8 +846,8 @@
         },
         "kde/kdemultimedia/dragon": {
             "stable-qt4": "Applications/15.04",
-            "latest-qt4": "master",
-            "kf5-qt5": "frameworks",
+            "latest-qt4": "Applications/15.04",
+            "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         },
         "kde/kdemultimedia/audiocd-kio": {
@@ -1175,10 +1198,10 @@
             "stable-kf5-qt5": ""
         },
         "kde/kdenetwork/kaccounts-providers": {
-            "stable-qt4": "Applications/14.12",
-            "latest-qt4": "master",
-            "kf5-qt5": "frameworks",
-            "stable-kf5-qt5": ""
+            "stable-qt4": "vlast_kde4",
+            "latest-qt4": "vlast_kde4",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "Applications/15.04"
         },
         "kde/kdenetwork/kaccounts-integration": {
             "stable-qt4": "stable",
@@ -1241,6 +1264,12 @@
             "stable-kf5-qt5": ""
         },
         "kde/kdeaccessibility/kmouth": {
+            "stable-qt4": "Applications/15.04",
+            "latest-qt4": "master",
+            "kf5-qt5": "",
+            "stable-kf5-qt5": ""
+        },
+        "kde/kdeaccessibility/jovie": {
             "stable-qt4": "Applications/15.04",
             "latest-qt4": "master",
             "kf5-qt5": "",

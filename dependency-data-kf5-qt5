@@ -804,7 +804,7 @@ kde/pim/akonadi-search: frameworks/ki18n
 kde/pim/akonadi-search: frameworks/kconfig
 kde/pim/akonadi-search: frameworks/kcrash
 kde/pim/akonadi-search: frameworks/kdelibs4support
-kde/pim/akonadi-search: kdesupport/akonadi
+kde/pim/akonadi-search: kde/kdepimlibs
 kde/pim/akonadi-search: kde/pim/kcontacts
 kde/pim/akonadi-search: kde/pim/kmime
 
@@ -939,6 +939,7 @@ extragear/network/choqok: kdesupport/qca
 
 # KDE Network: Telepathy
 kde/kdenetwork/kget: kdesupport/qca
+kde/kdenetwork/kget: kde/pim/gpgmepp
 kde/kdenetwork/ktp-common-internals: frameworks/kcmutils
 kde/kdenetwork/ktp-common-internals: frameworks/knotifyconfig
 kde/kdenetwork/ktp-common-internals: frameworks/ktexteditor
@@ -1080,7 +1081,6 @@ kde/kdenetwork/kaccounts-integration: frameworks/kiconthemes
 kde/kdenetwork/kaccounts-integration: frameworks/kconfig
 kde/kdenetwork/kaccounts-integration: frameworks/kwallet
 kde/kdenetwork/kaccounts-integration: frameworks/kdbusaddons
-kde/kdenetwork/kaccounts-integration[master]: kdesupport/akonadi[frameworks]
 
 # KDE Games
 kde/kdegames/libkmahjongg: kde/kdegames/libkdegames
