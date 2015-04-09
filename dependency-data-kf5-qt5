@@ -939,6 +939,7 @@ extragear/network/choqok: kdesupport/qca
 
 # KDE Network: Telepathy
 kde/kdenetwork/kget: kdesupport/qca
+kde/kdenetwork/kget: kde/pim/gpgmepp
 kde/kdenetwork/ktp-common-internals: frameworks/kcmutils
 kde/kdenetwork/ktp-common-internals: frameworks/knotifyconfig
 kde/kdenetwork/ktp-common-internals: frameworks/ktexteditor
