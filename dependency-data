@@ -383,8 +383,8 @@ extragear/accessibility/simon: kde/kde-workspace
 extragear/sysadmin/muon: kde/kdelibs
 
 # extragear/sdk
-extragear/sdk/plasmate: kde/kdelibs
-extragear/sdk/plasmate[master]: kde/kdepimlibs
+extragear/sdk/plasma-sdk: kde/kdelibs
+extragear/sdk/plasma-sdk[master]: kde/kdepimlibs
 extragear/sdk/massif-visualizer: kde/kdelibs
 
 # office suites

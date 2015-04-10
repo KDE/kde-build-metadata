@@ -748,11 +748,11 @@
             "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         },
-        "extragear/sdk/plasmate": {
+        "extragear/sdk/plasma-sdk": {
             "stable-qt4": "",
-            "latest-qt4": "master",
-            "kf5-qt5": "frameworks",
-            "stable-kf5-qt5": ""            
+            "latest-qt4": "KDE4",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
         },
         "extragear/sdk/massif-visualizer": {
             "stable-qt4": "",
@@ -867,7 +867,7 @@
             "latest-qt4": "master",
             "kf5-qt5": "",
             "stable-kf5-qt5": ""
-        },        
+        },
         "kde/kdemultimedia/libkcompactdisc": {
             "stable-qt4": "Applications/15.04",
             "latest-qt4": "master",
@@ -1316,7 +1316,7 @@
             "latest-qt4": "master",
             "kf5-qt5": "",
             "stable-kf5-qt5": ""
-        }, 
+        },
         "kde/kdegraphics/ksaneplugin": {
             "stable-qt4": "Applications/15.04",
             "latest-qt4": "master",
