@@ -208,7 +208,7 @@ kde/kdenetwork/ktp-presence-applet: kde/kdenetwork/ktp-common-internals
 kde/kdenetwork/ktp-send-file: kde/kdenetwork/ktp-common-internals
 kde/kdenetwork/ktp-text-ui: kde/kdenetwork/ktp-common-internals
 kde/kdenetwork/ktp-text-ui: kde/kdenetwork/telepathy-logger-qt
-
+kde/kdenetwork/kaccounts-integration: kde/kdepimlibs
 # kdeadmin
 kde/kdeadmin/kuser: kde/kdepimlibs
 
