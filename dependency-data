@@ -381,6 +381,7 @@ extragear/accessibility/simon: kde/kde-workspace
 
 # extragear/sysadmin
 extragear/sysadmin/muon: kde/kdelibs
+extragear/sysadmin/apper: kde/kdelibs
 
 # extragear/sdk
 extragear/sdk/plasmate: kde/kdelibs
