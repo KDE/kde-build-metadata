@@ -738,9 +738,9 @@ kde/kdeedu/kwordquiz: kde/kdeedu/libkeduvocdocument
 kde/kdeplasma-addons: frameworks/krunner
 
 # Extragear SDK
-extragear/sdk/plasmate: frameworks/kf5umbrella
-extragear/sdk/plasmate: frameworks/plasma-framework
-extragear/sdk/plasmate: extragear/kdevelop/kdevplatform 
+extragear/sdk/plasma-sdk: frameworks/kf5umbrella
+extragear/sdk/plasma-sdk: frameworks/plasma-framework
+extragear/sdk/plasma-sdk: extragear/kdevelop/kdevplatform
 
 # Extragear Sysadmin
 kde/workspace/muon: frameworks/solid
