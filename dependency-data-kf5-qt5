@@ -858,6 +858,7 @@ kde/kdeedu/parley: kde/kdeedu/libkeduvocdocument
 kde/kdeedu/khangman: kde/kdeedu/libkeduvocdocument
 kde/kdeedu/khangman: kde/kdeedu/kdeedu-data
 kde/kdeedu/kwordquiz: kde/kdeedu/libkeduvocdocument
+kde/kdeedu/marble: kdesupport/phonon/phonon
 kdereview/labplot: frameworks/karchive
 kdereview/labplot: frameworks/ki18n
 kdereview/labplot: frameworks/kwidgetsaddons
