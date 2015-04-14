@@ -503,7 +503,7 @@
             "stable-kf5-qt5": "Applications/15.04"
         },
         "kde/kdeutils/kwalletmanager" : {
-            "stable-qt4": "Applications/14.12",
+            "stable-qt4": "Applications/15.04",
             "latest-qt4": "master",
             "kf5-qt5": "frameworks",
             "stable-kf5-qt5": ""
