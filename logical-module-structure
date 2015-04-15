@@ -1257,6 +1257,12 @@
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/15.04"
         },
+        "kde/kdenetwork/signon-kwallet-extension": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "Applications/15.04"
+        },
         "kde/kdenetwork/kaccounts-integration": {
             "stable-qt4": "stable",
             "latest-qt4": "stable",
