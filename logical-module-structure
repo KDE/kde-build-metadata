@@ -814,6 +814,12 @@
             "kf5-qt5": "",
             "stable-kf5-qt5": ""
         },
+        "kde/kdebindings/perl/perlkde": {
+            "stable-qt4": "Applications/14.12",
+            "latest-qt4": "master",
+            "kf5-qt5": "",
+            "stable-kf5-qt5": ""
+        },
         "extragear/network/telepathy/telepathy-logger-qt": {
             "stable-qt4": "",
             "latest-qt4": "",
