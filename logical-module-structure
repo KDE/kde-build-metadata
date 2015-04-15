@@ -820,6 +820,12 @@
             "kf5-qt5": "",
             "stable-kf5-qt5": ""
         },
+        "kde/kdebindings/python/pykde4": {
+            "stable-qt4": "KDE/4.14",
+            "latest-qt4": "master",
+            "kf5-qt5": "",
+            "stable-kf5-qt5": ""
+        },
         "extragear/network/telepathy/telepathy-logger-qt": {
             "stable-qt4": "",
             "latest-qt4": "",
