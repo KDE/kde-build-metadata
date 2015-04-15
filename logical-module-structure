@@ -80,7 +80,7 @@
             "stable-qt4": "KDE/4.14",
             "latest-qt4": "KDE/4.14",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": "Plasma/5.2"
+            "stable-kf5-qt5": "Plasma/5.3"
         },
         "kde/kdepim" : {
             "stable-qt4": "KDE/4.14",
@@ -116,7 +116,7 @@
             "stable-qt4": "KDE/4.14",
             "latest-qt4": "KDE/4.14",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": "Plasma/5.2"
+            "stable-kf5-qt5": "Plasma/5.3"
         },
         "kde/kdelibs/baloo-widgets" : {
             "stable-qt4": "KDE/4.14",
@@ -140,19 +140,19 @@
             "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": "Plasma/5.2"
+            "stable-kf5-qt5": "Plasma/5.3"
         },
         "kde/workspace/polkit-kde-agent-1" : {
             "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": "Plasma/5.2"
+            "stable-kf5-qt5": "Plasma/5.3"
         },
         "kde/workspace/breeze" : {
-            "stable-qt4": "Plasma/5.2",
+            "stable-qt4": "Plasma/5.3",
             "latest-qt4": "master",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": "Plasma/5.2"
+            "stable-kf5-qt5": "Plasma/5.3"
         },
         "kde/kde-workspace" : {
             "stable-qt4": "KDE/4.11",
@@ -170,7 +170,7 @@
             "stable-qt4": "KDE/4.14",
             "latest-qt4": "KDE/4.14",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": "Plasma/5.2"
+            "stable-kf5-qt5": "Plasma/5.3"
         },
         "kde/kdeadmin/kcron" : {
             "stable-qt4": "Applications/14.12",
@@ -503,7 +503,7 @@
             "stable-kf5-qt5": "Applications/15.04"
         },
         "kde/kdeutils/kwalletmanager" : {
-            "stable-qt4": "Applications/14.12",
+            "stable-qt4": "Applications/15.04",
             "latest-qt4": "master",
             "kf5-qt5": "frameworks",
             "stable-kf5-qt5": ""
@@ -558,7 +558,7 @@
             "stable-qt4": "milou/0.1",
             "latest-qt4": "milou/0.1",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": "Plasma/5.2"
+            "stable-kf5-qt5": "Plasma/5.3"
         },
         "extragear/base/plasma-mobile": {
             "stable-qt4": "master",
@@ -594,7 +594,7 @@
             "stable-qt4": "kdelibs",
             "latest-qt4": "kdelibs",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": "Plasma/5.2"
+            "stable-kf5-qt5": "Plasma/5.3"
         },
         "kde/workspace/libbluedevil": {
             "stable-qt4": "master",
@@ -604,7 +604,7 @@
         },
         "extragear/base/powerdevil": {
             "kf5-qt5": "master",
-            "stable-kf5-qt5": "Plasma/5.2"
+            "stable-kf5-qt5": "Plasma/5.3"
         },
         "extragear/libs/libkgapi": {
             "stable-qt4": "LibKGAPI/2.1",
@@ -646,7 +646,7 @@
             "latest-qt4": "0.9.3",
             "stable-qt4": "0.9.3",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": "Plasma/5.2"
+            "stable-kf5-qt5": "Plasma/5.3"
         },
         "extragear/graphics/kdiagram": {
             "stable-qt4": "",
@@ -834,8 +834,8 @@
         },
         "extragear/multimedia/kamoso": {
             "stable-qt4": "2.1",
-            "latest-qt4": "master",
-            "kf5-qt5": "frameworks",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         },
         "kde/kdemultimedia/libkcddb": {
@@ -920,19 +920,19 @@
             "stable-qt4": "2.2",
             "latest-qt4": "2.2",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": "Plasma/5.2"
+            "stable-kf5-qt5": "Plasma/5.3"
         },
         "kde/workspace/libkscreen": {
             "stable-qt4": "kdelibs4",
             "latest-qt4": "kdelibs4",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": "Plasma/5.2"
+            "stable-kf5-qt5": "Plasma/5.3"
         },
         "kde/workspace/kscreen": {
             "stable-qt4": "kdelibs4",
             "latest-qt4": "kdelibs4",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": "Plasma/5.2"
+            "stable-kf5-qt5": "Plasma/5.3"
         },
         "extragear/office/kmymoney": {
             "stable-qt4": "4.7",
@@ -950,7 +950,7 @@
             "stable-qt4": "2.2",
             "latest-qt4": "2.2",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": "Plasma/5.2"
+            "stable-kf5-qt5": "Plasma/5.3"
         },
         "calligra": {
             "stable-qt4": "calligra/2.9",
