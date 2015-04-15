@@ -802,6 +802,12 @@
             "kf5-qt5": "",
             "stable-kf5-qt5": ""
         },
+        "kde/kdebindings/csharp/qyoto": {
+            "stable-qt4": "KDE/4.14",
+            "latest-qt4": "master",
+            "kf5-qt5": "",
+            "stable-kf5-qt5": ""
+        },
         "kde/kdebindings/ruby/qtruby": {
             "stable-qt4": "KDE/4.14",
             "latest-qt4": "master",
