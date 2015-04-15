@@ -24,6 +24,7 @@ frameworks/kcompletion: frameworks/kwidgetsaddons
 frameworks/kcrash: frameworks/kcoreaddons
 frameworks/kcrash: frameworks/kwindowsystem
 frameworks/kdoctools: frameworks/karchive
+frameworks/kdoctools: frameworks/ki18n
 frameworks/kjobwidgets: frameworks/kcoreaddons
 frameworks/kjobwidgets: frameworks/kwidgetsaddons
 frameworks/kpty: frameworks/kcoreaddons
