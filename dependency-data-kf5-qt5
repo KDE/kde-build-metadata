@@ -1064,6 +1064,7 @@ playground/libs/purpose: frameworks/kconfig
 playground/libs/purpose: frameworks/ki18n
 playground/libs/purpose: frameworks/kdeclarative
 playground/libs/purpose: kde/kdenetwork/kaccounts-integration
+playground/libs/purpose: playground/base/kdeconnect-kde
 
 # Playground Utils
 playground/utils/kdebugsettings: frameworks/kcoreaddons
