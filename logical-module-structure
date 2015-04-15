@@ -989,7 +989,7 @@
         "extragear/network/libringclient": {
             "stable-qt4": "",
             "latest-qt4": "",
-            "kf5-qt5": "qt5",
+            "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         },
         "kde/applications/kate" : {
