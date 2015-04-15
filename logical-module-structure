@@ -820,6 +820,18 @@
             "kf5-qt5": "Qt5",
             "stable-kf5-qt5": ""
         },
+        "kde/kdebindings/smoke/smokekde": {
+            "stable-qt4": "KDE/4.14",
+            "latest-qt4": "master",
+            "kf5-qt5": "Qt5",
+            "stable-kf5-qt5": ""
+        },
+        "kde/kdebindings/smoke/smokegen": {
+            "stable-qt4": "KDE/4.14",
+            "latest-qt4": "master",
+            "kf5-qt5": "Qt5",
+            "stable-kf5-qt5": ""
+        },
         "kde/kdebindings/perl/perlqt": {
             "stable-qt4": "Applications/14.12",
             "latest-qt4": "master",
