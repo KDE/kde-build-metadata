@@ -826,7 +826,7 @@
             "kf5-qt5": "",
             "stable-kf5-qt5": ""
         },
-        "kde/kdebindings/python/pykde": {
+        "kde/kdebindings/python/pykde5": {
             "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master",
