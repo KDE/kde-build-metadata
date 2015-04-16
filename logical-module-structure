@@ -823,7 +823,7 @@
         "kde/kdebindings/smoke/smokekde": {
             "stable-qt4": "KDE/4.14",
             "latest-qt4": "master",
-            "kf5-qt5": "Qt5",
+            "kf5-qt5": "",
             "stable-kf5-qt5": ""
         },
         "kde/kdebindings/smoke/smokegen": {
