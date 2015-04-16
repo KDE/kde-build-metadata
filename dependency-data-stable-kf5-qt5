@@ -559,7 +559,7 @@ kde/workspace/plasma-nm: frameworks/networkmanager-qt
 kde/workspace/plasma-nm: frameworks/plasma-framework
 
 # Bluedevil
-kde/workspace/bluedevil: kde/workspace/libbluedevil
+kde/workspace/bluedevil: kde/workspace/bluez-qt
 
 kde/workspace/milou: frameworks/kdelibs4support
 kde/workspace/milou: kde/workspace/baloo
