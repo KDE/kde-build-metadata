@@ -1430,6 +1430,12 @@
             "latest-qt4": "master",
             "kf5-qt5": "frameworks",
             "stable-kf5-qt5": ""
+        },
+        "playground/devtools/kdesvn": {
+            "stable-qt4": "",
+            "latest-qt4": "master",
+            "kf5-qt5": "frameworks",
+            "stable-kf5-qt5": ""
         }
     }
 }
