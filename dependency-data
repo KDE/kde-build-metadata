@@ -209,6 +209,7 @@ kde/kdenetwork/ktp-send-file: kde/kdenetwork/ktp-common-internals
 kde/kdenetwork/ktp-text-ui: kde/kdenetwork/ktp-common-internals
 kde/kdenetwork/ktp-text-ui: kde/kdenetwork/telepathy-logger-qt
 kde/kdenetwork/kaccounts-integration: kdesupport/akonadi
+kde/kdenetwork/kaccounts-integration: extragear/libs/libkgapi
 # kdeadmin
 kde/kdeadmin/kuser: kde/kdepimlibs
 
