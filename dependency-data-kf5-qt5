@@ -901,6 +901,9 @@ kde/kdesdk/kapptemplate: frameworks/karchive
 kde/kdesdk/kapptemplate: frameworks/kio
 kde/kdesdk/kapptemplate: frameworks/ki18n
 
+# kdebindings
+kde/kdebindings/smoke/smokeqt: kde/kdebindings/smoke/smokegen
+
 # Extragear Multimedia
 kde/workspace/plasma-mediacenter: frameworks/plasma-framework
 kde/workspace/plasma-mediacenter: kde/workspace/baloo
