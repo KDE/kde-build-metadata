@@ -434,6 +434,7 @@ playground/devtools/plugins/kdev-python: extragear/kdevelop/utilities/kdevelop-p
 # Playground Net
 playground/network/sflphone-kde: kde/kdelibs
 playground/network/sflphone-kde: kde/kdepimlibs
+playground/base/kdeconnect-kde: kde/kde-workspace
 
 # Playground PIM
 playground/pim/zanshin: kde/kdelibs
