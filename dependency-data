@@ -325,6 +325,7 @@ extragear/network/rekonq: frameworks/kactivities
 extragear/network/choqok: kde/kdelibs
 extragear/network/telepathy/*: kde/kdelibs
 extragear/network/telepathy/ktp-call-ui: kde/kdenetwork/ktp-common-internals
+extragear/network/kio-gopher: kde/kde-workspace
 
 
 # extragear/multimedia
