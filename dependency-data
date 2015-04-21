@@ -304,6 +304,7 @@ playground/devtools/plugins/kdev-go: extragear/kdevelop/utilities/kdevelop-pg-qt
 playground/devtools/plugins/kdev-sql: extragear/kdevelop/kdevplatform
 playground/devtools/plugins/kdev-valgrind: extragear/kdevelop/kdevplatform
 playground/devtools/plugins/kdev-xml: extragear/kdevelop/kdevplatform
+playground/devtools/plugins/kdev-xtest: extragear/kdevelop/kdevplatform
 extragear/kdevelop/plugins/kdev-crossfire: playground/devtools/kdev-executebrowser
 playground/devtools/kdev-executebrowser: extragear/kdevelop/kdevplatform
 playground/devtools/plugins/kdev-krazy2: extragear/kdevelop/kdevplatform
