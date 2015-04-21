@@ -80,6 +80,7 @@
             "stable-qt4": "KDE/4.13",
             "latest-qt4": "KDE/4.13",
             "kf5-qt5": "master",
+            "kf5-minimum": "master",
             "stable-kf5-qt5": "master"
         },
         "kde/workspace/kfilemetadata" : {
@@ -1028,12 +1029,14 @@
             "stable-qt4": "qt4",
             "latest-qt4": "qt4",
             "kf5-qt5": "master",
+            "kf5-minimum": "master",
             "stable-kf5-qt5": "master"
         },
         "kdesupport/extra-cmake-modules": {
             "stable-qt4": "master",
             "latest-qt4": "master",
             "kf5-qt5": "master",
+            "kf5-minimum": "master",
             "stable-kf5-qt5": "master"
         },
         "kdesupport/strigi/*": {
@@ -1044,6 +1047,7 @@
         },
         "frameworks/plasma-framework": {
             "kf5-qt5": "master",
+            "kf5-minimum": "master",
             "stable-kf5-qt5": "master"
         },
         "extragear/network/konversation": {
