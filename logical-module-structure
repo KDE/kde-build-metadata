@@ -26,30 +26,35 @@
         },
         "qt5": {
             "kf5-qt5": "5.4.1",
-            "stable-kf5-qt5": "5.3.2"
+            "kf5-minimum": "5.2",
+            "stable-kf5-qt5": "5.4"
         },
         "frameworks/*" : {
             "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master",
+            "kf5-minimum": "master",
             "stable-kf5-qt5": "master"
         },
         "frameworks/kpeople" : {
             "stable-qt4": "libkpeople-0.3",
             "latest-qt4": "libkpeople-0.3",
             "kf5-qt5": "master",
+            "kf5-minimum": "master",
             "stable-kf5-qt5": "master"
         },
         "frameworks/networkmanager-qt": {
             "stable-qt4": "NM/0.9.8",
             "latest-qt4": "NM/0.9.8",
             "kf5-qt5": "master",
+            "kf5-minimum": "master",
             "stable-kf5-qt5": "master"
         },
         "frameworks/modemmanager-qt": {
             "stable-qt4": "MM/1.0",
             "latest-qt4": "MM/1.0",
             "kf5-qt5": "master",
+            "kf5-minimum": "master",
             "stable-kf5-qt5": "master"
         },
         "kde/*" : {
