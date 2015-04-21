@@ -301,6 +301,7 @@ extragear/kdevelop/plugins/kdev-crossfire: playground/devtools/kdev-executebrows
 playground/devtools/kdev-executebrowser: extragear/kdevelop/kdevplatform
 playground/devtools/plugins/kdev-krazy2: extragear/kdevelop/kdevplatform
 playground/devtools/plugins/kdev-mercurial: extragear/kdevelop/kdevplatform
+playground/devtools/plugins/kdev-php-formatter: extragear/kdevelop/kdevplatform
 
 # extragear/network
 extragear/network/konversation: kde/kdelibs
