@@ -990,8 +990,8 @@
             "stable-kf5-qt5": ""
         },
         "kde/multimedia/kdenlive": {
-            "stable-qt4": "15.04",
-            "latest-qt4": "master",
+            "stable-qt4": "v0.9.x",
+            "latest-qt4": "v0.9.x",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/15.04"
         },
