@@ -755,9 +755,9 @@
             "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         },
-        "extragear/kdevelop/plugins/kdev-executebrowser": {
-            "stable-qt4": "1.7",
-            "latest-qt4": "1.7",
+        "playground/devtools/kdev-executebrowser": {
+            "stable-qt4": "master",
+            "latest-qt4": "master",
             "kf5-qt5": "",
             "stable-kf5-qt5": ""
         },
