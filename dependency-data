@@ -433,6 +433,7 @@ calligra: kdesupport/soprano[master]
 
 # kdereview
 kdereview/kwave: kde/kdelibs
+kdereview/labplot: kde/kdelibs 
 
 # Playground Libs
 frameworks/plasma-framework: frameworks/kactivities
