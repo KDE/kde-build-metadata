@@ -720,8 +720,8 @@
             "stable-kf5-qt5": ""
         },
         "playground/devtools/plugins/kdev-go": {
-            "stable-qt4": "1.7",
-            "latest-qt4": "1.7",
+            "stable-qt4": "kde4-legacy",
+            "latest-qt4": "kde4-legacy",
             "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         },
