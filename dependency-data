@@ -304,7 +304,9 @@ playground/devtools/plugins/kdev-go: extragear/kdevelop/utilities/kdevelop-pg-qt
 playground/devtools/plugins/kdev-sql: extragear/kdevelop/kdevplatform
 playground/devtools/plugins/kdev-valgrind: extragear/kdevelop/kdevplatform
 playground/devtools/plugins/kdev-xml: extragear/kdevelop/kdevplatform
+playground/devtools/plugins/kdev-xml: extragear/kdevelop/utilities/kdevelop-pg-qt
 playground/devtools/plugins/kdev-xtest: extragear/kdevelop/kdevplatform
+playground/devtools/plugins/kdev-xtest: extragear/kdevelop/utilities/kdevelop-pg-qt
 extragear/kdevelop/plugins/kdev-crossfire: playground/devtools/kdev-executebrowser
 playground/devtools/kdev-executebrowser: extragear/kdevelop/kdevplatform
 playground/devtools/plugins/kdev-krazy2: extragear/kdevelop/kdevplatform
@@ -325,7 +327,7 @@ extragear/network/rekonq: frameworks/kactivities
 extragear/network/choqok: kde/kdelibs
 extragear/network/telepathy/*: kde/kdelibs
 extragear/network/telepathy/ktp-call-ui: kde/kdenetwork/ktp-common-internals
-extragear/network/kio-gopher: kde/kde-workspace
+extragear/network/kio-gopher: kde/kdelibs
 
 
 # extragear/multimedia

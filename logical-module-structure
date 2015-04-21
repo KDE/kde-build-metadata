@@ -779,6 +779,12 @@
             "kf5-qt5": "",
             "stable-kf5-qt5": ""
         },
+        "playground/devtools/veritas": {
+            "stable-qt4": "master",
+            "latest-qt4": "master",
+            "kf5-qt5": "",
+            "stable-kf5-qt5": ""
+        },
         "extragear/sdk/plasma-sdk": {
             "stable-qt4": "",
             "latest-qt4": "KDE4",
