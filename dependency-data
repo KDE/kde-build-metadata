@@ -296,6 +296,7 @@ extragear/kdevelop/plugins/kdev-control-flow-graph: extragear/kdevelop/kdevplatf
 extragear/kdevelop/plugins/kdev-cppcheck: extragear/kdevelop/kdevplatform
 extragear/kdevelop/plugins/kdev-crossfire: extragear/kdevelop/kdevplatform
 playground/devtools/plugins/kdev-css: extragear/kdevelop/kdevplatform
+playground/devtools/plugins/kdev-css: extragear/kdevelop/utilities/kdevelop-pg-qt
 playground/devtools/plugins/kdev-java: extragear/kdevelop/kdevplatform
 playground/devtools/plugins/kdev-java: extragear/kdevelop/utilities/kdevelop-pg-qt
 extragear/kdevelop/plugins/kdev-crossfire: playground/devtools/kdev-executebrowser
