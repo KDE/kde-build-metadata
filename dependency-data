@@ -448,6 +448,7 @@ playground/edu/artikulate: kde/kdelibs
 # Playground KDevelop
 playground/devtools/*: kde/kdelibs
 playground/devtools/*: kde/applications/kate
+playground/devtools/veritas: extragear/kdevelop/kdevplatform
 playground/devtools/plugins/kdev-clang: extragear/kdevelop/kdevelop
 playground/devtools/plugins/kdev-qmake: extragear/kdevelop/kdevelop
 playground/devtools/plugins/kdev-qmake: extragear/kdevelop/utilities/kdevelop-pg-qt
