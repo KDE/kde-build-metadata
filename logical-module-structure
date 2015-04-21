@@ -16,6 +16,7 @@
         "stable-qt4",
         "latest-qt4",
         "kf5-qt5",
+        "kf5-minimum",
         "stable-kf5-qt5"
     ],
 
