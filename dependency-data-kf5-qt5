@@ -247,7 +247,6 @@ frameworks/plasma-framework: frameworks/ktexteditor
 frameworks/kxmlrpcclient: frameworks/kio
 frameworks/kpeople: frameworks/kcoreaddons
 frameworks/kpeople: frameworks/kwidgetsaddons
-frameworks/kpeople: frameworks/kservice
 frameworks/kpeople: frameworks/ki18n
 frameworks/kpeople: frameworks/kitemviews
 
