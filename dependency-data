@@ -295,6 +295,7 @@ extragear/kdevelop/plugins/kdev-custom-buildsystem: extragear/kdevelop/kdevplatf
 extragear/kdevelop/plugins/kdev-control-flow-graph: extragear/kdevelop/kdevplatform
 extragear/kdevelop/plugins/kdev-cppcheck: extragear/kdevelop/kdevplatform
 extragear/kdevelop/plugins/kdev-crossfire: extragear/kdevelop/kdevplatform
+extragear/kdevelop/plugins/kdev-crossfire: extragear/kdevelop/plugins/kdev-executebrowser
 
 # extragear/network
 extragear/network/konversation: kde/kdelibs
