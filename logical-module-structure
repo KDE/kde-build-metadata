@@ -638,7 +638,7 @@
             "stable-kf5-qt5": ""
         },
         "extragear/libs/libmediawiki": {
-            "stable-qt4": "",
+            "stable-qt4": "master",
             "latest-qt4": "master",
             "kf5-qt5": "frameworks",
             "stable-kf5-qt5": ""

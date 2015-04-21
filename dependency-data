@@ -328,6 +328,7 @@ extragear/network/choqok: kde/kdelibs
 extragear/network/telepathy/*: kde/kdelibs
 extragear/network/telepathy/ktp-call-ui: kde/kdenetwork/ktp-common-internals
 extragear/network/kio-gopher: kde/kdelibs
+extragear/network/kio-mtp: kde/kdelibs
 
 
 # extragear/multimedia
