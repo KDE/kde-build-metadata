@@ -414,6 +414,9 @@ extragear/sdk/plasma-sdk: kde/kdelibs
 extragear/sdk/plasma-sdk[master]: kde/kdepimlibs
 extragear/sdk/massif-visualizer: kde/kdelibs
 
+# extragear/games
+extragear/games/knights: kde/kdelibs
+
 # office suites
 calligra: kde/kdelibs
 calligra: frameworks/kactivities
