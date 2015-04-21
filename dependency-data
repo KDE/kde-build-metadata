@@ -295,8 +295,12 @@ extragear/kdevelop/plugins/kdev-custom-buildsystem: extragear/kdevelop/kdevplatf
 extragear/kdevelop/plugins/kdev-control-flow-graph: extragear/kdevelop/kdevplatform
 extragear/kdevelop/plugins/kdev-cppcheck: extragear/kdevelop/kdevplatform
 extragear/kdevelop/plugins/kdev-crossfire: extragear/kdevelop/kdevplatform
+extragear/kdevelop/plugins/kdev-css: extragear/kdevelop/kdevplatform
+extragear/kdevelop/plugins/kdev-java: extragear/kdevelop/kdevplatform
 extragear/kdevelop/plugins/kdev-crossfire: playground/devtools/kdev-executebrowser
 playground/devtools/kdev-executebrowser: extragear/kdevelop/kdevplatform
+playground/devtools/plugins/kdev-krazy2: extragear/kdevelop/kdevplatform
+playground/devtools/plugins/kdev-mercurial: extragear/kdevelop/kdevplatform
 
 # extragear/network
 extragear/network/konversation: kde/kdelibs
