@@ -212,6 +212,7 @@ kde/kdenetwork/kaccounts-integration: kdesupport/akonadi
 kde/kdenetwork/kaccounts-integration: extragear/libs/libkgapi
 kde/kdenetwork/kaccounts-integration: extragear/libs/libkfbapi
 kde/kdenetwork/kaccounts-integration: kde/kdenetwork/ktp-common-internals
+kde/kdenetwork/kaccounts-integration: kde/kdenetwork/ktp-kded-module
 
 # kdeadmin
 kde/kdeadmin/kuser: kde/kdepimlibs
