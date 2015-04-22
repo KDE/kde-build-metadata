@@ -415,6 +415,7 @@ extragear/sysadmin/partitionmanager: kde/kdelibs
 
 # extragear/sdk
 extragear/sdk/plasma-sdk: kde/kdelibs
+extragear/sdk/plasma-sdk[KDE4]: kde/kdepimlibs
 extragear/sdk/plasma-sdk[master]: kde/kdepimlibs
 extragear/sdk/massif-visualizer: kde/kdelibs
 
