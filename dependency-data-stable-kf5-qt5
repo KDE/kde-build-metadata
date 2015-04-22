@@ -15,16 +15,15 @@
 
 *: Qt5[stable]
 *: kdesupport/extra-cmake-modules
-kdesupport/qca: qt5
 
 # Frameworks, tier2
 frameworks/kauth: frameworks/kcoreaddons
+frameworks/kauth: kdesupport/polkit-qt-1
 frameworks/kcompletion: frameworks/kconfig
 frameworks/kcompletion: frameworks/kwidgetsaddons
 frameworks/kcrash: frameworks/kcoreaddons
 frameworks/kcrash: frameworks/kwindowsystem
 frameworks/kdoctools: frameworks/karchive
-frameworks/kdoctools: frameworks/ki18n
 frameworks/kjobwidgets: frameworks/kcoreaddons
 frameworks/kjobwidgets: frameworks/kwidgetsaddons
 frameworks/kpty: frameworks/kcoreaddons
@@ -247,6 +246,7 @@ frameworks/plasma-framework: frameworks/ktexteditor
 frameworks/kxmlrpcclient: frameworks/kio
 frameworks/kpeople: frameworks/kcoreaddons
 frameworks/kpeople: frameworks/kwidgetsaddons
+frameworks/kpeople: frameworks/kservice
 frameworks/kpeople: frameworks/ki18n
 frameworks/kpeople: frameworks/kitemviews
 
@@ -269,6 +269,7 @@ frameworks/kdelibs4support: frameworks/kconfig
 frameworks/kdelibs4support: frameworks/kconfigwidgets
 frameworks/kdelibs4support: frameworks/kitemviews
 frameworks/kdelibs4support: frameworks/kiconthemes
+frameworks/kdelibs4support: frameworks/kitemmodels
 frameworks/kdelibs4support: frameworks/kunitconversion
 frameworks/kdelibs4support: frameworks/kwindowsystem
 frameworks/kdelibs4support: frameworks/kservice
@@ -365,7 +366,6 @@ frameworks/kf5umbrella: frameworks/solid
 frameworks/kf5umbrella: frameworks/sonnet
 frameworks/kf5umbrella: frameworks/threadweaver
 frameworks/kf5umbrella: frameworks/plasma-framework
-frameworks/kf5umbrella: frameworks/kpackage
 frameworks/kf5umbrella: frameworks/kxmlrpcclient
 
 # The generic dependency on all frameworks
@@ -480,7 +480,6 @@ kde/workspace/oxygen: frameworks/kcompletion
 kde/workspace/oxygen: frameworks/frameworkintegration
 kde/workspace/oxygen: frameworks/kwindowsystem
 kde/workspace/oxygen: frameworks/kdelibs4support
-kde/workspace/oxygen: kde/workspace/kdecoration
 
 # KHelpCenter
 kde/workspace/khelpcenter: frameworks/kconfig
@@ -510,9 +509,8 @@ kde/workspace/plasma-workspace: frameworks/kwallet
 kde/workspace/plasma-workspace: frameworks/kcmutils
 kde/workspace/plasma-workspace: frameworks/kdewebkit
 kde/workspace/plasma-workspace: frameworks/plasma-framework
-kde/workspace/plasma-workspace: frameworks/kxmlrpcclient
 kde/workspace/plasma-workspace: frameworks/kdelibs4support
-kde/workspace/plasma-workspace: frameworks/networkmanager-qt
+kde/workspace/plasma-workspace: frameworks/kxmlrpcclient
 kde/workspace/plasma-workspace: kde/workspace/libksysguard
 kde/workspace/plasma-workspace: kde/workspace/kwin
 kde/workspace/plasma-workspace: kde/workspace/milou
@@ -550,40 +548,28 @@ kde/workspace/plasma-desktop: frameworks/krunner
 kde/workspace/plasma-desktop: frameworks/kwallet
 kde/workspace/plasma-desktop: frameworks/attica
 kde/workspace/plasma-desktop: frameworks/plasma-framework
-kde/workspace/plasma-desktop: frameworks/kpeople
 kde/workspace/plasma-desktop: kde/workspace/systemsettings
 kde/workspace/plasma-desktop: kde/workspace/powerdevil
 kde/workspace/plasma-desktop: kde/workspace/ksysguard
 kde/workspace/plasma-desktop: kde/workspace/oxygen
 
 # Plasma NM
-kde/workspace/plasma-nm: frameworks/modemmanager-qt
+kde/workspace/plasma-nm: extragear/libs/libmm-qt
 kde/workspace/plasma-nm: frameworks/networkmanager-qt
 kde/workspace/plasma-nm: frameworks/plasma-framework
-
-kde/workspace/polkit-kde-agent-1: kdesupport/polkit-qt-1
-kde/workspace/polkit-kde-agent-1: frameworks/ki18n
-kde/workspace/polkit-kde-agent-1: frameworks/kwindowsystem
-kde/workspace/polkit-kde-agent-1: frameworks/kdbusaddons
-kde/workspace/polkit-kde-agent-1: frameworks/kwidgetsaddons
-kde/workspace/polkit-kde-agent-1: frameworks/kcrash
-kde/workspace/polkit-kde-agent-1: frameworks/kconfig
-kde/workspace/polkit-kde-agent-1: frameworks/kiconthemes
-kde/workspace/polkit-kde-agent-1: frameworks/knotifications
-
-# KScreen
-kde/workspace/kscreen: frameworks/kdbusaddons
-kde/workspace/kscreen: frameworks/kconfigwidgets
-kde/workspace/kscreen: frameworks/ki18n
-kde/workspace/kscreen: frameworks/kxmlgui
-kde/workspace/kscreen: frameworks/kglobalaccel
-kde/workspace/kscreen: kde/workspace/libkscreen
 
 # Bluedevil
 kde/workspace/bluedevil: kde/workspace/bluez-qt
 
 kde/workspace/milou: frameworks/kdelibs4support
 kde/workspace/milou: kde/workspace/baloo
+
+kde/workspace/kscreen: frameworks/kdbusaddons
+kde/workspace/kscreen: frameworks/kconfigwidgets
+kde/workspace/kscreen: frameworks/ki18n
+kde/workspace/kscreen: frameworks/kxmlgui
+kde/workspace/kscreen: frameworks/kglobalaccel
+kde/workspace/kscreen: kde/workspace/libkscreen
 
 kde/workspace/powerdevil: frameworks/kauth
 kde/workspace/powerdevil: frameworks/kidletime
@@ -609,28 +595,6 @@ kde/applications/kde-baseapps: kde/kdelibs/baloo-widgets
 kde/applications/kde-baseapps: kde/workspace/kfilemetadata
 # Provides KTextEditor for konqueror
 kde/applications/kde-baseapps: kde/applications/kate
-
-kde/applications/dolphin: frameworks/kdoctools
-kde/applications/dolphin: frameworks/kinit
-kde/applications/dolphin: frameworks/kcmutils
-kde/applications/dolphin: frameworks/knewstuff
-kde/applications/dolphin: frameworks/kcoreaddons
-kde/applications/dolphin: frameworks/ki18n
-kde/applications/dolphin: frameworks/kdbusaddons
-kde/applications/dolphin: frameworks/kbookmarks
-kde/applications/dolphin: frameworks/kconfig
-kde/applications/dolphin: frameworks/kio
-kde/applications/dolphin: frameworks/kparts
-kde/applications/dolphin: frameworks/solid
-kde/applications/dolphin: frameworks/kiconthemes
-kde/applications/dolphin: frameworks/kcompletion
-kde/applications/dolphin: frameworks/ktexteditor
-kde/applications/dolphin: frameworks/kwindowsystem
-kde/applications/dolphin: frameworks/knotifications
-kde/applications/dolphin: frameworks/kactivities
-kde/applications/dolphin: kdesupport/phonon/phonon
-kde/applications/dolphin: kde/workspace/kfilemetadata
-kde/applications/dolphin: kde/workspace/baloo
 
 kde/applications/konsole: frameworks/kwidgetsaddons
 kde/applications/konsole: frameworks/ki18n
@@ -688,113 +652,22 @@ kde/applications/konsole: frameworks/kded
 kde/applications/konsole: frameworks/kemoticons
 kde/applications/konsole: frameworks/kpty
 kde/applications/konsole: frameworks/kdesu
+kde/applications/konsole: frameworks/kf5umbrella
 
 kde/kdeutils/ark: frameworks/kdelibs4support
 
 # KDE PIM Dependencies
 kde/kdepimlibs: kdesupport/akonadi
 kde/kdepimlibs: kdesupport/prison
-kde/kdepimlibs: kde/pim/kcontacts
-kde/kdepimlibs: frameworks/kxmlrpcclient
-kde/kdepimlibs: kde/pim/kblog
-kde/kdepimlibs: kde/pim/kcalcore
-kde/kdepimlibs: kde/pim/kcalutils
-kde/kdepimlibs: kde/pim/kholidays
-kde/kdepimlibs: kde/pim/kimap
-kde/kdepimlibs: kde/pim/kldap
-kde/kdepimlibs: kde/pim/kidentitymanagement
-kde/kdepimlibs: kde/pim/kmbox
-kde/kdepimlibs: kde/pim/kmime
-kde/kdepimlibs: kde/pim/kontactinterface
-kde/kdepimlibs: kde/pim/kpimtextedit
-kde/kdepimlibs: kde/pim/ktnef
-kde/kdepimlibs: kde/pim/syndication
-kde/kdepimlibs: kde/pim/gpgmepp
-
-kde/pim/kcalcore: frameworks/kdelibs4support
-kde/pim/syndication: frameworks/kio
-kde/pim/syndication: frameworks/kcodecs
-kde/pim/kimap: frameworks/kcoreaddons
-kde/pim/kimap: frameworks/kdelibs4support
-kde/pim/kimap: kde/pim/kmime
-kde/pim/kldap: frameworks/kcmutils
-kde/pim/kldap: frameworks/kdelibs4support
-kde/pim/kldap: kde/pim/kcontacts
-kde/pim/kpimtextedit: frameworks/kcoreaddons
-kde/pim/kpimtextedit: frameworks/kemoticons
-kde/pim/kpimtextedit: frameworks/sonnet
-kde/pim/kpimtextedit: frameworks/ktextwidgets
-kde/pim/kpimtextedit: frameworks/kwidgetsaddons
-kde/pim/kpimtextedit: frameworks/kio
-kde/pim/kpimtextedit: frameworks/kcodecs
-kde/pim/kpimtextedit: frameworks/kdelibs4support
-kde/pim/kalarmcal: frameworks/kdelibs4support
-kde/pim/kalarmcal: kdesupport/akonadi
-kde/pim/kalarmcal: kde/pim/kcalcore
-kde/pim/kalarmcal: kde/pim/kidentitymanagement
-kde/pim/kalarmcal: kde/pim/kholidays
-kde/pim/kalarmcal: kde/kdepimlibs #needed because of akonadiserver
-kde/pim/kmailtransport: frameworks/kdelibs4support
-kde/pim/kmailtransport: frameworks/kcmutils
-kde/pim/kmailtransport: frameworks/kconfigwidgets
-kde/pim/kmailtransport: frameworks/kwallet
-kde/pim/kmailtransport: kde/pim/kmime
-kde/pim/kmailtransport: kde/kdepimlibs #needed because of akonadiserver
-kde/pim/kcontacts: frameworks/kcoreaddons
-kde/pim/kcontacts: frameworks/ki18n
-kde/pim/kcontacts: frameworks/kconfig
-kde/pim/kcontacts: frameworks/kcodecs
-kde/pim/kmime: frameworks/kdelibs4support
-kde/pim/kmime: frameworks/ki18n
-kde/pim/kmime: frameworks/kcodecs
-kde/pim/kidentitymanagement: frameworks/kdelibs4support
-kde/pim/kidentitymanagement: frameworks/kcoreaddons
-kde/pim/kidentitymanagement: frameworks/kcompletion
-kde/pim/kidentitymanagement: frameworks/ktextwidgets
-kde/pim/kidentitymanagement: frameworks/kxmlgui
-kde/pim/kidentitymanagement: frameworks/kio
-kde/pim/kidentitymanagement: frameworks/kconfig
-kde/pim/kidentitymanagement: frameworks/kemoticons
-kde/pim/kidentitymanagement: frameworks/kcodecs
-kde/pim/kidentitymanagement: kde/pim/kpimtextedit
-kde/pim/kblog: frameworks/kcoreaddons
-kde/pim/kblog: frameworks/kdelibs4support
-kde/pim/kblog: frameworks/kio
-kde/pim/kblog: kde/pim/kcalcore
-kde/pim/kblog: kde/pim/syndication
-kde/pim/kblog: frameworks/kxmlrpcclient
-kde/pim/kholidays: frameworks/kitemviews
-kde/pim/kholidays: frameworks/kdelibs4support
-kde/pim/kmbox: frameworks/kcoreaddons
-kde/pim/kmbox: frameworks/kdelibs4support
-kde/pim/kmbox: kde/pim/kmime
-kde/pim/kontactinterface: frameworks/kparts
-kde/pim/kontactinterface: frameworks/kdelibs4support
-kde/pim/ktnef: frameworks/kdelibs4support
-kde/pim/ktnef: kde/pim/kcalcore
-kde/pim/ktnef: kde/pim/kcalutils
-kde/pim/ktnef: kde/pim/kcontacts
-kde/pim/kcalutils: frameworks/kcoreaddons
-kde/pim/kcalutils: kde/pim/kcalcore
-kde/pim/kcalutils: frameworks/kconfig
-kde/pim/kcalutils: frameworks/ki18n
-kde/pim/kcalutils: frameworks/kdelibs4support
-kde/pim/kcalutils: frameworks/kcodecs
-kde/pim/kcalutils: kde/pim/kidentitymanagement
-
-extragear/libs/libkgapi: frameworks/kcoreaddons
-extragear/libs/libkgapi: kde/pim/kcontacts
-extragear/libs/libkgapi: kde/pim/kcalcore
+extragear/libs/libkgapi: kde/kdepimlibs
+kde/kdenetwork/kaccounts-integration[master]: kdesupport/akonadi[frameworks]
 
 # KDE PIM
 kde/kdepim: kde/kdepimlibs
 kde/kdepim: kde/kdepim/akonadi-search
-kde/kdepim: kde/kdepim/akonadi-calendar
 kde/kdepim: playground/pim/akonadi-search
 kde/kdepim: extragear/libs/libkgapi
 kde/kdepim: frameworks/kactivities
-kde/kdepim: kde/pim/kalarmcal
-kde/kdepim: kde/pim/kmailtransport
 kde/kdepim-runtime: kde/kdepim
 kde/kdepim-runtime: kdesupport/akonadi
 
@@ -804,148 +677,13 @@ kde/pim/akonadi-search: frameworks/ki18n
 kde/pim/akonadi-search: frameworks/kconfig
 kde/pim/akonadi-search: frameworks/kcrash
 kde/pim/akonadi-search: frameworks/kdelibs4support
-kde/pim/akonadi-search: kde/kdepimlibs
+kde/pim/akonadi-search: kdesupport/akonadi[frameworks]
 kde/pim/akonadi-search: kde/pim/kcontacts
-kde/pim/akonadi-search: kde/pim/kmime
 
 # KDE Graphics
 kde/kdegraphics/gwenview: frameworks/kdelibs4support
-kde/kdegraphics/gwenview: kde/kdegraphics/libs/libkdcraw
-kde/kdegraphics/gwenview: kde/kdegraphics/libs/libkipi
-kde/kdegraphics/gwenview: kde/kdegraphics/libs/baloo
-extragear/graphics/digikam: kde/kdegraphics/libs/libkipi
-extragear/graphics/digikam: kde/kdegraphics/libs/libkdcraw
-extragear/graphics/digikam: kde/kdegraphics/libs/libkexiv2
-extragear/graphics/digikam: kde/kdegraphics/libs/libkface
-extragear/graphics/digikam: kde/kdegraphics/libs/libkgeomap
-extragear/graphics/digikam: kde/workspace/kfilemetadata
-
-kde/kdegraphics/okular: frameworks/kactivities
-kde/kdegraphics/okular: frameworks/karchive
-kde/kdegraphics/okular: frameworks/kbookmarks
-kde/kdegraphics/okular: frameworks/kconfig
-kde/kdegraphics/okular: frameworks/kconfigwidgets
-kde/kdegraphics/okular: frameworks/kcoreaddons
-kde/kdegraphics/okular: frameworks/kdbusaddons
-kde/kdegraphics/okular: frameworks/kjs
-kde/kdegraphics/okular: frameworks/kdelibs4support
-kde/kdegraphics/okular: frameworks/kio
-kde/kdegraphics/okular: frameworks/kparts
-kde/kdegraphics/okular: frameworks/threadweaver
-kde/kdegraphics/okular: frameworks/kwallet
-kde/kdegraphics/okular: frameworks/khtml
-kde/kdegraphics/okular: kde/workspace/libkscreen
-kde/kdegraphics/okular: frameworks/phonon
-
-kde/kdegraphics/ksnapshot: frameworks/kconfig
-kde/kdegraphics/ksnapshot: frameworks/kconfigwidgets
-kde/kdegraphics/ksnapshot: frameworks/kcoreaddons
-kde/kdegraphics/ksnapshot: frameworks/kdoctools
-kde/kdegraphics/ksnapshot: frameworks/kguiaddons
-kde/kdegraphics/ksnapshot: frameworks/ki18n
-kde/kdegraphics/ksnapshot: frameworks/kio
-kde/kdegraphics/ksnapshot: frameworks/kservice
-kde/kdegraphics/ksnapshot: frameworks/kwindowsystem
-kde/kdegraphics/ksnapshot: frameworks/kxmlgui
-kde/kdegraphics/ksnapshot: frameworks/kdbusaddons
-kde/kdegraphics/ksnapshot: frameworks/kparts
-
-# KDE Edu
-kde/kdeedu/kalgebra: kde/kdeedu/analitza
-kde/kdeedu/kanagram: kde/kdeedu/libkeduvocdocument
-kde/kdeedu/kanagram: kde/kdeedu/kdeedu-data
-kde/kdeedu/parley: kde/kdeedu/libkeduvocdocument
-kde/kdeedu/khangman: kde/kdeedu/libkeduvocdocument
-kde/kdeedu/khangman: kde/kdeedu/kdeedu-data
-kde/kdeedu/kwordquiz: kde/kdeedu/libkeduvocdocument
-kde/kdeedu/marble: frameworks/phonon
-kde/kdeedu/marble: frameworks/krunner
-kdereview/labplot: frameworks/karchive
-kdereview/labplot: frameworks/ki18n
-kdereview/labplot: frameworks/kwidgetsaddons
-kdereview/labplot: frameworks/kxmlgui
-kdereview/labplot: frameworks/kio
-kdereview/labplot: frameworks/kdelibs4support
-kdereview/labplot: frameworks/kemoticons
-kdereview/labplot: frameworks/kitemmodels
-
-# KDE Plasma Addons
-kde/kdeplasma-addons: frameworks/krunner
-
-# Extragear SDK
-extragear/sdk/plasma-sdk: frameworks/kf5umbrella
-extragear/sdk/plasma-sdk: frameworks/plasma-framework
-extragear/sdk/plasma-sdk: extragear/kdevelop/kdevplatform
-
-# Extragear Sysadmin
-kde/workspace/muon: frameworks/solid
-kde/workspace/muon: frameworks/kwidgetsaddons
-kde/workspace/muon: frameworks/kconfig
-kde/workspace/muon: frameworks/kwallet
-kde/workspace/muon: frameworks/kdbusaddons
-kde/workspace/muon: frameworks/ki18n
-kde/workspace/muon: frameworks/kconfigwidgets
-kde/workspace/muon: frameworks/knotifications
-kde/workspace/muon: frameworks/kdeclarative
-
-# kdesdk
-kde/kdesdk/kompare: kde/kdesdk/libkomparediff2
-kde/kdesdk/okteta: kdesupport/qca
-kde/kdesdk/dolphin-plugins: kde/applications/dolphin
-kde/kdesdk/kapptemplate: frameworks/kdoctools
-kde/kdesdk/kapptemplate: frameworks/kcoreaddons
-kde/kdesdk/kapptemplate: frameworks/kconfigwidgets
-kde/kdesdk/kapptemplate: frameworks/kcompletion
-kde/kdesdk/kapptemplate: frameworks/karchive
-kde/kdesdk/kapptemplate: frameworks/kio
-kde/kdesdk/kapptemplate: frameworks/ki18n
-
-# kdebindings
-kde/kdebindings/smoke/smokeqt: kde/kdebindings/smoke/smokegen
-kde/kdebindings/ruby/qtruby: kde/kdebindings/smoke/smokegen
-
-# Extragear Multimedia
-kde/workspace/plasma-mediacenter: frameworks/plasma-framework
-kde/workspace/plasma-mediacenter: kde/workspace/baloo
-extragear/multimedia/kamoso: frameworks/kwidgetsaddons
-extragear/multimedia/kamoso: frameworks/kconfig
-extragear/multimedia/kamoso: frameworks/kconfigwidgets
-extragear/multimedia/kamoso: frameworks/kdoctools
-extragear/multimedia/kamoso: frameworks/solid
-extragear/multimedia/kamoso: frameworks/kio
-extragear/multimedia/kamoso: frameworks/kdeclarative
-extragear/multimedia/kamoso: frameworks/ki18n
-extragear/multimedia/k3b: frameworks/kfilemetadata
-extragear/multimedia/k3b: kde/kdemultimedia/libkcddb
-extragear/multimedia/kamoso: playground/libs/purpose
-
-# KDevelop
-extragear/kdevelop/kdevelop: kde/workspace/khelpcenter
-extragear/kdevelop/kdevelop: extragear/kdevelop/kdevplatform
-extragear/kdevelop/kdevelop: frameworks/krunner
-extragear/kdevelop/kdevplatform: kde/kdesdk/libkomparediff2
-extragear/kdevelop/kdevplatform: kde/workspace/kio-extras
-
-# KDevelop Plugins
-extragear/kdevelop/devtools/plugins/kdev-clang: extragear/kdevelop/kdevelop
-extragear/kdevelop/devtools/plugins/kdev-cppcheck: extragear/kdevelop/kdevelop
-extragear/kdevelop/devtools/plugins/kdev-qmake: extragear/kdevelop/kdevelop
-extragear/kdevelop/devtools/plugins/kdev-qmake: extragear/kdevelop/utilities/kdevelop-pg-qt
-extragear/kdevelop/devtools/plugins/kdev-qmljs: extragear/kdevelop/kdevelop
-extragear/kdevelop/devtools/plugins/kdev-ruby: extragear/kdevelop/kdevelop
-extragear/kdevelop/devtools/plugins/kdev-valgrind: extragear/kdevelop/kdevplatform
-extragear/kdevelop/plugins/kdev-php: extragear/kdevelop/kdevplatform
-extragear/kdevelop/plugins/kdev-php: extragear/kdevelop/kdevelop-pg-qt
-extragear/kdevelop/plugins/kdev-php-docs: extragear/kdevelop/kdevplatform
-extragear/kdevelop/plugins/kdev-python: extragear/kdevelop/kdevelop
-
-# Extragear Network
-extragear/network/konversation: kdesupport/qca
-extragear/network/choqok: kdesupport/qca
 
 # KDE Network: Telepathy
-kde/kdenetwork/kget: kdesupport/qca
-kde/kdenetwork/kget: kde/pim/gpgmepp
 kde/kdenetwork/ktp-common-internals: frameworks/kcmutils
 kde/kdenetwork/ktp-common-internals: frameworks/knotifyconfig
 kde/kdenetwork/ktp-common-internals: frameworks/ktexteditor
@@ -986,46 +724,72 @@ kde/kdenetwork/ktp-text-ui: frameworks/ki18n
 kde/kdenetwork/ktp-text-ui: frameworks/kdewebkit
 kde/kdenetwork/ktp-contact-runner: frameworks/krunner
 kde/kdenetwork/ktp-accounts-kcm: kde/kdenetwork/kaccounts-integration
-kde/kdenetwork/ktp-desktop-applets: frameworks/plasma-framework
 
-kde/kdenetwork/zeroconf-ioslave: frameworks/ki18n
+# KDE Edu
+kde/kdeedu/kalgebra: kde/kdeedu/analitza
+kde/kdeedu/kanagram: kde/kdeedu/libkeduvocdocument
+kde/kdeedu/kanagram: kde/kdeedu/kdeedu-data
+kde/kdeedu/parley: kde/kdeedu/libkeduvocdocument
+kde/kdeedu/khangman: kde/kdeedu/libkeduvocdocument
+kde/kdeedu/khangman: kde/kdeedu/kdeedu-data
+kde/kdeedu/kwordquiz: kde/kdeedu/libkeduvocdocument
+
+# KDE Plasma Addons
+kde/kdeplasma-addons: frameworks/krunner
+
+# Extragear SDK
+extragear/sdk/plasma-sdk: frameworks/kf5umbrella
+extragear/sdk/plasma-sdk: frameworks/plasma-framework
+extragear/sdk/plasma-sdk: extragear/kdevelop/kdevplatform
+
+# Extragear Sysadmin
+kde/workspace/muon: frameworks/solid
+kde/workspace/muon: frameworks/kwidgetsaddons
+kde/workspace/muon: frameworks/kconfig
+kde/workspace/muon: frameworks/kwallet
+kde/workspace/muon: frameworks/kdbusaddons
+kde/workspace/muon: frameworks/ki18n
+kde/workspace/muon: frameworks/kconfigwidgets
+kde/workspace/muon: frameworks/knotifications
+kde/workspace/muon: frameworks/kdeclarative
+
+# kdesdk
+kde/kdesdk/kompare: kde/kdesdk/libkomparediff2
+
+# Extragear Multimedia
+extragear/multimedia/plasma-mediacenter: frameworks/plasma-framework
+extragear/multimedia/plasma-mediacenter: kde/workspace/baloo
+
+# KDevelop
+extragear/kdevelop/kdevelop: kde/workspace/khelpcenter
+extragear/kdevelop/kdevelop: extragear/kdevelop/kdevplatform
+extragear/kdevelop/kdevelop: frameworks/krunner
+extragear/kdevelop/kdevplatform: kde/kdesdk/libkomparediff2
+extragear/kdevelop/kdevplatform: kde/workspace/kio-extras
+
+# KDevelop Plugins
+extragear/kdevelop/devtools/plugins/kdev-clang: extragear/kdevelop/kdevelop
+extragear/kdevelop/devtools/plugins/kdev-qmake: extragear/kdevelop/kdevelop
+extragear/kdevelop/devtools/plugins/kdev-qmake: extragear/kdevelop/utilities/kdevelop-pg-qt
+extragear/kdevelop/devtools/plugins/kdev-qmljs: extragear/kdevelop/kdevelop
+extragear/kdevelop/devtools/plugins/kdev-ruby: extragear/kdevelop/kdevelop
+extragear/kdevelop/plugins/kdev-php: extragear/kdevelop/kdevplatform
+extragear/kdevelop/plugins/kdev-php: extragear/kdevelop/kdevelop-pg-qt
+extragear/kdevelop/plugins/kdev-php-docs: extragear/kdevelop/kdevplatform
+
+# Extragear Network
+extragear/network/konversation: kdesupport/qca
 
 # Extragear Office
-extragear/office/kmymoney: extragear/graphics/kdiagram
-extragear/office/kmymoney: kde/kdepimlibs
 extragear/office/kmymoney: extragear/office/alkimia
-extragear/office/kmymoney: kde/pim/kholidays
-extragear/office/kmymoney: kde/pim/kidentitymanagement
-extragear/office/kmymoney: kde/pim/gpgmepp
-extragear/office/kmymoney: kde/pim/kcontacts
-extragear/office/kmymoney: frameworks/kactivities
+extragear/office/kmymoney: kde/kdepimlibs
 extragear/office/skrooge: frameworks/kactivities
+extragear/office/skrooge: general/grantlee
 extragear/office/skrooge: kdesupport/qca
 extragear/office/skrooge: frameworks/krunner
-extragear/office/tellico: frameworks/kdelibs4support
 
 # Extragear Utils
 extragear/utils/yakuake: kde/applications/konsole
-
-# Extragear Libs
-extragear/libs/libkgeomap: kde/kdeedu/marble
-
-# Extragear Graphics
-extragear/graphics/kipi-plugins: kde/kdegraphics/libs/libkipi
-extragear/graphics/kipi-plugins: kde/kdegraphics/libs/libkdcraw
-extragear/graphics/kipi-plugins: kde/kdegraphics/libs/libkexiv2
-extragear/graphics/skanlite: kde/kdegraphics/libs/libksane
-
-# Calligra
-calligra: frameworks/kf5umbrella
-calligra: kdesupport/qca
-calligra: kde/pim/kcalcore
-calligra: kde/pim/kcontacts
-calligra: kde/kdepimlibs # #needed because of akonadi-contacts and akonadi-core
-calligra: kde/kdeedu/marble
-calligra: kde/kdegraphics/libs/libkdcraw
-calligra: extragear/graphics/kdiagram
-calligra: kde/kdegraphics/okular
 
 # Playground Base
 kde/workspace/kde-gtk-config: frameworks/ki18n
@@ -1038,7 +802,7 @@ playground/base/ksshaskpass: frameworks/kcoreaddons
 playground/base/ksshaskpass: frameworks/ki18n
 playground/base/ksshaskpass: frameworks/kwallet
 playground/base/ksshaskpass: frameworks/kwidgetsaddons
-playground/base/kdeconnect-kde: kdesupport/qca
+
 playground/base/kdeconnect-kde: frameworks/kio
 playground/base/kdeconnect-kde: frameworks/ki18n
 playground/base/kdeconnect-kde: frameworks/knotifications
@@ -1058,28 +822,6 @@ playground/base/qtcurve: frameworks/kxmlgui
 playground/base/qtcurve: frameworks/kemoticons
 playground/base/qtcurve: frameworks/kitemmodels
 
-playground/base/kio-mtp: frameworks/ki18n
-playground/base/kio-mtp: frameworks/solid
-playground/base/kio-mtp: frameworks/kio
-
-# Playground Libs
-playground/libs/purpose: frameworks/kcoreaddons
-playground/libs/purpose: frameworks/kconfig
-playground/libs/purpose: frameworks/ki18n
-playground/libs/purpose: frameworks/kdeclarative
-playground/libs/purpose: kde/kdenetwork/kaccounts-integration
-playground/libs/purpose: playground/base/kdeconnect-kde
-
-# Playground Utils
-playground/utils/kdebugsettings: frameworks/kcoreaddons
-playground/utils/kdebugsettings: frameworks/kconfig
-playground/utils/kdebugsettings: frameworks/kconfigwidgets
-playground/utils/kdebugsettings: frameworks/kdbusaddons
-playground/utils/kdebugsettings: frameworks/kiconthemes
-playground/utils/kdebugsettings: frameworks/kwidgetsaddons
-playground/utils/kdebugsettings: frameworks/kitemviews
-playground/utils/kdebugsettings: frameworks/kio
-
 # KAccounts
 kde/kdenetwork/kaccounts-integration: frameworks/kcmutils
 kde/kdenetwork/kaccounts-integration: frameworks/kio
@@ -1090,17 +832,11 @@ kde/kdenetwork/kaccounts-integration: frameworks/kiconthemes
 kde/kdenetwork/kaccounts-integration: frameworks/kconfig
 kde/kdenetwork/kaccounts-integration: frameworks/kwallet
 kde/kdenetwork/kaccounts-integration: frameworks/kdbusaddons
-kde/kdenetwork/kaccounts-providers: kde/kdenetwork/kaccounts-integration
 
 # KDE Games
-kde/kdegames/libkmahjongg: kde/kdegames/libkdegames
-kde/kdegames/kmahjongg: kde/kdegames/libkmahjongg
-kde/kdegames/kshisen: kde/kdegames/libkmahjongg
-
 kde/kdegames/bomber: kde/kdegames/libkdegames
 kde/kdegames/bovo: kde/kdegames/libkdegames
 kde/kdegames/granatier: kde/kdegames/libkdegames
-# kajongg has a lot of PyQt4 and other binding req's
 kde/kdegames/kapman: kde/kdegames/libkdegames
 kde/kdegames/katomic: kde/kdegames/libkdegames
 kde/kdegames/kblackbox: kde/kdegames/libkdegames
@@ -1112,46 +848,14 @@ kde/kdegames/kfourinline: kde/kdegames/libkdegames
 kde/kdegames/kgoldrunner: kde/kdegames/libkdegames
 kde/kdegames/kigo: kde/kdegames/libkdegames
 kde/kdegames/killbots: kde/kdegames/libkdegames
-kde/kdegames/kiriki: kde/kdegames/libkdegames
 kde/kdegames/kjumpingcube: kde/kdegames/libkdegames
 kde/kdegames/klickety: kde/kdegames/libkdegames
 kde/kdegames/klines: kde/kdegames/libkdegames
-kde/kdegames/kmahjongg: kde/kdegames/libkdegames
 kde/kdegames/kmines: kde/kdegames/libkdegames
-kde/kdegames/knavalbattle: kde/kdegames/libkdegames
 kde/kdegames/knetwalk: kde/kdegames/libkdegames
-kde/kdegames/kolf: kde/kdegames/libkdegames
 kde/kdegames/kollision: kde/kdegames/libkdegames
-kde/kdegames/konquest: kde/kdegames/libkdegames
 kde/kdegames/kpat: kde/kdegames/libkdegames
-kde/kdegames/kreversi: kde/kdegames/libkdegames
 kde/kdegames/kshisen: kde/kdegames/libkdegames
-kde/kdegames/ksirk: kde/kdegames/libkdegames
-kde/kdegames/ksirk: kdesupport/qca
-kde/kdegames/ksnakeduel: kde/kdegames/libkdegames
-kde/kdegames/kspaceduel: kde/kdegames/libkdegames
+kde/kdegames/kshisen: kde/kdegames/libkmahjongg
 kde/kdegames/ksquares: kde/kdegames/libkdegames
-kde/kdegames/ksudoku: kde/kdegames/libkdegames
-kde/kdegames/ktuberling: kde/kdegames/libkdegames
-kde/kdegames/kubrick: kde/kdegames/libkdegames
-kde/kdegames/lskat: kde/kdegames/libkdegames
-kde/kdegames/palapeli: kde/kdegames/libkdegames
-kde/kdegames/picmi: kde/kdegames/libkdegames
-extragear/games/knights: kde/kdegames/libkdegames
-kdereview/kdots: kde/kdegames/libkdegames
-
-# A standalone application, no need to install KF5
-extragear/pim/trojita: -frameworks/kf5umbrella
-
-# Playground devtools
-playground/devtools/kdesvn: frameworks/ki18n
-playground/devtools/kdesvn: frameworks/kconfig
-playground/devtools/kdesvn: frameworks/kdelibs4support
-playground/devtools/kdesvn: frameworks/kcoreaddons
-playground/devtools/kdesvn: frameworks/kemoticons
-playground/devtools/kdesvn: frameworks/kitemmodels
-playground/devtools/plugins/kdev-css: extragear/kdevelop/kdevplatform
-playground/devtools/plugins/kdev-css: extragear/kdevelop/utilities/kdevelop-pg-qt
-playground/devtools/plugins/kdev-go: extragear/kdevelop/kdevplatform
-playground/devtools/plugins/kdev-go: extragear/kdevelop/utilities/kdevelop-pg-qt
-
+kde/kdegames/libkmahjongg: kde/kdegames/libkdegames
