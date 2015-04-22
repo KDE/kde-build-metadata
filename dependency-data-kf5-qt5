@@ -1151,4 +1151,6 @@ playground/devtools/kdesvn: frameworks/kemoticons
 playground/devtools/kdesvn: frameworks/kitemmodels
 playground/devtools/plugins/kdev-css: extragear/kdevelop/kdevplatform
 playground/devtools/plugins/kdev-css: extragear/kdevelop/utilities/kdevelop-pg-qt
+playground/devtools/plugins/kdev-go: extragear/kdevelop/kdevplatform
+playground/devtools/plugins/kdev-go: extragear/kdevelop/utilities/kdevelop-pg-qt
 
