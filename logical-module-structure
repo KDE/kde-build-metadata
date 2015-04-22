@@ -989,7 +989,7 @@
             "kf5-qt5": "kf5",
             "stable-kf5-qt5": ""
         },
-        "kde/multimedia/kdenlive": {
+        "kde/kdemultimedia/kdenlive": {
             "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master",
