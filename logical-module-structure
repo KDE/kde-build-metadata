@@ -326,8 +326,8 @@
         "kde/kdeedu/marble": {
             "stable-qt4": "Applications/15.04",
             "latest-qt4": "master",
-            "kf5-qt5": "kde-frameworks-5",
-            "stable-kf5-qt5": ""
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "master"
         },
         "kde/kdeedu/libkeduvocdocument" : {
             "stable-qt4": "",
