@@ -938,7 +938,7 @@
         "kde/kdemultimedia/mplayerthumbs": {
             "stable-qt4": "Applications/15.04",
             "latest-qt4": "master",
-            "kf5-qt5": "",
+            "kf5-qt5": "kf5",
             "stable-kf5-qt5": ""
         },
         "kde/kdemultimedia/libkcddb": {
