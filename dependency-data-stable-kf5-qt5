@@ -554,6 +554,7 @@ kde/workspace/plasma-desktop: kde/workspace/systemsettings
 kde/workspace/plasma-desktop: kde/workspace/powerdevil
 kde/workspace/plasma-desktop: kde/workspace/ksysguard
 kde/workspace/plasma-desktop: kde/workspace/oxygen
+kde/workspace/plasma-desktop: frameworks/kpeople
 
 # Plasma NM
 kde/workspace/plasma-nm: extragear/libs/libmm-qt
