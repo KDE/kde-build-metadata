@@ -24,6 +24,7 @@ frameworks/kcompletion: frameworks/kwidgetsaddons
 frameworks/kcrash: frameworks/kcoreaddons
 frameworks/kcrash: frameworks/kwindowsystem
 frameworks/kdoctools: frameworks/karchive
+frameworks/kdoctools: frameworks/ki18n
 frameworks/kjobwidgets: frameworks/kcoreaddons
 frameworks/kjobwidgets: frameworks/kwidgetsaddons
 frameworks/kpty: frameworks/kcoreaddons
@@ -511,6 +512,7 @@ kde/workspace/plasma-workspace: frameworks/kdewebkit
 kde/workspace/plasma-workspace: frameworks/plasma-framework
 kde/workspace/plasma-workspace: frameworks/kdelibs4support
 kde/workspace/plasma-workspace: frameworks/kxmlrpcclient
+kde/workspace/plasma-workspace: frameworks/networkmanager-qt
 kde/workspace/plasma-workspace: kde/workspace/libksysguard
 kde/workspace/plasma-workspace: kde/workspace/kwin
 kde/workspace/plasma-workspace: kde/workspace/milou

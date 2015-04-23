@@ -19,6 +19,7 @@ kdesupport/qca: qt5
 
 # Frameworks, tier2
 frameworks/kauth: frameworks/kcoreaddons
+frameworks/kauth: kdesupport/polkit-qt-1
 frameworks/kcompletion: frameworks/kconfig
 frameworks/kcompletion: frameworks/kwidgetsaddons
 frameworks/kcrash: frameworks/kcoreaddons
