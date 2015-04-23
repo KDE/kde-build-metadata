@@ -941,6 +941,12 @@
             "kf5-qt5": "",
             "stable-kf5-qt5": ""
         },
+        "kde/kdemultimedia/ffmpegthumbs": {
+            "stable-qt4": "Applications/15.04",
+            "latest-qt4": "master",
+            "kf5-qt5": "frameworks",
+            "stable-kf5-qt5": ""
+        },
         "kde/kdemultimedia/libkcddb": {
             "stable-qt4": "Applications/15.04",
             "latest-qt4": "master",
