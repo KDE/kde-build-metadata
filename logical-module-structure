@@ -649,6 +649,12 @@
             "kf5-qt5": "frameworks",
             "stable-kf5-qt5": ""
         },
+        "kde/kdegraphics/kgamma": {
+            "stable-qt4": "Applications/15.04",
+            "latest-qt4": "master",
+            "kf5-qt5": "frameworks",
+            "stable-kf5-qt5": ""
+        },
         "extragear/libs/libmediawiki": {
             "stable-qt4": "master",
             "latest-qt4": "master",

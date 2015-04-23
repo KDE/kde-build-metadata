@@ -834,6 +834,7 @@ kde/kdenetwork/kaccounts-integration: frameworks/kiconthemes
 kde/kdenetwork/kaccounts-integration: frameworks/kconfig
 kde/kdenetwork/kaccounts-integration: frameworks/kwallet
 kde/kdenetwork/kaccounts-integration: frameworks/kdbusaddons
+kde/kdenetwork/kaccounts-providers: kde/kdenetwork/kaccounts-integration
 
 # KDE Games
 kde/kdegames/bomber: kde/kdegames/libkdegames
