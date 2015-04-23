@@ -1399,6 +1399,12 @@
             "kf5-qt5": "frameworks",
             "stable-kf5-qt5": ""
         },
+        "kde/kdeaccessibility/kmousetool": {
+            "stable-qt4": "Applications/15.04",
+            "latest-qt4": "master",
+            "kf5-qt5": "frameworks",
+            "stable-kf5-qt5": ""
+        },
         "kde/kdeaccessibility/kaccessible": {
             "stable-qt4": "Applications/15.04",
             "latest-qt4": "master",
