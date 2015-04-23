@@ -317,6 +317,12 @@
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/15.04"
         },
+        "kde/kdeedu/artikulate": {
+            "stable-qt4": "Applications/15.04",
+            "latest-qt4": "Applications/15.04",
+            "kf5-qt5": "frameworks",
+            "stable-kf5-qt5": ""
+        },
         "kde/kdeedu/kig": {
             "stable-qt4": "KDE/4.14",
             "latest-qt4": "KDE/4.14",
