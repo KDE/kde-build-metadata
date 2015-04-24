@@ -1513,7 +1513,7 @@
             "kf5-qt5": "",
             "stable-kf5-qt5": ""
         },
-        "kdereview/kdebugsettings": {
+        "kde/kdeutils/kdebugsettings": {
             "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master",
