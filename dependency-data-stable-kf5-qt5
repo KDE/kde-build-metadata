@@ -693,6 +693,7 @@ kde/kdenetwork/ktp-common-internals: frameworks/ktexteditor
 kde/kdenetwork/ktp-common-internals: frameworks/kwallet
 kde/kdenetwork/ktp-common-internals: frameworks/kpeople
 kde/kdenetwork/ktp-common-internals: kde/kdenetwork/kaccounts-integration
+kde/kdenetwork/ktp-common-internals: extragear/network/telepathy/telepathy-logger-qt
 kde/kdenetwork/ktp*: kde/kdenetwork/ktp-common-internals
 kde/kdenetwork/ktp-kded-module: frameworks/kdbusaddons
 kde/kdenetwork/ktp-kded-module: frameworks/kconfig
