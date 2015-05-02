@@ -287,6 +287,32 @@ class KDEDependencies:
             for child in node["children"]:
                 self.printOrdering(child, visitSet)
 
+    def contains(self, what):
+        return what in self.dependencies
+
+    def allModules(self):
+        return self.dependencies.keys()
+
+def addPathIfMissing(deps, modules):
+    good = []
+    bad = []
+    for m in modules:
+        if deps.contains(m):
+            good.append(m)
+        elif m.find("/") == -1:
+            found = False
+            for mod in deps.allModules():
+                if mod.endswith("/"+m):
+                    good.append(mod)
+                    found = True
+                    break
+            if not found:
+                bad.append(m)
+        else:
+            bad.append(m)
+
+    return (good, bad)
+
 if __name__ == '__main__':
     arg_parser = argparse.ArgumentParser(
             description="Shows the git.kde.org dependencies of git.kde.org modules.")
@@ -316,12 +342,11 @@ if __name__ == '__main__':
     deps = KDEDependencies("%s/dependency-data-%s" % (args.metadata_path, args.branch_group))
     deps.setShowDirectOnly(args.direct_dependencies)
 
-    mistake_modules = [x for x in args.module_path if x.find("/") == -1]
+    (modules, mistake_modules) = addPathIfMissing(deps, args.module_path)
     if len(mistake_modules) > 0:
-        print "The following modules are probably mis-typed. You need full paths."
-        print "e.g. kde/kdelibs, not just kdelibs. Patches accepted..."
+        print "Error: Couldn't find the following modules:"
         for module in mistake_modules:
             print "\t%s" % (module)
         sys.exit(1)
     else:
-        deps.findDependenciesOf(args.module_path, args.branch)
+        deps.findDependenciesOf(modules, args.branch)
