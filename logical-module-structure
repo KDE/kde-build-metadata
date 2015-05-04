@@ -1168,6 +1168,12 @@
             "kf5-qt5": "frameworks",
             "stable-kf5-qt5": ""
         },
+        "playground/libs/libqgit2" : {
+            "stable-qt4": "master",
+            "latest-qt4": "master",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "master"        
+        },
         "playground/libs/purpose" : {
             "kf5-qt5": "master",
             "stable-kf5-qt5": ""
