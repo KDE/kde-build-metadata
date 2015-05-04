@@ -262,6 +262,7 @@ frameworks/frameworkintegration: frameworks/kiconthemes
 frameworks/frameworkintegration: frameworks/knotifications
 frameworks/frameworkintegration: frameworks/ki18n
 frameworks/frameworkintegration: frameworks/kio
+frameworks/frameworkintegration: kde/workspace/oxygen-fonts
 frameworks/kdelibs4support: frameworks/ki18n
 frameworks/kdelibs4support: frameworks/kguiaddons
 frameworks/kdelibs4support: frameworks/kwidgetsaddons
