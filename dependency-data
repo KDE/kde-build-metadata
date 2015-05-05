@@ -92,6 +92,7 @@ kde/kdepimlibs: kdesupport/prison[master]
 kde/kdepim: kde/workspace/baloo
 kde/kdepim: frameworks/kactivities
 kde/kdepim: kde/kdepimlibs
+kde/kdepim: extragear/libs/libkgapi
 kde/kdepim-runtime: kde/kdepimlibs
 kde/kdepim-runtime: kdesupport/akonadi[master]
 kde/kdepim-runtime: extragear/libs/libkfbapi
