@@ -869,6 +869,12 @@
             "kf5-qt5": "",
             "stable-kf5-qt5": ""
         },
+        "kde/kdenetwork/kppp": {
+            "stable-qt4": "Applications/15.04",
+            "latest-qt4": "master",
+            "kf5-qt5": "",
+            "stable-kf5-qt5": ""
+        },
         "kde/kdenetwork/krfb": {
             "stable-qt4": "Applications/15.04",
             "latest-qt4": "master",
