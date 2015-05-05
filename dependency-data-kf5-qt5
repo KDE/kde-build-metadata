@@ -250,6 +250,7 @@ frameworks/kpeople: frameworks/kcoreaddons
 frameworks/kpeople: frameworks/kwidgetsaddons
 frameworks/kpeople: frameworks/ki18n
 frameworks/kpeople: frameworks/kitemviews
+frameworks/kpeople: frameworks/kservice
 
 # Frameworks, tier4
 frameworks/frameworkintegration: frameworks/ki18n
