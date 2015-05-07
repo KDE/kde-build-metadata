@@ -1002,6 +1002,7 @@ extragear/office/kmymoney: kde/pim/kidentitymanagement
 extragear/office/kmymoney: kde/pim/gpgmepp
 extragear/office/kmymoney: kde/pim/kcontacts
 extragear/office/kmymoney: frameworks/kactivities
+extragear/office/kmymoney: kdesupport/akonadi
 extragear/office/skrooge: frameworks/kactivities
 extragear/office/skrooge: kdesupport/qca
 extragear/office/skrooge: frameworks/krunner
