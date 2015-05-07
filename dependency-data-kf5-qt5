@@ -14,7 +14,6 @@
 # is needed.
 
 *: Qt5[stable]
-*: frameworks/kapidox
 *: kdesupport/extra-cmake-modules
 kdesupport/qca: qt5
 
