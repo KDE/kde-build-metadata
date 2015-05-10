@@ -564,6 +564,14 @@ kde/workspace/plasma-nm: frameworks/networkmanager-qt
 kde/workspace/plasma-nm: frameworks/plasma-framework
 
 # Bluedevil
+kde/workspace/bluedevil: frameworks/kcoreaddons
+kde/workspace/bluedevil: frameworks/kwidgetsaddons
+kde/workspace/bluedevil: frameworks/kdbusaddons
+kde/workspace/bluedevil: frameworks/knotifications
+kde/workspace/bluedevil: frameworks/kiconthemes
+kde/workspace/bluedevil: frameworks/plasma-framework
+kde/workspace/bluedevil: frameworks/ki18n
+kde/workspace/bluedevil: frameworks/kio
 kde/workspace/bluedevil: kde/workspace/bluez-qt
 
 kde/workspace/milou: frameworks/kdelibs4support

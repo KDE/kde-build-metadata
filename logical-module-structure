@@ -621,12 +621,6 @@
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Plasma/5.3"
         },
-        "kde/workspace/libbluedevil": {
-            "stable-qt4": "master",
-            "latest-qt4": "master",
-            "kf5-qt5": "frameworks",
-            "stable-kf5-qt5": ""
-        },
         "extragear/base/powerdevil": {
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Plasma/5.3"
@@ -1178,7 +1172,7 @@
             "stable-qt4": "master",
             "latest-qt4": "master",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": "master"        
+            "stable-kf5-qt5": "master"
         },
         "playground/libs/purpose" : {
             "kf5-qt5": "master",
