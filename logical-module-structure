@@ -616,8 +616,6 @@
             "stable-kf5-qt5": ""
         },
         "kde/workspace/bluedevil": {
-            "stable-qt4": "kdelibs",
-            "latest-qt4": "kdelibs",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Plasma/5.3"
         },
