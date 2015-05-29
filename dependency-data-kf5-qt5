@@ -846,7 +846,7 @@ kde/kdegraphics/okular: frameworks/threadweaver
 kde/kdegraphics/okular: frameworks/kwallet
 kde/kdegraphics/okular: frameworks/khtml
 kde/kdegraphics/okular: kde/workspace/libkscreen
-kde/kdegraphics/okular: frameworks/phonon
+kde/kdegraphics/okular: kdesupport/phonon/phonon
 
 kde/kdegraphics/ksnapshot: frameworks/kconfig
 kde/kdegraphics/ksnapshot: frameworks/kconfigwidgets
@@ -869,7 +869,7 @@ kde/kdeedu/parley: kde/kdeedu/libkeduvocdocument
 kde/kdeedu/khangman: kde/kdeedu/libkeduvocdocument
 kde/kdeedu/khangman: kde/kdeedu/kdeedu-data
 kde/kdeedu/kwordquiz: kde/kdeedu/libkeduvocdocument
-kde/kdeedu/marble: frameworks/phonon
+kde/kdeedu/marble: kdesupport/phonon/phonon
 kde/kdeedu/marble: frameworks/krunner
 kdereview/labplot: frameworks/karchive
 kdereview/labplot: frameworks/ki18n
@@ -1175,3 +1175,5 @@ playground/devtools/plugins/kdev-css: extragear/kdevelop/utilities/kdevelop-pg-q
 playground/devtools/plugins/kdev-go: extragear/kdevelop/kdevplatform
 playground/devtools/plugins/kdev-go: extragear/kdevelop/utilities/kdevelop-pg-qt
 
+# Playground Network
+playground/network/telepathy/telepathy-morse: frameworks/kcoreaddons
