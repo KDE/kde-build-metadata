@@ -887,6 +887,7 @@ kde/kdeplasma-addons: frameworks/krunner
 extragear/sdk/plasma-sdk: frameworks/kf5umbrella
 extragear/sdk/plasma-sdk: frameworks/plasma-framework
 extragear/sdk/plasma-sdk: extragear/kdevelop/kdevplatform
+extragear/sdk/massif-visualizer: extragear/graphics/kdiagram
 
 # Extragear Sysadmin
 kde/workspace/muon: frameworks/solid
