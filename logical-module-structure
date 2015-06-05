@@ -592,9 +592,9 @@
             "stable-kf5-qt5": "Plasma/5.3"
         },
         "extragear/base/plasma-mobile": {
-            "stable-qt4": "master",
-            "latest-qt4": "master",
-            "kf5-qt5": "frameworks",
+            "stable-qt4": "Active/4",
+            "latest-qt4": "Active/4",
+            "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         },
         "extragear/base/wacomtablet": {
