@@ -1101,6 +1101,12 @@
             "kf5-qt5": "master",
             "stable-kf5-qt5": "master"
         },
+         "extragear/pim/trojita": {
+            "stable-qt4": "master",
+            "latest-qt4": "master",
+            "kf5-qt5": "",
+            "stable-kf5-qt5": ""
+        },
         "kde/workspace/muon": {
             "stable-qt4": "2.2",
             "latest-qt4": "2.2",
