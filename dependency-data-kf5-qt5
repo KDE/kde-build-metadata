@@ -1091,6 +1091,19 @@ playground/libs/purpose: frameworks/kdeclarative
 playground/libs/purpose: kde/kdenetwork/kaccounts-integration
 playground/libs/purpose: playground/base/kdeconnect-kde
 
+playground/libs/kproperty: frameworks/kconfig
+playground/libs/kproperty: frameworks/kcoreaddons
+playground/libs/kproperty: frameworks/kguiaddons
+playground/libs/kproperty: frameworks/kwidgetsaddons
+
+playground/libs/kreport: frameworks/kcoreaddons
+playground/libs/kreport: frameworks/kguiaddons
+playground/libs/kreport: frameworks/kwidgetsaddons
+playground/libs/kreport: frameworks/kross
+playground/libs/kreport: playground/libs/kproperty
+
+playground/libs/kdb:frameworks/kcoreaddons
+
 # Playground Utils
 playground/utils/kdebugsettings: frameworks/kcoreaddons
 playground/utils/kdebugsettings: frameworks/kconfig
