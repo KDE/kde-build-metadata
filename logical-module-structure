@@ -826,8 +826,8 @@
             "stable-kf5-qt5": ""
         },
         "extragear/sdk/plasma-sdk": {
-            "stable-qt4": "",
-            "latest-qt4": "KDE4",
+            "stable-qt4": "plasmate/1.0",
+            "latest-qt4": "plasmate/1.0",
             "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         },
