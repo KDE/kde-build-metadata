@@ -656,7 +656,7 @@
         "extragear/libs/libkvkontakte": {
             "stable-qt4": "master",
             "latest-qt4": "master",
-            "kf5-qt5": "",
+            "kf5-qt5": "frameworks",
             "stable-kf5-qt5": ""
         },
         "kde/kdegraphics/libs/libkgeomap": {
