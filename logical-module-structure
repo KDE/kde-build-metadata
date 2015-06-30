@@ -37,6 +37,9 @@
             "kf5-minimum": "master",
             "stable-kf5-qt5": "master"
         },
+        "frameworks/kparts" : {
+            "stable-kf5-qt5": ""
+        },
         "frameworks/kpeople" : {
             "stable-qt4": "libkpeople-0.3",
             "latest-qt4": "libkpeople-0.3",
