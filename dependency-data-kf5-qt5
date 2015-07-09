@@ -459,6 +459,11 @@ kde/workspace/kwin: frameworks/plasma-framework
 kde/workspace/kwin: kde/workspace/kwayland
 kde/workspace/kwin: kde/workspace/kdecoration
 
+# kwayland-integration
+kde/workspace/kwayland-integration: frameworks/kwindowsystem
+kde/workspace/kwayland-integration: frameworks/kidletime
+kde/workspace/kwayland-integration: kde/workspace/kwayland
+
 # Breeze
 kde/workspace/breeze: kde/workspace/kdecoration
 
