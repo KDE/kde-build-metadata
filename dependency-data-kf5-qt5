@@ -1072,6 +1072,7 @@ playground/base/kdeconnect-kde: frameworks/kconfigwidgets
 playground/base/kdeconnect-kde: frameworks/kdbusaddons
 playground/base/kdeconnect-kde: frameworks/kcmutils
 playground/base/kdeconnect-kde: frameworks/kiconthemes
+playground/base/kdeconnect-kde: kde/workspace/kwayland
 
 playground/base/qtcurve: frameworks/karchive
 playground/base/qtcurve: frameworks/kconfig
