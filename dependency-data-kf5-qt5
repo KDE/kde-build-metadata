@@ -916,6 +916,12 @@ kde/kdesdk/kapptemplate: frameworks/kcompletion
 kde/kdesdk/kapptemplate: frameworks/karchive
 kde/kdesdk/kapptemplate: frameworks/kio
 kde/kdesdk/kapptemplate: frameworks/ki18n
+kde/kdesdk/kcachegrind: frameworks/karchive
+kde/kdesdk/kcachegrind: frameworks/kcoreaddons
+kde/kdesdk/kcachegrind: frameworks/kdoctools
+kde/kdesdk/kcachegrind: frameworks/kwidgetsaddons
+kde/kdesdk/kcachegrind: frameworks/kxmlgui
+kde/kdesdk/kcachegrind: frameworks/kdelibs4support
 
 # kdebindings
 kde/kdebindings/smoke/smokeqt: kde/kdebindings/smoke/smokegen
