@@ -1385,6 +1385,12 @@
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/15.04"
         },
+        "kde/kdegames/kiriki": {
+            "stable-qt4": "Applications/15.04",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
+        },
         "kde/kdenetwork/kget": {
             "stable-qt4": "Applications/15.04",
             "latest-qt4": "master",
