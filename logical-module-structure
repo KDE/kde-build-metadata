@@ -1576,6 +1576,10 @@
             "latest-qt4": "master",
             "kf5-qt5": "frameworks",
             "stable-kf5-qt5": ""
+        },
+        "extragear/sysadmin/kpmcore": {
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
         }
     }
 }
