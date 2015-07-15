@@ -631,8 +631,8 @@
         },
         "extragear/libs/libkgapi": {
             "stable-qt4": "LibKGAPI/2.1",
-            "latest-qt4": "master",
-            "kf5-qt5": "frameworks",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         },
         "kde/kdegraphics/libs/libkface": {
