@@ -926,6 +926,8 @@ kde/kdesdk/kcachegrind: frameworks/kdelibs4support
 # kdebindings
 kde/kdebindings/smoke/smokeqt: kde/kdebindings/smoke/smokegen
 kde/kdebindings/ruby/qtruby: kde/kdebindings/smoke/smokegen
+kde/kdebindings/kross-interpreters: frameworks/kdelibs4support
+kde/kdebindings/kross-interpreters: frameworks/kross
 
 # Extragear Multimedia
 kde/workspace/plasma-mediacenter: frameworks/plasma-framework
