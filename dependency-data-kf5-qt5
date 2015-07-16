@@ -1018,7 +1018,7 @@ kde/kdenetwork/ktp-accounts-kcm: kde/kdenetwork/ktp-common-internals
 kde/kdenetwork/ktp-accounts-kcm: kde/kdenetwork/kaccounts-integration
 kde/kdenetwork/ktp-desktop-applets: kde/kdenetwork/ktp-common-internals
 kde/kdenetwork/ktp-desktop-applets: frameworks/plasma-framework
-
+kde/kdenetwork/signon-kwallet-extension: frameworks/kwallet
 kde/kdenetwork/zeroconf-ioslave: frameworks/ki18n
 
 # Extragear Office
