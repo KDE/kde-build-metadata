@@ -855,6 +855,12 @@
             "kf5-qt5": "",
             "stable-kf5-qt5": ""
         },
+        "kde/kdenetwork/kio-extras": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "Plasma/5.3"
+        },
         "extragear/network/libktorrent": {
             "stable-qt4": "1.3",
             "latest-qt4": "master",

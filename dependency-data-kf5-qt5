@@ -526,7 +526,7 @@ kde/workspace/plasma-workspace: kde/workspace/kwin
 kde/workspace/plasma-workspace: kde/workspace/milou
 kde/workspace/plasma-workspace: kde/workspace/khelpcenter
 kde/workspace/plasma-workspace: kde/workspace/kde-cli-tools
-kde/workspace/plasma-workspace: kde/workspace/kio-extras
+kde/workspace/plasma-workspace: kde/kdenetwork/kio-extras
 kde/workspace/plasma-workspace: kde/workspace/breeze
 kde/workspace/plasma-workspace: kde/workspace/libkscreen
 kde/workspace/plasma-workspace: kde/workspace/baloo
@@ -950,7 +950,7 @@ extragear/kdevelop/kdevelop: kde/workspace/khelpcenter
 extragear/kdevelop/kdevelop: extragear/kdevelop/kdevplatform
 extragear/kdevelop/kdevelop: frameworks/krunner
 extragear/kdevelop/kdevplatform: kde/kdesdk/libkomparediff2
-extragear/kdevelop/kdevplatform: kde/workspace/kio-extras
+extragear/kdevelop/kdevplatform: kde/kdenetwork/kio-extras
 
 # KDevelop Plugins
 extragear/kdevelop/devtools/plugins/kdev-clang: extragear/kdevelop/kdevelop
