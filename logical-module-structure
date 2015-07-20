@@ -859,7 +859,7 @@
             "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": "Plasma/5.3"
+            "stable-kf5-qt5": "Applications/15.08"
         },
         "extragear/network/libktorrent": {
             "stable-qt4": "1.3",
