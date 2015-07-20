@@ -863,6 +863,7 @@ kde/kdegames/kfourinline: kde/kdegames/libkdegames
 kde/kdegames/kgoldrunner: kde/kdegames/libkdegames
 kde/kdegames/kigo: kde/kdegames/libkdegames
 kde/kdegames/killbots: kde/kdegames/libkdegames
+kde/kdegames/kiriki: kde/kdegames/libkdegames
 kde/kdegames/kjumpingcube: kde/kdegames/libkdegames
 kde/kdegames/klickety: kde/kdegames/libkdegames
 kde/kdegames/klines: kde/kdegames/libkdegames
@@ -874,3 +875,4 @@ kde/kdegames/kshisen: kde/kdegames/libkdegames
 kde/kdegames/kshisen: kde/kdegames/libkmahjongg
 kde/kdegames/ksquares: kde/kdegames/libkdegames
 kde/kdegames/libkmahjongg: kde/kdegames/libkdegames
+kde/kdegames/picmi: kde/kdegames/libkdegames
