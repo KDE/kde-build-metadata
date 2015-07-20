@@ -961,7 +961,7 @@
             "stable-qt4": "kde-telepathy-0.5",
             "latest-qt4": "kde-telepathy-0.5",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": "Applications/15.08"
+            "stable-kf5-qt5": "Applications/15.04"
         },
         "extragear/network/kio-gopher": {
             "stable-qt4": "master",
