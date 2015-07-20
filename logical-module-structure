@@ -528,10 +528,10 @@
             "stable-kf5-qt5": "Applications/15.08"
         },
         "kde/kdeutils/kwalletmanager" : {
-            "stable-qt4": "Applications/15.08",
-            "latest-qt4": "master",
-            "kf5-qt5": "frameworks",
-            "stable-kf5-qt5": ""
+            "stable-qt4": "Applications/15.04",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "Applications/15.08"
         },
         "kdesupport/akonadi": {
             "stable-qt4": "1.13",
