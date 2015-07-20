@@ -774,6 +774,7 @@ kde/workspace/muon: frameworks/kdeclarative
 
 # kdesdk
 kde/kdesdk/kompare: kde/kdesdk/libkomparediff2
+kde/kdesdk/dolphin-plugins: kde/applications/dolphin
 
 # Extragear Multimedia
 extragear/multimedia/plasma-mediacenter: frameworks/plasma-framework
