@@ -868,6 +868,7 @@ kde/kdegraphics/ksnapshot: frameworks/kdbusaddons
 kde/kdegraphics/ksnapshot: frameworks/kparts
 
 # KDE Edu
+kde/kdeedu/cantor: kde/kdeedu/analitza
 kde/kdeedu/kalgebra: kde/kdeedu/analitza
 kde/kdeedu/kanagram: kde/kdeedu/libkeduvocdocument
 kde/kdeedu/kanagram: kde/kdeedu/kdeedu-data

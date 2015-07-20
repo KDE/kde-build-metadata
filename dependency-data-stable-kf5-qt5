@@ -740,6 +740,7 @@ kde/kdenetwork/ktp-contact-runner: frameworks/krunner
 kde/kdenetwork/ktp-accounts-kcm: kde/kdenetwork/kaccounts-integration
 
 # KDE Edu
+kde/kdeedu/cantor: kde/kdeedu/analitza
 kde/kdeedu/kalgebra: kde/kdeedu/analitza
 kde/kdeedu/kanagram: kde/kdeedu/libkeduvocdocument
 kde/kdeedu/kanagram: kde/kdeedu/kdeedu-data
