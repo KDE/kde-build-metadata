@@ -609,6 +609,10 @@ kde/applications/kde-baseapps: kde/workspace/kfilemetadata
 # Provides KTextEditor for konqueror
 kde/applications/kde-baseapps: kde/applications/kate
 
+kde/applications/dolphin: kde/workspace/kfilemetadata
+kde/applications/dolphin: kde/workspace/baloo
+kde/applications/dolphin: kde/kdelibs/baloo-widgets
+
 kde/applications/konsole: frameworks/kwidgetsaddons
 kde/applications/konsole: frameworks/ki18n
 kde/applications/konsole: frameworks/kconfig
