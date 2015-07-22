@@ -456,8 +456,8 @@
             "stable-kf5-qt5": ""
         },
         "kde/kdeutils/ark" : {
-            "stable-qt4": "Applications/15.08",
-            "latest-qt4": "Applications/15.08",
+            "stable-qt4": "Applications/15.04",
+            "latest-qt4": "Applications/15.04",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/15.08"
         },
