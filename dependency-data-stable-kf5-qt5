@@ -788,6 +788,7 @@ kde/pim/akonadi-search: frameworks/kconfig
 kde/pim/akonadi-search: frameworks/kcrash
 kde/pim/akonadi-search: frameworks/kdelibs4support
 kde/pim/akonadi-search: kde/pim/akonadi
+kde/pim/akonadi-search: kde/pim/kmime
 kde/pim/akonadi-search: kde/pim/kcontacts
 
 # KDE Graphics
