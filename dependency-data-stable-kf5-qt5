@@ -681,7 +681,7 @@ kde/kdenetwork/kaccounts-integration: kde/pim/akonadi
 
 # KDE PIM
 kde/kdepimlibs: kde/pim/akonadi
-kde/kdepimlibs: kdesupport/prison
+#kde/kdepimlibs: kdesupport/prison
 kde/kdepimlibs: kde/pim/kcontacts
 kde/kdepimlibs: frameworks/kxmlrpcclient
 kde/kdepimlibs: kde/pim/kblog
