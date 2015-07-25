@@ -93,25 +93,25 @@
             "stable-qt4": "KDE/4.14",
             "latest-qt4": "KDE/4.14",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": ""
+            "stable-kf5-qt5": "Applications/15.08"
         },
         "kde/kdepimlibs" : {
             "stable-qt4": "KDE/4.14",
             "latest-qt4": "KDE/4.14",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": ""
+            "stable-kf5-qt5": "Applications/15.08"
         },
         "kde/kdepim-runtime" : {
             "stable-qt4": "KDE/4.14",
             "latest-qt4": "KDE/4.14",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": ""
+            "stable-kf5-qt5": "Applications/15.08"
         },
         "kde/pim/*" : {
             "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": ""
+            "stable-kf5-qt5": "Applications/15.08"
         },
         "playground/libs/libechonest" : {
             "stable-qt4": "stable-v1",
@@ -537,7 +537,7 @@
             "stable-qt4": "1.13",
             "latest-qt4": "1.13",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": "master"
+            "stable-kf5-qt5": "Applications/15.08"
         },
         "kdesupport/soprano": {
             "stable-qt4": "2.9",
