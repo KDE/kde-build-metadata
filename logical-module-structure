@@ -1154,6 +1154,8 @@
             "stable-kf5-qt5": ""
         },
         "frameworks/plasma-framework": {
+            "stable-qt4": "",
+            "latest-qt4": "",
             "kf5-qt5": "master",
             "kf5-minimum": "master",
             "stable-kf5-qt5": "master"
@@ -1195,14 +1197,20 @@
             "stable-kf5-qt5": ""
         },
         "playground/libs/kproperty" : {
+            "stable-qt4": "",
+            "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         },
         "playground/libs/kreport" : {
+            "stable-qt4": "",
+            "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         },
         "playground/libs/kdb" : {
+            "stable-qt4": "",
+            "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         },
@@ -1213,6 +1221,8 @@
             "stable-kf5-qt5": "master"
         },
         "playground/libs/purpose" : {
+            "stable-qt4": "",
+            "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         },
@@ -1600,6 +1610,8 @@
             "stable-kf5-qt5": ""
         },
         "extragear/sysadmin/kpmcore": {
+            "stable-qt4": "",
+            "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         }
