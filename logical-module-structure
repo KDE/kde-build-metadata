@@ -629,7 +629,7 @@
             "stable-qt4": "LibKGAPI/2.1",
             "latest-qt4": "",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": ""
+            "stable-kf5-qt5": "LibKGAPI/5.0"
         },
         "kde/kdegraphics/libs/libkface": {
             "stable-qt4": "Applications/15.08",
