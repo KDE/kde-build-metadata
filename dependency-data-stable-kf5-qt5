@@ -674,10 +674,12 @@ kde/applications/konsole: frameworks/kf5umbrella
 kde/kdeutils/ark: frameworks/kdelibs4support
 
 # KDE PIM Dependencies
-kde/kdepimlibs: kde/pim/akonadi
+kde/kdenetwork/kaccounts-integration: kde/pim/akonadi
 #kde/kdepimlibs: kdesupport/prison # prison does not have stable release yet
 extragear/libs/libkgapi: kde/kdepimlibs
-kde/kdenetwork/kaccounts-integration: kde/pim/akonadi
+extragear/libs/libkgapi: frameworks/kcoreaddons
+extragear/libs/libkgapi: kde/pim/kcontacts
+extragear/libs/libkgapi: kde/pim/kcalcore
 
 # KDE PIM
 kde/kdepimlibs: kde/pim/akonadi
