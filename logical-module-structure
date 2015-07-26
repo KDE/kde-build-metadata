@@ -1080,10 +1080,10 @@
             "stable-kf5-qt5": ""
         },
         "extragear/sysadmin/apper": {
-            "stable-qt4": "",
-            "latest-qt4": "master",
-            "kf5-qt5": "",
-            "stable-kf5-qt5": ""
+            "stable-qt4": "stable",
+            "latest-qt4": "stable",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "master"
         },
         "kde/workspace/kde-gtk-config": {
             "stable-qt4": "2.2",
