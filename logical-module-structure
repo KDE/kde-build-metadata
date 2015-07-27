@@ -857,6 +857,12 @@
             "kf5-qt5": "",
             "stable-kf5-qt5": ""
         },
+        "extragear/network/smb4k": {
+            "stable-qt4": "1.2"
+            "latest-qt4": "1.2"
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "master"
+        },
         "kde/kdenetwork/ktp*": {
             "stable-qt4": "kde-telepathy-0.9",
             "latest-qt4": "kde-telepathy-0.9",
