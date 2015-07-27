@@ -32,7 +32,7 @@ kde/kdelibs: kdesupport/qca
 
 # KDE Workspace
 # kactivities is a separate library now, or something like that.
-kde/kde-workspace: kdesupport/akonadi[master]
+kde/kde-workspace: kdesupport/akonadi
 kde/kde-workspace: kdesupport/prison[master]
 kde/kde-workspace: kde/kdepimlibs
 kde/kde-workspace: frameworks/kactivities
@@ -87,14 +87,14 @@ kde/kdeplasma-addons: kde/kdeedu/marble
 
 # kdepim*
 kde/kdepimlibs: kde/kdelibs
-kde/kdepimlibs: kdesupport/akonadi[master]
+kde/kdepimlibs: kdesupport/akonadi
 kde/kdepimlibs: kdesupport/prison[master]
 kde/kdepim: kde/workspace/baloo
 kde/kdepim: frameworks/kactivities
 kde/kdepim: kde/kdepimlibs
 kde/kdepim: extragear/libs/libkgapi
 kde/kdepim-runtime: kde/kdepimlibs
-kde/kdepim-runtime: kdesupport/akonadi[master]
+kde/kdepim-runtime: kdesupport/akonadi
 kde/kdepim-runtime: extragear/libs/libkfbapi
 kde/kdepim-runtime: extragear/libs/libkgapi
 
@@ -224,13 +224,10 @@ kde/kdetoys/ktux: kde/kde-workspace
 # kdeexamples
 kde/kdeexamples: kde/kdelibs/nepomuk-core
 
-# kdesupport
-kdesupport/akonadi: kdesupport/soprano[master]
-
 # kdebindings
 kde/kdebindings/smoke/smokeqt: kde/kdebindings/smoke/smokegen
 kde/kdebindings/smoke/smokekde: kde/kdebindings/smoke/smokeqt
-kde/kdebindings/smoke/smokekde: kdesupport/akonadi[master]
+kde/kdebindings/smoke/smokekde: kdesupport/akonadi
 kde/kdebindings/smoke/smokekde: kde/kdepimlibs
 kde/kdebindings/smoke/smokekde: kde/kdegraphics/okular
 kde/kdebindings/smoke/smokekde: kde/applications/kate
@@ -242,7 +239,7 @@ kde/kdebindings/ruby/korundum: kde/kdebindings/smoke/smokekde
 kde/kdebindings/ruby/korundum: kde/kdebindings/ruby/qtruby
 kde/kdebindings/ruby/korundum: kde/kdegraphics/okular
 kde/kdebindings/ruby/korundum: kde/applications/kate
-kde/kdebindings/ruby/korundum: kdesupport/akonadi[master]
+kde/kdebindings/ruby/korundum: kdesupport/akonadi
 kde/kdebindings/csharp/qyoto: kde/kdebindings/smoke/smokeqt
 kde/kdebindings/csharp/kimono: kde/kdebindings/smoke/smokekde
 kde/kdebindings/csharp/kimono: kde/kdebindings/csharp/qyoto
