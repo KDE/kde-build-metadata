@@ -1621,6 +1621,18 @@
             "kf5-qt5": "frameworks",
             "stable-kf5-qt5": ""
         },
+        "extragear/sysadmin/libqapt": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "master"
+        }
+        "extragear/sysadmin/libdebconf-kde": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "master"
+        }
         "extragear/sysadmin/kpmcore": {
             "stable-qt4": "",
             "latest-qt4": "",
