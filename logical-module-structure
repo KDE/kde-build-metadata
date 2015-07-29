@@ -93,25 +93,25 @@
             "stable-qt4": "KDE/4.14",
             "latest-qt4": "KDE/4.14",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": ""
+            "stable-kf5-qt5": "Applications/15.08"
         },
         "kde/kdepimlibs" : {
             "stable-qt4": "KDE/4.14",
             "latest-qt4": "KDE/4.14",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": ""
+            "stable-kf5-qt5": "Applications/15.08"
         },
         "kde/kdepim-runtime" : {
             "stable-qt4": "KDE/4.14",
             "latest-qt4": "KDE/4.14",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": ""
+            "stable-kf5-qt5": "Applications/15.08"
         },
         "kde/pim/*" : {
             "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": ""
+            "stable-kf5-qt5": "Applications/15.08"
         },
         "playground/libs/libechonest" : {
             "stable-qt4": "stable-v1",
@@ -342,10 +342,10 @@
             "stable-kf5-qt5": "Applications/15.08"
         },
         "kde/kdeedu/marble": {
-            "stable-qt4": "Applications/15.08",
-            "latest-qt4": "master",
+            "stable-qt4": "Applications/15.04",
+            "latest-qt4": "Applications/15.04",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": "master"
+            "stable-kf5-qt5": "Applications/15.08"
         },
         "kde/kdeedu/libkeduvocdocument" : {
             "stable-qt4": "",
@@ -533,11 +533,11 @@
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/15.08"
         },
-        "kdesupport/akonadi": {
+        "kde/pim/akonadi": {
             "stable-qt4": "1.13",
             "latest-qt4": "1.13",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": "master"
+            "stable-kf5-qt5": "Applications/15.08"
         },
         "kdesupport/soprano": {
             "stable-qt4": "2.9",
@@ -549,10 +549,6 @@
             "stable-qt4": "master",
             "latest-qt4": "master",
             "kf5-qt5": "",
-            "stable-kf5-qt5": ""
-        },
-        "playground/pim/akonadi-search": {
-            "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         },
         "playground/pim/zanshin": {
@@ -633,7 +629,7 @@
             "stable-qt4": "LibKGAPI/2.1",
             "latest-qt4": "",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": ""
+            "stable-kf5-qt5": "LibKGAPI/5.0"
         },
         "kde/kdegraphics/libs/libkface": {
             "stable-qt4": "Applications/15.08",
@@ -695,6 +691,12 @@
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Plasma/5.3"
         },
+        "extragear/edu/gcompris": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "master"
+        },
         "extragear/graphics/kdiagram": {
             "stable-qt4": "",
             "latest-qt4": "",
@@ -741,6 +743,12 @@
             "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         },
+        "extragear/utils/krusader": {
+            "stable-qt4": "kde4",
+            "latest-qt4": "kde4",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "master"
+        },
         "playground/devtools/plugins/*": {
             "stable-qt4": "master",
             "latest-qt4": "master",
@@ -762,6 +770,12 @@
         "playground/devtools/plugins/kdev-cppcheck": {
             "stable-qt4": "1.7",
             "latest-qt4": "1.7",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
+        },
+        "playground/devtools/plugins/kdev-krazy2": {
+            "stable-qt4": "",
+            "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         },
@@ -842,6 +856,12 @@
             "latest-qt4": "kde-telepathy-0.9",
             "kf5-qt5": "",
             "stable-kf5-qt5": ""
+        },
+        "extragear/network/smb4k": {
+            "stable-qt4": "1.2",
+            "latest-qt4": "1.2",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "master"
         },
         "kde/kdenetwork/ktp*": {
             "stable-qt4": "kde-telepathy-0.9",
@@ -1072,10 +1092,10 @@
             "stable-kf5-qt5": ""
         },
         "extragear/sysadmin/apper": {
-            "stable-qt4": "",
-            "latest-qt4": "master",
-            "kf5-qt5": "",
-            "stable-kf5-qt5": ""
+            "stable-qt4": "stable",
+            "latest-qt4": "stable",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "master"
         },
         "kde/workspace/kde-gtk-config": {
             "stable-qt4": "2.2",
@@ -1146,6 +1166,8 @@
             "stable-kf5-qt5": ""
         },
         "frameworks/plasma-framework": {
+            "stable-qt4": "",
+            "latest-qt4": "",
             "kf5-qt5": "master",
             "kf5-minimum": "master",
             "stable-kf5-qt5": "master"
@@ -1175,6 +1197,8 @@
             "stable-kf5-qt5": "Applications/15.08"
         },
         "kde/applications/dolphin" : {
+            "stable-qt4": "",
+            "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/15.08"
         },
@@ -1185,14 +1209,20 @@
             "stable-kf5-qt5": ""
         },
         "playground/libs/kproperty" : {
+            "stable-qt4": "",
+            "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         },
         "playground/libs/kreport" : {
+            "stable-qt4": "",
+            "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         },
         "playground/libs/kdb" : {
+            "stable-qt4": "",
+            "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         },
@@ -1203,6 +1233,8 @@
             "stable-kf5-qt5": "master"
         },
         "playground/libs/purpose" : {
+            "stable-qt4": "",
+            "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         },
@@ -1579,8 +1611,8 @@
         },
         "extragear/office/tellico": {
             "stable-qt4": "2.3",
-            "latest-qt4": "master",
-            "kf5-qt5": "frameworks",
+            "latest-qt4": "2.3",
+            "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         },
         "playground/devtools/kdesvn": {
@@ -1589,7 +1621,21 @@
             "kf5-qt5": "frameworks",
             "stable-kf5-qt5": ""
         },
+        "extragear/sysadmin/libqapt": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "master"
+        },
+        "extragear/sysadmin/libdebconf-kde": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "master"
+        },
         "extragear/sysadmin/kpmcore": {
+            "stable-qt4": "",
+            "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         }
