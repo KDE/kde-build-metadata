@@ -1040,6 +1040,7 @@ extragear/office/skrooge: frameworks/kactivities
 extragear/office/skrooge: kdesupport/qca
 extragear/office/skrooge: frameworks/krunner
 extragear/office/tellico: frameworks/kdelibs4support
+extragear/office/tellico: kde/workspace/kfilemetadata
 
 # Extragear Utils
 extragear/utils/yakuake: kde/applications/konsole
