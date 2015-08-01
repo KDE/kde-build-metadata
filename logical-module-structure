@@ -27,7 +27,7 @@
         },
         "qt5": {
             "kf5-qt5": "5.5",
-            "kf5-minimum": "v5.2.1",
+            "kf5-minimum": "5.3",
             "stable-kf5-qt5": "5.4"
         },
         "frameworks/*" : {
