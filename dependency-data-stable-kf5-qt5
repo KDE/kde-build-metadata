@@ -375,13 +375,13 @@ kde/*: frameworks/kf5umbrella
 extragear/*: frameworks/kf5umbrella
 
 # As yet unmigrated frameworks
-kde/workspace/baloo: frameworks/krunner
-kde/workspace/baloo: kde/workspace/kfilemetadata
-kde/workspace/baloo: frameworks/kdelibs4support
-kde/kdelibs/baloo-widgets: kde/workspace/baloo
-kde/workspace/kfilemetadata: frameworks/ki18n
-kde/workspace/kfilemetadata: frameworks/kservice
-kde/workspace/kfilemetadata: frameworks/karchive
+frameworks/baloo: frameworks/krunner
+frameworks/baloo: frameworks/kfilemetadata
+frameworks/baloo: frameworks/kdelibs4support
+kde/kdelibs/baloo-widgets: frameworks/baloo
+frameworks/kfilemetadata: frameworks/ki18n
+frameworks/kfilemetadata: frameworks/kservice
+frameworks/kfilemetadata: frameworks/karchive
 
 # libksysguard
 kde/workspace/libksysguard: frameworks/ki18n
@@ -523,7 +523,7 @@ kde/workspace/plasma-workspace: kde/workspace/kde-cli-tools
 kde/workspace/plasma-workspace: kde/kdenetwork/kio-extras
 kde/workspace/plasma-workspace: kde/workspace/breeze
 kde/workspace/plasma-workspace: kde/workspace/libkscreen
-kde/workspace/plasma-workspace: kde/workspace/baloo
+kde/workspace/plasma-workspace: frameworks/baloo
 kde/workspace/plasma-workspace: kde/workspace/kwayland
 
 # System Settings
@@ -575,7 +575,7 @@ kde/workspace/bluedevil: frameworks/kio
 kde/workspace/bluedevil: kde/workspace/bluez-qt
 
 kde/workspace/milou: frameworks/kdelibs4support
-kde/workspace/milou: kde/workspace/baloo
+kde/workspace/milou: frameworks/baloo
 
 kde/workspace/kscreen: frameworks/kdbusaddons
 kde/workspace/kscreen: frameworks/kconfigwidgets
@@ -603,14 +603,14 @@ kde/applications/kate: frameworks/ktexteditor
 kde/applications/kate: frameworks/plasma-framework
 
 kde/applications/kde-baseapps: frameworks/kactivities
-kde/applications/kde-baseapps: kde/workspace/baloo
+kde/applications/kde-baseapps: frameworks/baloo
 kde/applications/kde-baseapps: kde/kdelibs/baloo-widgets
-kde/applications/kde-baseapps: kde/workspace/kfilemetadata
+kde/applications/kde-baseapps: frameworks/kfilemetadata
 # Provides KTextEditor for konqueror
 kde/applications/kde-baseapps: kde/applications/kate
 
-kde/applications/dolphin: kde/workspace/kfilemetadata
-kde/applications/dolphin: kde/workspace/baloo
+kde/applications/dolphin: frameworks/kfilemetadata
+kde/applications/dolphin: frameworks/baloo
 kde/applications/dolphin: kde/kdelibs/baloo-widgets
 
 kde/applications/konsole: frameworks/kwidgetsaddons
@@ -875,7 +875,7 @@ kde/kdesdk/dolphin-plugins: kde/applications/dolphin
 
 # Extragear Multimedia
 extragear/multimedia/plasma-mediacenter: frameworks/plasma-framework
-extragear/multimedia/plasma-mediacenter: kde/workspace/baloo
+extragear/multimedia/plasma-mediacenter: frameworks/baloo
 
 # KDevelop
 extragear/kdevelop/kdevelop: kde/workspace/khelpcenter

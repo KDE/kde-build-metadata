@@ -83,7 +83,7 @@
             "kf5-minimum": "master",
             "stable-kf5-qt5": "master"
         },
-        "kde/workspace/kfilemetadata" : {
+        "frameworks/kfilemetadata" : {
             "stable-qt4": "KDE/4.14",
             "latest-qt4": "KDE/4.14",
             "kf5-qt5": "master",
@@ -119,7 +119,7 @@
             "kf5-qt5": "qt5",
             "stable-kf5-qt5": ""
         },
-        "kde/workspace/baloo" : {
+        "frameworks/baloo" : {
             "stable-qt4": "KDE/4.14",
             "latest-qt4": "KDE/4.14",
             "kf5-qt5": "master",
