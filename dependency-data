@@ -59,6 +59,7 @@ kde/kde-runtime: kde/applications/kate
 frameworks/baloo: kde/kdepimlibs
 frameworks/baloo: frameworks/kfilemetadata
 kde/kdelibs/baloo-widgets: frameworks/baloo
+kde/kdelibs/nepomuk-core: frameworks/baloo
 
 # This is redundant as above, but might be useful for other scripts.
 # Note that kactivities still _optionally_ depends on nepomuk-core for KDE 4 as of Mar 2014.
