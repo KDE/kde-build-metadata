@@ -837,6 +837,7 @@ kde/kdegraphics/gwenview: frameworks/kdelibs4support
 kde/kdegraphics/gwenview: kde/kdegraphics/libs/libkdcraw
 kde/kdegraphics/gwenview: kde/kdegraphics/libs/libkipi
 kde/kdegraphics/gwenview: frameworks/baloo
+kde/kdegraphics/gwenview: kde/kdenetwork/kio-extras
 extragear/graphics/digikam: kde/kdegraphics/libs/libkipi
 extragear/graphics/digikam: kde/kdegraphics/libs/libkdcraw
 extragear/graphics/digikam: kde/kdegraphics/libs/libkexiv2

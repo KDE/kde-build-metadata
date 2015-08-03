@@ -796,6 +796,7 @@ kde/pim/akonadi-search: kde/pim/kcalcore
 
 # KDE Graphics
 kde/kdegraphics/gwenview: frameworks/kdelibs4support
+kde/kdegraphics/gwenview: kde/kdenetwork/kio-extras
 
 # KDE Network: Telepathy
 kde/kdenetwork/ktp-common-internals: frameworks/kcmutils
