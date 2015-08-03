@@ -615,6 +615,13 @@ kde/workspace/powerdevil: frameworks/kdelibs4support
 kde/workspace/powerdevil: frameworks/plasma-framework
 kde/workspace/powerdevil: kde/workspace/plasma-workspace
 
+kdereview/plasma-pa: frameworks/kconfigwidgets
+kdereview/plasma-pa: frameworks/kcoreaddons
+kdereview/plasma-pa: frameworks/kdeclarative
+kdereview/plasma-pa: frameworks/kglobalaccel
+kdereview/plasma-pa: frameworks/ki18n
+kdereview/plasma-pa: frameworks/plasma-framework
+
 # KDE/Applications
 kde/applications/kate: frameworks/kactivities
 kde/applications/kate: frameworks/ktexteditor
