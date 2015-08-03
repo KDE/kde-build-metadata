@@ -874,6 +874,18 @@ kde/kdegraphics/ksnapshot: frameworks/kxmlgui
 kde/kdegraphics/ksnapshot: frameworks/kdbusaddons
 kde/kdegraphics/ksnapshot: frameworks/kparts
 
+# KScreenGenie
+kdereview/kscreengenie: frameworks/kcoreaddons
+kdereview/kscreengenie: frameworks/knotifications
+kdereview/kscreengenie: frameworks/kconfig
+kdereview/kscreengenie: frameworks/ki18n
+kdereview/kscreengenie: frameworks/kio
+kdereview/kscreengenie: frameworks/kxmlgui
+kdereview/kscreengenie: frameworks/kwidgetsaddons
+kdereview/kscreengenie: frameworks/kwindowsystem
+kdereview/kscreengenie: frameworks/kdoctools
+kdereview/kscreengenie: kde/workspace/libkscreen
+
 # KDE Edu
 kde/kdeedu/cantor: kde/kdeedu/analitza
 kde/kdeedu/kalgebra: kde/kdeedu/analitza
