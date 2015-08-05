@@ -1086,9 +1086,9 @@
             "stable-kf5-qt5": ""
         },
         "extragear/utils/kronometer": {
-            "stable-qt4": "master",
-            "latest-qt4": "master",
-            "kf5-qt5": "frameworks",
+            "stable-qt4": "kde4",
+            "latest-qt4": "kde4",
+            "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         },
         "extragear/sysadmin/partitionmanager": {
