@@ -87,7 +87,7 @@
             "stable-qt4": "KDE/4.14",
             "latest-qt4": "KDE/4.14",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": "Plasma/5.3"
+            "stable-kf5-qt5": "master"
         },
         "kde/kdepim" : {
             "stable-qt4": "KDE/4.14",
@@ -123,7 +123,7 @@
             "stable-qt4": "KDE/4.14",
             "latest-qt4": "KDE/4.14",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": "Plasma/5.3"
+            "stable-kf5-qt5": "master"
         },
         "kde/kdelibs/baloo-widgets" : {
             "stable-qt4": "KDE/4.14",
