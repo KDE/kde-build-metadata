@@ -820,7 +820,8 @@ kde/kdepim: extragear/libs/libkgapi
 kde/kdepim: frameworks/kactivities
 kde/kdepim: kde/pim/kalarmcal
 kde/kdepim: kde/pim/kmailtransport
-kde/kdepim-runtime: kde/kdepim
+# for serializer plugins used in tests
+kde/kdepim: kde/kdepim-runtime
 kde/kdepim-runtime: kde/pim/akonadi
 
 #Akonadi
