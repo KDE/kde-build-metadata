@@ -822,7 +822,20 @@ kde/kdepim: kde/pim/kalarmcal
 kde/kdepim: kde/pim/kmailtransport
 # for serializer plugins used in tests
 kde/kdepim: kde/kdepim-runtime
+
 kde/kdepim-runtime: kde/pim/akonadi
+kde/kdepim-runtime: kde/kdepimlibs
+kde/kdepim-runtime: kde/pim/kmime
+kde/kdepim-runtime: kde/pim/kmailtransport
+kde/kdepim-runtime: kde/pim/kidentitymanagement
+kde/kdepim-runtime: kde/pim/kcontacts
+kde/kdepim-runtime: kde/pim/kalarmcal
+kde/kdepim-runtime: kde/pim/kcalcore
+kde/kdepim-runtime: kde/pim/kcalutils
+kde/kdepim-runtime: kde/pim/kmbox
+kde/kdepim-runtime: kde/pim/kimap
+kde/kdepim-runtime: kde/pim/ksyndication
+
 
 #Akonadi
 kde/pim/akonadi-calendar: kde/pim/kmailtransport
