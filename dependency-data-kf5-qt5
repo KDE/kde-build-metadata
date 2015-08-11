@@ -825,6 +825,7 @@ kde/kdepim: kde/kdepim-runtime
 
 kde/kdepim-runtime: kde/pim/akonadi
 kde/kdepim-runtime: kde/kdepimlibs
+kde/kdepim-runtime: kde/pim/akonadi-calendar
 kde/kdepim-runtime: kde/pim/kmime
 kde/kdepim-runtime: kde/pim/kmailtransport
 kde/kdepim-runtime: kde/pim/kidentitymanagement
