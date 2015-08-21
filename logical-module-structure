@@ -806,7 +806,7 @@
         "playground/devtools/plugins/kdev-qmake": {
             "stable-qt4": "1.7",
             "latest-qt4": "1.7",
-            "kf5-qt5": "master",
+            "kf5-qt5": "",
             "stable-kf5-qt5": ""
         },
         "playground/devtools/plugins/kdev-valgrind": {
