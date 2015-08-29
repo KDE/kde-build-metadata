@@ -1147,8 +1147,8 @@
         },
         "calligra": {
             "stable-qt4": "calligra/2.9",
-            "latest-qt4": "master",
-            "kf5-qt5": "frameworks",
+            "latest-qt4": "calligra/2.9",
+            "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         },
         "frameworks/attica": {
