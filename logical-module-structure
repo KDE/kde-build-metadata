@@ -605,16 +605,16 @@
             "kf5-qt5": "kf5-port",
             "stable-kf5-qt5": ""
         },
-        "extragear/graphics/digikam": {
+        "extragear/graphics/*": {
             "stable-qt4": "master",
             "latest-qt4": "master",
             "kf5-qt5": "frameworks",
             "stable-kf5-qt5": ""
         },
-        "extragear/graphics/kipi-plugins": {
-            "stable-qt4": "master",
-            "latest-qt4": "master",
-            "kf5-qt5": "frameworks",
+        "extragear/graphics/kdiagram": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         },
         "extragear/games/knights": {
@@ -702,16 +702,6 @@
             "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "master"
-        },
-        "extragear/graphics/kdiagram": {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": ""
-        },
-        "extragear/graphics/skanlite": {
-            "kf5-qt5": "frameworks",
-            "stable-kf5-qt5": ""
         },
         "extragear/office/kile": {
             "stable-qt4": "2.1",
