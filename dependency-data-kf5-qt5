@@ -1184,6 +1184,7 @@ kde/kdenetwork/kaccounts-integration: frameworks/kiconthemes
 kde/kdenetwork/kaccounts-integration: frameworks/kconfig
 kde/kdenetwork/kaccounts-integration: frameworks/kwallet
 kde/kdenetwork/kaccounts-integration: frameworks/kdbusaddons
+kde/kdenetwork/kaccounts-integration: frameworks/kdeclarative
 kde/kdenetwork/kaccounts-integration: kde/pim/akonadi
 kde/kdenetwork/kaccounts-providers: kde/kdenetwork/kaccounts-integration
 
