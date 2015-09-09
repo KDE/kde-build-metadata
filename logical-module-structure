@@ -518,7 +518,7 @@
         "kde/kdeutils/sweeper" : {
             "stable-qt4": "Applications/15.08",
             "latest-qt4": "master",
-            "kf5-qt5": "",
+            "kf5-qt5": "frameworks",
             "stable-kf5-qt5": ""
         },
         "kde/kdeutils/ktimer" : {
@@ -904,7 +904,7 @@
         "kde/kdenetwork/krfb": {
             "stable-qt4": "Applications/15.08",
             "latest-qt4": "master",
-            "kf5-qt5": "",
+            "kf5-qt5": "frameworks",
             "stable-kf5-qt5": ""
         },
         "kde/kdebindings/kross-interpreters": {
@@ -1060,7 +1060,7 @@
         "kde/kdemultimedia/libkcompactdisc": {
             "stable-qt4": "Applications/15.08",
             "latest-qt4": "master",
-            "kf5-qt5": "",
+            "kf5-qt5": "frameworks",
             "stable-kf5-qt5": ""
         },
         "extragear/multimedia/k3b": {
