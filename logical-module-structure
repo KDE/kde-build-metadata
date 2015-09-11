@@ -1652,6 +1652,12 @@
             "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": ""
+        },
+        "extragear/graphics/digikam" {
+        	"stable-qt4": "master",
+            "latest-qt4": "",
+            "kf5-qt5": "frameworks",
+            "stable-kf5-qt5": ""
         }
     }
 }
