@@ -366,6 +366,7 @@ extragear/graphics/digikam: kde/kdegraphics/libs/libkipi
 extragear/graphics/digikam: kde/kdegraphics/libs/libkexiv2
 extragear/graphics/digikam: kde/kdegraphics/libs/libkdcraw
 extragear/graphics/digikam: frameworks/baloo
+extragear/graphics/digikam: kde/kdeedu/marble
 extragear/graphics/kphotoalbum: kde/kdelibs
 extragear/graphics/kphotoalbum: kde/kdegraphics/libs/libkipi
 extragear/graphics/kphotoalbum: kde/kdegraphics/libs/libkdcraw
