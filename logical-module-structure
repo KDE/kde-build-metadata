@@ -1662,13 +1662,13 @@
         "playground/www/qmlweb": {
         	"stable-qt4": "",
             "latest-qt4": "",
-            "kf5-qt5": "master",
+            "kf5-qt5": "development/qmlweb2",
             "stable-kf5-qt5": ""
         },           
         "playground/libs/snorenotify": {
         	"stable-qt4": "",
             "latest-qt4": "",
-            "kf5-qt5": "development/qmlweb2",
+            "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         }
     }
