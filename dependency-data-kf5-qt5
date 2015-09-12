@@ -1118,15 +1118,15 @@ playground/base/ksshaskpass: frameworks/kcoreaddons
 playground/base/ksshaskpass: frameworks/ki18n
 playground/base/ksshaskpass: frameworks/kwallet
 playground/base/ksshaskpass: frameworks/kwidgetsaddons
-playground/base/kdeconnect-kde: kdesupport/qca
-playground/base/kdeconnect-kde: frameworks/kio
-playground/base/kdeconnect-kde: frameworks/ki18n
-playground/base/kdeconnect-kde: frameworks/knotifications
-playground/base/kdeconnect-kde: frameworks/kconfigwidgets
-playground/base/kdeconnect-kde: frameworks/kdbusaddons
-playground/base/kdeconnect-kde: frameworks/kcmutils
-playground/base/kdeconnect-kde: frameworks/kiconthemes
-playground/base/kdeconnect-kde: kde/workspace/kwayland
+kdereview/kdeconnect-kde: kdesupport/qca
+kdereview/kdeconnect-kde: frameworks/kio
+kdereview/kdeconnect-kde: frameworks/ki18n
+kdereview/kdeconnect-kde: frameworks/knotifications
+kdereview/kdeconnect-kde: frameworks/kconfigwidgets
+kdereview/kdeconnect-kde: frameworks/kdbusaddons
+kdereview/kdeconnect-kde: frameworks/kcmutils
+kdereview/kdeconnect-kde: frameworks/kiconthemes
+kdereview/kdeconnect-kde: kde/workspace/kwayland
 
 playground/base/qtcurve: frameworks/karchive
 playground/base/qtcurve: frameworks/kconfig
@@ -1149,7 +1149,7 @@ playground/libs/purpose: frameworks/kconfig
 playground/libs/purpose: frameworks/ki18n
 playground/libs/purpose: frameworks/kdeclarative
 playground/libs/purpose: kde/kdenetwork/kaccounts-integration
-playground/libs/purpose: playground/base/kdeconnect-kde
+playground/libs/purpose: kdereview/kdeconnect-kde
 
 playground/libs/kproperty: frameworks/kconfig
 playground/libs/kproperty: frameworks/kcoreaddons
