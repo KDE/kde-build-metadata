@@ -1658,6 +1658,20 @@
             "latest-qt4": "",
             "kf5-qt5": "frameworks",
             "stable-kf5-qt5": ""
+        },
+                },
+        "playground/www/qmlweb" {
+        	"stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
+        },
+                },
+        "playground/libs/snorenotify" {
+        	"stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
         }
     }
 }
