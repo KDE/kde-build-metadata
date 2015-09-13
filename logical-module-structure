@@ -611,10 +611,28 @@
             "kf5-qt5": "frameworks",
             "stable-kf5-qt5": ""
         },
+        "extragear/graphics/kcoloredit": {
+            "stable-qt4": "master",
+            "latest-qt4": "master",
+            "kf5-qt5": "", # not ported yet
+            "stable-kf5-qt5": ""
+        },
         "extragear/graphics/kdiagram": {
             "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
+        },
+        "extragear/graphics/kphotoalbum": {
+            "stable-qt4": "master",
+            "latest-qt4": "master",
+            "kf5-qt5": "", # not ported yet
+            "stable-kf5-qt5": ""
+        },
+        "extragear/graphics/kst-plot": {
+            "stable-qt4": "master",
+            "latest-qt4": "master",
+            "kf5-qt5": "", # not ported yet
             "stable-kf5-qt5": ""
         },
         "extragear/games/knights": {
