@@ -861,6 +861,7 @@ extragear/graphics/digikam: kde/kdegraphics/libs/libkexiv2
 extragear/graphics/digikam: kde/kdegraphics/libs/libkface
 extragear/graphics/digikam: kde/kdegraphics/libs/libkgeomap
 extragear/graphics/digikam: frameworks/kfilemetadata
+extragear/graphics/digikam/digikam-doc: extragear/graphics/digikam
 
 kde/kdegraphics/okular: frameworks/kactivities
 kde/kdegraphics/okular: frameworks/karchive
