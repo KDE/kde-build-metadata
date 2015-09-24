@@ -221,7 +221,7 @@
             "kf5-qt5": "frameworks",
             "stable-kf5-qt5": ""
         },
-        "kdereview/kapture" : {
+        "kde/kdegraphics/spectacle" : {
             "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master",
