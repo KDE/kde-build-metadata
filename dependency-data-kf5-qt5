@@ -894,16 +894,16 @@ kde/kdegraphics/ksnapshot: frameworks/kdbusaddons
 kde/kdegraphics/ksnapshot: frameworks/kparts
 
 # Kapture
-kdereview/kapture: frameworks/kcoreaddons
-kdereview/kapture: frameworks/knotifications
-kdereview/kapture: frameworks/kconfig
-kdereview/kapture: frameworks/ki18n
-kdereview/kapture: frameworks/kio
-kdereview/kapture: frameworks/kxmlgui
-kdereview/kapture: frameworks/kwidgetsaddons
-kdereview/kapture: frameworks/kwindowsystem
-kdereview/kapture: frameworks/kdoctools
-kdereview/kapture: kde/workspace/libkscreen
+kde/kdegraphics/spectacle: frameworks/kcoreaddons
+kde/kdegraphics/spectacle: frameworks/knotifications
+kde/kdegraphics/spectacle: frameworks/kconfig
+kde/kdegraphics/spectacle: frameworks/ki18n
+kde/kdegraphics/spectacle: frameworks/kio
+kde/kdegraphics/spectacle: frameworks/kxmlgui
+kde/kdegraphics/spectacle: frameworks/kwidgetsaddons
+kde/kdegraphics/spectacle: frameworks/kwindowsystem
+kde/kdegraphics/spectacle: frameworks/kdoctools
+kde/kdegraphics/spectacle: kde/workspace/libkscreen
 
 # KDE Edu
 kde/kdeedu/cantor: kde/kdeedu/analitza
