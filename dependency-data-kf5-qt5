@@ -903,6 +903,7 @@ kde/kdegraphics/spectacle: frameworks/kxmlgui
 kde/kdegraphics/spectacle: frameworks/kwidgetsaddons
 kde/kdegraphics/spectacle: frameworks/kwindowsystem
 kde/kdegraphics/spectacle: frameworks/kdoctools
+kde/kdegraphics/spectacle: frameworks/kdbusaddons
 kde/kdegraphics/spectacle: kde/workspace/libkscreen
 
 # KDE Edu
