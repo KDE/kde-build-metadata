@@ -1595,8 +1595,8 @@
         },
         "kde/kdegraphics/kamera": {
             "stable-qt4": "Applications/15.08",
-            "latest-qt4": "master",
-            "kf5-qt5": "",
+            "latest-qt4": "Applications/15.08",
+            "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         },
         "kde/kdegraphics/kcolorchooser": {
