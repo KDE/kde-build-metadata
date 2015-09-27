@@ -859,6 +859,7 @@ extragear/graphics/digikam: kde/kdegraphics/libs/libkipi
 extragear/graphics/digikam: kde/kdegraphics/libs/libkdcraw
 extragear/graphics/digikam: kde/kdegraphics/libs/libkexiv2
 extragear/graphics/digikam: kde/kdegraphics/libs/libkface
+extragear/graphics/digikam: kde/kdegraphics/libs/libksane
 extragear/graphics/digikam: frameworks/kfilemetadata
 extragear/graphics/digikam/digikam-doc: extragear/graphics/digikam
 
