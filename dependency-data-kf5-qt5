@@ -809,6 +809,7 @@ kde/pim/kcalutils: frameworks/ki18n
 kde/pim/kcalutils: frameworks/kdelibs4support
 kde/pim/kcalutils: frameworks/kcodecs
 kde/pim/kcalutils: kde/pim/kidentitymanagement
+kde/pim/kcalutils: general/grantlee
 
 extragear/libs/libkgapi: frameworks/kcoreaddons
 extragear/libs/libkgapi: kde/pim/kcontacts
