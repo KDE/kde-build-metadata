@@ -1114,6 +1114,10 @@ calligra: playground/libs/kdb
 calligra: playground/libs/kproperty
 calligra: playground/libs/kreport
 
+# Krita
+krita: frameworks/kf5umbrella
+krita: kde/kdegraphics/libs/libkdcraw
+
 # Playground Base
 kde/workspace/kde-gtk-config: frameworks/ki18n
 kde/workspace/kde-gtk-config: frameworks/kconfigwidgets
