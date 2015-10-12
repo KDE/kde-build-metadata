@@ -1455,6 +1455,12 @@
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/15.08"
         },
+        "kde/kdegames/knavalbattle": {
+            "stable-qt4": "Applications/15.08",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
+        },
         "kde/kdegames/ktuberling": {
             "stable-qt4": "Applications/15.08",
             "latest-qt4": "",
