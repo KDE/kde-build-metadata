@@ -1038,8 +1038,8 @@ calligra: extragear/graphics/kdiagram
 calligra: kde/kdegraphics/okular
 
 # Krita
-krita: frameworks/kf5umbrella
-krita: kde/kdegraphics/libs/libkdcraw
+calligra/krita: frameworks/kf5umbrella
+calligra/krita: kde/kdegraphics/libs/libkdcraw
 
 # Playground Base
 kde/workspace/kde-gtk-config: frameworks/ki18n
