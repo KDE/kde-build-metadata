@@ -443,7 +443,7 @@
             "kf5-qt5": "",
             "stable-kf5-qt5": ""
         },
-        "kde/kdetoys/kteatime" : {
+        "kde/kdeutils/kteatime" : {
             "stable-qt4": "Applications/14.12",
             "latest-qt4": "Applications/14.12",
             "kf5-qt5": "master",
