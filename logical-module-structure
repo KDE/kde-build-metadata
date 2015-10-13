@@ -1589,8 +1589,8 @@
         },
         "kde/kdeadmin/ksystemlog": {
             "stable-qt4": "Applications/15.08",
-            "latest-qt4": "master",
-            "kf5-qt5": "frameworks",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         },
         "kde/kdenetwork/zeroconf-ioslave": {
