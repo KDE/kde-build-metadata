@@ -1106,6 +1106,10 @@ kde/kdenetwork/kaccounts-integration: frameworks/kwallet
 kde/kdenetwork/kaccounts-integration: frameworks/kdbusaddons
 kde/kdenetwork/kaccounts-integration: frameworks/kdeclarative
 kde/kdenetwork/kaccounts-providers: kde/kdenetwork/kaccounts-integration
+kde/kdenetwork/kaccounts-providers: frameworks/kio
+kde/kdenetwork/kaccounts-providers: frameworks/ki18n
+kde/kdenetwork/kaccounts-providers: frameworks/kdeclarative
+kde/kdenetwork/kaccounts-providers: frameworks/kpackage
 
 # KDE Games
 kde/kdegames/libkmahjongg: kde/kdegames/libkdegames
