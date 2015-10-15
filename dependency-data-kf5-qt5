@@ -756,6 +756,7 @@ kde/pim/kpimtextedit: frameworks/kwidgetsaddons
 kde/pim/kpimtextedit: frameworks/kio
 kde/pim/kpimtextedit: frameworks/kcodecs
 kde/pim/kpimtextedit: frameworks/kdelibs4support
+kde/pim/kpimtextedit: general/grantlee
 kde/pim/kalarmcal: frameworks/kdelibs4support
 kde/pim/kalarmcal: kde/pim/akonadi
 kde/pim/kalarmcal: kde/pim/kcalcore
