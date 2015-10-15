@@ -1188,14 +1188,10 @@ playground/utils/kdebugsettings: frameworks/kio
 
 # KAccounts
 kde/kdenetwork/kaccounts-integration: frameworks/kcmutils
-kde/kdenetwork/kaccounts-integration: frameworks/kio
 kde/kdenetwork/kaccounts-integration: frameworks/ki18n
-kde/kdenetwork/kaccounts-integration: frameworks/kwidgetsaddons
 kde/kdenetwork/kaccounts-integration: frameworks/kcoreaddons
-kde/kdenetwork/kaccounts-integration: frameworks/kiconthemes
-kde/kdenetwork/kaccounts-integration: frameworks/kconfig
 kde/kdenetwork/kaccounts-integration: frameworks/kdbusaddons
-kde/kdenetwork/kaccounts-integration: kde/pim/akonadi
+kde/kdenetwork/kaccounts-integration: frameworks/kdeclarative
 kde/kdenetwork/kaccounts-providers: kde/kdenetwork/kaccounts-integration
 kde/kdenetwork/kaccounts-providers: frameworks/kio
 kde/kdenetwork/kaccounts-providers: frameworks/ki18n
