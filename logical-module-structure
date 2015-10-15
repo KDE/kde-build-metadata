@@ -921,8 +921,8 @@
         },
         "kde/kdenetwork/krfb": {
             "stable-qt4": "Applications/15.08",
-            "latest-qt4": "master",
-            "kf5-qt5": "frameworks",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         },
         "kde/kdebindings/kross-interpreters": {
@@ -1584,7 +1584,7 @@
         "kde/kdenetwork/krdc": {
             "stable-qt4": "Applications/15.08",
             "latest-qt4": "master",
-            "kf5-qt5": "",
+            "kf5-qt5": "frameworks",
             "stable-kf5-qt5": ""
         },
         "kde/kdeadmin/ksystemlog": {
