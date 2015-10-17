@@ -191,16 +191,10 @@
             "kf5-qt5": "",
             "stable-kf5-qt5": ""
         },
-        "kde/kdegraphics/libs/libkdcraw" : {
+        "kde/kdegraphics/libs/*" : {
             "stable-qt4": "Applications/15.08",
-            "latest-qt4": "master",
-            "kf5-qt5": "frameworks",
-            "stable-kf5-qt5": ""
-        },
-        "kde/kdegraphics/libs/libkexiv2" : {
-            "stable-qt4": "Applications/15.08",
-            "latest-qt4": "master",
-            "kf5-qt5": "frameworks",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         },
         "kde/kdegraphics/gwenview" : {
@@ -655,18 +649,6 @@
             "kf5-qt5": "master",
             "stable-kf5-qt5": "LibKGAPI/5.0"
         },
-        "kde/kdegraphics/libs/libkface": {
-            "stable-qt4": "Applications/15.08",
-            "latest-qt4": "master",
-            "kf5-qt5": "frameworks",
-            "stable-kf5-qt5": ""
-        },
-        "kde/kdegraphics/libs/libkipi": {
-            "stable-qt4": "Applications/15.08",
-            "latest-qt4": "master",
-            "kf5-qt5": "frameworks",
-            "stable-kf5-qt5": ""
-        },
         "extragear/libs/libkfbapi": {
             "stable-qt4": "kfbapi-1.0",
             "latest-qt4": "master",
@@ -677,18 +659,6 @@
             "stable-qt4": "master",
             "latest-qt4": "master",
             "kf5-qt5": "frameworks",
-            "stable-kf5-qt5": ""
-        },
-        "kde/kdegraphics/libs/libkgeomap": {
-            "stable-qt4": "Applications/15.08",
-            "latest-qt4": "master",
-            "kf5-qt5": "frameworks",
-            "stable-kf5-qt5": ""
-        },
-        "kde/kdegraphics/libs/libksane": {
-            "stable-qt4": "Applications/15.08",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         },
         "kde/kdegraphics/kgamma": {
