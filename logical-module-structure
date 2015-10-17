@@ -656,9 +656,9 @@
             "stable-kf5-qt5": ""
         },
         "extragear/libs/libkvkontakte": {
-            "stable-qt4": "master",
-            "latest-qt4": "master",
-            "kf5-qt5": "frameworks",
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         },
         "kde/kdegraphics/kgamma": {
