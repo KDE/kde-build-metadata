@@ -1192,6 +1192,13 @@ kde/kdenetwork/kaccounts-integration: frameworks/ki18n
 kde/kdenetwork/kaccounts-integration: frameworks/kcoreaddons
 kde/kdenetwork/kaccounts-integration: frameworks/kdbusaddons
 kde/kdenetwork/kaccounts-integration: frameworks/kdeclarative
+kde/kdenetwork/kaccounts-mobile: frameworks/kconfig
+kde/kdenetwork/kaccounts-mobile: frameworks/kcoreaddons
+kde/kdenetwork/kaccounts-mobile: frameworks/ki18n
+kde/kdenetwork/kaccounts-mobile: frameworks/kio
+kde/kdenetwork/kaccounts-mobile: kde/kdenetwork/kaccounts-integration
+kde/kdenetwork/kaccounts-mobile: kde/pim/kcontacts
+kde/kdenetwork/kaccounts-mobile: extragear/libs/libkgapi
 kde/kdenetwork/kaccounts-providers: kde/kdenetwork/kaccounts-integration
 kde/kdenetwork/kaccounts-providers: frameworks/kio
 kde/kdenetwork/kaccounts-providers: frameworks/ki18n

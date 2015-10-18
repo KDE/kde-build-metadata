@@ -1099,6 +1099,11 @@ kde/kdenetwork/kaccounts-integration: frameworks/kcmutils
 kde/kdenetwork/kaccounts-integration: frameworks/ki18n
 kde/kdenetwork/kaccounts-integration: frameworks/kcoreaddons
 kde/kdenetwork/kaccounts-integration: frameworks/kdbusaddons
+kde/kdenetwork/kaccounts-mobile: frameworks/kconfig
+kde/kdenetwork/kaccounts-mobile: frameworks/kcoreaddons
+kde/kdenetwork/kaccounts-mobile: frameworks/ki18n
+kde/kdenetwork/kaccounts-mobile: frameworks/kio
+kde/kdenetwork/kaccounts-mobile: kde/kdenetwork/kaccounts-integration
 kde/kdenetwork/kaccounts-providers: kde/kdenetwork/kaccounts-integration
 kde/kdenetwork/kaccounts-providers: frameworks/kio
 kde/kdenetwork/kaccounts-providers: frameworks/ki18n
