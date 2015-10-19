@@ -15,7 +15,7 @@
 
 *: Qt5[stable]
 *: kdesupport/extra-cmake-modules
-kdesupport/qca: qt5
+kdesupport/qca: Qt5[stable]
 
 # Frameworks, tier2
 frameworks/kauth: frameworks/kcoreaddons
