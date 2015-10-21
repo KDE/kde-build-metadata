@@ -826,6 +826,7 @@ kde/kdepim: kde/pim/kalarmcal
 kde/kdepim: kde/pim/kmailtransport
 # for serializer plugins used in tests
 kde/kdepim: kde/kdepim-runtime
+kde/kdepim: kde/workspace/breeze
 
 kde/kdepim-runtime: kde/pim/akonadi
 kde/kdepim-runtime: kde/kdepimlibs
