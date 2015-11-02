@@ -920,6 +920,7 @@ extragear/network/konversation: kdesupport/qca
 
 # Extragear Office
 extragear/office/kmymoney: extragear/office/alkimia
+extragear/office/kmymoney: extragear/base/kdiagram
 extragear/office/kmymoney: kde/kdepimlibs
 extragear/office/skrooge: frameworks/kactivities
 extragear/office/skrooge: general/grantlee
