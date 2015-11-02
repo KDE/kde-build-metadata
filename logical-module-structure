@@ -713,19 +713,19 @@
             "stable-qt4": "1.7",
             "latest-qt4": "1.7",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": ""
+            "stable-kf5-qt5": "5.0"
         },
         "extragear/kdevelop/kdevelop": {
             "stable-qt4": "4.7",
             "latest-qt4": "4.7",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": ""
+            "stable-kf5-qt5": "5.0"
         },
         "extragear/kdevelop/utilities/kdevelop-pg-qt": {
             "stable-qt4": "1.1",
             "latest-qt4": "1.1",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": ""
+            "stable-kf5-qt5": "2.0"
         },
         "extragear/utils/krusader": {
             "stable-qt4": "kde4",
