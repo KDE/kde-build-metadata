@@ -1149,6 +1149,8 @@ kdereview/kdeconnect-kde: frameworks/kcmutils
 kdereview/kdeconnect-kde: frameworks/kiconthemes
 kdereview/kdeconnect-kde: kde/workspace/kwayland
 
+kdereview/breeze-gtk: frameworks/kconfig
+
 playground/base/qtcurve: frameworks/karchive
 playground/base/qtcurve: frameworks/kconfig
 playground/base/qtcurve: frameworks/kconfigwidgets
