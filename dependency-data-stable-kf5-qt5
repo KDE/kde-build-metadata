@@ -437,6 +437,13 @@ kde/workspace/ksysguard: frameworks/kdelibs4support
 kde/workspace/ksysguard: kde/workspace/libksysguard
 kde/workspace/ksysguard: frameworks/plasma-framework
 
+kde/workspace/kscreenlocker: frameworks/kconfig
+kde/workspace/kscreenlocker: frameworks/kcmutils
+kde/workspace/kscreenlocker: frameworks/plasma-framework
+kde/workspace/kscreenlocker: frameworks/kdelibs4support
+kde/workspace/kscreenlocker: frameworks/kidletime
+kde/workspace/kscreenlocker: frameworks/kwayland
+
 # KWin
 kde/workspace/kwin: frameworks/kconfig
 kde/workspace/kwin: frameworks/kconfigwidgets
