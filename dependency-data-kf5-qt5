@@ -468,6 +468,7 @@ kde/workspace/kwin: frameworks/kactivities
 kde/workspace/kwin: frameworks/plasma-framework
 kde/workspace/kwin: kde/workspace/kwayland
 kde/workspace/kwin: kde/workspace/kdecoration
+kde/workspace/kwin: kde/workspace/kscreenlocker
 
 # kwayland-integration
 kde/workspace/kwayland-integration: frameworks/kwindowsystem
