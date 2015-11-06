@@ -641,6 +641,18 @@
             "kf5-qt5": "",
             "stable-kf5-qt5": ""
         },
+        "extragear/graphics/kxstitch": {
+            "stable-qt4": "release-1.3.0",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
+        },
+        "extragear/graphics/symboleditor": {
+            "stable-qt4": "release-1.5.0",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release-2.0.0"
+        },
         "extragear/games/knights": {
             "stable-qt4": "master",
             "latest-qt4": "master",
