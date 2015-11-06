@@ -627,6 +627,16 @@ kde/workspace/powerdevil: frameworks/kdelibs4support
 kde/workspace/powerdevil: frameworks/plasma-framework
 kde/workspace/powerdevil: kde/workspace/plasma-workspace
 
+kde/workspace/discover: frameworks/solid
+kde/workspace/discover: frameworks/kwidgetsaddons
+kde/workspace/discover: frameworks/kconfig
+kde/workspace/discover: frameworks/kwallet
+kde/workspace/discover: frameworks/kdbusaddons
+kde/workspace/discover: frameworks/ki18n
+kde/workspace/discover: frameworks/kconfigwidgets
+kde/workspace/discover: frameworks/knotifications
+kde/workspace/discover: frameworks/kdeclarative
+
 kdereview/plasma-pa: frameworks/kconfigwidgets
 kdereview/plasma-pa: frameworks/kcoreaddons
 kdereview/plasma-pa: frameworks/kdeclarative
@@ -960,7 +970,6 @@ kde/workspace/muon: frameworks/kdbusaddons
 kde/workspace/muon: frameworks/ki18n
 kde/workspace/muon: frameworks/kconfigwidgets
 kde/workspace/muon: frameworks/knotifications
-kde/workspace/muon: frameworks/kdeclarative
 
 # kdesdk
 kde/kdesdk/kompare: kde/kdesdk/libkomparediff2
