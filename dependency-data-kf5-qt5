@@ -115,7 +115,6 @@ frameworks/kxmlgui: frameworks/kiconthemes
 frameworks/kxmlgui: frameworks/ktextwidgets
 frameworks/kxmlgui: frameworks/kwidgetsaddons
 frameworks/kxmlgui: frameworks/kwindowsystem
-frameworks/kxmlgui: frameworks/breeze-icons
 frameworks/kdeclarative: frameworks/kconfig
 frameworks/kdeclarative: frameworks/ki18n
 frameworks/kdeclarative: frameworks/kiconthemes
@@ -374,7 +373,6 @@ frameworks/kf5umbrella: frameworks/threadweaver
 frameworks/kf5umbrella: frameworks/plasma-framework
 frameworks/kf5umbrella: frameworks/kpackage
 frameworks/kf5umbrella: frameworks/kxmlrpcclient
-frameworks/kf5umbrella: frameworks/breeze-icons
 
 # The generic dependency on all frameworks
 kde/*: frameworks/kf5umbrella
@@ -847,6 +845,7 @@ kde/kdepim: kde/pim/kalarmcal
 kde/kdepim: kde/pim/kmailtransport
 # for serializer plugins used in tests
 kde/kdepim: kde/kdepim-runtime
+kde/kdepim: kde/workspace/breeze
 
 kde/kdepim-runtime: kde/pim/akonadi
 kde/kdepim-runtime: kde/kdepimlibs
