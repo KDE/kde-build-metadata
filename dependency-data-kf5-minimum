@@ -912,6 +912,9 @@ kde/kdesdk/kapptemplate: frameworks/kcompletion
 kde/kdesdk/kapptemplate: frameworks/karchive
 kde/kdesdk/kapptemplate: frameworks/kio
 kde/kdesdk/kapptemplate: frameworks/ki18n
+kde/kdesdk/kdesdk-thumbnailers: frameworks/kconfig
+kde/kdesdk/kdesdk-thumbnailers: frameworks/ki18n
+kde/kdesdk/kdesdk-thumbnailers: frameworks/kio
 
 # kdebindings
 kde/kdebindings/smoke/smokeqt: kde/kdebindings/smoke/smokegen
