@@ -920,6 +920,10 @@ kde/kdegraphics/ksnapshot: frameworks/kxmlgui
 kde/kdegraphics/ksnapshot: frameworks/kdbusaddons
 kde/kdegraphics/ksnapshot: frameworks/kparts
 
+kde/kdegraphics/kdegraphics-thumbnailers: frameworks/kio
+kde/kdegraphics/kdegraphics-thumbnailers: kde/kdegraphics/libs/libkexiv2
+kde/kdegraphics/kdegraphics-thumbnailers: kde/kdegraphics/libs/libkdcraw
+
 # Kapture
 kde/kdegraphics/spectacle: frameworks/kcoreaddons
 kde/kdegraphics/spectacle: frameworks/knotifications

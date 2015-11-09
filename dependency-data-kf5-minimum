@@ -859,6 +859,10 @@ kde/kdegraphics/ksnapshot: frameworks/kxmlgui
 kde/kdegraphics/ksnapshot: frameworks/kdbusaddons
 kde/kdegraphics/ksnapshot: frameworks/kparts
 
+kde/kdegraphics/kdegraphics-thumbnailers: frameworks/kio
+kde/kdegraphics/kdegraphics-thumbnailers: kde/kdegraphics/libs/libkexiv2
+kde/kdegraphics/kdegraphics-thumbnailers: kde/kdegraphics/libs/libkdcraw
+
 # KDE Edu
 kde/kdeedu/kalgebra: kde/kdeedu/analitza
 kde/kdeedu/kanagram: kde/kdeedu/libkeduvocdocument
