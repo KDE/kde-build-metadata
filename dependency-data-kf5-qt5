@@ -924,7 +924,7 @@ kde/kdegraphics/kdegraphics-thumbnailers: frameworks/kio
 kde/kdegraphics/kdegraphics-thumbnailers: kde/kdegraphics/libs/libkexiv2
 kde/kdegraphics/kdegraphics-thumbnailers: kde/kdegraphics/libs/libkdcraw
 
-# Kapture
+# Spectacle
 kde/kdegraphics/spectacle: frameworks/kcoreaddons
 kde/kdegraphics/spectacle: frameworks/knotifications
 kde/kdegraphics/spectacle: frameworks/kconfig
@@ -936,6 +936,7 @@ kde/kdegraphics/spectacle: frameworks/kwindowsystem
 kde/kdegraphics/spectacle: frameworks/kdoctools
 kde/kdegraphics/spectacle: frameworks/kdbusaddons
 kde/kdegraphics/spectacle: kde/workspace/libkscreen
+kde/kdegraphics/spectacle: kde/kdegraphics/libs/libkipi
 
 # KDE Edu
 kde/kdeedu/cantor: kde/kdeedu/analitza
