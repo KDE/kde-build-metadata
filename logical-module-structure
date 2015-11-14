@@ -216,7 +216,7 @@
             "stable-kf5-qt5": "Applications/15.12"
         },
         "kde/kdegraphics/ksnapshot" : {
-            "stable-qt4": "Applications/15.12",
+            "stable-qt4": "Applications/15.08",
             "latest-qt4": "master",
             "kf5-qt5": "frameworks",
             "stable-kf5-qt5": ""
