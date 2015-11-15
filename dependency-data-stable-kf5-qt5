@@ -912,6 +912,7 @@ kde/workspace/muon: frameworks/kdeclarative
 
 # kdesdk
 kde/kdesdk/kompare: kde/kdesdk/libkomparediff2
+kde/kdesdk/okteta: kdesupport/qca
 kde/kdesdk/dolphin-plugins: kde/applications/dolphin
 
 # Extragear Multimedia
