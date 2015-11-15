@@ -835,6 +835,8 @@ kde/kdegraphics/kdegraphics-thumbnailers: kde/kdegraphics/libs/libkexiv2
 kde/kdegraphics/kdegraphics-thumbnailers: kde/kdegraphics/libs/libkdcraw
 kde/kdegraphics/libs/libkgeomap: kde/kdeedu/marble
 kde/kdegraphics/libs/libkgeomap: kde/kdegraphics/libs/libkexiv2
+kde/kdegraphics/libs/libkipi: kde/kdegraphics/libs/libkdcraw
+kde/kdegraphics/libs/libkipi: kde/kdegraphics/libs/libkexiv2
 
 # KDE Network: Telepathy
 kde/kdenetwork/ktp-common-internals: frameworks/kcmutils
