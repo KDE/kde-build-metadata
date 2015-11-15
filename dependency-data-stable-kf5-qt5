@@ -825,6 +825,9 @@ kde/pim/akonadi-search: kde/pim/kmime
 
 # KDE Graphics
 kde/kdegraphics/gwenview: frameworks/kdelibs4support
+kde/kdegraphics/gwenview: kde/kdegraphics/libs/libkdcraw
+kde/kdegraphics/gwenview: kde/kdegraphics/libs/libkipi
+kde/kdegraphics/gwenview: frameworks/baloo
 kde/kdegraphics/gwenview: kde/kdenetwork/kio-extras
 kde/kdegraphics/spectacle: kde/workspace/libkscreen
 kde/kdegraphics/spectacle: kde/kdegraphics/libs/libkipi
