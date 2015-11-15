@@ -828,6 +828,10 @@ kde/kdegraphics/gwenview: frameworks/kdelibs4support
 kde/kdegraphics/gwenview: kde/kdenetwork/kio-extras
 kde/kdegraphics/spectacle: kde/workspace/libkscreen
 kde/kdegraphics/spectacle: kde/kdegraphics/libs/libkipi
+kde/kdegraphics/kdegraphics-thumbnailers: kde/kdegraphics/libs/libkexiv2
+kde/kdegraphics/kdegraphics-thumbnailers: kde/kdegraphics/libs/libkdcraw
+kde/kdegraphics/libs/libkgeomap: kde/kdeedu/marble
+kde/kdegraphics/libs/libkgeomap: kde/kdegraphics/libs/libkexiv2
 
 # KDE Network: Telepathy
 kde/kdenetwork/ktp-common-internals: frameworks/kcmutils

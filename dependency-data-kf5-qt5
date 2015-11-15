@@ -924,6 +924,9 @@ kde/kdegraphics/kdegraphics-thumbnailers: frameworks/kio
 kde/kdegraphics/kdegraphics-thumbnailers: kde/kdegraphics/libs/libkexiv2
 kde/kdegraphics/kdegraphics-thumbnailers: kde/kdegraphics/libs/libkdcraw
 
+kde/kdegraphics/libs/libkgeomap: kde/kdeedu/marble
+kde/kdegraphics/libs/libkgeomap: kde/kdegraphics/libs/libkexiv2
+
 # Spectacle
 kde/kdegraphics/spectacle: frameworks/kcoreaddons
 kde/kdegraphics/spectacle: frameworks/knotifications
@@ -1119,9 +1122,6 @@ extragear/office/tellico: frameworks/kfilemetadata
 
 # Extragear Utils
 extragear/utils/yakuake: kde/applications/konsole
-
-# Extragear Libs
-extragear/libs/libkgeomap: kde/kdeedu/marble
 
 # Extragear Graphics
 extragear/graphics/kipi-plugins: kde/kdegraphics/libs/libkipi
