@@ -826,6 +826,8 @@ kde/pim/akonadi-search: kde/pim/kmime
 # KDE Graphics
 kde/kdegraphics/gwenview: frameworks/kdelibs4support
 kde/kdegraphics/gwenview: kde/kdenetwork/kio-extras
+kde/kdegraphics/spectacle: kde/workspace/libkscreen
+kde/kdegraphics/spectacle: kde/kdegraphics/libs/libkipi
 
 # KDE Network: Telepathy
 kde/kdenetwork/ktp-common-internals: frameworks/kcmutils
