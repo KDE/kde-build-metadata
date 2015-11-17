@@ -19,3 +19,7 @@ kdesupport/phonon/phonon-quicktime: kdesupport/phonon/phonon
 kdesupport/phonon/phonon-vlc: kdesupport/phonon/phonon
 kdesupport/phonon/phonon-waveout: kdesupport/phonon/phonon
 kdesupport/phonon/phonon-xine: kdesupport/phonon/phonon
+
+# Krita has been split out of Calligra but still must be installed
+# after as Calligra retains a vestigial empty krita/ directory.
+calligra/krita: calligra
