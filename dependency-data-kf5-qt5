@@ -115,6 +115,7 @@ frameworks/kxmlgui: frameworks/kiconthemes
 frameworks/kxmlgui: frameworks/ktextwidgets
 frameworks/kxmlgui: frameworks/kwidgetsaddons
 frameworks/kxmlgui: frameworks/kwindowsystem
+frameworks/kxmlgui: frameworks/breeze-icons
 frameworks/kdeclarative: frameworks/kconfig
 frameworks/kdeclarative: frameworks/ki18n
 frameworks/kdeclarative: frameworks/kiconthemes
@@ -373,6 +374,7 @@ frameworks/kf5umbrella: frameworks/threadweaver
 frameworks/kf5umbrella: frameworks/plasma-framework
 frameworks/kf5umbrella: frameworks/kpackage
 frameworks/kf5umbrella: frameworks/kxmlrpcclient
+frameworks/kf5umbrella: frameworks/breeze-icons
 
 # The generic dependency on all frameworks
 kde/*: frameworks/kf5umbrella
@@ -441,6 +443,13 @@ kde/workspace/ksysguard: frameworks/kdelibs4support
 kde/workspace/ksysguard: kde/workspace/libksysguard
 kde/workspace/ksysguard: frameworks/plasma-framework
 
+kde/workspace/kscreenlocker: frameworks/kconfig
+kde/workspace/kscreenlocker: frameworks/kcmutils
+kde/workspace/kscreenlocker: frameworks/plasma-framework
+kde/workspace/kscreenlocker: frameworks/kdelibs4support
+kde/workspace/kscreenlocker: frameworks/kidletime
+kde/workspace/kscreenlocker: frameworks/kwayland
+
 # KWin
 kde/workspace/kwin: frameworks/kconfig
 kde/workspace/kwin: frameworks/kconfigwidgets
@@ -461,6 +470,7 @@ kde/workspace/kwin: frameworks/kactivities
 kde/workspace/kwin: frameworks/plasma-framework
 kde/workspace/kwin: kde/workspace/kwayland
 kde/workspace/kwin: kde/workspace/kdecoration
+kde/workspace/kwin: kde/workspace/kscreenlocker
 
 # kwayland-integration
 kde/workspace/kwayland-integration: frameworks/kwindowsystem
@@ -534,6 +544,7 @@ kde/workspace/plasma-workspace: kde/workspace/breeze
 kde/workspace/plasma-workspace: kde/workspace/libkscreen
 kde/workspace/plasma-workspace: frameworks/baloo
 kde/workspace/plasma-workspace: kde/workspace/kwayland
+kde/workspace/plasma-workspace: kde/workspace/kscreenlocker
 
 # System Settings
 kde/workspace/systemsettings: frameworks/kitemviews
@@ -617,6 +628,16 @@ kde/workspace/powerdevil: frameworks/knotifyconfig
 kde/workspace/powerdevil: frameworks/kdelibs4support
 kde/workspace/powerdevil: frameworks/plasma-framework
 kde/workspace/powerdevil: kde/workspace/plasma-workspace
+
+kde/workspace/discover: frameworks/solid
+kde/workspace/discover: frameworks/kwidgetsaddons
+kde/workspace/discover: frameworks/kconfig
+kde/workspace/discover: frameworks/kwallet
+kde/workspace/discover: frameworks/kdbusaddons
+kde/workspace/discover: frameworks/ki18n
+kde/workspace/discover: frameworks/kconfigwidgets
+kde/workspace/discover: frameworks/knotifications
+kde/workspace/discover: frameworks/kdeclarative
 
 kdereview/plasma-pa: frameworks/kconfigwidgets
 kdereview/plasma-pa: frameworks/kcoreaddons
@@ -826,7 +847,6 @@ kde/kdepim: kde/pim/kalarmcal
 kde/kdepim: kde/pim/kmailtransport
 # for serializer plugins used in tests
 kde/kdepim: kde/kdepim-runtime
-kde/kdepim: kde/workspace/breeze
 
 kde/kdepim-runtime: kde/pim/akonadi
 kde/kdepim-runtime: kde/kdepimlibs
@@ -900,7 +920,17 @@ kde/kdegraphics/ksnapshot: frameworks/kxmlgui
 kde/kdegraphics/ksnapshot: frameworks/kdbusaddons
 kde/kdegraphics/ksnapshot: frameworks/kparts
 
-# Kapture
+kde/kdegraphics/kdegraphics-thumbnailers: frameworks/kio
+kde/kdegraphics/kdegraphics-thumbnailers: kde/kdegraphics/libs/libkexiv2
+kde/kdegraphics/kdegraphics-thumbnailers: kde/kdegraphics/libs/libkdcraw
+
+kde/kdegraphics/libs/libkgeomap: kde/kdeedu/marble
+kde/kdegraphics/libs/libkgeomap: kde/kdegraphics/libs/libkexiv2
+kde/kdegraphics/libs/libkipi: kde/kdegraphics/libs/libkdcraw
+kde/kdegraphics/libs/libkipi: kde/kdegraphics/libs/libkexiv2
+
+
+# Spectacle
 kde/kdegraphics/spectacle: frameworks/kcoreaddons
 kde/kdegraphics/spectacle: frameworks/knotifications
 kde/kdegraphics/spectacle: frameworks/kconfig
@@ -912,6 +942,7 @@ kde/kdegraphics/spectacle: frameworks/kwindowsystem
 kde/kdegraphics/spectacle: frameworks/kdoctools
 kde/kdegraphics/spectacle: frameworks/kdbusaddons
 kde/kdegraphics/spectacle: kde/workspace/libkscreen
+kde/kdegraphics/spectacle: kde/kdegraphics/libs/libkipi
 
 # KDE Edu
 kde/kdeedu/cantor: kde/kdeedu/analitza
@@ -951,7 +982,6 @@ kde/workspace/muon: frameworks/kdbusaddons
 kde/workspace/muon: frameworks/ki18n
 kde/workspace/muon: frameworks/kconfigwidgets
 kde/workspace/muon: frameworks/knotifications
-kde/workspace/muon: frameworks/kdeclarative
 
 # kdesdk
 kde/kdesdk/kompare: kde/kdesdk/libkomparediff2
@@ -970,6 +1000,9 @@ kde/kdesdk/kcachegrind: frameworks/kdoctools
 kde/kdesdk/kcachegrind: frameworks/kwidgetsaddons
 kde/kdesdk/kcachegrind: frameworks/kxmlgui
 kde/kdesdk/kcachegrind: frameworks/kdelibs4support
+kde/kdesdk/kdesdk-thumbnailers: frameworks/kconfig
+kde/kdesdk/kdesdk-thumbnailers: frameworks/ki18n
+kde/kdesdk/kdesdk-thumbnailers: frameworks/kio
 
 # kdebindings
 kde/kdebindings/smoke/smokeqt: kde/kdebindings/smoke/smokegen
@@ -1093,9 +1126,6 @@ extragear/office/tellico: frameworks/kfilemetadata
 # Extragear Utils
 extragear/utils/yakuake: kde/applications/konsole
 
-# Extragear Libs
-extragear/libs/libkgeomap: kde/kdeedu/marble
-
 # Extragear Graphics
 extragear/graphics/kipi-plugins: kde/kdegraphics/libs/libkipi
 extragear/graphics/kipi-plugins: kde/kdegraphics/libs/libkdcraw
@@ -1142,6 +1172,8 @@ kdereview/kdeconnect-kde: frameworks/kcmutils
 kdereview/kdeconnect-kde: frameworks/kiconthemes
 kdereview/kdeconnect-kde: kde/workspace/kwayland
 playground/pim/akonadi-next: playground/libs/kasync
+
+kdereview/breeze-gtk: frameworks/kconfig
 
 playground/base/qtcurve: frameworks/karchive
 playground/base/qtcurve: frameworks/kconfig

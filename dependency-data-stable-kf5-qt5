@@ -437,6 +437,13 @@ kde/workspace/ksysguard: frameworks/kdelibs4support
 kde/workspace/ksysguard: kde/workspace/libksysguard
 kde/workspace/ksysguard: frameworks/plasma-framework
 
+kde/workspace/kscreenlocker: frameworks/kconfig
+kde/workspace/kscreenlocker: frameworks/kcmutils
+kde/workspace/kscreenlocker: frameworks/plasma-framework
+kde/workspace/kscreenlocker: frameworks/kdelibs4support
+kde/workspace/kscreenlocker: frameworks/kidletime
+kde/workspace/kscreenlocker: frameworks/kwayland
+
 # KWin
 kde/workspace/kwin: frameworks/kconfig
 kde/workspace/kwin: frameworks/kconfigwidgets
@@ -723,6 +730,7 @@ kde/pim/kpimtextedit: frameworks/kwidgetsaddons
 kde/pim/kpimtextedit: frameworks/kio
 kde/pim/kpimtextedit: frameworks/kcodecs
 kde/pim/kpimtextedit: frameworks/kdelibs4support
+kde/pim/kpimtextedit: general/grantlee
 kde/pim/kalarmcal: frameworks/kdelibs4support
 kde/pim/kalarmcal: kde/pim/akonadi
 kde/pim/kalarmcal: kde/pim/kcalcore
@@ -776,6 +784,7 @@ kde/pim/kcalutils: frameworks/ki18n
 kde/pim/kcalutils: frameworks/kdelibs4support
 kde/pim/kcalutils: frameworks/kcodecs
 kde/pim/kcalutils: kde/pim/kidentitymanagement
+kde/pim/kcalutils: general/grantlee
 
 # KDE PIM
 kde/kdepim: kde/kdepimlibs
@@ -809,14 +818,25 @@ kde/pim/akonadi-search: frameworks/ki18n
 kde/pim/akonadi-search: frameworks/kconfig
 kde/pim/akonadi-search: frameworks/kcrash
 kde/pim/akonadi-search: frameworks/kdelibs4support
+kde/pim/akonadi-search: frameworks/krunner
 kde/pim/akonadi-search: kde/kdepimlibs
 kde/pim/akonadi-search: kde/pim/kcontacts
 kde/pim/akonadi-search: kde/pim/kmime
-kde/pim/akonadi-search: kde/pim/kcalcore
 
 # KDE Graphics
 kde/kdegraphics/gwenview: frameworks/kdelibs4support
+kde/kdegraphics/gwenview: kde/kdegraphics/libs/libkdcraw
+kde/kdegraphics/gwenview: kde/kdegraphics/libs/libkipi
+kde/kdegraphics/gwenview: frameworks/baloo
 kde/kdegraphics/gwenview: kde/kdenetwork/kio-extras
+kde/kdegraphics/spectacle: kde/workspace/libkscreen
+kde/kdegraphics/spectacle: kde/kdegraphics/libs/libkipi
+kde/kdegraphics/kdegraphics-thumbnailers: kde/kdegraphics/libs/libkexiv2
+kde/kdegraphics/kdegraphics-thumbnailers: kde/kdegraphics/libs/libkdcraw
+kde/kdegraphics/libs/libkgeomap: kde/kdeedu/marble
+kde/kdegraphics/libs/libkgeomap: kde/kdegraphics/libs/libkexiv2
+kde/kdegraphics/libs/libkipi: kde/kdegraphics/libs/libkdcraw
+kde/kdegraphics/libs/libkipi: kde/kdegraphics/libs/libkexiv2
 
 # KDE Network: Telepathy
 kde/kdenetwork/ktp-common-internals: frameworks/kcmutils
@@ -892,6 +912,7 @@ kde/workspace/muon: frameworks/kdeclarative
 
 # kdesdk
 kde/kdesdk/kompare: kde/kdesdk/libkomparediff2
+kde/kdesdk/okteta: kdesupport/qca
 kde/kdesdk/dolphin-plugins: kde/applications/dolphin
 
 # Extragear Multimedia
@@ -920,6 +941,7 @@ extragear/network/konversation: kdesupport/qca
 
 # Extragear Office
 extragear/office/kmymoney: extragear/office/alkimia
+extragear/office/kmymoney: extragear/base/kdiagram
 extragear/office/kmymoney: kde/kdepimlibs
 extragear/office/skrooge: frameworks/kactivities
 extragear/office/skrooge: general/grantlee
@@ -993,11 +1015,13 @@ kde/kdegames/kjumpingcube: kde/kdegames/libkdegames
 kde/kdegames/klickety: kde/kdegames/libkdegames
 kde/kdegames/klines: kde/kdegames/libkdegames
 kde/kdegames/kmines: kde/kdegames/libkdegames
+kde/kdegames/knavalbattle: kde/kdegames/libkdegames
 kde/kdegames/knetwalk: kde/kdegames/libkdegames
 kde/kdegames/kollision: kde/kdegames/libkdegames
 kde/kdegames/kpat: kde/kdegames/libkdegames
 kde/kdegames/kshisen: kde/kdegames/libkdegames
 kde/kdegames/kshisen: kde/kdegames/libkmahjongg
 kde/kdegames/ksquares: kde/kdegames/libkdegames
+kde/kdegames/ktuberling: kde/kdegames/libkdegames
 kde/kdegames/libkmahjongg: kde/kdegames/libkdegames
 kde/kdegames/picmi: kde/kdegames/libkdegames
