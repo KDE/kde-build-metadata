@@ -1141,6 +1141,7 @@ kdereview/kdeconnect-kde: frameworks/kdbusaddons
 kdereview/kdeconnect-kde: frameworks/kcmutils
 kdereview/kdeconnect-kde: frameworks/kiconthemes
 kdereview/kdeconnect-kde: kde/workspace/kwayland
+playground/pim/akonadi-next: playground/libs/kasync
 
 playground/base/qtcurve: frameworks/karchive
 playground/base/qtcurve: frameworks/kconfig
