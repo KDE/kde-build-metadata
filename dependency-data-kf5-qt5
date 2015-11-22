@@ -1305,3 +1305,6 @@ playground/devtools/plugins/kdev-go: extragear/kdevelop/utilities/kdevelop-pg-qt
 
 # Playground Network
 playground/network/telepathy/telepathy-morse: frameworks/kcoreaddons
+
+#Playground PIM
+playground/libs/kasync: frameworks/kcoreaddons
