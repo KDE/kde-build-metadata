@@ -155,7 +155,7 @@ kde/kdegraphics/gwenview: kde/applications/kde-baseapps
 kde/kdegraphics/gwenview: kde/kdegraphics/libs/libkexiv2
 kde/kdegraphics/gwenview: kde/kdegraphics/libs/libkipi
 kde/kdegraphics/gwenview: kde/kdegraphics/libs/libkdcraw
-kde/kdegraphics/ksnapshot: kde/kdegraphics/libs/libkipi
+extragear/graphics/ksnapshot: kde/kdegraphics/libs/libkipi
 kde/kdegraphics/okular: extragear/base/plasma-mobile
 kde/kdegraphics/okular: kde/kdegraphics/libs/libkexiv2
 kde/kdegraphics/okular: kde/kdegraphics/kdegraphics-mobipocket
@@ -434,7 +434,7 @@ calligra: kdesupport/soprano[master]
 
 # kdereview
 kdereview/kwave: kde/kdelibs
-kdereview/labplot: kde/kdelibs 
+kdereview/labplot: kde/kdelibs
 
 # Playground Libs
 frameworks/plasma-framework: frameworks/kactivities

@@ -907,18 +907,18 @@ kde/kdegraphics/okular: frameworks/khtml
 kde/kdegraphics/okular: kde/workspace/libkscreen
 kde/kdegraphics/okular: kdesupport/phonon/phonon
 
-kde/kdegraphics/ksnapshot: frameworks/kconfig
-kde/kdegraphics/ksnapshot: frameworks/kconfigwidgets
-kde/kdegraphics/ksnapshot: frameworks/kcoreaddons
-kde/kdegraphics/ksnapshot: frameworks/kdoctools
-kde/kdegraphics/ksnapshot: frameworks/kguiaddons
-kde/kdegraphics/ksnapshot: frameworks/ki18n
-kde/kdegraphics/ksnapshot: frameworks/kio
-kde/kdegraphics/ksnapshot: frameworks/kservice
-kde/kdegraphics/ksnapshot: frameworks/kwindowsystem
-kde/kdegraphics/ksnapshot: frameworks/kxmlgui
-kde/kdegraphics/ksnapshot: frameworks/kdbusaddons
-kde/kdegraphics/ksnapshot: frameworks/kparts
+extragear/graphics/ksnapshot: frameworks/kconfig
+extragear/graphics/ksnapshot: frameworks/kconfigwidgets
+extragear/graphics/ksnapshot: frameworks/kcoreaddons
+extragear/graphics/ksnapshot: frameworks/kdoctools
+extragear/graphics/ksnapshot: frameworks/kguiaddons
+extragear/graphics/ksnapshot: frameworks/ki18n
+extragear/graphics/ksnapshot: frameworks/kio
+extragear/graphics/ksnapshot: frameworks/kservice
+extragear/graphics/ksnapshot: frameworks/kwindowsystem
+extragear/graphics/ksnapshot: frameworks/kxmlgui
+extragear/graphics/ksnapshot: frameworks/kdbusaddons
+extragear/graphics/ksnapshot: frameworks/kparts
 
 kde/kdegraphics/kdegraphics-thumbnailers: frameworks/kio
 kde/kdegraphics/kdegraphics-thumbnailers: kde/kdegraphics/libs/libkexiv2
