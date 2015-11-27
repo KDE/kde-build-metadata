@@ -944,11 +944,7 @@ extragear/kdevelop/kdevplatform: kde/kdesdk/libkomparediff2
 extragear/kdevelop/kdevplatform: kde/kdenetwork/kio-extras
 
 # KDevelop Plugins
-extragear/kdevelop/devtools/plugins/kdev-clang: extragear/kdevelop/kdevelop
 extragear/kdevelop/devtools/plugins/kdev-cppcheck: extragear/kdevelop/kdevelop
-extragear/kdevelop/devtools/plugins/kdev-qmake: extragear/kdevelop/kdevelop
-extragear/kdevelop/devtools/plugins/kdev-qmake: extragear/kdevelop/utilities/kdevelop-pg-qt
-extragear/kdevelop/devtools/plugins/kdev-qmljs: extragear/kdevelop/kdevelop
 extragear/kdevelop/devtools/plugins/kdev-ruby: extragear/kdevelop/kdevelop
 extragear/kdevelop/devtools/plugins/kdev-valgrind: extragear/kdevelop/kdevplatform
 extragear/kdevelop/plugins/kdev-php: extragear/kdevelop/kdevplatform
