@@ -921,6 +921,7 @@ extragear/multimedia/plasma-mediacenter: frameworks/baloo
 
 # KDevelop
 extragear/kdevelop/kdevelop: kde/workspace/khelpcenter
+extragear/kdevelop/kdevelop: kde/workspace/libksysguard
 extragear/kdevelop/kdevelop: extragear/kdevelop/kdevelop-pg-qt
 extragear/kdevelop/kdevelop: extragear/kdevelop/kdevplatform
 extragear/kdevelop/kdevelop: frameworks/krunner
