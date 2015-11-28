@@ -922,7 +922,7 @@
         "extragear/network/libktorrent": {
             "stable-qt4": "1.3",
             "latest-qt4": "master",
-            "kf5-qt5": "",
+            "kf5-qt5": "frameworks",
             "stable-kf5-qt5": ""
         },
         "kde/kdenetwork/kdenetwork-strigi-analyzers": {
