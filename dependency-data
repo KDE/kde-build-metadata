@@ -296,24 +296,7 @@ extragear/kdevelop/plugins/kdev-custom-buildsystem: extragear/kdevelop/kdevplatf
 extragear/kdevelop/plugins/kdev-control-flow-graph: extragear/kdevelop/kdevplatform
 extragear/kdevelop/plugins/kdev-cppcheck: extragear/kdevelop/kdevplatform
 extragear/kdevelop/plugins/kdev-crossfire: extragear/kdevelop/kdevplatform
-playground/devtools/plugins/kdev-css: extragear/kdevelop/kdevplatform
-playground/devtools/plugins/kdev-css: extragear/kdevelop/utilities/kdevelop-pg-qt
-playground/devtools/plugins/kdev-java: extragear/kdevelop/kdevplatform
-playground/devtools/plugins/kdev-java: extragear/kdevelop/utilities/kdevelop-pg-qt
-playground/devtools/plugins/kdev-go: extragear/kdevelop/kdevplatform
-playground/devtools/plugins/kdev-go: extragear/kdevelop/utilities/kdevelop-pg-qt
-playground/devtools/plugins/kdev-sql: extragear/kdevelop/kdevplatform
-playground/devtools/plugins/kdev-valgrind: extragear/kdevelop/kdevplatform
-playground/devtools/plugins/kdev-xml: extragear/kdevelop/kdevplatform
-playground/devtools/plugins/kdev-xml: extragear/kdevelop/utilities/kdevelop-pg-qt
-playground/devtools/plugins/kdev-xtest: extragear/kdevelop/kdevplatform
-playground/devtools/plugins/kdev-xtest: extragear/kdevelop/utilities/kdevelop-pg-qt
-playground/devtools/plugins/kdev-xtest: playground/devtools/veritas
 extragear/kdevelop/plugins/kdev-crossfire: playground/devtools/kdev-executebrowser
-playground/devtools/kdev-executebrowser: extragear/kdevelop/kdevplatform
-playground/devtools/plugins/kdev-krazy2: extragear/kdevelop/kdevplatform
-playground/devtools/plugins/kdev-mercurial: extragear/kdevelop/kdevplatform
-playground/devtools/plugins/kdev-php-formatter: extragear/kdevelop/kdevplatform
 
 # extragear/network
 extragear/network/konversation: kde/kdelibs
@@ -455,13 +438,18 @@ playground/edu/artikulate: kde/kdelibs
 playground/devtools/*: kde/kdelibs
 playground/devtools/*: kde/applications/kate
 playground/devtools/veritas: extragear/kdevelop/kdevplatform
+playground/devtools/plugins/*: extragear/kdevelop/kdevplatform
 playground/devtools/plugins/kdev-clang: extragear/kdevelop/kdevelop
 playground/devtools/plugins/kdev-qmake: extragear/kdevelop/kdevelop
 playground/devtools/plugins/kdev-qmake: extragear/kdevelop/utilities/kdevelop-pg-qt
 playground/devtools/plugins/kdev-qmljs: extragear/kdevelop/kdevelop
-playground/devtools/plugins/kdev-ruby: extragear/kdevelop/kdevplatform
-playground/devtools/plugins/kdev-python: extragear/kdevelop/kdevplatform
 playground/devtools/plugins/kdev-python: extragear/kdevelop/utilities/kdevelop-pg-qt
+playground/devtools/plugins/kdev-css: extragear/kdevelop/utilities/kdevelop-pg-qt
+playground/devtools/plugins/kdev-java: extragear/kdevelop/utilities/kdevelop-pg-qt
+playground/devtools/plugins/kdev-go: extragear/kdevelop/utilities/kdevelop-pg-qt
+playground/devtools/plugins/kdev-xml: extragear/kdevelop/utilities/kdevelop-pg-qt
+playground/devtools/plugins/kdev-xtest: extragear/kdevelop/utilities/kdevelop-pg-qt
+playground/devtools/plugins/kdev-xtest: playground/devtools/veritas
 
 # Playground Net
 playground/network/sflphone-kde: kde/kdelibs
