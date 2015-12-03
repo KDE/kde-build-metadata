@@ -1047,6 +1047,7 @@ extragear/kdevelop/plugins/kdev-python: extragear/kdevelop/kdevelop
 # Extragear Network
 extragear/network/konversation: kdesupport/qca
 extragear/network/choqok: kdesupport/qca
+extragear/network/libktorrent: kdesupport/qca
 
 # KDE Network: Telepathy
 kde/kdenetwork/kget: kdesupport/qca
