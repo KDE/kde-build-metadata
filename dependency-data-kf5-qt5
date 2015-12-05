@@ -862,6 +862,8 @@ kde/kdepim-runtime: kde/pim/kmbox
 kde/kdepim-runtime: kde/pim/kimap
 kde/kdepim-runtime: kde/pim/syndication
 
+playground/base/kdepim-addons: kde/kdepim
+
 
 #Akonadi
 kde/pim/akonadi-calendar: kde/pim/kmailtransport
