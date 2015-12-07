@@ -1162,15 +1162,15 @@ playground/base/ksshaskpass: frameworks/kcoreaddons
 playground/base/ksshaskpass: frameworks/ki18n
 playground/base/ksshaskpass: frameworks/kwallet
 playground/base/ksshaskpass: frameworks/kwidgetsaddons
-kdereview/kdeconnect-kde: kdesupport/qca
-kdereview/kdeconnect-kde: frameworks/kio
-kdereview/kdeconnect-kde: frameworks/ki18n
-kdereview/kdeconnect-kde: frameworks/knotifications
-kdereview/kdeconnect-kde: frameworks/kconfigwidgets
-kdereview/kdeconnect-kde: frameworks/kdbusaddons
-kdereview/kdeconnect-kde: frameworks/kcmutils
-kdereview/kdeconnect-kde: frameworks/kiconthemes
-kdereview/kdeconnect-kde: kde/workspace/kwayland
+extragear/network/kdeconnect-kde: kdesupport/qca
+extragear/network/kdeconnect-kde: frameworks/kio
+extragear/network/kdeconnect-kde: frameworks/ki18n
+extragear/network/kdeconnect-kde: frameworks/knotifications
+extragear/network/kdeconnect-kde: frameworks/kconfigwidgets
+extragear/network/kdeconnect-kde: frameworks/kdbusaddons
+extragear/network/kdeconnect-kde: frameworks/kcmutils
+extragear/network/kdeconnect-kde: frameworks/kiconthemes
+extragear/network/kdeconnect-kde: kde/workspace/kwayland
 playground/pim/akonadi-next: playground/libs/kasync
 
 kdereview/breeze-gtk: frameworks/kconfig
