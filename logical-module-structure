@@ -647,6 +647,25 @@
             "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         },
+        "playground/pim/eventviews": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
+        },
+        "playground/pim/messagelib": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
+        },
+        "playground/pim/kdepim-apps-libs": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
+        },
+
 
 
         "kdesupport/phonon/*": {
