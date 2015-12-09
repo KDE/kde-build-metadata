@@ -788,6 +788,17 @@ kde/pim/kcalutils: kde/pim/kidentitymanagement
 kde/pim/kcalutils: general/grantlee
 
 # KDE PIM
+
+playground/pim/mailimporter: playground/pim/libkdepim
+
+
+kde/kdepim: playground/pim/kdgantt2
+kde/kdepim: playground/pim/libgravatar
+kde/kdepim: playground/pim/grantleetheme
+kde/kdepim: playground/pim/libkdepim
+kde/kdepim: playground/pim/mailimporter
+#kde/kdepim: playground/pim/mailcommon
+
 kde/kdepim: kde/kdepimlibs
 kde/kdepim: kde/pim/akonadi-calendar
 kde/kdepim: kde/pim/akonadi-search
