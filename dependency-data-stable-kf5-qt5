@@ -788,8 +788,10 @@ kde/pim/kcalutils: kde/pim/kidentitymanagement
 kde/pim/kcalutils: general/grantlee
 
 # KDE PIM
-
+playground/pim/pimcommon: playground/pim/libkdepim
+playground/pim/calendarsupport: playground/pim/pimcommon
 playground/pim/mailimporter: playground/pim/libkdepim
+playground/pim/libgravatar: playground/pim/pimcommon
 
 
 kde/kdepim: playground/pim/kdgantt2
@@ -797,6 +799,7 @@ kde/kdepim: playground/pim/libgravatar
 kde/kdepim: playground/pim/grantleetheme
 kde/kdepim: playground/pim/libkdepim
 kde/kdepim: playground/pim/mailimporter
+kde/kdepim: playground/pim/calendarsupport
 #kde/kdepim: playground/pim/mailcommon
 
 kde/kdepim: kde/kdepimlibs
