@@ -792,6 +792,7 @@ playground/pim/mailimporter: playground/pim/libkdepim
 playground/pim/pimcommon: playground/pim/libkdepim
 playground/pim/eventviews: playground/pim/libkdepim
 playground/pim/libkleo: playground/pim/pimcommon
+playground/pim/libksieve: playground/pim/pimcommon
 playground/pim/calendarsupport: playground/pim/pimcommon
 playground/pim/incidenceeditor: playground/pim/calendarsupport
 playground/pim/libgravatar: playground/pim/pimcommon
