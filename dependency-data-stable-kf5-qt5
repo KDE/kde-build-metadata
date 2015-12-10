@@ -788,18 +788,18 @@ kde/pim/kcalutils: kde/pim/kidentitymanagement
 kde/pim/kcalutils: general/grantlee
 
 # KDE PIM
-playground/pim/incidenceeditor: playground/pim/calendarsupport
+playground/pim/mailimporter: playground/pim/libkdepim
+playground/pim/pimcommon: playground/pim/libkdepim
 playground/pim/eventviews: playground/pim/libkdepim
 playground/pim/libkleo: playground/pim/pimcommon
+playground/pim/calendarsupport: playground/pim/pimcommon
+playground/pim/incidenceeditor: playground/pim/calendarsupport
+playground/pim/libgravatar: playground/pim/pimcommon
 playground/pim/kdepim-apps-libs: playground/pim/libkleo
 playground/pim/kdepim-apps-libs: playground/pim/kdepim-apps-libs
 playground/pim/kdepim-apps-libs: playground/pim/pimcommon
 playground/pim/kdepim-apps-libs: playground/pim/grantleetheme
 playground/pim/kdepim-apps-libs: general/grantlee
-playground/pim/pimcommon: playground/pim/libkdepim
-playground/pim/calendarsupport: playground/pim/pimcommon
-playground/pim/mailimporter: playground/pim/libkdepim
-playground/pim/libgravatar: playground/pim/pimcommon
 playground/pim/mailcommon: playground/pim/mailimporter
 playground/pim/mailcommon: playground/pim/kdepim-apps-libs
 playground/pim/messagelib: playground/pim/kdepim-apps-libs
