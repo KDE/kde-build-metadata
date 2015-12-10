@@ -788,6 +788,7 @@ kde/pim/kcalutils: kde/pim/kidentitymanagement
 kde/pim/kcalutils: general/grantlee
 
 # KDE PIM
+playground/pim/eventviews: playground/pim/libkdepim
 playground/pim/libkleo: playground/pim/pimcommon
 playground/pim/kdepim-apps-libs: playground/pim/libkleo
 playground/pim/kdepim-apps-libs: playground/pim/kdepim-apps-libs
