@@ -802,7 +802,7 @@ playground/pim/mailimporter: playground/pim/libkdepim
 playground/pim/libgravatar: playground/pim/pimcommon
 playground/pim/mailcommon: playground/pim/mailimporter
 playground/pim/mailcommon: playground/pim/kdepim-apps-libs
-
+playground/pim/messagelib: playground/pim/kdepim-apps-libs
 
 
 
