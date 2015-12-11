@@ -852,6 +852,7 @@ playground/pim/kdepim-apps-libs: playground/pim/pimcommon
 playground/pim/kdepim-apps-libs: playground/pim/grantleetheme
 playground/pim/kdepim-apps-libs: general/grantlee
 playground/pim/mailcommon: playground/pim/mailimporter
+playground/pim/mailcommon: playground/pim/messagelib
 playground/pim/mailcommon: playground/pim/kdepim-apps-libs
 playground/pim/messagelib: playground/pim/kdepim-apps-libs
 playground/pim/messagelib: playground/pim/incidenceeditor
