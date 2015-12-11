@@ -839,23 +839,51 @@ extragear/libs/libkgapi: kde/pim/kcalcore
 
 # KDE PIM
 playground/pim/mailimporter: playground/pim/libkdepim
+playground/pim/mailimporter: kde/pim/kmime
+playground/pim/mailimporter: kde/kdepimlibs
+
+
 playground/pim/pimcommon: playground/pim/libkdepim
+playground/pim/pimcommon: kde/pim/kimap
+
+
 playground/pim/eventviews: playground/pim/libkdepim
+playground/pim/eventviews: kde/pim/kcalcore
+playground/pim/eventviews: playground/pim/calendarsupport
+playground/pim/eventviews: kde/pim/kcalutils
+playground/pim/eventviews: kde/pim/kidentitymanagement
+
+
 playground/pim/libkleo: playground/pim/pimcommon
+
+
 playground/pim/libksieve: playground/pim/pimcommon
+playground/pim/libksieve: kde/pim/kidentitymanagement
+playground/pim/libksieve: kde/pim/kmailtransport
+
 playground/pim/calendarsupport: playground/pim/pimcommon
 playground/pim/incidenceeditor: playground/pim/calendarsupport
+
 playground/pim/libgravatar: playground/pim/pimcommon
+
 playground/pim/kdepim-apps-libs: playground/pim/libkleo
 playground/pim/kdepim-apps-libs: playground/pim/kdepim-apps-libs
 playground/pim/kdepim-apps-libs: playground/pim/pimcommon
 playground/pim/kdepim-apps-libs: playground/pim/grantleetheme
 playground/pim/kdepim-apps-libs: general/grantlee
+playground/pim/kdepim-apps-libs: kde/pim/kcontacts
+
+playground/pim/mailcommon: kde/pim/kldap
+playground/pim/mailcommon: kde/pim/kmailtransport
 playground/pim/mailcommon: playground/pim/mailimporter
 playground/pim/mailcommon: playground/pim/messagelib
 playground/pim/mailcommon: playground/pim/kdepim-apps-libs
+
 playground/pim/messagelib: playground/pim/kdepim-apps-libs
 playground/pim/messagelib: playground/pim/incidenceeditor
+playground/pim/messagelib: general/grantlee
+playground/pim/messagelib: playground/pim/libgravatar
+playground/pim/messagelib: playground/pim/libkleo
 
 
 
