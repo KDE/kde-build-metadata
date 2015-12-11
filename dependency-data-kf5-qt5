@@ -845,6 +845,7 @@ kde/kdepim: extragear/libs/libkgapi
 kde/kdepim: frameworks/kactivities
 kde/kdepim: kde/pim/kalarmcal
 kde/kdepim: kde/pim/kmailtransport
+kde/kdepim: playground/pim/libgravatar
 # for serializer plugins used in tests
 kde/kdepim: kde/kdepim-runtime
 
@@ -1172,6 +1173,9 @@ extragear/network/kdeconnect-kde: frameworks/kcmutils
 extragear/network/kdeconnect-kde: frameworks/kiconthemes
 extragear/network/kdeconnect-kde: kde/workspace/kwayland
 playground/pim/akonadi-next: playground/libs/kasync
+playground/pim/libgravatar: frameworks/ki18n
+playground/pim/libgravatar: frameworks/kconfig
+playground/pim/libgravatar: frameworks/kwidgetsaddons
 
 kdereview/breeze-gtk: frameworks/kconfig
 
