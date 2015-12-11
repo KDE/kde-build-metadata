@@ -854,6 +854,7 @@ playground/pim/kdepim-apps-libs: general/grantlee
 playground/pim/mailcommon: playground/pim/mailimporter
 playground/pim/mailcommon: playground/pim/kdepim-apps-libs
 playground/pim/messagelib: playground/pim/kdepim-apps-libs
+playground/pim/messagelib: playground/pim/incidenceeditor
 
 
 
@@ -879,6 +880,9 @@ kde/kdepim: frameworks/kactivities
 kde/kdepim: kde/pim/kalarmcal
 kde/kdepim: kde/pim/kmailtransport
 kde/kdepim: playground/pim/libgravatar
+kde/kdepim: playground/pim/mailimporter
+kde/kdepim: playground/pim/mailcommon
+kde/kdepim: playground/pim/messagelib
 # for serializer plugins used in tests
 kde/kdepim: kde/kdepim-runtime
 
@@ -1218,6 +1222,24 @@ playground/pim/akonadi-next: playground/libs/kasync
 playground/pim/libgravatar: frameworks/ki18n
 playground/pim/libgravatar: frameworks/kconfig
 playground/pim/libgravatar: frameworks/kwidgetsaddons
+playground/pim/libgravatar: playground/pim/pimcommon
+playground/pim/pimcommon: frameworks/karchive
+playground/pim/pimcommon: frameworks/kconfig
+playground/pim/pimcommon: frameworks/kdbusaddons
+playground/pim/pimcommon: frameworks/kdelibs4support
+playground/pim/pimcommon: frameworks/ki18n
+playground/pim/pimcommon: frameworks/knewstuff
+playground/pim/pimcommon: frameworks/ktextwidgets
+playground/pim/pimcommon: frameworks/kwallet
+playground/pim/pimcommon: frameworks/kxmlgui
+playground/pim/pimcommon: frameworks/sonnet
+playground/pim/pimcommon: kde/pim/akonadi
+playground/pim/pimcommon: kde/pim/kcodecs
+playground/pim/pimcommon: kde/pim/kcontacts
+playground/pim/pimcommon: kde/pim/kimap
+playground/pim/pimcommon: kde/pim/kmime
+playground/pim/pimcommon: kde/pim/kpimtextedit
+playground/pim/pimcommon: playground/pim/libkdepim
 
 kdereview/breeze-gtk: frameworks/kconfig
 
