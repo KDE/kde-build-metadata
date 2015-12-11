@@ -896,7 +896,16 @@ kde/kdepim-runtime: kde/pim/kmbox
 kde/kdepim-runtime: kde/pim/kimap
 kde/kdepim-runtime: kde/pim/syndication
 
-playground/base/kdepim-addons: kde/kdepim
+
+playground/base/kdepim-addons: playground/pim/messagelib
+playground/base/kdepim-addons: playground/pim/incidenceeditor
+playground/base/kdepim-addons: playground/pim/libkleo
+playground/base/kdepim-addons: playground/pim/calendarsupport
+playground/base/kdepim-addons: playground/pim/eventviews
+playground/base/kdepim-addons: playground/pim/libkdepim
+playground/base/kdepim-addons: playground/pim/mailcommon
+playground/base/kdepim-addons: playground/pim/grantleetheme
+playground/base/kdepim-addons: playground/pim/pimcommon
 
 
 #Akonadi
