@@ -376,10 +376,6 @@ frameworks/kf5umbrella: frameworks/kpackage
 frameworks/kf5umbrella: frameworks/kxmlrpcclient
 frameworks/kf5umbrella: frameworks/breeze-icons
 
-# The generic dependency on all frameworks
-kde/*: frameworks/kf5umbrella
-extragear/*: frameworks/kf5umbrella
-
 # As yet unmigrated frameworks
 frameworks/baloo: frameworks/krunner
 frameworks/baloo: frameworks/kfilemetadata
@@ -1060,6 +1056,21 @@ kde/workspace/muon: frameworks/kdbusaddons
 kde/workspace/muon: frameworks/ki18n
 kde/workspace/muon: frameworks/kconfigwidgets
 kde/workspace/muon: frameworks/knotifications
+extragear/sysadmin/kpmcore: frameworks/ki18n
+extragear/sysadmin/kpmcore: frameworks/kiconthemes
+extragear/sysadmin/kpmcore: frameworks/kio
+extragear/sysadmin/kpmcore: frameworks/kservice
+extragear/sysadmin/partitionmanager: extragear/sysadmin/kpmcore
+extragear/sysadmin/partitionmanager: frameworks/kconfig
+extragear/sysadmin/partitionmanager: frameworks/kcrash
+extragear/sysadmin/partitionmanager: frameworks/kdoctools
+extragear/sysadmin/partitionmanager: frameworks/ki18n
+extragear/sysadmin/partitionmanager: frameworks/kiconthemes
+extragear/sysadmin/partitionmanager: frameworks/kjobwidgets
+extragear/sysadmin/partitionmanager: frameworks/kio
+extragear/sysadmin/partitionmanager: frameworks/kservice
+extragear/sysadmin/partitionmanager: frameworks/kxmlgui
+extragear/sysadmin/partitionmanager: frameworks/kwidgetsaddons
 
 # kdesdk
 kde/kdesdk/kompare: kde/kdesdk/libkomparediff2
@@ -1406,3 +1417,7 @@ playground/network/telepathy/telepathy-morse: frameworks/kcoreaddons
 
 #Playground PIM
 playground/libs/kasync: frameworks/kcoreaddons
+
+# The generic dependency on all frameworks
+kde/*: frameworks/kf5umbrella
+extragear/*: frameworks/kf5umbrella
