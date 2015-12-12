@@ -936,7 +936,6 @@ playground/base/kdepim-addons: playground/pim/mailcommon
 playground/base/kdepim-addons: playground/pim/grantleetheme
 playground/base/kdepim-addons: playground/pim/pimcommon
 
-
 #Akonadi
 kde/pim/akonadi-calendar: kde/pim/kmailtransport
 kde/pim/akonadi-search: frameworks/ki18n

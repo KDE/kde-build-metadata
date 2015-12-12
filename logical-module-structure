@@ -569,6 +569,12 @@
             "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         },
+        "playground/pim/libgravatar": {
+        	"stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
+        },
         "playground/pim/akonadi-next": {
             "stable-qt4": "",
             "latest-qt4": "",
