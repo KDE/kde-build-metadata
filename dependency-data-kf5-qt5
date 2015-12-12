@@ -858,12 +858,14 @@ playground/pim/libksieve: kde/pim/kidentitymanagement
 playground/pim/libksieve: kde/pim/kmailtransport
 
 playground/pim/calendarsupport: playground/pim/pimcommon
+playground/pim/calendarsupport: kde/pim/akonadi-calendar
+playground/pim/calendarsupport: playground/pim/kdepim-apps-libs
+
 playground/pim/incidenceeditor: playground/pim/calendarsupport
 
 playground/pim/libgravatar: playground/pim/pimcommon
 
 playground/pim/kdepim-apps-libs: playground/pim/libkleo
-playground/pim/kdepim-apps-libs: playground/pim/kdepim-apps-libs
 playground/pim/kdepim-apps-libs: playground/pim/pimcommon
 playground/pim/kdepim-apps-libs: playground/pim/grantleetheme
 playground/pim/kdepim-apps-libs: general/grantlee
