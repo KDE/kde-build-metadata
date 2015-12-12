@@ -581,6 +581,93 @@
             "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         },
+        "playground/pim/libgravatar": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
+        },
+        "playground/pim/calendarsupport": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
+        },
+        "playground/pim/grantleetheme": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
+        },  
+        "playground/pim/incidenceeditor": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
+        },  
+        "playground/pim/kdgantt2": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
+        },
+        "playground/pim/libkdepim": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
+        },
+        "playground/pim/libkleo": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
+        },
+        "playground/pim/libksieve": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
+        },
+        "playground/pim/mailcommon": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
+        },
+        "playground/pim/mailimporter": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
+        },
+        "playground/pim/pimcommon": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
+        },
+        "playground/pim/eventviews": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
+        },
+        "playground/pim/messagelib": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
+        },
+        "playground/pim/kdepim-apps-libs": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
+        },
+
+
+
         "kdesupport/phonon/*": {
             "stable-qt4": "master",
             "latest-qt4": "master",
@@ -716,9 +803,9 @@
             "stable-kf5-qt5": ""
         },
         "extragear/libs/libmediawiki": {
-            "stable-qt4": "master",
-            "latest-qt4": "master",
-            "kf5-qt5": "frameworks",
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         },
         "extragear/office/alkimia": {
@@ -1287,7 +1374,7 @@
             "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         },
-        "kdereview/kdeconnect-kde" : {
+        "extragear/network/kdeconnect-kde" : {
             "stable-qt4": "kde4",
             "latest-qt4": "",
             "kf5-qt5": "master",
