@@ -852,6 +852,7 @@ playground/pim/eventviews: kde/pim/kidentitymanagement
 
 playground/pim/libkleo: playground/pim/pimcommon
 
+playground/pim/libkdepim: kde/kdepimlibs
 
 playground/pim/libksieve: playground/pim/pimcommon
 playground/pim/libksieve: kde/pim/kidentitymanagement
