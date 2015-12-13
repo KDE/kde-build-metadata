@@ -864,6 +864,7 @@ playground/pim/calendarsupport: kde/pim/akonadi-calendar
 playground/pim/calendarsupport: playground/pim/kdepim-apps-libs
 
 playground/pim/incidenceeditor: playground/pim/calendarsupport
+playground/pim/incidenceeditor: playground/pim/eventviews
 
 playground/pim/libgravatar: playground/pim/pimcommon
 
