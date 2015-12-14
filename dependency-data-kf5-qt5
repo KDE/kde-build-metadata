@@ -834,73 +834,73 @@ extragear/libs/libkgapi: kde/pim/kcontacts
 extragear/libs/libkgapi: kde/pim/kcalcore
 
 # KDE PIM
-playground/pim/mailimporter: playground/pim/libkdepim
-playground/pim/mailimporter: kde/pim/kmime
-playground/pim/mailimporter: kde/kdepimlibs
+kde/pim/mailimporter: kde/pim/libkdepim
+kde/pim/mailimporter: kde/pim/kmime
+kde/pim/mailimporter: kde/kdepimlibs
 
 
-playground/pim/pimcommon: playground/pim/libkdepim
-playground/pim/pimcommon: kde/pim/kimap
+kde/pim/pimcommon: kde/pim/libkdepim
+kde/pim/pimcommon: kde/pim/kimap
 
 
-playground/pim/eventviews: playground/pim/libkdepim
-playground/pim/eventviews: kde/pim/kcalcore
-playground/pim/eventviews: playground/pim/calendarsupport
-playground/pim/eventviews: kde/pim/kcalutils
-playground/pim/eventviews: kde/pim/kidentitymanagement
+kde/pim/eventviews: kde/pim/libkdepim
+kde/pim/eventviews: kde/pim/kcalcore
+kde/pim/eventviews: kde/pim/calendarsupport
+kde/pim/eventviews: kde/pim/kcalutils
+kde/pim/eventviews: kde/pim/kidentitymanagement
 
 
-playground/pim/libkleo: playground/pim/pimcommon
+kde/pim/libkleo: kde/pim/pimcommon
 
-playground/pim/libkdepim: kde/kdepimlibs
-playground/pim/libkdepim: kde/pim/akonadi-search
+kde/pim/libkdepim: kde/kdepimlibs
+kde/pim/libkdepim: kde/pim/akonadi-search
 
-playground/pim/libksieve: playground/pim/pimcommon
-playground/pim/libksieve: kde/pim/kidentitymanagement
-playground/pim/libksieve: kde/pim/kmailtransport
+kde/pim/libksieve: kde/pim/pimcommon
+kde/pim/libksieve: kde/pim/kidentitymanagement
+kde/pim/libksieve: kde/pim/kmailtransport
 
-playground/pim/calendarsupport: playground/pim/pimcommon
-playground/pim/calendarsupport: kde/pim/akonadi-calendar
-playground/pim/calendarsupport: playground/pim/kdepim-apps-libs
+kde/pim/calendarsupport: kde/pim/pimcommon
+kde/pim/calendarsupport: kde/pim/akonadi-calendar
+kde/pim/calendarsupport: kde/pim/kdepim-apps-libs
 
-playground/pim/incidenceeditor: playground/pim/calendarsupport
-playground/pim/incidenceeditor: playground/pim/eventviews
+kde/pim/incidenceeditor: kde/pim/calendarsupport
+kde/pim/incidenceeditor: kde/pim/eventviews
 
-playground/pim/libgravatar: playground/pim/pimcommon
+kde/pim/libgravatar: kde/pim/pimcommon
 
-playground/pim/kdepim-apps-libs: playground/pim/libkleo
-playground/pim/kdepim-apps-libs: playground/pim/pimcommon
-playground/pim/kdepim-apps-libs: playground/pim/grantleetheme
-playground/pim/kdepim-apps-libs: general/grantlee
-playground/pim/kdepim-apps-libs: kde/pim/kcontacts
+kde/pim/kdepim-apps-libs: kde/pim/libkleo
+kde/pim/kdepim-apps-libs: kde/pim/pimcommon
+kde/pim/kdepim-apps-libs: kde/pim/grantleetheme
+kde/pim/kdepim-apps-libs: general/grantlee
+kde/pim/kdepim-apps-libs: kde/pim/kcontacts
 
-playground/pim/mailcommon: kde/pim/kldap
-playground/pim/mailcommon: kde/pim/kmailtransport
-playground/pim/mailcommon: playground/pim/mailimporter
-playground/pim/mailcommon: playground/pim/messagelib
-playground/pim/mailcommon: playground/pim/kdepim-apps-libs
+kde/pim/mailcommon: kde/pim/kldap
+kde/pim/mailcommon: kde/pim/kmailtransport
+kde/pim/mailcommon: kde/pim/mailimporter
+kde/pim/mailcommon: kde/pim/messagelib
+kde/pim/mailcommon: kde/pim/kdepim-apps-libs
 
-playground/pim/messagelib: playground/pim/kdepim-apps-libs
-playground/pim/messagelib: playground/pim/incidenceeditor
-playground/pim/messagelib: general/grantlee
-playground/pim/messagelib: playground/pim/libgravatar
-playground/pim/messagelib: playground/pim/libkleo
+kde/pim/messagelib: kde/pim/kdepim-apps-libs
+kde/pim/messagelib: kde/pim/incidenceeditor
+kde/pim/messagelib: general/grantlee
+kde/pim/messagelib: kde/pim/libgravatar
+kde/pim/messagelib: kde/pim/libkleo
 
 
 
-kde/kdepim: playground/pim/messagelib
-kde/kdepim: playground/pim/eventviews
-kde/kdepim: playground/pim/kdgantt2
-kde/kdepim: playground/pim/grantleetheme
-kde/kdepim: playground/pim/libkdepim
-kde/kdepim: playground/pim/mailimporter
-kde/kdepim: playground/pim/calendarsupport
-kde/kdepim: playground/pim/mailcommon
-kde/kdepim: playground/pim/pimcommon
-kde/kdepim: playground/pim/libksieve
-kde/kdepim: playground/pim/kdepim-apps-libs
-kde/kdepim: playground/pim/incidenceeditor
-kde/kdepim: playground/pim/libkleo
+kde/kdepim: kde/pim/messagelib
+kde/kdepim: kde/pim/eventviews
+kde/kdepim: kde/pim/kdgantt2
+kde/kdepim: kde/pim/grantleetheme
+kde/kdepim: kde/pim/libkdepim
+kde/kdepim: kde/pim/mailimporter
+kde/kdepim: kde/pim/calendarsupport
+kde/kdepim: kde/pim/mailcommon
+kde/kdepim: kde/pim/pimcommon
+kde/kdepim: kde/pim/libksieve
+kde/kdepim: kde/pim/kdepim-apps-libs
+kde/kdepim: kde/pim/incidenceeditor
+kde/kdepim: kde/pim/libkleo
 
 kde/kdepim: kde/kdepimlibs
 kde/kdepim: kde/pim/akonadi-calendar
@@ -909,10 +909,10 @@ kde/kdepim: extragear/libs/libkgapi
 kde/kdepim: frameworks/kactivities
 kde/kdepim: kde/pim/kalarmcal
 kde/kdepim: kde/pim/kmailtransport
-kde/kdepim: playground/pim/libgravatar
-kde/kdepim: playground/pim/mailimporter
-kde/kdepim: playground/pim/mailcommon
-kde/kdepim: playground/pim/messagelib
+kde/kdepim: kde/pim/libgravatar
+kde/kdepim: kde/pim/mailimporter
+kde/kdepim: kde/pim/mailcommon
+kde/kdepim: kde/pim/messagelib
 # for serializer plugins used in tests
 kde/kdepim: kde/kdepim-runtime
 
@@ -931,15 +931,15 @@ kde/kdepim-runtime: kde/pim/kimap
 kde/kdepim-runtime: kde/pim/syndication
 
 
-playground/base/kdepim-addons: playground/pim/messagelib
-playground/base/kdepim-addons: playground/pim/incidenceeditor
-playground/base/kdepim-addons: playground/pim/libkleo
-playground/base/kdepim-addons: playground/pim/calendarsupport
-playground/base/kdepim-addons: playground/pim/eventviews
-playground/base/kdepim-addons: playground/pim/libkdepim
-playground/base/kdepim-addons: playground/pim/mailcommon
-playground/base/kdepim-addons: playground/pim/grantleetheme
-playground/base/kdepim-addons: playground/pim/pimcommon
+playground/base/kdepim-addons: kde/pim/messagelib
+playground/base/kdepim-addons: kde/pim/incidenceeditor
+playground/base/kdepim-addons: kde/pim/libkleo
+playground/base/kdepim-addons: kde/pim/calendarsupport
+playground/base/kdepim-addons: kde/pim/eventviews
+playground/base/kdepim-addons: kde/pim/libkdepim
+playground/base/kdepim-addons: kde/pim/mailcommon
+playground/base/kdepim-addons: kde/pim/grantleetheme
+playground/base/kdepim-addons: kde/pim/pimcommon
 
 #Akonadi
 kde/pim/akonadi-calendar: kde/pim/kmailtransport
@@ -1263,27 +1263,27 @@ extragear/network/kdeconnect-kde: frameworks/kcmutils
 extragear/network/kdeconnect-kde: frameworks/kiconthemes
 extragear/network/kdeconnect-kde: kde/workspace/kwayland
 playground/pim/akonadi-next: playground/libs/kasync
-playground/pim/libgravatar: frameworks/ki18n
-playground/pim/libgravatar: frameworks/kconfig
-playground/pim/libgravatar: frameworks/kwidgetsaddons
-playground/pim/libgravatar: playground/pim/pimcommon
-playground/pim/pimcommon: frameworks/karchive
-playground/pim/pimcommon: frameworks/kconfig
-playground/pim/pimcommon: frameworks/kdbusaddons
-playground/pim/pimcommon: frameworks/kdelibs4support
-playground/pim/pimcommon: frameworks/ki18n
-playground/pim/pimcommon: frameworks/knewstuff
-playground/pim/pimcommon: frameworks/ktextwidgets
-playground/pim/pimcommon: frameworks/kwallet
-playground/pim/pimcommon: frameworks/kxmlgui
-playground/pim/pimcommon: frameworks/sonnet
-playground/pim/pimcommon: kde/pim/akonadi
-playground/pim/pimcommon: kde/pim/kcodecs
-playground/pim/pimcommon: kde/pim/kcontacts
-playground/pim/pimcommon: kde/pim/kimap
-playground/pim/pimcommon: kde/pim/kmime
-playground/pim/pimcommon: kde/pim/kpimtextedit
-playground/pim/pimcommon: playground/pim/libkdepim
+kde/pim/libgravatar: frameworks/ki18n
+kde/pim/libgravatar: frameworks/kconfig
+kde/pim/libgravatar: frameworks/kwidgetsaddons
+kde/pim/libgravatar: kde/pim/pimcommon
+kde/pim/pimcommon: frameworks/karchive
+kde/pim/pimcommon: frameworks/kconfig
+kde/pim/pimcommon: frameworks/kdbusaddons
+kde/pim/pimcommon: frameworks/kdelibs4support
+kde/pim/pimcommon: frameworks/ki18n
+kde/pim/pimcommon: frameworks/knewstuff
+kde/pim/pimcommon: frameworks/ktextwidgets
+kde/pim/pimcommon: frameworks/kwallet
+kde/pim/pimcommon: frameworks/kxmlgui
+kde/pim/pimcommon: frameworks/sonnet
+kde/pim/pimcommon: kde/pim/akonadi
+kde/pim/pimcommon: kde/pim/kcodecs
+kde/pim/pimcommon: kde/pim/kcontacts
+kde/pim/pimcommon: kde/pim/kimap
+kde/pim/pimcommon: kde/pim/kmime
+kde/pim/pimcommon: kde/pim/kpimtextedit
+kde/pim/pimcommon: kde/pim/libkdepim
 
 kdereview/breeze-gtk: frameworks/kconfig
 
