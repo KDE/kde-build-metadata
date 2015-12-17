@@ -846,6 +846,7 @@ kde/pim/eventviews: kde/pim/kcalcore
 kde/pim/eventviews: kde/pim/calendarsupport
 kde/pim/eventviews: kde/pim/kcalutils
 kde/pim/eventviews: kde/pim/kidentitymanagement
+kde/pim/eventviews: kde/pim/kdgantt2
 
 
 kde/pim/libkleo: kde/pim/pimcommon
