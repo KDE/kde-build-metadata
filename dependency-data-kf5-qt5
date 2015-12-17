@@ -841,10 +841,6 @@ kde/pim/mailimporter: frameworks/ki18n
 kde/pim/mailimporter: frameworks/kconfig
 kde/pim/mailimporter: frameworks/karchive
 
-kde/pim/pimcommon: kde/pim/libkdepim
-kde/pim/pimcommon: kde/pim/kimap
-
-
 kde/pim/eventviews: kde/pim/libkdepim
 kde/pim/eventviews: kde/pim/kcalcore
 kde/pim/eventviews: kde/pim/calendarsupport
@@ -1279,6 +1275,7 @@ kde/pim/libgravatar: frameworks/ki18n
 kde/pim/libgravatar: frameworks/kconfig
 kde/pim/libgravatar: frameworks/kwidgetsaddons
 kde/pim/libgravatar: kde/pim/pimcommon
+
 kde/pim/pimcommon: frameworks/karchive
 kde/pim/pimcommon: frameworks/kconfig
 kde/pim/pimcommon: frameworks/kdbusaddons
@@ -1296,6 +1293,11 @@ kde/pim/pimcommon: kde/pim/kimap
 kde/pim/pimcommon: kde/pim/kmime
 kde/pim/pimcommon: kde/pim/kpimtextedit
 kde/pim/pimcommon: kde/pim/libkdepim
+
+kde/pim/pimcommon: kde/kdepimlibs
+kde/pim/pimcommon: frameworks/kwallet
+kde/pim/pimcommon: frameworks/sonnet
+
 
 kdereview/breeze-gtk: frameworks/kconfig
 
