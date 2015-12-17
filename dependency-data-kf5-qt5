@@ -837,7 +837,9 @@ extragear/libs/libkgapi: kde/pim/kcalcore
 kde/pim/mailimporter: kde/pim/libkdepim
 kde/pim/mailimporter: kde/pim/kmime
 kde/pim/mailimporter: kde/kdepimlibs
-
+kde/pim/mailimporter: frameworks/ki18n
+kde/pim/mailimporter: frameworks/kconfig
+kde/pim/mailimporter: frameworks/karchive
 
 kde/pim/pimcommon: kde/pim/libkdepim
 kde/pim/pimcommon: kde/pim/kimap
