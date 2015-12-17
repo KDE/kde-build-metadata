@@ -1688,9 +1688,9 @@
         },
         "kdereview/kdev-perforce": {
             "stable-qt4": "",
-            "latest-qt4": "master",
-            "kf5-qt5": "frameworks",
-            "stable-kf5-qt5": ""
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "5.0"
         },
         "kde/kdeaccessibility/kmag": {
             "stable-qt4": "Applications/15.12",
