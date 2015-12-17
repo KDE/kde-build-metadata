@@ -870,6 +870,15 @@ kde/pim/libksieve: kde/pim/libkdepim
 kde/pim/calendarsupport: kde/pim/pimcommon
 kde/pim/calendarsupport: kde/pim/akonadi-calendar
 kde/pim/calendarsupport: kde/pim/kdepim-apps-libs
+kde/pim/calendarsupport: kde/kdepimlibs
+kde/pim/calendarsupport: frameworks/ki18n
+kde/pim/calendarsupport: kde/pim/kmime
+kde/pim/calendarsupport: frameworks/kcodecs
+kde/pim/calendarsupport: kde/pim/kcalutils
+kde/pim/calendarsupport: kde/pim/kcalcore
+kde/pim/calendarsupport: kde/pim/kidentitymanagement
+kde/pim/calendarsupport: kde/pim/kholidays
+
 
 kde/pim/incidenceeditor: kde/pim/calendarsupport
 kde/pim/incidenceeditor: kde/pim/eventviews
@@ -1287,7 +1296,7 @@ kde/pim/pimcommon: frameworks/kwallet
 kde/pim/pimcommon: frameworks/kxmlgui
 kde/pim/pimcommon: frameworks/sonnet
 kde/pim/pimcommon: kde/pim/akonadi
-kde/pim/pimcommon: kde/pim/kcodecs
+kde/pim/pimcommon: frameworks/kcodecs
 kde/pim/pimcommon: kde/pim/kcontacts
 kde/pim/pimcommon: kde/pim/kimap
 kde/pim/pimcommon: kde/pim/kmime
