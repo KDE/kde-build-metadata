@@ -860,6 +860,16 @@ kde/pim/libkdepim: kde/pim/akonadi-search
 kde/pim/libksieve: kde/pim/pimcommon
 kde/pim/libksieve: kde/pim/kidentitymanagement
 kde/pim/libksieve: kde/pim/kmailtransport
+kde/pim/libksieve: frameworks/ki18n
+kde/pim/libksieve: kde/kdepimlibs
+kde/pim/libksieve: kde/pim/kmime
+kde/pim/libksieve: kde/pim/kpimtextedit
+kde/pim/libksieve: frameworks/karchive
+kde/pim/libksieve: frameworks/knewstuff
+kde/pim/libksieve: frameworks/kiconthemes
+kde/pim/libksieve: kde/pim/libkdepim
+
+
 
 kde/pim/calendarsupport: kde/pim/pimcommon
 kde/pim/calendarsupport: kde/pim/akonadi-calendar
