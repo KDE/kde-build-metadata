@@ -884,8 +884,6 @@ kde/pim/calendarsupport: kde/pim/kholidays
 kde/pim/incidenceeditor: kde/pim/calendarsupport
 kde/pim/incidenceeditor: kde/pim/eventviews
 
-kde/pim/libgravatar: kde/pim/pimcommon
-
 kde/pim/kdepim-apps-libs: kde/pim/libkleo
 kde/pim/kdepim-apps-libs: kde/pim/pimcommon
 kde/pim/kdepim-apps-libs: kde/pim/grantleetheme
@@ -905,15 +903,12 @@ kde/pim/messagelib: kde/pim/libgravatar
 kde/pim/messagelib: kde/pim/libkleo
 
 
-
 kde/kdepim: kde/pim/messagelib
 kde/kdepim: kde/pim/eventviews
 kde/kdepim: kde/pim/kdgantt2
 kde/kdepim: kde/pim/grantleetheme
 kde/kdepim: kde/pim/libkdepim
-kde/kdepim: kde/pim/mailimporter
 kde/kdepim: kde/pim/calendarsupport
-kde/kdepim: kde/pim/mailcommon
 kde/kdepim: kde/pim/pimcommon
 kde/kdepim: kde/pim/libksieve
 kde/kdepim: kde/pim/kdepim-apps-libs
@@ -930,7 +925,6 @@ kde/kdepim: kde/pim/kmailtransport
 kde/kdepim: kde/pim/libgravatar
 kde/kdepim: kde/pim/mailimporter
 kde/kdepim: kde/pim/mailcommon
-kde/kdepim: kde/pim/messagelib
 # for serializer plugins used in tests
 kde/kdepim: kde/kdepim-runtime
 
