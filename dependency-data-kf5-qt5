@@ -963,6 +963,7 @@ playground/base/kdepim-addons: kde/pim/libkdepim
 playground/base/kdepim-addons: kde/pim/mailcommon
 playground/base/kdepim-addons: kde/pim/grantleetheme
 playground/base/kdepim-addons: kde/pim/pimcommon
+playground/base/kdepim-addons: kde/pim/libgravatar
 
 #Akonadi
 kde/pim/akonadi-calendar: kde/pim/kmailtransport
