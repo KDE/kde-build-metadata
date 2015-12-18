@@ -883,6 +883,17 @@ kde/pim/calendarsupport: kde/pim/kholidays
 
 kde/pim/incidenceeditor: kde/pim/calendarsupport
 kde/pim/incidenceeditor: kde/pim/eventviews
+kde/pim/incidenceeditor: kde/kdepimlibs
+kde/pim/incidenceeditor: frameworks/ki18n
+kde/pim/incidenceeditor: kde/pim/kmime
+kde/pim/incidenceeditor: kde/pim/kldap
+kde/pim/incidenceeditor: frameworks/kcodecs
+kde/pim/incidenceeditor: kde/pim/libkdepim
+kde/pim/incidenceeditor: kde/pim/kdgantt2
+kde/pim/incidenceeditor: kde/pim/kcalutils
+kde/pim/incidenceeditor: kde/pim/kcalcore
+kde/pim/incidenceeditor: kde/pim/kmailtransport
+
 
 kde/pim/kdepim-apps-libs: kde/pim/libkleo
 kde/pim/kdepim-apps-libs: kde/pim/pimcommon
