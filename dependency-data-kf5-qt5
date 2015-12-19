@@ -865,7 +865,9 @@ kde/pim/libksieve: frameworks/karchive
 kde/pim/libksieve: frameworks/knewstuff
 kde/pim/libksieve: frameworks/kiconthemes
 kde/pim/libksieve: kde/pim/libkdepim
-
+kde/pim/libksieve: frameworks/karchive
+kde/pim/libksieve: frameworks/kiconthemes
+kde/pim/libksieve: frameworks/knewstuff
 
 
 kde/pim/calendarsupport: kde/pim/pimcommon
