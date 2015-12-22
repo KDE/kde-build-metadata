@@ -902,6 +902,19 @@ kde/pim/kdepim-apps-libs: kde/pim/pimcommon
 kde/pim/kdepim-apps-libs: kde/pim/grantleetheme
 kde/pim/kdepim-apps-libs: general/grantlee
 kde/pim/kdepim-apps-libs: kde/pim/kcontacts
+kde/pim/kdepim-apps-libs: kde/kdepimlibs
+kde/pim/kdepim-apps-libs: general/grantlee
+kde/pim/kdepim-apps-libs: kde/kdepimlibs
+kde/pim/kdepim-apps-libs: kde/pim/kpimtextedit
+kde/pim/kdepim-apps-libs: frameworks/ki18n
+kde/pim/kdepim-apps-libs: frameworks/kiconthemes
+kde/pim/kdepim-apps-libs: frameworks/kconfig
+kde/pim/kdepim-apps-libs: kde/pim/kcontacts
+kde/pim/kdepim-apps-libs: kde/pim/kmime
+kde/pim/kdepim-apps-libs: frameworks/kdewebkit
+
+
+
 
 kde/pim/mailcommon: kde/pim/kldap
 kde/pim/mailcommon: kde/pim/kmailtransport
