@@ -289,14 +289,6 @@ extragear/kdevelop/*: kde/applications/konsole
 extragear/kdevelop/kdevelop: extragear/kdevelop/kdevplatform
 extragear/kdevelop/kdevelop: kde/kde-workspace
 extragear/kdevelop/kdevelop: kde/kdesdk/okteta
-extragear/kdevelop/plugins/kdev-php: extragear/kdevelop/kdevplatform
-extragear/kdevelop/plugins/kdev-php: extragear/kdevelop/utilities/kdevelop-pg-qt
-extragear/kdevelop/plugins/kdev-php-docs: extragear/kdevelop/kdevplatform
-extragear/kdevelop/plugins/kdev-custom-buildsystem: extragear/kdevelop/kdevplatform
-extragear/kdevelop/plugins/kdev-control-flow-graph: extragear/kdevelop/kdevplatform
-extragear/kdevelop/plugins/kdev-cppcheck: extragear/kdevelop/kdevplatform
-extragear/kdevelop/plugins/kdev-crossfire: extragear/kdevelop/kdevplatform
-extragear/kdevelop/plugins/kdev-crossfire: playground/devtools/kdev-executebrowser
 
 # extragear/network
 extragear/network/konversation: kde/kdelibs
@@ -437,19 +429,6 @@ playground/edu/artikulate: kde/kdelibs
 # Playground KDevelop
 playground/devtools/*: kde/kdelibs
 playground/devtools/*: kde/applications/kate
-playground/devtools/veritas: extragear/kdevelop/kdevplatform
-playground/devtools/plugins/*: extragear/kdevelop/kdevplatform
-playground/devtools/plugins/kdev-clang: extragear/kdevelop/kdevelop
-playground/devtools/plugins/kdev-qmake: extragear/kdevelop/kdevelop
-playground/devtools/plugins/kdev-qmake: extragear/kdevelop/utilities/kdevelop-pg-qt
-playground/devtools/plugins/kdev-qmljs: extragear/kdevelop/kdevelop
-playground/devtools/plugins/kdev-python: extragear/kdevelop/utilities/kdevelop-pg-qt
-playground/devtools/plugins/kdev-css: extragear/kdevelop/utilities/kdevelop-pg-qt
-playground/devtools/plugins/kdev-java: extragear/kdevelop/utilities/kdevelop-pg-qt
-playground/devtools/plugins/kdev-go: extragear/kdevelop/utilities/kdevelop-pg-qt
-playground/devtools/plugins/kdev-xml: extragear/kdevelop/utilities/kdevelop-pg-qt
-playground/devtools/plugins/kdev-xtest: extragear/kdevelop/utilities/kdevelop-pg-qt
-playground/devtools/plugins/kdev-xtest: playground/devtools/veritas
 
 # Playground Net
 playground/network/sflphone-kde: kde/kdelibs

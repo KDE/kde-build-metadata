@@ -1160,15 +1160,6 @@ extragear/kdevelop/kdevplatform: general/grantlee
 extragear/kdevelop/kdevplatform: kde/kdesdk/libkomparediff2
 extragear/kdevelop/kdevplatform: kde/kdenetwork/kio-extras
 
-# KDevelop Plugins
-extragear/kdevelop/devtools/plugins/kdev-cppcheck: extragear/kdevelop/kdevelop
-extragear/kdevelop/devtools/plugins/kdev-ruby: extragear/kdevelop/kdevelop
-extragear/kdevelop/devtools/plugins/kdev-valgrind: extragear/kdevelop/kdevplatform
-extragear/kdevelop/plugins/kdev-php: extragear/kdevelop/kdevplatform
-extragear/kdevelop/plugins/kdev-php: extragear/kdevelop/kdevelop-pg-qt
-extragear/kdevelop/plugins/kdev-php-docs: extragear/kdevelop/kdevplatform
-extragear/kdevelop/plugins/kdev-python: extragear/kdevelop/kdevelop
-
 # Extragear Network
 extragear/network/konversation: kdesupport/qca
 extragear/network/choqok: kdesupport/qca
@@ -1448,11 +1439,6 @@ playground/devtools/kdesvn: frameworks/kdelibs4support
 playground/devtools/kdesvn: frameworks/kcoreaddons
 playground/devtools/kdesvn: frameworks/kemoticons
 playground/devtools/kdesvn: frameworks/kitemmodels
-playground/devtools/plugins/kdev-css: extragear/kdevelop/kdevplatform
-playground/devtools/plugins/kdev-css: extragear/kdevelop/utilities/kdevelop-pg-qt
-playground/devtools/plugins/kdev-krazy2: extragear/kdevelop/kdevplatform
-playground/devtools/plugins/kdev-go: extragear/kdevelop/kdevplatform
-playground/devtools/plugins/kdev-go: extragear/kdevelop/utilities/kdevelop-pg-qt
 
 # Playground Network
 playground/network/telepathy/telepathy-morse: frameworks/kcoreaddons

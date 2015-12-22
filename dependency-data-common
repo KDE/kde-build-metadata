@@ -21,8 +21,34 @@ kdesupport/phonon/phonon-waveout: kdesupport/phonon/phonon
 kdesupport/phonon/phonon-xine: kdesupport/phonon/phonon
 
 # KDevelop
-kdereview/kdev-perforce: extragear/kdevelop/kdevplatform
 
+extragear/kdevelop/devtools/plugins/kdev-cppcheck: extragear/kdevelop/kdevelop
+extragear/kdevelop/devtools/plugins/kdev-ruby: extragear/kdevelop/kdevelop
+extragear/kdevelop/devtools/plugins/kdev-valgrind: extragear/kdevelop/kdevplatform
+extragear/kdevelop/plugins/kdev-control-flow-graph: extragear/kdevelop/kdevplatform
+extragear/kdevelop/plugins/kdev-cppcheck: extragear/kdevelop/kdevplatform
+extragear/kdevelop/plugins/kdev-crossfire: extragear/kdevelop/kdevplatform
+extragear/kdevelop/plugins/kdev-crossfire: playground/devtools/kdev-executebrowser
+extragear/kdevelop/plugins/kdev-custom-buildsystem: extragear/kdevelop/kdevplatform
+extragear/kdevelop/plugins/kdev-php-docs: extragear/kdevelop/kdevplatform
+extragear/kdevelop/plugins/kdev-php: extragear/kdevelop/kdevelop-pg-qt
+extragear/kdevelop/plugins/kdev-php: extragear/kdevelop/kdevplatform
+extragear/kdevelop/plugins/kdev-php: extragear/kdevelop/utilities/kdevelop-pg-qt
+extragear/kdevelop/plugins/kdev-python: extragear/kdevelop/kdevelop
+kdereview/kdev-perforce: extragear/kdevelop/kdevplatform
+playground/devtools/plugins/*: extragear/kdevelop/kdevplatform
+playground/devtools/plugins/kdev-clang: extragear/kdevelop/kdevelop
+playground/devtools/plugins/kdev-css: extragear/kdevelop/utilities/kdevelop-pg-qt
+playground/devtools/plugins/kdev-go: extragear/kdevelop/utilities/kdevelop-pg-qt
+playground/devtools/plugins/kdev-java: extragear/kdevelop/utilities/kdevelop-pg-qt
+playground/devtools/plugins/kdev-python: extragear/kdevelop/utilities/kdevelop-pg-qt
+playground/devtools/plugins/kdev-qmake: extragear/kdevelop/kdevelop
+playground/devtools/plugins/kdev-qmake: extragear/kdevelop/utilities/kdevelop-pg-qt
+playground/devtools/plugins/kdev-qmljs: extragear/kdevelop/kdevelop
+playground/devtools/plugins/kdev-xml: extragear/kdevelop/utilities/kdevelop-pg-qt
+playground/devtools/plugins/kdev-xtest: extragear/kdevelop/utilities/kdevelop-pg-qt
+playground/devtools/plugins/kdev-xtest: playground/devtools/veritas
+playground/devtools/veritas: extragear/kdevelop/kdevplatform
 # Krita has been split out of Calligra but still must be installed
 # after as Calligra retains a vestigial empty krita/ directory.
 calligra/krita: calligra
