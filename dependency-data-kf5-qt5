@@ -913,6 +913,10 @@ kde/pim/kdepim-apps-libs: kde/pim/kcontacts
 kde/pim/kdepim-apps-libs: kde/pim/kmime
 kde/pim/kdepim-apps-libs: frameworks/kdewebkit
 
+kde/pim/grantleetheme: general/grantlee
+kde/pim/grantleetheme: frameworks/ki18n
+kde/pim/grantleetheme: frameworks/kiconthemes
+kde/pim/grantleetheme: frameworks/knewstuff 
 
 
 
