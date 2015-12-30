@@ -973,7 +973,7 @@
         "extragear/kdevelop/plugins/kdev-php-docs": {
             "stable-qt4": "1.7",
             "latest-qt4": "1.7",
-            "kf5-qt5": "master",
+            "kf5-qt5": "",
             "stable-kf5-qt5": ""
         },
         "extragear/kdevelop/plugins/kdev-python": {
