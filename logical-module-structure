@@ -968,7 +968,7 @@
             "stable-qt4": "1.7",
             "latest-qt4": "1.7",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": ""
+            "stable-kf5-qt5": "5.0"
         },
         "extragear/kdevelop/plugins/kdev-php-docs": {
             "stable-qt4": "1.7",
