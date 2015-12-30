@@ -950,7 +950,7 @@
             "stable-qt4": "1.7",
             "latest-qt4": "1.7",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": ""
+            "stable-kf5-qt5": "5.0"
         },
         "playground/devtools/plugins/kdev-qmake": {
             "stable-qt4": "1.7",
