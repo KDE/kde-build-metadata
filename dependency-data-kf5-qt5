@@ -860,6 +860,10 @@ kde/pim/libkleo: kde/pim/kpimtextedit
 
 kde/pim/libkdepim: kde/kdepimlibs
 kde/pim/libkdepim: kde/pim/akonadi-search
+kde/pim/libkdepim: frameworks/kcodec
+kde/pim/libkdepim: kde/pim/kldap
+kde/pim/libkdepim: frameworks/kiconthemes
+kde/pim/libkdepim: frameworks/kwallet
 
 kde/pim/libksieve: kde/pim/pimcommon
 kde/pim/libksieve: kde/pim/kidentitymanagement
