@@ -565,7 +565,7 @@
         },
         "playground/pim/zanshin": {
             "stable-qt4": "",
-            "latest-qt4": "master",
+            "latest-qt4": "0.3",
             "kf5-qt5": "",
             "stable-kf5-qt5": ""
         },
