@@ -381,6 +381,7 @@ extragear/office/kbibtex: kde/kdelibs
 extragear/accessibility/simon: kde/kdelibs
 extragear/accessibility/simon: kde/kdepimlibs
 extragear/accessibility/simon: kde/kde-workspace
+extragear/accessibility/simon: playground/accessibility/libkdeaccessibilityclient
 
 # extragear/sysadmin
 extragear/sysadmin/muon: kde/kdelibs

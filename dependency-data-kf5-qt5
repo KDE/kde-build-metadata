@@ -757,6 +757,7 @@ kde/kdepimlibs: kde/pim/syndication
 kde/kdepimlibs: kde/pim/gpgmepp
 
 kde/pim/kcalcore: frameworks/kdelibs4support
+kde/pim/kcalcore: kde/workspace/plasma-workspace
 kde/pim/syndication: frameworks/kio
 kde/pim/syndication: frameworks/kcodecs
 kde/pim/kimap: frameworks/kcoreaddons
