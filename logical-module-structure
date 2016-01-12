@@ -569,25 +569,25 @@
             "kf5-qt5": "",
             "stable-kf5-qt5": ""
         },
-        "playground/base/kdepim-addons": {
+        "kde/pim/kdepim-addons": {
             "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         },
-        "playground/pim/libgravatar": {
+        "kde/pim/libgravatar": {
         	"stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         },
-        "playground/pim/pimcommon": {
+        "kde/pim/pimcommon": {
         	"stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         },
-        "playground/pim/libkdepim": {
+        "kde/pim/libkdepim": {
         	"stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master",
@@ -611,85 +611,85 @@
             "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         },
-        "playground/pim/libgravatar": {
+        "kde/pim/libgravatar": {
             "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         },
-        "playground/pim/calendarsupport": {
+        "kde/pim/calendarsupport": {
             "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         },
-        "playground/pim/grantleetheme": {
+        "kde/pim/grantleetheme": {
             "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         },  
-        "playground/pim/incidenceeditor": {
+        "kde/pim/incidenceeditor": {
             "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         },  
-        "playground/pim/kdgantt2": {
+        "kde/pim/kdgantt2": {
             "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         },
-        "playground/pim/libkdepim": {
+        "kde/pim/libkdepim": {
             "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         },
-        "playground/pim/libkleo": {
+        "kde/pim/libkleo": {
             "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         },
-        "playground/pim/libksieve": {
+        "kde/pim/libksieve": {
             "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         },
-        "playground/pim/mailcommon": {
+        "kde/pim/mailcommon": {
             "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         },
-        "playground/pim/mailimporter": {
+        "kde/pim/mailimporter": {
             "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         },
-        "playground/pim/pimcommon": {
+        "kde/pim/pimcommon": {
             "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         },
-        "playground/pim/eventviews": {
+        "kde/pim/eventviews": {
             "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         },
-        "playground/pim/messagelib": {
+        "kde/pim/messagelib": {
             "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         },
-        "playground/pim/kdepim-apps-libs": {
+        "kde/pim/kdepim-apps-libs": {
             "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master",
