@@ -943,7 +943,7 @@ kde/pim/messagelib: kde/pim/incidenceeditor
 kde/pim/messagelib: general/grantlee
 kde/pim/messagelib: kde/pim/libgravatar
 kde/pim/messagelib: kde/pim/libkleo
-kde/pim/messagelib: playground/base/kdepim-addons
+
 
 kde/kdepim: kde/pim/messagelib
 kde/kdepim: kde/pim/eventviews
