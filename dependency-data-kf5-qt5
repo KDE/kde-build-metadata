@@ -1303,6 +1303,13 @@ calligra: playground/libs/kdb
 calligra: playground/libs/kproperty
 calligra: playground/libs/kreport
 
+# Kexi
+calligra/kexi: frameworks/kf5umbrella
+calligra/kexi: playground/libs/kdb
+calligra/kexi: playground/libs/kproperty
+calligra/kexi: playground/libs/kreport
+calligra/kexi: kde/kdeedu/marble
+
 # Krita
 calligra/krita: frameworks/kf5umbrella
 calligra/krita: kde/kdegraphics/libs/libkdcraw
@@ -1386,10 +1393,10 @@ playground/libs/kproperty: frameworks/kcoreaddons
 playground/libs/kproperty: frameworks/kguiaddons
 playground/libs/kproperty: frameworks/kwidgetsaddons
 
+playground/libs/kreport: frameworks/kconfig
 playground/libs/kreport: frameworks/kcoreaddons
 playground/libs/kreport: frameworks/kguiaddons
 playground/libs/kreport: frameworks/kwidgetsaddons
-playground/libs/kreport: frameworks/kross
 playground/libs/kreport: playground/libs/kproperty
 
 playground/libs/kdb:frameworks/kcoreaddons

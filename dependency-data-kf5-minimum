@@ -1039,6 +1039,12 @@ calligra: kde/kdegraphics/libs/libkdcraw
 calligra: extragear/graphics/kdiagram
 calligra: kde/kdegraphics/okular
 
+# Kexi
+calligra/kexi: frameworks/kf5umbrella
+calligra/kexi: playground/libs/kdb
+calligra/kexi: playground/libs/kproperty
+calligra/kexi: playground/libs/kreport
+
 # Krita
 calligra/krita: frameworks/kf5umbrella
 calligra/krita: kde/kdegraphics/libs/libkdcraw
