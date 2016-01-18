@@ -736,6 +736,7 @@ kde/applications/konsole: frameworks/kdesu
 
 kde/kdeutils/ark: frameworks/kdelibs4support
 
+
 # KDE PIM Dependencies
 kde/kdepimlibs: kde/pim/akonadi
 kde/kdepimlibs: kdesupport/prison
@@ -997,6 +998,18 @@ playground/base/kdepim-addons: kde/pim/pimcommon
 playground/base/kdepim-addons: kde/pim/libgravatar
 
 #Akonadi
+kde/pim/akonadi: frameworks/kitemviews
+kde/pim/akonadi: frameworks/kio
+kde/pim/akonadi: frameworks/kconfig
+kde/pim/akonadi: frameworks/ki18n
+kde/pim/akonadi: frameworks/kdesignerplugin
+kde/pim/akonadi: frameworks/kdbusaddons
+kde/pim/akonadi: frameworks/kitemmodels
+kde/pim/akonadi: frameworks/kguiaddons
+kde/pim/akonadi: frameworks/kiconthemes
+kde/pim/akonadi: frameworks/kwindowsystem
+kde/pim/akonadi: frameworks/kcompletion
+
 kde/pim/akonadi-calendar: kde/pim/kmailtransport
 kde/pim/akonadi-search: frameworks/ki18n
 kde/pim/akonadi-search: frameworks/kconfig
