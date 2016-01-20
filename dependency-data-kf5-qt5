@@ -1292,14 +1292,13 @@ extragear/graphics/skanlite: kde/kdegraphics/libs/libksane
 # Calligra
 calligra: frameworks/kf5umbrella
 calligra: kdesupport/qca
+calligra: kdesupport/phonon/phonon
 calligra: kde/pim/kcalcore
 calligra: kde/pim/kcontacts
 calligra: kde/kdepimlibs # #needed because of akonadi-contacts and akonadi-core
 calligra: kde/kdeedu/marble
-calligra: kde/kdegraphics/libs/libkdcraw
-calligra: extragear/graphics/kdiagram
 calligra: kde/kdegraphics/okular
-calligra: playground/libs/kdb
+calligra: extragear/graphics/kdiagram
 calligra: playground/libs/kproperty
 calligra: playground/libs/kreport
 
