@@ -1306,7 +1306,7 @@
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Plasma/5.5"
         },
-        "calligra": {
+        "calligra/calligra": {
             "stable-qt4": "calligra/2.9",
             "latest-qt4": "",
             "kf5-qt5": "master",

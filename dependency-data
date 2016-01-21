@@ -399,14 +399,14 @@ extragear/sdk/massif-visualizer: kde/kdelibs
 extragear/games/knights: kde/kdegames/libkdegames
 
 # office suites
-calligra: kde/kdelibs
-calligra: frameworks/kactivities
-calligra: kdesupport/qca
-calligra: kde/kdepimlibs
-calligra: kde/kdeedu/marble
-calligra: kde/kdegraphics/libs/libkdcraw
-calligra: kde/kdegraphics/okular
-calligra: kdesupport/soprano[master]
+calligra/calligra: kde/kdelibs
+calligra/calligra: frameworks/kactivities
+calligra/calligra: kdesupport/qca
+calligra/calligra: kde/kdepimlibs
+calligra/calligra: kde/kdeedu/marble
+calligra/calligra: kde/kdegraphics/libs/libkdcraw
+calligra/calligra: kde/kdegraphics/okular
+calligra/calligra: kdesupport/soprano[master]
 
 # kdereview
 kdereview/kwave: kde/kdelibs

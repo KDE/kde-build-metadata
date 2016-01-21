@@ -49,6 +49,3 @@ playground/devtools/plugins/kdev-xml: extragear/kdevelop/utilities/kdevelop-pg-q
 playground/devtools/plugins/kdev-xtest: extragear/kdevelop/utilities/kdevelop-pg-qt
 playground/devtools/plugins/kdev-xtest: playground/devtools/veritas
 playground/devtools/veritas: extragear/kdevelop/kdevplatform
-# Krita has been split out of Calligra but still must be installed
-# after as Calligra retains a vestigial empty krita/ directory.
-calligra/krita: calligra

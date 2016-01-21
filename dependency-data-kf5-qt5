@@ -1290,17 +1290,17 @@ extragear/graphics/kipi-plugins/kipi-plugins-doc: extragear/graphics/kipi-plugin
 extragear/graphics/skanlite: kde/kdegraphics/libs/libksane
 
 # Calligra
-calligra: frameworks/kf5umbrella
-calligra: kdesupport/qca
-calligra: kdesupport/phonon/phonon
-calligra: kde/pim/kcalcore
-calligra: kde/pim/kcontacts
-calligra: kde/kdepimlibs # #needed because of akonadi-contacts and akonadi-core
-calligra: kde/kdeedu/marble
-calligra: kde/kdegraphics/okular
-calligra: extragear/graphics/kdiagram
-calligra: playground/libs/kproperty
-calligra: playground/libs/kreport
+calligra/calligra: frameworks/kf5umbrella
+calligra/calligra: kdesupport/qca
+calligra/calligra: kdesupport/phonon/phonon
+calligra/calligra: kde/pim/kcalcore
+calligra/calligra: kde/pim/kcontacts
+calligra/calligra: kde/kdepimlibs # #needed because of akonadi-contacts and akonadi-core
+calligra/calligra: kde/kdeedu/marble
+calligra/calligra: kde/kdegraphics/okular
+calligra/calligra: extragear/graphics/kdiagram
+calligra/calligra: playground/libs/kproperty
+calligra/calligra: playground/libs/kreport
 
 # Kexi
 calligra/kexi: frameworks/kf5umbrella
