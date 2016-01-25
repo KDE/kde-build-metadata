@@ -1054,6 +1054,12 @@
             "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         },
+        "extragear/network/ktorrent": {
+            "stable-qt4": "4.3",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
+        },
         "kde/kdenetwork/kdenetwork-strigi-analyzers": {
             "stable-qt4": "Applications/15.12",
             "latest-qt4": "master",
