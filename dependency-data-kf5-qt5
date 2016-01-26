@@ -597,6 +597,8 @@ kde/workspace/kscreen: frameworks/kxmlgui
 kde/workspace/kscreen: frameworks/kglobalaccel
 kde/workspace/kscreen: kde/workspace/libkscreen
 
+kde/workspace/libkscreen: kde/workspace/kwayland
+
 # Bluedevil
 kde/workspace/bluedevil: frameworks/kcoreaddons
 kde/workspace/bluedevil: frameworks/kwidgetsaddons
