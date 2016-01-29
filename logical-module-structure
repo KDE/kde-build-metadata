@@ -1175,10 +1175,10 @@
             "stable-kf5-qt5": ""
         },
         "extragear/multimedia/kamoso": {
-            "stable-qt4": "2.1",
+            "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": ""
+            "stable-kf5-qt5": "3.1"
         },
         "kde/kdemultimedia/mplayerthumbs": {
             "stable-qt4": "Applications/15.12",
