@@ -578,6 +578,7 @@ kde/workspace/plasma-desktop: kde/workspace/oxygen
 kde/workspace/plasma-nm: frameworks/modemmanager-qt
 kde/workspace/plasma-nm: frameworks/networkmanager-qt
 kde/workspace/plasma-nm: frameworks/plasma-framework
+kde/workspace/plasma-nm: kdesupport/qca
 
 kde/workspace/polkit-kde-agent-1: kdesupport/polkit-qt-1
 kde/workspace/polkit-kde-agent-1: frameworks/ki18n
