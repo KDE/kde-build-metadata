@@ -1484,6 +1484,7 @@ kdereview/kdots: kde/kdegames/libkdegames
 
 # A standalone application, no need to install KF5
 extragear/pim/trojita: -frameworks/kf5umbrella
+extragear/pim/trojita: kdesupport/qca
 
 # Playground devtools
 playground/devtools/kdesvn: frameworks/ki18n
