@@ -566,7 +566,7 @@
         "playground/pim/zanshin": {
             "stable-qt4": "",
             "latest-qt4": "0.3",
-            "kf5-qt5": "",
+            "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         },
         "kde/pim/kdepim-addons": {
