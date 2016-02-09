@@ -1499,6 +1499,17 @@ playground/network/telepathy/telepathy-morse: frameworks/kcoreaddons
 #Playground PIM
 playground/libs/kasync: frameworks/kcoreaddons
 
+# Zanshin
+playground/pim/zanshin: frameworks/krunner
+playground/pim/zanshin: frameworks/kwallet
+playground/pim/zanshin: kde/kdepimlibs
+playground/pim/zanshin: kde/pim/akonadi-calendar
+playgroung/pim/zanshin: kde/pim/akonadi-search
+playground/pim/zanshin: kde/pim/kldap
+playground/pim/zanshin: kde/pim/kidentitymanagement
+playground/pim/zanshin: kde/pim/kontactinterface
+playground/pim/zanshin: kde/kdepim-runtime
+
 # The generic dependency on all frameworks
 kde/*: frameworks/kf5umbrella
 extragear/*: frameworks/kf5umbrella
