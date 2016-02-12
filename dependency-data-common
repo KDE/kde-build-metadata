@@ -49,3 +49,4 @@ playground/devtools/plugins/kdev-xml: extragear/kdevelop/utilities/kdevelop-pg-q
 playground/devtools/plugins/kdev-xtest: extragear/kdevelop/utilities/kdevelop-pg-qt
 playground/devtools/plugins/kdev-xtest: playground/devtools/veritas
 playground/devtools/veritas: extragear/kdevelop/kdevplatform
+playground/devtools/kdev-*: extragear/kdevelop/kdevplatform
