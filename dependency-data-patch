@@ -1057,10 +1057,10 @@ kde/workspace/kde-gtk-config: frameworks/knewstuff
 kde/workspace/kde-gtk-config: frameworks/karchive
 kde/workspace/kde-gtk-config: frameworks/kcmutils
 kde/workspace/kde-gtk-config: frameworks/kauth
-playground/base/ksshaskpass: frameworks/kcoreaddons
-playground/base/ksshaskpass: frameworks/ki18n
-playground/base/ksshaskpass: frameworks/kwallet
-playground/base/ksshaskpass: frameworks/kwidgetsaddons
+kde/workspace/ksshaskpass: frameworks/kcoreaddons
+kde/workspace/ksshaskpass: frameworks/ki18n
+kde/workspace/ksshaskpass: frameworks/kwallet
+kde/workspace/ksshaskpass: frameworks/kwidgetsaddons
 kdereview/kdeconnect-kde: kdesupport/qca
 kdereview/kdeconnect-kde: frameworks/kio
 kdereview/kdeconnect-kde: frameworks/ki18n
