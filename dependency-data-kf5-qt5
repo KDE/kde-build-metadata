@@ -196,15 +196,9 @@ frameworks/kwallet: frameworks/kservice
 frameworks/kwallet: frameworks/kwindowsystem
 frameworks/kwallet: frameworks/kwidgetsaddons
 frameworks/kactivities: frameworks/kconfig
-frameworks/kactivities: frameworks/ki18n
-frameworks/kactivities: frameworks/kdbusaddons
 frameworks/kactivities: frameworks/kwindowsystem
 frameworks/kactivities: frameworks/kcoreaddons
-frameworks/kactivities: frameworks/kservice
-frameworks/kactivities: frameworks/kcmutils
 frameworks/kactivities: frameworks/kio
-frameworks/kactivities: frameworks/kdeclarative
-frameworks/kactivities: frameworks/kpackage
 frameworks/kpackage: frameworks/karchive
 frameworks/kpackage: frameworks/kcoreaddons
 frameworks/kpackage: frameworks/ki18n
@@ -325,6 +319,7 @@ frameworks/khtml: kdesupport/phonon/phonon
 # Lie about kf5umbrella: it doesn't depend on anything, but we use it as way to depend on all frameworks
 frameworks/kf5umbrella: frameworks/attica
 frameworks/kf5umbrella: frameworks/kactivities
+frameworks/kf5umbrella: frameworks/kactivities-stats
 frameworks/kf5umbrella: frameworks/karchive
 frameworks/kf5umbrella: frameworks/kauth
 frameworks/kf5umbrella: frameworks/kbookmarks
@@ -541,6 +536,19 @@ kde/workspace/plasma-workspace: kde/workspace/libkscreen
 kde/workspace/plasma-workspace: frameworks/baloo
 kde/workspace/plasma-workspace: kde/workspace/kwayland
 kde/workspace/plasma-workspace: kde/workspace/kscreenlocker
+kde/workspace/plasma-workspace: kde/workspace/kactivitymanagerd
+
+# KActivityManagerd
+kde/workspace/kactivitymanagerd: frameworks/kconfig
+kde/workspace/kactivitymanagerd: frameworks/ki18n
+kde/workspace/kactivitymanagerd: frameworks/kdbusaddons
+kde/workspace/kactivitymanagerd: frameworks/kwindowsystem
+kde/workspace/kactivitymanagerd: frameworks/kcoreaddons
+kde/workspace/kactivitymanagerd: frameworks/kservice
+kde/workspace/kactivitymanagerd: frameworks/kcmutils
+kde/workspace/kactivitymanagerd: frameworks/kio
+kde/workspace/kactivitymanagerd: frameworks/kdeclarative
+kde/workspace/kactivitymanagerd: frameworks/kpackage
 
 # System Settings
 kde/workspace/systemsettings: frameworks/kitemviews
@@ -932,7 +940,7 @@ kde/pim/kdepim-apps-libs: frameworks/kdewebkit
 kde/pim/grantleetheme: general/grantlee
 kde/pim/grantleetheme: frameworks/ki18n
 kde/pim/grantleetheme: frameworks/kiconthemes
-kde/pim/grantleetheme: frameworks/knewstuff 
+kde/pim/grantleetheme: frameworks/knewstuff
 
 
 
