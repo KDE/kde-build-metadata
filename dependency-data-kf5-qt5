@@ -199,6 +199,7 @@ frameworks/kactivities: frameworks/kconfig
 frameworks/kactivities: frameworks/kwindowsystem
 frameworks/kactivities: frameworks/kcoreaddons
 frameworks/kactivities: frameworks/kio
+frameworks/kactivities-stats: frameworks/kactivities
 frameworks/kpackage: frameworks/karchive
 frameworks/kpackage: frameworks/kcoreaddons
 frameworks/kpackage: frameworks/ki18n
