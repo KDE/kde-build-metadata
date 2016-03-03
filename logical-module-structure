@@ -145,8 +145,8 @@
             "stable-kf5-qt5": "master"
         },
         "kde/kdelibs/baloo-widgets" : {
-            "stable-qt4": "KDE/4.14",
-            "latest-qt4": "KDE/4.14",
+            "stable-qt4": "",
+            "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/15.12"
         },
