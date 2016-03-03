@@ -55,11 +55,11 @@ kde/kde-runtime: frameworks/attica[qt4]
 kde/kde-runtime: kde/kdepimlibs
 kde/kde-runtime: kde/applications/kate
 
-# baloo*
-frameworks/baloo: kde/kdepimlibs
-frameworks/baloo: frameworks/kfilemetadata
-kde/kdelibs/baloo-widgets: frameworks/baloo
-kde/kdelibs/nepomuk-core: frameworks/baloo
+# baloo* Per maintainer: no longer supported in qt4.
+#frameworks/baloo: kde/kdepimlibs
+#frameworks/baloo: frameworks/kfilemetadata
+#kde/kdelibs/baloo-widgets: frameworks/baloo
+#kde/kdelibs/nepomuk-core: frameworks/baloo
 
 # This is redundant as above, but might be useful for other scripts.
 # Note that kactivities still _optionally_ depends on nepomuk-core for KDE 4 as of Mar 2014.
@@ -68,8 +68,8 @@ kde/kdelibs/nepomuk-widgets: kde/kdelibs/nepomuk-core
 
 # kde-baseapps
 kde/applications/kde-baseapps: frameworks/kactivities
-kde/applications/kde-baseapps: kde/kdelibs/baloo-widgets
-kde/applications/kde-baseapps: frameworks/baloo
+#kde/applications/kde-baseapps: kde/kdelibs/baloo-widgets
+#kde/applications/kde-baseapps: frameworks/baloo
 kde/applications/kde-baseapps: kde/applications/kate
 
 # Kate needs KActivities
@@ -90,7 +90,7 @@ kde/kdeplasma-addons: kde/kdeedu/marble
 kde/kdepimlibs: kde/kdelibs
 kde/kdepimlibs: kdesupport/akonadi
 kde/kdepimlibs: kdesupport/prison[master]
-kde/kdepim: frameworks/baloo
+#kde/kdepim: frameworks/baloo
 kde/kdepim: frameworks/kactivities
 kde/kdepim: kde/kdepimlibs
 kde/kdepim: extragear/libs/libkgapi
@@ -150,7 +150,7 @@ kde/kdegames/picmi: kde/kdegames/libkdegames
 kde/kdegraphics/ksaneplugin: kde/kdegraphics/libs/libksane
 kde/kdegraphics/kdegraphics-thumbnailers: kde/kdegraphics/libs/libkexiv2
 kde/kdegraphics/kdegraphics-thumbnailers: kde/kdegraphics/libs/libkdcraw
-kde/kdegraphics/gwenview: frameworks/baloo
+#kde/kdegraphics/gwenview: frameworks/baloo
 kde/kdegraphics/gwenview: kde/applications/kde-baseapps
 kde/kdegraphics/gwenview: kde/kdegraphics/libs/libkexiv2
 kde/kdegraphics/gwenview: kde/kdegraphics/libs/libkipi
@@ -278,7 +278,7 @@ extragear/base/kwebkitpart: kde/kdelibs
 extragear/base/polkit-kde-agent-1: kde/kdelibs
 extragear/base/polkit-kde-agent-1: kdesupport/polkit-qt-1
 extragear/base/milou: kde/kdelibs
-extragear/base/milou: frameworks/baloo
+#extragear/base/milou: frameworks/baloo
 extragear/base/milou: frameworks/kfilemetadata
 extragear/base/milou: kde/kdepimlibs
 
@@ -316,7 +316,7 @@ extragear/multimedia/k3b: kde/kdemultimedia/libkcddb
 extragear/multimedia/plasma-mediacenter: kde/kdelibs
 extragear/multimedia/plasma-mediacenter: kde/kdelibs/nepomuk-core
 extragear/multimedia/plasma-mediacenter: kde/kde-workspace
-extragear/multimedia/plasma-mediacenter: frameworks/baloo
+#extragear/multimedia/plasma-mediacenter: frameworks/baloo
 extragear/multimedia/kamoso: kde/kdelibs
 extragear/multimedia/kamoso: kde/kdegraphics/libs/libkipi
 extragear/multimedia/kdenlive: kde/kdelibs
@@ -340,7 +340,7 @@ extragear/graphics/digikam: kde/kdegraphics/libs/libkface
 extragear/graphics/digikam: kde/kdegraphics/libs/libkipi
 extragear/graphics/digikam: kde/kdegraphics/libs/libkexiv2
 extragear/graphics/digikam: kde/kdegraphics/libs/libkdcraw
-extragear/graphics/digikam: frameworks/baloo
+#extragear/graphics/digikam: frameworks/baloo
 extragear/graphics/digikam: kde/kdeedu/marble
 extragear/graphics/kphotoalbum: kde/kdelibs
 extragear/graphics/kphotoalbum: kde/kdegraphics/libs/libkipi
@@ -438,7 +438,7 @@ kdereview/kdeconnect-kde: kde/kde-workspace
 
 # Playground PIM
 playground/pim/zanshin: kde/kdelibs
-playground/pim/zanshin: frameworks/baloo
+#playground/pim/zanshin: frameworks/baloo
 playground/pim/zanshin: kde/kdepimlibs
 playground/pim/zanshin: kde/kdepim-runtime
 
