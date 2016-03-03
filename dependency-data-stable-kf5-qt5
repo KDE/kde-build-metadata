@@ -192,16 +192,13 @@ frameworks/kwallet: frameworks/knotifications
 frameworks/kwallet: frameworks/kservice
 frameworks/kwallet: frameworks/kwindowsystem
 frameworks/kwallet: frameworks/kwidgetsaddons
-frameworks/kactivities: frameworks/kconfig
 frameworks/kactivities: frameworks/ki18n
 frameworks/kactivities: frameworks/kdbusaddons
-frameworks/kactivities: frameworks/kwindowsystem
-frameworks/kactivities: frameworks/kcoreaddons
 frameworks/kactivities: frameworks/kservice
 frameworks/kactivities: frameworks/kcmutils
-frameworks/kactivities: frameworks/kio
 frameworks/kactivities: frameworks/kdeclarative
 frameworks/kactivities: frameworks/kpackage
+frameworks/kactivities-stats: frameworks/kactivities
 frameworks/kpackage: frameworks/karchive
 frameworks/kpackage: frameworks/kcoreaddons
 frameworks/kpackage: frameworks/ki18n
