@@ -874,14 +874,21 @@ kde/pim/eventviews: kde/pim/kidentitymanagement
 kde/pim/eventviews: kde/pim/kdgantt2
 
 
-kde/pim/libkleo: kde/pim/pimcommon
 kde/pim/libkleo: frameworks/ki18n
-kde/pim/libkleo: kde/pim/kmime
 kde/pim/libkleo: frameworks/kconfig
-kde/pim/libkleo: frameworks/ktextwidgets
+kde/pim/libkleo: frameworks/kwidgetsaddons
+kde/pim/libkleo: frameworks/kcompletion
+kde/pim/libkleo: frameworks/kwindowsystem
+kde/pim/libkleo: frameworks/kcoreaddons
 kde/pim/libkleo: kde/pim/gpgmepp
 kde/pim/libkleo: kde/pim/kpimtextedit
 
+kde/pim/kleopatra: kde/pim/libkleo
+kde/pim/kleopatra: kde/pim/kmime
+kde/pim/kleopatra: frameworks/kxmlgui
+kde/pim/kleopatra: frameworks/kdbusaddons
+kde/pim/kleopatra: frameworks/kconfigwidgets
+kde/pim/kleopatra: frameworks/kcmutils
 
 kde/pim/libkdepim: kde/kdepimlibs
 kde/pim/libkdepim: kde/pim/akonadi-search
