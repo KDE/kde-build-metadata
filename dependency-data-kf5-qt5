@@ -1169,6 +1169,7 @@ extragear/sysadmin/kpmcore: frameworks/ki18n
 extragear/sysadmin/kpmcore: frameworks/kiconthemes
 extragear/sysadmin/kpmcore: frameworks/kio
 extragear/sysadmin/kpmcore: frameworks/kservice
+extragear/sysadmin/kpmcore: frameworks/kxmlgui
 extragear/sysadmin/partitionmanager: extragear/sysadmin/kpmcore
 extragear/sysadmin/partitionmanager: frameworks/kconfig
 extragear/sysadmin/partitionmanager: frameworks/kcrash
