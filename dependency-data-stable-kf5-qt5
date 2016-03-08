@@ -925,6 +925,7 @@ kde/kdeedu/kwordquiz: kde/kdeedu/libkeduvocdocument
 
 # KDE Plasma Addons
 kde/kdeplasma-addons: frameworks/krunner
+kde/kdeplasma-addons: kde/workspace/plasma-workspace
 
 # Extragear SDK
 extragear/sdk/plasma-sdk: frameworks/kf5umbrella
