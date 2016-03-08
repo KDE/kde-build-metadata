@@ -306,7 +306,7 @@ extragear/network/telepathy/*: kde/kdelibs
 extragear/network/telepathy/ktp-call-ui: kde/kdenetwork/ktp-common-internals
 extragear/network/kio-gopher: kde/kdelibs
 extragear/network/kio-mtp: kde/kdelibs
-
+extragear/network/smb4k: kde/kde-workspace
 
 # extragear/multimedia
 extragear/multimedia/amarok: kde/kdelibs
