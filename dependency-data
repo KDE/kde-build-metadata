@@ -350,6 +350,7 @@ extragear/graphics/kphotoalbum: kde/kdegraphics/libs/libkface
 extragear/graphics/kphotoalbum: extragear/libs/libkgeomap
 extragear/graphics/skanlite: kde/kdelibs
 extragear/graphics/skanlite: kde/kdegraphics/libs/libksane
+extragear/graphics/skanlite: kdesupport/extra-cmake-modules
 extragear/graphics/kxstitch: kde/kdelibs
 
 # extragear/utils
