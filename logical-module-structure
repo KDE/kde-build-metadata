@@ -1053,6 +1053,12 @@
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/15.12"
         },
+	"kde/kdenetwork/ktp-call-ui": {
+            "stable-qt4": "kde-telepathy-0.9",
+            "latest-qt4": "kde-telepathy-0.9",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "master"
+        },
         "kde/kdenetwork/kdenetwork-filesharing": {
             "stable-qt4": "Applications/15.08",
             "latest-qt4": "",
