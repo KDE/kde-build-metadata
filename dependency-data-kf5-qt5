@@ -656,6 +656,7 @@ kde/workspace/discover: frameworks/ki18n
 kde/workspace/discover: frameworks/kconfigwidgets
 kde/workspace/discover: frameworks/knotifications
 kde/workspace/discover: frameworks/kdeclarative
+kde/workspace/discover: extragear/sysadmin/libqapt
 
 kdereview/plasma-pa: frameworks/kconfigwidgets
 kdereview/plasma-pa: frameworks/kcoreaddons
