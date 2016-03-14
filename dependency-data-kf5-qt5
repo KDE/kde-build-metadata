@@ -1042,7 +1042,16 @@ kde/pim/akonadi: frameworks/kiconthemes
 kde/pim/akonadi: frameworks/kwindowsystem
 kde/pim/akonadi: frameworks/kcompletion
 
+kde/pim/akonadi-calendar: frameworks/kio
+kde/pim/akonadi-calendar: frameworks/kwallet
+kde/pim/akonadi-calendar: frameworks/kcodecs
+kde/pim/akonadi-calendar: kde/kdepimlibs
 kde/pim/akonadi-calendar: kde/pim/kmailtransport
+kde/pim/akonadi-calendar: kde/pim/kcontacts
+kde/pim/akonadi-calendar: kde/pim/kidentitymanagement
+kde/pim/akonadi-calendar: kde/pim/kcalcore
+kde/pim/akonadi-calendar: kde/pim/kcalutils
+
 kde/pim/akonadi-search: frameworks/ki18n
 kde/pim/akonadi-search: frameworks/kconfig
 kde/pim/akonadi-search: frameworks/kcrash
