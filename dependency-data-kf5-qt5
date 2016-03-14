@@ -511,6 +511,7 @@ kde/workspace/khelpcenter: frameworks/kinit
 kde/workspace/khelpcenter: frameworks/kcmutils
 kde/workspace/khelpcenter: frameworks/khtml
 kde/workspace/khelpcenter: frameworks/kdelibs4support
+kde/workspace/khelpcenter: general/grantlee
 
 # KDE CLI Tools
 kde/workspace/kde-cli-tools: frameworks/kconfig
