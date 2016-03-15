@@ -1193,6 +1193,7 @@ extragear/sysadmin/partitionmanager: frameworks/kio
 extragear/sysadmin/partitionmanager: frameworks/kservice
 extragear/sysadmin/partitionmanager: frameworks/kxmlgui
 extragear/sysadmin/partitionmanager: frameworks/kwidgetsaddons
+extragear/sysadmin/apper: kde/workspace/plasma-workspace
 
 # kdesdk
 kde/kdesdk/kompare: kde/kdesdk/libkomparediff2

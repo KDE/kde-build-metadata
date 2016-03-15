@@ -942,6 +942,7 @@ kde/workspace/muon: frameworks/ki18n
 kde/workspace/muon: frameworks/kconfigwidgets
 kde/workspace/muon: frameworks/knotifications
 kde/workspace/muon: frameworks/kdeclarative
+extragear/sysadmin/apper: kde/workspace/plasma-workspace
 
 # kdesdk
 kde/kdesdk/kompare: kde/kdesdk/libkomparediff2
