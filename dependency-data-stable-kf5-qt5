@@ -496,11 +496,11 @@ kde/workspace/oxygen: frameworks/kdelibs4support
 kde/workspace/oxygen: kde/workspace/kdecoration
 
 # KHelpCenter
-kde/workspace/khelpcenter: frameworks/kconfig
-kde/workspace/khelpcenter: frameworks/kinit
-kde/workspace/khelpcenter: frameworks/kcmutils
-kde/workspace/khelpcenter: frameworks/khtml
-kde/workspace/khelpcenter: frameworks/kdelibs4support
+kde/applications/khelpcenter: frameworks/kconfig
+kde/applications/khelpcenter: frameworks/kinit
+kde/applications/khelpcenter: frameworks/kcmutils
+kde/applications/khelpcenter: frameworks/khtml
+kde/applications/khelpcenter: frameworks/kdelibs4support
 
 # KDE CLI Tools
 kde/workspace/kde-cli-tools: frameworks/kconfig
@@ -529,7 +529,7 @@ kde/workspace/plasma-workspace: frameworks/networkmanager-qt
 kde/workspace/plasma-workspace: kde/workspace/libksysguard
 kde/workspace/plasma-workspace: kde/workspace/kwin
 kde/workspace/plasma-workspace: kde/workspace/milou
-kde/workspace/plasma-workspace: kde/workspace/khelpcenter
+kde/workspace/plasma-workspace: kde/applications/khelpcenter
 kde/workspace/plasma-workspace: kde/workspace/kde-cli-tools
 kde/workspace/plasma-workspace: kde/kdenetwork/kio-extras
 kde/workspace/plasma-workspace: kde/workspace/breeze
@@ -960,7 +960,7 @@ extragear/multimedia/kamoso: frameworks/ki18n
 extragear/multimedia/kamoso: playground/libs/purpose
 
 # KDevelop
-extragear/kdevelop/kdevelop: kde/workspace/khelpcenter
+extragear/kdevelop/kdevelop: kde/applications/khelpcenter
 extragear/kdevelop/kdevelop: kde/workspace/libksysguard
 extragear/kdevelop/kdevelop: extragear/kdevelop/kdevelop-pg-qt
 extragear/kdevelop/kdevelop: extragear/kdevelop/kdevplatform

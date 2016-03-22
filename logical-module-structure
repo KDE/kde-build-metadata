@@ -1416,6 +1416,12 @@
             "kf5-qt5": "frameworks",
             "stable-kf5-qt5": ""
         },
+        "kde/applications/khelpcenter" : {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "Plasma/5.6"
+        },
         "playground/libs/kproperty" : {
             "stable-qt4": "",
             "latest-qt4": "",
