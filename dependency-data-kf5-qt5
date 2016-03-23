@@ -619,6 +619,7 @@ kde/workspace/kscreen: frameworks/kglobalaccel
 kde/workspace/kscreen: kde/workspace/libkscreen
 
 kde/workspace/libkscreen: kde/workspace/kwayland
+kde/workspace/libkscreen: frameworks/oxygen-icons
 
 # Bluedevil
 kde/workspace/bluedevil: frameworks/kcoreaddons
