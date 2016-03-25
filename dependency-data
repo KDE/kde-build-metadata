@@ -332,7 +332,6 @@ extragear/graphics/kipi-plugins: kde/kdegraphics/libs/libkexiv2
 extragear/graphics/kipi-plugins: kde/kdegraphics/libs/libkdcraw
 extragear/graphics/kipi-plugins: extragear/libs/libkgeomap
 extragear/graphics/kipi-plugins: kde/kdegraphics/libs/libkface
-extragear/graphics/kipi-plugins: extragear/libs/libkvkontakte
 extragear/graphics/kipi-plugins: extragear/libs/libmediawiki
 extragear/graphics/digikam: kde/kdelibs
 extragear/graphics/digikam: kde/kdepimlibs
