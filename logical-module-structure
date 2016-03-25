@@ -26,9 +26,9 @@
             "latest-qt4": "4.8"
         },
         "qt5": {
-            "kf5-qt5": "5.5",
-            "kf5-minimum": "5.3",
-            "stable-kf5-qt5": "5.4"
+            "kf5-qt5": "5.6",
+            "kf5-minimum": "5.4",
+            "stable-kf5-qt5": "5.5"
         },
         "frameworks/*" : {
             "stable-qt4": "",
