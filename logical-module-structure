@@ -564,7 +564,7 @@
         },
         "kdesupport/soprano": {
             "stable-qt4": "2.9",
-            "latest-qt4": "master",
+            "latest-qt4": "2.9",
             "kf5-qt5": "",
             "stable-kf5-qt5": ""
         },
