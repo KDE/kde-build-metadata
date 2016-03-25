@@ -1036,9 +1036,9 @@
             "stable-kf5-qt5": ""
         },
         "extragear/sdk/massif-visualizer": {
-            "stable-qt4": "",
-            "latest-qt4": "master",
-            "kf5-qt5": "frameworks",
+            "stable-qt4": "v0.3",
+            "latest-qt4": "v0.3.90",
+            "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         },
         "extragear/network/telepathy/*": {
