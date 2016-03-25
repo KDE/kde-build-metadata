@@ -595,6 +595,21 @@ kde/workspace/kscreen: frameworks/kxmlgui
 kde/workspace/kscreen: frameworks/kglobalaccel
 kde/workspace/kscreen: kde/workspace/libkscreen
 
+kde/workspace/libkscreen: kde/workspace/kwayland
+kde/workspace/libkscreen: frameworks/oxygen-icons
+
+kde/workspace/discover: frameworks/solid
+kde/workspace/discover: frameworks/kwidgetsaddons
+kde/workspace/discover: frameworks/kconfig
+kde/workspace/discover: frameworks/kwallet
+kde/workspace/discover: frameworks/kdbusaddons
+kde/workspace/discover: frameworks/ki18n
+kde/workspace/discover: frameworks/kconfigwidgets
+kde/workspace/discover: frameworks/knotifications
+kde/workspace/discover: frameworks/kdeclarative
+kde/workspace/discover: extragear/sysadmin/libqapt
+kde/workspace/discover: extragear/sysadmin/libdebconf-kde
+
 kde/workspace/powerdevil: frameworks/kauth
 kde/workspace/powerdevil: frameworks/kidletime
 kde/workspace/powerdevil: frameworks/kconfig
