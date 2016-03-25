@@ -159,6 +159,7 @@ extragear/graphics/ksnapshot: kde/kdegraphics/libs/libkipi
 kde/kdegraphics/okular: extragear/base/plasma-mobile
 kde/kdegraphics/okular: kde/kdegraphics/libs/libkexiv2
 kde/kdegraphics/okular: kde/kdegraphics/kdegraphics-mobipocket
+extragear/graphics/symboleditor: kde/kde-workspace
 
 # kdemultimedia
 kde/kdemultimedia/kscd: kde/kdemultimedia/libkcddb
