@@ -354,6 +354,7 @@ extragear/graphics/skanlite: kde/kdegraphics/libs/libksane
 extragear/graphics/skanlite: kdesupport/extra-cmake-modules
 extragear/graphics/kxstitch: kde/kdelibs
 extragear/graphics/kgraphviewer: kde/kde-workspace
+extragear/graphics/kolor-manager: kde/kde-workspace
 
 # extragear/utils
 extragear/utils/krusader: kde/kdelibs
