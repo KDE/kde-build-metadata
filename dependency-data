@@ -282,6 +282,7 @@ extragear/base/milou: kde/kdelibs
 #extragear/base/milou: frameworks/baloo
 extragear/base/milou: frameworks/kfilemetadata
 extragear/base/milou: kde/kdepimlibs
+extragear/base/mangonel: kde/kdelibs
 
 # KDevelop
 extragear/kdevelop/*: kde/kdelibs
