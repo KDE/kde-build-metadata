@@ -467,6 +467,16 @@ kde/workspace/kwin: kde/workspace/kscreenlocker
 # Breeze
 kde/workspace/breeze: kde/workspace/kdecoration
 
+#plasma-integration
+kde/workspace/plasma-integration: frameworks/kconfig
+kde/workspace/plasma-integration: frameworks/kconfigwidgets
+kde/workspace/plasma-integration: frameworks/ki18n
+kde/workspace/plasma-integration: frameworks/kiconthemes
+kde/workspace/plasma-integration: frameworks/kio
+kde/workspace/plasma-integration: frameworks/knotifications
+kde/workspace/plasma-integration: frameworks/kwidgetsaddons
+kde/workspace/plasma-integration: kde/workspace/kwayland
+
 # kwayland-integration
 kde/workspace/kwayland-integration: frameworks/kwindowsystem
 kde/workspace/kwayland-integration: frameworks/kidletime
