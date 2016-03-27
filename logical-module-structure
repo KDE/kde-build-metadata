@@ -1054,14 +1054,14 @@
             "stable-kf5-qt5": "master"
         },
         "kde/kdenetwork/ktp*": {
-            "stable-qt4": "kde-telepathy-0.9",
-            "latest-qt4": "kde-telepathy-0.9",
+            "stable-qt4": "",
+            "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/16.04"
         },
 	"kde/kdenetwork/ktp-call-ui": {
-            "stable-qt4": "kde-telepathy-0.9",
-            "latest-qt4": "kde-telepathy-0.9",
+            "stable-qt4": "",
+            "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "master"
         },
