@@ -1034,6 +1034,14 @@ playground/base/qtcurve: frameworks/kxmlgui
 playground/base/qtcurve: frameworks/kemoticons
 playground/base/qtcurve: frameworks/kitemmodels
 
+# Playground Libs
+playground/libs/purpose: frameworks/kcoreaddons
+playground/libs/purpose: frameworks/kconfig
+playground/libs/purpose: frameworks/ki18n
+playground/libs/purpose: frameworks/kdeclarative
+playground/libs/purpose: kde/kdenetwork/kaccounts-integration
+playground/libs/purpose: kdereview/kdeconnect-kde
+
 # KAccounts
 kde/kdenetwork/kaccounts-integration: frameworks/kcmutils
 kde/kdenetwork/kaccounts-integration: frameworks/kio
