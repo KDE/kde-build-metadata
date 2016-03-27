@@ -1467,7 +1467,7 @@
             "stable-qt4": "kde4",
             "latest-qt4": "",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": ""
+            "stable-kf5-qt5": "master"
         },
         "playground/base/kio-mtp" : {
             "stable-qt4": "master",
