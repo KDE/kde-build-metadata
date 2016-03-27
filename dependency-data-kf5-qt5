@@ -760,7 +760,7 @@ kde/applications/konsole: frameworks/kpty
 kde/applications/konsole: frameworks/kdesu
 
 kde/kdeutils/ark: frameworks/kdelibs4support
-
+kde/kdeutils/ark: frameworks/oxygen-icons
 
 # KDE PIM Dependencies
 kde/kdepimlibs: kde/pim/akonadi

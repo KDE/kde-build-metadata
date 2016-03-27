@@ -698,6 +698,7 @@ kde/applications/konsole: frameworks/kdesu
 kde/applications/konsole: frameworks/kf5umbrella
 
 kde/kdeutils/ark: frameworks/kdelibs4support
+kde/kdeutils/ark: frameworks/oxygen-icons
 
 # KDE PIM Dependencies
 kde/kdenetwork/kaccounts-integration: kde/pim/akonadi
