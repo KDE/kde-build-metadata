@@ -59,8 +59,8 @@
             "stable-kf5-qt5": "master"
         },
         "kde/*" : {
-            "stable-qt4": "Applications/16.04",
-            "latest-qt4": "master",
+            "stable-qt4": "",
+            "latest-qt4": "",
             "kf5-qt5": "frameworks",
             "stable-kf5-qt5": "Applications/16.04"
         },
@@ -97,20 +97,20 @@
             "stable-kf5-qt5": "master"
         },
         "kde/kdepim" : {
-            "stable-qt4": "KDE/4.14",
-            "latest-qt4": "KDE/4.14",
+            "stable-qt4": "",
+            "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/16.04"
         },
         "kde/kdepimlibs" : {
-            "stable-qt4": "KDE/4.14",
-            "latest-qt4": "KDE/4.14",
+            "stable-qt4": "",
+            "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/16.04"
         },
         "kde/kdepim-runtime" : {
-            "stable-qt4": "KDE/4.14",
-            "latest-qt4": "KDE/4.14",
+            "stable-qt4": "",
+            "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/16.04"
         },
@@ -193,8 +193,8 @@
             "stable-kf5-qt5": ""
         },
         "kde/kdeplasma-addons" : {
-            "stable-qt4": "KDE/4.14",
-            "latest-qt4": "KDE/4.14",
+            "stable-qt4": "",
+            "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Plasma/5.6"
         },
@@ -205,8 +205,8 @@
             "stable-kf5-qt5": ""
         },
         "kde/kdeadmin/kcron" : {
-            "stable-qt4": "Applications/14.12",
-            "latest-qt4": "Applications/14.12",
+            "stable-qt4": "",
+            "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/16.04"
         },
@@ -223,14 +223,14 @@
             "stable-kf5-qt5": "Applications/16.04"
         },
         "kde/kdegraphics/gwenview" : {
-            "stable-qt4": "KDE/4.14",
-            "latest-qt4": "KDE/4.14",
+            "stable-qt4": "",
+            "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/16.04"
         },
         "kde/kdegraphics/kruler" : {
-            "stable-qt4": "Applications/14.12",
-            "latest-qt4": "Applications/14.12",
+            "stable-qt4": "",
+            "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/16.04"
         },
@@ -271,8 +271,8 @@
             "stable-kf5-qt5": ""
         },
         "kde/kdeedu/analitza": {
-            "stable-qt4": "KDE/4.14",
-            "latest-qt4": "KDE/4.14",
+            "stable-qt4": "",
+            "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/16.04"
         },
@@ -283,86 +283,86 @@
             "stable-kf5-qt5": ""
         },
         "kde/kdeedu/cantor": {
-            "stable-qt4": "Applications/14.12",
-            "latest-qt4": "Applications/14.12",
+            "stable-qt4": "",
+            "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/16.04"
         },
         "kde/kdeedu/kalgebra": {
-            "stable-qt4": "KDE/4.14",
-            "latest-qt4": "KDE/4.14",
+            "stable-qt4": "",
+            "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/16.04"
         },
         "kde/kdeedu/kgeography": {
-            "stable-qt4": "Applications/14.12",
-            "latest-qt4": "Applications/14.12",
+            "stable-qt4": "",
+            "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/16.04"
         },
         "kde/kdeedu/blinken": {
-            "stable-qt4": "Applications/14.12",
-            "latest-qt4": "Applications/14.12",
+            "stable-qt4": "",
+            "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/16.04"
         },
         "kde/kdeedu/khangman": {
-            "stable-qt4": "KDE/4.14",
-            "latest-qt4": "KDE/4.14",
+            "stable-qt4": "",
+            "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/16.04"
         },
         "kde/kdeedu/kanagram": {
-            "stable-qt4": "KDE/4.14",
-            "latest-qt4": "KDE/4.14",
+            "stable-qt4": "",
+            "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/16.04"
         },
         "kde/kdeedu/step": {
-            "stable-qt4": "Applications/14.12",
-            "latest-qt4": "Applications/14.12",
+            "stable-qt4": "",
+            "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/16.04"
         },
         "kde/kdeedu/kiten": {
-            "stable-qt4": "Applications/14.12",
-            "latest-qt4": "Applications/14.12",
+            "stable-qt4": "",
+            "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/16.04"
         },
         "kde/kdeedu/klettres": {
-            "stable-qt4": "Applications/14.12",
-            "latest-qt4": "Applications/14.12",
+            "stable-qt4": "",
+            "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/16.04"
         },
         "kde/kdeedu/kwordquiz": {
-            "stable-qt4": "Applications/14.12",
-            "latest-qt4": "Applications/14.12",
+            "stable-qt4": "",
+            "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/16.04"
         },
         "kde/kdeedu/kbruch": {
-            "stable-qt4": "Applications/14.12",
-            "latest-qt4": "Applications/14.12",
+            "stable-qt4": "",
+            "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/16.04"
         },
         "kde/kdeedu/artikulate": {
-            "stable-qt4": "Applications/15.08",
-            "latest-qt4": "Applications/15.08",
+            "stable-qt4": "",
+            "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/16.04"
         },
         "kde/kdeedu/kig": {
-            "stable-qt4": "KDE/4.14",
-            "latest-qt4": "KDE/4.14",
+            "stable-qt4": "",
+            "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/16.04"
         },
         "kde/kdeedu/marble": {
-            "stable-qt4": "Applications/15.04",
-            "latest-qt4": "Applications/15.04",
+            "stable-qt4": "",
+            "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/16.04"
         },
@@ -379,14 +379,14 @@
             "stable-kf5-qt5": "Applications/16.04"
         },
         "kde/kdeedu/parley": {
-            "stable-qt4": "KDE/4.14",
-            "latest-qt4": "KDE/4.14",
+            "stable-qt4": "",
+            "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/16.04"
         },
         "kde/kdeedu/rocs" : {
-            "stable-qt4": "Applications/14.12",
-            "latest-qt4": "Applications/14.12",
+            "stable-qt4": "",
+            "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/16.04"
         },
@@ -403,14 +403,14 @@
             "stable-kf5-qt5": ""
         },
         "kde/kdeedu/kmplot" : {
-            "stable-qt4": "Applications/14.12",
-            "latest-qt4": "Applications/14.12",
+            "stable-qt4": "",
+            "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/16.04"
         },
         "kde/kdeedu/kturtle" : {
-            "stable-qt4": "Applications/14.12",
-            "latest-qt4": "Applications/14.12",
+            "stable-qt4": "",
+            "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/16.04"
         },
@@ -419,31 +419,31 @@
             "stable-kf5-qt5": ""
         },
         "kde/kdesdk/kapptemplate" : {
-            "stable-qt4": "KDE/4.14",
-            "latest-qt4": "KDE/4.14",
+            "stable-qt4": "",
+            "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/16.04"
         },
         "kde/kdesdk/lokalize" : {
-            "stable-qt4": "Applications/14.12",
-            "latest-qt4": "Applications/14.12",
+            "stable-qt4": "",
+            "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/16.04"
         },
         "kde/kdesdk/okteta" : {
-            "stable-qt4": "KDE/4.14",
-            "latest-qt4": "KDE/4.14",
+            "stable-qt4": "",
+            "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/16.04"
         },
         "kde/kdesdk/kde-dev-scripts" : {
-            "stable-qt4": "Applications/16.04",
-            "latest-qt4": "master",
+            "stable-qt4": "",
+            "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/16.04"
         },
         "kde/kdesdk/kdesdk-thumbnailers" : {
-            "stable-qt4": "Applications/15.08",
+            "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/16.04"
@@ -461,8 +461,8 @@
             "stable-kf5-qt5": ""
         },
         "kde/kdeutils/kteatime" : {
-            "stable-qt4": "Applications/14.12",
-            "latest-qt4": "Applications/14.12",
+            "stable-qt4": "",
+            "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/16.04"
         },
@@ -479,26 +479,26 @@
             "stable-kf5-qt5": ""
         },
         "kde/kdeutils/ark" : {
-            "stable-qt4": "Applications/15.04",
-            "latest-qt4": "Applications/15.04",
+            "stable-qt4": "",
+            "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/16.04"
         },
         "kde/kdeutils/filelight" : {
-            "stable-qt4": "Applications/14.12",
-            "latest-qt4": "Applications/14.12",
+            "stable-qt4": "",
+            "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/16.04"
         },
         "kde/kdeutils/kcalc" : {
-            "stable-qt4": "Applications/14.12",
-            "latest-qt4": "Applications/14.12",
+            "stable-qt4": "",
+            "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/16.04"
         },
         "kde/kdeutils/kcharselect" : {
-            "stable-qt4": "Applications/14.12",
-            "latest-qt4": "Applications/14.12",
+            "stable-qt4": "",
+            "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/16.04"
         },
@@ -515,7 +515,7 @@
             "stable-kf5-qt5": ""
         },
         "kde/kdeutils/kfloppy" : {
-            "stable-qt4": "Applications/15.12",
+            "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/16.04"
@@ -539,26 +539,26 @@
             "stable-kf5-qt5": ""
         },
         "kde/kdeutils/ktimer" : {
-            "stable-qt4": "Applications/14.12",
-            "latest-qt4": "Applications/14.12",
+            "stable-qt4": "",
+            "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/16.04"
         },
         "kde/kdeutils/print-manager" : {
-            "stable-qt4": "Applications/14.12",
-            "latest-qt4": "Applications/14.12",
+            "stable-qt4": "",
+            "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/16.04"
         },
         "kde/kdeutils/kwalletmanager" : {
-            "stable-qt4": "Applications/15.04",
+            "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/16.04"
         },
         "kde/pim/akonadi": {
-            "stable-qt4": "1.13",
-            "latest-qt4": "1.13",
+            "stable-qt4": "",
+            "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/16.04"
         },
@@ -575,7 +575,7 @@
             "stable-kf5-qt5": ""
         },
         "playground/pim/zanshin": {
-            "stable-qt4": "0.3",
+            "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": ""
@@ -593,19 +593,19 @@
             "stable-kf5-qt5": ""
         },
         "kde/pim/libgravatar": {
-        	"stable-qt4": "",
+            "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         },
         "kde/pim/pimcommon": {
-        	"stable-qt4": "",
+            "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         },
         "kde/pim/libkdepim": {
-        	"stable-qt4": "",
+            "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": ""
@@ -758,8 +758,8 @@
             "stable-kf5-qt5": ""
         },
         "extragear/base/milou": {
-            "stable-qt4": "milou/0.1",
-            "latest-qt4": "milou/0.1",
+            "stable-qt4": "",
+            "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Plasma/5.6"
         },
@@ -806,9 +806,9 @@
             "stable-kf5-qt5": ""
         },
         "extragear/graphics/ksnapshot" : {
-            "stable-qt4": "Applications/15.08",
-            "latest-qt4": "master",
-            "kf5-qt5": "frameworks",
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "",
             "stable-kf5-qt5": ""
         },
         "extragear/graphics/kst-plot": {
@@ -824,7 +824,7 @@
             "stable-kf5-qt5": ""
         },
         "extragear/graphics/symboleditor": {
-            "stable-qt4": "release-1.5.0",
+            "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "release-2.0.0"
@@ -880,8 +880,8 @@
             "stable-kf5-qt5": ""
         },
         "kde/workspace/plasma-nm": {
-            "latest-qt4": "0.9.3",
-            "stable-qt4": "0.9.3",
+            "latest-qt4": "",
+            "stable-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Plasma/5.6"
         },
@@ -1102,13 +1102,13 @@
             "stable-kf5-qt5": ""
         },
         "kde/kdenetwork/krfb": {
-            "stable-qt4": "Applications/15.08",
+            "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/16.04"
         },
         "kde/kdebindings/kross-interpreters": {
-            "stable-qt4": "KDE/4.14",
+            "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/16.04"
@@ -1180,8 +1180,8 @@
             "stable-kf5-qt5": ""
         },
         "extragear/network/telepathy/telepathy-logger-qt": {
-            "stable-qt4": "kde-telepathy-0.5",
-            "latest-qt4": "kde-telepathy-0.5",
+            "stable-qt4": "",
+            "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/15.04"
         },
@@ -1216,7 +1216,7 @@
             "stable-kf5-qt5": ""
         },
         "kde/kdemultimedia/ffmpegthumbs": {
-            "stable-qt4": "Applications/15.08",
+            "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/16.04"
@@ -1234,8 +1234,8 @@
             "stable-kf5-qt5": ""
         },
         "kde/kdemultimedia/dragon": {
-            "stable-qt4": "Applications/15.04",
-            "latest-qt4": "Applications/15.04",
+            "stable-qt4": "",
+            "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/16.04"
         },
@@ -1294,26 +1294,26 @@
             "stable-kf5-qt5": ""
         },
         "extragear/sysadmin/apper": {
-            "stable-qt4": "stable",
-            "latest-qt4": "stable",
+            "stable-qt4": "",
+            "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "master"
         },
         "kde/workspace/kde-gtk-config": {
-            "stable-qt4": "2.2",
-            "latest-qt4": "2.2",
+            "stable-qt4": "",
+            "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Plasma/5.6"
         },
         "kde/workspace/libkscreen": {
-            "stable-qt4": "kdelibs4",
-            "latest-qt4": "kdelibs4",
+            "stable-qt4": "",
+            "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Plasma/5.6"
         },
         "kde/workspace/kscreen": {
-            "stable-qt4": "kdelibs4",
-            "latest-qt4": "kdelibs4",
+            "stable-qt4": "",
+            "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Plasma/5.6"
         },
@@ -1360,8 +1360,8 @@
             "stable-kf5-qt5": ""
         },
         "frameworks/attica": {
-            "stable-qt4": "qt4",
-            "latest-qt4": "qt4",
+            "stable-qt4": "",
+            "latest-qt4": "",
             "kf5-qt5": "master",
             "kf5-minimum": "master",
             "stable-kf5-qt5": "master"
@@ -1399,14 +1399,14 @@
             "stable-kf5-qt5": ""
         },
         "kde/applications/kate" : {
-            "stable-qt4": "KDE/4.14",
-            "latest-qt4": "KDE/4.14",
+            "stable-qt4": "",
+            "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/16.04"
         },
         "kde/applications/konsole" : {
-            "stable-qt4": "KDE/4.14",
-            "latest-qt4": "KDE/4.14",
+            "stable-qt4": "",
+            "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/16.04"
         },
@@ -1476,8 +1476,8 @@
             "stable-kf5-qt5": ""
         },
         "kde/kdeedu/kstars": {
-            "stable-qt4": "Applications/14.12",
-            "latest-qt4": "Applications/14.12",
+            "stable-qt4": "",
+            "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/16.04"
         },
@@ -1494,25 +1494,25 @@
             "stable-kf5-qt5": ""
         },
         "kde/kdesdk/kompare": {
-            "stable-qt4": "Applications/14.12",
-            "latest-qt4": "Applications/14.12",
+            "stable-qt4": "",
+            "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/16.04"
         },
         "kde/kdesdk/libkomparediff2": {
-            "stable-qt4": "Applications/14.12",
-            "latest-qt4": "Applications/14.12",
+            "stable-qt4": "",
+            "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/16.04"
         },
         "kde/kdesdk/dolphin-plugins": {
-            "stable-qt4": "Applications/15.04",
+            "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/16.04"
         },
         "kde/kdesdk/poxml": {
-            "stable-qt4": "Applications/15.08",
+            "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/16.04"
@@ -1530,32 +1530,32 @@
             "stable-kf5-qt5": ""
         },
         "kde/kdegames/libkdegames": {
-            "stable-qt4": "Applications/14.12",
-            "latest-qt4": "Applications/14.12",
+            "stable-qt4": "",
+            "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/16.04"
         },
         "kde/kdegames/libkmahjongg": {
-            "stable-qt4": "Applications/14.12",
-            "latest-qt4": "Applications/14.12",
+            "stable-qt4": "",
+            "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/16.04"
         },
         "kde/kdegames/bovo": {
-            "stable-qt4": "Applications/14.12",
-            "latest-qt4": "Applications/14.12",
+            "stable-qt4": "",
+            "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/16.04"
         },
         "kde/kdegames/bomber": {
-            "stable-qt4": "Applications/14.12",
-            "latest-qt4": "Applications/14.12",
+            "stable-qt4": "",
+            "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/16.04"
         },
         "kde/kdegames/kmines": {
-            "stable-qt4": "Applications/14.12",
-            "latest-qt4": "Applications/14.12",
+            "stable-qt4": "",
+            "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/16.04"
         },
@@ -1566,115 +1566,115 @@
             "stable-kf5-qt5": ""
         },
         "kde/kdegames/kapman": {
-            "stable-qt4": "Applications/14.12",
-            "latest-qt4": "Applications/14.12",
+            "stable-qt4": "",
+            "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/16.04"
         },
         "kde/kdegames/klines": {
-            "stable-qt4": "Applications/14.12",
-            "latest-qt4": "Applications/14.12",
+            "stable-qt4": "",
+            "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/16.04"
         },
         "kde/kdegames/kdiamond": {
-            "stable-qt4": "Applications/14.12",
-            "latest-qt4": "Applications/14.12",
+            "stable-qt4": "",
+            "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/16.04"
         },
         "kde/kdegames/kblocks": {
-            "stable-qt4": "Applications/14.12",
-            "latest-qt4": "Applications/14.12",
+            "stable-qt4": "",
+            "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/16.04"
         },
         "kde/kdegames/kshisen": {
-            "stable-qt4": "Applications/14.12",
-            "latest-qt4": "Applications/14.12",
+            "stable-qt4": "",
+            "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/16.04"
         },
         "kde/kdegames/kblackbox": {
-            "stable-qt4": "Applications/14.12",
-            "latest-qt4": "Applications/14.12",
+            "stable-qt4": "",
+            "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/16.04"
         },
         "kde/kdegames/kbounce": {
-            "stable-qt4": "Applications/14.12",
-            "latest-qt4": "Applications/14.12",
+            "stable-qt4": "",
+            "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/16.04"
         },
         "kde/kdegames/kbreakout": {
-            "stable-qt4": "Applications/14.12",
-            "latest-qt4": "Applications/14.12",
+            "stable-qt4": "",
+            "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/16.04"
         },
         "kde/kdegames/knetwalk": {
-            "stable-qt4": "Applications/14.12",
-            "latest-qt4": "Applications/14.12",
+            "stable-qt4": "",
+            "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/16.04"
         },
         "kde/kdegames/kollision": {
-            "stable-qt4": "Applications/14.12",
-            "latest-qt4": "Applications/14.12",
+            "stable-qt4": "",
+            "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/16.04"
         },
         "kde/kdegames/killbots": {
-            "stable-qt4": "Applications/14.12",
-            "latest-qt4": "Applications/14.12",
+            "stable-qt4": "",
+            "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/16.04"
         },
         "kde/kdegames/katomic": {
-            "stable-qt4": "Applications/14.12",
-            "latest-qt4": "Applications/14.12",
+            "stable-qt4": "",
+            "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/16.04"
         },
         "kde/kdegames/kjumpingcube": {
-            "stable-qt4": "Applications/14.12",
-            "latest-qt4": "Applications/14.12",
+            "stable-qt4": "",
+            "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/16.04"
         },
         "kde/kdegames/kiriki": {
-            "stable-qt4": "Applications/15.04",
+            "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/16.04"
         },
         "kde/kdegames/knavalbattle": {
-            "stable-qt4": "Applications/15.08",
+            "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/16.04"
         },
         "kde/kdegames/ktuberling": {
-            "stable-qt4": "Applications/15.08",
+            "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/16.04"
         },
         "kde/kdegames/picmi": {
-            "stable-qt4": "Applications/15.04",
+            "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/16.04"
         },
         "kde/kdegames/klickety": {
-            "stable-qt4": "Applications/15.08",
-            "latest-qt4": "Applications/15.08",
+            "stable-qt4": "",
+            "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/16.04"
         },
         "kde/kdegames/kmahjongg": {
-            "stable-qt4": "Applications/15.12",
+            "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/16.04"
@@ -1716,26 +1716,26 @@
             "stable-kf5-qt5": ""
         },
         "kde/kdegames/ksquares": {
-            "stable-qt4": "Applications/14.12",
-            "latest-qt4": "Applications/14.12",
+            "stable-qt4": "",
+            "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/16.04"
         },
         "kde/kdegames/kpat": {
-            "stable-qt4": "Applications/14.12",
-            "latest-qt4": "Applications/14.12",
+            "stable-qt4": "",
+            "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/16.04"
         },
         "kde/kdegames/kfourinline": {
-            "stable-qt4": "Applications/14.12",
-            "latest-qt4": "Applications/14.12",
+            "stable-qt4": "",
+            "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/16.04"
         },
         "kde/kdegames/granatier": {
-            "stable-qt4": "Applications/14.12",
-            "latest-qt4": "Applications/14.12",
+            "stable-qt4": "",
+            "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/16.04"
         },
@@ -1794,13 +1794,13 @@
             "stable-kf5-qt5": ""
         },
         "kde/kdenetwork/krdc": {
-            "stable-qt4": "Applications/15.12",
+            "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/16.04"
         },
         "kde/kdeadmin/ksystemlog": {
-            "stable-qt4": "Applications/15.08",
+            "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/16.04"
@@ -1812,19 +1812,19 @@
             "stable-kf5-qt5": ""
         },
         "kde/kdegraphics/kdegraphics-thumbnailers": {
-            "stable-qt4": "Applications/15.08",
+            "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/16.04"
         },
         "kde/kdegraphics/kamera": {
-            "stable-qt4": "Applications/15.08",
-            "latest-qt4": "Applications/15.08",
+            "stable-qt4": "",
+            "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/16.04"
         },
         "kde/kdegraphics/kcolorchooser": {
-            "stable-qt4": "Applications/15.12",
+            "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/16.04"
