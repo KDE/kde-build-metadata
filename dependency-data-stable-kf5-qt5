@@ -814,36 +814,36 @@ kde/pim/kcalutils: general/grantlee
 
 # KDE PIM
 # This will be stable in 16.04
-#playground/pim/mailimporter: playground/pim/libkdepim
-#playground/pim/pimcommon: playground/pim/libkdepim
-#playground/pim/eventviews: playground/pim/libkdepim
-#playground/pim/libkleo: playground/pim/pimcommon
-#playground/pim/libksieve: playground/pim/pimcommon
-#playground/pim/calendarsupport: playground/pim/pimcommon
-#playground/pim/incidenceeditor: playground/pim/calendarsupport
-#playground/pim/libgravatar: playground/pim/pimcommon
-#playground/pim/kdepim-apps-libs: playground/pim/libkleo
-#playground/pim/kdepim-apps-libs: playground/pim/kdepim-apps-libs
-#playground/pim/kdepim-apps-libs: playground/pim/pimcommon
-#playground/pim/kdepim-apps-libs: playground/pim/grantleetheme
-#playground/pim/kdepim-apps-libs: general/grantlee
-#playground/pim/mailcommon: playground/pim/mailimporter
-#playground/pim/mailcommon: playground/pim/kdepim-apps-libs
-#playground/pim/messagelib: playground/pim/kdepim-apps-libs
-#kde/kdepim: playground/pim/messagelib
-#kde/kdepim: playground/pim/eventviews
-#kde/kdepim: playground/pim/kdgantt2
-#kde/kdepim: playground/pim/libgravatar
-#kde/kdepim: playground/pim/grantleetheme
-#kde/kdepim: playground/pim/libkdepim
-#kde/kdepim: playground/pim/mailimporter
-#kde/kdepim: playground/pim/calendarsupport
-#kde/kdepim: playground/pim/mailcommon
-#kde/kdepim: playground/pim/pimcommon
-#kde/kdepim: playground/pim/libksieve
-#kde/kdepim: playground/pim/kdepim-apps-libs
-#kde/kdepim: playground/pim/incidenceeditor
-#kde/kdepim: playground/pim/libkleo
+playground/pim/mailimporter: playground/pim/libkdepim
+playground/pim/pimcommon: playground/pim/libkdepim
+playground/pim/eventviews: playground/pim/libkdepim
+playground/pim/libkleo: playground/pim/pimcommon
+playground/pim/libksieve: playground/pim/pimcommon
+playground/pim/calendarsupport: playground/pim/pimcommon
+playground/pim/incidenceeditor: playground/pim/calendarsupport
+playground/pim/libgravatar: playground/pim/pimcommon
+playground/pim/kdepim-apps-libs: playground/pim/libkleo
+playground/pim/kdepim-apps-libs: playground/pim/kdepim-apps-libs
+playground/pim/kdepim-apps-libs: playground/pim/pimcommon
+playground/pim/kdepim-apps-libs: playground/pim/grantleetheme
+playground/pim/kdepim-apps-libs: general/grantlee
+playground/pim/mailcommon: playground/pim/mailimporter
+playground/pim/mailcommon: playground/pim/kdepim-apps-libs
+playground/pim/messagelib: playground/pim/kdepim-apps-libs
+kde/kdepim: playground/pim/messagelib
+kde/kdepim: playground/pim/eventviews
+kde/kdepim: playground/pim/kdgantt2
+kde/kdepim: playground/pim/libgravatar
+kde/kdepim: playground/pim/grantleetheme
+kde/kdepim: playground/pim/libkdepim
+kde/kdepim: playground/pim/mailimporter
+kde/kdepim: playground/pim/calendarsupport
+kde/kdepim: playground/pim/mailcommon
+kde/kdepim: playground/pim/pimcommon
+kde/kdepim: playground/pim/libksieve
+kde/kdepim: playground/pim/kdepim-apps-libs
+kde/kdepim: playground/pim/incidenceeditor
+kde/kdepim: playground/pim/libkleo
 
 
 kde/kdepim: kde/kdepimlibs
