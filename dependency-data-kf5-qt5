@@ -1310,6 +1310,9 @@ kde/kdenetwork/ktp-desktop-applets: frameworks/plasma-framework
 kde/kdenetwork/signon-kwallet-extension: frameworks/kwallet
 kde/kdenetwork/zeroconf-ioslave: frameworks/ki18n
 
+# Extragear Base
+extragear/base/plasma-mobile: kde/workspace/kwayland
+
 # Extragear Office
 extragear/office/kmymoney: extragear/graphics/kdiagram
 extragear/office/kmymoney: kde/kdepimlibs
