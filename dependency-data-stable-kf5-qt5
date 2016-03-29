@@ -832,6 +832,10 @@ kde/pim/pimcommon: kde/kdepimlibs
 kde/pim/pimcommon: frameworks/kwallet
 kde/pim/pimcommon: frameworks/sonnet
 
+kde/pim/libgravatar: frameworks/ki18n
+kde/pim/libgravatar: frameworks/kconfig
+kde/pim/libgravatar: frameworks/kwidgetsaddons
+kde/pim/libgravatar: kde/pim/pimcommon
 
 extragear/libs/libkgapi: frameworks/kcoreaddons
 extragear/libs/libkgapi: kde/pim/kcontacts
