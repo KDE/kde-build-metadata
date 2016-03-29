@@ -1331,8 +1331,6 @@ extragear/utils/yakuake: kde/applications/konsole
 
 # Extragear Graphics
 extragear/graphics/kipi-plugins: kde/kdegraphics/libs/libkipi
-extragear/graphics/kipi-plugins: kde/kdegraphics/libs/libkdcraw
-extragear/graphics/kipi-plugins: kde/kdegraphics/libs/libkexiv2
 extragear/graphics/kipi-plugins/kipi-plugins-doc: extragear/graphics/kipi-plugins
 extragear/graphics/skanlite: kde/kdegraphics/libs/libksane
 

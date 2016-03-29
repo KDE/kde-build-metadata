@@ -1031,8 +1031,6 @@ extragear/libs/libkgeomap: kde/kdeedu/marble
 
 # Extragear Graphics
 extragear/graphics/kipi-plugins: kde/kdegraphics/libs/libkipi
-extragear/graphics/kipi-plugins: kde/kdegraphics/libs/libkdcraw
-extragear/graphics/kipi-plugins: kde/kdegraphics/libs/libkexiv2
 extragear/graphics/skanlite: kde/kdegraphics/libs/libksane
 
 # Calligra
