@@ -1036,10 +1036,10 @@
             "stable-kf5-qt5": ""
         },
         "extragear/sdk/massif-visualizer": {
-            "stable-qt4": "v0.3",
-            "latest-qt4": "v0.3.90",
+            "stable-qt4": "0.4",
+            "latest-qt4": "0.4",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": ""
+            "stable-kf5-qt5": "0.6"
         },
         "extragear/network/telepathy/*": {
             "stable-qt4": "kde-telepathy-0.9",
