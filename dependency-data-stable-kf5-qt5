@@ -618,8 +618,6 @@ kde/workspace/discover: frameworks/ki18n
 kde/workspace/discover: frameworks/kconfigwidgets
 kde/workspace/discover: frameworks/knotifications
 kde/workspace/discover: frameworks/kdeclarative
-kde/workspace/discover: extragear/sysadmin/libqapt
-kde/workspace/discover: extragear/sysadmin/libdebconf-kde
 
 kde/workspace/powerdevil: frameworks/kauth
 kde/workspace/powerdevil: frameworks/kidletime
