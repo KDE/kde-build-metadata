@@ -1081,13 +1081,13 @@
             "stable-qt4": "1.3",
             "latest-qt4": "",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": ""
+            "stable-kf5-qt5": "2.0"
         },
         "extragear/network/ktorrent": {
             "stable-qt4": "4.3",
             "latest-qt4": "",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": ""
+            "stable-kf5-qt5": "5.0"
         },
         "kde/kdenetwork/kdenetwork-strigi-analyzers": {
             "stable-qt4": "Applications/16.04",
