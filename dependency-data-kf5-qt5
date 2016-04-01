@@ -1549,7 +1549,6 @@ playground/pim/zanshin: kde/pim/kldap
 playground/pim/zanshin: kde/pim/kidentitymanagement
 playground/pim/zanshin: kde/pim/kontactinterface
 playground/pim/zanshin: kde/kdepim-runtime
-playground/pim/zanshin: kde/workspace/plasma-workspace
 
 # The generic dependency on all frameworks
 kde/*: frameworks/kf5umbrella
