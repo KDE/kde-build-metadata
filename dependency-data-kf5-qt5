@@ -956,7 +956,6 @@ kde/pim/kdepim-apps-libs: frameworks/kconfig
 kde/pim/kdepim-apps-libs: kde/pim/kcontacts
 kde/pim/kdepim-apps-libs: kde/pim/kmime
 kde/pim/kdepim-apps-libs: frameworks/kdewebkit
-kde/pim/kdepim-apps-libs: kde/pim/messagelib
 
 kde/pim/grantleetheme: general/grantlee
 kde/pim/grantleetheme: frameworks/ki18n
