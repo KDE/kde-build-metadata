@@ -827,6 +827,7 @@ kde/pim/kidentitymanagement: frameworks/kxmlgui
 kde/pim/kidentitymanagement: frameworks/kio
 kde/pim/kidentitymanagement: frameworks/kconfig
 kde/pim/kidentitymanagement: frameworks/kemoticons
+kde/pim/kidentitymanagement: frameworks/oxygen-icons #needed for unit tests
 kde/pim/kidentitymanagement: frameworks/kcodecs
 kde/pim/kidentitymanagement: kde/pim/kpimtextedit
 kde/pim/kblog: frameworks/kcoreaddons
