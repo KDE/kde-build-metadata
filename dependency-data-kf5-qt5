@@ -791,6 +791,7 @@ kde/pim/kimap: kde/pim/kmime
 kde/pim/kldap: frameworks/kcmutils
 kde/pim/kldap: frameworks/kdelibs4support
 kde/pim/kldap: kde/pim/kcontacts
+kde/pim/kldap: kde/pim/kmbox
 kde/pim/kpimtextedit: frameworks/kcoreaddons
 kde/pim/kpimtextedit: frameworks/kemoticons
 kde/pim/kpimtextedit: frameworks/sonnet
