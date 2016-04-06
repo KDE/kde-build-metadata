@@ -1245,6 +1245,7 @@ kde/kdegames/kiriki: kde/kdegames/libkdegames
 kde/kdegames/kjumpingcube: kde/kdegames/libkdegames
 kde/kdegames/klickety: kde/kdegames/libkdegames
 kde/kdegames/klines: kde/kdegames/libkdegames
+kde/kdegames/kmahjongg: kde/kdegames/libkmahjongg
 kde/kdegames/kmines: kde/kdegames/libkdegames
 kde/kdegames/knavalbattle: kde/kdegames/libkdegames
 kde/kdegames/knetwalk: kde/kdegames/libkdegames
