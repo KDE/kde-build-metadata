@@ -975,6 +975,7 @@ kde/pim/mailcommon: kde/pim/kdepim-apps-libs
 kde/pim/messagelib: kde/pim/kdepim-apps-libs
 kde/pim/messagelib: kde/pim/incidenceeditor
 kde/pim/messagelib: general/grantlee
+kde/pim/messagelib: kde/pim/grantleetheme
 kde/pim/messagelib: kde/pim/libgravatar
 kde/pim/messagelib: kde/pim/libkleo
 
