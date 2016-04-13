@@ -1160,6 +1160,8 @@ extragear/kdevelop/plugins/kdev-php: extragear/kdevelop/kdevelop-pg-qt
 
 # Extragear Network
 extragear/network/konversation: kdesupport/qca
+extragear/network/libktorrent: kdesupport/qca
+extragear/network/ktorrent: extragear/network/libktorrent
 
 # Extragear Office
 extragear/office/kmymoney: extragear/office/alkimia
