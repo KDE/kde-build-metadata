@@ -479,6 +479,7 @@ kde/workspace/plasma-integration: frameworks/kio
 kde/workspace/plasma-integration: frameworks/knotifications
 kde/workspace/plasma-integration: frameworks/kwidgetsaddons
 kde/workspace/plasma-integration: kde/workspace/kwayland
+kde/workspace/plasma-integration: kde/workspace/breeze
 
 # Breeze
 kde/workspace/breeze: kde/workspace/kdecoration
