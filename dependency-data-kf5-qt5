@@ -261,7 +261,7 @@ frameworks/frameworkintegration: frameworks/knotifications
 frameworks/frameworkintegration: frameworks/ki18n
 frameworks/frameworkintegration: frameworks/kio
 frameworks/frameworkintegration: frameworks/kinit
-frameworks/frameworkintegration: frameworks/oxygen-icons
+frameworks/frameworkintegration: frameworks/oxygen-icons5
 frameworks/kdelibs4support: frameworks/ki18n
 frameworks/kdelibs4support: frameworks/kguiaddons
 frameworks/kdelibs4support: frameworks/kwidgetsaddons
@@ -620,7 +620,7 @@ kde/workspace/kscreen: frameworks/kglobalaccel
 kde/workspace/kscreen: kde/workspace/libkscreen
 
 kde/workspace/libkscreen: kde/workspace/kwayland
-kde/workspace/libkscreen: frameworks/oxygen-icons
+kde/workspace/libkscreen: frameworks/oxygen-icons5
 
 # Bluedevil
 kde/workspace/bluedevil: frameworks/kcoreaddons
@@ -760,7 +760,7 @@ kde/applications/konsole: frameworks/kpty
 kde/applications/konsole: frameworks/kdesu
 
 kde/kdeutils/ark: frameworks/kdelibs4support
-kde/kdeutils/ark: frameworks/oxygen-icons
+kde/kdeutils/ark: frameworks/oxygen-icons5
 
 # KDE PIM Dependencies
 kde/kdepimlibs: kde/pim/akonadi
@@ -830,7 +830,7 @@ kde/pim/kidentitymanagement: frameworks/kxmlgui
 kde/pim/kidentitymanagement: frameworks/kio
 kde/pim/kidentitymanagement: frameworks/kconfig
 kde/pim/kidentitymanagement: frameworks/kemoticons
-kde/pim/kidentitymanagement: frameworks/oxygen-icons #needed for unit tests
+kde/pim/kidentitymanagement: frameworks/oxygen-icons5 #needed for unit tests
 kde/pim/kidentitymanagement: frameworks/kcodecs
 kde/pim/kidentitymanagement: kde/pim/kpimtextedit
 kde/pim/kblog: frameworks/kcoreaddons
