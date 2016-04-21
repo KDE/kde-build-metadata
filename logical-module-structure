@@ -103,8 +103,8 @@
             "stable-kf5-qt5": "Applications/16.04"
         },
         "kde/kdepimlibs" : {
-            "stable-qt4": "",
-            "latest-qt4": "",
+            "stable-qt4": "KDE/4.14",
+            "latest-qt4": "KDE/4.14",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/16.04"
         },
