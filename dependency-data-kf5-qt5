@@ -371,6 +371,7 @@ frameworks/kf5umbrella: frameworks/plasma-framework
 frameworks/kf5umbrella: frameworks/kpackage
 frameworks/kf5umbrella: frameworks/kxmlrpcclient
 frameworks/kf5umbrella: frameworks/breeze-icons
+frameworks/kf5umbrella: frameworks/kwayland
 
 # As yet unmigrated frameworks
 frameworks/baloo: frameworks/krunner
@@ -407,7 +408,7 @@ kde/workspace/kinfocenter: frameworks/kwindowsystem
 kde/workspace/kinfocenter: frameworks/kcmutils
 kde/workspace/kinfocenter: frameworks/solid
 kde/workspace/kinfocenter: frameworks/plasma-framework
-kde/workspace/kinfocenter: kde/workspace/kwayland
+kde/workspace/kinfocenter: frameworks/kwayland
 
 # KMenuEdit
 kde/workspace/kmenuedit: frameworks/ki18n
@@ -460,7 +461,7 @@ kde/workspace/kwin: frameworks/knewstuff
 kde/workspace/kwin: frameworks/kxmlgui
 kde/workspace/kwin: frameworks/kactivities
 kde/workspace/kwin: frameworks/plasma-framework
-kde/workspace/kwin: kde/workspace/kwayland
+kde/workspace/kwin: frameworks/kwayland
 kde/workspace/kwin: kde/workspace/kdecoration
 kde/workspace/kwin: kde/workspace/kscreenlocker
 kde/workspace/kwin: kde/workspace/breeze
@@ -468,7 +469,7 @@ kde/workspace/kwin: kde/workspace/breeze
 # kwayland-integration
 kde/workspace/kwayland-integration: frameworks/kwindowsystem
 kde/workspace/kwayland-integration: frameworks/kidletime
-kde/workspace/kwayland-integration: kde/workspace/kwayland
+kde/workspace/kwayland-integration: frameworks/kwayland
 
 # plasma-integration
 kde/workspace/plasma-integration: frameworks/kconfig
@@ -478,7 +479,7 @@ kde/workspace/plasma-integration: frameworks/kiconthemes
 kde/workspace/plasma-integration: frameworks/kio
 kde/workspace/plasma-integration: frameworks/knotifications
 kde/workspace/plasma-integration: frameworks/kwidgetsaddons
-kde/workspace/plasma-integration: kde/workspace/kwayland
+kde/workspace/plasma-integration: frameworks/kwayland
 kde/workspace/plasma-integration: kde/workspace/breeze
 
 # Breeze
@@ -547,7 +548,7 @@ kde/workspace/plasma-workspace: kde/kdenetwork/kio-extras
 kde/workspace/plasma-workspace: kde/workspace/breeze
 kde/workspace/plasma-workspace: kde/workspace/libkscreen
 kde/workspace/plasma-workspace: frameworks/baloo
-kde/workspace/plasma-workspace: kde/workspace/kwayland
+kde/workspace/plasma-workspace: frameworks/kwayland
 kde/workspace/plasma-workspace: kde/workspace/kscreenlocker
 kde/workspace/plasma-workspace: kde/workspace/kactivitymanagerd
 
@@ -619,7 +620,7 @@ kde/workspace/kscreen: frameworks/kxmlgui
 kde/workspace/kscreen: frameworks/kglobalaccel
 kde/workspace/kscreen: kde/workspace/libkscreen
 
-kde/workspace/libkscreen: kde/workspace/kwayland
+kde/workspace/libkscreen: frameworks/kwayland
 kde/workspace/libkscreen: frameworks/oxygen-icons5
 
 # Bluedevil
@@ -1312,7 +1313,7 @@ kde/kdenetwork/signon-kwallet-extension: frameworks/kwallet
 kde/kdenetwork/zeroconf-ioslave: frameworks/ki18n
 
 # Extragear Base
-extragear/base/plasma-mobile: kde/workspace/kwayland
+extragear/base/plasma-mobile: frameworks/kwayland
 
 # Extragear Office
 extragear/office/kmymoney: extragear/graphics/kdiagram
@@ -1381,7 +1382,7 @@ extragear/network/kdeconnect-kde: frameworks/kconfigwidgets
 extragear/network/kdeconnect-kde: frameworks/kdbusaddons
 extragear/network/kdeconnect-kde: frameworks/kcmutils
 extragear/network/kdeconnect-kde: frameworks/kiconthemes
-extragear/network/kdeconnect-kde: kde/workspace/kwayland
+extragear/network/kdeconnect-kde: frameworks/kwayland
 playground/pim/akonadi-next: playground/libs/kasync
 kde/pim/libgravatar: frameworks/ki18n
 kde/pim/libgravatar: frameworks/kconfig

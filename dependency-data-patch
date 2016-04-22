@@ -370,6 +370,7 @@ frameworks/kf5umbrella: frameworks/threadweaver
 frameworks/kf5umbrella: frameworks/plasma-framework
 frameworks/kf5umbrella: frameworks/kpackage
 frameworks/kf5umbrella: frameworks/kxmlrpcclient
+frameworks/kf5umbrella: frameworks/kwayland
 
 # The generic dependency on all frameworks
 kde/*: frameworks/kf5umbrella
@@ -410,7 +411,7 @@ kde/workspace/kinfocenter: frameworks/kwindowsystem
 kde/workspace/kinfocenter: frameworks/kcmutils
 kde/workspace/kinfocenter: frameworks/solid
 kde/workspace/kinfocenter: frameworks/plasma-framework
-kde/workspace/kinfocenter: kde/workspace/kwayland
+kde/workspace/kinfocenter: frameworks/kwayland
 
 # KMenuEdit
 kde/workspace/kmenuedit: frameworks/ki18n
@@ -456,7 +457,7 @@ kde/workspace/kwin: frameworks/knewstuff
 kde/workspace/kwin: frameworks/kxmlgui
 kde/workspace/kwin: frameworks/kactivities
 kde/workspace/kwin: frameworks/plasma-framework
-kde/workspace/kwin: kde/workspace/kwayland
+kde/workspace/kwin: frameworks/kwayland
 kde/workspace/kwin: kde/workspace/kdecoration
 
 # Breeze
@@ -525,7 +526,7 @@ kde/workspace/plasma-workspace: kde/kdenetwork/kio-extras
 kde/workspace/plasma-workspace: kde/workspace/breeze
 kde/workspace/plasma-workspace: kde/workspace/libkscreen
 kde/workspace/plasma-workspace: kde/workspace/baloo
-kde/workspace/plasma-workspace: kde/workspace/kwayland
+kde/workspace/plasma-workspace: frameworks/kwayland
 
 # System Settings
 kde/workspace/systemsettings: frameworks/kitemviews

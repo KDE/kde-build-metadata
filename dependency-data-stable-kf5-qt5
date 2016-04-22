@@ -367,6 +367,7 @@ frameworks/kf5umbrella: frameworks/sonnet
 frameworks/kf5umbrella: frameworks/threadweaver
 frameworks/kf5umbrella: frameworks/plasma-framework
 frameworks/kf5umbrella: frameworks/kxmlrpcclient
+frameworks/kf5umbrella: frameworks/kwayland
 
 # The generic dependency on all frameworks
 kde/*: frameworks/kf5umbrella
@@ -407,7 +408,7 @@ kde/workspace/kinfocenter: frameworks/kwindowsystem
 kde/workspace/kinfocenter: frameworks/kcmutils
 kde/workspace/kinfocenter: frameworks/solid
 kde/workspace/kinfocenter: frameworks/plasma-framework
-kde/workspace/kinfocenter: kde/workspace/kwayland
+kde/workspace/kinfocenter: frameworks/kwayland
 
 # KMenuEdit
 kde/workspace/kmenuedit: frameworks/ki18n
@@ -460,7 +461,7 @@ kde/workspace/kwin: frameworks/knewstuff
 kde/workspace/kwin: frameworks/kxmlgui
 kde/workspace/kwin: frameworks/kactivities
 kde/workspace/kwin: frameworks/plasma-framework
-kde/workspace/kwin: kde/workspace/kwayland
+kde/workspace/kwin: frameworks/kwayland
 kde/workspace/kwin: kde/workspace/kdecoration
 kde/workspace/kwin: kde/workspace/kscreenlocker
 
@@ -475,12 +476,12 @@ kde/workspace/plasma-integration: frameworks/kiconthemes
 kde/workspace/plasma-integration: frameworks/kio
 kde/workspace/plasma-integration: frameworks/knotifications
 kde/workspace/plasma-integration: frameworks/kwidgetsaddons
-kde/workspace/plasma-integration: kde/workspace/kwayland
+kde/workspace/plasma-integration: frameworks/kwayland
 
 # kwayland-integration
 kde/workspace/kwayland-integration: frameworks/kwindowsystem
 kde/workspace/kwayland-integration: frameworks/kidletime
-kde/workspace/kwayland-integration: kde/workspace/kwayland
+kde/workspace/kwayland-integration: frameworks/kwayland
 
 # KWrited
 kde/workspace/kwrited: frameworks/ki18n
@@ -545,7 +546,7 @@ kde/workspace/plasma-workspace: kde/kdenetwork/kio-extras
 kde/workspace/plasma-workspace: kde/workspace/breeze
 kde/workspace/plasma-workspace: kde/workspace/libkscreen
 kde/workspace/plasma-workspace: frameworks/baloo
-kde/workspace/plasma-workspace: kde/workspace/kwayland
+kde/workspace/plasma-workspace: frameworks/kwayland
 
 # System Settings
 kde/workspace/systemsettings: frameworks/kitemviews
@@ -606,7 +607,7 @@ kde/workspace/kscreen: frameworks/kxmlgui
 kde/workspace/kscreen: frameworks/kglobalaccel
 kde/workspace/kscreen: kde/workspace/libkscreen
 
-kde/workspace/libkscreen: kde/workspace/kwayland
+kde/workspace/libkscreen: frameworks/kwayland
 kde/workspace/libkscreen: frameworks/oxygen-icons
 
 kde/workspace/discover: frameworks/solid
