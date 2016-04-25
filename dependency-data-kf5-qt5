@@ -649,6 +649,8 @@ kde/workspace/powerdevil: frameworks/kwindowsystem
 kde/workspace/powerdevil: frameworks/knotifyconfig
 kde/workspace/powerdevil: frameworks/kdelibs4support
 kde/workspace/powerdevil: frameworks/plasma-framework
+kde/workspace/powerdevil: frameworks/networkmanager-qt
+kde/workspace/powerdevil: frameworks/bluez-qt
 kde/workspace/powerdevil: kde/workspace/plasma-workspace
 
 kde/workspace/discover: frameworks/solid
