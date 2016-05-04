@@ -457,7 +457,7 @@
         "kde/kdesdk/umbrello" : {
             "stable-qt4": "Applications/16.04",
             "latest-qt4": "master",
-            "kf5-qt5": "frameworks",
+            "kf5-qt5": "",
             "stable-kf5-qt5": ""
         },
         "kde/kdesdk/cervisia" : {
