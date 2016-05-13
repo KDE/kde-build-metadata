@@ -757,6 +757,12 @@
             "kf5-qt5": "kf5",
             "stable-kf5-qt5": ""
         },
+        "extragear/base/kwebkitpart": {
+            "stable-qt4": "master",
+            "latest-qt4": "master",
+            "kf5-qt5": "frameworks",
+            "stable-kf5-qt5": "frameworks"
+        },
         "extragear/base/mangonel": {
             "stable-qt4": "master",
             "latest-qt4": "master",
@@ -1071,7 +1077,7 @@
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/16.04"
         },
-	"kde/kdenetwork/ktp-call-ui": {
+        "kde/kdenetwork/ktp-call-ui": {
             "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master",
