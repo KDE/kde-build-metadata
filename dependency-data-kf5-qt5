@@ -1174,6 +1174,23 @@ extragear/sdk/heaptrack: frameworks/threadweaver
 extragear/sdk/heaptrack: frameworks/kconfigwidgets
 extragear/sdk/heaptrack: extragear/graphics/kdiagram
 
+extragear/sdk/kdesvn: frameworks/kbookmarks
+extragear/sdk/kdesvn: frameworks/kconfig
+extragear/sdk/kdesvn: frameworks/kconfigwidgets
+extragear/sdk/kdesvn: frameworks/kcoreaddons
+extragear/sdk/kdesvn: frameworks/kdbusaddons
+extragear/sdk/kdesvn: frameworks/kdoctools
+extragear/sdk/kdesvn: frameworks/ki18n
+extragear/sdk/kdesvn: frameworks/kiconthemes
+extragear/sdk/kdesvn: frameworks/kitemviews
+extragear/sdk/kdesvn: frameworks/kjobwidgets
+extragear/sdk/kdesvn: frameworks/kio
+extragear/sdk/kdesvn: frameworks/knotifications
+extragear/sdk/kdesvn: frameworks/kservice
+extragear/sdk/kdesvn: frameworks/ktexteditor
+extragear/sdk/kdesvn: frameworks/kwallet
+extragear/sdk/kdesvn: frameworks/kwidgetsaddons
+
 # Extragear Sysadmin
 kde/workspace/muon: frameworks/solid
 kde/workspace/muon: frameworks/kwidgetsaddons
@@ -1534,14 +1551,6 @@ kdereview/kdots: kde/kdegames/libkdegames
 extragear/pim/trojita: -frameworks/kf5umbrella
 extragear/pim/trojita: kdesupport/qca
 extragear/pim/trojita: kde/pim/gpgmepp
-
-# Playground devtools
-playground/devtools/kdesvn: frameworks/ki18n
-playground/devtools/kdesvn: frameworks/kconfig
-playground/devtools/kdesvn: frameworks/kdelibs4support
-playground/devtools/kdesvn: frameworks/kcoreaddons
-playground/devtools/kdesvn: frameworks/kemoticons
-playground/devtools/kdesvn: frameworks/kitemmodels
 
 # Playground Network
 playground/network/telepathy/telepathy-morse: frameworks/kcoreaddons
