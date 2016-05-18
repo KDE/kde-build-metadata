@@ -139,8 +139,8 @@
             "stable-kf5-qt5": ""
         },
         "frameworks/baloo" : {
-            "stable-qt4": "",
-            "latest-qt4": "",
+            "stable-qt4": "v4.14.3",
+            "latest-qt4": "v4.14.3",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "master"
         },
