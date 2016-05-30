@@ -1380,7 +1380,18 @@ calligra/kexi: playground/libs/kreport
 calligra/kexi: kde/kdeedu/marble
 
 # Krita
-calligra/krita: frameworks/kf5umbrella
+calligra/krita: frameworks/karchive
+calligra/krita: frameworks/kconfig
+calligra/krita: frameworks/kwidgetsaddons
+calligra/krita: frameworks/kcompletion
+calligra/krita: frameworks/kcoreaddons
+calligra/krita: frameworks/kguiaddons
+calligra/krita: frameworks/ki18n
+calligra/krita: frameworks/kitemmodels
+calligra/krita: frameworks/kitemviews
+calligra/krita: frameworks/kwindowsystem
+calligra/krita: frameworks/kio
+calligra/krita: frameworks/kcrash
 calligra/krita: kde/kdegraphics/libs/libkdcraw
 
 # Playground Base
