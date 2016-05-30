@@ -1392,7 +1392,6 @@ calligra/krita: frameworks/kitemviews
 calligra/krita: frameworks/kwindowsystem
 calligra/krita: frameworks/kio
 calligra/krita: frameworks/kcrash
-calligra/krita: kde/kdegraphics/libs/libkdcraw
 
 # Playground Base
 kde/workspace/kde-gtk-config: frameworks/ki18n
