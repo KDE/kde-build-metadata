@@ -1179,6 +1179,10 @@ extragear/office/skrooge: frameworks/krunner
 # Extragear Utils
 extragear/utils/yakuake: kde/applications/konsole
 
+# Krita
+calligra/krita: frameworks/kf5umbrella
+calligra/krita: kde/kdegraphics/libs/libkdcraw
+
 # Playground Base
 kde/workspace/kde-gtk-config: frameworks/ki18n
 kde/workspace/kde-gtk-config: frameworks/kconfigwidgets
