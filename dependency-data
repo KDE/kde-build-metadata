@@ -383,6 +383,7 @@ extragear/sdk/plasma-sdk[KDE4]: kde/kdepimlibs
 extragear/sdk/plasma-sdk[master]: kde/kdepimlibs
 extragear/sdk/massif-visualizer: kde/kdelibs
 extragear/sdk/massif-visualizer: kdesupport/extra-cmake-modules
+extragear/sdk/kdesvn: kde/kdelibs
 
 # extragear/games
 extragear/games/knights: kde/kdegames/libkdegames
