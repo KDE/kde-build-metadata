@@ -763,7 +763,10 @@ kde/applications/konsole: frameworks/kemoticons
 kde/applications/konsole: frameworks/kpty
 kde/applications/konsole: frameworks/kdesu
 
-kde/kdeutils/ark: frameworks/kdelibs4support
+kde/kdeutils/ark: frameworks/karchive
+kde/kdeutils/ark: frameworks/ki18n
+kde/kdeutils/ark: frameworks/kparts
+kde/kdeutils/ark: frameworks/kpty
 kde/kdeutils/ark: frameworks/oxygen-icons5
 
 kde/kdeutils/kgpg: kde/kdepimlibs # #needed because of akonadi-contacts
