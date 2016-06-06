@@ -700,6 +700,7 @@ kde/applications/konsole: frameworks/kpty
 kde/applications/konsole: frameworks/kdesu
 
 kde/kdeutils/ark: frameworks/kdelibs4support
+kde/kdeutils/kgpg: frameworks/kdelibs4support
 
 # KDE PIM Dependencies
 kde/kdepimlibs: kdesupport/akonadi

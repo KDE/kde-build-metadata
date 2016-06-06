@@ -766,6 +766,19 @@ kde/applications/konsole: frameworks/kdesu
 kde/kdeutils/ark: frameworks/kdelibs4support
 kde/kdeutils/ark: frameworks/oxygen-icons5
 
+kde/kdeutils/kgpg: kde/kdepimlibs # #needed because of akonadi-contacts
+kde/kdeutils/kgpg: frameworks/karchive
+kde/kdeutils/kgpg: frameworks/kdoctools
+kde/kdeutils/kgpg: frameworks/kcodecs
+kde/kdeutils/kgpg: frameworks/kcontacs
+kde/kdeutils/kgpg: frameworks/kcoreaddons
+kde/kdeutils/kgpg: frameworks/ki18n
+kde/kdeutils/kgpg: frameworks/kiconthemes
+kde/kdeutils/kgpg: frameworks/kio
+kde/kdeutils/kgpg: frameworks/kdelibs4support
+kde/kdeutils/kgpg: frameworks/kservice
+kde/kdeutils/kgpg: frameworks/kwidgetsaddons
+
 # KDE PIM Dependencies
 kde/kdepimlibs: kde/pim/akonadi
 kde/kdepimlibs: kdesupport/prison
