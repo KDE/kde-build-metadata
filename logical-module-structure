@@ -1336,7 +1336,7 @@
             "stable-kf5-qt5": "Plasma/5.6"
         },
         "extragear/office/kmymoney": {
-            "stable-qt4": "4.7",
+            "stable-qt4": "4.8",
             "latest-qt4": "master",
             "kf5-qt5": "frameworks",
             "stable-kf5-qt5": ""
