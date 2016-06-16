@@ -166,19 +166,19 @@
             "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": "Plasma/5.6"
+            "stable-kf5-qt5": "Plasma/5.7"
         },
         "kde/workspace/polkit-kde-agent-1" : {
             "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": "Plasma/5.6"
+            "stable-kf5-qt5": "Plasma/5.7"
         },
         "kde/workspace/breeze" : {
-            "stable-qt4": "Plasma/5.6",
+            "stable-qt4": "Plasma/5.7",
             "latest-qt4": "master",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": "Plasma/5.6"
+            "stable-kf5-qt5": "Plasma/5.7"
         },
         "kde/kde-workspace" : {
             "stable-qt4": "KDE/4.11",
@@ -196,7 +196,7 @@
             "stable-qt4": "KDE/4.14",
             "latest-qt4": "KDE/4.14",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": "Plasma/5.6"
+            "stable-kf5-qt5": "Plasma/5.7"
         },
         "kdereview/breeze-gtk" : {
             "stable-qt4": "",
@@ -773,7 +773,7 @@
             "stable-qt4": "milou/0.1",
             "latest-qt4": "milou/0.1",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": "Plasma/5.6"
+            "stable-kf5-qt5": "Plasma/5.7"
         },
         "extragear/base/plasma-mobile": {
             "stable-qt4": "Active/4",
@@ -849,11 +849,11 @@
         },
         "kde/workspace/bluedevil": {
             "kf5-qt5": "master",
-            "stable-kf5-qt5": "Plasma/5.6"
+            "stable-kf5-qt5": "Plasma/5.7"
         },
         "extragear/base/powerdevil": {
             "kf5-qt5": "master",
-            "stable-kf5-qt5": "Plasma/5.6"
+            "stable-kf5-qt5": "Plasma/5.7"
         },
         "extragear/libs/libkgapi": {
             "stable-qt4": "LibKGAPI/2.1",
@@ -895,7 +895,7 @@
             "latest-qt4": "0.9.3",
             "stable-qt4": "0.9.3",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": "Plasma/5.6"
+            "stable-kf5-qt5": "Plasma/5.7"
         },
         "extragear/edu/gcompris": {
             "stable-qt4": "",
@@ -1321,19 +1321,19 @@
             "stable-qt4": "2.2",
             "latest-qt4": "2.2",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": "Plasma/5.6"
+            "stable-kf5-qt5": "Plasma/5.7"
         },
         "kde/workspace/libkscreen": {
             "stable-qt4": "kdelibs4",
             "latest-qt4": "kdelibs4",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": "Plasma/5.6"
+            "stable-kf5-qt5": "Plasma/5.7"
         },
         "kde/workspace/kscreen": {
             "stable-qt4": "kdelibs4",
             "latest-qt4": "kdelibs4",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": "Plasma/5.6"
+            "stable-kf5-qt5": "Plasma/5.7"
         },
         "extragear/office/kmymoney": {
             "stable-qt4": "4.8",
@@ -1357,7 +1357,7 @@
             "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": "Plasma/5.6"
+            "stable-kf5-qt5": "Plasma/5.7"
         },
         "calligra/calligra": {
             "stable-qt4": "calligra/2.9",
@@ -1444,7 +1444,7 @@
             "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": "Plasma/5.6"
+            "stable-kf5-qt5": "Plasma/5.7"
         },
         "playground/libs/kproperty" : {
             "stable-qt4": "",
