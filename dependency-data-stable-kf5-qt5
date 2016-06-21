@@ -320,6 +320,7 @@ frameworks/khtml: kdesupport/phonon/phonon
 # Lie about kf5umbrella: it doesn't depend on anything, but we use it as way to depend on all frameworks
 frameworks/kf5umbrella: frameworks/attica
 frameworks/kf5umbrella: frameworks/kactivities
+frameworks/kf5umbrella: frameworks/kactivities-stats
 frameworks/kf5umbrella: frameworks/karchive
 frameworks/kf5umbrella: frameworks/kauth
 frameworks/kf5umbrella: frameworks/kbookmarks
@@ -575,6 +576,7 @@ kde/workspace/plasma-desktop: frameworks/krunner
 kde/workspace/plasma-desktop: frameworks/kwallet
 kde/workspace/plasma-desktop: frameworks/attica
 kde/workspace/plasma-desktop: frameworks/plasma-framework
+kde/workspace/plasma-desktop: frameworks/kactivities-stats
 kde/workspace/plasma-desktop: kde/workspace/systemsettings
 kde/workspace/plasma-desktop: kde/workspace/powerdevil
 kde/workspace/plasma-desktop: kde/workspace/ksysguard
