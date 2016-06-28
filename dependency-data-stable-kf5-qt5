@@ -466,6 +466,7 @@ kde/workspace/kwin: frameworks/plasma-framework
 kde/workspace/kwin: frameworks/kwayland
 kde/workspace/kwin: kde/workspace/kdecoration
 kde/workspace/kwin: kde/workspace/kscreenlocker
+kde/workspace/kwin: kde/workspace/breeze
 
 # Breeze
 kde/workspace/breeze: kde/workspace/kdecoration
@@ -479,6 +480,7 @@ kde/workspace/plasma-integration: frameworks/kio
 kde/workspace/plasma-integration: frameworks/knotifications
 kde/workspace/plasma-integration: frameworks/kwidgetsaddons
 kde/workspace/plasma-integration: frameworks/kwayland
+kde/workspace/plasma-integration: kde/workspace/breeze
 
 # kwayland-integration
 kde/workspace/kwayland-integration: frameworks/kwindowsystem
