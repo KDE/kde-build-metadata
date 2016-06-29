@@ -791,6 +791,7 @@ kde/pim/akonadi-contacts: kde/pim/kcontacts
 kde/pim/akonadi-contacts: kde/pim/kcalcore
 kde/pim/akonadi-contacts: kde/pim/kmime
 kde/pim/akonadi-contacts: kde/pim/akonadi
+kde/pim/akonadi-contacts: kde/pim/akonadi-mime
 kde/pim/akonadi-contacts: kdesupport/prison
 
 kde/pim/akonadi-notes: frameworks/ki18n
