@@ -568,6 +568,24 @@
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/16.04"
         },
+        "kde/pim/akonadi-notes": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
+        },
+        "kde/pim/akonadi-contacts": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
+        },
+        "kde/pim/akonadi-mime": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
+        },
         "kdesupport/soprano": {
             "stable-qt4": "2.9",
             "latest-qt4": "2.9",
