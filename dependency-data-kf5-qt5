@@ -1067,6 +1067,8 @@ playground/base/kdepim-addons: kde/pim/mailcommon
 playground/base/kdepim-addons: kde/pim/grantleetheme
 playground/base/kdepim-addons: kde/pim/pimcommon
 playground/base/kdepim-addons: kde/pim/libgravatar
+playground/base/kdepim-addons: kde/pim/akonadi-calendar
+playground/base/kdepim-addons: kde/pim/ktnef
 
 #Akonadi
 kde/pim/akonadi: frameworks/kitemviews
@@ -1099,6 +1101,10 @@ kde/pim/akonadi-search: frameworks/krunner
 kde/pim/akonadi-search: kde/pim/akonadi-mime
 kde/pim/akonadi-search: kde/pim/kcontacts
 kde/pim/akonadi-search: kde/pim/kmime
+kde/pim/akonadi-search: kde/pim/kcalcore
+kde/pim/akonadi-search: kde/pim/kcalutils
+kde/pim/akonadi-search: kde/pim/kmailtransport
+kde/pim/akonadi-search: kde/pim/kidentitymanagement
 
 # KDE Graphics
 kde/kdegraphics/gwenview: frameworks/kdelibs4support
