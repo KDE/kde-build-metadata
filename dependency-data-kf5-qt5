@@ -1058,18 +1058,18 @@ kde/kdepim-runtime: kde/pim/kimap
 kde/kdepim-runtime: kde/pim/syndication
 
 
-playground/base/kdepim-addons: kde/pim/messagelib
-playground/base/kdepim-addons: kde/pim/incidenceeditor
-playground/base/kdepim-addons: kde/pim/libkleo
-playground/base/kdepim-addons: kde/pim/calendarsupport
-playground/base/kdepim-addons: kde/pim/eventviews
-playground/base/kdepim-addons: kde/pim/libkdepim
-playground/base/kdepim-addons: kde/pim/mailcommon
-playground/base/kdepim-addons: kde/pim/grantleetheme
-playground/base/kdepim-addons: kde/pim/pimcommon
-playground/base/kdepim-addons: kde/pim/libgravatar
-playground/base/kdepim-addons: kde/pim/akonadi-calendar
-playground/base/kdepim-addons: kde/pim/ktnef
+kde/pim/kdepim-addons: kde/pim/messagelib
+kde/pim/kdepim-addons: kde/pim/incidenceeditor
+kde/pim/kdepim-addons: kde/pim/libkleo
+kde/pim/kdepim-addons: kde/pim/calendarsupport
+kde/pim/kdepim-addons: kde/pim/eventviews
+kde/pim/kdepim-addons: kde/pim/libkdepim
+kde/pim/kdepim-addons: kde/pim/mailcommon
+kde/pim/kdepim-addons: kde/pim/grantleetheme
+kde/pim/kdepim-addons: kde/pim/pimcommon
+kde/pim/kdepim-addons: kde/pim/libgravatar
+kde/pim/kdepim-addons: kde/pim/akonadi-calendar
+kde/pim/kdepim-addons: kde/pim/ktnef
 
 #Akonadi
 kde/pim/akonadi: frameworks/kitemviews
