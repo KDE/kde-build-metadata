@@ -13,7 +13,7 @@
 # Don't bother listing kdelibs or Qt as dependencies unless a certain branch
 # is needed.
 
-#*: Qt5[stable]
+*: -Qt5[stable]
 *: kdesupport/extra-cmake-modules
 kdesupport/qca: Qt5[stable]
 
