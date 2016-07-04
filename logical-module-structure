@@ -59,8 +59,8 @@
             "stable-kf5-qt5": "master"
         },
         "frameworks/oxygen-icons5": {
-            "stable-qt4": "master",
-            "latest-qt4": "master",
+            "stable-qt4": "qt4",
+            "latest-qt4": "qt4",
             "kf5-qt5": "master",
             "kf5-minimum": "master",
             "stable-kf5-qt5": "master"
