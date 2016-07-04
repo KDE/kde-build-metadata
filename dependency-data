@@ -29,7 +29,7 @@ kde/kdelibs: kdesupport/strigi/strigiclient[master]
 kde/kdelibs: kdesupport/polkit-qt-1[master]
 kde/kdelibs: kdesupport/soprano[master]
 kde/kdelibs: kdesupport/qca
-kde/kdelibs: frameworks/oxygen-icons
+kde/kdelibs: frameworks/oxygen-icons5
 
 frameworks/attica: kdesupport/extra-cmake-modules
 
