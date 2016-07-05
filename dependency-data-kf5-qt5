@@ -1044,7 +1044,7 @@ kde/kdepim: kde/pim/mailcommon
 kde/kdepim: kde/kdepim-runtime
 
 kde/kdepim-runtime: kde/pim/akonadi
-kde/kdepim-runtime: kde/pim/akonadi-contact
+kde/kdepim-runtime: kde/pim/akonadi-contacts
 kde/kdepim-runtime: kde/pim/akonadi-notes
 kde/kdepim-runtime: kde/pim/akonadi-mime
 kde/kdepim-runtime: kde/pim/akonadi-calendar
@@ -1476,7 +1476,7 @@ kde/pim/pimcommon: kde/pim/kmime
 kde/pim/pimcommon: kde/pim/kpimtextedit
 kde/pim/pimcommon: kde/pim/libkdepim
 
-kde/pim/pimcommon: kde/pim/akonadi-contact
+kde/pim/pimcommon: kde/pim/akonadi-contacts
 kde/pim/pimcommon: kde/pim/akonadi-mime
 kde/pim/pimcommon: frameworks/kwallet
 kde/pim/pimcommon: frameworks/sonnet
