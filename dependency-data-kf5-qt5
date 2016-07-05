@@ -1026,6 +1026,7 @@ kde/kdepim: kde/pim/incidenceeditor
 kde/kdepim: kde/pim/libkleo
 kde/kdepim: kde/pim/ktnef
 kde/kdepim: kde/pim/kontactinterface
+kde/kdepim: kde/pim/kblog
 
 kde/kdepim: kde/pim/akonadi-contacts
 kde/kdepim: kde/pim/akonadi-notes
