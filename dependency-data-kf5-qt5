@@ -1388,6 +1388,7 @@ extragear/office/skrooge: kdesupport/qca
 extragear/office/skrooge: frameworks/krunner
 extragear/office/tellico: frameworks/kdelibs4support
 extragear/office/tellico: frameworks/kfilemetadata
+extragear/office/tellico: kde/kdegraphics/libs/libksane
 extragear/office/alkimia: -frameworks/kf5umbrella
 
 # Extragear Utils
