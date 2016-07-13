@@ -261,8 +261,8 @@
         },
         "kde/kdegraphics/kolourpaint" : {
             "stable-qt4": "Applications/16.04",
-            "latest-qt4": "master",
-            "kf5-qt5": "frameworks",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         },
         "kde/kdegraphics/svgpart" : {
