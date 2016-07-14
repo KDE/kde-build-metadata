@@ -428,7 +428,7 @@
             "stable-kf5-qt5": "Applications/16.04"
         },
         "kde/kdeedu/minuet" : {
-            "kf5-qt5": "master",
+            "kf5-qt5": "",
             "stable-kf5-qt5": "Applications/16.04"
         },
         "kde/kdesdk/kapptemplate" : {
