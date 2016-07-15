@@ -261,7 +261,7 @@
         },
         "kde/kdegraphics/kolourpaint" : {
             "stable-qt4": "Applications/16.04",
-            "latest-qt4": "",
+            "latest-qt4": "Applications/16.04",
             "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         },
@@ -469,7 +469,7 @@
         },
         "kde/kdesdk/cervisia" : {
             "stable-qt4": "Applications/16.04",
-            "latest-qt4": "",
+            "latest-qt4": "Applications/16.04",
             "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         },
