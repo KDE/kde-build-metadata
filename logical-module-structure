@@ -278,7 +278,7 @@
             "stable-kf5-qt5": ""
         },
         "kde/kdegraphics/kdegraphics-strigi-analyzer" : {
-            "stable-qt4": "Applications/16.08",
+            "stable-qt4": "Applications/16.04",
             "latest-qt4": "master",
             "kf5-qt5": "",
             "stable-kf5-qt5": ""
@@ -1133,7 +1133,7 @@
             "stable-kf5-qt5": "5.0"
         },
         "kde/kdenetwork/kdenetwork-strigi-analyzers": {
-            "stable-qt4": "Applications/16.08",
+            "stable-qt4": "Applications/16.04",
             "latest-qt4": "master",
             "kf5-qt5": "",
             "stable-kf5-qt5": ""
@@ -1891,7 +1891,7 @@
             "stable-kf5-qt5": ""
         },
         "kde/kdesdk/kdesdk-strigi-analyzers": {
-            "stable-qt4": "Applications/16.08",
+            "stable-qt4": "Applications/16.04",
             "latest-qt4": "master",
             "kf5-qt5": "",
             "stable-kf5-qt5": ""
