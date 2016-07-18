@@ -290,7 +290,7 @@
             "stable-kf5-qt5": "Applications/16.08"
         },
         "kde/kdeedu/libkdeedu": {
-            "stable-qt4": "Applications/16.08",
+            "stable-qt4": "Applications/16.04",
             "latest-qt4": "master",
             "kf5-qt5": "",
             "stable-kf5-qt5": ""
@@ -1253,7 +1253,7 @@
             "stable-kf5-qt5": "3.1"
         },
         "kde/kdemultimedia/mplayerthumbs": {
-            "stable-qt4": "Applications/16.08",
+            "stable-qt4": "Applications/16.04",
             "latest-qt4": "master",
             "kf5-qt5": "",
             "stable-kf5-qt5": ""
