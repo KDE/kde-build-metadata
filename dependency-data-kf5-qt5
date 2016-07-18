@@ -1314,6 +1314,7 @@ extragear/network/konversation: kdesupport/qca
 extragear/network/choqok: kdesupport/qca
 extragear/network/libktorrent: kdesupport/qca
 extragear/network/ktorrent: extragear/network/libktorrent
+extragear/network/ktorrent: kde/pim/syndication
 
 # KDE Network: Telepathy
 kde/kdenetwork/kget: kdesupport/qca
