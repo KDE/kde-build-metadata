@@ -664,6 +664,10 @@ kde/workspace/discover: frameworks/kconfigwidgets
 kde/workspace/discover: frameworks/knotifications
 kde/workspace/discover: frameworks/kdeclarative
 
+# plasma-tests - depend on all of kde/workspace
+kde/workspace/plasma-tests: kde/workspace/plasma-workspace
+kde/workspace/plasma-tests: kde/workspace/plasma-desktop
+
 kdereview/plasma-pa: frameworks/kconfigwidgets
 kdereview/plasma-pa: frameworks/kcoreaddons
 kdereview/plasma-pa: frameworks/kdeclarative
