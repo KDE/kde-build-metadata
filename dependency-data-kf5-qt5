@@ -1532,6 +1532,10 @@ playground/utils/kdebugsettings: frameworks/kiconthemes
 playground/utils/kdebugsettings: frameworks/kwidgetsaddons
 playground/utils/kdebugsettings: frameworks/kitemviews
 playground/utils/kdebugsettings: frameworks/kio
+playground/utils/krename: frameworks/ki18n
+playground/utils/krename: frameworks/kiconthemes
+playground/utils/krename: frameworks/kio
+playground/utils/krename: frameworks/kjs
 
 # KAccounts
 kde/kdenetwork/kaccounts-integration: frameworks/kcmutils
