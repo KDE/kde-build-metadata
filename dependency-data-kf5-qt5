@@ -1391,9 +1391,9 @@ extragear/office/kmymoney: kde/pim/akonadi
 extragear/office/skrooge: frameworks/kactivities
 extragear/office/skrooge: kdesupport/qca
 extragear/office/skrooge: frameworks/krunner
-extragear/office/tellico: frameworks/kdelibs4support
 extragear/office/tellico: frameworks/kfilemetadata
 extragear/office/tellico: kde/kdegraphics/libs/libksane
+extragear/office/tellico: kde/kdemultimedia/libkcddb
 extragear/office/alkimia: -frameworks/kf5umbrella
 
 # Extragear Utils
