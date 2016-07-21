@@ -1011,6 +1011,34 @@ kde/pim/kdepim-addons: kde/pim/libgravatar
 kde/pim/kdepim-addons: kde/pim/akonadi-calendar
 kde/pim/kdepim-addons: kde/pim/ktnef
 
+kde/pim/libgravatar: frameworks/ki18n
+kde/pim/libgravatar: frameworks/kconfig
+kde/pim/libgravatar: frameworks/kwidgetsaddons
+kde/pim/libgravatar: kde/pim/pimcommon
+
+kde/pim/pimcommon: frameworks/karchive
+kde/pim/pimcommon: frameworks/kconfig
+kde/pim/pimcommon: frameworks/kdbusaddons
+kde/pim/pimcommon: frameworks/kdelibs4support
+kde/pim/pimcommon: frameworks/ki18n
+kde/pim/pimcommon: frameworks/knewstuff
+kde/pim/pimcommon: frameworks/ktextwidgets
+kde/pim/pimcommon: frameworks/kwallet
+kde/pim/pimcommon: frameworks/kxmlgui
+kde/pim/pimcommon: frameworks/sonnet
+kde/pim/pimcommon: kde/pim/akonadi
+kde/pim/pimcommon: frameworks/kcodecs
+kde/pim/pimcommon: kde/pim/kcontacts
+kde/pim/pimcommon: kde/pim/kimap
+kde/pim/pimcommon: kde/pim/kmime
+kde/pim/pimcommon: kde/pim/kpimtextedit
+kde/pim/pimcommon: kde/pim/libkdepim
+
+kde/pim/pimcommon: kde/pim/akonadi-contacts
+kde/pim/pimcommon: kde/pim/akonadi-mime
+kde/pim/pimcommon: frameworks/kwallet
+kde/pim/pimcommon: frameworks/sonnet
+
 #Akonadi
 kde/pim/akonadi: frameworks/kitemviews
 kde/pim/akonadi: frameworks/kio
