@@ -951,6 +951,7 @@ kde/pim/kleopatra: frameworks/kxmlgui
 kde/pim/kleopatra: frameworks/kdbusaddons
 kde/pim/kleopatra: frameworks/kconfigwidgets
 kde/pim/kleopatra: frameworks/kcmutils
+kde/pim/kleopatra: frameworks/kitemmodels
 
 kde/pim/libkdepim: kde/pim/akonadi-contacts
 kde/pim/libkdepim: kde/pim/akonadi-search
