@@ -1274,6 +1274,7 @@ kde/workspace/muon: frameworks/kdbusaddons
 kde/workspace/muon: frameworks/ki18n
 kde/workspace/muon: frameworks/kconfigwidgets
 kde/workspace/muon: frameworks/knotifications
+extragear/sysadmin/kpmcore: frameworks/kauth
 extragear/sysadmin/kpmcore: frameworks/ki18n
 extragear/sysadmin/kpmcore: frameworks/kiconthemes
 extragear/sysadmin/kpmcore: frameworks/kio
