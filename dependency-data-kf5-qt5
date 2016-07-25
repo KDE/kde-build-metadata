@@ -933,7 +933,6 @@ kde/pim/eventviews: kde/pim/kcalcore
 kde/pim/eventviews: kde/pim/calendarsupport
 kde/pim/eventviews: kde/pim/kcalutils
 kde/pim/eventviews: kde/pim/kidentitymanagement
-kde/pim/eventviews: kde/pim/kdgantt2
 kde/pim/eventviews: extragear/graphics/kdiagram
 
 
@@ -998,7 +997,6 @@ kde/pim/incidenceeditor: kde/pim/kmime
 kde/pim/incidenceeditor: kde/pim/kldap
 kde/pim/incidenceeditor: frameworks/kcodecs
 kde/pim/incidenceeditor: kde/pim/libkdepim
-kde/pim/incidenceeditor: kde/pim/kdgantt2
 kde/pim/incidenceeditor: kde/pim/kcalutils
 kde/pim/incidenceeditor: kde/pim/kcalcore
 kde/pim/incidenceeditor: kde/pim/kmailtransport
@@ -1049,7 +1047,6 @@ kde/pim/messagelib: kde/pim/kldap
 
 kde/kdepim: kde/pim/messagelib
 kde/kdepim: kde/pim/eventviews
-kde/kdepim: kde/pim/kdgantt2
 kde/kdepim: kde/pim/grantleetheme
 kde/kdepim: kde/pim/libkdepim
 kde/kdepim: kde/pim/calendarsupport
