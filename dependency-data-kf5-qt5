@@ -1219,6 +1219,12 @@ kde/kdeedu/khangman: kde/kdeedu/libkeduvocdocument
 kde/kdeedu/khangman: kde/kdeedu/kdeedu-data
 kde/kdeedu/kwordquiz: kde/kdeedu/libkeduvocdocument
 kde/kdeedu/marble: kdesupport/phonon/phonon
+kde/kdeedu/marble: frameworks/kcoreaddons
+kde/kdeedu/marble: frameworks/kcrash
+kde/kdeedu/marble: frameworks/ki18n
+kde/kdeedu/marble: frameworks/kio
+kde/kdeedu/marble: frameworks/knewstuff
+kde/kdeedu/marble: frameworks/kparts
 kde/kdeedu/marble: frameworks/krunner
 kdereview/labplot: frameworks/karchive
 kdereview/labplot: frameworks/ki18n
