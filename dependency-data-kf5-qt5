@@ -1455,6 +1455,7 @@ calligra/calligra: playground/libs/kreport
 
 # Kexi
 calligra/kexi: frameworks/kf5umbrella
+calligra/kexi: frameworks/breeze-icons
 calligra/kexi: playground/libs/kdb
 calligra/kexi: playground/libs/kproperty
 calligra/kexi: playground/libs/kreport
