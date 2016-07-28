@@ -884,7 +884,7 @@
             "stable-qt4": "LibKGAPI/2.1",
             "latest-qt4": "LibKGAPI/2.1",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": "LibKGAPI/5.0"
+            "stable-kf5-qt5": "LibKGAPI/5.3"
         },
         "extragear/libs/libkfbapi": {
             "stable-qt4": "kfbapi-1.0",
