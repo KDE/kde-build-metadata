@@ -1438,6 +1438,12 @@ extragear/utils/yakuake: kde/applications/konsole
 extragear/graphics/kipi-plugins: kde/kdegraphics/libs/libkipi
 extragear/graphics/kipi-plugins/kipi-plugins-doc: extragear/graphics/kipi-plugins
 extragear/graphics/skanlite: kde/kdegraphics/libs/libksane
+extragear/graphics/kphotoalbum: kde/kdeedu/marble
+extragear/graphics/kphotoalbum: kde/kdegraphics/libs/libkdcraw
+extragear/graphics/kphotoalbum: kde/kdegraphics/libs/libkexiv2
+extragear/graphics/kphotoalbum: kde/kdegraphics/libs/libkface
+extragear/graphics/kphotoalbum: kde/kdegraphics/libs/libkgeomap
+extragear/graphics/kphotoalbum: kde/kdegraphics/libs/libkipi
 
 # Calligra
 calligra/calligra: frameworks/kf5umbrella
