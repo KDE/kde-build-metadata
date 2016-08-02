@@ -1468,8 +1468,8 @@
         },
         "kde/applications/kde-baseapps" : {
             "stable-qt4": "Applications/16.08",
-            "latest-qt4": "master",
-            "kf5-qt5": "frameworks",
+            "latest-qt4": "Applications/16.08",
+            "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         },
         "kde/applications/khelpcenter" : {
