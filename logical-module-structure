@@ -837,10 +837,9 @@
             "stable-kf5-qt5": ""
         },
         "extragear/graphics/kphotoalbum": {
-            "stable-qt4": "master",
-            "latest-qt4": "master",
-            "kf5-qt5": "kf5-port",
-            "kf5-minimum": "kf5-port",
+            "stable-qt4": "4.7",
+            "latest-qt4": "4.7",
+            "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         },
         "extragear/graphics/ksnapshot" : {
