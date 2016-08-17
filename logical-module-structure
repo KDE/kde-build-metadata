@@ -783,10 +783,10 @@
             "stable-kf5-qt5": ""
         },
         "extragear/base/kwebkitpart": {
-            "stable-qt4": "master",
-            "latest-qt4": "master",
-            "kf5-qt5": "frameworks",
-            "stable-kf5-qt5": "frameworks"
+            "stable-qt4": "qt4",
+            "latest-qt4": "qt4",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "master"
         },
         "extragear/base/mangonel": {
             "stable-qt4": "master",
