@@ -113,7 +113,7 @@
             "stable-qt4": "KDE/4.14",
             "latest-qt4": "KDE/4.14",
             "kf5-qt5": "",
-            "stable-kf5-qt5": "Applications/16.04"
+            "stable-kf5-qt5": ""
         },
         "kde/kdepim-runtime" : {
             "stable-qt4": "KDE/4.14",
