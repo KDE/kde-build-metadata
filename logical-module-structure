@@ -615,7 +615,7 @@
             "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": ""
+            "stable-kf5-qt5": "Applications/16.08"
         },
         "kde/pim/kdepim-addons": {
             "stable-qt4": "",
@@ -686,7 +686,7 @@
         "kde/pim/kdgantt2": {
             "stable-qt4": "",
             "latest-qt4": "",
-            "kf5-qt5": "master",
+            "kf5-qt5": "",
             "stable-kf5-qt5": "Applications/16.08"
         },
         "kde/pim/libkdepim": {
