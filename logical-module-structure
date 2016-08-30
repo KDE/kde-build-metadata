@@ -106,7 +106,7 @@
         "kde/kdepim" : {
             "stable-qt4": "KDE/4.14",
             "latest-qt4": "KDE/4.14",
-            "kf5-qt5": "master",
+            "kf5-qt5": "",
             "stable-kf5-qt5": "Applications/16.08"
         },
         "kde/pim/akonadi-calendar-tools" : {
