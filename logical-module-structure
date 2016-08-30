@@ -1349,8 +1349,8 @@
             "stable-kf5-qt5": ""
         },
         "extragear/multimedia/plasma-mediacenter": {
-            "stable-qt4": "v1.4",
-            "latest-qt4": "v1.4",
+            "stable-qt4": "",
+            "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         },
