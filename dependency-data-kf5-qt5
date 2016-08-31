@@ -1153,6 +1153,7 @@ kde/pim/kmail-account-wizard: kde/pim/pimcommon
 kde/pim/pim-data-exporter: kde/pim/pimcommon
 kde/pim/pim-data-exporter: kde/pim/calendarsupport
 kde/pim/pim-data-exporter: kde/pim/kalarmcal
+kde/pim/pim-data-exporter: kde/pim/mailcommon
 
 #mbox-importer
 kde/pim/mbox-importer: kde/pim/pimcommon
