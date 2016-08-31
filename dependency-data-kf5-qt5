@@ -1174,6 +1174,7 @@ kde/pim/akonadi-import-wizard: kde/pim/mailcommon
 
 #akonadi-calendar-tools
 kde/pim/akonadi-calendar-tools: kde/pim/akonadi
+kde/pim/akonadi-calendar-tools: kde/pim/kontact
 
 kde/kdepim-runtime: kde/pim/akonadi
 kde/kdepim-runtime: kde/pim/akonadi-contacts
