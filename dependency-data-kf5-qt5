@@ -1124,6 +1124,7 @@ kde/pim/korganizer: extragear/graphics/kdiagram
 kde/pim/korganizer: kde/pim/akonadi-calendar
 kde/pim/korganizer: kde/pim/akonadi-search
 kde/pim/korganizer: kde/pim/kmailtransport
+kde/pim/korganizer: kde/pim/akonadi-notes
 
 #akregator
 kde/pim/akregator: kde/pim/messagelib
@@ -1141,6 +1142,7 @@ kde/pim/kalarm: kde/pim/kmailtransport
 kde/pim/pim-sieve-editor: kde/pim/libkdepim
 kde/pim/pim-sieve-editor: kde/pim/pimcommon
 kde/pim/pim-sieve-editor: kde/pim/libksieve
+kde/pim/pim-sieve-editor: kde/pim/messagelib
 
 #kmail-account-wizard
 kde/pim/kmail-account-wizard: kde/pim/pimcommon
@@ -1152,16 +1154,22 @@ kde/pim/pim-data-exporter: kde/pim/pimcommon
 kde/pim/mbox-importer: kde/pim/pimcommon
 
 #grantlee-editor
+kde/pim/grantlee-editor: kde/pim/pimcommon
 
 #kontact
 kde/pim/kontact: kde/pim/pimcommon
 kde/pim/kontact: kde/pim/kontactinterface
+kde/pim/kontact: kde/pim/mailcommon 
 
 #pim-storage-service-manager
 kde/pim/pim-storage-service-manager: kde/pim/pimcommon
 
 #akonadi-import-wizard
 kde/pim/akonadi-import-wizard: kde/pim/pimcommon
+kde/pim/akonadi-import-wizard: kde/pim/mailcommon
+
+#akonadi-calendar-tools
+kde/pim/akonadi-calendar-tools: kde/pim/akonadi
 
 kde/kdepim-runtime: kde/pim/akonadi
 kde/kdepim-runtime: kde/pim/akonadi-contacts
