@@ -1157,6 +1157,7 @@ kde/pim/mbox-importer: kde/pim/pimcommon
 
 #grantlee-editor
 kde/pim/grantlee-editor: kde/pim/pimcommon
+kde/pim/grantlee-editor: kde/pim/messagelib
 
 #kontact
 kde/pim/kontact: kde/pim/pimcommon
