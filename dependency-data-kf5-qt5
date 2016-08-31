@@ -1125,6 +1125,7 @@ kde/pim/korganizer: kde/pim/akonadi-calendar
 kde/pim/korganizer: kde/pim/akonadi-search
 kde/pim/korganizer: kde/pim/kmailtransport
 kde/pim/korganizer: kde/pim/akonadi-notes
+kde/pim/korganizer: kde/pim/mailcommon
 
 #akregator
 kde/pim/akregator: kde/pim/messagelib
