@@ -1133,6 +1133,7 @@ kde/pim/akregator: kde/pim/libkdepim
 kde/pim/akregator: kde/pim/pimcommon
 kde/pim/akregator: kde/pim/kdepim-apps-libs
 kde/pim/akregator: kde/pim/kontactinterface
+kde/pim/akregator: kde/pim/syndication
 
 #kalarm
 kde/pim/kalarm: kde/pim/pimcommon
