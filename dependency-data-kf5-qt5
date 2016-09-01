@@ -1151,6 +1151,7 @@ kde/pim/pim-sieve-editor: kde/pim/messagelib
 
 #kmail-account-wizard
 kde/pim/kmail-account-wizard: kde/pim/pimcommon
+kde/pim/kmail-account-wizard: kde/pim/mailcommon
 
 #pim-data-exporter
 kde/pim/pim-data-exporter: kde/pim/pimcommon
