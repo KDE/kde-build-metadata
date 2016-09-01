@@ -1140,6 +1140,7 @@ kde/pim/kalarm: kde/pim/pimcommon
 kde/pim/kalarm: kde/pim/kalarmcal
 kde/pim/kalarm: kde/pim/kmailtransport
 kde/pim/kalarm: kde/pim/libkdepim
+kde/pim/kalarm: kde/pim/kdepim-apps-libs
 
 #pim-sieve-editor
 kde/pim/pim-sieve-editor: kde/pim/libkdepim
