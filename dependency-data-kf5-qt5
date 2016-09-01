@@ -1161,6 +1161,7 @@ kde/pim/pim-data-exporter: kde/pim/mailcommon
 
 #mbox-importer
 kde/pim/mbox-importer: kde/pim/pimcommon
+kde/pim/mbox-importer: kde/pim/mailcommon
 
 #grantlee-editor
 kde/pim/grantlee-editor: kde/pim/pimcommon
