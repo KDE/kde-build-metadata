@@ -1346,7 +1346,6 @@ kdereview/labplot: frameworks/kio
 kdereview/labplot: frameworks/kdelibs4support
 kdereview/labplot: frameworks/kemoticons
 kdereview/labplot: frameworks/kitemmodels
-kde/kdeedu/minuet: general/drumstick
 # KDE Plasma Addons
 kde/kdeplasma-addons: frameworks/krunner
 kde/kdeplasma-addons: kde/workspace/plasma-workspace
