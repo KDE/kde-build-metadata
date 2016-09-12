@@ -663,6 +663,7 @@ kde/workspace/discover: frameworks/ki18n
 kde/workspace/discover: frameworks/kconfigwidgets
 kde/workspace/discover: frameworks/knotifications
 kde/workspace/discover: frameworks/kdeclarative
+kde/workspace/discover: extragear/libs/kirigami
 
 # plasma-tests - depend on all of kde/workspace
 kde/workspace/plasma-tests: kde/workspace/plasma-workspace
