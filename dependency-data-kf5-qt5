@@ -26,6 +26,8 @@ frameworks/kcrash: frameworks/kcoreaddons
 frameworks/kcrash: frameworks/kwindowsystem
 frameworks/kdoctools: frameworks/karchive
 frameworks/kdoctools: frameworks/ki18n
+frameworks/kfilemetadata: frameworks/ki18n
+frameworks/kfilemetadata: frameworks/karchive
 frameworks/kjobwidgets: frameworks/kcoreaddons
 frameworks/kjobwidgets: frameworks/kwidgetsaddons
 frameworks/kpty: frameworks/kcoreaddons
@@ -379,9 +381,6 @@ frameworks/baloo: frameworks/krunner
 frameworks/baloo: frameworks/kfilemetadata
 frameworks/baloo: frameworks/kdelibs4support
 kde/kdelibs/baloo-widgets: frameworks/baloo
-frameworks/kfilemetadata: frameworks/ki18n
-frameworks/kfilemetadata: frameworks/kservice
-frameworks/kfilemetadata: frameworks/karchive
 
 # libksysguard
 kde/workspace/libksysguard: frameworks/ki18n
