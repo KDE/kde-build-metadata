@@ -617,6 +617,7 @@ kde/workspace/kscreen: kde/workspace/libkscreen
 kde/workspace/libkscreen: frameworks/kwayland
 kde/workspace/libkscreen: frameworks/oxygen-icons
 
+kde/workspace/discover: extragear/libs/kirigami
 kde/workspace/discover: frameworks/solid
 kde/workspace/discover: frameworks/kwidgetsaddons
 kde/workspace/discover: frameworks/kconfig
