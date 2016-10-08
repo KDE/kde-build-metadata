@@ -1909,7 +1909,7 @@
         "kdereview/kdev-perforce": {
             "stable-qt4": "",
             "latest-qt4": "",
-            "kf5-qt5": "master",
+            "kf5-qt5": "",
             "stable-kf5-qt5": "5.0"
         },
         "kde/kdeaccessibility/kmag": {
