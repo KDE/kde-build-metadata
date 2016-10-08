@@ -698,10 +698,8 @@ kde/applications/konsole: frameworks/kdelibs4support
 kde/applications/konsole: frameworks/kcmutils
 kde/applications/konsole: frameworks/kdeclarative
 kde/applications/konsole: frameworks/kactivities
-kde/applications/konsole: frameworks/kjs
 kde/applications/konsole: frameworks/khtml
 kde/applications/konsole: frameworks/knotifyconfig
-kde/applications/konsole: frameworks/kjsembed
 kde/applications/konsole: frameworks/knewstuff
 kde/applications/konsole: frameworks/kidletime
 kde/applications/konsole: frameworks/threadweaver
