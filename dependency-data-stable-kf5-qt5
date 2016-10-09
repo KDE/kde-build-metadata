@@ -1281,9 +1281,9 @@ playground/libs/purpose: kde/kdenetwork/kaccounts-integration
 playground/libs/purpose: kdereview/kdeconnect-kde
 
 # Playground Network
-playground/network/kio-gdrive: frameworks/ki18n
-playground/network/kio-gdrive: frameworks/kio
-playground/network/kio-gdrive: extragear/libs/libkgapi
+kdereview/kio-gdrive: frameworks/ki18n
+kdereview/kio-gdrive: frameworks/kio
+kdereview/kio-gdrive: extragear/libs/libkgapi
 
 # KAccounts
 kde/kdenetwork/kaccounts-integration: frameworks/kcmutils

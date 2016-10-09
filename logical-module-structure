@@ -2092,7 +2092,7 @@
             "kf5-qt5": "master",
             "stable-kf5-qt5": "master"
         },
-        "playground/network/kio-gdrive": {
+        "kdereview/kio-gdrive": {
             "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master",

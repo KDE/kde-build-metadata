@@ -1737,9 +1737,9 @@ extragear/pim/trojita: -frameworks/kf5umbrella
 extragear/pim/trojita: kde/pim/gpgmepp
 
 # Playground Network
-playground/network/kio-gdrive: frameworks/ki18n
-playground/network/kio-gdrive: frameworks/kio
-playground/network/kio-gdrive: extragear/libs/libkgapi
+kdereview/kio-gdrive: frameworks/ki18n
+kdereview/kio-gdrive: frameworks/kio
+kdereview/kio-gdrive: extragear/libs/libkgapi
 playground/network/telepathy/telepathy-morse: frameworks/kcoreaddons
 
 #Playground PIM
