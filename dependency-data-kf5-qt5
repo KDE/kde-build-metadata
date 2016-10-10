@@ -1299,6 +1299,8 @@ kde/kdegraphics/libs/libkgeomap: kde/kdegraphics/libs/libkexiv2
 kde/kdegraphics/libs/libkipi: kde/kdegraphics/libs/libkdcraw
 kde/kdegraphics/libs/libkipi: kde/kdegraphics/libs/libkexiv2
 
+kde/kdegraphics/peruse: frameworks/kirigami
+kde/kdegraphics/peruse: kde/kdegraphics/okular
 
 # Spectacle
 kde/kdegraphics/spectacle: frameworks/kcoreaddons
