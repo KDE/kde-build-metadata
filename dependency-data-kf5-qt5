@@ -1567,15 +1567,15 @@ calligra/calligra: kde/pim/akonadi-contacts
 calligra/calligra: kde/kdeedu/marble
 calligra/calligra: kde/kdegraphics/okular
 calligra/calligra: extragear/graphics/kdiagram
-calligra/calligra: playground/libs/kproperty
-calligra/calligra: playground/libs/kreport
+calligra/calligra: kdereview/kproperty
+calligra/calligra: kdereview/kreport
 
 # Kexi
 calligra/kexi: frameworks/kf5umbrella
 calligra/kexi: frameworks/breeze-icons
-calligra/kexi: playground/libs/kdb
-calligra/kexi: playground/libs/kproperty
-calligra/kexi: playground/libs/kreport
+calligra/kexi: kdereview/kdb
+calligra/kexi: kdereview/kproperty
+calligra/kexi: kdereview/kreport
 calligra/kexi: kde/kdeedu/marble
 
 # Krita
@@ -1640,18 +1640,18 @@ playground/libs/purpose: frameworks/kdeclarative
 playground/libs/purpose: kde/kdenetwork/kaccounts-integration
 playground/libs/purpose: kdereview/kdeconnect-kde
 
-playground/libs/kproperty: frameworks/kconfig
-playground/libs/kproperty: frameworks/kcoreaddons
-playground/libs/kproperty: frameworks/kguiaddons
-playground/libs/kproperty: frameworks/kwidgetsaddons
+kdereview/kproperty: frameworks/kconfig
+kdereview/kproperty: frameworks/kcoreaddons
+kdereview/kproperty: frameworks/kguiaddons
+kdereview/kproperty: frameworks/kwidgetsaddons
 
-playground/libs/kreport: frameworks/kconfig
-playground/libs/kreport: frameworks/kcoreaddons
-playground/libs/kreport: frameworks/kguiaddons
-playground/libs/kreport: frameworks/kwidgetsaddons
-playground/libs/kreport: playground/libs/kproperty
+kdereview/kreport: frameworks/kconfig
+kdereview/kreport: frameworks/kcoreaddons
+kdereview/kreport: frameworks/kguiaddons
+kdereview/kreport: frameworks/kwidgetsaddons
+kdereview/kreport: kdereview/kproperty
 
-playground/libs/kdb:frameworks/kcoreaddons
+kdereview/kdb:frameworks/kcoreaddons
 
 # Playground Utils
 playground/utils/kdebugsettings: frameworks/kcoreaddons

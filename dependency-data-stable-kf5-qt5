@@ -1226,6 +1226,14 @@ extragear/office/skrooge: frameworks/krunner
 # Extragear Utils
 extragear/utils/yakuake: kde/applications/konsole
 
+# Kexi
+calligra/kexi: frameworks/kf5umbrella
+calligra/kexi: frameworks/breeze-icons
+calligra/kexi: kdereview/kdb
+calligra/kexi: kdereview/kproperty
+calligra/kexi: kdereview/kreport
+calligra/kexi: kde/kdeedu/marble
+
 # Krita
 calligra/krita: frameworks/karchive
 calligra/krita: frameworks/kconfig
@@ -1279,6 +1287,19 @@ playground/libs/purpose: frameworks/ki18n
 playground/libs/purpose: frameworks/kdeclarative
 playground/libs/purpose: kde/kdenetwork/kaccounts-integration
 playground/libs/purpose: kdereview/kdeconnect-kde
+
+kdereview/kproperty: frameworks/kconfig
+kdereview/kproperty: frameworks/kcoreaddons
+kdereview/kproperty: frameworks/kguiaddons
+kdereview/kproperty: frameworks/kwidgetsaddons
+
+kdereview/kreport: frameworks/kconfig
+kdereview/kreport: frameworks/kcoreaddons
+kdereview/kreport: frameworks/kguiaddons
+kdereview/kreport: frameworks/kwidgetsaddons
+kdereview/kreport: kdereview/kproperty
+
+kdereview/kdb:frameworks/kcoreaddons
 
 # Playground Network
 kdereview/kio-gdrive: frameworks/ki18n
