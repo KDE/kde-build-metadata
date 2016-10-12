@@ -939,7 +939,7 @@ kde/pim/libkleo: frameworks/kwidgetsaddons
 kde/pim/libkleo: frameworks/kcompletion
 kde/pim/libkleo: frameworks/kwindowsystem
 kde/pim/libkleo: frameworks/kcoreaddons
-kde/pim/libkleo: kde/pim/gpgmepp
+kde/pim/libkleo: general/gpgme
 kde/pim/libkleo: kde/pim/kpimtextedit
 
 kde/pim/kleopatra: kde/pim/libkleo
