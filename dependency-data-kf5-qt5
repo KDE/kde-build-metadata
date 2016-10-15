@@ -1319,6 +1319,11 @@ kde/kdegraphics/spectacle: kde/kdegraphics/libs/libkipi
 # kdemultimedia
 kde/kdemultimedia/audiocd-kio: kde/kdemultimedia/libkcddb
 kde/kdemultimedia/audiocd-kio: kde/kdemultimedia/libkcompactdisc
+kde/kdemultimedia/kscd: kdesupport/phonon/phonon
+kde/kdemultimedia/kscd: frameworks/kdbusaddons
+kde/kdemultimedia/kscd: frameworks/kdelibs4support
+kde/kdemultimedia/kscd: frameworks/kglobalaccel
+kde/kdemultimedia/kscd: frameworks/solid
 
 # KDE Edu
 kde/kdeedu/cantor: kde/kdeedu/analitza
@@ -1445,7 +1450,6 @@ extragear/multimedia/kamoso: frameworks/solid
 extragear/multimedia/kamoso: frameworks/kio
 extragear/multimedia/kamoso: frameworks/kdeclarative
 extragear/multimedia/kamoso: frameworks/ki18n
-extragear/multimedia/k3b: frameworks/kcmutils
 extragear/multimedia/k3b: frameworks/kfilemetadata
 extragear/multimedia/k3b: frameworks/kio
 extragear/multimedia/k3b: kde/kdemultimedia/libkcddb
