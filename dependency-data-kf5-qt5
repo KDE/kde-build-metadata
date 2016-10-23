@@ -1764,6 +1764,9 @@ playground/pim/zanshin: kde/pim/kidentitymanagement
 playground/pim/zanshin: kde/pim/kontactinterface
 playground/pim/zanshin: kde/kdepim-runtime
 
+#AtCore - Atelier
+playground/base/atcore: framewors/solid
+
 # The generic dependency on all frameworks
 kde/*: frameworks/kf5umbrella
 extragear/*: frameworks/kf5umbrella
