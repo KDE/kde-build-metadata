@@ -1276,6 +1276,8 @@ kde/kdegraphics/okular: frameworks/kwallet
 kde/kdegraphics/okular: frameworks/khtml
 kde/kdegraphics/okular: kde/workspace/libkscreen
 kde/kdegraphics/okular: kdesupport/phonon/phonon
+kde/kdegraphics/okular: kde/kdegraphics/libs/libkexiv2
+kde/kdegraphics/okular: kde/kdegraphics/kdegraphics-mobipocket
 
 extragear/graphics/ksnapshot: frameworks/kconfig
 extragear/graphics/ksnapshot: frameworks/kconfigwidgets
