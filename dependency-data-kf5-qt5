@@ -41,7 +41,6 @@ frameworks/knotifications: frameworks/kcoreaddons
 frameworks/knotifications: kdesupport/phonon/phonon
 frameworks/kpackage: frameworks/karchive
 frameworks/kpackage: frameworks/kcoreaddons
-frameworks/kpackage: frameworks/kconfig
 frameworks/kpackage: frameworks/ki18n
 
 # Frameworks, tier3
