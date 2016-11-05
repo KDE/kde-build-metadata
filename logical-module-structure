@@ -1586,7 +1586,7 @@
         "kde/applications/kde-baseapps" : {
             "stable-qt4": "Applications/16.08",
             "latest-qt4": "Applications/16.08",
-            "kf5-qt5": "master",
+            "kf5-qt5": "",
             "stable-kf5-qt5": ""
         },
         "kde/applications/khelpcenter" : {
@@ -1594,6 +1594,30 @@
             "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/16.08"
+        },
+        "kde/applications/konqueror" : {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "master"
+        },
+        "kde/applications/kdialog" : {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "master"
+        },
+        "kde/applications/keditbookmarks" : {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "master"
+        },
+        "kde/applications/kfind" : {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "master"
         },
         "kdereview/kproperty" : {
             "stable-qt4": "",
