@@ -1873,7 +1873,7 @@
         "kde/kdenetwork/kget": {
             "stable-qt4": "Applications/16.08",
             "latest-qt4": "master",
-            "kf5-qt5": "kf5_port",
+            "kf5-qt5": "frameworks",
             "stable-kf5-qt5": ""
         },
         "kde/kdenetwork/kaccounts-providers": {
