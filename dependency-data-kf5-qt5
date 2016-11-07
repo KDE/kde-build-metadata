@@ -815,6 +815,8 @@ kde/pim/kldap: frameworks/kcmutils
 kde/pim/kldap: frameworks/kdelibs4support
 kde/pim/kldap: kde/pim/kcontacts
 kde/pim/kldap: kde/pim/kmbox
+
+kde/pim/kpimtextedit: frameworks/syntax-highlighting
 kde/pim/kpimtextedit: frameworks/kcoreaddons
 kde/pim/kpimtextedit: frameworks/kemoticons
 kde/pim/kpimtextedit: frameworks/sonnet
@@ -1035,6 +1037,7 @@ kde/pim/messagelib: kde/pim/akonadi-search
 kde/pim/messagelib: kde/pim/kcontacts
 kde/pim/messagelib: kde/pim/kmbox
 kde/pim/messagelib: kde/pim/kldap
+kde/pim/messagelib: frameworks/syntax-highlighting
 
 
 #kmail
@@ -1158,6 +1161,7 @@ kde/pim/mbox-importer: kde/pim/mailcommon
 #grantlee-editor
 kde/pim/grantlee-editor: kde/pim/pimcommon
 kde/pim/grantlee-editor: kde/pim/messagelib
+kde/pim/grantlee-editor: frameworks/syntax-highlighting
 
 #kontact
 kde/pim/kontact: kde/pim/pimcommon
