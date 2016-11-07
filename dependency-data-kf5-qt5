@@ -679,12 +679,8 @@ kde/applications/kate: frameworks/kactivities
 kde/applications/kate: frameworks/ktexteditor
 kde/applications/kate: frameworks/plasma-framework
 
-kde/applications/kde-baseapps: frameworks/kactivities
-kde/applications/kde-baseapps: frameworks/baloo
-kde/applications/kde-baseapps: kde/kdelibs/baloo-widgets
-kde/applications/kde-baseapps: frameworks/kfilemetadata
-# Provides KTextEditor for konqueror
-kde/applications/kde-baseapps: kde/applications/kate
+# Konqueror unittests use dolphinpart
+kde/applications/konqueror: kde/applications/dolphin
 
 kde/applications/dolphin: frameworks/kdoctools
 kde/applications/dolphin: frameworks/kinit
