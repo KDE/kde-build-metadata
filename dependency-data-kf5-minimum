@@ -851,7 +851,6 @@ kde/kdegraphics/okular: frameworks/kparts
 kde/kdegraphics/okular: frameworks/threadweaver
 kde/kdegraphics/okular: frameworks/kwallet
 kde/kdegraphics/okular: frameworks/khtml
-kde/kdegraphics/okular: kde/workspace/libkscreen
 kde/kdegraphics/okular: kdesupport/phonon/phonon
 
 extragear/graphics/ksnapshot: frameworks/kconfig
