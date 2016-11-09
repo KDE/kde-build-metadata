@@ -165,8 +165,6 @@ kde/kdegraphics/okular: kde/kdegraphics/kdegraphics-mobipocket
 extragear/graphics/symboleditor: kde/kde-workspace
 
 # kdemultimedia
-kde/kdemultimedia/kscd: kde/kdemultimedia/libkcddb
-kde/kdemultimedia/kscd: kde/kdemultimedia/libkcompactdisc
 kde/kdemultimedia/audiocd-kio: kde/kdemultimedia/libkcddb
 kde/kdemultimedia/audiocd-kio: kde/kdemultimedia/libkcompactdisc
 
