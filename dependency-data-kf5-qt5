@@ -1324,6 +1324,20 @@ kde/kdemultimedia/kscd: frameworks/kdbusaddons
 kde/kdemultimedia/kscd: frameworks/kdelibs4support
 kde/kdemultimedia/kscd: frameworks/kglobalaccel
 kde/kdemultimedia/kscd: frameworks/solid
+kde/kdemultimedia/kwave: frameworks/kcompletion
+kde/kdemultimedia/kwave: frameworks/kconfig
+kde/kdemultimedia/kwave: frameworks/konfigwidgets
+kde/kdemultimedia/kwave: frameworks/kcoreaddons
+kde/kdemultimedia/kwave: frameworks/kcrash
+kde/kdemultimedia/kwave: frameworks/kdbusaddons
+kde/kdemultimedia/kwave: frameworks/kdoctools
+kde/kdemultimedia/kwave: frameworks/ki18n
+kde/kdemultimedia/kwave: frameworks/kiconthemes
+kde/kdemultimedia/kwave: frameworks/kio
+kde/kdemultimedia/kwave: frameworks/kservice
+kde/kdemultimedia/kwave: frameworks/ktextwidgets
+kde/kdemultimedia/kwave: frameworks/kxmlgui
+kde/kdemultimedia/kwave: frameworks/kwidgetsaddons
 
 # KDE Edu
 kde/kdeedu/cantor: kde/kdeedu/analitza

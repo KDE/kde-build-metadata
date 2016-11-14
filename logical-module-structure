@@ -1442,6 +1442,12 @@
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/16.08"
         },
+        "kde/kdemultimedia/kwave": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
+        },
         "extragear/utils/yakuake": {
             "stable-qt4": "",
             "latest-qt4": "",
