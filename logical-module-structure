@@ -693,7 +693,7 @@
             "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "",
-            "stable-kf5-qt5": "Applications/16.12"
+            "stable-kf5-qt5": "Applications/16.08"
         },
         "kde/pim/libkdepim": {
             "stable-qt4": "",
@@ -1344,7 +1344,7 @@
             "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": ""
+            "stable-kf5-qt5": "Applications/16.12"
         },
         "extragear/utils/yakuake": {
             "stable-qt4": "",
