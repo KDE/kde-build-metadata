@@ -224,6 +224,9 @@ kde/kdeadmin/kuser: kde/kdepimlibs
 # kdetoys
 kde/kdetoys/ktux: kde/kde-workspace
 
+# kdewebdev
+kde/kdewebdev/klinkstatus: kde/kdepimlibs
+
 # kdeexamples
 kde/kdeexamples: kde/kdelibs/nepomuk-core
 
