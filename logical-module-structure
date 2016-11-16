@@ -71,6 +71,12 @@
             "kf5-qt5": "frameworks",
             "stable-kf5-qt5": "Applications/16.12"
         },
+        "kde/kdewebdev/*" : {
+            "stable-qt4": "Applications/16.12",
+            "latest-qt4": "master",
+            "kf5-qt5": "",
+            "stable-kf5-qt5": ""
+        },
         "kde/kdelibs" : {
             "stable-qt4": "KDE/4.14",
             "latest-qt4": "KDE/4.14",
