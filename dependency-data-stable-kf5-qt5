@@ -190,6 +190,7 @@ frameworks/ktexteditor: frameworks/kio
 frameworks/ktexteditor: frameworks/kparts
 frameworks/ktexteditor: frameworks/sonnet
 frameworks/ktexteditor: frameworks/kxmlgui
+frameworks/ktexteditor: frameworks/syntax-highlighting
 frameworks/kwallet: frameworks/kconfig
 frameworks/kwallet: frameworks/kcoreaddons
 frameworks/kwallet: frameworks/kdbusaddons
