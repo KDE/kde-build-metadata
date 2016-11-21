@@ -1405,6 +1405,9 @@ extragear/kdevelop/plugins/kdev-php: extragear/kdevelop/kdevplatform
 extragear/kdevelop/plugins/kdev-php: extragear/kdevelop/kdevelop-pg-qt
 
 # Extragear Network
+extragear/network/kio-gdrive: frameworks/ki18n
+extragear/network/kio-gdrive: frameworks/kio
+extragear/network/kio-gdrive: extragear/libs/libkgapi
 extragear/network/konversation: kdesupport/qca
 extragear/network/libktorrent: kdesupport/qca
 extragear/network/ktorrent: extragear/network/libktorrent
@@ -1551,11 +1554,6 @@ kdereview/kreport: frameworks/kwidgetsaddons
 kdereview/kreport: kdereview/kproperty
 
 kdereview/kdb:frameworks/kcoreaddons
-
-# Playground Network
-kdereview/kio-gdrive: frameworks/ki18n
-kdereview/kio-gdrive: frameworks/kio
-kdereview/kio-gdrive: extragear/libs/libkgapi
 
 # KAccounts
 kde/kdenetwork/kaccounts-integration: frameworks/kcmutils

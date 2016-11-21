@@ -1484,6 +1484,9 @@ extragear/kdevelop/kdevplatform: kde/kdesdk/libkomparediff2
 extragear/kdevelop/kdevplatform: kde/kdenetwork/kio-extras
 
 # Extragear Network
+extragear/network/kio-gdrive: frameworks/ki18n
+extragear/network/kio-gdrive: frameworks/kio
+extragear/network/kio-gdrive: extragear/libs/libkgapi
 extragear/network/konversation: kdesupport/qca
 extragear/network/choqok: kdesupport/qca
 extragear/network/libktorrent: kdesupport/qca
@@ -1763,9 +1766,6 @@ extragear/pim/trojita: -frameworks/kf5umbrella
 extragear/pim/trojita: kde/pim/gpgmepp
 
 # Playground Network
-kdereview/kio-gdrive: frameworks/ki18n
-kdereview/kio-gdrive: frameworks/kio
-kdereview/kio-gdrive: extragear/libs/libkgapi
 playground/network/telepathy/telepathy-morse: frameworks/kcoreaddons
 
 #Playground PIM
