@@ -133,6 +133,12 @@
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/16.12"
         },
+        "unmaintained/gpgmepp" : {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "Applications/16.12"
+        },
         "playground/libs/libechonest" : {
             "stable-qt4": "stable-v1",
             "latest-qt4": "master",
