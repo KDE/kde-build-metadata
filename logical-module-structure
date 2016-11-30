@@ -137,7 +137,7 @@
             "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": "Applications/16.12"
+            "stable-kf5-qt5": "Applications/16.08"
         },
         "playground/libs/libechonest" : {
             "stable-qt4": "stable-v1",
