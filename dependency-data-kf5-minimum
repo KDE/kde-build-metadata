@@ -721,7 +721,6 @@ kde/kdepimlibs: kde/pim/kontactinterface
 kde/kdepimlibs: kde/pim/kpimtextedit
 kde/kdepimlibs: kde/pim/ktnef
 kde/kdepimlibs: kde/pim/syndication
-kde/kdepimlibs: kde/pim/gpgmepp
 
 kde/pim/kcalcore: frameworks/kdelibs4support
 kde/pim/syndication: frameworks/kio
@@ -981,7 +980,6 @@ extragear/network/choqok: kdesupport/qca
 
 # KDE Network: Telepathy
 kde/kdenetwork/kget: kdesupport/qca
-kde/kdenetwork/kget: kde/pim/gpgmepp
 kde/kdenetwork/ktp-common-internals: frameworks/kcmutils
 kde/kdenetwork/ktp-common-internals: frameworks/knotifyconfig
 kde/kdenetwork/ktp-common-internals: frameworks/ktexteditor
@@ -1032,7 +1030,6 @@ extragear/office/kmymoney: kde/kdepimlibs
 extragear/office/kmymoney: extragear/office/alkimia
 extragear/office/kmymoney: kde/pim/kholidays
 extragear/office/kmymoney: kde/pim/kidentitymanagement
-extragear/office/kmymoney: kde/pim/gpgmepp
 extragear/office/kmymoney: kde/pim/kcontacts
 extragear/office/kmymoney: frameworks/kactivities
 extragear/office/skrooge: frameworks/kactivities

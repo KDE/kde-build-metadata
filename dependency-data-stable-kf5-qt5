@@ -798,7 +798,6 @@ kde/pim/akonadi-mime: frameworks/kitemmodels
 kde/pim/akonadi-mime: kde/pim/kmime
 kde/pim/akonadi-mime: kde/pim/akonadi
 
-kde/pim/gpgmepp: -frameworks/kf5umbrella
 kde/pim/kcalcore: frameworks/kdelibs4support
 kde/pim/kcalcore: kde/workspace/plasma-workspace
 kde/pim/syndication: frameworks/kio
@@ -1416,7 +1415,6 @@ extragear/network/ktorrent: extragear/network/libktorrent
 
 # KDE Network: Telepathy
 kde/kdenetwork/kget: kdesupport/qca
-kde/kdenetwork/kget: kde/pim/gpgmepp
 kde/kdenetwork/ktp-common-internals: frameworks/kcmutils
 kde/kdenetwork/ktp-common-internals: frameworks/knotifyconfig
 kde/kdenetwork/ktp-common-internals: frameworks/ktexteditor

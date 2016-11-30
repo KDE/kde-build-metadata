@@ -806,7 +806,6 @@ kde/pim/akonadi-mime: frameworks/kitemmodels
 kde/pim/akonadi-mime: kde/pim/kmime
 kde/pim/akonadi-mime: kde/pim/akonadi
 
-kde/pim/gpgmepp: -frameworks/kf5umbrella
 kde/pim/kcalcore: frameworks/kdelibs4support
 kde/pim/kcalcore: kde/workspace/plasma-workspace
 kde/pim/syndication: frameworks/kio
@@ -1498,7 +1497,6 @@ extragear/network/ktorrent: kde/pim/syndication
 
 # KDE Network: Telepathy
 kde/kdenetwork/kget: kdesupport/qca
-kde/kdenetwork/kget: kde/pim/gpgmepp
 kde/kdenetwork/ktp-common-internals: frameworks/kcmutils
 kde/kdenetwork/ktp-common-internals: frameworks/knotifyconfig
 kde/kdenetwork/ktp-common-internals: frameworks/ktexteditor
@@ -1560,7 +1558,6 @@ extragear/office/kmymoney: extragear/graphics/kdiagram
 extragear/office/kmymoney: extragear/office/alkimia
 extragear/office/kmymoney: kde/pim/kholidays
 extragear/office/kmymoney: kde/pim/kidentitymanagement
-extragear/office/kmymoney: kde/pim/gpgmepp
 extragear/office/kmymoney: kde/pim/kcontacts
 extragear/office/kmymoney: frameworks/kactivities
 extragear/office/kmymoney: kde/pim/akonadi
@@ -1766,7 +1763,6 @@ kdereview/kdots: kde/kdegames/libkdegames
 
 # A standalone application, no need to install KF5
 extragear/pim/trojita: -frameworks/kf5umbrella
-extragear/pim/trojita: kde/pim/gpgmepp
 
 # Playground Network
 playground/network/telepathy/telepathy-morse: frameworks/kcoreaddons
