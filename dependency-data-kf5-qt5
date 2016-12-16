@@ -1211,6 +1211,7 @@ kde/pim/kdepim-addons: kde/pim/pimcommon
 kde/pim/kdepim-addons: kde/pim/libgravatar
 kde/pim/kdepim-addons: kde/pim/akonadi-calendar
 kde/pim/kdepim-addons: kde/pim/ktnef
+kde/pim/kdepim-addons: kde/pim/libksieve
 
 #Akonadi
 kde/pim/akonadi: frameworks/kitemviews
