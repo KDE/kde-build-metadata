@@ -265,6 +265,7 @@ frameworks/frameworkintegration: frameworks/kio
 frameworks/frameworkintegration: frameworks/kinit
 frameworks/frameworkintegration: frameworks/oxygen-icons5
 frameworks/frameworkintegration: frameworks/kpackage
+frameworks/frameworkintegration: frameworks/knewstuff
 
 frameworks/kdelibs4support: frameworks/ki18n
 frameworks/kdelibs4support: frameworks/kguiaddons
