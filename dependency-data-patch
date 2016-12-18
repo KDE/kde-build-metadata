@@ -1057,14 +1057,14 @@ kde/workspace/ksshaskpass: frameworks/kcoreaddons
 kde/workspace/ksshaskpass: frameworks/ki18n
 kde/workspace/ksshaskpass: frameworks/kwallet
 kde/workspace/ksshaskpass: frameworks/kwidgetsaddons
-kdereview/kdeconnect-kde: kdesupport/qca
-kdereview/kdeconnect-kde: frameworks/kio
-kdereview/kdeconnect-kde: frameworks/ki18n
-kdereview/kdeconnect-kde: frameworks/knotifications
-kdereview/kdeconnect-kde: frameworks/kconfigwidgets
-kdereview/kdeconnect-kde: frameworks/kdbusaddons
-kdereview/kdeconnect-kde: frameworks/kcmutils
-kdereview/kdeconnect-kde: frameworks/kiconthemes
+extragear/network/kdeconnect-kde: kdesupport/qca
+extragear/network/kdeconnect-kde: frameworks/kio
+extragear/network/kdeconnect-kde: frameworks/ki18n
+extragear/network/kdeconnect-kde: frameworks/knotifications
+extragear/network/kdeconnect-kde: frameworks/kconfigwidgets
+extragear/network/kdeconnect-kde: frameworks/kdbusaddons
+extragear/network/kdeconnect-kde: frameworks/kcmutils
+extragear/network/kdeconnect-kde: frameworks/kiconthemes
 
 playground/base/qtcurve: frameworks/karchive
 playground/base/qtcurve: frameworks/kconfig
@@ -1087,7 +1087,7 @@ playground/libs/purpose: frameworks/kconfig
 playground/libs/purpose: frameworks/ki18n
 playground/libs/purpose: frameworks/kdeclarative
 playground/libs/purpose: kde/kdenetwork/kaccounts-integration
-playground/libs/purpose: kdereview/kdeconnect-kde
+playground/libs/purpose: extragear/network/kdeconnect-kde
 
 # Playground Utils
 playground/utils/kdebugsettings: frameworks/kcoreaddons

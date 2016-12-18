@@ -1497,7 +1497,7 @@ playground/libs/purpose: frameworks/kconfig
 playground/libs/purpose: frameworks/ki18n
 playground/libs/purpose: frameworks/kdeclarative
 playground/libs/purpose: kde/kdenetwork/kaccounts-integration
-playground/libs/purpose: kdereview/kdeconnect-kde
+playground/libs/purpose: extragear/network/kdeconnect-kde
 
 playground/libs/kproperty: frameworks/kconfig
 playground/libs/kproperty: frameworks/kcoreaddons

@@ -425,7 +425,7 @@ playground/devtools/*: kde/applications/kate
 # Playground Net
 playground/network/sflphone-kde: kde/kdelibs
 playground/network/sflphone-kde: kde/kdepimlibs
-kdereview/kdeconnect-kde: kde/kde-workspace
+extragear/network/kdeconnect-kde: kde/kde-workspace
 
 # Playground PIM
 playground/pim/zanshin: kde/kdelibs
