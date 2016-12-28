@@ -811,6 +811,7 @@ kde/pim/kcalcore: frameworks/kdelibs4support
 kde/pim/kcalcore: kde/workspace/plasma-workspace
 kde/pim/syndication: frameworks/kio
 kde/pim/syndication: frameworks/kcodecs
+kde/pim/kdav: frameworks/kio
 kde/pim/kimap: frameworks/kcoreaddons
 kde/pim/kimap: frameworks/kdelibs4support
 kde/pim/kimap: kde/pim/kmime
