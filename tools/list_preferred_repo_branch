@@ -108,8 +108,12 @@ if __name__ == '__main__':
     for module_path in args.module_path:
         try:
             branch = json_groups.findModuleBranch(module_path, args.logical_group)
-            if not branch:
+            if branch is None:
                 branch = "<nothing set> (use master?)"
+            # If a group is set but still false it must be empty string, which means it's affirmatively
+            # *not* part of the given branch group
+            elif not branch:
+                branch = "<not in that branch-group>"
 
             if args.print_module_path:
                 print ("%s: %s" % (module_path, branch))
