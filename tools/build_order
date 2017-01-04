@@ -1,0 +1,90 @@
+#!/usr/bin/python3
+#
+# Tool to provide a valid build order from a dependency file
+#
+# See also: http://community.kde.org/Infrastructure/Project_Metadata
+#
+# Copyright (c) 2016 Albert Astals Cid <aacid@kde.org>
+#
+# Redistribution and use in source and binary forms, with or without
+# modification, are permitted provided that the following conditions
+# are met:
+#
+# 1. Redistributions of source code must retain the above copyright
+#    notice, this list of conditions and the following disclaimer.
+# 2. Redistributions in binary form must reproduce the above copyright
+#    notice, this list of conditions and the following disclaimer in the
+#    documentation and/or other materials provided with the distribution.
+#
+# THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
+# IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+# OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+# IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
+# INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+# NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+# DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+# THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+# (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
+# THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+import networkx as nx
+import re
+import sys
+#import matplotlib.pyplot as plt
+
+G = nx.DiGraph()
+
+if len(sys.argv) < 2:
+    print("Missing dependency file to parse")
+    exit(-1)
+
+with open(sys.argv[1]) as f:
+    lines = f.readlines()
+    greedy_rules = []
+    negative_rules = []
+    for line in lines:
+        if line.startswith("#"):
+            continue
+        line = line.strip()
+        if not line:
+            continue
+        match = re.search(r'(.*):(.*?)(#.*$|$)', line)
+        if match:
+            item = match.group(1).strip()
+            dependency = match.group(2).strip()
+
+            if "*" in item:
+                pair = [ item, dependency ]
+                greedy_rules.append(pair)
+                continue
+
+            if dependency.startswith("-"):
+                dependency = dependency [1:]
+                pair = [ item, dependency ]
+                negative_rules.append(pair)
+
+            G.add_edge(item, dependency)
+        else:
+            print("Could not parse", line);
+
+    for greedy_rule in greedy_rules:
+        greedy_pattern = greedy_rule[0].replace("*", ".*")
+        dependency = greedy_rule[1]
+        if dependency.startswith("-"):
+            print("Script does not support greedy negative rules", greedy_rule);
+        for node in G.nodes():
+            if re.search(greedy_pattern, node):
+                if node != dependency:
+                    G.add_edge(node, dependency)
+
+    for negative_rule in negative_rules:
+        item = negative_rule[0]
+        negative_dependency = negative_rule[1]
+        for node in G.nodes():
+            if node == item:
+                G.remove_edge(node, negative_dependency)
+
+
+    print (nx.topological_sort(G, reverse=True))
+    #nx.draw(G)
+    #plt.show()
