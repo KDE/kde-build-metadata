@@ -1668,8 +1668,8 @@
         },
         "kde/kdegames/kajongg": {
             "stable-qt4": "Applications/16.12",
-            "latest-qt4": "master",
-            "kf5-qt5": "",
+            "latest-qt4": "Applications/16.12",
+            "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         },
         "kde/kdegames/kapman": {
