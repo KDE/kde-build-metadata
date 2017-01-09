@@ -811,6 +811,7 @@ kde/pim/kcalcore: frameworks/kdelibs4support
 kde/pim/kcalcore: kde/workspace/plasma-workspace
 kde/pim/syndication: frameworks/kio
 kde/pim/syndication: frameworks/kcodecs
+kde/pim/kdav: frameworks/kcoreaddons
 kde/pim/kdav: frameworks/kio
 kde/pim/kimap: frameworks/kcoreaddons
 kde/pim/kimap: frameworks/kdelibs4support
@@ -1195,6 +1196,7 @@ kde/kdepim-runtime: kde/pim/kcontacts
 kde/kdepim-runtime: kde/pim/kalarmcal
 kde/kdepim-runtime: kde/pim/kcalcore
 kde/kdepim-runtime: kde/pim/kcalutils
+kde/kdepim-runtime: kde/pim/kdav
 kde/kdepim-runtime: kde/pim/kmbox
 kde/kdepim-runtime: kde/pim/kimap
 kde/kdepim-runtime: kde/pim/syndication
