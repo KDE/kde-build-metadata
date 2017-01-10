@@ -1726,6 +1726,7 @@ kde/kdegames/bomber: kde/kdegames/libkdegames
 kde/kdegames/bovo: kde/kdegames/libkdegames
 kde/kdegames/granatier: kde/kdegames/libkdegames
 # kajongg has a lot of PyQt4 and other binding req's
+kde/kdegames/kajongg: kde/kdegames/libkmahjongg
 kde/kdegames/kapman: kde/kdegames/libkdegames
 kde/kdegames/katomic: kde/kdegames/libkdegames
 kde/kdegames/kblackbox: kde/kdegames/libkdegames
