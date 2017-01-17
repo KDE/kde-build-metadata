@@ -1499,7 +1499,7 @@
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/16.12"
         },
-        "kde/applications/kde-baseapps" : {
+        "unmaintained/kde-baseapps" : {
             "stable-qt4": "Applications/16.12",
             "latest-qt4": "Applications/16.12",
             "kf5-qt5": "",
