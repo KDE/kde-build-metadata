@@ -1500,8 +1500,8 @@
             "stable-kf5-qt5": "Applications/16.12"
         },
         "unmaintained/kde-baseapps" : {
-            "stable-qt4": "Applications/16.12",
-            "latest-qt4": "Applications/16.12",
+            "stable-qt4": "Applications/16.08",
+            "latest-qt4": "Applications/16.08",
             "kf5-qt5": "",
             "stable-kf5-qt5": ""
         },
