@@ -1259,13 +1259,6 @@ kde/kdegraphics/gwenview: kde/kdegraphics/libs/libkdcraw
 kde/kdegraphics/gwenview: kde/kdegraphics/libs/libkipi
 kde/kdegraphics/gwenview: frameworks/baloo
 kde/kdegraphics/gwenview: kde/kdenetwork/kio-extras
-extragear/graphics/digikam: kde/kdegraphics/libs/libkipi
-extragear/graphics/digikam: kde/kdegraphics/libs/libksane
-extragear/graphics/digikam: kde/kdeedu/marble
-extragear/graphics/digikam: frameworks/kfilemetadata
-extragear/graphics/digikam: kde/pim/akonadi-contacts
-extragear/graphics/digikam: kde/pim/akonadi # I believe this is it wants for akonadi contacts
-extragear/graphics/digikam/digikam-doc: extragear/graphics/digikam
 
 kde/kdegraphics/kolourpaint: kde/kdegraphics/libs/libkexiv2
 
@@ -1286,19 +1279,6 @@ kde/kdegraphics/okular: frameworks/khtml
 kde/kdegraphics/okular: kdesupport/phonon/phonon
 kde/kdegraphics/okular: kde/kdegraphics/libs/libkexiv2
 kde/kdegraphics/okular: kde/kdegraphics/kdegraphics-mobipocket
-
-extragear/graphics/ksnapshot: frameworks/kconfig
-extragear/graphics/ksnapshot: frameworks/kconfigwidgets
-extragear/graphics/ksnapshot: frameworks/kcoreaddons
-extragear/graphics/ksnapshot: frameworks/kdoctools
-extragear/graphics/ksnapshot: frameworks/kguiaddons
-extragear/graphics/ksnapshot: frameworks/ki18n
-extragear/graphics/ksnapshot: frameworks/kio
-extragear/graphics/ksnapshot: frameworks/kservice
-extragear/graphics/ksnapshot: frameworks/kwindowsystem
-extragear/graphics/ksnapshot: frameworks/kxmlgui
-extragear/graphics/ksnapshot: frameworks/kdbusaddons
-extragear/graphics/ksnapshot: frameworks/kparts
 
 kde/kdegraphics/kdegraphics-thumbnailers: frameworks/kio
 kde/kdegraphics/kdegraphics-thumbnailers: kde/kdegraphics/libs/libkexiv2
@@ -1595,6 +1575,26 @@ extragear/graphics/kgraphviewer: frameworks/kparts
 extragear/graphics/kgraphviewer: frameworks/kio
 extragear/graphics/kgraphviewer: frameworks/kwidgetsaddons
 extragear/graphics/kgraphviewer: frameworks/kiconthemes
+extragear/graphics/digikam: kde/kdegraphics/libs/libkipi
+extragear/graphics/digikam: kde/kdegraphics/libs/libksane
+extragear/graphics/digikam: kde/kdeedu/marble
+extragear/graphics/digikam: frameworks/kfilemetadata
+extragear/graphics/digikam: kde/pim/akonadi-contacts
+extragear/graphics/digikam: kde/pim/akonadi # I believe this is it wants for akonadi contacts
+extragear/graphics/digikam/digikam-doc: extragear/graphics/digikam
+
+extragear/graphics/ksnapshot: frameworks/kconfig
+extragear/graphics/ksnapshot: frameworks/kconfigwidgets
+extragear/graphics/ksnapshot: frameworks/kcoreaddons
+extragear/graphics/ksnapshot: frameworks/kdoctools
+extragear/graphics/ksnapshot: frameworks/kguiaddons
+extragear/graphics/ksnapshot: frameworks/ki18n
+extragear/graphics/ksnapshot: frameworks/kio
+extragear/graphics/ksnapshot: frameworks/kservice
+extragear/graphics/ksnapshot: frameworks/kwindowsystem
+extragear/graphics/ksnapshot: frameworks/kxmlgui
+extragear/graphics/ksnapshot: frameworks/kdbusaddons
+extragear/graphics/ksnapshot: frameworks/kparts
 
 # Calligra
 calligra/calligra: frameworks/kf5umbrella
