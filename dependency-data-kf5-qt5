@@ -1589,6 +1589,12 @@ extragear/graphics/kphotoalbum: kde/kdegraphics/libs/libkexiv2
 extragear/graphics/kphotoalbum: kde/kdegraphics/libs/libkface
 extragear/graphics/kphotoalbum: kde/kdegraphics/libs/libkgeomap
 extragear/graphics/kphotoalbum: kde/kdegraphics/libs/libkipi
+extragear/graphics/kgraphviewer: frameworks/kcoreaddons
+extragear/graphics/kgraphviewer: frameworks/kdoctools
+extragear/graphics/kgraphviewer: frameworks/kparts
+extragear/graphics/kgraphviewer: frameworks/kio
+extragear/graphics/kgraphviewer: frameworks/kwidgetsaddons
+extragear/graphics/kgraphviewer: frameworks/kiconthemes
 
 # Calligra
 calligra/calligra: frameworks/kf5umbrella
