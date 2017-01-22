@@ -1951,7 +1951,7 @@
         "kde/kdesdk/kde-dev-utils": {
             "stable-qt4": "Applications/16.12",
             "latest-qt4": "master",
-            "kf5-qt5": "",
+            "kf5-qt5": "frameworks",
             "stable-kf5-qt5": ""
         },
         "kde/kdesdk/kdesdk-strigi-analyzers": {
