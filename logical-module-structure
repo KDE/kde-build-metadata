@@ -1982,7 +1982,7 @@
             "stable-qt4": "rel_1.7",
             "latest-qt4": "qt4",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": "master"
+            "stable-kf5-qt5": "2.0"
         },
         "extragear/sysadmin/libqapt": {
             "stable-qt4": "",
