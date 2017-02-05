@@ -705,7 +705,6 @@ kde/applications/dolphin: frameworks/solid
 kde/applications/dolphin: frameworks/kiconthemes
 kde/applications/dolphin: frameworks/kcompletion
 kde/applications/dolphin: frameworks/ktexteditor
-kde/applications/dolphin: frameworks/kwindowsystem
 kde/applications/dolphin: frameworks/knotifications
 kde/applications/dolphin: frameworks/kactivities
 kde/applications/dolphin: kdesupport/phonon/phonon
