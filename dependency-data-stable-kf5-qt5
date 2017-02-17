@@ -16,10 +16,6 @@
 *: Qt5[stable]
 *: kdesupport/extra-cmake-modules
 
-# Frameworks, tier1
-frameworks/breeze-icons: frameworks/kconfig
-frameworks/breeze-icons: frameworks/kiconthemes
-
 # Frameworks, tier2
 frameworks/kauth: frameworks/kcoreaddons
 frameworks/kauth: kdesupport/polkit-qt-1
