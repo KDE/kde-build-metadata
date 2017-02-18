@@ -293,7 +293,7 @@ class KDEDependencies:
     def allModules(self):
         return self.dependencies.keys()
 
-def addPathIfMissing(deps, modules):
+def addPathIfMissing(deps, modules, ignore_missing=False):
     good = []
     bad = []
     for m in modules:
@@ -308,6 +308,10 @@ def addPathIfMissing(deps, modules):
                     break
             if not found:
                 bad.append(m)
+        elif ignore_missing:
+            # Some modules may be logically present without any directly-listed
+            # dependencies, so we can't always assume this is an error.
+            good.append(m)
         else:
             bad.append(m)
 
@@ -335,6 +339,8 @@ if __name__ == '__main__':
     arg_parser.add_argument("-m", "--metadata-path",
             default="../",
             help="Path to kde-build-metadata *directory*")
+    arg_parser.add_argument("-f", "--assume-present", action='store_true',
+            help="If set, assume all input modules are present, and list implicit dependencies")
     arg_parser.add_argument("-v", "--version",
             action='version', version=('%(prog)s ' + str(version)))
     args = arg_parser.parse_args()
@@ -342,7 +348,7 @@ if __name__ == '__main__':
     deps = KDEDependencies("%s/dependency-data-%s" % (args.metadata_path, args.branch_group))
     deps.setShowDirectOnly(args.direct_dependencies)
 
-    (modules, mistake_modules) = addPathIfMissing(deps, args.module_path)
+    (modules, mistake_modules) = addPathIfMissing(deps, args.module_path, args.assume_present)
     if len(mistake_modules) > 0:
         print "Error: Couldn't find the following modules:"
         for module in mistake_modules:
