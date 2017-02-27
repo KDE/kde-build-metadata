@@ -1026,6 +1026,7 @@ kde/pim/messagelib: kde/pim/grantleetheme
 kde/pim/messagelib: kde/pim/libgravatar
 kde/pim/messagelib: kde/pim/libkleo
 kde/pim/messagelib: frameworks/oxygen-icons5 #needed for unit tests
+kde/pim/messagelib: kde/kdepim-runtime #needed for unit tests
 kde/pim/messagelib: kde/pim/akonadi-notes
 kde/pim/messagelib: kde/pim/akonadi-mime
 kde/pim/messagelib: kde/pim/akonadi-search
