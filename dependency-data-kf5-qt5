@@ -1440,6 +1440,7 @@ kde/kdesdk/kde-dev-utils: frameworks/ki18n
 kde/kdesdk/kde-dev-utils: frameworks/kjobwidgets
 kde/kdesdk/kde-dev-utils: frameworks/kparts
 kde/kdesdk/kde-dev-utils: frameworks/kwidgetsaddons
+kde/kdesdk/kdesdk-kioslaves: frameworks/kio
 kde/kdesdk/kdesdk-thumbnailers: frameworks/kconfig
 kde/kdesdk/kdesdk-thumbnailers: frameworks/ki18n
 kde/kdesdk/kdesdk-thumbnailers: frameworks/kio
