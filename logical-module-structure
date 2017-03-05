@@ -978,13 +978,13 @@
             "stable-qt4": "1.7",
             "latest-qt4": "1.7",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": "5.0"
+            "stable-kf5-qt5": "5.1"
         },
         "extragear/kdevelop/kdevelop": {
             "stable-qt4": "4.7",
             "latest-qt4": "4.7",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": "5.0"
+            "stable-kf5-qt5": "5.1"
         },
         "extragear/kdevelop/utilities/kdevelop-pg-qt": {
             "stable-qt4": "1.1",
@@ -1062,7 +1062,7 @@
             "stable-qt4": "1.7",
             "latest-qt4": "1.7",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": "5.0"
+            "stable-kf5-qt5": "5.1"
         },
         "playground/devtools/plugins/kdev-qmake": {
             "stable-qt4": "1.7",
@@ -1080,7 +1080,7 @@
             "stable-qt4": "1.7",
             "latest-qt4": "1.7",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": "5.0"
+            "stable-kf5-qt5": "5.1"
         },
         "extragear/kdevelop/plugins/kdev-php-docs": {
             "stable-qt4": "1.7",
@@ -1092,7 +1092,7 @@
             "stable-qt4": "1.7",
             "latest-qt4": "1.7-py3",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": "5.0"
+            "stable-kf5-qt5": "5.1"
         },
         "playground/devtools/kdev-executebrowser": {
             "stable-qt4": "1.7",
@@ -1868,7 +1868,7 @@
             "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "",
-            "stable-kf5-qt5": "5.0"
+            "stable-kf5-qt5": ""
         },
         "kde/kdeaccessibility/kmag": {
             "stable-qt4": "Applications/16.12",
