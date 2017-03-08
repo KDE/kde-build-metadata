@@ -151,6 +151,12 @@
             "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         },
+        "playground/libs/kimap2": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
+        },
         "playground/accessibility/libkdeaccessibilityclient": {
             "stable-qt4": "master",
             "latest-qt4": "master",
@@ -665,23 +671,23 @@
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/16.12"
         },
-        "playground/pim/akonadi-next": {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "develop",
-            "stable-kf5-qt5": ""
-        },
         "playground/lib/kasync": {
             "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         },
-        "playground/pim/kontact-quick": {
+        "playground/pim/kube": {
             "stable-qt4": "",
             "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": ""
+            "kf5-qt5": "develop",
+            "stable-kf5-qt5": "master"
+        },
+        "playground/pim/sink": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "develop",
+            "stable-kf5-qt5": "master"
         },
         "kde/pim/libgravatar": {
             "stable-qt4": "",

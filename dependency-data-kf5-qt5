@@ -1659,8 +1659,19 @@ extragear/network/kdeconnect-kde: frameworks/kdbusaddons
 extragear/network/kdeconnect-kde: frameworks/kcmutils
 extragear/network/kdeconnect-kde: frameworks/kiconthemes
 extragear/network/kdeconnect-kde: frameworks/kwayland
-playground/pim/akonadi-next: playground/libs/kasync
 
+playground/pim/sink: playground/libs/kasync
+playground/pim/sink: playground/libs/kimap2
+playground/pim/sink: kde/pim/kdav
+playground/pim/sink: kde/pim/kmime
+playground/pim/sink: kde/pim/kcontacts
+playground/pim/sink: frameworks/kcoreaddons
+playground/pim/sink: frameworks/kcodecs
+
+playground/pim/kube: playground/pim/sink
+playground/pim/kube: kde/pim/kmime
+playground/pim/kube: kde/pim/kcontacts
+playground/pim/kube: kde/pim/messagelib
 
 kdereview/breeze-gtk: frameworks/kconfig
 

@@ -1444,7 +1444,6 @@ extragear/network/kdeconnect-kde: frameworks/kdbusaddons
 extragear/network/kdeconnect-kde: frameworks/kcmutils
 extragear/network/kdeconnect-kde: frameworks/kiconthemes
 extragear/network/kdeconnect-kde: frameworks/kwayland
-playground/pim/akonadi-next: playground/libs/kasync
 kde/pim/libgravatar: frameworks/ki18n
 kde/pim/libgravatar: frameworks/kconfig
 kde/pim/libgravatar: frameworks/kwidgetsaddons
