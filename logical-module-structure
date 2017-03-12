@@ -706,13 +706,13 @@
             "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/16.12"
-        },  
+        },
         "kde/pim/incidenceeditor": {
             "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/16.12"
-        },  
+        },
         "kde/pim/kdgantt2": {
             "stable-qt4": "",
             "latest-qt4": "",
@@ -949,6 +949,12 @@
             "stable-qt4": "0.9.3",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Plasma/5.9"
+        },
+        "kde/workspace/plasma-vault": {
+            "latest-qt4": "",
+            "stable-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
         },
         "kde/workspace/plasma-tests": {
             "latest-qt4": "",
