@@ -917,6 +917,9 @@ kde/kdebindings/kross-interpreters: frameworks/kdelibs4support
 kde/kdebindings/kross-interpreters: frameworks/kross
 
 # Extragear Multimedia
+kde/kdemultimedia/k3b: frameworks/kfilemetadata
+kde/kdemultimedia/k3b: frameworks/kio
+kde/kdemultimedia/k3b: kde/kdemultimedia/libkcddb
 kde/workspace/plasma-mediacenter: frameworks/plasma-framework
 kde/workspace/plasma-mediacenter: kde/workspace/baloo
 extragear/multimedia/kamoso: frameworks/kwidgetsaddons
@@ -927,8 +930,6 @@ extragear/multimedia/kamoso: frameworks/solid
 extragear/multimedia/kamoso: frameworks/kio
 extragear/multimedia/kamoso: frameworks/kdeclarative
 extragear/multimedia/kamoso: frameworks/ki18n
-extragear/multimedia/k3b: frameworks/kfilemetadata
-extragear/multimedia/k3b: kde/kdemultimedia/libkcddb
 extragear/multimedia/kamoso: playground/libs/purpose
 
 # KDevelop

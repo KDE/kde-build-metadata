@@ -1352,7 +1352,7 @@
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/16.12"
         },
-        "extragear/multimedia/k3b": {
+        "kde/kdemultimedia/k3b": {
             "stable-qt4": "2.0",
             "latest-qt4": "",
             "kf5-qt5": "master",
