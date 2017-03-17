@@ -1088,6 +1088,12 @@
             "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         },
+        "playground/devtools/plugins/kdev-verapp": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
+        },
         "extragear/kdevelop/plugins/kdev-php": {
             "stable-qt4": "1.7",
             "latest-qt4": "1.7",
@@ -1105,6 +1111,12 @@
             "latest-qt4": "1.7-py3",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "5.1"
+        },
+        "playground/devtools/kdev-clang-tidy": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
         },
         "playground/devtools/kdev-executebrowser": {
             "stable-qt4": "1.7",
