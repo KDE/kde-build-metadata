@@ -1655,10 +1655,10 @@
             "stable-kf5-qt5": "Applications/17.04"
         },
         "kde/kdesdk/kdesdk-kioslaves": {
-            "stable-qt4": "Applications/17.04",
-            "latest-qt4": "master",
-            "kf5-qt5": "frameworks",
-            "stable-kf5-qt5": ""
+            "stable-qt4": "Applications/16.12",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "Applications/17.04"
         },
         "kde/kdegames/*": {
             "stable-qt4": "Applications/17.04",
