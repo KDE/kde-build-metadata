@@ -693,7 +693,6 @@ kde/applications/dolphin: frameworks/solid
 kde/applications/dolphin: frameworks/kiconthemes
 kde/applications/dolphin: frameworks/kcompletion
 kde/applications/dolphin: frameworks/ktexteditor
-kde/applications/dolphin: frameworks/kwindowsystem
 kde/applications/dolphin: frameworks/knotifications
 kde/applications/dolphin: frameworks/kactivities
 kde/applications/dolphin: kdesupport/phonon/phonon
@@ -803,6 +802,8 @@ kde/pim/kcalcore: frameworks/kdelibs4support
 kde/pim/kcalcore: kde/workspace/plasma-workspace
 kde/pim/syndication: frameworks/kio
 kde/pim/syndication: frameworks/kcodecs
+kde/pim/kdav: frameworks/kcoreaddons
+kde/pim/kdav: frameworks/kio
 kde/pim/kimap: frameworks/kcoreaddons
 kde/pim/kimap: frameworks/kdelibs4support
 kde/pim/kimap: kde/pim/kmime
@@ -821,6 +822,7 @@ kde/pim/kpimtextedit: frameworks/kio
 kde/pim/kpimtextedit: frameworks/kcodecs
 kde/pim/kpimtextedit: frameworks/kdelibs4support
 kde/pim/kpimtextedit: general/grantlee
+kde/pim/kpimtextedit: frameworks/oxygen-icons5 #needed for unit tests
 kde/pim/kalarmcal: frameworks/kdelibs4support
 kde/pim/kalarmcal: kde/pim/akonadi
 kde/pim/kalarmcal: kde/pim/kcalcore
@@ -1004,7 +1006,6 @@ kde/pim/kdepim-apps-libs: frameworks/ki18n
 kde/pim/kdepim-apps-libs: frameworks/kiconthemes
 kde/pim/kdepim-apps-libs: frameworks/kconfig
 kde/pim/kdepim-apps-libs: kde/pim/kmime
-kde/pim/kdepim-apps-libs: frameworks/kdewebkit
 
 kde/pim/grantleetheme: general/grantlee
 kde/pim/grantleetheme: frameworks/ki18n
@@ -1187,6 +1188,7 @@ kde/kdepim-runtime: kde/pim/kcontacts
 kde/kdepim-runtime: kde/pim/kalarmcal
 kde/kdepim-runtime: kde/pim/kcalcore
 kde/kdepim-runtime: kde/pim/kcalutils
+kde/kdepim-runtime: kde/pim/kdav
 kde/kdepim-runtime: kde/pim/kmbox
 kde/kdepim-runtime: kde/pim/kimap
 kde/kdepim-runtime: kde/pim/syndication
@@ -1204,6 +1206,7 @@ kde/pim/kdepim-addons: kde/pim/pimcommon
 kde/pim/kdepim-addons: kde/pim/libgravatar
 kde/pim/kdepim-addons: kde/pim/akonadi-calendar
 kde/pim/kdepim-addons: kde/pim/ktnef
+kde/pim/kdepim-addons: kde/pim/libksieve
 
 #Akonadi
 kde/pim/akonadi: frameworks/kitemviews
@@ -1294,6 +1297,9 @@ kde/kdegraphics/spectacle: kde/kdegraphics/libs/libkipi
 # kdemultimedia
 kde/kdemultimedia/audiocd-kio: kde/kdemultimedia/libkcddb
 kde/kdemultimedia/audiocd-kio: kde/kdemultimedia/libkcompactdisc
+kde/kdemultimedia/k3b: frameworks/kfilemetadata
+kde/kdemultimedia/k3b: frameworks/kio
+kde/kdemultimedia/k3b: kde/kdemultimedia/libkcddb
 kde/kdemultimedia/kscd: kdesupport/phonon/phonon
 kde/kdemultimedia/kscd: frameworks/kdbusaddons
 kde/kdemultimedia/kscd: frameworks/kdelibs4support
@@ -1379,6 +1385,13 @@ kde/kdesdk/kcachegrind: frameworks/kdoctools
 kde/kdesdk/kcachegrind: frameworks/kwidgetsaddons
 kde/kdesdk/kcachegrind: frameworks/kxmlgui
 kde/kdesdk/kcachegrind: frameworks/kdelibs4support
+kde/kdesdk/kde-dev-utils: frameworks/kcoreaddons
+kde/kdesdk/kde-dev-utils: frameworks/kio
+kde/kdesdk/kde-dev-utils: frameworks/ki18n
+kde/kdesdk/kde-dev-utils: frameworks/kjobwidgets
+kde/kdesdk/kde-dev-utils: frameworks/kparts
+kde/kdesdk/kde-dev-utils: frameworks/kwidgetsaddons
+kde/kdesdk/kdesdk-kioslaves: frameworks/kio
 kde/kdesdk/kdesdk-thumbnailers: frameworks/kconfig
 kde/kdesdk/kdesdk-thumbnailers: frameworks/ki18n
 kde/kdesdk/kdesdk-thumbnailers: frameworks/kio
@@ -1585,6 +1598,7 @@ kde/kdegames/bomber: kde/kdegames/libkdegames
 kde/kdegames/bovo: kde/kdegames/libkdegames
 kde/kdegames/granatier: kde/kdegames/libkdegames
 # kajongg has a lot of PyQt4 and other binding req's
+kde/kdegames/kajongg: kde/kdegames/libkmahjongg
 kde/kdegames/kapman: kde/kdegames/libkdegames
 kde/kdegames/katomic: kde/kdegames/libkdegames
 kde/kdegames/kblackbox: kde/kdegames/libkdegames
