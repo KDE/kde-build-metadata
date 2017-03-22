@@ -1300,6 +1300,7 @@ kde/kdemultimedia/audiocd-kio: kde/kdemultimedia/libkcompactdisc
 kde/kdemultimedia/k3b: frameworks/kfilemetadata
 kde/kdemultimedia/k3b: frameworks/kio
 kde/kdemultimedia/k3b: kde/kdemultimedia/libkcddb
+kde/kdemultimedia/kdenlive: frameworks/kfilemetadata
 kde/kdemultimedia/kscd: kdesupport/phonon/phonon
 kde/kdemultimedia/kscd: frameworks/kdbusaddons
 kde/kdemultimedia/kscd: frameworks/kdelibs4support
