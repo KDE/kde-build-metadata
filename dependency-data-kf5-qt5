@@ -1513,6 +1513,7 @@ kde/kdenetwork/ktp-auth-handler: frameworks/ki18n
 kde/kdenetwork/ktp-auth-handler: frameworks/kio
 kde/kdenetwork/ktp-auth-handler: kdesupport/qca
 kde/kdenetwork/ktp-auth-handler: kde/kdenetwork/kaccounts-integration
+kde/kdenetwork/ktp-call-ui: kde/kdenetwork/ktp-common-internals
 kde/kdenetwork/ktp-contact-list: kde/kdenetwork/ktp-common-internals
 kde/kdenetwork/ktp-contact-list: frameworks/kpeople
 kde/kdenetwork/ktp-filetransfer-handler: kde/kdenetwork/ktp-common-internals
