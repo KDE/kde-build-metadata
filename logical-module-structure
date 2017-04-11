@@ -1022,12 +1022,6 @@
             "kf5-qt5": "",
             "stable-kf5-qt5": ""
         },
-        "playground/devtools/plugins/kdev-clang": {
-            "stable-qt4": "1.7",
-            "latest-qt4": "1.7",
-            "kf5-qt5": "",
-            "stable-kf5-qt5": ""
-        },
         "playground/devtools/plugins/kdev-css": {
             "stable-qt4": "1.7",
             "latest-qt4": "1.7",
@@ -1058,23 +1052,11 @@
             "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         },
-        "playground/devtools/plugins/kdev-qmljs": {
-            "stable-qt4": "1.7",
-            "latest-qt4": "1.7",
-            "kf5-qt5": "",
-            "stable-kf5-qt5": ""
-        },
         "playground/devtools/plugins/kdev-ruby": {
             "stable-qt4": "1.7",
             "latest-qt4": "1.7",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "5.1"
-        },
-        "playground/devtools/plugins/kdev-qmake": {
-            "stable-qt4": "1.7",
-            "latest-qt4": "1.7",
-            "kf5-qt5": "",
-            "stable-kf5-qt5": ""
         },
         "playground/devtools/plugins/kdev-valgrind": {
             "stable-qt4": "1.7",

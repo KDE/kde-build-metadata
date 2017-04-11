@@ -35,14 +35,10 @@ extragear/kdevelop/plugins/kdev-php: extragear/kdevelop/utilities/kdevelop-pg-qt
 extragear/kdevelop/plugins/kdev-python: extragear/kdevelop/kdevelop
 kdereview/kdev-perforce: extragear/kdevelop/kdevplatform
 playground/devtools/plugins/*: extragear/kdevelop/kdevplatform
-playground/devtools/plugins/kdev-clang: extragear/kdevelop/kdevelop
 playground/devtools/plugins/kdev-css: extragear/kdevelop/utilities/kdevelop-pg-qt
 playground/devtools/plugins/kdev-go: extragear/kdevelop/utilities/kdevelop-pg-qt
 playground/devtools/plugins/kdev-java: extragear/kdevelop/utilities/kdevelop-pg-qt
 playground/devtools/plugins/kdev-python: extragear/kdevelop/utilities/kdevelop-pg-qt
-playground/devtools/plugins/kdev-qmake: extragear/kdevelop/kdevelop
-playground/devtools/plugins/kdev-qmake: extragear/kdevelop/utilities/kdevelop-pg-qt
-playground/devtools/plugins/kdev-qmljs: extragear/kdevelop/kdevelop
 playground/devtools/plugins/kdev-xml: extragear/kdevelop/utilities/kdevelop-pg-qt
 playground/devtools/plugins/kdev-xtest: extragear/kdevelop/utilities/kdevelop-pg-qt
 playground/devtools/plugins/kdev-xtest: playground/devtools/veritas
