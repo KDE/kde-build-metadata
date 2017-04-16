@@ -1687,6 +1687,7 @@ playground/base/qtcurve: frameworks/kwidgetsaddons
 playground/base/qtcurve: frameworks/kxmlgui
 playground/base/qtcurve: frameworks/kemoticons
 playground/base/qtcurve: frameworks/kitemmodels
+playground/base/qtcurve: frameworks/frameworkintegration
 
 playground/base/kio-mtp: frameworks/ki18n
 playground/base/kio-mtp: frameworks/solid
