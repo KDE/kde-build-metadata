@@ -1565,6 +1565,7 @@ extragear/office/tellico: kde/kdegraphics/libs/libksane
 extragear/office/tellico: kde/kdemultimedia/libkcddb
 extragear/office/alkimia: -frameworks/kf5umbrella
 extragear/office/kile: kde/kdegraphics/okular
+extragear/office/kbibtex: kdesupport/qca
 
 # Extragear Utils
 extragear/utils/yakuake: kde/applications/konsole
