@@ -1695,6 +1695,10 @@ playground/base/kio-mtp: frameworks/ki18n
 playground/base/kio-mtp: frameworks/solid
 playground/base/kio-mtp: frameworks/kio
 
+playground/base/xdg-desktop-portal-kde: frameworks/kcoreaddons
+playground/base/xdg-desktop-portal-kde: frameworks/ki18n
+playground/base/xdg-desktop-portal-kde: frameworks/knotifications
+
 # Playground Libs
 playground/libs/purpose: frameworks/kcoreaddons
 playground/libs/purpose: frameworks/kconfig
