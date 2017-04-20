@@ -1494,6 +1494,10 @@ extragear/network/ktorrent: kde/pim/syndication
 
 # KDE Network: Telepathy
 kde/kdenetwork/kget: kdesupport/qca
+kde/kdenetwork/kopete: kdesupport/qca
+kde/kdenetwork/kopete: kde/pim/kcontacts
+kde/kdenetwork/kopete: kde/pim/kidentitymanagement
+kde/kdenetwork/kopete: kde/pim/libkleo
 kde/kdenetwork/ktp-common-internals: frameworks/kcmutils
 kde/kdenetwork/ktp-common-internals: frameworks/knotifyconfig
 kde/kdenetwork/ktp-common-internals: frameworks/ktexteditor
