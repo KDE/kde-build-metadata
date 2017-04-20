@@ -2067,6 +2067,12 @@
             "latest-qt4": "master",
             "kf5-qt5": "",
             "stable-kf5-qt5": ""
+        },
+        "extragear/edu/labplot": {
+            "stable-qt4": "",
+            "latest-qt4": "master",
+            "kf5-qt5": "frameworks",
+            "stable-kf5-qt5": ""
         }
     }
 }
