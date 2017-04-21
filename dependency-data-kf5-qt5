@@ -1705,6 +1705,11 @@ playground/base/xdg-desktop-portal-kde: frameworks/kcoreaddons
 playground/base/xdg-desktop-portal-kde: frameworks/ki18n
 playground/base/xdg-desktop-portal-kde: frameworks/knotifications
 
+playground/base/atcore: frameworks/ki18n
+playground/base/atcore: frameworks/solid
+playground/base/atcore: frameworks/kconfigwidgets
+playground/base/atcore: frameworks/kxmlgui
+
 # Playground Libs
 playground/libs/purpose: frameworks/kcoreaddons
 playground/libs/purpose: frameworks/kconfig
