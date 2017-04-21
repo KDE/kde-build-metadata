@@ -1710,6 +1710,13 @@ playground/base/atcore: frameworks/solid
 playground/base/atcore: frameworks/kconfigwidgets
 playground/base/atcore: frameworks/kxmlgui
 
+playground/base/atelier: playground/base/atcore
+playground/base/atelier: frameworks/ki18n
+playground/base/atelier: frameworks/solid
+playground/base/atelier: frameworks/kconfigwidgets
+playground/base/atelier: frameworks/kxmlgui
+playground/base/atelier: frameworks/ktexteditor
+
 # Playground Libs
 playground/libs/purpose: frameworks/kcoreaddons
 playground/libs/purpose: frameworks/kconfig
