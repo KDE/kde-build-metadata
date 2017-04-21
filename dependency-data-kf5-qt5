@@ -1469,6 +1469,8 @@ extragear/multimedia/kamoso: frameworks/kio
 extragear/multimedia/kamoso: frameworks/kdeclarative
 extragear/multimedia/kamoso: frameworks/ki18n
 extragear/multimedia/kamoso: playground/libs/purpose
+extragear/multimedia/kaudiocreator: kde/kdemultimedia/libkcddb
+extragear/multimedia/kaudiocreator: kde/kdemultimedia/libkcompactdisc
 
 # KDevelop
 extragear/kdevelop/kdevelop: kde/applications/khelpcenter
