@@ -2109,6 +2109,12 @@
             "latest-qt4": "Applications/17.04",
             "kf5-qt5": "master",
             "stable-kf5-qt5": ""
+        },
+        "kde/kdegames/lskat": {
+            "stable-qt4": "Applications/17.04",
+            "latest-qt4": "Applications/17.04",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
         }
     }
 }
