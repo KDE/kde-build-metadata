@@ -383,7 +383,7 @@ frameworks/kf5umbrella: frameworks/kwayland
 frameworks/baloo: frameworks/krunner
 frameworks/baloo: frameworks/kfilemetadata
 frameworks/baloo: frameworks/kdelibs4support
-kde/kdelibs/baloo-widgets: frameworks/baloo
+kde/applications/baloo-widgets: frameworks/baloo
 
 # libksysguard
 kde/workspace/libksysguard: frameworks/ki18n
@@ -706,7 +706,7 @@ kde/applications/dolphin: frameworks/kactivities
 kde/applications/dolphin: kdesupport/phonon/phonon
 kde/applications/dolphin: frameworks/kfilemetadata
 kde/applications/dolphin: frameworks/baloo
-kde/applications/dolphin: kde/kdelibs/baloo-widgets
+kde/applications/dolphin: kde/applications/baloo-widgets
 
 kde/applications/konsole: frameworks/kwidgetsaddons
 kde/applications/konsole: frameworks/ki18n
