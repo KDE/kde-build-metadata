@@ -2122,6 +2122,12 @@
             "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         },
+        "kde/kdegames/ksnakeduel": {
+            "stable-qt4": "Applications/17.04",
+            "latest-qt4": "Applications/17.04",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
+        },
         "extragear/utils/isoimagewriter": {
             "stable-qt4": "",
             "latest-qt4": "",
