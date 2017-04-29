@@ -1496,6 +1496,20 @@ extragear/office/skrooge: frameworks/krunner
 # Extragear Utils
 extragear/utils/yakuake: kde/applications/konsole
 
+# Calligra
+calligra/calligra: frameworks/kf5umbrella
+calligra/calligra: kdesupport/qca
+calligra/calligra: kdesupport/phonon/phonon
+calligra/calligra: kde/pim/kcalcore
+calligra/calligra: kde/pim/kcontacts
+calligra/calligra: kde/pim/akonadi
+calligra/calligra: kde/pim/akonadi-contacts
+calligra/calligra: kde/kdeedu/marble
+calligra/calligra: kde/kdegraphics/okular
+calligra/calligra: extragear/graphics/kdiagram
+calligra/calligra: kdereview/kproperty
+calligra/calligra: kdereview/kreport
+
 # Kexi
 calligra/kexi: frameworks/kf5umbrella
 calligra/kexi: frameworks/breeze-icons
