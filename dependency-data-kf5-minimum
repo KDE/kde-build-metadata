@@ -701,6 +701,14 @@ kde/kdeutils/ark: frameworks/karchive
 kde/kdeutils/ark: frameworks/ki18n
 kde/kdeutils/ark: frameworks/kparts
 kde/kdeutils/ark: frameworks/kpty
+kde/kdeutils/kdebugsettings: frameworks/kcoreaddons
+kde/kdeutils/kdebugsettings: frameworks/kconfig
+kde/kdeutils/kdebugsettings: frameworks/kconfigwidgets
+kde/kdeutils/kdebugsettings: frameworks/kdbusaddons
+kde/kdeutils/kdebugsettings: frameworks/kiconthemes
+kde/kdeutils/kdebugsettings: frameworks/kwidgetsaddons
+kde/kdeutils/kdebugsettings: frameworks/kitemviews
+kde/kdeutils/kdebugsettings: frameworks/kio
 kde/kdeutils/kgpg: frameworks/kio
 
 # KDE PIM Dependencies
@@ -1116,14 +1124,6 @@ playground/libs/purpose: kde/kdenetwork/kaccounts-integration
 playground/libs/purpose: extragear/network/kdeconnect-kde
 
 # Playground Utils
-playground/utils/kdebugsettings: frameworks/kcoreaddons
-playground/utils/kdebugsettings: frameworks/kconfig
-playground/utils/kdebugsettings: frameworks/kconfigwidgets
-playground/utils/kdebugsettings: frameworks/kdbusaddons
-playground/utils/kdebugsettings: frameworks/kiconthemes
-playground/utils/kdebugsettings: frameworks/kwidgetsaddons
-playground/utils/kdebugsettings: frameworks/kitemviews
-playground/utils/kdebugsettings: frameworks/kio
 
 # KAccounts
 kde/kdenetwork/kaccounts-integration: frameworks/kcmutils
