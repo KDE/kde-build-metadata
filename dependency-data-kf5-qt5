@@ -1748,6 +1748,12 @@ kdereview/kreport: kdereview/kproperty
 kdereview/kdb:frameworks/kcoreaddons
 
 # Playground Utils
+playground/utils/kregexpeditor: frameworks/kconfigwidgets
+playground/utils/kregexpeditor: frameworks/kdoctools
+playground/utils/kregexpeditor: frameworks/kiconthemes
+playground/utils/kregexpeditor: frameworks/kio
+playground/utils/kregexpeditor: frameworks/ktextwidgets
+playground/utils/kregexpeditor: frameworks/kwidgetsaddons
 playground/utils/krename: frameworks/ki18n
 playground/utils/krename: frameworks/kiconthemes
 playground/utils/krename: frameworks/kio
