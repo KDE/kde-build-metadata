@@ -557,6 +557,8 @@ kde/workspace/plasma-workspace: frameworks/baloo
 kde/workspace/plasma-workspace: frameworks/kwayland
 kde/workspace/plasma-workspace: kde/workspace/kscreenlocker
 kde/workspace/plasma-workspace: kde/workspace/kactivitymanagerd
+kde/workspace/plasma-workspace: kde/pim/kholidays
+kde/workspace/plasma-workspace: kdesupport/prison
 
 # KActivityManagerd
 kde/workspace/kactivitymanagerd: frameworks/kconfig
