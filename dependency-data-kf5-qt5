@@ -1030,6 +1030,7 @@ kde/pim/kdepim-apps-libs: frameworks/ki18n
 kde/pim/kdepim-apps-libs: frameworks/kiconthemes
 kde/pim/kdepim-apps-libs: frameworks/kconfig
 kde/pim/kdepim-apps-libs: kde/pim/kmime
+kde/pim/kdepim-apps-libs: kde/pim/mailcommon
 
 kde/pim/grantleetheme: general/grantlee
 kde/pim/grantleetheme: frameworks/ki18n
