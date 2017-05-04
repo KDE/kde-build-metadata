@@ -669,6 +669,13 @@ kde/workspace/discover: frameworks/knotifications
 kde/workspace/discover: frameworks/kdeclarative
 kde/workspace/discover: extragear/libs/kirigami
 
+kde/workspace/plasma-browser-integration: frameworks/kio
+kde/workspace/plasma-browser-integration: frameworks/ki18n
+kde/workspace/plasma-browser-integration: frameworks/knotifications
+kde/workspace/plasma-browser-integration: frameworks/krunner
+kde/workspace/plasma-browser-integration: frameworks/kwindowsystem
+kde/workspace/plasma-browser-integration: frameworks/kactivities
+
 # plasma-tests - depend on all of kde/workspace
 kde/workspace/plasma-tests: kde/workspace/plasma-workspace
 kde/workspace/plasma-tests: kde/workspace/plasma-desktop
