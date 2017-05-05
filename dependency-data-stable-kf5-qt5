@@ -239,6 +239,7 @@ frameworks/plasma-framework: frameworks/ktextwidgets
 frameworks/plasma-framework: frameworks/threadweaver
 frameworks/plasma-framework: frameworks/kunitconversion
 frameworks/plasma-framework: frameworks/kwallet
+frameworks/plasma-framework: frameworks/kwayland
 frameworks/plasma-framework: frameworks/kwidgetsaddons
 frameworks/plasma-framework: frameworks/kwindowsystem
 frameworks/plasma-framework: frameworks/kxmlgui
