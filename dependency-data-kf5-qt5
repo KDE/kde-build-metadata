@@ -1278,7 +1278,7 @@ kde/kdegraphics/gwenview: kde/kdegraphics/libs/libkipi
 kde/kdegraphics/gwenview: frameworks/baloo
 kde/kdegraphics/gwenview: kde/kdenetwork/kio-extras
 
-kde/kdegraphics/kolourpaint: kde/kdegraphics/libs/libkexiv2
+kde/kdegraphics/kolourpaint: kde/kdegraphics/libs/libksane
 
 kde/kdegraphics/okular: frameworks/kactivities
 kde/kdegraphics/okular: frameworks/karchive
