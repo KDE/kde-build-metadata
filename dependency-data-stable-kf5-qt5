@@ -1412,6 +1412,7 @@ extragear/multimedia/kamoso: playground/libs/purpose
 
 # KDevelop
 extragear/kdevelop/kdevelop: kde/applications/khelpcenter
+extragear/kdevelop/kdevelop: kde/kdesdk/okteta
 extragear/kdevelop/kdevelop: kde/workspace/libksysguard
 extragear/kdevelop/kdevelop: extragear/kdevelop/kdevelop-pg-qt
 extragear/kdevelop/kdevelop: extragear/kdevelop/kdevplatform
