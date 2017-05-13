@@ -1409,6 +1409,16 @@ extragear/multimedia/kamoso: frameworks/kio
 extragear/multimedia/kamoso: frameworks/kdeclarative
 extragear/multimedia/kamoso: frameworks/ki18n
 extragear/multimedia/kamoso: playground/libs/purpose
+extragear/multimedia/kmplayer: frameworks/kconfig
+extragear/multimedia/kmplayer: frameworks/kcoreaddons
+extragear/multimedia/kmplayer: frameworks/kdoctools
+extragear/multimedia/kmplayer: frameworks/kinit
+extragear/multimedia/kmplayer: frameworks/ki18n
+extragear/multimedia/kmplayer: frameworks/kdelibs4support
+extragear/multimedia/kmplayer: frameworks/kmediaplayer
+extragear/multimedia/kmplayer: frameworks/kparts
+extragear/multimedia/kmplayer: frameworks/kwidgetsaddons
+extragear/multimedia/kmplayer: kdesupport/phonon/phonon
 
 # KDevelop
 extragear/kdevelop/kdevelop: kde/applications/khelpcenter
