@@ -326,6 +326,7 @@ extragear/multimedia/kamoso: kde/kdelibs
 extragear/multimedia/kamoso: kde/kdegraphics/libs/libkipi
 extragear/multimedia/kdenlive: kde/kdelibs
 extragear/multimedia/kdenlive: kde/kdelibs/nepomuk-core
+extragear/multimedia/kmplayer: kde/kdelibs
 
 # extragear/graphics
 extragear/graphics/kphotoalbum: kde/kdelibs
