@@ -1128,7 +1128,7 @@
             "stable-qt4": "1.2",
             "latest-qt4": "1.2",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": "master"
+            "stable-kf5-qt5": "2.0"
         },
         "kde/kdenetwork/ktp*": {
             "stable-qt4": "",
