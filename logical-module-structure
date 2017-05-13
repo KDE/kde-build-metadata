@@ -2146,7 +2146,7 @@
             "kf5-qt5": "frameworks",
             "stable-kf5-qt5": ""
         },
-        "playground/pim/ksmtp": {
+        "kdereview/ksmtp": {
             "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master",
