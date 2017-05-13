@@ -2140,6 +2140,12 @@
             "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         },
+        "extragear/multimedia/kmplayer": {
+            "stable-qt4": "0.11",
+            "latest-qt4": "0.11",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "0.12"
+        },
         "playground/utils/kregexpeditor": {
             "stable-qt4": "master",
             "latest-qt4": "master",
