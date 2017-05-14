@@ -866,6 +866,12 @@
             "kf5-qt5": "master",
             "stable-kf5-qt5": "master"
         },
+        "extragear/graphics/kgraphviewer": {
+            "stable-qt4": "2.2",
+            "latest-qt4": "2.2",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
+        },
         "extragear/graphics/kphotoalbum": {
             "stable-qt4": "4.7",
             "latest-qt4": "4.7",
