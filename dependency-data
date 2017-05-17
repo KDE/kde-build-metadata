@@ -254,6 +254,17 @@ kde/kdebindings/pykde4: kde/kdepimlibs
 frameworks/networkmanager-qt: kde/kdelibs
 frameworks/networkmanager-qt: frameworks/modemmanager-qt
 
+# plasma-vault
+kde/workspace/plasma-vault: frameworks/kctivities
+kde/workspace/plasma-vault: frameworks/kconfig
+kde/workspace/plasma-vault: frameworks/kconfigwidgets
+kde/workspace/plasma-vault: frameworks/kcoreaddons
+kde/workspace/plasma-vault: frameworks/kdbusaddons
+kde/workspace/plasma-vault: frameworks/ki18n
+kde/workspace/plasma-vault: frameworks/kio
+kde/workspace/plasma-vault: frameworks/plasma-framework
+kde/workspace/plasma-vault: kde/workspace/libksysguard
+
 # extragear/libs
 extragear/libs/libkgeomap: kde/kdelibs
 extragear/libs/libkgeomap: kde/kdeedu/marble
