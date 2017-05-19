@@ -389,6 +389,17 @@ frameworks/baloo: frameworks/kfilemetadata
 frameworks/baloo: frameworks/kdelibs4support
 kde/applications/baloo-widgets: frameworks/baloo
 
+# plasma-vault
+kde/workspace/plasma-vault: frameworks/kctivities
+kde/workspace/plasma-vault: frameworks/kconfig
+kde/workspace/plasma-vault: frameworks/kconfigwidgets
+kde/workspace/plasma-vault: frameworks/kcoreaddons
+kde/workspace/plasma-vault: frameworks/kdbusaddons
+kde/workspace/plasma-vault: frameworks/ki18n
+kde/workspace/plasma-vault: frameworks/kio
+kde/workspace/plasma-vault: frameworks/plasma-framework
+kde/workspace/plasma-vault: kde/workspace/libksysguard
+
 # libksysguard
 kde/workspace/libksysguard: frameworks/ki18n
 kde/workspace/libksysguard: frameworks/kdelibs4support
