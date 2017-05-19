@@ -1,9 +1,0 @@
-# This is a listing of build order dependencies for some of the KDE project OSX Specific
-# not needed on osx
-
-frameworks/kauth: -kdesupport/polkit-qt-1
-
-
-
-
-
