@@ -1450,6 +1450,7 @@ extragear/kdevelop/plugins/kdev-php: extragear/kdevelop/kdevelop-pg-qt
 extragear/network/kio-gdrive: frameworks/ki18n
 extragear/network/kio-gdrive: frameworks/kio
 extragear/network/kio-gdrive: kde/pim/libkgapi
+extragear/network/kio-gdrive: kde/kdenetwork/kaccounts-integration
 extragear/network/konversation: kdesupport/qca
 extragear/network/libktorrent: kdesupport/qca
 extragear/network/ktorrent: extragear/network/libktorrent

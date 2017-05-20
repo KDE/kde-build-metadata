@@ -1525,6 +1525,7 @@ extragear/kdevelop/kdevplatform: kde/kdenetwork/kio-extras
 extragear/network/kio-gdrive: frameworks/ki18n
 extragear/network/kio-gdrive: frameworks/kio
 extragear/network/kio-gdrive: kde/pim/libkgapi
+extragear/network/kio-gdrive: kde/kdenetwork/kaccounts-integration
 extragear/network/kio-gopher: frameworks/kio
 extragear/network/konversation: kdesupport/qca
 extragear/network/choqok: kdesupport/qca
