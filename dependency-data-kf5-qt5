@@ -835,7 +835,6 @@ kde/pim/akonadi-mime: kde/pim/kmime
 kde/pim/akonadi-mime: kde/pim/akonadi
 
 kde/pim/kcalcore: frameworks/kdelibs4support
-kde/pim/kcalcore: kde/workspace/plasma-workspace
 kde/pim/syndication: frameworks/kio
 kde/pim/syndication: frameworks/kcodecs
 kde/pim/kdav: frameworks/kcoreaddons
