@@ -594,6 +594,7 @@ kde/workspace/systemsettings: frameworks/kdbusaddons
 kde/workspace/systemsettings: frameworks/kconfig
 kde/workspace/systemsettings: frameworks/khtml
 kde/workspace/systemsettings: frameworks/kdelibs4support
+kde/workspace/systemsettings: extragear/libs/kirigami
 
 # Plasma Desktop
 kde/workspace/plasma-desktop: frameworks/kdoctools
