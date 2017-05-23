@@ -1438,6 +1438,7 @@ extragear/kdevelop/kdevelop: kde/workspace/libksysguard
 extragear/kdevelop/kdevelop: extragear/kdevelop/utilities/kdevelop-pg-qt
 extragear/kdevelop/kdevelop: extragear/kdevelop/kdevplatform
 extragear/kdevelop/kdevelop: frameworks/krunner
+extragear/kdevelop/kdevplatform: general/grantlee
 extragear/kdevelop/kdevplatform: kde/kdesdk/libkomparediff2
 extragear/kdevelop/kdevplatform: kde/kdenetwork/kio-extras
 
