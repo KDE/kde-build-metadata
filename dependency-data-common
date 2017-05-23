@@ -25,8 +25,6 @@ kdesupport/phonon/phonon-xine: kdesupport/phonon/phonon
 extragear/kdevelop/devtools/plugins/kdev-ruby: extragear/kdevelop/kdevelop
 extragear/kdevelop/devtools/plugins/kdev-valgrind: extragear/kdevelop/kdevplatform
 extragear/kdevelop/plugins/kdev-control-flow-graph: extragear/kdevelop/kdevplatform
-extragear/kdevelop/plugins/kdev-crossfire: extragear/kdevelop/kdevplatform
-extragear/kdevelop/plugins/kdev-crossfire: playground/devtools/kdev-executebrowser
 extragear/kdevelop/plugins/kdev-custom-buildsystem: extragear/kdevelop/kdevplatform
 extragear/kdevelop/plugins/kdev-php-docs: extragear/kdevelop/kdevplatform
 extragear/kdevelop/plugins/kdev-php: extragear/kdevelop/kdevelop-pg-qt
@@ -36,10 +34,5 @@ extragear/kdevelop/plugins/kdev-python: extragear/kdevelop/kdevelop
 playground/devtools/plugins/*: extragear/kdevelop/kdevplatform
 playground/devtools/plugins/kdev-css: extragear/kdevelop/utilities/kdevelop-pg-qt
 playground/devtools/plugins/kdev-go: extragear/kdevelop/utilities/kdevelop-pg-qt
-playground/devtools/plugins/kdev-java: extragear/kdevelop/utilities/kdevelop-pg-qt
 playground/devtools/plugins/kdev-python: extragear/kdevelop/utilities/kdevelop-pg-qt
-playground/devtools/plugins/kdev-xml: extragear/kdevelop/utilities/kdevelop-pg-qt
-playground/devtools/plugins/kdev-xtest: extragear/kdevelop/utilities/kdevelop-pg-qt
-playground/devtools/plugins/kdev-xtest: playground/devtools/veritas
-playground/devtools/veritas: extragear/kdevelop/kdevplatform
 playground/devtools/kdev-*: extragear/kdevelop/kdevplatform
