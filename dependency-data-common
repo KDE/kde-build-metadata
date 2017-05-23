@@ -23,7 +23,6 @@ kdesupport/phonon/phonon-xine: kdesupport/phonon/phonon
 # KDevelop
 
 extragear/kdevelop/plugins/kdev-control-flow-graph: extragear/kdevelop/kdevplatform
-extragear/kdevelop/plugins/kdev-php-docs: extragear/kdevelop/kdevplatform
 extragear/kdevelop/plugins/kdev-php: extragear/kdevelop/kdevelop-pg-qt
 extragear/kdevelop/plugins/kdev-php: extragear/kdevelop/kdevplatform
 extragear/kdevelop/plugins/kdev-php: extragear/kdevelop/utilities/kdevelop-pg-qt
