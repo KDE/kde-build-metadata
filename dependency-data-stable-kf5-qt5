@@ -1435,7 +1435,7 @@ extragear/multimedia/kmplayer: kdesupport/phonon/phonon
 extragear/kdevelop/kdevelop: kde/applications/khelpcenter
 extragear/kdevelop/kdevelop: kde/kdesdk/okteta
 extragear/kdevelop/kdevelop: kde/workspace/libksysguard
-extragear/kdevelop/kdevelop: extragear/kdevelop/kdevelop-pg-qt
+extragear/kdevelop/kdevelop: extragear/kdevelop/utilities/kdevelop-pg-qt
 extragear/kdevelop/kdevelop: extragear/kdevelop/kdevplatform
 extragear/kdevelop/kdevelop: frameworks/krunner
 extragear/kdevelop/kdevplatform: kde/kdesdk/libkomparediff2
@@ -1443,7 +1443,6 @@ extragear/kdevelop/kdevplatform: kde/kdenetwork/kio-extras
 
 # KDevelop Plugins
 extragear/kdevelop/plugins/kdev-php: extragear/kdevelop/kdevplatform
-extragear/kdevelop/plugins/kdev-php: extragear/kdevelop/kdevelop-pg-qt
 
 # Extragear Network
 extragear/network/kio-gdrive: frameworks/ki18n
