@@ -30,5 +30,4 @@ extragear/kdevelop/plugins/kdev-python: extragear/kdevelop/kdevelop
 playground/devtools/plugins/*: extragear/kdevelop/kdevplatform
 playground/devtools/plugins/kdev-css: extragear/kdevelop/utilities/kdevelop-pg-qt
 playground/devtools/plugins/kdev-go: extragear/kdevelop/utilities/kdevelop-pg-qt
-playground/devtools/plugins/kdev-python: extragear/kdevelop/utilities/kdevelop-pg-qt
 playground/devtools/kdev-*: extragear/kdevelop/kdevplatform
