@@ -22,7 +22,6 @@ kdesupport/phonon/phonon-xine: kdesupport/phonon/phonon
 
 # KDevelop
 
-extragear/kdevelop/devtools/plugins/kdev-ruby: extragear/kdevelop/kdevelop
 extragear/kdevelop/devtools/plugins/kdev-valgrind: extragear/kdevelop/kdevplatform
 extragear/kdevelop/plugins/kdev-control-flow-graph: extragear/kdevelop/kdevplatform
 extragear/kdevelop/plugins/kdev-custom-buildsystem: extragear/kdevelop/kdevplatform
