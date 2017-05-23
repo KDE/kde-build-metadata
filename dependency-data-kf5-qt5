@@ -1395,7 +1395,6 @@ kde/kdeplasma-addons: kde/workspace/plasma-workspace
 # Extragear SDK
 extragear/sdk/plasma-sdk: frameworks/kf5umbrella
 extragear/sdk/plasma-sdk: frameworks/plasma-framework
-extragear/sdk/plasma-sdk: extragear/kdevelop/kdevplatform
 extragear/sdk/plasma-sdk: extragear/libs/kirigami
 extragear/sdk/plasma-sdk: kde/workspace/plasma-workspace
 extragear/sdk/massif-visualizer: extragear/graphics/kdiagram
