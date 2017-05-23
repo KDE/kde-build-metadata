@@ -1441,9 +1441,6 @@ extragear/kdevelop/kdevelop: frameworks/krunner
 extragear/kdevelop/kdevplatform: kde/kdesdk/libkomparediff2
 extragear/kdevelop/kdevplatform: kde/kdenetwork/kio-extras
 
-# KDevelop Plugins
-extragear/kdevelop/plugins/kdev-php: extragear/kdevelop/kdevplatform
-
 # Extragear Network
 extragear/network/kio-gdrive: frameworks/ki18n
 extragear/network/kio-gdrive: frameworks/kio
