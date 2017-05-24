@@ -434,6 +434,7 @@ playground/edu/artikulate: kde/kdelibs
 # Playground KDevelop
 playground/devtools/*: kde/kdelibs
 playground/devtools/*: kde/applications/kate
+playground/devtools/kdev-xdebug: playground/devtools/kdev-executebrowser
 
 # Playground Net
 playground/network/sflphone-kde: kde/kdelibs
