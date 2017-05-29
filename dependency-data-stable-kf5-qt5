@@ -1594,6 +1594,14 @@ playground/libs/purpose: frameworks/kdeclarative
 playground/libs/purpose: kde/kdenetwork/kaccounts-integration
 playground/libs/purpose: extragear/network/kdeconnect-kde
 
+# Playground Utils
+playground/utils/kregexpeditor: frameworks/kconfigwidgets
+playground/utils/kregexpeditor: frameworks/kdoctools
+playground/utils/kregexpeditor: frameworks/kiconthemes
+playground/utils/kregexpeditor: frameworks/kio
+playground/utils/kregexpeditor: frameworks/ktextwidgets
+playground/utils/kregexpeditor: frameworks/kwidgetsaddons
+
 kdereview/kproperty: frameworks/kconfig
 kdereview/kproperty: frameworks/kcoreaddons
 kdereview/kproperty: frameworks/kguiaddons
