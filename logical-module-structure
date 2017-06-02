@@ -488,8 +488,8 @@
         "kde/kdesdk/umbrello" : {
             "stable-qt4": "Applications/17.04",
             "latest-qt4": "master",
-            "kf5-qt5": "",
-            "stable-kf5-qt5": ""
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "Applications/17.04"
         },
         "kde/kdesdk/cervisia" : {
             "stable-qt4": "Applications/16.04",
