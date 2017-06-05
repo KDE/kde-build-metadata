@@ -1602,6 +1602,17 @@ playground/utils/kregexpeditor: frameworks/kio
 playground/utils/kregexpeditor: frameworks/ktextwidgets
 playground/utils/kregexpeditor: frameworks/kwidgetsaddons
 
+# Zanshin
+playground/pim/zanshin: frameworks/krunner
+playground/pim/zanshin: frameworks/kwallet
+playground/pim/zanshin: kde/pim/akonadi-notes
+playground/pim/zanshin: kde/pim/akonadi-calendar
+playgroung/pim/zanshin: kde/pim/akonadi-search
+playground/pim/zanshin: kde/pim/kldap
+playground/pim/zanshin: kde/pim/kidentitymanagement
+playground/pim/zanshin: kde/pim/kontactinterface
+playground/pim/zanshin: kde/kdepim-runtime
+
 kdereview/kproperty: frameworks/kconfig
 kdereview/kproperty: frameworks/kcoreaddons
 kdereview/kproperty: frameworks/kguiaddons
