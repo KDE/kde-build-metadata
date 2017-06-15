@@ -1623,6 +1623,8 @@ kdereview/kreport: frameworks/kguiaddons
 kdereview/kreport: frameworks/kwidgetsaddons
 kdereview/kreport: kdereview/kproperty
 
+kdereview/kio-stash: frameworks/kf5umbrella
+
 kdereview/kdb:frameworks/kcoreaddons
 
 # KAccounts
