@@ -1883,6 +1883,8 @@ playground/pim/zanshin: kde/pim/kidentitymanagement
 playground/pim/zanshin: kde/pim/kontactinterface
 playground/pim/zanshin: kde/kdepim-runtime
 
+kdereview/kio-stash: frameworks/kf5umbrella
+
 #AtCore - Atelier
 playground/base/atcore: frameworks/solid
 
