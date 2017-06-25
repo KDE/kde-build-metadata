@@ -50,6 +50,7 @@ kde/workspace/breeze: kdesupport/extra-cmake-modules
 kde/workspace/plasma-nm: frameworks/networkmanager-qt
 kde/workspace/plasma-nm: frameworks/modemmanager-qt
 frameworks/kfilemetadata: kde/kdegraphics/kdegraphics-mobipocket
+frameworks/kfilemetadata: kde/kdelibs
 
 # KDE Runtime
 kde/kde-runtime: kdesupport/strigi/libstreams[master]
