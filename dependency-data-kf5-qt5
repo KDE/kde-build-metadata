@@ -288,6 +288,7 @@ frameworks/kdelibs4support: frameworks/kio
 frameworks/kdelibs4support: frameworks/kded
 frameworks/kdelibs4support: frameworks/kinit
 frameworks/kdelibs4support: frameworks/kdoctools
+frameworks/kdelibs4support: frameworks/kemoticons
 frameworks/kdelibs4support: frameworks/kcrash
 frameworks/kdelibs4support: frameworks/knotifications
 frameworks/kdelibs4support: frameworks/kparts
