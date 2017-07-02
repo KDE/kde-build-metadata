@@ -597,7 +597,7 @@ kde/workspace/systemsettings: frameworks/khtml
 kde/workspace/systemsettings: frameworks/kdelibs4support
 kde/workspace/systemsettings: frameworks/kactivities
 kde/workspace/systemsettings: frameworks/kactivities-stats
-kde/workspace/systemsettings: extragear/libs/kirigami
+kde/workspace/systemsettings: frameworks/kirigami
 
 # Plasma Desktop
 kde/workspace/plasma-desktop: frameworks/kdoctools
@@ -683,7 +683,7 @@ kde/workspace/discover: frameworks/ki18n
 kde/workspace/discover: frameworks/kconfigwidgets
 kde/workspace/discover: frameworks/knotifications
 kde/workspace/discover: frameworks/kdeclarative
-kde/workspace/discover: extragear/libs/kirigami
+kde/workspace/discover: frameworks/kirigami
 
 kde/workspace/plasma-browser-integration: frameworks/kio
 kde/workspace/plasma-browser-integration: frameworks/ki18n
@@ -1322,7 +1322,7 @@ kde/kdegraphics/libs/libkipi: kde/kdegraphics/libs/libkdcraw
 kde/kdegraphics/libs/libkipi: kde/kdegraphics/libs/libkexiv2
 
 kde/kdegraphics/peruse: frameworks/kfilemetadata
-kde/kdegraphics/peruse: extragear/libs/kirigami
+kde/kdegraphics/peruse: frameworks/kirigami
 kde/kdegraphics/peruse: kde/kdegraphics/okular
 
 # Spectacle
@@ -1398,7 +1398,7 @@ kde/kdeplasma-addons: kde/workspace/plasma-workspace
 # Extragear SDK
 extragear/sdk/plasma-sdk: frameworks/kf5umbrella
 extragear/sdk/plasma-sdk: frameworks/plasma-framework
-extragear/sdk/plasma-sdk: extragear/libs/kirigami
+extragear/sdk/plasma-sdk: frameworks/kirigami
 extragear/sdk/plasma-sdk: kde/workspace/plasma-workspace
 extragear/sdk/massif-visualizer: extragear/graphics/kdiagram
 extragear/sdk/heaptrack: frameworks/kcoreaddons

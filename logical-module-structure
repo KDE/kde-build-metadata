@@ -922,10 +922,6 @@
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Plasma/5.10"
         },
-        "extragear/libs/kirigami": {
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "master"
-        },
         "extragear/libs/libkfbapi": {
             "stable-qt4": "kfbapi-1.0",
             "latest-qt4": "master",
