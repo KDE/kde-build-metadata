@@ -1495,7 +1495,7 @@
             "stable-kf5-qt5": "1.7",
             "kf5-qt5": "master"
         },
-        "extragear/network/libringclient": {
+        "playground/pim/ring-kde": {
             "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master",
