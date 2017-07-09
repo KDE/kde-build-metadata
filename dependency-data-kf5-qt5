@@ -1726,6 +1726,8 @@ playground/pim/kube: kde/pim/kmime
 playground/pim/kube: kde/pim/kcontacts
 playground/pim/kube: kde/pim/messagelib
 
+playground/pim/ring-kde: frameworks/kf5umbrella
+
 kdereview/breeze-gtk: frameworks/kconfig
 
 playground/base/qtcurve: frameworks/karchive
