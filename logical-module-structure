@@ -504,13 +504,13 @@
             "stable-kf5-qt5": "Applications/17.08"
         },
         "kde/kdetoys/amor" : {
-            "stable-qt4": "Applications/17.04",
+            "stable-qt4": "Applications/15.08",
             "latest-qt4": "master",
             "kf5-qt5": "",
             "stable-kf5-qt5": ""
         },
         "kde/kdetoys/ktux" : {
-            "stable-qt4": "Applications/17.04",
+            "stable-qt4": "Applications/15.08",
             "latest-qt4": "master",
             "kf5-qt5": "",
             "stable-kf5-qt5": ""
@@ -934,8 +934,8 @@
             "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         },
-        "kde/kdegraphics/kgamma": {
-            "stable-qt4": "Applications/17.04",
+        "kde/workspace/kgamma5": {
+            "stable-qt4": "Applications/15.04",
             "latest-qt4": "master",
             "kf5-qt5": "frameworks",
             "stable-kf5-qt5": ""
