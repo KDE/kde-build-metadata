@@ -127,7 +127,7 @@
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/17.08"
         },
-        "kde/kde/kdepim-runtime" : {
+        "kde/pim/kdepim-runtime" : {
             "stable-qt4": "KDE/4.14",
             "latest-qt4": "KDE/4.14",
             "kf5-qt5": "master",
