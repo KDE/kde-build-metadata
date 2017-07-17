@@ -936,8 +936,8 @@
         },
         "kde/workspace/kgamma5": {
             "stable-qt4": "Applications/15.04",
-            "latest-qt4": "master",
-            "kf5-qt5": "frameworks",
+            "latest-qt4": "Applications/15.04",
+            "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         },
         "extragear/libs/libmediawiki": {
