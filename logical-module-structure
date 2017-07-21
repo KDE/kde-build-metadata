@@ -938,7 +938,7 @@
             "stable-qt4": "Applications/15.04",
             "latest-qt4": "Applications/15.04",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": ""
+            "stable-kf5-qt5": "Plasma/5.10"
         },
         "extragear/libs/libmediawiki": {
             "stable-qt4": "",
