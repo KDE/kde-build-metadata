@@ -1887,10 +1887,10 @@ playground/network/telepathy/telepathy-morse: frameworks/kcoreaddons
 
 #Playground PIM
 playground/libs/kasync: frameworks/kcoreaddons
-kdereview/ksmtp: frameworks/kcoreaddons
-kdereview/ksmtp: frameworks/ki18n
-kdereview/ksmtp: frameworks/kio
-kdereview/ksmtp: kde/pim/kmime
+kde/pim/ksmtp: frameworks/kcoreaddons
+kde/pim/ksmtp: frameworks/ki18n
+kde/pim/ksmtp: frameworks/kio
+kde/pim/ksmtp: kde/pim/kmime
 
 # Zanshin
 playground/pim/zanshin: frameworks/krunner
