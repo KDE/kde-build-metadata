@@ -701,6 +701,12 @@
             "kf5-qt5": "develop",
             "stable-kf5-qt5": "master"
         },
+        "playground/www/ruqola": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "master"
+        },
         "playground/pim/sink": {
             "stable-qt4": "",
             "latest-qt4": "",
@@ -2200,7 +2206,7 @@
             "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": ""
+            "stable-kf5-qt5": "master"
         },
         "extragear/utils/kio-stash": {
             "stable-qt4": "",
