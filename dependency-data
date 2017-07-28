@@ -384,7 +384,7 @@ extragear/office/kbibtex: kdesupport/qca
 extragear/accessibility/simon: kde/kdelibs
 extragear/accessibility/simon: kde/kdepimlibs
 extragear/accessibility/simon: kde/kde-workspace
-extragear/accessibility/simon: playground/accessibility/libqaccessilbityclient
+extragear/accessibility/simon: playground/accessibility/libqaccessibilityclient 
 
 # extragear/sysadmin
 extragear/sysadmin/muon: kde/kdelibs
