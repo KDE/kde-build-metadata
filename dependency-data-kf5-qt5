@@ -1499,6 +1499,22 @@ kde/kdesdk/kdesdk-thumbnailers: frameworks/kconfig
 kde/kdesdk/kdesdk-thumbnailers: frameworks/ki18n
 kde/kdesdk/kdesdk-thumbnailers: frameworks/kio
 
+# kdewebdev
+kde/kdewebdev/kimagemapeditor: frameworks/kconfig
+kde/kdewebdev/kimagemapeditor: frameworks/kconfigwidgets
+kde/kdewebdev/kimagemapeditor: frameworks/kcoreaddons
+kde/kdewebdev/kimagemapeditor: frameworks/kcrash
+kde/kdewebdev/kimagemapeditor: frameworks/kdbusaddons
+kde/kdewebdev/kimagemapeditor: frameworks/kdoctools
+kde/kdewebdev/kimagemapeditor: frameworks/kguiaddons
+kde/kdewebdev/kimagemapeditor: frameworks/khtml
+kde/kdewebdev/kimagemapeditor: frameworks/ki18n
+kde/kdewebdev/kimagemapeditor: frameworks/kparts
+kde/kdewebdev/kimagemapeditor: frameworks/kwidgetsaddons
+kde/kdewebdev/kimagemapeditor: frameworks/kwindowsystem
+kde/kdewebdev/kimagemapeditor: frameworks/kxmlgui
+kde/kdewebdev/kimagemapeditor: frameworks/kdelibs4support
+
 # kdebindings
 kde/kdebindings/smoke/smokeqt: kde/kdebindings/smoke/smokegen
 kde/kdebindings/ruby/qtruby: kde/kdebindings/smoke/smokegen
