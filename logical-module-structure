@@ -863,7 +863,7 @@
         "extragear/base/wacomtablet": {
             "stable-qt4": "master",
             "latest-qt4": "master",
-            "kf5-qt5": "kf5-port",
+            "kf5-qt5": "releng3.0",
             "stable-kf5-qt5": ""
         },
         "extragear/graphics/*": {

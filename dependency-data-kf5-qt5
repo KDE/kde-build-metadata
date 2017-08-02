@@ -1614,6 +1614,17 @@ kde/kdenetwork/zeroconf-ioslave: frameworks/ki18n
 
 # Extragear Base
 extragear/base/plasma-mobile: frameworks/kwayland
+extragear/base/wacomtablet: frameworks/kconfig
+extragear/base/wacomtablet: frameworks/kcoreaddons
+extragear/base/wacomtablet: frameworks/kdbusaddons
+extragear/base/wacomtablet: frameworks/kdoctools
+extragear/base/wacomtablet: frameworks/kglobalaccel
+extragear/base/wacomtablet: frameworks/ki18n
+extragear/base/wacomtablet: frameworks/knotifications
+extragear/base/wacomtablet: frameworks/plasma-frameworks
+extragear/base/wacomtablet: frameworks/kwidgetsaddons
+extragear/base/wacomtablet: frameworks/kwindowsystem
+extragear/base/wacomtablet: frameworks/kxmlgui
 
 # Extragear Office
 extragear/office/kmymoney: extragear/graphics/kdiagram
