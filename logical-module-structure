@@ -1579,19 +1579,19 @@
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/17.08"
         },
-        "kdereview/kproperty" : {
+        "extragear-libs/kproperty" : {
             "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "3.0"
         },
-        "kdereview/kreport" : {
+        "extragear-libs/kreport" : {
             "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "3.0"
         },
-        "kdereview/kdb" : {
+        "extragear-libs/kdb" : {
             "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master",
