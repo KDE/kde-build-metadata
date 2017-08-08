@@ -1440,6 +1440,13 @@ extragear/kdevelop/kdevelop: frameworks/krunner
 extragear/kdevelop/kdevplatform: general/grantlee
 extragear/kdevelop/kdevplatform: kde/kdesdk/libkomparediff2
 extragear/kdevelop/kdevplatform: kde/kdenetwork/kio-extras
+extragear/kdevelop/plugins/kdev-php: extragear/kdevelop/kdevplatform
+extragear/kdevelop/plugins/kdev-php: extragear/kdevelop/utilities/kdevelop-pg-qt
+extragear/kdevelop/plugins/kdev-python: extragear/kdevelop/kdevelop
+playground/devtools/plugins/*: extragear/kdevelop/kdevplatform
+playground/devtools/plugins/kdev-css: extragear/kdevelop/utilities/kdevelop-pg-qt
+playground/devtools/plugins/kdev-go: extragear/kdevelop/utilities/kdevelop-pg-qt
+playground/devtools/kdev-*: extragear/kdevelop/kdevplatform
 
 # Extragear Network
 extragear/network/kio-gdrive: frameworks/ki18n

@@ -19,13 +19,3 @@ kdesupport/phonon/phonon-quicktime: kdesupport/phonon/phonon
 kdesupport/phonon/phonon-vlc: kdesupport/phonon/phonon
 kdesupport/phonon/phonon-waveout: kdesupport/phonon/phonon
 kdesupport/phonon/phonon-xine: kdesupport/phonon/phonon
-
-# KDevelop
-
-extragear/kdevelop/plugins/kdev-php: extragear/kdevelop/kdevplatform
-extragear/kdevelop/plugins/kdev-php: extragear/kdevelop/utilities/kdevelop-pg-qt
-extragear/kdevelop/plugins/kdev-python: extragear/kdevelop/kdevelop
-playground/devtools/plugins/*: extragear/kdevelop/kdevplatform
-playground/devtools/plugins/kdev-css: extragear/kdevelop/utilities/kdevelop-pg-qt
-playground/devtools/plugins/kdev-go: extragear/kdevelop/utilities/kdevelop-pg-qt
-playground/devtools/kdev-*: extragear/kdevelop/kdevplatform

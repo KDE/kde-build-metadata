@@ -306,6 +306,13 @@ extragear/kdevelop/*: kde/applications/konsole
 extragear/kdevelop/kdevelop: extragear/kdevelop/kdevplatform
 extragear/kdevelop/kdevelop: kde/kde-workspace
 extragear/kdevelop/kdevelop: kde/kdesdk/okteta
+extragear/kdevelop/plugins/kdev-php: extragear/kdevelop/kdevplatform
+extragear/kdevelop/plugins/kdev-php: extragear/kdevelop/utilities/kdevelop-pg-qt
+extragear/kdevelop/plugins/kdev-python: extragear/kdevelop/kdevelop
+playground/devtools/plugins/*: extragear/kdevelop/kdevplatform
+playground/devtools/plugins/kdev-css: extragear/kdevelop/utilities/kdevelop-pg-qt
+playground/devtools/plugins/kdev-go: extragear/kdevelop/utilities/kdevelop-pg-qt
+playground/devtools/kdev-*: extragear/kdevelop/kdevplatform
 
 # extragear/network
 extragear/network/konversation: kde/kdelibs
