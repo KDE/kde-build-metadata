@@ -1413,6 +1413,18 @@ kdereview/labplot: frameworks/kitemmodels
 kde/kdeplasma-addons: frameworks/krunner
 kde/kdeplasma-addons: kde/workspace/plasma-workspace
 
+# kdeaccessibility
+kde/kdeaccessibility/kmouth: frameworks/kconfig
+kde/kdeaccessibility/kmouth: frameworks/kcompletion
+kde/kdeaccessibility/kmouth: frameworks/kconfigwidgets
+kde/kdeaccessibility/kmouth: frameworks/kcoreaddons
+kde/kdeaccessibility/kmouth: frameworks/kcrash
+kde/kdeaccessibility/kmouth: frameworks/kdoctools
+kde/kdeaccessibility/kmouth: frameworks/ki18n
+kde/kdeaccessibility/kmouth: frameworks/kio
+kde/kdeaccessibility/kmouth: frameworks/kwidgetsaddons
+kde/kdeaccessibility/kmouth: frameworks/kxmlgui
+
 # Extragear SDK
 extragear/sdk/plasma-sdk: frameworks/kf5umbrella
 extragear/sdk/plasma-sdk: frameworks/plasma-framework
