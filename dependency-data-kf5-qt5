@@ -1500,6 +1500,7 @@ kde/kdesdk/kcachegrind: frameworks/kdoctools
 kde/kdesdk/kcachegrind: frameworks/kwidgetsaddons
 kde/kdesdk/kcachegrind: frameworks/kxmlgui
 kde/kdesdk/kcachegrind: frameworks/kdelibs4support
+kde/kdesdk/kde-dev-scripts: frameworks/kdoctools
 kde/kdesdk/kde-dev-utils: frameworks/kcoreaddons
 kde/kdesdk/kde-dev-utils: frameworks/kio
 kde/kdesdk/kde-dev-utils: frameworks/ki18n
