@@ -1948,6 +1948,19 @@ playground/pim/zanshin: kde/kdepim-runtime
 
 kdereview/kio-stash: frameworks/kf5umbrella
 
+playground/edu/rkward: frameworks/kconfig
+playground/edu/rkward: frameworks/kcoreaddons
+playground/edu/rkward: frameworks/kcrash
+playground/edu/rkward: frameworks/kdewebkit
+playground/edu/rkward: frameworks/kdoctools
+playground/edu/rkward: frameworks/ki18n
+playground/edu/rkward: frameworks/knotifications
+playground/edu/rkward: frameworks/kparts
+playground/edu/rkward: frameworks/ktexteditor
+playground/edu/rkward: frameworks/kwidgetsaddons
+playground/edu/rkward: frameworks/kwindowsystem
+playground/edu/rkward: frameworks/kxmlgui
+
 #AtCore - Atelier
 playground/base/atcore: frameworks/solid
 
