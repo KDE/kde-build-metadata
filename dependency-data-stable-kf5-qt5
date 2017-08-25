@@ -1322,7 +1322,7 @@ kde/kdemultimedia/kscd: frameworks/kglobalaccel
 kde/kdemultimedia/kscd: frameworks/solid
 kde/kdemultimedia/kwave: frameworks/kcompletion
 kde/kdemultimedia/kwave: frameworks/kconfig
-kde/kdemultimedia/kwave: frameworks/konfigwidgets
+kde/kdemultimedia/kwave: frameworks/kconfigwidgets
 kde/kdemultimedia/kwave: frameworks/kcoreaddons
 kde/kdemultimedia/kwave: frameworks/kcrash
 kde/kdemultimedia/kwave: frameworks/kdbusaddons

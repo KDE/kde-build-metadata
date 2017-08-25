@@ -1350,7 +1350,7 @@ kde/kdemultimedia/k3b: kde/kdemultimedia/libkcddb
 kde/kdemultimedia/kdenlive: frameworks/kfilemetadata
 kde/kdemultimedia/kmix: frameworks/kcompletion
 kde/kdemultimedia/kmix: frameworks/kconfig
-kde/kdemultimedia/kmix: frameworks/konfigwidgets
+kde/kdemultimedia/kmix: frameworks/kconfigwidgets
 kde/kdemultimedia/kmix: frameworks/kcoreaddons
 kde/kdemultimedia/kmix: frameworks/kcrash
 kde/kdemultimedia/kmix: frameworks/kdbusaddons
@@ -1371,7 +1371,7 @@ kde/kdemultimedia/kscd: frameworks/kglobalaccel
 kde/kdemultimedia/kscd: frameworks/solid
 kde/kdemultimedia/kwave: frameworks/kcompletion
 kde/kdemultimedia/kwave: frameworks/kconfig
-kde/kdemultimedia/kwave: frameworks/konfigwidgets
+kde/kdemultimedia/kwave: frameworks/kconfigwidgets
 kde/kdemultimedia/kwave: frameworks/kcoreaddons
 kde/kdemultimedia/kwave: frameworks/kcrash
 kde/kdemultimedia/kwave: frameworks/kdbusaddons
