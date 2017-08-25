@@ -1369,7 +1369,7 @@
         "kde/kdemultimedia/juk": {
             "stable-qt4": "Applications/17.08",
             "latest-qt4": "master",
-            "kf5-qt5": "",
+            "kf5-qt5": "frameworks",
             "stable-kf5-qt5": ""
         },
         "kde/kdemultimedia/kscd": {
