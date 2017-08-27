@@ -1653,7 +1653,9 @@ kde/kdenetwork/ktp-accounts-kcm: kde/kdenetwork/kaccounts-integration
 kde/kdenetwork/ktp-desktop-applets: kde/kdenetwork/ktp-common-internals
 kde/kdenetwork/ktp-desktop-applets: frameworks/plasma-framework
 kde/kdenetwork/signon-kwallet-extension: frameworks/kwallet
+kde/kdenetwork/zeroconf-ioslave: frameworks/kdnssd
 kde/kdenetwork/zeroconf-ioslave: frameworks/ki18n
+kde/kdenetwork/zeroconf-ioslave: frameworks/kio
 
 # Extragear Base
 extragear/base/plasma-mobile: frameworks/kwayland
