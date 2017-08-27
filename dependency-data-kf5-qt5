@@ -1233,7 +1233,7 @@ kde/kdepim-runtime: kde/pim/kmbox
 kde/kdepim-runtime: kde/pim/kimap
 kde/kdepim-runtime: kde/pim/syndication
 kde/kdepim-runtime: kde/pim/pimcommon
-
+kde/kdepim-runtime: kde/pim/libkgapi
 
 kde/pim/kdepim-addons: kde/pim/messagelib
 kde/pim/kdepim-addons: kde/pim/incidenceeditor
