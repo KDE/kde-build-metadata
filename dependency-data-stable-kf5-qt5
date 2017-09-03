@@ -292,6 +292,7 @@ frameworks/kdelibs4support: frameworks/knotifications
 frameworks/kdelibs4support: frameworks/kparts
 frameworks/kdelibs4support: frameworks/kdesignerplugin
 frameworks/kdelibs4support: frameworks/kglobalaccel
+frameworks/kdelibs4support: frameworks/kemoticons
 frameworks/krunner: frameworks/solid
 frameworks/krunner: frameworks/kio
 frameworks/krunner: frameworks/kconfig
