@@ -1478,7 +1478,7 @@
             "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": "krita/3.2"
+            "stable-kf5-qt5": "krita/3.3"
         },
         "calligra/kexi": {
             "stable-qt4": "",
