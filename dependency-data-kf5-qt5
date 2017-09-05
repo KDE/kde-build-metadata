@@ -1263,6 +1263,7 @@ kde/pim/akonadi: frameworks/kguiaddons
 kde/pim/akonadi: frameworks/kiconthemes
 kde/pim/akonadi: frameworks/kwindowsystem
 kde/pim/akonadi: frameworks/kcompletion
+kde/pim/akonadi: frameworks/networkmanager-qt
 
 kde/pim/akonadi-calendar: frameworks/kio
 kde/pim/akonadi-calendar: frameworks/kwallet
