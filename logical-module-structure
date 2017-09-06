@@ -1914,6 +1914,12 @@
             "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         },
+        "kdereview/rust-qt-binding-generator": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
+        },
         "kde/kdeaccessibility/kmag": {
             "stable-qt4": "Applications/17.04",
             "latest-qt4": "Applications/17.04",
