@@ -444,6 +444,9 @@ playground/devtools/*: kde/kdelibs
 playground/devtools/*: kde/applications/kate
 playground/devtools/kdev-xdebug: playground/devtools/kdev-executebrowser
 
+# Playground KTechLab
+playground/devtools/ktechlab: kde/kdelibs
+
 # Playground Net
 playground/network/sflphone-kde: kde/kdelibs
 playground/network/sflphone-kde: kde/kdepimlibs
