@@ -1054,6 +1054,12 @@
             "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         },
+        "extragear/utils/kmarkdownwebview": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
+        },
         "playground/devtools/plugins/*": {
             "stable-qt4": "master",
             "latest-qt4": "master",
@@ -1903,12 +1909,6 @@
             "stable-kf5-qt5": ""
         },
         "kdereview/kdots": {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": ""
-        },
-        "kdereview/kmarkdownwebview": {
             "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master",

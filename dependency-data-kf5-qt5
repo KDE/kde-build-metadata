@@ -1963,7 +1963,6 @@ playground/pim/zanshin: kde/pim/kontactinterface
 playground/pim/zanshin: kde/kdepim-runtime
 
 kdereview/kio-stash: frameworks/kf5umbrella
-kdereview/kmarkdownwebview: frameworks/kf5umbrella
 
 playground/edu/rkward: frameworks/kconfig
 playground/edu/rkward: frameworks/kcoreaddons
