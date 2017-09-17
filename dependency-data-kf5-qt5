@@ -844,6 +844,7 @@ kde/pim/kdav: frameworks/kcoreaddons
 kde/pim/kdav: frameworks/kio
 kde/pim/kimap: frameworks/kcoreaddons
 kde/pim/kimap: kde/pim/kmime
+kde/pim/kimap: frameworks/ki18n
 kde/pim/kldap: frameworks/kcmutils
 kde/pim/kldap: kde/pim/kcontacts
 kde/pim/kldap: kde/pim/kmbox
