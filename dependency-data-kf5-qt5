@@ -838,16 +838,13 @@ kde/pim/akonadi-mime: frameworks/kitemmodels
 kde/pim/akonadi-mime: kde/pim/kmime
 kde/pim/akonadi-mime: kde/pim/akonadi
 
-kde/pim/kcalcore: frameworks/kdelibs4support
 kde/pim/syndication: frameworks/kio
 kde/pim/syndication: frameworks/kcodecs
 kde/pim/kdav: frameworks/kcoreaddons
 kde/pim/kdav: frameworks/kio
 kde/pim/kimap: frameworks/kcoreaddons
-kde/pim/kimap: frameworks/kdelibs4support
 kde/pim/kimap: kde/pim/kmime
 kde/pim/kldap: frameworks/kcmutils
-kde/pim/kldap: frameworks/kdelibs4support
 kde/pim/kldap: kde/pim/kcontacts
 kde/pim/kldap: kde/pim/kmbox
 
@@ -859,7 +856,6 @@ kde/pim/kpimtextedit: frameworks/ktextwidgets
 kde/pim/kpimtextedit: frameworks/kwidgetsaddons
 kde/pim/kpimtextedit: frameworks/kio
 kde/pim/kpimtextedit: frameworks/kcodecs
-kde/pim/kpimtextedit: frameworks/kdelibs4support
 kde/pim/kpimtextedit: general/grantlee
 kde/pim/kpimtextedit: frameworks/oxygen-icons5 #needed for unit tests
 kde/pim/kalarmcal: frameworks/kdelibs4support
@@ -867,7 +863,6 @@ kde/pim/kalarmcal: kde/pim/akonadi
 kde/pim/kalarmcal: kde/pim/kcalcore
 kde/pim/kalarmcal: kde/pim/kidentitymanagement
 kde/pim/kalarmcal: kde/pim/kholidays
-kde/pim/kmailtransport: frameworks/kdelibs4support
 kde/pim/kmailtransport: frameworks/kcmutils
 kde/pim/kmailtransport: frameworks/kconfigwidgets
 kde/pim/kmailtransport: frameworks/kwallet
@@ -879,10 +874,8 @@ kde/pim/kcontacts: frameworks/kcoreaddons
 kde/pim/kcontacts: frameworks/ki18n
 kde/pim/kcontacts: frameworks/kconfig
 kde/pim/kcontacts: frameworks/kcodecs
-kde/pim/kmime: frameworks/kdelibs4support
 kde/pim/kmime: frameworks/ki18n
 kde/pim/kmime: frameworks/kcodecs
-kde/pim/kidentitymanagement: frameworks/kdelibs4support
 kde/pim/kidentitymanagement: frameworks/kcoreaddons
 kde/pim/kidentitymanagement: frameworks/kcompletion
 kde/pim/kidentitymanagement: frameworks/ktextwidgets
@@ -894,19 +887,14 @@ kde/pim/kidentitymanagement: frameworks/oxygen-icons5 #needed for unit tests
 kde/pim/kidentitymanagement: frameworks/kcodecs
 kde/pim/kidentitymanagement: kde/pim/kpimtextedit
 kde/pim/kblog: frameworks/kcoreaddons
-kde/pim/kblog: frameworks/kdelibs4support
 kde/pim/kblog: frameworks/kio
 kde/pim/kblog: kde/pim/kcalcore
 kde/pim/kblog: kde/pim/syndication
 kde/pim/kblog: frameworks/kxmlrpcclient
 kde/pim/kholidays: frameworks/kitemviews
-kde/pim/kholidays: frameworks/kdelibs4support
 kde/pim/kmbox: frameworks/kcoreaddons
-kde/pim/kmbox: frameworks/kdelibs4support
 kde/pim/kmbox: kde/pim/kmime
 kde/pim/kontactinterface: frameworks/kparts
-kde/pim/kontactinterface: frameworks/kdelibs4support
-kde/pim/ktnef: frameworks/kdelibs4support
 kde/pim/ktnef: kde/pim/kcalcore
 kde/pim/ktnef: kde/pim/kcalutils
 kde/pim/ktnef: kde/pim/kcontacts
@@ -914,7 +902,6 @@ kde/pim/kcalutils: frameworks/kcoreaddons
 kde/pim/kcalutils: kde/pim/kcalcore
 kde/pim/kcalutils: frameworks/kconfig
 kde/pim/kcalutils: frameworks/ki18n
-kde/pim/kcalutils: frameworks/kdelibs4support
 kde/pim/kcalutils: frameworks/kcodecs
 kde/pim/kcalutils: kde/pim/kidentitymanagement
 kde/pim/kcalutils: general/grantlee
@@ -926,7 +913,6 @@ kde/pim/libgravatar: kde/pim/pimcommon
 kde/pim/pimcommon: frameworks/karchive
 kde/pim/pimcommon: frameworks/kconfig
 kde/pim/pimcommon: frameworks/kdbusaddons
-kde/pim/pimcommon: frameworks/kdelibs4support
 kde/pim/pimcommon: frameworks/ki18n
 kde/pim/pimcommon: frameworks/knewstuff
 kde/pim/pimcommon: frameworks/ktextwidgets
@@ -1278,7 +1264,6 @@ kde/pim/akonadi-calendar: kde/pim/kcalutils
 kde/pim/akonadi-search: frameworks/ki18n
 kde/pim/akonadi-search: frameworks/kconfig
 kde/pim/akonadi-search: frameworks/kcrash
-kde/pim/akonadi-search: frameworks/kdelibs4support
 kde/pim/akonadi-search: frameworks/krunner
 kde/pim/akonadi-search: kde/pim/akonadi-mime
 kde/pim/akonadi-search: kde/pim/kcontacts
