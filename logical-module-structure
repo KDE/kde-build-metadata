@@ -1012,6 +1012,12 @@
             "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         },
+        "extragear/office/kbibtex": {
+            "stable-qt4": "kbibtex/0.6",
+            "latest-qt4": "kbibtex/0.7",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
+        },
         "extragear/kdevelop/*": {
             "stable-qt4": "1.7",
             "latest-qt4": "1.7",

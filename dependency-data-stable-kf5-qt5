@@ -1517,6 +1517,18 @@ extragear/office/skrooge: frameworks/kactivities
 extragear/office/skrooge: general/grantlee
 extragear/office/skrooge: kdesupport/qca
 extragear/office/skrooge: frameworks/krunner
+extragear/office/kbibtex: kdesupport/qca
+extragear/office/kbibtex: frameworks/kcompletion
+extragear/office/kbibtex: frameworks/kcoreaddons
+extragear/office/kbibtex: frameworks/kcrash
+extragear/office/kbibtex: frameworks/ki18n
+extragear/office/kbibtex: frameworks/kiconthemes
+extragear/office/kbibtex: frameworks/kio
+extragear/office/kbibtex: frameworks/kitemviews
+extragear/office/kbibtex: frameworks/kparts
+extragear/office/kbibtex: frameworks/kservice
+extragear/office/kbibtex: frameworks/kwallet
+extragear/office/kbibtex: frameworks/kxmlgui
 
 # Extragear Utils
 extragear/utils/yakuake: kde/applications/konsole
