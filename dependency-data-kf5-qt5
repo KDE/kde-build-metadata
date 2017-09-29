@@ -1569,6 +1569,7 @@ extragear/kdevelop/kdevelop: extragear/kdevelop/utilities/kdevelop-pg-qt
 extragear/kdevelop/plugins/*: extragear/kdevelop/kdevelop
 playground/devtools/plugins/*: extragear/kdevelop/kdevelop
 playground/devtools/kdev-*: extragear/kdevelop/kdevelop
+playground/devtools/kdev-xdebug: playground/devtools/kdev-executebrowser
 
 # Extragear Network
 extragear/network/kio-gdrive: frameworks/ki18n
