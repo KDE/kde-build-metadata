@@ -1159,7 +1159,7 @@
         "playground/devtools/kdev-xdebug": {
             "stable-qt4": "1.7",
             "latest-qt4": "1.7",
-            "kf5-qt5": "",
+            "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         },
         "extragear/sdk/plasma-sdk": {
