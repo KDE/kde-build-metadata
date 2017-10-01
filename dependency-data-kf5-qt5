@@ -1337,11 +1337,15 @@ kde/kdemultimedia/k3b: kde/kdemultimedia/libkcddb
 kde/kdemultimedia/kdenlive: frameworks/kfilemetadata
 kde/kdemultimedia/juk: frameworks/kcompletion
 kde/kdemultimedia/juk: frameworks/kcoreaddons
-kde/kdemultimedia/juk: frameworks/kdelibs4support
+kde/kdemultimedia/juk: frameworks/kconfig
+kde/kdemultimedia/juk: frameworks/kcrash
 kde/kdemultimedia/juk: frameworks/kdoctools
 kde/kdemultimedia/juk: frameworks/kglobalaccel
 kde/kdemultimedia/juk: frameworks/ki18n
 kde/kdemultimedia/juk: frameworks/kiconthemes
+kde/kdemultimedia/juk: frameworks/kio
+kde/kdemultimedia/juk: frameworks/kjobwidgets
+kde/kdemultimedia/juk: frameworks/knotifications
 kde/kdemultimedia/juk: frameworks/ktextwidgets
 kde/kdemultimedia/juk: frameworks/kxmlgui
 kde/kdemultimedia/juk: frameworks/kwallet
