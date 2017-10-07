@@ -42,6 +42,7 @@ frameworks/knotifications: kdesupport/phonon/phonon
 frameworks/kpackage: frameworks/karchive
 frameworks/kpackage: frameworks/kcoreaddons
 frameworks/kpackage: frameworks/ki18n
+frameworks/qqc2-desktop-style: frameworks/kirigami
 
 # Frameworks, tier3
 frameworks/kbookmarks: frameworks/kconfigwidgets
