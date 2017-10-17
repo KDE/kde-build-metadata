@@ -914,6 +914,12 @@
             "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         },
+        "extragear/graphics/krita": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "krita/3.3"
+        },
         "extragear/graphics/ksnapshot" : {
             "stable-qt4": "Applications/15.08",
             "latest-qt4": "master",
@@ -1485,12 +1491,6 @@
             "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "calligra/3.0"
-        },
-        "calligra/krita": {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "krita/3.3"
         },
         "calligra/kexi": {
             "stable-qt4": "",
