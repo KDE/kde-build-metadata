@@ -1692,12 +1692,6 @@
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/17.08"
         },
-        "kde/kdegames/*": {
-            "stable-qt4": "Applications/17.08",
-            "latest-qt4": "master",
-            "kf5-qt5": "frameworks",
-            "stable-kf5-qt5": ""
-        },
         "kde/kdegames/libkdegames": {
             "stable-qt4": "Applications/14.12",
             "latest-qt4": "Applications/14.12",
@@ -1847,6 +1841,12 @@
             "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/17.08"
+        },
+        "kde/kdegames/kolf": {
+            "stable-qt4": "Applications/17.08",
+            "latest-qt4": "Applications/17.08",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
         },
         "kde/kdenetwork/kget": {
             "stable-qt4": "Applications/17.08",
