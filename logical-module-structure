@@ -79,8 +79,8 @@
         },
         "kde/kdewebdev/kimagemapeditor" : {
             "stable-qt4": "Applications/17.08",
-            "latest-qt4": "master",
-            "kf5-qt5": "frameworks",
+            "latest-qt4": "Applications/17.08",
+            "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         },
         "kde/kdelibs" : {
