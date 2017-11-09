@@ -1392,6 +1392,7 @@ kde/kdemultimedia/kwave: frameworks/kwidgetsaddons
 
 # KDE Edu
 kde/kdeedu/cantor: kde/kdeedu/analitza
+kde/kdeedu/kalgebra: frameworks/kirigami
 kde/kdeedu/kalgebra: kde/kdeedu/analitza
 kde/kdeedu/kanagram: kde/kdeedu/libkeduvocdocument
 kde/kdeedu/kanagram: kde/kdeedu/kdeedu-data
