@@ -167,7 +167,7 @@ class KDEDependencies:
     def _addModuleBranchDirectDependencies(self, depCandidates, module, branch):
         if module not in self.dependencies or branch not in self.dependencies[module]:
             return
-        for depModule, depBranch in self.dependencies[module][branch].iteritems():
+        for depModule, depBranch in self.dependencies[module][branch].items():
             if depModule == module:
                 continue
             newKey = self.keyFromModuleBranch(depModule, depBranch)
@@ -177,7 +177,7 @@ class KDEDependencies:
     def _removeModuleBranchNegativeDependencies(self, depCandidates, module, branch):
         if module not in self.negativeDeps or branch not in self.negativeDeps[module]:
             return
-        for depModule, depBranch in self.negativeDeps[module][branch].iteritems():
+        for depModule, depBranch in self.negativeDeps[module][branch].items():
             if depModule == '*':
                 # The [:] is just to ensure we're assigning to the list passed
                 # in to make depCandidates a mutable parameter, otherwise it
@@ -198,7 +198,7 @@ class KDEDependencies:
                 self._addModuleBranchDirectDependencies(depCandidates, wildcardRepo, '*')
 
         if module not in self.implicitDependencies:
-            for depModule, depBranch in self.implicitDependencies.iteritems():
+            for depModule, depBranch in self.implicitDependencies.items():
                 depCandidates.append(self.keyFromModuleBranch(depModule, depBranch))
 
         self._addModuleBranchDirectDependencies(depCandidates, module, '*')
@@ -237,9 +237,9 @@ class KDEDependencies:
     def printTree(self, node, level=0):
         branch = node["branch"]
         if branch != '*':
-            print "%s%s[%s]" % (' '.ljust(level), node["node"], node["branch"])
+            print("%s%s[%s]" % (' '.ljust(level), node["node"], node["branch"]))
         else:
-            print "%s%s" % (' '.ljust(level), node["node"])
+            print("%s%s" % (' '.ljust(level), node["node"]))
 
         for child in node["children"]:
             self.printTree(child, level + 2)
@@ -264,7 +264,7 @@ class KDEDependencies:
             visitedSet.add(module)
             for child in node["children"]:
                 self.printOrdering(child, visitedSet)
-            print self.printableModuleBranch(module, branch)
+            print(self.printableModuleBranch(module, branch))
 
     # Finds dependencies of the given modules (plural) and prints them
     # out.
@@ -272,11 +272,11 @@ class KDEDependencies:
         if self.showDirectOnly:
             # TODO: Fix to keep right order. Set setShowDirectOnly's comment
             for module in modules:
-                print "%s:" % (module)
+                print("%s:" % (module))
                 node = self._findDepsInternal(module, branch)
                 for child in node["children"]:
                     module, branch = child["node"], child["branch"]
-                    print "\t", self.printableModuleBranch(module, branch)
+                    print("\t", self.printableModuleBranch(module, branch))
         else:
             # Fake supporting multiple module paths by merging into virtual dependent
             rootModule = "*"
@@ -350,9 +350,9 @@ if __name__ == '__main__':
 
     (modules, mistake_modules) = addPathIfMissing(deps, args.module_path, args.assume_present)
     if len(mistake_modules) > 0:
-        print "Error: Couldn't find the following modules:"
+        print("Error: Couldn't find the following modules:")
         for module in mistake_modules:
-            print "\t%s" % (module)
+            print("\t%s" % (module))
         sys.exit(1)
     else:
         deps.findDependenciesOf(modules, args.branch)
