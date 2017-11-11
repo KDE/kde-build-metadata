@@ -1397,6 +1397,7 @@ kde/kdeedu/kalgebra: -frameworks/kf5umbrella
 kde/kdeedu/kalgebra: frameworks/kirigami
 kde/kdeedu/kalgebra: kde/kdeedu/analitza
 kde/kdeedu/kalgebra: frameworks/ki18n
+kde/kdeedu/kalgebra: frameworks/kconfigwidgets
 kde/kdeedu/kanagram: kde/kdeedu/libkeduvocdocument
 kde/kdeedu/kanagram: kde/kdeedu/kdeedu-data
 kde/kdeedu/parley: kde/kdeedu/libkeduvocdocument
