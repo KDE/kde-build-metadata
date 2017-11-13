@@ -1741,6 +1741,20 @@ extragear/graphics/ksnapshot: frameworks/kxmlgui
 extragear/graphics/ksnapshot: frameworks/kdbusaddons
 extragear/graphics/ksnapshot: frameworks/kparts
 
+# Krita
+extragear/graphics/krita: frameworks/karchive
+extragear/graphics/krita: frameworks/kconfig
+extragear/graphics/krita: frameworks/kwidgetsaddons
+extragear/graphics/krita: frameworks/kcompletion
+extragear/graphics/krita: frameworks/kcoreaddons
+extragear/graphics/krita: frameworks/kguiaddons
+extragear/graphics/krita: frameworks/ki18n
+extragear/graphics/krita: frameworks/kitemmodels
+extragear/graphics/krita: frameworks/kitemviews
+extragear/graphics/krita: frameworks/kwindowsystem
+extragear/graphics/krita: frameworks/kio
+extragear/graphics/krita: frameworks/kcrash
+
 # Calligra
 calligra/calligra: frameworks/kf5umbrella
 calligra/calligra: kdesupport/qca
@@ -1762,20 +1776,6 @@ calligra/kexi: extragear/libs/kdb
 calligra/kexi: extragear/libs/kproperty
 calligra/kexi: extragear/libs/kreport
 calligra/kexi: kde/kdeedu/marble
-
-# Krita
-calligra/krita: frameworks/karchive
-calligra/krita: frameworks/kconfig
-calligra/krita: frameworks/kwidgetsaddons
-calligra/krita: frameworks/kcompletion
-calligra/krita: frameworks/kcoreaddons
-calligra/krita: frameworks/kguiaddons
-calligra/krita: frameworks/ki18n
-calligra/krita: frameworks/kitemmodels
-calligra/krita: frameworks/kitemviews
-calligra/krita: frameworks/kwindowsystem
-calligra/krita: frameworks/kio
-calligra/krita: frameworks/kcrash
 
 # Playground Base
 kde/workspace/kde-gtk-config: frameworks/ki18n
