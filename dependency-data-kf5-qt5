@@ -1277,6 +1277,11 @@ kde/pim/akonadi-search: kde/pim/kcalutils
 kde/pim/akonadi-search: kde/pim/kmailtransport
 kde/pim/akonadi-search: kde/pim/kidentitymanagement
 
+kde/pim/ksmtp: frameworks/kcoreaddons
+kde/pim/ksmtp: frameworks/ki18n
+kde/pim/ksmtp: frameworks/kio
+kde/pim/ksmtp: kde/pim/kmime
+
 # KDE Graphics
 kde/kdegraphics/gwenview: frameworks/kdelibs4support
 kde/kdegraphics/gwenview: kde/kdegraphics/libs/libkdcraw
@@ -1957,10 +1962,6 @@ playground/network/telepathy/telepathy-morse: frameworks/kcoreaddons
 
 #Playground PIM
 playground/libs/kasync: frameworks/kcoreaddons
-kde/pim/ksmtp: frameworks/kcoreaddons
-kde/pim/ksmtp: frameworks/ki18n
-kde/pim/ksmtp: frameworks/kio
-kde/pim/ksmtp: kde/pim/kmime
 
 # Zanshin
 playground/pim/zanshin: frameworks/krunner
