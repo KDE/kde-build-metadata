@@ -173,6 +173,7 @@ frameworks/kio: frameworks/ktextwidgets
 frameworks/kio: frameworks/kxmlgui
 frameworks/kio: frameworks/kbookmarks
 frameworks/kio: frameworks/knotifications
+frameworks/kio: frameworks/kconfig
 frameworks/kio: frameworks/kwallet
 frameworks/kmediaplayer: frameworks/ki18n
 frameworks/kmediaplayer: frameworks/kparts
