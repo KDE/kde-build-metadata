@@ -172,6 +172,7 @@ frameworks/kio: frameworks/ktextwidgets
 frameworks/kio: frameworks/kxmlgui
 frameworks/kio: frameworks/kbookmarks
 frameworks/kio: frameworks/knotifications
+frameworks/kio: frameworks/kconfig
 frameworks/kio: frameworks/kwallet
 frameworks/kmediaplayer: frameworks/ki18n
 frameworks/kmediaplayer: frameworks/kparts
@@ -290,12 +291,12 @@ frameworks/kdelibs4support: frameworks/kio
 frameworks/kdelibs4support: frameworks/kded
 frameworks/kdelibs4support: frameworks/kinit
 frameworks/kdelibs4support: frameworks/kdoctools
+frameworks/kdelibs4support: frameworks/kemoticons
 frameworks/kdelibs4support: frameworks/kcrash
 frameworks/kdelibs4support: frameworks/knotifications
 frameworks/kdelibs4support: frameworks/kparts
 frameworks/kdelibs4support: frameworks/kdesignerplugin
 frameworks/kdelibs4support: frameworks/kglobalaccel
-frameworks/kdelibs4support: frameworks/kemoticons
 frameworks/krunner: frameworks/solid
 frameworks/krunner: frameworks/kio
 frameworks/krunner: frameworks/kconfig
@@ -778,7 +779,14 @@ kde/kdeutils/ark: frameworks/ki18n
 kde/kdeutils/ark: frameworks/kparts
 kde/kdeutils/ark: frameworks/kpty
 kde/kdeutils/ark: frameworks/oxygen-icons5
-
+kde/kdeutils/kdebugsettings: frameworks/kcoreaddons
+kde/kdeutils/kdebugsettings: frameworks/kconfig
+kde/kdeutils/kdebugsettings: frameworks/kconfigwidgets
+kde/kdeutils/kdebugsettings: frameworks/kdbusaddons
+kde/kdeutils/kdebugsettings: frameworks/kiconthemes
+kde/kdeutils/kdebugsettings: frameworks/kwidgetsaddons
+kde/kdeutils/kdebugsettings: frameworks/kitemviews
+kde/kdeutils/kdebugsettings: frameworks/kio
 kde/kdeutils/kgpg: kde/pim/akonadi-contacts
 kde/kdeutils/kgpg: frameworks/karchive
 kde/kdeutils/kgpg: frameworks/kdoctools
