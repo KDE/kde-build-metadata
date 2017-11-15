@@ -1885,6 +1885,8 @@ playground/utils/krename: frameworks/ki18n
 playground/utils/krename: frameworks/kiconthemes
 playground/utils/krename: frameworks/kio
 playground/utils/krename: frameworks/kjs
+playground/utils/klimbgrades: frameworks/kconfig
+playground/utils/klimbgrades: frameworks/kirigami
 
 # KAccounts
 kde/kdenetwork/kaccounts-integration: frameworks/kcmutils
