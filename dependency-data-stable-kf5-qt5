@@ -1592,11 +1592,12 @@ calligra/calligra: kde/pim/kcalcore
 calligra/calligra: kde/pim/kcontacts
 calligra/calligra: kde/pim/akonadi
 calligra/calligra: kde/pim/akonadi-contacts
+calligra/calligra: kde/pim/kholidays
 calligra/calligra: kde/kdeedu/marble
 calligra/calligra: kde/kdegraphics/okular
 calligra/calligra: extragear/graphics/kdiagram
-calligra/calligra: extragear/libs/kproperty
-calligra/calligra: extragear/libs/kreport
+#calligra/calligra: extragear/libs/kproperty
+#calligra/calligra: extragear/libs/kreport
 
 # Kexi
 calligra/kexi: frameworks/kf5umbrella
