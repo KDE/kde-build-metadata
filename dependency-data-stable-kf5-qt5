@@ -1097,13 +1097,6 @@ kde/pim/knotes: kde/pim/akonadi-mime
 kde/pim/knotes: kde/pim/akonadi-search
 kde/pim/knotes: kde/pim/mailcommon
 
-#blogilo
-kde/pim/blogilo: kde/pim/messagelib
-kde/pim/blogilo: kde/pim/libkdepim
-kde/pim/blogilo: kde/pim/pimcommon
-kde/pim/blogilo: kde/pim/kdepim-apps-libs
-kde/pim/blogilo: kde/pim/kblog
-
 #akonadiconsole
 kde/pim/akonadiconsole: kde/pim/messagelib
 kde/pim/akonadiconsole: kde/pim/eventviews
