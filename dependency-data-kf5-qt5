@@ -1906,6 +1906,13 @@ kde/kdenetwork/kaccounts-providers: frameworks/kdeclarative
 kde/kdenetwork/kaccounts-providers: frameworks/kpackage
 
 # KDE Games
+kde/kdegames/libkdegames: -frameworks/kf5umbrella
+kde/kdegames/libkdegames: frameworks/kcoreaddons
+kde/kdegames/libkdegames: frameworks/kconfig
+kde/kdegames/libkdegames: frameworks/kwidgetsaddons
+kde/kdegames/libkdegames: frameworks/kcodecs
+kde/kdegames/libkdegames: frameworks/karchive
+
 kde/kdegames/libkmahjongg: kde/kdegames/libkdegames
 kde/kdegames/kmahjongg: kde/kdegames/libkmahjongg
 kde/kdegames/kshisen: kde/kdegames/libkmahjongg
