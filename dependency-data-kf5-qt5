@@ -700,12 +700,26 @@ kde/workspace/plasma-pa: frameworks/ki18n
 kde/workspace/plasma-pa: frameworks/plasma-framework
 
 # Plasma Addons
-kde/kdeplasma-addons: frameworks/krunner
-kde/kdeplasma-addons: kde/workspace/plasma-workspace
+kde/workspace/kdeplasma-addons: frameworks/krunner
+kde/workspace/kdeplasma-addons: kde/workspace/plasma-workspace
 
 # plasma-tests - depend on all of kde/workspace
 kde/workspace/plasma-tests: kde/workspace/plasma-workspace
 kde/workspace/plasma-tests: kde/workspace/plasma-desktop
+
+# Gtk Configuration KCM
+kde/workspace/kde-gtk-config: frameworks/ki18n
+kde/workspace/kde-gtk-config: frameworks/kconfigwidgets
+kde/workspace/kde-gtk-config: frameworks/knewstuff
+kde/workspace/kde-gtk-config: frameworks/karchive
+kde/workspace/kde-gtk-config: frameworks/kcmutils
+kde/workspace/kde-gtk-config: frameworks/kauth
+
+# SSH Password Prompt UI
+kde/workspace/ksshaskpass: frameworks/kcoreaddons
+kde/workspace/ksshaskpass: frameworks/ki18n
+kde/workspace/ksshaskpass: frameworks/kwallet
+kde/workspace/ksshaskpass: frameworks/kwidgetsaddons
 
 ### Main Applications ###
 
@@ -1941,16 +1955,6 @@ calligra/kexi: kde/kdeedu/marble
 ### Playground ###
 
 # Playground Base
-kde/workspace/kde-gtk-config: frameworks/ki18n
-kde/workspace/kde-gtk-config: frameworks/kconfigwidgets
-kde/workspace/kde-gtk-config: frameworks/knewstuff
-kde/workspace/kde-gtk-config: frameworks/karchive
-kde/workspace/kde-gtk-config: frameworks/kcmutils
-kde/workspace/kde-gtk-config: frameworks/kauth
-kde/workspace/ksshaskpass: frameworks/kcoreaddons
-kde/workspace/ksshaskpass: frameworks/ki18n
-kde/workspace/ksshaskpass: frameworks/kwallet
-kde/workspace/ksshaskpass: frameworks/kwidgetsaddons
 extragear/network/kdeconnect-kde: kdesupport/qca
 extragear/network/kdeconnect-kde: frameworks/kio
 extragear/network/kdeconnect-kde: frameworks/ki18n
