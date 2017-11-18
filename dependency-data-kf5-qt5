@@ -700,6 +700,10 @@ kde/workspace/plasma-pa: frameworks/kglobalaccel
 kde/workspace/plasma-pa: frameworks/ki18n
 kde/workspace/plasma-pa: frameworks/plasma-framework
 
+# Plasma Addons
+kde/kdeplasma-addons: frameworks/krunner
+kde/kdeplasma-addons: kde/workspace/plasma-workspace
+
 # plasma-tests - depend on all of kde/workspace
 kde/workspace/plasma-tests: kde/workspace/plasma-workspace
 kde/workspace/plasma-tests: kde/workspace/plasma-desktop
@@ -1463,19 +1467,34 @@ kde/kdemultimedia/kwave: frameworks/ktextwidgets
 kde/kdemultimedia/kwave: frameworks/kxmlgui
 kde/kdemultimedia/kwave: frameworks/kwidgetsaddons
 
-# KDE Edu
+# KDE Edu!
+# Cantor
 kde/kdeedu/cantor: kde/kdeedu/analitza
+
+# Analitza
 kde/kdeedu/analitza: -frameworks/kf5umbrella
+
+# KAlgebra
 kde/kdeedu/kalgebra: -frameworks/kf5umbrella
+kde/kdeedu/kalgebra: frameworks/ki18n
 kde/kdeedu/kalgebra: frameworks/kirigami
 kde/kdeedu/kalgebra: kde/kdeedu/analitza
-kde/kdeedu/kalgebra: frameworks/ki18n
+
+# KAnagram
 kde/kdeedu/kanagram: kde/kdeedu/libkeduvocdocument
 kde/kdeedu/kanagram: kde/kdeedu/kdeedu-data
+
+# Parley
 kde/kdeedu/parley: kde/kdeedu/libkeduvocdocument
+
+# KHangman
 kde/kdeedu/khangman: kde/kdeedu/libkeduvocdocument
 kde/kdeedu/khangman: kde/kdeedu/kdeedu-data
+
+# KWordQuiz
 kde/kdeedu/kwordquiz: kde/kdeedu/libkeduvocdocument
+
+# Marble
 kde/kdeedu/marble: kdesupport/phonon/phonon
 kde/kdeedu/marble: frameworks/kcoreaddons
 kde/kdeedu/marble: frameworks/kcrash
@@ -1484,6 +1503,8 @@ kde/kdeedu/marble: frameworks/kio
 kde/kdeedu/marble: frameworks/knewstuff
 kde/kdeedu/marble: frameworks/kparts
 kde/kdeedu/marble: frameworks/krunner
+
+# Labplot
 kdereview/labplot: frameworks/karchive
 kdereview/labplot: frameworks/ki18n
 kdereview/labplot: frameworks/kwidgetsaddons
@@ -1492,9 +1513,6 @@ kdereview/labplot: frameworks/kio
 kdereview/labplot: frameworks/kdelibs4support
 kdereview/labplot: frameworks/kemoticons
 kdereview/labplot: frameworks/kitemmodels
-# KDE Plasma Addons
-kde/kdeplasma-addons: frameworks/krunner
-kde/kdeplasma-addons: kde/workspace/plasma-workspace
 
 # kdeaccessibility
 kde/kdeaccessibility/kmouth: frameworks/kconfig
