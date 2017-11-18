@@ -393,7 +393,8 @@ frameworks/baloo: frameworks/kfilemetadata
 frameworks/baloo: frameworks/kdelibs4support
 kde/applications/baloo-widgets: frameworks/baloo
 
-# plasma-vault
+# Plasma Workspaces!
+# Plasma Vault
 kde/workspace/plasma-vault: frameworks/kctivities
 kde/workspace/plasma-vault: frameworks/kconfig
 kde/workspace/plasma-vault: frameworks/kconfigwidgets
@@ -529,13 +530,6 @@ kde/workspace/oxygen: frameworks/frameworkintegration
 kde/workspace/oxygen: frameworks/kwindowsystem
 kde/workspace/oxygen: frameworks/kdelibs4support
 kde/workspace/oxygen: kde/workspace/kdecoration
-
-# KHelpCenter
-kde/applications/khelpcenter: frameworks/kconfig
-kde/applications/khelpcenter: frameworks/kinit
-kde/applications/khelpcenter: frameworks/kcmutils
-kde/applications/khelpcenter: frameworks/khtml
-kde/applications/khelpcenter: general/grantlee
 
 # KDE CLI Tools
 kde/workspace/kde-cli-tools: frameworks/kconfig
@@ -698,25 +692,36 @@ kde/workspace/plasma-browser-integration: frameworks/krunner
 kde/workspace/plasma-browser-integration: frameworks/kwindowsystem
 kde/workspace/plasma-browser-integration: frameworks/kactivities
 
+# Plasma Pulseaudio Applet
+kde/workspace/plasma-pa: frameworks/kconfigwidgets
+kde/workspace/plasma-pa: frameworks/kcoreaddons
+kde/workspace/plasma-pa: frameworks/kdeclarative
+kde/workspace/plasma-pa: frameworks/kglobalaccel
+kde/workspace/plasma-pa: frameworks/ki18n
+kde/workspace/plasma-pa: frameworks/plasma-framework
+
 # plasma-tests - depend on all of kde/workspace
 kde/workspace/plasma-tests: kde/workspace/plasma-workspace
 kde/workspace/plasma-tests: kde/workspace/plasma-desktop
 
-kdereview/plasma-pa: frameworks/kconfigwidgets
-kdereview/plasma-pa: frameworks/kcoreaddons
-kdereview/plasma-pa: frameworks/kdeclarative
-kdereview/plasma-pa: frameworks/kglobalaccel
-kdereview/plasma-pa: frameworks/ki18n
-kdereview/plasma-pa: frameworks/plasma-framework
-
-# KDE/Applications
+# General Applications!
+# Kate
 kde/applications/kate: frameworks/kactivities
 kde/applications/kate: frameworks/ktexteditor
 kde/applications/kate: frameworks/plasma-framework
 
-# Konqueror unittests use dolphinpart
+# KHelpCenter
+kde/applications/khelpcenter: frameworks/kconfig
+kde/applications/khelpcenter: frameworks/kinit
+kde/applications/khelpcenter: frameworks/kcmutils
+kde/applications/khelpcenter: frameworks/khtml
+kde/applications/khelpcenter: general/grantlee
+
+# Konqueror
+# (Unit Tests use Dolphin's KPart)
 kde/applications/konqueror: kde/applications/dolphin
 
+# Dolphin
 kde/applications/dolphin: frameworks/kdoctools
 kde/applications/dolphin: frameworks/kinit
 kde/applications/dolphin: frameworks/kcmutils
@@ -739,6 +744,7 @@ kde/applications/dolphin: frameworks/kfilemetadata
 kde/applications/dolphin: frameworks/baloo
 kde/applications/dolphin: kde/applications/baloo-widgets
 
+# Konsole
 kde/applications/konsole: frameworks/kwidgetsaddons
 kde/applications/konsole: frameworks/ki18n
 kde/applications/konsole: frameworks/kconfig
@@ -794,11 +800,15 @@ kde/applications/konsole: frameworks/kemoticons
 kde/applications/konsole: frameworks/kpty
 kde/applications/konsole: frameworks/kdesu
 
+# KDE Utils!
+# Ark
 kde/kdeutils/ark: frameworks/karchive
 kde/kdeutils/ark: frameworks/ki18n
 kde/kdeutils/ark: frameworks/kparts
 kde/kdeutils/ark: frameworks/kpty
 kde/kdeutils/ark: frameworks/oxygen-icons5
+
+# KDebug Settings
 kde/kdeutils/kdebugsettings: frameworks/kcoreaddons
 kde/kdeutils/kdebugsettings: frameworks/kconfig
 kde/kdeutils/kdebugsettings: frameworks/kconfigwidgets
@@ -807,6 +817,8 @@ kde/kdeutils/kdebugsettings: frameworks/kiconthemes
 kde/kdeutils/kdebugsettings: frameworks/kwidgetsaddons
 kde/kdeutils/kdebugsettings: frameworks/kitemviews
 kde/kdeutils/kdebugsettings: frameworks/kio
+
+# KGpg
 kde/kdeutils/kgpg: kde/pim/akonadi-contacts
 kde/kdeutils/kgpg: frameworks/karchive
 kde/kdeutils/kgpg: frameworks/kdoctools
