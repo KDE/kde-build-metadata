@@ -13,9 +13,11 @@
 # Don't bother listing kdelibs or Qt as dependencies unless a certain branch
 # is needed.
 
-*: Qt5[stable]
+*: Qt5
 *: kdesupport/extra-cmake-modules
-kdesupport/qca: Qt5[stable]
+
+# KDE Support
+kdesupport/qca: Qt5
 
 # Frameworks, tier2
 frameworks/kauth: frameworks/kcoreaddons
