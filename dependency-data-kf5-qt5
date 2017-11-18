@@ -1,23 +1,22 @@
-# This is a listing of build order dependencies for some of the KDE project
-# modules. See the README in this same directory for the syntax. Not all
+# This is a listing of build order dependencies for KDE project modules.
+# See the README in this same directory for the syntax. Not all
 # inter-project dependencies are listed so don't treat this as the
 # authoritative source, instead consult projects' CMakeLists.txt files.
 #
 # Of course feel free to document your own project dependencies here, but
 # please limit to intra-projects dependencies (there's not yet any way to mark
-# a dependency on something hosted on e.g. gitorious).
+# a dependency on something hosted on e.g. Github).
 #
 # Right now there's no way to mark that a given module is actually required or
 # optional, that might change in the future.
 #
-# Don't bother listing kdelibs or Qt as dependencies unless a certain branch
-# is needed.
+# Don't bother listing frameworks or Qt as dependencies - they're handled automatically
 
+# Everything needs Qt 5 and ECM
 *: Qt5
 *: kdesupport/extra-cmake-modules
 
-# KDE Support
-kdesupport/qca: Qt5
+### Frameworks ###
 
 # Frameworks, tier2
 frameworks/kauth: frameworks/kcoreaddons
@@ -391,9 +390,9 @@ frameworks/kf5umbrella: frameworks/kwayland
 frameworks/baloo: frameworks/krunner
 frameworks/baloo: frameworks/kfilemetadata
 frameworks/baloo: frameworks/kdelibs4support
-kde/applications/baloo-widgets: frameworks/baloo
 
-# Plasma Workspaces!
+### Plasma Workspaces! ###
+
 # Plasma Vault
 kde/workspace/plasma-vault: frameworks/kctivities
 kde/workspace/plasma-vault: frameworks/kconfig
@@ -708,6 +707,8 @@ kde/kdeplasma-addons: kde/workspace/plasma-workspace
 kde/workspace/plasma-tests: kde/workspace/plasma-workspace
 kde/workspace/plasma-tests: kde/workspace/plasma-desktop
 
+### Main Applications ###
+
 # General Applications!
 # Kate
 kde/applications/kate: frameworks/kactivities
@@ -720,6 +721,9 @@ kde/applications/khelpcenter: frameworks/kinit
 kde/applications/khelpcenter: frameworks/kcmutils
 kde/applications/khelpcenter: frameworks/khtml
 kde/applications/khelpcenter: general/grantlee
+
+# Baloo Widgets
+kde/applications/baloo-widgets: frameworks/baloo
 
 # Konqueror
 # (Unit Tests use Dolphin's KPart)
@@ -1504,7 +1508,8 @@ kde/kdeedu/marble: frameworks/knewstuff
 kde/kdeedu/marble: frameworks/kparts
 kde/kdeedu/marble: frameworks/krunner
 
-# kdeaccessibility
+# Accessibility!
+# KMouth
 kde/kdeaccessibility/kmouth: frameworks/kconfig
 kde/kdeaccessibility/kmouth: frameworks/kcompletion
 kde/kdeaccessibility/kmouth: frameworks/kconfigwidgets
@@ -1516,10 +1521,17 @@ kde/kdeaccessibility/kmouth: frameworks/kio
 kde/kdeaccessibility/kmouth: frameworks/kwidgetsaddons
 kde/kdeaccessibility/kmouth: frameworks/kxmlgui
 
-# kdesdk
+# SDK Applications
+# Kompare
 kde/kdesdk/kompare: kde/kdesdk/libkomparediff2
+
+# Okteta
 kde/kdesdk/okteta: kdesupport/qca
+
+# Dolphin Plugins
 kde/kdesdk/dolphin-plugins: kde/applications/dolphin
+
+# Application templates
 kde/kdesdk/kapptemplate: frameworks/kdoctools
 kde/kdesdk/kapptemplate: frameworks/kcoreaddons
 kde/kdesdk/kapptemplate: frameworks/kconfigwidgets
@@ -1527,25 +1539,36 @@ kde/kdesdk/kapptemplate: frameworks/kcompletion
 kde/kdesdk/kapptemplate: frameworks/karchive
 kde/kdesdk/kapptemplate: frameworks/kio
 kde/kdesdk/kapptemplate: frameworks/ki18n
+
+# KCacheGrind
 kde/kdesdk/kcachegrind: frameworks/karchive
 kde/kdesdk/kcachegrind: frameworks/kcoreaddons
 kde/kdesdk/kcachegrind: frameworks/kdoctools
 kde/kdesdk/kcachegrind: frameworks/kwidgetsaddons
 kde/kdesdk/kcachegrind: frameworks/kxmlgui
 kde/kdesdk/kcachegrind: frameworks/kdelibs4support
+
+# Development scripts
 kde/kdesdk/kde-dev-scripts: frameworks/kdoctools
+
+# Development utilities
 kde/kdesdk/kde-dev-utils: frameworks/kcoreaddons
 kde/kdesdk/kde-dev-utils: frameworks/kio
 kde/kdesdk/kde-dev-utils: frameworks/ki18n
 kde/kdesdk/kde-dev-utils: frameworks/kjobwidgets
 kde/kdesdk/kde-dev-utils: frameworks/kparts
 kde/kdesdk/kde-dev-utils: frameworks/kwidgetsaddons
+
+# SDK KIOSlaves
 kde/kdesdk/kdesdk-kioslaves: frameworks/kio
+
+# SDK Thumbnailers
 kde/kdesdk/kdesdk-thumbnailers: frameworks/kconfig
 kde/kdesdk/kdesdk-thumbnailers: frameworks/ki18n
 kde/kdesdk/kdesdk-thumbnailers: frameworks/kio
 
-# kdewebdev
+# Web Development Tools!
+# KImageMap Editor
 kde/kdewebdev/kimagemapeditor: frameworks/kconfig
 kde/kdewebdev/kimagemapeditor: frameworks/kconfigwidgets
 kde/kdewebdev/kimagemapeditor: frameworks/kcoreaddons
@@ -1561,11 +1584,13 @@ kde/kdewebdev/kimagemapeditor: frameworks/kwindowsystem
 kde/kdewebdev/kimagemapeditor: frameworks/kxmlgui
 kde/kdewebdev/kimagemapeditor: frameworks/kdelibs4support
 
-# kdebindings
+# Bindings!
 kde/kdebindings/smoke/smokeqt: kde/kdebindings/smoke/smokegen
 kde/kdebindings/ruby/qtruby: kde/kdebindings/smoke/smokegen
 kde/kdebindings/kross-interpreters: frameworks/kdelibs4support
 kde/kdebindings/kross-interpreters: frameworks/kross
+
+### Extragear ###
 
 # Labplot
 extragear/edu/labplot: frameworks/karchive
