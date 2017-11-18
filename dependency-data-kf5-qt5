@@ -832,6 +832,43 @@ kde/kdeutils/kgpg: frameworks/kservice
 kde/kdeutils/kgpg: frameworks/kwidgetsaddons
 
 # KDE PIM!
+# Akonadi
+kde/pim/akonadi: frameworks/kitemviews
+kde/pim/akonadi: frameworks/kio
+kde/pim/akonadi: frameworks/kconfig
+kde/pim/akonadi: frameworks/ki18n
+kde/pim/akonadi: frameworks/kdesignerplugin
+kde/pim/akonadi: frameworks/kdbusaddons
+kde/pim/akonadi: frameworks/kitemmodels
+kde/pim/akonadi: frameworks/kguiaddons
+kde/pim/akonadi: frameworks/kiconthemes
+kde/pim/akonadi: frameworks/kwindowsystem
+kde/pim/akonadi: frameworks/kcompletion
+
+# Akonadi Calendar
+kde/pim/akonadi-calendar: frameworks/kio
+kde/pim/akonadi-calendar: frameworks/kwallet
+kde/pim/akonadi-calendar: frameworks/kcodecs
+kde/pim/akonadi-calendar: kde/pim/akonadi-contacts
+kde/pim/akonadi-calendar: kde/pim/kmailtransport
+kde/pim/akonadi-calendar: kde/pim/kcontacts
+kde/pim/akonadi-calendar: kde/pim/kidentitymanagement
+kde/pim/akonadi-calendar: kde/pim/kcalcore
+kde/pim/akonadi-calendar: kde/pim/kcalutils
+
+# Akonadi Search
+kde/pim/akonadi-search: frameworks/ki18n
+kde/pim/akonadi-search: frameworks/kconfig
+kde/pim/akonadi-search: frameworks/kcrash
+kde/pim/akonadi-search: frameworks/krunner
+kde/pim/akonadi-search: kde/pim/akonadi-mime
+kde/pim/akonadi-search: kde/pim/kcontacts
+kde/pim/akonadi-search: kde/pim/kmime
+kde/pim/akonadi-search: kde/pim/kcalcore
+kde/pim/akonadi-search: kde/pim/kcalutils
+kde/pim/akonadi-search: kde/pim/kmailtransport
+kde/pim/akonadi-search: kde/pim/kidentitymanagement
+
 # Akonadi Contacts
 kde/pim/akonadi-contacts: frameworks/kio
 kde/pim/akonadi-contacts: frameworks/kcompletion
@@ -1283,43 +1320,6 @@ kde/pim/kdepim-addons: kde/pim/ktnef
 kde/pim/kdepim-addons: kde/pim/libksieve
 kde/pim/kdepim-addons: kde/pim/akonadi-import-wizard
 kde/pim/kdepim-addons: kde/pim/mailimporter
-
-# Akonadi
-kde/pim/akonadi: frameworks/kitemviews
-kde/pim/akonadi: frameworks/kio
-kde/pim/akonadi: frameworks/kconfig
-kde/pim/akonadi: frameworks/ki18n
-kde/pim/akonadi: frameworks/kdesignerplugin
-kde/pim/akonadi: frameworks/kdbusaddons
-kde/pim/akonadi: frameworks/kitemmodels
-kde/pim/akonadi: frameworks/kguiaddons
-kde/pim/akonadi: frameworks/kiconthemes
-kde/pim/akonadi: frameworks/kwindowsystem
-kde/pim/akonadi: frameworks/kcompletion
-
-# Akonadi Calendar
-kde/pim/akonadi-calendar: frameworks/kio
-kde/pim/akonadi-calendar: frameworks/kwallet
-kde/pim/akonadi-calendar: frameworks/kcodecs
-kde/pim/akonadi-calendar: kde/pim/akonadi-contacts
-kde/pim/akonadi-calendar: kde/pim/kmailtransport
-kde/pim/akonadi-calendar: kde/pim/kcontacts
-kde/pim/akonadi-calendar: kde/pim/kidentitymanagement
-kde/pim/akonadi-calendar: kde/pim/kcalcore
-kde/pim/akonadi-calendar: kde/pim/kcalutils
-
-# Akonadi Search
-kde/pim/akonadi-search: frameworks/ki18n
-kde/pim/akonadi-search: frameworks/kconfig
-kde/pim/akonadi-search: frameworks/kcrash
-kde/pim/akonadi-search: frameworks/krunner
-kde/pim/akonadi-search: kde/pim/akonadi-mime
-kde/pim/akonadi-search: kde/pim/kcontacts
-kde/pim/akonadi-search: kde/pim/kmime
-kde/pim/akonadi-search: kde/pim/kcalcore
-kde/pim/akonadi-search: kde/pim/kcalutils
-kde/pim/akonadi-search: kde/pim/kmailtransport
-kde/pim/akonadi-search: kde/pim/kidentitymanagement
 
 # KSmtp libraries
 kde/pim/ksmtp: frameworks/kcoreaddons
