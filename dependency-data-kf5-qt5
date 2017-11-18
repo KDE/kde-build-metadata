@@ -1390,13 +1390,20 @@ kde/kdegraphics/spectacle: frameworks/kdbusaddons
 kde/kdegraphics/spectacle: kde/workspace/libkscreen
 kde/kdegraphics/spectacle: kde/kdegraphics/libs/libkipi
 
-# kdemultimedia
+# KDE Multimedia
+# Audio CD KIO
 kde/kdemultimedia/audiocd-kio: kde/kdemultimedia/libkcddb
 kde/kdemultimedia/audiocd-kio: kde/kdemultimedia/libkcompactdisc
+
+# K3b
 kde/kdemultimedia/k3b: frameworks/kfilemetadata
 kde/kdemultimedia/k3b: frameworks/kio
 kde/kdemultimedia/k3b: kde/kdemultimedia/libkcddb
+
+# Kdenlive
 kde/kdemultimedia/kdenlive: frameworks/kfilemetadata
+
+# Juk
 kde/kdemultimedia/juk: frameworks/kcompletion
 kde/kdemultimedia/juk: frameworks/kcoreaddons
 kde/kdemultimedia/juk: frameworks/kconfig
@@ -1413,6 +1420,8 @@ kde/kdemultimedia/juk: frameworks/kxmlgui
 kde/kdemultimedia/juk: frameworks/kwallet
 kde/kdemultimedia/juk: frameworks/kwidgetsaddons
 kde/kdemultimedia/juk: frameworks/kwindowsystem
+
+# KMix
 kde/kdemultimedia/kmix: frameworks/kcompletion
 kde/kdemultimedia/kmix: frameworks/kconfig
 kde/kdemultimedia/kmix: frameworks/kconfigwidgets
@@ -1430,11 +1439,15 @@ kde/kdemultimedia/kmix: frameworks/kwidgetsaddons
 kde/kdemultimedia/kmix: frameworks/kwindowsystem
 kde/kdemultimedia/kmix: frameworks/kxmlgui
 kde/kdemultimedia/kmix: frameworks/solid
+
+# KSCD
 kde/kdemultimedia/kscd: kdesupport/phonon/phonon
 kde/kdemultimedia/kscd: frameworks/kdbusaddons
 kde/kdemultimedia/kscd: frameworks/kdelibs4support
 kde/kdemultimedia/kscd: frameworks/kglobalaccel
 kde/kdemultimedia/kscd: frameworks/solid
+
+# KWave
 kde/kdemultimedia/kwave: frameworks/kcompletion
 kde/kdemultimedia/kwave: frameworks/kconfig
 kde/kdemultimedia/kwave: frameworks/kconfigwidgets
