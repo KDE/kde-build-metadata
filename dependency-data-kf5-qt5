@@ -1504,16 +1504,6 @@ kde/kdeedu/marble: frameworks/knewstuff
 kde/kdeedu/marble: frameworks/kparts
 kde/kdeedu/marble: frameworks/krunner
 
-# Labplot
-kdereview/labplot: frameworks/karchive
-kdereview/labplot: frameworks/ki18n
-kdereview/labplot: frameworks/kwidgetsaddons
-kdereview/labplot: frameworks/kxmlgui
-kdereview/labplot: frameworks/kio
-kdereview/labplot: frameworks/kdelibs4support
-kdereview/labplot: frameworks/kemoticons
-kdereview/labplot: frameworks/kitemmodels
-
 # kdeaccessibility
 kde/kdeaccessibility/kmouth: frameworks/kconfig
 kde/kdeaccessibility/kmouth: frameworks/kcompletion
@@ -1525,6 +1515,67 @@ kde/kdeaccessibility/kmouth: frameworks/ki18n
 kde/kdeaccessibility/kmouth: frameworks/kio
 kde/kdeaccessibility/kmouth: frameworks/kwidgetsaddons
 kde/kdeaccessibility/kmouth: frameworks/kxmlgui
+
+# kdesdk
+kde/kdesdk/kompare: kde/kdesdk/libkomparediff2
+kde/kdesdk/okteta: kdesupport/qca
+kde/kdesdk/dolphin-plugins: kde/applications/dolphin
+kde/kdesdk/kapptemplate: frameworks/kdoctools
+kde/kdesdk/kapptemplate: frameworks/kcoreaddons
+kde/kdesdk/kapptemplate: frameworks/kconfigwidgets
+kde/kdesdk/kapptemplate: frameworks/kcompletion
+kde/kdesdk/kapptemplate: frameworks/karchive
+kde/kdesdk/kapptemplate: frameworks/kio
+kde/kdesdk/kapptemplate: frameworks/ki18n
+kde/kdesdk/kcachegrind: frameworks/karchive
+kde/kdesdk/kcachegrind: frameworks/kcoreaddons
+kde/kdesdk/kcachegrind: frameworks/kdoctools
+kde/kdesdk/kcachegrind: frameworks/kwidgetsaddons
+kde/kdesdk/kcachegrind: frameworks/kxmlgui
+kde/kdesdk/kcachegrind: frameworks/kdelibs4support
+kde/kdesdk/kde-dev-scripts: frameworks/kdoctools
+kde/kdesdk/kde-dev-utils: frameworks/kcoreaddons
+kde/kdesdk/kde-dev-utils: frameworks/kio
+kde/kdesdk/kde-dev-utils: frameworks/ki18n
+kde/kdesdk/kde-dev-utils: frameworks/kjobwidgets
+kde/kdesdk/kde-dev-utils: frameworks/kparts
+kde/kdesdk/kde-dev-utils: frameworks/kwidgetsaddons
+kde/kdesdk/kdesdk-kioslaves: frameworks/kio
+kde/kdesdk/kdesdk-thumbnailers: frameworks/kconfig
+kde/kdesdk/kdesdk-thumbnailers: frameworks/ki18n
+kde/kdesdk/kdesdk-thumbnailers: frameworks/kio
+
+# kdewebdev
+kde/kdewebdev/kimagemapeditor: frameworks/kconfig
+kde/kdewebdev/kimagemapeditor: frameworks/kconfigwidgets
+kde/kdewebdev/kimagemapeditor: frameworks/kcoreaddons
+kde/kdewebdev/kimagemapeditor: frameworks/kcrash
+kde/kdewebdev/kimagemapeditor: frameworks/kdbusaddons
+kde/kdewebdev/kimagemapeditor: frameworks/kdoctools
+kde/kdewebdev/kimagemapeditor: frameworks/kguiaddons
+kde/kdewebdev/kimagemapeditor: frameworks/khtml
+kde/kdewebdev/kimagemapeditor: frameworks/ki18n
+kde/kdewebdev/kimagemapeditor: frameworks/kparts
+kde/kdewebdev/kimagemapeditor: frameworks/kwidgetsaddons
+kde/kdewebdev/kimagemapeditor: frameworks/kwindowsystem
+kde/kdewebdev/kimagemapeditor: frameworks/kxmlgui
+kde/kdewebdev/kimagemapeditor: frameworks/kdelibs4support
+
+# kdebindings
+kde/kdebindings/smoke/smokeqt: kde/kdebindings/smoke/smokegen
+kde/kdebindings/ruby/qtruby: kde/kdebindings/smoke/smokegen
+kde/kdebindings/kross-interpreters: frameworks/kdelibs4support
+kde/kdebindings/kross-interpreters: frameworks/kross
+
+# Labplot
+extragear/edu/labplot: frameworks/karchive
+extragear/edu/labplot: frameworks/ki18n
+extragear/edu/labplot: frameworks/kwidgetsaddons
+extragear/edu/labplot: frameworks/kxmlgui
+extragear/edu/labplot: frameworks/kio
+extragear/edu/labplot: frameworks/kdelibs4support
+extragear/edu/labplot: frameworks/kemoticons
+extragear/edu/labplot: frameworks/kitemmodels
 
 # Extragear SDK
 extragear/sdk/plasma-sdk: frameworks/kf5umbrella
@@ -1588,57 +1639,6 @@ extragear/sysadmin/partitionmanager: frameworks/kservice
 extragear/sysadmin/partitionmanager: frameworks/kxmlgui
 extragear/sysadmin/partitionmanager: frameworks/kwidgetsaddons
 extragear/sysadmin/apper: kde/workspace/plasma-workspace
-
-# kdesdk
-kde/kdesdk/kompare: kde/kdesdk/libkomparediff2
-kde/kdesdk/okteta: kdesupport/qca
-kde/kdesdk/dolphin-plugins: kde/applications/dolphin
-kde/kdesdk/kapptemplate: frameworks/kdoctools
-kde/kdesdk/kapptemplate: frameworks/kcoreaddons
-kde/kdesdk/kapptemplate: frameworks/kconfigwidgets
-kde/kdesdk/kapptemplate: frameworks/kcompletion
-kde/kdesdk/kapptemplate: frameworks/karchive
-kde/kdesdk/kapptemplate: frameworks/kio
-kde/kdesdk/kapptemplate: frameworks/ki18n
-kde/kdesdk/kcachegrind: frameworks/karchive
-kde/kdesdk/kcachegrind: frameworks/kcoreaddons
-kde/kdesdk/kcachegrind: frameworks/kdoctools
-kde/kdesdk/kcachegrind: frameworks/kwidgetsaddons
-kde/kdesdk/kcachegrind: frameworks/kxmlgui
-kde/kdesdk/kcachegrind: frameworks/kdelibs4support
-kde/kdesdk/kde-dev-scripts: frameworks/kdoctools
-kde/kdesdk/kde-dev-utils: frameworks/kcoreaddons
-kde/kdesdk/kde-dev-utils: frameworks/kio
-kde/kdesdk/kde-dev-utils: frameworks/ki18n
-kde/kdesdk/kde-dev-utils: frameworks/kjobwidgets
-kde/kdesdk/kde-dev-utils: frameworks/kparts
-kde/kdesdk/kde-dev-utils: frameworks/kwidgetsaddons
-kde/kdesdk/kdesdk-kioslaves: frameworks/kio
-kde/kdesdk/kdesdk-thumbnailers: frameworks/kconfig
-kde/kdesdk/kdesdk-thumbnailers: frameworks/ki18n
-kde/kdesdk/kdesdk-thumbnailers: frameworks/kio
-
-# kdewebdev
-kde/kdewebdev/kimagemapeditor: frameworks/kconfig
-kde/kdewebdev/kimagemapeditor: frameworks/kconfigwidgets
-kde/kdewebdev/kimagemapeditor: frameworks/kcoreaddons
-kde/kdewebdev/kimagemapeditor: frameworks/kcrash
-kde/kdewebdev/kimagemapeditor: frameworks/kdbusaddons
-kde/kdewebdev/kimagemapeditor: frameworks/kdoctools
-kde/kdewebdev/kimagemapeditor: frameworks/kguiaddons
-kde/kdewebdev/kimagemapeditor: frameworks/khtml
-kde/kdewebdev/kimagemapeditor: frameworks/ki18n
-kde/kdewebdev/kimagemapeditor: frameworks/kparts
-kde/kdewebdev/kimagemapeditor: frameworks/kwidgetsaddons
-kde/kdewebdev/kimagemapeditor: frameworks/kwindowsystem
-kde/kdewebdev/kimagemapeditor: frameworks/kxmlgui
-kde/kdewebdev/kimagemapeditor: frameworks/kdelibs4support
-
-# kdebindings
-kde/kdebindings/smoke/smokeqt: kde/kdebindings/smoke/smokegen
-kde/kdebindings/ruby/qtruby: kde/kdebindings/smoke/smokegen
-kde/kdebindings/kross-interpreters: frameworks/kdelibs4support
-kde/kdebindings/kross-interpreters: frameworks/kross
 
 # Extragear Multimedia
 kde/workspace/plasma-mediacenter: frameworks/plasma-framework
