@@ -1521,6 +1521,100 @@ kde/kdeaccessibility/kmouth: frameworks/kio
 kde/kdeaccessibility/kmouth: frameworks/kwidgetsaddons
 kde/kdeaccessibility/kmouth: frameworks/kxmlgui
 
+# KDE Network!
+# KGet
+kde/kdenetwork/kget: kdesupport/qca
+kde/kdenetwork/kget: extragear/network/libktorrent
+
+# Kopete
+kde/kdenetwork/kopete: kdesupport/qca
+kde/kdenetwork/kopete: kde/pim/kcontacts
+kde/kdenetwork/kopete: kde/pim/kidentitymanagement
+kde/kdenetwork/kopete: kde/pim/libkleo
+
+# KDE Telepathy - Common Internals
+kde/kdenetwork/ktp-common-internals: frameworks/kcmutils
+kde/kdenetwork/ktp-common-internals: frameworks/knotifyconfig
+kde/kdenetwork/ktp-common-internals: frameworks/ktexteditor
+kde/kdenetwork/ktp-common-internals: frameworks/kwallet
+kde/kdenetwork/ktp-common-internals: frameworks/kpeople
+kde/kdenetwork/ktp-common-internals: kde/kdenetwork/kaccounts-integration
+
+# KDE Telepathy - Common Dependencies for all
+kde/kdenetwork/ktp*: kde/kdenetwork/ktp-common-internals
+
+# KDE Telepathy Daemon component
+kde/kdenetwork/ktp-kded-module: kde/kdenetwork/ktp-common-internals
+kde/kdenetwork/ktp-kded-module: frameworks/kdbusaddons
+kde/kdenetwork/ktp-kded-module: frameworks/kconfig
+kde/kdenetwork/ktp-kded-module: frameworks/ki18n
+kde/kdenetwork/ktp-kded-module: frameworks/knotifications
+kde/kdenetwork/ktp-kded-module: frameworks/kconfigwidgets
+kde/kdenetwork/ktp-kded-module: frameworks/kidletime
+
+# KDE Telepathy Authentication Handler
+kde/kdenetwork/ktp-auth-handler: kde/kdenetwork/ktp-common-internals
+kde/kdenetwork/ktp-auth-handler: frameworks/kwidgetsaddons
+kde/kdenetwork/ktp-auth-handler: frameworks/kwallet
+kde/kdenetwork/ktp-auth-handler: frameworks/ki18n
+kde/kdenetwork/ktp-auth-handler: frameworks/kio
+kde/kdenetwork/ktp-auth-handler: kdesupport/qca
+kde/kdenetwork/ktp-auth-handler: kde/kdenetwork/kaccounts-integration
+
+# KDE Telepathy Call UI
+kde/kdenetwork/ktp-call-ui: kde/kdenetwork/ktp-common-internals
+
+# KDE Telepathy Contact List
+kde/kdenetwork/ktp-contact-list: kde/kdenetwork/ktp-common-internals
+kde/kdenetwork/ktp-contact-list: frameworks/kpeople
+
+# KDE Telepathy File Transfer Handler
+kde/kdenetwork/ktp-filetransfer-handler: kde/kdenetwork/ktp-common-internals
+kde/kdenetwork/ktp-filetransfer-handler: frameworks/kcoreaddons
+kde/kdenetwork/ktp-filetransfer-handler: frameworks/ki18n
+kde/kdenetwork/ktp-filetransfer-handler: frameworks/kio
+kde/kdenetwork/ktp-filetransfer-handler: frameworks/kconfig
+
+# KDE Telepathy File Transfer Components
+kde/kdenetwork/ktp-send-file: kde/kdenetwork/ktp-common-internals
+kde/kdenetwork/ktp-send-file: frameworks/kcoreaddons
+kde/kdenetwork/ktp-send-file: frameworks/ki18n
+kde/kdenetwork/ktp-send-file: frameworks/kio
+kde/kdenetwork/ktp-send-file: frameworks/kiconthemes
+
+# KDE Telepathy - Text Messaging Interface
+kde/kdenetwork/ktp-text-ui: kde/kdenetwork/ktp-common-internals
+kde/kdenetwork/ktp-text-ui: frameworks/karchive
+kde/kdenetwork/ktp-text-ui: frameworks/sonnet
+kde/kdenetwork/ktp-text-ui: frameworks/kwidgetsaddons
+kde/kdenetwork/ktp-text-ui: frameworks/kservice
+kde/kdenetwork/ktp-text-ui: frameworks/kemoticons
+kde/kdenetwork/ktp-text-ui: frameworks/kio
+kde/kdenetwork/ktp-text-ui: frameworks/kcmutils
+kde/kdenetwork/ktp-text-ui: frameworks/knotifyconfig
+kde/kdenetwork/ktp-text-ui: frameworks/ki18n
+kde/kdenetwork/ktp-text-ui: frameworks/kdewebkit
+
+# KDE Telapthy - Contacts Runner (for KRunner)
+kde/kdenetwork/ktp-contact-runner: kde/kdenetwork/ktp-common-internals
+kde/kdenetwork/ktp-contact-runner: frameworks/krunner
+
+# KDE Telepathy - Accounts KCM
+kde/kdenetwork/ktp-accounts-kcm: kde/kdenetwork/ktp-common-internals
+kde/kdenetwork/ktp-accounts-kcm: kde/kdenetwork/kaccounts-integration
+
+# KDE Telepathy - Desktop Applet
+kde/kdenetwork/ktp-desktop-applets: kde/kdenetwork/ktp-common-internals
+kde/kdenetwork/ktp-desktop-applets: frameworks/plasma-framework
+
+# KWallet Signon Extension
+kde/kdenetwork/signon-kwallet-extension: frameworks/kwallet
+
+# Zeroconf KIOSlave
+kde/kdenetwork/zeroconf-ioslave: frameworks/kdnssd
+kde/kdenetwork/zeroconf-ioslave: frameworks/ki18n
+kde/kdenetwork/zeroconf-ioslave: frameworks/kio
+
 # SDK Applications
 # Kompare
 kde/kdesdk/kompare: kde/kdesdk/libkomparediff2
@@ -1602,6 +1696,11 @@ extragear/edu/labplot: frameworks/kdelibs4support
 extragear/edu/labplot: frameworks/kemoticons
 extragear/edu/labplot: frameworks/kitemmodels
 
+# Google API Libraries
+extragear/libs/libkgapi: frameworks/kcoreaddons
+extragear/libs/libkgapi: kde/pim/kcontacts
+extragear/libs/libkgapi: kde/pim/kcalcore
+
 # Extragear SDK
 extragear/sdk/plasma-sdk: frameworks/kf5umbrella
 extragear/sdk/plasma-sdk: frameworks/plasma-framework
@@ -1632,11 +1731,6 @@ extragear/sdk/kdesvn: frameworks/ktexteditor
 extragear/sdk/kdesvn: frameworks/kwallet
 extragear/sdk/kdesvn: frameworks/kwidgetsaddons
 
-# Google API Libraries
-extragear/libs/libkgapi: frameworks/kcoreaddons
-extragear/libs/libkgapi: kde/pim/kcontacts
-extragear/libs/libkgapi: kde/pim/kcalcore
-
 # Extragear Sysadmin
 extragear/sysadmin/muon: frameworks/solid
 extragear/sysadmin/muon: frameworks/kwidgetsaddons
@@ -1666,8 +1760,8 @@ extragear/sysadmin/partitionmanager: frameworks/kwidgetsaddons
 extragear/sysadmin/apper: kde/workspace/plasma-workspace
 
 # Extragear Multimedia
-kde/workspace/plasma-mediacenter: frameworks/plasma-framework
-kde/workspace/plasma-mediacenter: frameworks/baloo
+extragear/multimedia/plasma-mediacenter: frameworks/plasma-framework
+extragear/multimedia/plasma-mediacenter: frameworks/baloo
 extragear/multimedia/kamoso: frameworks/kwidgetsaddons
 extragear/multimedia/kamoso: frameworks/kconfig
 extragear/multimedia/kamoso: frameworks/kconfigwidgets
@@ -1714,69 +1808,6 @@ extragear/network/choqok: kdesupport/qca
 extragear/network/libktorrent: kdesupport/qca
 extragear/network/ktorrent: extragear/network/libktorrent
 extragear/network/ktorrent: kde/pim/syndication
-
-# KDE Network: Telepathy
-kde/kdenetwork/kget: kdesupport/qca
-kde/kdenetwork/kget: extragear/network/libktorrent
-kde/kdenetwork/kopete: kdesupport/qca
-kde/kdenetwork/kopete: kde/pim/kcontacts
-kde/kdenetwork/kopete: kde/pim/kidentitymanagement
-kde/kdenetwork/kopete: kde/pim/libkleo
-kde/kdenetwork/ktp-common-internals: frameworks/kcmutils
-kde/kdenetwork/ktp-common-internals: frameworks/knotifyconfig
-kde/kdenetwork/ktp-common-internals: frameworks/ktexteditor
-kde/kdenetwork/ktp-common-internals: frameworks/kwallet
-kde/kdenetwork/ktp-common-internals: frameworks/kpeople
-kde/kdenetwork/ktp-common-internals: kde/kdenetwork/kaccounts-integration
-kde/kdenetwork/ktp*: kde/kdenetwork/ktp-common-internals
-kde/kdenetwork/ktp-kded-module: kde/kdenetwork/ktp-common-internals
-kde/kdenetwork/ktp-kded-module: frameworks/kdbusaddons
-kde/kdenetwork/ktp-kded-module: frameworks/kconfig
-kde/kdenetwork/ktp-kded-module: frameworks/ki18n
-kde/kdenetwork/ktp-kded-module: frameworks/knotifications
-kde/kdenetwork/ktp-kded-module: frameworks/kconfigwidgets
-kde/kdenetwork/ktp-kded-module: frameworks/kidletime
-kde/kdenetwork/ktp-auth-handler: kde/kdenetwork/ktp-common-internals
-kde/kdenetwork/ktp-auth-handler: frameworks/kwidgetsaddons
-kde/kdenetwork/ktp-auth-handler: frameworks/kwallet
-kde/kdenetwork/ktp-auth-handler: frameworks/ki18n
-kde/kdenetwork/ktp-auth-handler: frameworks/kio
-kde/kdenetwork/ktp-auth-handler: kdesupport/qca
-kde/kdenetwork/ktp-auth-handler: kde/kdenetwork/kaccounts-integration
-kde/kdenetwork/ktp-call-ui: kde/kdenetwork/ktp-common-internals
-kde/kdenetwork/ktp-contact-list: kde/kdenetwork/ktp-common-internals
-kde/kdenetwork/ktp-contact-list: frameworks/kpeople
-kde/kdenetwork/ktp-filetransfer-handler: kde/kdenetwork/ktp-common-internals
-kde/kdenetwork/ktp-filetransfer-handler: frameworks/kcoreaddons
-kde/kdenetwork/ktp-filetransfer-handler: frameworks/ki18n
-kde/kdenetwork/ktp-filetransfer-handler: frameworks/kio
-kde/kdenetwork/ktp-filetransfer-handler: frameworks/kconfig
-kde/kdenetwork/ktp-send-file: kde/kdenetwork/ktp-common-internals
-kde/kdenetwork/ktp-send-file: frameworks/kcoreaddons
-kde/kdenetwork/ktp-send-file: frameworks/ki18n
-kde/kdenetwork/ktp-send-file: frameworks/kio
-kde/kdenetwork/ktp-send-file: frameworks/kiconthemes
-kde/kdenetwork/ktp-text-ui: kde/kdenetwork/ktp-common-internals
-kde/kdenetwork/ktp-text-ui: frameworks/karchive
-kde/kdenetwork/ktp-text-ui: frameworks/sonnet
-kde/kdenetwork/ktp-text-ui: frameworks/kwidgetsaddons
-kde/kdenetwork/ktp-text-ui: frameworks/kservice
-kde/kdenetwork/ktp-text-ui: frameworks/kemoticons
-kde/kdenetwork/ktp-text-ui: frameworks/kio
-kde/kdenetwork/ktp-text-ui: frameworks/kcmutils
-kde/kdenetwork/ktp-text-ui: frameworks/knotifyconfig
-kde/kdenetwork/ktp-text-ui: frameworks/ki18n
-kde/kdenetwork/ktp-text-ui: frameworks/kdewebkit
-kde/kdenetwork/ktp-contact-runner: kde/kdenetwork/ktp-common-internals
-kde/kdenetwork/ktp-contact-runner: frameworks/krunner
-kde/kdenetwork/ktp-accounts-kcm: kde/kdenetwork/ktp-common-internals
-kde/kdenetwork/ktp-accounts-kcm: kde/kdenetwork/kaccounts-integration
-kde/kdenetwork/ktp-desktop-applets: kde/kdenetwork/ktp-common-internals
-kde/kdenetwork/ktp-desktop-applets: frameworks/plasma-framework
-kde/kdenetwork/signon-kwallet-extension: frameworks/kwallet
-kde/kdenetwork/zeroconf-ioslave: frameworks/kdnssd
-kde/kdenetwork/zeroconf-ioslave: frameworks/ki18n
-kde/kdenetwork/zeroconf-ioslave: frameworks/kio
 
 # Extragear Base
 extragear/base/plasma-mobile: frameworks/kwayland
