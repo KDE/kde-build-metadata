@@ -1686,6 +1686,20 @@ kde/kdebindings/kross-interpreters: frameworks/kross
 
 ### Extragear ###
 
+# Extragear Base
+extragear/base/plasma-mobile: frameworks/kwayland
+extragear/base/wacomtablet: frameworks/kconfig
+extragear/base/wacomtablet: frameworks/kcoreaddons
+extragear/base/wacomtablet: frameworks/kdbusaddons
+extragear/base/wacomtablet: frameworks/kdoctools
+extragear/base/wacomtablet: frameworks/kglobalaccel
+extragear/base/wacomtablet: frameworks/ki18n
+extragear/base/wacomtablet: frameworks/knotifications
+extragear/base/wacomtablet: frameworks/plasma-frameworks
+extragear/base/wacomtablet: frameworks/kwidgetsaddons
+extragear/base/wacomtablet: frameworks/kwindowsystem
+extragear/base/wacomtablet: frameworks/kxmlgui
+
 # Labplot
 extragear/edu/labplot: frameworks/karchive
 extragear/edu/labplot: frameworks/ki18n
@@ -1696,10 +1710,127 @@ extragear/edu/labplot: frameworks/kdelibs4support
 extragear/edu/labplot: frameworks/kemoticons
 extragear/edu/labplot: frameworks/kitemmodels
 
+# Extragear Graphics
+extragear/graphics/kipi-plugins: kde/kdegraphics/libs/libkipi
+extragear/graphics/kipi-plugins/kipi-plugins-doc: extragear/graphics/kipi-plugins
+extragear/graphics/skanlite: kde/kdegraphics/libs/libksane
+extragear/graphics/kphotoalbum: kde/kdeedu/marble
+extragear/graphics/kphotoalbum: kde/kdegraphics/libs/libkdcraw
+extragear/graphics/kphotoalbum: kde/kdegraphics/libs/libkexiv2
+extragear/graphics/kphotoalbum: kde/kdegraphics/libs/libkface
+extragear/graphics/kphotoalbum: kde/kdegraphics/libs/libkgeomap
+extragear/graphics/kphotoalbum: kde/kdegraphics/libs/libkipi
+extragear/graphics/kgraphviewer: frameworks/kcoreaddons
+extragear/graphics/kgraphviewer: frameworks/kdoctools
+extragear/graphics/kgraphviewer: frameworks/kparts
+extragear/graphics/kgraphviewer: frameworks/kio
+extragear/graphics/kgraphviewer: frameworks/kwidgetsaddons
+extragear/graphics/kgraphviewer: frameworks/kiconthemes
+extragear/graphics/digikam: kde/kdegraphics/libs/libkipi
+extragear/graphics/digikam: kde/kdegraphics/libs/libksane
+extragear/graphics/digikam: kde/kdeedu/marble
+extragear/graphics/digikam: frameworks/kfilemetadata
+extragear/graphics/digikam: kde/pim/akonadi-contacts
+extragear/graphics/digikam: kde/pim/akonadi # I believe this is it wants for akonadi contacts
+extragear/graphics/digikam/digikam-doc: extragear/graphics/digikam
+
+extragear/graphics/ksnapshot: frameworks/kconfig
+extragear/graphics/ksnapshot: frameworks/kconfigwidgets
+extragear/graphics/ksnapshot: frameworks/kcoreaddons
+extragear/graphics/ksnapshot: frameworks/kdoctools
+extragear/graphics/ksnapshot: frameworks/kguiaddons
+extragear/graphics/ksnapshot: frameworks/ki18n
+extragear/graphics/ksnapshot: frameworks/kio
+extragear/graphics/ksnapshot: frameworks/kservice
+extragear/graphics/ksnapshot: frameworks/kwindowsystem
+extragear/graphics/ksnapshot: frameworks/kxmlgui
+extragear/graphics/ksnapshot: frameworks/kdbusaddons
+extragear/graphics/ksnapshot: frameworks/kparts
+
+# Krita
+extragear/graphics/krita: frameworks/karchive
+extragear/graphics/krita: frameworks/kconfig
+extragear/graphics/krita: frameworks/kwidgetsaddons
+extragear/graphics/krita: frameworks/kcompletion
+extragear/graphics/krita: frameworks/kcoreaddons
+extragear/graphics/krita: frameworks/kguiaddons
+extragear/graphics/krita: frameworks/ki18n
+extragear/graphics/krita: frameworks/kitemmodels
+extragear/graphics/krita: frameworks/kitemviews
+extragear/graphics/krita: frameworks/kwindowsystem
+extragear/graphics/krita: frameworks/kio
+extragear/graphics/krita: frameworks/kcrash
+
 # Google API Libraries
 extragear/libs/libkgapi: frameworks/kcoreaddons
 extragear/libs/libkgapi: kde/pim/kcontacts
 extragear/libs/libkgapi: kde/pim/kcalcore
+
+# Extragear Multimedia
+extragear/multimedia/plasma-mediacenter: frameworks/plasma-framework
+extragear/multimedia/plasma-mediacenter: frameworks/baloo
+extragear/multimedia/kamoso: frameworks/kwidgetsaddons
+extragear/multimedia/kamoso: frameworks/kconfig
+extragear/multimedia/kamoso: frameworks/kconfigwidgets
+extragear/multimedia/kamoso: frameworks/kdoctools
+extragear/multimedia/kamoso: frameworks/solid
+extragear/multimedia/kamoso: frameworks/kio
+extragear/multimedia/kamoso: frameworks/kdeclarative
+extragear/multimedia/kamoso: frameworks/ki18n
+extragear/multimedia/kamoso: playground/libs/purpose
+extragear/multimedia/kaudiocreator: kde/kdemultimedia/libkcddb
+extragear/multimedia/kaudiocreator: kde/kdemultimedia/libkcompactdisc
+extragear/multimedia/kmplayer: frameworks/kconfig
+extragear/multimedia/kmplayer: frameworks/kcoreaddons
+extragear/multimedia/kmplayer: frameworks/kdoctools
+extragear/multimedia/kmplayer: frameworks/kinit
+extragear/multimedia/kmplayer: frameworks/ki18n
+extragear/multimedia/kmplayer: frameworks/kdelibs4support
+extragear/multimedia/kmplayer: frameworks/kmediaplayer
+extragear/multimedia/kmplayer: frameworks/kparts
+extragear/multimedia/kmplayer: frameworks/kwidgetsaddons
+extragear/multimedia/kmplayer: kdesupport/phonon/phonon
+
+# Extragear Network
+extragear/network/kio-gdrive: frameworks/ki18n
+extragear/network/kio-gdrive: frameworks/kio
+extragear/network/kio-gdrive: kde/pim/libkgapi
+extragear/network/kio-gdrive: kde/kdenetwork/kaccounts-integration
+extragear/network/kio-gopher: frameworks/kio
+extragear/network/konversation: kdesupport/qca
+extragear/network/choqok: kdesupport/qca
+extragear/network/libktorrent: kdesupport/qca
+extragear/network/ktorrent: extragear/network/libktorrent
+extragear/network/ktorrent: kde/pim/syndication
+
+# Extragear Office
+extragear/office/kmymoney: extragear/graphics/kdiagram
+extragear/office/kmymoney: extragear/office/alkimia
+extragear/office/kmymoney: kde/pim/kholidays
+extragear/office/kmymoney: kde/pim/kidentitymanagement
+extragear/office/kmymoney: kde/pim/kcontacts
+extragear/office/kmymoney: frameworks/kactivities
+extragear/office/kmymoney: kde/pim/akonadi
+extragear/office/skrooge: frameworks/kactivities
+extragear/office/skrooge: kdesupport/qca
+extragear/office/skrooge: frameworks/krunner
+extragear/office/tellico: frameworks/kfilemetadata
+extragear/office/tellico: kde/kdegraphics/libs/libksane
+extragear/office/tellico: kde/kdemultimedia/libkcddb
+extragear/office/alkimia: -frameworks/kf5umbrella
+extragear/office/kile: kde/kdegraphics/okular
+extragear/office/kbibtex: kdesupport/qca
+extragear/office/kbibtex: frameworks/kcompletion
+extragear/office/kbibtex: frameworks/kcoreaddons
+extragear/office/kbibtex: frameworks/kcrash
+extragear/office/kbibtex: frameworks/ki18n
+extragear/office/kbibtex: frameworks/kiconthemes
+extragear/office/kbibtex: frameworks/kio
+extragear/office/kbibtex: frameworks/kitemviews
+extragear/office/kbibtex: frameworks/kparts
+extragear/office/kbibtex: frameworks/kservice
+extragear/office/kbibtex: frameworks/kwallet
+extragear/office/kbibtex: frameworks/kxmlgui
 
 # Extragear SDK
 extragear/sdk/plasma-sdk: frameworks/kf5umbrella
@@ -1759,32 +1890,12 @@ extragear/sysadmin/partitionmanager: frameworks/kxmlgui
 extragear/sysadmin/partitionmanager: frameworks/kwidgetsaddons
 extragear/sysadmin/apper: kde/workspace/plasma-workspace
 
-# Extragear Multimedia
-extragear/multimedia/plasma-mediacenter: frameworks/plasma-framework
-extragear/multimedia/plasma-mediacenter: frameworks/baloo
-extragear/multimedia/kamoso: frameworks/kwidgetsaddons
-extragear/multimedia/kamoso: frameworks/kconfig
-extragear/multimedia/kamoso: frameworks/kconfigwidgets
-extragear/multimedia/kamoso: frameworks/kdoctools
-extragear/multimedia/kamoso: frameworks/solid
-extragear/multimedia/kamoso: frameworks/kio
-extragear/multimedia/kamoso: frameworks/kdeclarative
-extragear/multimedia/kamoso: frameworks/ki18n
-extragear/multimedia/kamoso: playground/libs/purpose
-extragear/multimedia/kaudiocreator: kde/kdemultimedia/libkcddb
-extragear/multimedia/kaudiocreator: kde/kdemultimedia/libkcompactdisc
-extragear/multimedia/kmplayer: frameworks/kconfig
-extragear/multimedia/kmplayer: frameworks/kcoreaddons
-extragear/multimedia/kmplayer: frameworks/kdoctools
-extragear/multimedia/kmplayer: frameworks/kinit
-extragear/multimedia/kmplayer: frameworks/ki18n
-extragear/multimedia/kmplayer: frameworks/kdelibs4support
-extragear/multimedia/kmplayer: frameworks/kmediaplayer
-extragear/multimedia/kmplayer: frameworks/kparts
-extragear/multimedia/kmplayer: frameworks/kwidgetsaddons
-extragear/multimedia/kmplayer: kdesupport/phonon/phonon
+# Extragear Utils
+extragear/utils/yakuake: kde/applications/konsole
 
-# KDevelop
+### KDevelop ###
+
+# KDevelop main application
 extragear/kdevelop/kdevelop: general/grantlee
 extragear/kdevelop/kdevelop: frameworks/krunner
 extragear/kdevelop/kdevelop: kde/kdenetwork/kio-extras
@@ -1792,121 +1903,20 @@ extragear/kdevelop/kdevelop: kde/kdesdk/libkomparediff2
 extragear/kdevelop/kdevelop: kde/kdesdk/okteta
 extragear/kdevelop/kdevelop: kde/workspace/libksysguard
 extragear/kdevelop/kdevelop: extragear/kdevelop/utilities/kdevelop-pg-qt
+
+# KDevelop plugins - general dependency
 extragear/kdevelop/plugins/*: extragear/kdevelop/kdevelop
+
+# Playground plugins for KDevelop
 playground/devtools/plugins/*: extragear/kdevelop/kdevelop
+
+# Other Playground components for KDevelop
 playground/devtools/kdev-*: extragear/kdevelop/kdevelop
 playground/devtools/kdev-xdebug: playground/devtools/kdev-executebrowser
 
-# Extragear Network
-extragear/network/kio-gdrive: frameworks/ki18n
-extragear/network/kio-gdrive: frameworks/kio
-extragear/network/kio-gdrive: kde/pim/libkgapi
-extragear/network/kio-gdrive: kde/kdenetwork/kaccounts-integration
-extragear/network/kio-gopher: frameworks/kio
-extragear/network/konversation: kdesupport/qca
-extragear/network/choqok: kdesupport/qca
-extragear/network/libktorrent: kdesupport/qca
-extragear/network/ktorrent: extragear/network/libktorrent
-extragear/network/ktorrent: kde/pim/syndication
+### Calligra ###
 
-# Extragear Base
-extragear/base/plasma-mobile: frameworks/kwayland
-extragear/base/wacomtablet: frameworks/kconfig
-extragear/base/wacomtablet: frameworks/kcoreaddons
-extragear/base/wacomtablet: frameworks/kdbusaddons
-extragear/base/wacomtablet: frameworks/kdoctools
-extragear/base/wacomtablet: frameworks/kglobalaccel
-extragear/base/wacomtablet: frameworks/ki18n
-extragear/base/wacomtablet: frameworks/knotifications
-extragear/base/wacomtablet: frameworks/plasma-frameworks
-extragear/base/wacomtablet: frameworks/kwidgetsaddons
-extragear/base/wacomtablet: frameworks/kwindowsystem
-extragear/base/wacomtablet: frameworks/kxmlgui
-
-# Extragear Office
-extragear/office/kmymoney: extragear/graphics/kdiagram
-extragear/office/kmymoney: extragear/office/alkimia
-extragear/office/kmymoney: kde/pim/kholidays
-extragear/office/kmymoney: kde/pim/kidentitymanagement
-extragear/office/kmymoney: kde/pim/kcontacts
-extragear/office/kmymoney: frameworks/kactivities
-extragear/office/kmymoney: kde/pim/akonadi
-extragear/office/skrooge: frameworks/kactivities
-extragear/office/skrooge: kdesupport/qca
-extragear/office/skrooge: frameworks/krunner
-extragear/office/tellico: frameworks/kfilemetadata
-extragear/office/tellico: kde/kdegraphics/libs/libksane
-extragear/office/tellico: kde/kdemultimedia/libkcddb
-extragear/office/alkimia: -frameworks/kf5umbrella
-extragear/office/kile: kde/kdegraphics/okular
-extragear/office/kbibtex: kdesupport/qca
-extragear/office/kbibtex: frameworks/kcompletion
-extragear/office/kbibtex: frameworks/kcoreaddons
-extragear/office/kbibtex: frameworks/kcrash
-extragear/office/kbibtex: frameworks/ki18n
-extragear/office/kbibtex: frameworks/kiconthemes
-extragear/office/kbibtex: frameworks/kio
-extragear/office/kbibtex: frameworks/kitemviews
-extragear/office/kbibtex: frameworks/kparts
-extragear/office/kbibtex: frameworks/kservice
-extragear/office/kbibtex: frameworks/kwallet
-extragear/office/kbibtex: frameworks/kxmlgui
-
-# Extragear Utils
-extragear/utils/yakuake: kde/applications/konsole
-
-# Extragear Graphics
-extragear/graphics/kipi-plugins: kde/kdegraphics/libs/libkipi
-extragear/graphics/kipi-plugins/kipi-plugins-doc: extragear/graphics/kipi-plugins
-extragear/graphics/skanlite: kde/kdegraphics/libs/libksane
-extragear/graphics/kphotoalbum: kde/kdeedu/marble
-extragear/graphics/kphotoalbum: kde/kdegraphics/libs/libkdcraw
-extragear/graphics/kphotoalbum: kde/kdegraphics/libs/libkexiv2
-extragear/graphics/kphotoalbum: kde/kdegraphics/libs/libkface
-extragear/graphics/kphotoalbum: kde/kdegraphics/libs/libkgeomap
-extragear/graphics/kphotoalbum: kde/kdegraphics/libs/libkipi
-extragear/graphics/kgraphviewer: frameworks/kcoreaddons
-extragear/graphics/kgraphviewer: frameworks/kdoctools
-extragear/graphics/kgraphviewer: frameworks/kparts
-extragear/graphics/kgraphviewer: frameworks/kio
-extragear/graphics/kgraphviewer: frameworks/kwidgetsaddons
-extragear/graphics/kgraphviewer: frameworks/kiconthemes
-extragear/graphics/digikam: kde/kdegraphics/libs/libkipi
-extragear/graphics/digikam: kde/kdegraphics/libs/libksane
-extragear/graphics/digikam: kde/kdeedu/marble
-extragear/graphics/digikam: frameworks/kfilemetadata
-extragear/graphics/digikam: kde/pim/akonadi-contacts
-extragear/graphics/digikam: kde/pim/akonadi # I believe this is it wants for akonadi contacts
-extragear/graphics/digikam/digikam-doc: extragear/graphics/digikam
-
-extragear/graphics/ksnapshot: frameworks/kconfig
-extragear/graphics/ksnapshot: frameworks/kconfigwidgets
-extragear/graphics/ksnapshot: frameworks/kcoreaddons
-extragear/graphics/ksnapshot: frameworks/kdoctools
-extragear/graphics/ksnapshot: frameworks/kguiaddons
-extragear/graphics/ksnapshot: frameworks/ki18n
-extragear/graphics/ksnapshot: frameworks/kio
-extragear/graphics/ksnapshot: frameworks/kservice
-extragear/graphics/ksnapshot: frameworks/kwindowsystem
-extragear/graphics/ksnapshot: frameworks/kxmlgui
-extragear/graphics/ksnapshot: frameworks/kdbusaddons
-extragear/graphics/ksnapshot: frameworks/kparts
-
-# Krita
-extragear/graphics/krita: frameworks/karchive
-extragear/graphics/krita: frameworks/kconfig
-extragear/graphics/krita: frameworks/kwidgetsaddons
-extragear/graphics/krita: frameworks/kcompletion
-extragear/graphics/krita: frameworks/kcoreaddons
-extragear/graphics/krita: frameworks/kguiaddons
-extragear/graphics/krita: frameworks/ki18n
-extragear/graphics/krita: frameworks/kitemmodels
-extragear/graphics/krita: frameworks/kitemviews
-extragear/graphics/krita: frameworks/kwindowsystem
-extragear/graphics/krita: frameworks/kio
-extragear/graphics/krita: frameworks/kcrash
-
-# Calligra
+# Calligra - Main Suite
 calligra/calligra: frameworks/kf5umbrella
 calligra/calligra: kdesupport/qca
 calligra/calligra: kdesupport/phonon/phonon
@@ -1927,6 +1937,8 @@ calligra/kexi: extragear/libs/kdb
 calligra/kexi: extragear/libs/kproperty
 calligra/kexi: extragear/libs/kreport
 calligra/kexi: kde/kdeedu/marble
+
+### Playground ###
 
 # Playground Base
 kde/workspace/kde-gtk-config: frameworks/ki18n
