@@ -1430,7 +1430,7 @@
             "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": "2.1"
+            "stable-kf5-qt5": "2.2"
         },
         "extragear/sysadmin/partitionmanager": {
             "stable-qt4": "",
