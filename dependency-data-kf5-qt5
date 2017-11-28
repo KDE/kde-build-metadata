@@ -1161,8 +1161,9 @@ calligra/calligra: kde/pim/akonadi-contacts
 calligra/calligra: kde/kdeedu/marble
 calligra/calligra: kde/kdegraphics/okular
 calligra/calligra: extragear/graphics/kdiagram
-calligra/calligra: extragear/libs/kproperty
-calligra/calligra: extragear/libs/kreport
+calligra/calligra: kde/pim/kholidays
+#calligra/calligra: extragear/libs/kproperty
+#calligra/calligra: extragear/libs/kreport
 
 # Kexi
 calligra/kexi: extragear/libs/kdb
