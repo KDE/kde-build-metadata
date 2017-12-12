@@ -1143,11 +1143,8 @@ extragear/kdevelop/kdevelop: extragear/kdevelop/utilities/kdevelop-pg-qt
 extragear/kdevelop/plugins/*: extragear/kdevelop/kdevelop
 
 # Playground plugins for KDevelop
-playground/devtools/plugins/*: extragear/kdevelop/kdevelop
-
-# Other Playground components for KDevelop
-playground/devtools/kdev-*: extragear/kdevelop/kdevelop
-playground/devtools/kdev-xdebug: playground/devtools/kdev-executebrowser
+playground/devtools/plugins/kdev-*: extragear/kdevelop/kdevelop
+playground/devtools/plugins/kdev-xdebug: playground/devtools/plugins/kdev-executebrowser
 
 ### Calligra ###
 

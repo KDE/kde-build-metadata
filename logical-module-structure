@@ -1150,25 +1150,25 @@
             "kf5-qt5": "master",
             "stable-kf5-qt5": "5.2"
         },
-        "playground/devtools/kdev-clang-tidy": {
+        "playground/devtools/plugins/kdev-clang-tidy": {
             "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         },
-        "playground/devtools/kdev-executebrowser": {
+        "playground/devtools/plugins/kdev-executebrowser": {
             "stable-qt4": "1.7",
             "latest-qt4": "1.7",
             "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         },
-        "playground/devtools/kdev-upload": {
+        "playground/devtools/plugins/kdev-upload": {
             "stable-qt4": "1.7",
             "latest-qt4": "1.7",
             "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         },
-        "playground/devtools/kdev-xdebug": {
+        "playground/devtools/plugins/kdev-xdebug": {
             "stable-qt4": "1.7",
             "latest-qt4": "1.7",
             "kf5-qt5": "master",

@@ -309,10 +309,9 @@ extragear/kdevelop/kdevelop: kde/kdesdk/okteta
 extragear/kdevelop/plugins/kdev-php: extragear/kdevelop/kdevplatform
 extragear/kdevelop/plugins/kdev-php: extragear/kdevelop/utilities/kdevelop-pg-qt
 extragear/kdevelop/plugins/kdev-python: extragear/kdevelop/kdevelop
-playground/devtools/plugins/*: extragear/kdevelop/kdevplatform
+playground/devtools/plugins/kdev-*: extragear/kdevelop/kdevplatform
 playground/devtools/plugins/kdev-css: extragear/kdevelop/utilities/kdevelop-pg-qt
 playground/devtools/plugins/kdev-go: extragear/kdevelop/utilities/kdevelop-pg-qt
-playground/devtools/kdev-*: extragear/kdevelop/kdevplatform
 
 # extragear/network
 extragear/network/konversation: kde/kdelibs
@@ -442,7 +441,7 @@ playground/edu/artikulate: kde/kdelibs
 # Playground KDevelop
 playground/devtools/*: kde/kdelibs
 playground/devtools/*: kde/applications/kate
-playground/devtools/kdev-xdebug: playground/devtools/kdev-executebrowser
+playground/devtools/plugins/kdev-xdebug: playground/devtools/plugins/kdev-executebrowser
 
 # Playground KTechLab
 playground/devtools/ktechlab: kde/kdelibs
