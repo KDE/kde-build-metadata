@@ -972,6 +972,13 @@ kde/kdeedu/kwordquiz: kde/kdeedu/libkeduvocdocument
 # Marble
 kde/kdeedu/marble: kdesupport/phonon/phonon
 
+# Minuet
+kde/kdeedu/minuet: -frameworks/kf5umbrella
+kde/kdeedu/minuet: frameworks/kcoreaddons
+kde/kdeedu/minuet: frameworks/ki18n
+kde/kdeedu/minuet: frameworks/kcrash
+kde/kdeedu/minuet: frameworks/kdoctools
+
 # KDE Network!
 # KGet
 kde/kdenetwork/kget: kdesupport/qca
