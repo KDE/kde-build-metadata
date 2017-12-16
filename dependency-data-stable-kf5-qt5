@@ -1037,7 +1037,6 @@ kde/pim/mailcommon: kde/pim/messagelib
 kde/pim/mailcommon: kde/pim/kdepim-apps-libs
 
 kde/pim/messagelib: kde/pim/kdepim-apps-libs
-kde/pim/messagelib: kde/pim/incidenceeditor
 kde/pim/messagelib: general/grantlee
 kde/pim/messagelib: kde/pim/grantleetheme
 kde/pim/messagelib: kde/pim/libgravatar
@@ -1076,8 +1075,6 @@ kde/pim/kmail: kde/pim/mailimporter
 kde/pim/kmail: kde/pim/mailcommon
 
 #kaddressbook
-kde/pim/kaddressbook: kde/pim/messagelib
-kde/pim/kaddressbook: kde/pim/eventviews
 kde/pim/kaddressbook: kde/pim/grantleetheme
 kde/pim/kaddressbook: kde/pim/libkdepim
 kde/pim/kaddressbook: kde/pim/pimcommon
@@ -1088,7 +1085,6 @@ kde/pim/kaddressbook: kde/pim/akonadi-contacts
 kde/pim/kaddressbook: kde/pim/akonadi-mime
 kde/pim/kaddressbook: kde/pim/akonadi-search
 kde/pim/kaddressbook: kde/pim/libgravatar
-kde/pim/kaddressbook: kde/pim/mailcommon
 
 #knotes
 kde/pim/knotes: kde/pim/libkdepim
@@ -1098,7 +1094,6 @@ kde/pim/knotes: kde/pim/kontactinterface
 kde/pim/knotes: kde/pim/akonadi-notes
 kde/pim/knotes: kde/pim/akonadi-mime
 kde/pim/knotes: kde/pim/akonadi-search
-kde/pim/knotes: kde/pim/mailcommon
 
 #akonadiconsole
 kde/pim/akonadiconsole: kde/pim/messagelib
@@ -1112,7 +1107,6 @@ kde/pim/akonadiconsole: kde/pim/akonadi-notes
 kde/pim/akonadiconsole: kde/pim/akonadi-mime
 kde/pim/akonadiconsole: kde/pim/akonadi-calendar
 kde/pim/akonadiconsole: kde/pim/akonadi-search
-kde/pim/akonadiconsole: kde/pim/mailcommon
 
 #korganizer
 kde/pim/korganizer: kde/pim/eventviews
@@ -1126,7 +1120,6 @@ kde/pim/korganizer: kde/pim/akonadi-calendar
 kde/pim/korganizer: kde/pim/akonadi-search
 kde/pim/korganizer: kde/pim/kmailtransport
 kde/pim/korganizer: kde/pim/akonadi-notes
-kde/pim/korganizer: kde/pim/mailcommon
 
 #akregator
 kde/pim/akregator: kde/pim/messagelib
@@ -1152,7 +1145,6 @@ kde/pim/pim-sieve-editor: kde/pim/messagelib
 
 #kmail-account-wizard
 kde/pim/kmail-account-wizard: kde/pim/pimcommon
-kde/pim/kmail-account-wizard: kde/pim/mailcommon
 
 #pim-data-exporter
 kde/pim/pim-data-exporter: kde/pim/pimcommon
@@ -1172,7 +1164,6 @@ kde/pim/grantlee-editor: frameworks/syntax-highlighting
 #kontact
 kde/pim/kontact: kde/pim/pimcommon
 kde/pim/kontact: kde/pim/kontactinterface
-kde/pim/kontact: kde/pim/mailcommon 
 
 #pim-storage-service-manager
 kde/pim/pim-storage-service-manager: kde/pim/pimcommon
@@ -1182,8 +1173,12 @@ kde/pim/akonadi-import-wizard: kde/pim/pimcommon
 kde/pim/akonadi-import-wizard: kde/pim/mailcommon
 
 #akonadi-calendar-tools
-kde/pim/akonadi-calendar-tools: kde/pim/akonadi
-kde/pim/akonadi-calendar-tools: kde/pim/kontact
+kde/pim/akonadi-calendar-tools: frameworks/kdelibs4support
+kde/pim/akonadi-calendar-tools: kde/pim/akonadi-calendar
+kde/pim/akonadi-calendar-tools: kde/pim/calendarsupport
+kde/pim/akonadi-calendar-tools: kde/pim/kcalcore
+kde/pim/akonadi-calendar-tools: kde/pim/kcalutils
+kde/pim/akonadi-calendar-tools: kde/pim/libkdepim
 
 kde/kdepim-runtime: kde/pim/akonadi
 kde/kdepim-runtime: kde/pim/akonadi-contacts
