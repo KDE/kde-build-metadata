@@ -1164,9 +1164,7 @@ kde/pim/grantlee-editor: frameworks/syntax-highlighting
 #kontact
 kde/pim/kontact: kde/pim/pimcommon
 kde/pim/kontact: kde/pim/kontactinterface
-
-#pim-storage-service-manager
-kde/pim/pim-storage-service-manager: kde/pim/pimcommon
+kde/pim/kontact: kde/pim/grantleetheme
 
 #akonadi-import-wizard
 kde/pim/akonadi-import-wizard: kde/pim/pimcommon

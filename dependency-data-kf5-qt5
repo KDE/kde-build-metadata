@@ -781,9 +781,7 @@ kde/pim/grantlee-editor: kde/pim/messagelib
 # Kontact
 kde/pim/kontact: kde/pim/pimcommon
 kde/pim/kontact: kde/pim/kontactinterface
-
-# PIM storage service manager
-kde/pim/pim-storage-service-manager: kde/pim/pimcommon
+kde/pim/kontact: kde/pim/grantleetheme
 
 # Akonadi Import Wizard
 kde/pim/akonadi-import-wizard: kde/pim/pimcommon
