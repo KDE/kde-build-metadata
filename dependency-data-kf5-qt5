@@ -782,6 +782,7 @@ kde/pim/grantlee-editor: kde/pim/messagelib
 kde/pim/kontact: kde/pim/pimcommon
 kde/pim/kontact: kde/pim/kontactinterface
 kde/pim/kontact: kde/pim/grantleetheme
+kde/pim/kontact: kde/pim/kdepim-apps-libs
 
 # Akonadi Import Wizard
 kde/pim/akonadi-import-wizard: kde/pim/pimcommon

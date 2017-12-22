@@ -1165,6 +1165,7 @@ kde/pim/grantlee-editor: frameworks/syntax-highlighting
 kde/pim/kontact: kde/pim/pimcommon
 kde/pim/kontact: kde/pim/kontactinterface
 kde/pim/kontact: kde/pim/grantleetheme
+kde/pim/kontact: kde/pim/kdepim-apps-libs
 
 #akonadi-import-wizard
 kde/pim/akonadi-import-wizard: kde/pim/pimcommon
