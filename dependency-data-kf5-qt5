@@ -662,7 +662,7 @@ kde/pim/messagelib: kde/pim/kdepim-apps-libs
 kde/pim/messagelib: kde/pim/grantleetheme
 kde/pim/messagelib: kde/pim/libgravatar
 kde/pim/messagelib: kde/pim/libkleo
-kde/pim/messagelib: kde/kdepim-runtime #needed for unit tests
+kde/pim/messagelib: kde/pim/kdepim-runtime #needed for unit tests
 kde/pim/messagelib: kde/pim/akonadi-notes
 kde/pim/messagelib: kde/pim/akonadi-mime
 kde/pim/messagelib: kde/pim/akonadi-search
@@ -797,24 +797,24 @@ kde/pim/akonadi-calendar-tools: kde/pim/kcalutils
 kde/pim/akonadi-calendar-tools: kde/pim/libkdepim
 
 # PIM Runtime Components
-kde/kdepim-runtime: kde/pim/akonadi
-kde/kdepim-runtime: kde/pim/akonadi-contacts
-kde/kdepim-runtime: kde/pim/akonadi-notes
-kde/kdepim-runtime: kde/pim/akonadi-mime
-kde/kdepim-runtime: kde/pim/akonadi-calendar
-kde/kdepim-runtime: kde/pim/kmime
-kde/kdepim-runtime: kde/pim/kmailtransport
-kde/kdepim-runtime: kde/pim/kidentitymanagement
-kde/kdepim-runtime: kde/pim/kcontacts
-kde/kdepim-runtime: kde/pim/kalarmcal
-kde/kdepim-runtime: kde/pim/kcalcore
-kde/kdepim-runtime: kde/pim/kcalutils
-kde/kdepim-runtime: kde/pim/kdav
-kde/kdepim-runtime: kde/pim/kmbox
-kde/kdepim-runtime: kde/pim/kimap
-kde/kdepim-runtime: kde/pim/syndication
-kde/kdepim-runtime: kde/pim/pimcommon
-kde/kdepim-runtime: kde/pim/libkgapi
+kde/pim/kdepim-runtime: kde/pim/akonadi
+kde/pim/kdepim-runtime: kde/pim/akonadi-contacts
+kde/pim/kdepim-runtime: kde/pim/akonadi-notes
+kde/pim/kdepim-runtime: kde/pim/akonadi-mime
+kde/pim/kdepim-runtime: kde/pim/akonadi-calendar
+kde/pim/kdepim-runtime: kde/pim/kmime
+kde/pim/kdepim-runtime: kde/pim/kmailtransport
+kde/pim/kdepim-runtime: kde/pim/kidentitymanagement
+kde/pim/kdepim-runtime: kde/pim/kcontacts
+kde/pim/kdepim-runtime: kde/pim/kalarmcal
+kde/pim/kdepim-runtime: kde/pim/kcalcore
+kde/pim/kdepim-runtime: kde/pim/kcalutils
+kde/pim/kdepim-runtime: kde/pim/kdav
+kde/pim/kdepim-runtime: kde/pim/kmbox
+kde/pim/kdepim-runtime: kde/pim/kimap
+kde/pim/kdepim-runtime: kde/pim/syndication
+kde/pim/kdepim-runtime: kde/pim/pimcommon
+kde/pim/kdepim-runtime: kde/pim/libkgapi
 
 # PIM Addons
 kde/pim/kdepim-addons: kde/pim/messagelib
@@ -1119,7 +1119,7 @@ extragear/pim/zanshin: kde/pim/akonadi-search
 extragear/pim/zanshin: kde/pim/kldap
 extragear/pim/zanshin: kde/pim/kidentitymanagement
 extragear/pim/zanshin: kde/pim/kontactinterface
-extragear/pim/zanshin: kde/kdepim-runtime
+extragear/pim/zanshin: kde/pim/kdepim-runtime
 
 # Extragear SDK
 extragear/sdk/plasma-sdk: kde/workspace/plasma-workspace
