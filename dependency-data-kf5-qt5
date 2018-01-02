@@ -500,6 +500,7 @@ kde/kdeutils/kgpg: kde/pim/akonadi-contacts
 
 # KDE PIM!
 # Akonadi Calendar
+kde/pim/akonadi-calendar: kde/pim/akonadi
 kde/pim/akonadi-calendar: kde/pim/akonadi-contacts
 kde/pim/akonadi-calendar: kde/pim/kcalcore
 kde/pim/akonadi-calendar: kde/pim/kcalutils
@@ -508,18 +509,15 @@ kde/pim/akonadi-calendar: kde/pim/kidentitymanagement
 kde/pim/akonadi-calendar: kde/pim/kmailtransport
 
 # Akonadi Search
+kde/pim/akonadi-search: kde/pim/akonadi
 kde/pim/akonadi-search: kde/pim/akonadi-mime
 kde/pim/akonadi-search: kde/pim/kcalcore
-kde/pim/akonadi-search: kde/pim/kcalutils
 kde/pim/akonadi-search: kde/pim/kcontacts
-kde/pim/akonadi-search: kde/pim/kidentitymanagement
-kde/pim/akonadi-search: kde/pim/kmailtransport
 kde/pim/akonadi-search: kde/pim/kmime
 
 # Akonadi Contacts
 kde/pim/akonadi-contacts: kde/pim/akonadi
 kde/pim/akonadi-contacts: kde/pim/akonadi-mime
-kde/pim/akonadi-contacts: kde/pim/kcalcore
 kde/pim/akonadi-contacts: kde/pim/kcontacts
 kde/pim/akonadi-contacts: kde/pim/kmime
 kde/pim/akonadi-contacts: kdesupport/prison
@@ -534,10 +532,6 @@ kde/pim/akonadi-mime: kde/pim/kmime
 
 # KIMAP
 kde/pim/kimap: kde/pim/kmime
-
-# KLDAP
-kde/pim/kldap: kde/pim/kcontacts
-kde/pim/kldap: kde/pim/kmbox
 
 # KAlarm Calendar Support
 kde/pim/kalarmcal: kde/pim/akonadi
@@ -576,7 +570,6 @@ kde/pim/libgravatar: kde/pim/pimcommon
 # KDE PIM Common Components
 kde/pim/pimcommon: kde/pim/akonadi
 kde/pim/pimcommon: kde/pim/akonadi-contacts
-kde/pim/pimcommon: kde/pim/akonadi-mime
 kde/pim/pimcommon: kde/pim/kcontacts
 kde/pim/pimcommon: kde/pim/kimap
 kde/pim/pimcommon: kde/pim/kmime
@@ -591,10 +584,12 @@ kde/pim/mailimporter: kde/pim/libkdepim
 
 # Event Views
 kde/pim/eventviews: extragear/graphics/kdiagram
+kde/pim/eventviews: kde/pim/akonadi
+kde/pim/eventviews: kde/pim/akonadi-calendar
 kde/pim/eventviews: kde/pim/calendarsupport
 kde/pim/eventviews: kde/pim/kcalcore
 kde/pim/eventviews: kde/pim/kcalutils
-kde/pim/eventviews: kde/pim/kidentitymanagement
+kde/pim/eventviews: kde/pim/kmime
 kde/pim/eventviews: kde/pim/libkdepim
 
 # Kleopatra Libraries
@@ -605,13 +600,15 @@ kde/pim/kleopatra: kde/pim/kmime
 kde/pim/kleopatra: kde/pim/libkleo
 
 # General PIM libraries
+kde/pim/libkdepim: kde/pim/akonadi
 kde/pim/libkdepim: kde/pim/akonadi-contacts
 kde/pim/libkdepim: kde/pim/akonadi-search
+kde/pim/libkdepim: kde/pim/kcontacts
 kde/pim/libkdepim: kde/pim/kldap
 
 # Sieve handling libraries
-kde/pim/libksieve: kde/pim/akonadi
 kde/pim/libksieve: kde/pim/kidentitymanagement
+kde/pim/libksieve: kde/pim/kimap
 kde/pim/libksieve: kde/pim/kmailtransport
 kde/pim/libksieve: kde/pim/kmime
 kde/pim/libksieve: kde/pim/kpimtextedit
@@ -619,6 +616,7 @@ kde/pim/libksieve: kde/pim/libkdepim
 kde/pim/libksieve: kde/pim/pimcommon
 
 # Calendar Support
+kde/pim/calendarsupport: kde/pim/akonadi
 kde/pim/calendarsupport: kde/pim/akonadi-calendar
 kde/pim/calendarsupport: kde/pim/akonadi-mime
 kde/pim/calendarsupport: kde/pim/kcalcore
@@ -626,170 +624,244 @@ kde/pim/calendarsupport: kde/pim/kcalutils
 kde/pim/calendarsupport: kde/pim/kdepim-apps-libs
 kde/pim/calendarsupport: kde/pim/kholidays
 kde/pim/calendarsupport: kde/pim/kidentitymanagement
+kde/pim/calendarsupport: kde/pim/kimap
 kde/pim/calendarsupport: kde/pim/kmime
 kde/pim/calendarsupport: kde/pim/pimcommon
 
 # Incidence Editor
 kde/pim/incidenceeditor: extragear/graphics/kdiagram
+kde/pim/incidenceeditor: kde/pim/akonadi
 kde/pim/incidenceeditor: kde/pim/akonadi-mime
 kde/pim/incidenceeditor: kde/pim/calendarsupport
 kde/pim/incidenceeditor: kde/pim/eventviews
 kde/pim/incidenceeditor: kde/pim/kcalcore
 kde/pim/incidenceeditor: kde/pim/kcalutils
+kde/pim/incidenceeditor: kde/pim/kdepim-apps-libs
 kde/pim/incidenceeditor: kde/pim/kldap
 kde/pim/incidenceeditor: kde/pim/kmailtransport
 kde/pim/incidenceeditor: kde/pim/kmime
 kde/pim/incidenceeditor: kde/pim/libkdepim
 
 # PIM Application Libraries
+kde/pim/kdepim-apps-libs: kde/pim/akonadi
 kde/pim/kdepim-apps-libs: kde/pim/akonadi-contacts
 kde/pim/kdepim-apps-libs: kde/pim/grantleetheme
 kde/pim/kdepim-apps-libs: kde/pim/kcontacts
-kde/pim/kdepim-apps-libs: kde/pim/kmime
-kde/pim/kdepim-apps-libs: kde/pim/kpimtextedit
 kde/pim/kdepim-apps-libs: kde/pim/libkleo
 kde/pim/kdepim-apps-libs: kde/pim/pimcommon
 
 # Common mail handling libraries
-kde/pim/mailcommon: kde/pim/kdepim-apps-libs
-kde/pim/mailcommon: kde/pim/kldap
+kde/pim/mailcommon: kde/pim/akonadi
+kde/pim/mailcommon: kde/pim/akonadi-mime
 kde/pim/mailcommon: kde/pim/kmailtransport
+kde/pim/mailcommon: kde/pim/kmime
+kde/pim/mailcommon: kde/pim/libkdepim
 kde/pim/mailcommon: kde/pim/mailimporter
 kde/pim/mailcommon: kde/pim/messagelib
+kde/pim/mailcommon: kde/pim/pimcommon
 
 # Message handling libraries
+kde/pim/messagelib: kde/pim/akonadi
+kde/pim/messagelib: kde/pim/akonadi-contacts
 kde/pim/messagelib: kde/pim/akonadi-mime
-kde/pim/messagelib: kde/pim/akonadi-notes
 kde/pim/messagelib: kde/pim/akonadi-search
 kde/pim/messagelib: kde/pim/grantleetheme
 kde/pim/messagelib: kde/pim/kcontacts
 kde/pim/messagelib: kde/pim/kdepim-apps-libs
 kde/pim/messagelib: kde/pim/kdepim-runtime #needed for unit tests
+kde/pim/messagelib: kde/pim/kidentitymanagement
 kde/pim/messagelib: kde/pim/kldap
+kde/pim/messagelib: kde/pim/kmailtransport
 kde/pim/messagelib: kde/pim/kmbox
+kde/pim/messagelib: kde/pim/kmime
+kde/pim/messagelib: kde/pim/kpimtextedit
 kde/pim/messagelib: kde/pim/libgravatar
+kde/pim/messagelib: kde/pim/libkdepim
 kde/pim/messagelib: kde/pim/libkleo
+kde/pim/messagelib: kde/pim/pimcommon
 
 # KMail
-kde/pim/kmail: kde/pim/akonadi-calendar
+kde/pim/kmail: kde/pim/akonadi
 kde/pim/kmail: kde/pim/akonadi-contacts
 kde/pim/kmail: kde/pim/akonadi-mime
-kde/pim/kmail: kde/pim/akonadi-notes
 kde/pim/kmail: kde/pim/akonadi-search
-kde/pim/kmail: kde/pim/calendarsupport
-kde/pim/kmail: kde/pim/grantleetheme
+kde/pim/kmail: kde/pim/kcalcore
+kde/pim/kmail: kde/pim/kcalutils
+kde/pim/kmail: kde/pim/kcontacts
 kde/pim/kmail: kde/pim/kdepim-apps-libs
+kde/pim/kmail: kde/pim/kidentitymanagement
+kde/pim/kmail: kde/pim/kldap
 kde/pim/kmail: kde/pim/kmailtransport
+kde/pim/kmail: kde/pim/kmime
 kde/pim/kmail: kde/pim/kontactinterface
+kde/pim/kmail: kde/pim/kpimtextedit
 kde/pim/kmail: kde/pim/ktnef
 kde/pim/kmail: kde/pim/libgravatar
 kde/pim/kmail: kde/pim/libkdepim
-kde/pim/kmail: kde/pim/libkgapi
 kde/pim/kmail: kde/pim/libkleo
 kde/pim/kmail: kde/pim/libksieve
 kde/pim/kmail: kde/pim/mailcommon
-kde/pim/kmail: kde/pim/mailimporter
 kde/pim/kmail: kde/pim/messagelib
 kde/pim/kmail: kde/pim/pimcommon
 
 # KAddressbook
-kde/pim/kaddressbook: kde/pim/akonadi-contacts
-kde/pim/kaddressbook: kde/pim/akonadi-mime
+kde/pim/kaddressbook: kde/pim/akonadi
 kde/pim/kaddressbook: kde/pim/akonadi-search
 kde/pim/kaddressbook: kde/pim/grantleetheme
 kde/pim/kaddressbook: kde/pim/kdepim-apps-libs
 kde/pim/kaddressbook: kde/pim/kontactinterface
-kde/pim/kaddressbook: kde/pim/libgravatar
+kde/pim/kaddressbook: kde/pim/kpimtextedit
 kde/pim/kaddressbook: kde/pim/libkdepim
 kde/pim/kaddressbook: kde/pim/libkleo
 kde/pim/kaddressbook: kde/pim/pimcommon
 
 # KNotes
-kde/pim/knotes: kde/pim/akonadi-mime
+kde/pim/knotes: kde/pim/akonadi
 kde/pim/knotes: kde/pim/akonadi-notes
 kde/pim/knotes: kde/pim/akonadi-search
-kde/pim/knotes: kde/pim/kdepim-apps-libs
+kde/pim/knotes: kde/pim/kcalutils
+kde/pim/knotes: kde/pim/kmime
 kde/pim/knotes: kde/pim/kontactinterface
+kde/pim/knotes: kde/pim/kpimtextedit
 kde/pim/knotes: kde/pim/libkdepim
 kde/pim/knotes: kde/pim/pimcommon
 
 # Akonadiconsole
-kde/pim/akonadiconsole: kde/pim/akonadi-calendar
+kde/pim/akonadiconsole: kde/pim/akonadi
 kde/pim/akonadiconsole: kde/pim/akonadi-contacts
 kde/pim/akonadiconsole: kde/pim/akonadi-mime
-kde/pim/akonadiconsole: kde/pim/akonadi-notes
 kde/pim/akonadiconsole: kde/pim/akonadi-search
 kde/pim/akonadiconsole: kde/pim/calendarsupport
-kde/pim/akonadiconsole: kde/pim/eventviews
-kde/pim/akonadiconsole: kde/pim/kdepim-apps-libs
+kde/pim/akonadiconsole: kde/pim/kcalcore
+kde/pim/akonadiconsole: kde/pim/kcontacts
+kde/pim/akonadiconsole: kde/pim/kimap
+kde/pim/akonadiconsole: kde/pim/kmime
+kde/pim/akonadiconsole: kde/pim/kpimtextedit
 kde/pim/akonadiconsole: kde/pim/libkdepim
+kde/pim/akonadiconsole: kde/pim/libkleo
 kde/pim/akonadiconsole: kde/pim/messagelib
-kde/pim/akonadiconsole: kde/pim/pimcommon
 
 # KOrganizer
 kde/pim/korganizer: extragear/graphics/kdiagram
+kde/pim/korganizer: kde/pim/akonadi
 kde/pim/korganizer: kde/pim/akonadi-calendar
+kde/pim/korganizer: kde/pim/akonadi-contacts
+kde/pim/korganizer: kde/pim/akonadi-mime
 kde/pim/korganizer: kde/pim/akonadi-notes
 kde/pim/korganizer: kde/pim/akonadi-search
 kde/pim/korganizer: kde/pim/calendarsupport
 kde/pim/korganizer: kde/pim/eventviews
 kde/pim/korganizer: kde/pim/incidenceeditor
+kde/pim/korganizer: kde/pim/kcalcore
+kde/pim/korganizer: kde/pim/kcalutils
+kde/pim/korganizer: kde/pim/kcontacts
 kde/pim/korganizer: kde/pim/kdepim-apps-libs
+kde/pim/korganizer: kde/pim/kholidays
+kde/pim/korganizer: kde/pim/kidentitymanagement
+kde/pim/korganizer: kde/pim/kldap
 kde/pim/korganizer: kde/pim/kmailtransport
+kde/pim/korganizer: kde/pim/kmime
 kde/pim/korganizer: kde/pim/kontactinterface
+kde/pim/korganizer: kde/pim/kpimtextedit
 kde/pim/korganizer: kde/pim/libkdepim
+kde/pim/korganizer: kde/pim/pimcommon
 
 # Akregator
-kde/pim/akregator: kde/pim/kdepim-apps-libs
+kde/pim/akregator: kde/pim/akonadi-mime
+kde/pim/akregator: kde/pim/grantleetheme
 kde/pim/akregator: kde/pim/kontactinterface
+kde/pim/akregator: kde/pim/kpimtextedit
 kde/pim/akregator: kde/pim/libkdepim
+kde/pim/akregator: kde/pim/libkleo
 kde/pim/akregator: kde/pim/messagelib
 kde/pim/akregator: kde/pim/pimcommon
 kde/pim/akregator: kde/pim/syndication
 
 # KAlarm
+kde/pim/kalarm: kde/pim/akonadi
+kde/pim/kalarm: kde/pim/akonadi-contacts
+kde/pim/kalarm: kde/pim/akonadi-mime
 kde/pim/kalarm: kde/pim/kalarmcal
+kde/pim/kalarm: kde/pim/kcalcore
+kde/pim/kalarm: kde/pim/kcalutils
 kde/pim/kalarm: kde/pim/kdepim-apps-libs
+kde/pim/kalarm: kde/pim/kholidays
+kde/pim/kalarm: kde/pim/kidentitymanagement
+kde/pim/kalarm: kde/pim/kimap
 kde/pim/kalarm: kde/pim/kmailtransport
+kde/pim/kalarm: kde/pim/kmime
+kde/pim/kalarm: kde/pim/kpimtextedit
 kde/pim/kalarm: kde/pim/libkdepim
 kde/pim/kalarm: kde/pim/mailcommon
 kde/pim/kalarm: kde/pim/pimcommon
 
 # Sieve Editor UI
-kde/pim/pim-sieve-editor: kde/pim/libkdepim
+kde/pim/pim-sieve-editor: kde/pim/kimap
+kde/pim/pim-sieve-editor: kde/pim/kmailtransport
+kde/pim/pim-sieve-editor: kde/pim/kpimtextedit
 kde/pim/pim-sieve-editor: kde/pim/libksieve
-kde/pim/pim-sieve-editor: kde/pim/messagelib
 kde/pim/pim-sieve-editor: kde/pim/pimcommon
 
 # KMail Account Wizard
+kde/pim/kmail-account-wizard: kde/pim/akonadi
+kde/pim/kmail-account-wizard: kde/pim/akonadi-mime
+kde/pim/kmail-account-wizard: kde/pim/kidentitymanagement
+kde/pim/kmail-account-wizard: kde/pim/kimap
+kde/pim/kmail-account-wizard: kde/pim/kldap
+kde/pim/kmail-account-wizard: kde/pim/kmailtransport
+kde/pim/kmail-account-wizard: kde/pim/libkdepim
+kde/pim/kmail-account-wizard: kde/pim/libkleo
 kde/pim/kmail-account-wizard: kde/pim/pimcommon
 
 # PIM Data Exporter
-kde/pim/pim-data-exporter: kde/pim/calendarsupport
-kde/pim/pim-data-exporter: kde/pim/kalarmcal
+kde/pim/pim-data-exporter: kde/pim/akonadi
+kde/pim/pim-data-exporter: kde/pim/kcontacts
+kde/pim/pim-data-exporter: kde/pim/kidentitymanagement
+kde/pim/pim-data-exporter: kde/pim/kmailtransport
+kde/pim/pim-data-exporter: kde/pim/kmime
+kde/pim/pim-data-exporter: kde/pim/kpimtextedit
+kde/pim/pim-data-exporter: kde/pim/libkdepim
 kde/pim/pim-data-exporter: kde/pim/mailcommon
 kde/pim/pim-data-exporter: kde/pim/pimcommon
 
 # MBox Importer
+kde/pim/mbox-importer: kde/pim/akonadi
 kde/pim/mbox-importer: kde/pim/mailcommon
+kde/pim/mbox-importer: kde/pim/mailimporter
 kde/pim/mbox-importer: kde/pim/pimcommon
 
 # Grantlee Editor
+kde/pim/grantlee-editor: kde/pim/akonadi-mime
+kde/pim/grantlee-editor: kde/pim/grantleetheme
+kde/pim/grantlee-editor: kde/pim/kdepim-apps-libs
+kde/pim/grantlee-editor: kde/pim/kimap
+kde/pim/grantlee-editor: kde/pim/kpimtextedit
+kde/pim/grantlee-editor: kde/pim/libkleo
 kde/pim/grantlee-editor: kde/pim/messagelib
 kde/pim/grantlee-editor: kde/pim/pimcommon
 
 # Kontact
+kde/pim/kontact: kde/pim/akonadi
 kde/pim/kontact: kde/pim/grantleetheme
 kde/pim/kontact: kde/pim/kdepim-apps-libs
 kde/pim/kontact: kde/pim/kontactinterface
-kde/pim/kontact: kde/pim/pimcommon
+kde/pim/kontact: kde/pim/kpimtextedit
+kde/pim/kontact: kde/pim/libkdepim
 
 # Akonadi Import Wizard
+kde/pim/akonadi-import-wizard: kde/pim/akonadi
+kde/pim/akonadi-import-wizard: kde/pim/kcontacts
+kde/pim/akonadi-import-wizard: kde/pim/kidentitymanagement
+kde/pim/akonadi-import-wizard: kde/pim/kmailtransport
+kde/pim/akonadi-import-wizard: kde/pim/libkdepim
 kde/pim/akonadi-import-wizard: kde/pim/mailcommon
+kde/pim/akonadi-import-wizard: kde/pim/mailimporter
+kde/pim/akonadi-import-wizard: kde/pim/messagelib
 kde/pim/akonadi-import-wizard: kde/pim/pimcommon
 
 # Akonadi Calendar Tools
 kde/pim/akonadi-calendar-tools: frameworks/kdelibs4support
+kde/pim/akonadi-calendar-tools: kde/pim/akonadi
 kde/pim/akonadi-calendar-tools: kde/pim/akonadi-calendar
 kde/pim/akonadi-calendar-tools: kde/pim/calendarsupport
 kde/pim/akonadi-calendar-tools: kde/pim/kcalcore
@@ -814,15 +886,23 @@ kde/pim/kdepim-runtime: kde/pim/kmbox
 kde/pim/kdepim-runtime: kde/pim/kmime
 kde/pim/kdepim-runtime: kde/pim/libkgapi
 kde/pim/kdepim-runtime: kde/pim/pimcommon
-kde/pim/kdepim-runtime: kde/pim/syndication
 
 # PIM Addons
+kde/pim/kdepim-addons: kde/pim/akonadi
 kde/pim/kdepim-addons: kde/pim/akonadi-calendar
+kde/pim/kdepim-addons: kde/pim/akonadi-contacts
 kde/pim/kdepim-addons: kde/pim/akonadi-import-wizard
+kde/pim/kdepim-addons: kde/pim/akonadi-notes
 kde/pim/kdepim-addons: kde/pim/calendarsupport
 kde/pim/kdepim-addons: kde/pim/eventviews
 kde/pim/kdepim-addons: kde/pim/grantleetheme
 kde/pim/kdepim-addons: kde/pim/incidenceeditor
+kde/pim/kdepim-addons: kde/pim/kcalutils
+kde/pim/kdepim-addons: kde/pim/kdepim-apps-libs
+kde/pim/kdepim-addons: kde/pim/kidentitymanagement
+kde/pim/kdepim-addons: kde/pim/kimap
+kde/pim/kdepim-addons: kde/pim/kmailtransport
+kde/pim/kdepim-addons: kde/pim/kpimtextedit
 kde/pim/kdepim-addons: kde/pim/ktnef
 kde/pim/kdepim-addons: kde/pim/libgravatar
 kde/pim/kdepim-addons: kde/pim/libkdepim
