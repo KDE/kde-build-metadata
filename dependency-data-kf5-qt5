@@ -686,7 +686,7 @@ kde/pim/kmail: kde/pim/akonadi-notes
 kde/pim/kmail: kde/pim/akonadi-mime
 kde/pim/kmail: kde/pim/akonadi-calendar
 kde/pim/kmail: kde/pim/akonadi-search
-kde/pim/kmail: extragear/libs/libkgapi
+kde/pim/kmail: kde/pim/libkgapi
 kde/pim/kmail: kde/pim/kmailtransport
 kde/pim/kmail: kde/pim/libgravatar
 kde/pim/kmail: kde/pim/mailimporter
@@ -835,6 +835,10 @@ kde/pim/kdepim-addons: kde/pim/mailimporter
 
 # KSmtp libraries
 kde/pim/ksmtp: kde/pim/kmime
+
+# Google API Libraries
+kde/pim/libkgapi: kde/pim/kcontacts
+kde/pim/libkgapi: kde/pim/kcalcore
 
 # KDE Games
 # General KDE Games Libraries
@@ -1033,7 +1037,7 @@ kde/kdenetwork/ktp-desktop-applets: kde/kdenetwork/ktp-common-internals
 # KAccounts Mobile Components
 kde/kdenetwork/kaccounts-mobile: kde/kdenetwork/kaccounts-integration
 kde/kdenetwork/kaccounts-mobile: kde/pim/kcontacts
-kde/kdenetwork/kaccounts-mobile: extragear/libs/libkgapi
+kde/kdenetwork/kaccounts-mobile: kde/pim/libkgapi
 
 # KAccounts Providers
 kde/kdenetwork/kaccounts-providers: kde/kdenetwork/kaccounts-integration
@@ -1076,9 +1080,6 @@ extragear/graphics/digikam: kde/pim/akonadi-contacts
 extragear/graphics/digikam: kde/pim/akonadi # I believe this is it wants for akonadi contacts
 extragear/graphics/digikam/digikam-doc: extragear/graphics/digikam
 
-# Google API Libraries
-extragear/libs/libkgapi: kde/pim/kcontacts
-extragear/libs/libkgapi: kde/pim/kcalcore
 extragear/libs/kreport: extragear/libs/kproperty
 
 # Extragear Multimedia
