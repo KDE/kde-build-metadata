@@ -1144,6 +1144,14 @@ kde/pim/pim-sieve-editor: kde/pim/libksieve
 kde/pim/pim-sieve-editor: kde/pim/messagelib
 
 #kmail-account-wizard
+kde/pim/kmail-account-wizard: kde/pim/akonadi
+kde/pim/kmail-account-wizard: kde/pim/akonadi-mime
+kde/pim/kmail-account-wizard: kde/pim/kidentitymanagement
+kde/pim/kmail-account-wizard: kde/pim/kimap
+kde/pim/kmail-account-wizard: kde/pim/kldap
+kde/pim/kmail-account-wizard: kde/pim/kmailtransport
+kde/pim/kmail-account-wizard: kde/pim/libkdepim
+kde/pim/kmail-account-wizard: kde/pim/libkleo
 kde/pim/kmail-account-wizard: kde/pim/pimcommon
 
 #pim-data-exporter
