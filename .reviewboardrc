@@ -1,4 +1,0 @@
-REVIEWBOARD_URL = "https://git.reviewboard.kde.org"
-REPOSITORY = "git://anongit.kde.org/kde-build-metadata"
-BRANCH = "master"
-TARGET_PEOPLE = "dfaure, bcooksley, mpyne"
