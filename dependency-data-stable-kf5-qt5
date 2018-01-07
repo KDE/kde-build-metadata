@@ -1565,9 +1565,12 @@ kde/kdenetwork/zeroconf-ioslave: frameworks/ki18n
 kde/kdenetwork/zeroconf-ioslave: frameworks/kio
 
 # Extragear Office
+extragear/office/kmymoney: extragear/graphics/kdiagram
 extragear/office/kmymoney: extragear/office/alkimia
-extragear/office/kmymoney: extragear/base/kdiagram
-extragear/office/kmymoney: kde/kdepimlibs
+extragear/office/kmymoney: kde/pim/kholidays
+extragear/office/kmymoney: kde/pim/kidentitymanagement
+extragear/office/kmymoney: kde/pim/kcontacts
+extragear/office/kmymoney: kde/pim/akonadi
 extragear/office/skrooge: frameworks/kactivities
 extragear/office/skrooge: general/grantlee
 extragear/office/skrooge: kdesupport/qca
