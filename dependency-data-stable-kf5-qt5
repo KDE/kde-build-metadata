@@ -1571,6 +1571,7 @@ extragear/office/kmymoney: kde/pim/kholidays
 extragear/office/kmymoney: kde/pim/kidentitymanagement
 extragear/office/kmymoney: kde/pim/kcontacts
 extragear/office/kmymoney: kde/pim/akonadi
+extragear/office/alkimia: -frameworks/kf5umbrella
 extragear/office/skrooge: frameworks/kactivities
 extragear/office/skrooge: general/grantlee
 extragear/office/skrooge: kdesupport/qca
