@@ -14,7 +14,7 @@
 
 # Everything needs Qt 5 and ECM
 *: Qt5
-*: kdesupport/extra-cmake-modules
+*: frameworks/extra-cmake-modules
 
 ### Frameworks ###
 

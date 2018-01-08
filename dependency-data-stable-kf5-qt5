@@ -14,7 +14,7 @@
 # is needed.
 
 *: Qt5[stable]
-*: kdesupport/extra-cmake-modules
+*: frameworks/extra-cmake-modules
 
 # Frameworks, tier2
 frameworks/kauth: frameworks/kcoreaddons

@@ -1511,7 +1511,7 @@
             "kf5-minimum": "master",
             "stable-kf5-qt5": "master"
         },
-        "kdesupport/extra-cmake-modules": {
+        "frameworks/extra-cmake-modules": {
             "stable-qt4": "master",
             "latest-qt4": "master",
             "kf5-qt5": "master",
