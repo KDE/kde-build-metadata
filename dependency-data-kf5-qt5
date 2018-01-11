@@ -18,9 +18,6 @@
 
 ### Frameworks ###
 
-# Temporary Issue
-frameworks/breeze-icons: frameworks/kcoreaddons
-
 # Frameworks, tier2
 frameworks/kauth: frameworks/kcoreaddons
 frameworks/kauth: kdesupport/polkit-qt-1
