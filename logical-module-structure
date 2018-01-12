@@ -1082,7 +1082,7 @@
             "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": ""
+            "stable-kf5-qt5": "5.2"
         },
         "playground/devtools/plugins/kdev-css": {
             "stable-qt4": "1.7",
