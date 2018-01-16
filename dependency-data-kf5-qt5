@@ -1285,6 +1285,20 @@ playground/pim/kube: kde/pim/kmime
 playground/pim/kube: kde/pim/kcontacts
 playground/pim/kube: kde/pim/messagelib
 
+playground/multimedia/elisa: frameworks/ki18n
+playground/multimedia/elisa: frameworks/kdoctools
+playground/multimedia/elisa: frameworks/kcrash
+playground/multimedia/elisa: frameworks/kdbusaddons
+playground/multimedia/elisa: frameworks/kdeclarative
+playground/multimedia/elisa: frameworks/baloo
+playground/multimedia/elisa: frameworks/kxmlgui
+playground/multimedia/elisa: frameworks/kconfigwidgets
+playground/multimedia/elisa: frameworks/kcmutils
+playground/multimedia/elisa: frameworks/kpackage
+playground/multimedia/elisa: frameworks/kcoreaddons
+playground/multimedia/elisa: frameworks/kfilemetadata
+playground/multimedia/elisa: frameworks/kconfig
+
 ### KDE Review ###
 
 kdereview/kdots: kde/kdegames/libkdegames
