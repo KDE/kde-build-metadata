@@ -1932,6 +1932,12 @@
             "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         },
+        "kdereview/plasma-active-window-control": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
+        },
         "kde/kdeaccessibility/kmag": {
             "stable-qt4": "Applications/17.04",
             "latest-qt4": "Applications/17.04",
