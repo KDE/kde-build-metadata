@@ -1588,6 +1588,8 @@ extragear/office/kbibtex: frameworks/kparts
 extragear/office/kbibtex: frameworks/kservice
 extragear/office/kbibtex: frameworks/kwallet
 extragear/office/kbibtex: frameworks/kxmlgui
+extragear/office/tellico: kde/kdegraphics/libs/libksane
+extragear/office/tellico: kde/kdemultimedia/libkcddb
 
 # Extragear Utils
 extragear/utils/yakuake: kde/applications/konsole

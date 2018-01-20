@@ -1926,6 +1926,12 @@
             "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         },
+        "kdereview/plasma-active-window-control": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
+        },
         "kde/kdeaccessibility/kmag": {
             "stable-qt4": "Applications/17.04",
             "latest-qt4": "Applications/17.04",
@@ -1958,8 +1964,8 @@
         },
         "kde/kdenetwork/kopete": {
             "stable-qt4": "Applications/17.08",
-            "latest-qt4": "master",
-            "kf5-qt5": "kf5",
+            "latest-qt4": "Applications/17.08",
+            "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         },
         "kde/kdenetwork/krdc": {
@@ -2038,7 +2044,7 @@
             "stable-qt4": "2.3",
             "latest-qt4": "2.3",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": ""
+            "stable-kf5-qt5": "3.1"
         },
         "extragear/sdk/kdesvn": {
             "stable-qt4": "rel_1.7",
@@ -2088,11 +2094,11 @@
             "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         },
-        "kdereview/krename": {
+        "extragear/utils/krename": {
             "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": ""
+            "stable-kf5-qt5": "5.0"
         },
         "playground/utils/kairo": {
             "stable-qt4": "",
