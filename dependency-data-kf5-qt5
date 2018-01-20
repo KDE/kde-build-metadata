@@ -441,17 +441,17 @@ kde/workspace/breeze: kde/workspace/kdecoration
 kde/workspace/oxygen: kde/workspace/kdecoration
 
 # Plasma Workspace
+kde/workspace/plasma-workspace: frameworks/kholidays
+kde/workspace/plasma-workspace: kde/applications/khelpcenter
+kde/workspace/plasma-workspace: kde/kdenetwork/kio-extras
 kde/workspace/plasma-workspace: kde/workspace/libksysguard
 kde/workspace/plasma-workspace: kde/workspace/kwin
 kde/workspace/plasma-workspace: kde/workspace/milou
-kde/workspace/plasma-workspace: kde/applications/khelpcenter
 kde/workspace/plasma-workspace: kde/workspace/kde-cli-tools
-kde/workspace/plasma-workspace: kde/kdenetwork/kio-extras
 kde/workspace/plasma-workspace: kde/workspace/breeze
 kde/workspace/plasma-workspace: kde/workspace/libkscreen
 kde/workspace/plasma-workspace: kde/workspace/kscreenlocker
 kde/workspace/plasma-workspace: kde/workspace/kactivitymanagerd
-kde/workspace/plasma-workspace: kde/pim/kholidays
 kde/workspace/plasma-workspace: kdesupport/prison
 
 # Plasma Desktop
@@ -534,9 +534,9 @@ kde/pim/akonadi-mime: kde/pim/kmime
 kde/pim/kimap: kde/pim/kmime
 
 # KAlarm Calendar Support
+kde/pim/kalarmcal: frameworks/kholidays
 kde/pim/kalarmcal: kde/pim/akonadi
 kde/pim/kalarmcal: kde/pim/kcalcore
-kde/pim/kalarmcal: kde/pim/kholidays
 kde/pim/kalarmcal: kde/pim/kidentitymanagement
 
 # KMail Transport
@@ -616,13 +616,13 @@ kde/pim/libksieve: kde/pim/libkdepim
 kde/pim/libksieve: kde/pim/pimcommon
 
 # Calendar Support
+kde/pim/calendarsupport: frameworks/kholidays
 kde/pim/calendarsupport: kde/pim/akonadi
 kde/pim/calendarsupport: kde/pim/akonadi-calendar
 kde/pim/calendarsupport: kde/pim/akonadi-mime
 kde/pim/calendarsupport: kde/pim/kcalcore
 kde/pim/calendarsupport: kde/pim/kcalutils
 kde/pim/calendarsupport: kde/pim/kdepim-apps-libs
-kde/pim/calendarsupport: kde/pim/kholidays
 kde/pim/calendarsupport: kde/pim/kidentitymanagement
 kde/pim/calendarsupport: kde/pim/kimap
 kde/pim/calendarsupport: kde/pim/kmime
@@ -743,6 +743,7 @@ kde/pim/akonadiconsole: kde/pim/messagelib
 
 # KOrganizer
 kde/pim/korganizer: extragear/graphics/kdiagram
+kde/pim/korganizer: frameworks/kholidays
 kde/pim/korganizer: kde/pim/akonadi
 kde/pim/korganizer: kde/pim/akonadi-calendar
 kde/pim/korganizer: kde/pim/akonadi-contacts
@@ -756,7 +757,6 @@ kde/pim/korganizer: kde/pim/kcalcore
 kde/pim/korganizer: kde/pim/kcalutils
 kde/pim/korganizer: kde/pim/kcontacts
 kde/pim/korganizer: kde/pim/kdepim-apps-libs
-kde/pim/korganizer: kde/pim/kholidays
 kde/pim/korganizer: kde/pim/kidentitymanagement
 kde/pim/korganizer: kde/pim/kldap
 kde/pim/korganizer: kde/pim/kmailtransport
@@ -778,6 +778,7 @@ kde/pim/akregator: kde/pim/pimcommon
 kde/pim/akregator: kde/pim/syndication
 
 # KAlarm
+kde/pim/kalarm: frameworks/kholidays
 kde/pim/kalarm: kde/pim/akonadi
 kde/pim/kalarm: kde/pim/akonadi-contacts
 kde/pim/kalarm: kde/pim/akonadi-mime
@@ -785,7 +786,6 @@ kde/pim/kalarm: kde/pim/kalarmcal
 kde/pim/kalarm: kde/pim/kcalcore
 kde/pim/kalarm: kde/pim/kcalutils
 kde/pim/kalarm: kde/pim/kdepim-apps-libs
-kde/pim/kalarm: kde/pim/kholidays
 kde/pim/kalarm: kde/pim/kidentitymanagement
 kde/pim/kalarm: kde/pim/kimap
 kde/pim/kalarm: kde/pim/kmailtransport
@@ -992,10 +992,10 @@ kde/kdegraphics/gwenview: kde/kdenetwork/kio-extras
 kde/kdegraphics/kolourpaint: kde/kdegraphics/libs/libksane
 
 # Okular
+kde/kdegraphics/okular: frameworks/purpose
 kde/kdegraphics/okular: kdesupport/phonon/phonon
 kde/kdegraphics/okular: kde/kdegraphics/libs/libkexiv2
 kde/kdegraphics/okular: kde/kdegraphics/kdegraphics-mobipocket
-kde/kdegraphics/okular: playground/libs/purpose
 
 # KDE Graphics Thumbnailers
 kde/kdegraphics/kdegraphics-thumbnailers: kde/kdegraphics/libs/libkexiv2
@@ -1181,7 +1181,7 @@ extragear/network/kdeconnect-kde: kdesupport/qca
 # Extragear Office
 extragear/office/kmymoney: extragear/graphics/kdiagram
 extragear/office/kmymoney: extragear/office/alkimia
-extragear/office/kmymoney: kde/pim/kholidays
+extragear/office/kmymoney: frameworks/kholidays
 extragear/office/kmymoney: kde/pim/kidentitymanagement
 extragear/office/kmymoney: kde/pim/kcontacts
 extragear/office/kmymoney: kde/pim/akonadi
@@ -1246,18 +1246,16 @@ playground/devtools/plugins/kdev-xdebug: playground/devtools/plugins/kdev-execut
 ### Calligra ###
 
 # Calligra - Main Suite
-calligra/calligra: kdesupport/qca
-calligra/calligra: kdesupport/phonon/phonon
+calligra/calligra: frameworks/kholidays
+calligra/calligra: extragear/graphics/kdiagram
 calligra/calligra: kde/pim/kcalcore
 calligra/calligra: kde/pim/kcontacts
 calligra/calligra: kde/pim/akonadi
 calligra/calligra: kde/pim/akonadi-contacts
 calligra/calligra: kde/kdeedu/marble
 calligra/calligra: kde/kdegraphics/okular
-calligra/calligra: extragear/graphics/kdiagram
-calligra/calligra: kde/pim/kholidays
-#calligra/calligra: extragear/libs/kproperty
-#calligra/calligra: extragear/libs/kreport
+calligra/calligra: kdesupport/qca
+calligra/calligra: kdesupport/phonon/phonon
 
 # Kexi
 calligra/kexi: extragear/libs/kdb
