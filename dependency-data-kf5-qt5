@@ -992,6 +992,7 @@ kde/kdegraphics/gwenview: kde/kdenetwork/kio-extras
 kde/kdegraphics/kolourpaint: kde/kdegraphics/libs/libksane
 
 # Okular
+kde/kdegraphics/okular: frameworks/purpose
 kde/kdegraphics/okular: kdesupport/phonon/phonon
 kde/kdegraphics/okular: kde/kdegraphics/libs/libkexiv2
 kde/kdegraphics/okular: kde/kdegraphics/kdegraphics-mobipocket
