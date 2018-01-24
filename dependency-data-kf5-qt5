@@ -1269,7 +1269,6 @@ playground/base/atelier: playground/base/atcore
 
 # Playground Libs
 playground/libs/purpose: kde/kdenetwork/kaccounts-integration
-playground/libs/purpose: extragear/network/kdeconnect-kde
 
 # Playground PIM
 playground/pim/sink: playground/libs/kasync
