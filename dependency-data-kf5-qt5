@@ -43,10 +43,6 @@ frameworks/knotifications: kdesupport/phonon/phonon
 frameworks/kpackage: frameworks/karchive
 frameworks/kpackage: frameworks/kcoreaddons
 frameworks/kpackage: frameworks/ki18n
-frameworks/purpose: frameworks/kcoreaddons
-frameworks/purpose: frameworks/kconfig
-frameworks/purpose: frameworks/ki18n
-frameworks/purpose: kde/kdenetwork/kaccounts-integration
 frameworks/qqc2-desktop-style: frameworks/kirigami
 frameworks/qqc2-desktop-style: frameworks/kiconthemes
 frameworks/qqc2-desktop-style: frameworks/kconfigwidgets
@@ -256,6 +252,11 @@ frameworks/plasma-framework: frameworks/kxmlgui
 frameworks/plasma-framework: frameworks/ktexteditor
 frameworks/plasma-framework: frameworks/oxygen-icons5
 frameworks/plasma-framework: frameworks/kirigami
+frameworks/purpose: frameworks/kcoreaddons
+frameworks/purpose: frameworks/kconfig
+frameworks/purpose: frameworks/ki18n
+frameworks/purpose: frameworks/kio
+frameworks/purpose: kde/kdenetwork/kaccounts-integration
 frameworks/kxmlrpcclient: frameworks/kio
 frameworks/kpeople: frameworks/kcoreaddons
 frameworks/kpeople: frameworks/kwidgetsaddons
