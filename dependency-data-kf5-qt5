@@ -43,6 +43,10 @@ frameworks/knotifications: kdesupport/phonon/phonon
 frameworks/kpackage: frameworks/karchive
 frameworks/kpackage: frameworks/kcoreaddons
 frameworks/kpackage: frameworks/ki18n
+frameworks/purpose: frameworks/kcoreaddons
+frameworks/purpose: frameworks/kconfig
+frameworks/purpose: frameworks/ki18n
+frameworks/purpose: kde/kdenetwork/kaccounts-integration
 frameworks/qqc2-desktop-style: frameworks/kirigami
 frameworks/qqc2-desktop-style: frameworks/kiconthemes
 frameworks/qqc2-desktop-style: frameworks/kconfigwidgets
@@ -274,7 +278,6 @@ frameworks/frameworkintegration: frameworks/kinit
 frameworks/frameworkintegration: frameworks/oxygen-icons5
 frameworks/frameworkintegration: frameworks/kpackage
 frameworks/frameworkintegration: frameworks/knewstuff
-
 frameworks/kdelibs4support: frameworks/ki18n
 frameworks/kdelibs4support: frameworks/kguiaddons
 frameworks/kdelibs4support: frameworks/kwidgetsaddons
@@ -1214,19 +1217,6 @@ extragear/sysadmin/apper: kde/workspace/plasma-workspace
 # Extragear Utils
 extragear/utils/yakuake: kde/applications/konsole
 
-# Extragear Edu
-extragear/edu/kstars: frameworks/knotifyconfig
-extragear/edu/kstars: frameworks/kconfig
-extragear/edu/kstars: frameworks/kcrash
-extragear/edu/kstars: frameworks/kdoctools
-extragear/edu/kstars: frameworks/kwidgetsaddons
-extragear/edu/kstars: frameworks/knewstuff
-extragear/edu/kstars: frameworks/ki18n
-extragear/edu/kstars: frameworks/kio
-extragear/edu/kstars: frameworks/kxmlgui
-extragear/edu/kstars: frameworks/kplotting
-extragear/edu/kstars: frameworks/knotifications
-
 ### KDevelop ###
 
 # KDevelop main application
@@ -1267,9 +1257,6 @@ calligra/kexi: kde/kdeedu/marble
 
 playground/base/atelier: playground/base/atcore
 
-# Playground Libs
-playground/libs/purpose: kde/kdenetwork/kaccounts-integration
-
 # Playground PIM
 playground/pim/sink: playground/libs/kasync
 playground/pim/sink: playground/libs/kimap2
@@ -1281,20 +1268,6 @@ playground/pim/kube: playground/pim/sink
 playground/pim/kube: kde/pim/kmime
 playground/pim/kube: kde/pim/kcontacts
 playground/pim/kube: kde/pim/messagelib
-
-playground/multimedia/elisa: frameworks/ki18n
-playground/multimedia/elisa: frameworks/kdoctools
-playground/multimedia/elisa: frameworks/kcrash
-playground/multimedia/elisa: frameworks/kdbusaddons
-playground/multimedia/elisa: frameworks/kdeclarative
-playground/multimedia/elisa: frameworks/baloo
-playground/multimedia/elisa: frameworks/kxmlgui
-playground/multimedia/elisa: frameworks/kconfigwidgets
-playground/multimedia/elisa: frameworks/kcmutils
-playground/multimedia/elisa: frameworks/kpackage
-playground/multimedia/elisa: frameworks/kcoreaddons
-playground/multimedia/elisa: frameworks/kfilemetadata
-playground/multimedia/elisa: frameworks/kconfig
 
 ### KDE Review ###
 
