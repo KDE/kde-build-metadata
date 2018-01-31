@@ -1705,6 +1705,7 @@ extragear/libs/kreport: frameworks/kcoreaddons
 extragear/libs/kreport: frameworks/kguiaddons
 extragear/libs/kreport: frameworks/kwidgetsaddons
 extragear/libs/kreport: extragear-libs/kproperty
+extragear/libs/kreport: kde/kdeedu/marble
 
 kdereview/kio-stash: frameworks/kf5umbrella
 
