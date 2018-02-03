@@ -577,7 +577,7 @@ kde/workspace/plasma-workspace: frameworks/kwayland
 kde/workspace/plasma-workspace: kde/workspace/kscreenlocker
 kde/workspace/plasma-workspace: kde/workspace/kactivitymanagerd
 kde/workspace/plasma-workspace: kde/pim/kholidays
-kde/workspace/plasma-workspace: kdesupport/prison
+kde/workspace/plasma-workspace: frameworks/prison
 
 # KActivityManagerd
 kde/workspace/kactivitymanagerd: frameworks/kconfig
@@ -813,7 +813,7 @@ kde/pim/akonadi-contacts: kde/pim/kcalcore
 kde/pim/akonadi-contacts: kde/pim/kmime
 kde/pim/akonadi-contacts: kde/pim/akonadi
 kde/pim/akonadi-contacts: kde/pim/akonadi-mime
-kde/pim/akonadi-contacts: kdesupport/prison
+kde/pim/akonadi-contacts: frameworks/prison
 
 kde/pim/akonadi-notes: frameworks/ki18n
 kde/pim/akonadi-notes: kde/pim/kmime
