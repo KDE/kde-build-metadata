@@ -84,6 +84,7 @@ frameworks/knewstuff: frameworks/kxmlgui
 frameworks/knewstuff: frameworks/solid
 frameworks/knewstuff: frameworks/kbookmarks
 frameworks/knewstuff: frameworks/kio
+frameworks/knewstuff: frameworks/kirigami
 frameworks/kservice: frameworks/kconfig
 frameworks/kservice: frameworks/kcoreaddons
 frameworks/kservice: frameworks/kcrash
