@@ -72,7 +72,7 @@ with open(sys.argv[1]) as f:
         dependency = greedy_rule[1]
         if dependency.startswith("-"):
             print("Script does not support greedy negative rules", greedy_rule);
-        for node in G.nodes():
+        for node in list(G.nodes()):
             if re.search(greedy_pattern, node):
                 if node != dependency:
                     G.add_edge(node, dependency)
@@ -85,6 +85,6 @@ with open(sys.argv[1]) as f:
                 G.remove_edge(node, negative_dependency)
 
 
-    print (nx.topological_sort(G, reverse=True))
+    print (list(reversed(list(nx.topological_sort(G)))))
     #nx.draw(G)
     #plt.show()
