@@ -1598,6 +1598,12 @@ extragear/office/tellico: kde/kdemultimedia/libkcddb
 
 # Extragear Utils
 extragear/utils/yakuake: kde/applications/konsole
+extragear/utils/plasma-mycroft: frameworks/kcoreaddons
+extragear/utils/plasma-mycroft: frameworks/plasma-framework
+extragear/utils/plasma-mycroft: frameworks/ki18n
+extragear/utils/plasma-mycroft: frameworks/knotifications
+extragear/utils/plasma-mycroft: kde/workspace/plasma-workspace
+extragear/utils/plasma-mycroft: extragear/sdk/plasma-sdk
 
 # Calligra
 calligra/calligra: frameworks/kf5umbrella
