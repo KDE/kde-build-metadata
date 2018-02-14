@@ -1032,6 +1032,9 @@ kde/kdemultimedia/k3b: kde/kdemultimedia/libkcddb
 # KSCD
 kde/kdemultimedia/kscd: kdesupport/phonon/phonon
 
+# Kamoso
+kde/kdemultimedia/kamoso: frameworks/purpose
+
 # KDE Edu!
 # Cantor
 kde/kdeedu/cantor: kde/kdeedu/analitza
@@ -1168,7 +1171,6 @@ extragear/graphics/digikam/digikam-doc: extragear/graphics/digikam
 extragear/libs/kreport: extragear/libs/kproperty
 
 # Extragear Multimedia
-extragear/multimedia/kamoso: playground/libs/purpose
 extragear/multimedia/kaudiocreator: kde/kdemultimedia/libkcddb
 extragear/multimedia/kaudiocreator: kde/kdemultimedia/libkcompactdisc
 extragear/multimedia/kmplayer: kdesupport/phonon/phonon
