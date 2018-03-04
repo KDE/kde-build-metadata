@@ -1782,3 +1782,6 @@ kde/kdegames/kubrick: kde/kdegames/libkdegames
 kde/kdegames/lskat: kde/kdegames/libkdegames
 kde/kdegames/palapeli: kde/kdegames/libkdegames
 kde/kdegames/picmi: kde/kdegames/libkdegames
+
+# Falkon
+kdereview/falkon: frameworks/kf5umbrella
