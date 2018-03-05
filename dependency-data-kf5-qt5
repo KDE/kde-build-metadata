@@ -522,7 +522,6 @@ kde/pim/akonadi-search: kde/pim/kmime
 
 # Akonadi Contacts
 kde/pim/akonadi-contacts: kde/pim/akonadi
-kde/pim/akonadi-contacts: kde/pim/akonadi-mime
 kde/pim/akonadi-contacts: kde/pim/kcontacts
 kde/pim/akonadi-contacts: kde/pim/kmime
 kde/pim/akonadi-contacts: frameworks/prison
