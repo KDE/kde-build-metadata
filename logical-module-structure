@@ -2297,6 +2297,12 @@
             "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": ""
+        },
+        "extragear/multimedia/amarok": {
+            "stable-qt4": "2.9",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
         }
    }
 }
