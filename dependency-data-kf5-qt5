@@ -541,6 +541,7 @@ kde/pim/kimap: kde/pim/kmime
 kde/pim/kalarmcal: frameworks/kholidays
 kde/pim/kalarmcal: kde/pim/akonadi
 kde/pim/kalarmcal: kde/pim/kcalcore
+kde/pim/kalarmcal: kde/pim/kcalutils
 kde/pim/kalarmcal: kde/pim/kidentitymanagement
 
 # KMail Transport
