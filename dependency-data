@@ -461,8 +461,5 @@ playground/pim/zanshin: kde/kdepim-runtime
 playground/network/kpeople: kde/kdelibs
 playground/network/kpeople: kde/kdepimlibs
 
-# Playground Office
-playground/office/kraft: kde/kdepimlibs
-
 # Playground Utils
 playground/utils/kregexpeditor: kde/kdelibs
