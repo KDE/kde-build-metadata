@@ -187,7 +187,7 @@ kde/kdesdk/dolphin-plugins: kde/applications/kde-baseapps
 kde/kdesdk/kdesdk-strigi-analyzers: kdesupport/strigi/libstreams
 kde/kdesdk/kdesdk-strigi-analyzers: kdesupport/strigi/libstreamanalyzer
 kde/kdesdk/kompare: kde/kdesdk/libkomparediff2
-kde/kdesdk/okteta: kdesupport/qca
+extragear/utils/okteta: kdesupport/qca
 
 # kdenetwork
 kde/kdenetwork/kopete: kde/kdepimlibs
@@ -305,7 +305,7 @@ extragear/kdevelop/*: kde/applications/kate
 extragear/kdevelop/*: kde/applications/konsole
 extragear/kdevelop/kdevelop: extragear/kdevelop/kdevplatform
 extragear/kdevelop/kdevelop: kde/kde-workspace
-extragear/kdevelop/kdevelop: kde/kdesdk/okteta
+extragear/kdevelop/kdevelop: extragear/utils/okteta
 extragear/kdevelop/plugins/kdev-php: extragear/kdevelop/kdevplatform
 extragear/kdevelop/plugins/kdev-php: extragear/kdevelop/utilities/kdevelop-pg-qt
 extragear/kdevelop/plugins/kdev-python: extragear/kdevelop/kdevelop

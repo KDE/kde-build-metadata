@@ -1135,7 +1135,7 @@ kde/kdenetwork/kaccounts-providers: kde/kdenetwork/kaccounts-integration
 kde/kdesdk/kompare: kde/kdesdk/libkomparediff2
 
 # Okteta
-kde/kdesdk/okteta: kdesupport/qca
+extragear/utils/okteta: kdesupport/qca
 
 # Dolphin Plugins
 kde/kdesdk/dolphin-plugins: kde/applications/dolphin
@@ -1233,7 +1233,7 @@ extragear/utils/plasma-mycroft: extragear/sdk/plasma-sdk
 # KDevelop main application
 extragear/kdevelop/kdevelop: kde/kdenetwork/kio-extras
 extragear/kdevelop/kdevelop: kde/kdesdk/libkomparediff2
-extragear/kdevelop/kdevelop: kde/kdesdk/okteta
+extragear/kdevelop/kdevelop: extragear/utils/okteta
 extragear/kdevelop/kdevelop: kde/workspace/libksysguard
 extragear/kdevelop/kdevelop: extragear/kdevelop/utilities/kdevelop-pg-qt
 

@@ -1427,7 +1427,7 @@ extragear/sysadmin/apper: kde/workspace/plasma-workspace
 
 # kdesdk
 kde/kdesdk/kompare: kde/kdesdk/libkomparediff2
-kde/kdesdk/okteta: kdesupport/qca
+extragear/utils/okteta: kdesupport/qca
 kde/kdesdk/dolphin-plugins: kde/applications/dolphin
 kde/kdesdk/kapptemplate: frameworks/kdoctools
 kde/kdesdk/kapptemplate: frameworks/kcoreaddons
@@ -1495,7 +1495,7 @@ extragear/kdevelop/kdevelop: general/grantlee
 extragear/kdevelop/kdevelop: frameworks/krunner
 extragear/kdevelop/kdevelop: kde/kdenetwork/kio-extras
 extragear/kdevelop/kdevelop: kde/kdesdk/libkomparediff2
-extragear/kdevelop/kdevelop: kde/kdesdk/okteta
+extragear/kdevelop/kdevelop: extragear/utils/okteta
 extragear/kdevelop/kdevelop: kde/workspace/libksysguard
 extragear/kdevelop/kdevelop: extragear/kdevelop/utilities/kdevelop-pg-qt
 extragear/kdevelop/plugins/*: extragear/kdevelop/kdevelop
