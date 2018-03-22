@@ -485,6 +485,9 @@ kde/workspace/kdeplasma-addons: kde/workspace/plasma-workspace
 kde/workspace/plasma-tests: kde/workspace/plasma-workspace
 kde/workspace/plasma-tests: kde/workspace/plasma-desktop
 
+# System settings
+kde/workspace/systemsettings:kde/workspace/plasma-workspace
+
 ### Main Applications ###
 
 # General Applications!
