@@ -852,6 +852,7 @@ kde/pim/kpimtextedit: frameworks/oxygen-icons5 #needed for unit tests
 kde/pim/kalarmcal: frameworks/kdelibs4support
 kde/pim/kalarmcal: kde/pim/akonadi
 kde/pim/kalarmcal: kde/pim/kcalcore
+kde/pim/kalarmcal: kde/pim/kcalutils
 kde/pim/kalarmcal: kde/pim/kidentitymanagement
 kde/pim/kalarmcal: kde/pim/kholidays
 kde/pim/kmailtransport: frameworks/kcmutils
