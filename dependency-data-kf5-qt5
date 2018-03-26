@@ -110,6 +110,7 @@ frameworks/kiconthemes: frameworks/ki18n
 frameworks/kiconthemes: frameworks/kconfigwidgets
 frameworks/kiconthemes: frameworks/kwidgetsaddons
 frameworks/kiconthemes: frameworks/kitemviews
+frameworks/kiconthemes: frameworks/karchive
 frameworks/kglobalaccel: frameworks/kconfig
 frameworks/kglobalaccel: frameworks/kcoreaddons
 frameworks/kglobalaccel: frameworks/kcrash
