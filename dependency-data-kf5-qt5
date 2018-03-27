@@ -422,6 +422,9 @@ frameworks/baloo: frameworks/kdelibs4support
 # Plasma Vault
 kde/workspace/plasma-vault: kde/workspace/libksysguard
 
+# kde-cli-tools
+kde/workspace/kde-cli-tools: kde/workspace/plasma-workspace
+
 # KHotkeys
 kde/workspace/khotkeys: kde/workspace/plasma-workspace
 
@@ -452,7 +455,6 @@ kde/workspace/plasma-workspace: kde/kdenetwork/kio-extras
 kde/workspace/plasma-workspace: kde/workspace/libksysguard
 kde/workspace/plasma-workspace: kde/workspace/kwin
 kde/workspace/plasma-workspace: kde/workspace/milou
-kde/workspace/plasma-workspace: kde/workspace/kde-cli-tools
 kde/workspace/plasma-workspace: kde/workspace/breeze
 kde/workspace/plasma-workspace: kde/workspace/libkscreen
 kde/workspace/plasma-workspace: kde/workspace/kscreenlocker
