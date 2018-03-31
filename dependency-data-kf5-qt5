@@ -922,6 +922,7 @@ kde/pim/kdepim-addons: kde/pim/mailcommon
 kde/pim/kdepim-addons: kde/pim/mailimporter
 kde/pim/kdepim-addons: kde/pim/messagelib
 kde/pim/kdepim-addons: kde/pim/pimcommon
+kde/pim/kdepim-addons: kde/pim/kpkpass
 
 # KSmtp libraries
 kde/pim/ksmtp: kde/pim/kmime
