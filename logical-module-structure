@@ -821,6 +821,18 @@
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/18.04"
         },
+        "kde/pim/kitinerary": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
+        },
+        "kde/pim/kpkpass": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
+        },
 
 
 
