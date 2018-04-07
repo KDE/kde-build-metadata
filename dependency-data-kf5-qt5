@@ -575,6 +575,11 @@ kde/pim/ktnef: kde/pim/kcontacts
 kde/pim/kcalutils: kde/pim/kcalcore
 kde/pim/kcalutils: kde/pim/kidentitymanagement
 
+# KItinerary
+kde/pim/kitinerary: kde/pim/kcalcore
+kde/pim/kitinerary: kde/pim/kmime
+kde/pim/kitinerary: kde/pim/kpkpass
+
 # Gravatar support libraries
 kde/pim/libgravatar: kde/pim/pimcommon
 
@@ -924,6 +929,7 @@ kde/pim/kdepim-addons: kde/pim/mailimporter
 kde/pim/kdepim-addons: kde/pim/messagelib
 kde/pim/kdepim-addons: kde/pim/pimcommon
 kde/pim/kdepim-addons: kde/pim/kpkpass
+kde/pim/kdepim-addons: kde/pim/kitinerary
 
 # KSmtp libraries
 kde/pim/ksmtp: kde/pim/kmime
