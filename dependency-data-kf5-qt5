@@ -555,6 +555,7 @@ kde/pim/kmailtransport: kde/pim/akonadi
 kde/pim/kmailtransport: kde/pim/akonadi-mime
 kde/pim/kmailtransport: kde/pim/kmime
 kde/pim/kmailtransport: kde/pim/ksmtp
+kde/pim/kmailtransport: kde/pim/libkgapi
 
 # KIdentityManagement
 kde/pim/kidentitymanagement: kde/pim/kpimtextedit
