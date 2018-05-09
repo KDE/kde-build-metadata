@@ -581,6 +581,8 @@ kde/pim/kitinerary: kde/pim/kcalcore
 kde/pim/kitinerary: kde/pim/kmime
 kde/pim/kitinerary: kde/pim/kpkpass
 
+kde/pim/itinerary: kde/pim/kitinerary
+
 # Gravatar support libraries
 kde/pim/libgravatar: kde/pim/pimcommon
 
