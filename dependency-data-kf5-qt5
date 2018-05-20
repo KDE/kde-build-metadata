@@ -580,6 +580,7 @@ kde/pim/kcalutils: kde/pim/kidentitymanagement
 kde/pim/kitinerary: kde/pim/kcalcore
 kde/pim/kitinerary: kde/pim/kmime
 kde/pim/kitinerary: kde/pim/kpkpass
+kde/pim/kitinerary: kde/pim/kcontacts
 
 kde/pim/itinerary: frameworks/prison
 kde/pim/itinerary: kde/pim/kitinerary
