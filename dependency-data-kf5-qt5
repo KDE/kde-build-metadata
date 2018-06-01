@@ -945,12 +945,7 @@ kde/pim/libkgapi: kde/pim/kcontacts
 
 # KDE Games
 # General KDE Games Libraries
-kde/kdegames/libkdegames: -frameworks/kf5umbrella
-kde/kdegames/libkdegames: frameworks/kcoreaddons
-kde/kdegames/libkdegames: frameworks/kconfig
-kde/kdegames/libkdegames: frameworks/kwidgetsaddons
-kde/kdegames/libkdegames: frameworks/kcodecs
-kde/kdegames/libkdegames: frameworks/karchive
+kde/kdegames/libkdegames: frameworks/kf5umbrella
 
 # KMahjongg & library
 kde/kdegames/libkmahjongg: kde/kdegames/libkdegames
