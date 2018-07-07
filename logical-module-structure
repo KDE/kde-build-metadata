@@ -1090,6 +1090,12 @@
             "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         },
+        "playground/devtools/kdiff3": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
+        },
         "playground/devtools/plugins/*": {
             "stable-qt4": "master",
             "latest-qt4": "master",
