@@ -110,6 +110,7 @@ frameworks/kiconthemes: frameworks/ki18n
 frameworks/kiconthemes: frameworks/kconfigwidgets
 frameworks/kiconthemes: frameworks/kwidgetsaddons
 frameworks/kiconthemes: frameworks/kitemviews
+frameworks/kiconthemes: frameworks/karchive
 frameworks/kglobalaccel: frameworks/kconfig
 frameworks/kglobalaccel: frameworks/kcoreaddons
 frameworks/kglobalaccel: frameworks/kcrash
@@ -554,6 +555,7 @@ kde/pim/kmailtransport: kde/pim/akonadi
 kde/pim/kmailtransport: kde/pim/akonadi-mime
 kde/pim/kmailtransport: kde/pim/kmime
 kde/pim/kmailtransport: kde/pim/ksmtp
+kde/pim/kmailtransport: kde/pim/libkgapi
 
 # KIdentityManagement
 kde/pim/kidentitymanagement: kde/pim/kpimtextedit
@@ -573,6 +575,15 @@ kde/pim/ktnef: kde/pim/kcontacts
 # KCalUtils
 kde/pim/kcalutils: kde/pim/kcalcore
 kde/pim/kcalutils: kde/pim/kidentitymanagement
+
+# KItinerary
+kde/pim/kitinerary: kde/pim/kcalcore
+kde/pim/kitinerary: kde/pim/kmime
+kde/pim/kitinerary: kde/pim/kpkpass
+kde/pim/kitinerary: kde/pim/kcontacts
+
+kde/pim/itinerary: frameworks/prison
+kde/pim/itinerary: kde/pim/kitinerary
 
 # Gravatar support libraries
 kde/pim/libgravatar: kde/pim/pimcommon
@@ -922,6 +933,8 @@ kde/pim/kdepim-addons: kde/pim/mailcommon
 kde/pim/kdepim-addons: kde/pim/mailimporter
 kde/pim/kdepim-addons: kde/pim/messagelib
 kde/pim/kdepim-addons: kde/pim/pimcommon
+kde/pim/kdepim-addons: kde/pim/kpkpass
+kde/pim/kdepim-addons: kde/pim/kitinerary
 
 # KSmtp libraries
 kde/pim/ksmtp: kde/pim/kmime
