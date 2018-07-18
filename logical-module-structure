@@ -199,32 +199,8 @@
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Plasma/5.13"
         },
-        "kde/workspace/plasma-browser-integration" : {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "Plasma/5.13"
-        },
-        "kde/workspace/qqc2-desktop-style" : {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": ""
-        },
-        "kde/workspace/drkonqi" : {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "Plasma/5.13"
-        },
-        "kde/workspace/polkit-kde-agent-1" : {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "Plasma/5.13"
-        },
         "kde/workspace/breeze" : {
-            "stable-qt4": "Plasma/5.9",
+            "stable-qt4": "Plasma/5.13",
             "latest-qt4": "master",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Plasma/5.13"
