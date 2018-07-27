@@ -1031,7 +1031,6 @@ kde/kdegraphics/libs/libkipi: kde/kdegraphics/libs/libkexiv2
 kde/kdegraphics/peruse: kde/kdegraphics/okular
 
 # Spectacle
-kde/kdegraphics/spectacle: kde/workspace/libkscreen
 kde/kdegraphics/spectacle: kde/kdegraphics/libs/libkipi
 
 # KDE Multimedia
