@@ -1153,6 +1153,10 @@ extragear/utils/okteta: kdesupport/qca
 # Dolphin Plugins
 kde/kdesdk/dolphin-plugins: kde/applications/dolphin
 
+# Kirigami Gallery
+kde/kdesdk/kirigami-gallery: -frameworks/kf5umbrella
+kde/kdesdk/kirigami-gallery: frameworks/kirigami
+
 # Web Development Tools!
 
 # Bindings!
