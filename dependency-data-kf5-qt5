@@ -689,7 +689,6 @@ kde/pim/messagelib: kde/pim/akonadi-search
 kde/pim/messagelib: kde/pim/grantleetheme
 kde/pim/messagelib: kde/pim/kcontacts
 kde/pim/messagelib: kde/pim/kdepim-apps-libs
-kde/pim/messagelib: kde/pim/kdepim-runtime #needed for unit tests
 kde/pim/messagelib: kde/pim/kidentitymanagement
 kde/pim/messagelib: kde/pim/kldap
 kde/pim/messagelib: kde/pim/kmailtransport
