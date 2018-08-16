@@ -571,6 +571,7 @@ kde/pim/kmbox: kde/pim/kmime
 kde/pim/ktnef: kde/pim/kcalcore
 kde/pim/ktnef: kde/pim/kcalutils
 kde/pim/ktnef: kde/pim/kcontacts
+kde/pim/ktnef: frameworks/kdoctools
 
 # KCalUtils
 kde/pim/kcalutils: kde/pim/kcalcore
@@ -619,6 +620,7 @@ kde/pim/libkleo: kde/pim/kpimtextedit
 # Kleopatra
 kde/pim/kleopatra: kde/pim/kmime
 kde/pim/kleopatra: kde/pim/libkleo
+kde/pim/kleopatra: frameworks/kdoctools
 
 # General PIM libraries
 kde/pim/libkdepim: kde/pim/akonadi
@@ -723,6 +725,7 @@ kde/pim/kmail: kde/pim/libksieve
 kde/pim/kmail: kde/pim/mailcommon
 kde/pim/kmail: kde/pim/messagelib
 kde/pim/kmail: kde/pim/pimcommon
+kde/pim/kmail: frameworks/kdoctools
 
 # KAddressbook
 kde/pim/kaddressbook: kde/pim/akonadi
@@ -736,6 +739,7 @@ kde/pim/kaddressbook: kde/pim/libkleo
 kde/pim/kaddressbook: kde/pim/pimcommon
 
 # KNotes
+kde/pim/knotes: frameworks/kdoctools
 kde/pim/knotes: kde/pim/akonadi
 kde/pim/knotes: kde/pim/akonadi-notes
 kde/pim/knotes: kde/pim/akonadi-search
@@ -785,6 +789,7 @@ kde/pim/korganizer: kde/pim/kontactinterface
 kde/pim/korganizer: kde/pim/kpimtextedit
 kde/pim/korganizer: kde/pim/libkdepim
 kde/pim/korganizer: kde/pim/pimcommon
+kde/pim/korganizer: frameworks/kdoctools
 
 # Akregator
 kde/pim/akregator: kde/pim/akonadi-mime
@@ -796,6 +801,7 @@ kde/pim/akregator: kde/pim/libkleo
 kde/pim/akregator: kde/pim/messagelib
 kde/pim/akregator: kde/pim/pimcommon
 kde/pim/akregator: kde/pim/syndication
+kde/pim/akregator: frameworks/kdoctools
 
 # KAlarm
 kde/pim/kalarm: frameworks/kholidays
@@ -814,6 +820,7 @@ kde/pim/kalarm: kde/pim/kpimtextedit
 kde/pim/kalarm: kde/pim/libkdepim
 kde/pim/kalarm: kde/pim/mailcommon
 kde/pim/kalarm: kde/pim/pimcommon
+kde/pim/kalarm: frameworks/kdoctools
 
 # Sieve Editor UI
 kde/pim/pim-sieve-editor: kde/pim/kimap
@@ -821,6 +828,7 @@ kde/pim/pim-sieve-editor: kde/pim/kmailtransport
 kde/pim/pim-sieve-editor: kde/pim/kpimtextedit
 kde/pim/pim-sieve-editor: kde/pim/libksieve
 kde/pim/pim-sieve-editor: kde/pim/pimcommon
+kde/pim/pim-sieve-editor: frameworks/kdoctools
 
 # KMail Account Wizard
 kde/pim/kmail-account-wizard: kde/pim/akonadi
@@ -843,6 +851,7 @@ kde/pim/pim-data-exporter: kde/pim/kpimtextedit
 kde/pim/pim-data-exporter: kde/pim/libkdepim
 kde/pim/pim-data-exporter: kde/pim/mailcommon
 kde/pim/pim-data-exporter: kde/pim/pimcommon
+kde/pim/pim-data-exporter: frameworks/kdoctools
 
 # MBox Importer
 kde/pim/mbox-importer: kde/pim/akonadi
@@ -867,6 +876,7 @@ kde/pim/kontact: kde/pim/kdepim-apps-libs
 kde/pim/kontact: kde/pim/kontactinterface
 kde/pim/kontact: kde/pim/kpimtextedit
 kde/pim/kontact: kde/pim/libkdepim
+kde/pim/kontact: frameworks/kdoctools
 
 # Akonadi Import Wizard
 kde/pim/akonadi-import-wizard: kde/pim/akonadi
@@ -878,6 +888,7 @@ kde/pim/akonadi-import-wizard: kde/pim/mailcommon
 kde/pim/akonadi-import-wizard: kde/pim/mailimporter
 kde/pim/akonadi-import-wizard: kde/pim/messagelib
 kde/pim/akonadi-import-wizard: kde/pim/pimcommon
+kde/pim/akonadi-import-wizard: frameworks/kdoctools
 
 # Akonadi Calendar Tools
 kde/pim/akonadi-calendar-tools: frameworks/kdelibs4support
