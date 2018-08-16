@@ -1239,7 +1239,6 @@ extragear/pim/zanshin: kde/pim/kontactinterface
 extragear/pim/zanshin: kde/pim/kdepim-runtime
 
 # Extragear SDK
-extragear/sdk/plasma-sdk: kde/workspace/plasma-workspace
 extragear/sdk/massif-visualizer: extragear/graphics/kdiagram
 extragear/sdk/heaptrack: extragear/graphics/kdiagram
 
