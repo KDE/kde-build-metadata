@@ -1002,7 +1002,7 @@
             "stable-qt4": "4.7",
             "latest-qt4": "4.7",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": "5.2"
+            "stable-kf5-qt5": "5.3"
         },
         "extragear/kdevelop/utilities/kdevelop-pg-qt": {
             "stable-qt4": "1.1",
@@ -1104,13 +1104,13 @@
             "stable-qt4": "1.7",
             "latest-qt4": "1.7",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": "5.2"
+            "stable-kf5-qt5": "5.3"
         },
         "extragear/kdevelop/plugins/kdev-python": {
             "stable-qt4": "1.7",
             "latest-qt4": "1.7-py3",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": "5.2"
+            "stable-kf5-qt5": "5.3"
         },
         "playground/devtools/plugins/kdev-clang-tidy": {
             "stable-qt4": "",
