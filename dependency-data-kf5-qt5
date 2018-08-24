@@ -1256,7 +1256,6 @@ extragear/utils/plasma-mycroft: frameworks/knotifications
 ### KDevelop ###
 
 # KDevelop main application
-extragear/kdevelop/kdevelop: kde/kdenetwork/kio-extras
 extragear/kdevelop/kdevelop: kde/kdesdk/libkomparediff2
 extragear/kdevelop/kdevelop: extragear/utils/okteta
 extragear/kdevelop/kdevelop: kde/workspace/libksysguard
