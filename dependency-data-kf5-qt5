@@ -46,6 +46,7 @@ frameworks/kpackage: frameworks/ki18n
 frameworks/qqc2-desktop-style: frameworks/kirigami
 frameworks/qqc2-desktop-style: frameworks/kiconthemes
 frameworks/qqc2-desktop-style: frameworks/kconfigwidgets
+frameworks/syndication: frameworks/kcodecs
 
 # Frameworks, tier3
 frameworks/kbookmarks: frameworks/kconfigwidgets
