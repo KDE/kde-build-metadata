@@ -562,7 +562,7 @@ kde/pim/kidentitymanagement: kde/pim/kpimtextedit
 
 # KBlog
 kde/pim/kblog: kde/pim/kcalcore
-kde/pim/kblog: kde/pim/syndication
+kde/pim/kblog: frameworks/syndication
 
 # KMbox
 kde/pim/kmbox: kde/pim/kmime
@@ -796,7 +796,7 @@ kde/pim/akregator: kde/pim/libkdepim
 kde/pim/akregator: kde/pim/libkleo
 kde/pim/akregator: kde/pim/messagelib
 kde/pim/akregator: kde/pim/pimcommon
-kde/pim/akregator: kde/pim/syndication
+kde/pim/akregator: frameworks/syndication
 
 # KAlarm
 kde/pim/kalarm: frameworks/kholidays
@@ -1194,7 +1194,7 @@ extragear/network/konversation: kdesupport/qca
 extragear/network/choqok: kdesupport/qca
 extragear/network/libktorrent: kdesupport/qca
 extragear/network/ktorrent: extragear/network/libktorrent
-extragear/network/ktorrent: kde/pim/syndication
+extragear/network/ktorrent: frameworks/syndication
 extragear/network/kdeconnect-kde: kdesupport/qca
 
 # Extragear Office
