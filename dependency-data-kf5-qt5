@@ -1097,6 +1097,10 @@ kde/kdeedu/minuet: frameworks/ki18n
 kde/kdeedu/minuet: frameworks/kcrash
 kde/kdeedu/minuet: frameworks/kdoctools
 
+# GCompris
+extragear/edu/gcompris: -frameworks/kf5umbrella
+extragear/edu/gcompris: frameworks/kdoctools
+
 # KDE Network!
 # KGet
 kde/kdenetwork/kget: kdesupport/qca
