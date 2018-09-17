@@ -636,6 +636,7 @@ kde/pim/libksieve: kde/pim/kmime
 kde/pim/libksieve: kde/pim/kpimtextedit
 kde/pim/libksieve: kde/pim/libkdepim
 kde/pim/libksieve: kde/pim/pimcommon
+kde/pim/libksieve: frameworks/kpeople
 
 # Calendar Support
 kde/pim/calendarsupport: frameworks/kholidays
