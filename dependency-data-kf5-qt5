@@ -629,6 +629,7 @@ kde/pim/libkdepim: kde/pim/kcontacts
 kde/pim/libkdepim: kde/pim/kldap
 
 # Sieve handling libraries
+kde/pim/libksieve: frameworks/purpose
 kde/pim/libksieve: kde/pim/kidentitymanagement
 kde/pim/libksieve: kde/pim/kimap
 kde/pim/libksieve: kde/pim/kmailtransport
@@ -636,7 +637,6 @@ kde/pim/libksieve: kde/pim/kmime
 kde/pim/libksieve: kde/pim/kpimtextedit
 kde/pim/libksieve: kde/pim/libkdepim
 kde/pim/libksieve: kde/pim/pimcommon
-kde/pim/libksieve: frameworks/kpeople
 
 # Calendar Support
 kde/pim/calendarsupport: frameworks/kholidays
