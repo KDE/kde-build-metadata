@@ -1298,6 +1298,10 @@ playground/pim/kube: kde/pim/kmime
 playground/pim/kube: kde/pim/kcontacts
 playground/pim/kube: kde/pim/messagelib
 
+# playground/libs/mauikit: -frameworks/kf5umbrella
+# playground/multimedia/vvave: -frameworks/kf5umbrella
+playground/multimedia/vvave: playground/libs/mauikit
+
 ### KDE Review ###
 
 kdereview/kdots: kde/kdegames/libkdegames
