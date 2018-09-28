@@ -1377,7 +1377,7 @@
         "kde/kdemultimedia/kdenlive": {
             "stable-qt4": "",
             "latest-qt4": "",
-            "kf5-qt5": "master",
+            "kf5-qt5": "refactoring_timeline",
             "stable-kf5-qt5": "Applications/18.08"
         },
         "kde/kdemultimedia/kwave": {
