@@ -590,6 +590,7 @@ kde/pim/itinerary: kde/pim/kitinerary
 kde/pim/libgravatar: kde/pim/pimcommon
 
 # KDE PIM Common Components
+kde/pim/pimcommon: frameworks/purpose
 kde/pim/pimcommon: kde/pim/akonadi
 kde/pim/pimcommon: kde/pim/akonadi-contacts
 kde/pim/pimcommon: kde/pim/kcontacts
