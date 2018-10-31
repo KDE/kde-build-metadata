@@ -506,6 +506,10 @@ kde/applications/dolphin: kde/applications/baloo-widgets
 # Konsole
 kde/applications/konsole: kdesupport/phonon/phonon
 
+# Accessibility!
+# KMag
+kde/kdeaccessibility/kmag: playground/accessibility/libqaccessibilityclient[master]
+
 # KDE Utils!
 # KGpg
 kde/kdeutils/kgpg: kde/pim/akonadi-contacts
