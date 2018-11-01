@@ -163,11 +163,11 @@
             "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         },
-        "playground/accessibility/libqaccessibilityclient": {
+        "kdereview/libqaccessibilityclient": {
             "stable-qt4": "master",
             "latest-qt4": "master",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": ""
+            "stable-kf5-qt5": "master"
         },
         "frameworks/baloo" : {
             "stable-qt4": "KDE/4.14",
