@@ -508,7 +508,7 @@ kde/applications/konsole: kdesupport/phonon/phonon
 
 # Accessibility!
 # KMag
-kde/kdeaccessibility/kmag: playground/accessibility/libqaccessibilityclient[master]
+kde/kdeaccessibility/kmag: kdereview/libqaccessibilityclient
 
 # KDE Utils!
 # KGpg
