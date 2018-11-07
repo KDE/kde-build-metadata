@@ -989,6 +989,7 @@ kde/kdegames/kmahjongg: kde/kdegames/libkdegames
 kde/kdegames/kmines: kde/kdegames/libkdegames
 kde/kdegames/knavalbattle: kde/kdegames/libkdegames
 kde/kdegames/knetwalk: kde/kdegames/libkdegames
+kde/kdegames/knights: kde/kdegames/libkdegames
 kde/kdegames/kolf: kde/kdegames/libkdegames
 kde/kdegames/kollision: kde/kdegames/libkdegames
 kde/kdegames/konquest: kde/kdegames/libkdegames
@@ -1175,7 +1176,6 @@ kde/kdebindings/ruby/qtruby: kde/kdebindings/smoke/smokegen
 ### Extragear ###
 
 # Extragear Games
-extragear/games/knights: kde/kdegames/libkdegames
 
 # Extragear Graphics
 extragear/graphics/kipi-plugins: kde/kdegraphics/libs/libkipi
