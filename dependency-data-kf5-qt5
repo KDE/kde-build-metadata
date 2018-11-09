@@ -1278,16 +1278,20 @@ playground/devtools/plugins/kdev-xdebug: playground/devtools/plugins/kdev-execut
 ### Calligra ###
 
 # Calligra - Main Suite
-calligra/calligra: frameworks/kholidays
 calligra/calligra: extragear/graphics/kdiagram
 calligra/calligra: kde/pim/kcalcore
 calligra/calligra: kde/pim/kcontacts
 calligra/calligra: kde/pim/akonadi
-calligra/calligra: kde/pim/akonadi-contacts
 calligra/calligra: kde/kdeedu/marble
 calligra/calligra: kde/kdegraphics/okular
 calligra/calligra: kdesupport/qca
 calligra/calligra: kdesupport/phonon/phonon
+
+# calligraplan
+calligra/calligra: frameworks/kholidays
+calligra/calligra: extragear/graphics/kdiagram
+calligra/calligra: kde/pim/kcalcore
+calligra/calligra: kde/pim/akonadi-contacts
 
 # Kexi
 calligra/kexi: extragear/libs/kdb

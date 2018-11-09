@@ -1422,6 +1422,10 @@
             "kf5-qt5": "master",
             "stable-kf5-qt5": "calligra/3.1"
         },
+        "calligra/calligraplan": {
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
+        },
         "calligra/kexi-extras": {
             "stable-qt4": "",
             "latest-qt4": "",
