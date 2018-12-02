@@ -1224,6 +1224,12 @@ extragear/office/tellico: kde/kdegraphics/libs/libksane
 extragear/office/tellico: kde/kdemultimedia/libkcddb
 extragear/office/tellico: frameworks/kfilemetadata
 extragear/office/alkimia: -frameworks/kf5umbrella
+extragear/office/alkimia: frameworks/kconfig
+extragear/office/alkimia: frameworks/kcoreaddons
+extragear/office/alkimia: frameworks/knewstuff
+extragear/office/alkimia: frameworks/kpackage
+extragear/office/alkimia: frameworks/plasma-framework
+extragear/office/alkimia: frameworks/kdelibs4support
 extragear/office/kile: kde/kdegraphics/okular
 extragear/office/kbibtex: kdesupport/qca
 
