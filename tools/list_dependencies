@@ -144,7 +144,7 @@ class KDEDependencies:
 
         # Look for match everything up to [, then [,
         # then match to end of line and find the last ]
-        result = re.search('(^[^[]*)[[](.*)]$', item)
+        result = re.search('(^[^\[]*)[\[](.*)]$', item)
         if result:
             return result.group(1), result.group(2)
         else:
