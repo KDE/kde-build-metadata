@@ -503,9 +503,9 @@
         },
         "kde/kdetoys/amor" : {
             "stable-qt4": "Applications/15.08",
-            "latest-qt4": "master",
-            "kf5-qt5": "",
-            "stable-kf5-qt5": ""
+            "latest-qt4": "qt4",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "master"
         },
         "kde/kdetoys/ktux" : {
             "stable-qt4": "Applications/15.08",
