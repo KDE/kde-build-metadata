@@ -1436,7 +1436,7 @@
             "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": "3.1"
+            "stable-kf5-qt5": "3.2"
         },
         "frameworks/attica": {
             "stable-qt4": "qt4",
@@ -1541,19 +1541,19 @@
             "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": "3.1"
+            "stable-kf5-qt5": "3.2"
         },
         "extragear/libs/kreport" : {
             "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": "3.1"
+            "stable-kf5-qt5": "3.2"
         },
         "extragear/libs/kdb" : {
             "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": "3.1"
+            "stable-kf5-qt5": "3.2"
         },
         "playground/libs/libqgit2" : {
             "stable-qt4": "master",
