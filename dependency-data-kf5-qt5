@@ -1195,6 +1195,7 @@ extragear/graphics/digikam: kde/pim/akonadi-contacts
 extragear/graphics/digikam: kde/pim/akonadi # I believe this is it wants for akonadi contacts
 extragear/graphics/digikam/digikam-doc: extragear/graphics/digikam
 
+# Extragear Libraries
 extragear/libs/kreport: extragear/libs/kproperty
 
 # Extragear Multimedia
