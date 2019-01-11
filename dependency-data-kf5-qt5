@@ -492,6 +492,9 @@ kde/workspace/plasma-tests: kde/workspace/plasma-desktop
 # System settings
 kde/workspace/systemsettings:kde/workspace/plasma-workspace
 
+# Breeze GTK
+kde/workspace/breeze-gtk:kde/workspace/breeze
+
 ### Main Applications ###
 
 # General Applications!
