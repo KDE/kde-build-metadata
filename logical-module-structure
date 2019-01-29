@@ -2098,7 +2098,7 @@
             "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": "1.4"
+            "stable-kf5-qt5": "1.5"
         },
         "kde/kdegames/kigo": {
             "stable-qt4": "Applications/17.04",
