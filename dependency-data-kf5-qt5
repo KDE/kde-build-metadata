@@ -29,6 +29,7 @@ frameworks/kdoctools: frameworks/karchive
 frameworks/kdoctools: frameworks/ki18n
 frameworks/kfilemetadata: frameworks/ki18n
 frameworks/kfilemetadata: frameworks/karchive
+frameworks/kfilemetadata: frameworks/kcoreaddons
 frameworks/kimageformats: frameworks/karchive
 frameworks/kjobwidgets: frameworks/kcoreaddons
 frameworks/kjobwidgets: frameworks/kwidgetsaddons
