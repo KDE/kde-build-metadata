@@ -575,24 +575,49 @@ kde/pim/kidentitymanagement: kde/pim/kpimtextedit
 kde/pim/kblog: kde/pim/kcalcore
 kde/pim/kblog: frameworks/syndication
 
+# KContacts
+kde/pim/kcontacts: -frameworks/kf5umbrella
+kde/pim/kcontacts: frameworks/kcoreaddons
+kde/pim/kcontacts: frameworks/ki18n
+kde/pim/kcontacts: frameworks/kconfig
+kde/pim/kcontacts: frameworks/kcodecs
+
+# KMime
+kde/pim/kmime: -frameworks/kf5umbrella
+kde/pim/kmime: frameworks/kcodecs
+kde/pim/kmime: frameworks/ki18n
+
 # KMbox
 kde/pim/kmbox: kde/pim/kmime
+
+# KPkPass
+kde/pim/kpkpass: -frameworks/kf5umbrella
+kde/pim/kpkpass: frameworks/karchive
 
 # KTNEF
 kde/pim/ktnef: kde/pim/kcalcore
 kde/pim/ktnef: kde/pim/kcalutils
 kde/pim/ktnef: kde/pim/kcontacts
 
+# KCalCore
+kde/pim/kcalcore: -frameworks/kf5umbrella
+
 # KCalUtils
 kde/pim/kcalutils: kde/pim/kcalcore
 kde/pim/kcalutils: kde/pim/kidentitymanagement
 
 # KItinerary
+kde/pim/kitinerary: -frameworks/kf5umbrella
+kde/pim/kitinerary: frameworks/ki18n
 kde/pim/kitinerary: kde/pim/kcalcore
 kde/pim/kitinerary: kde/pim/kmime
 kde/pim/kitinerary: kde/pim/kpkpass
 kde/pim/kitinerary: kde/pim/kcontacts
 
+kde/pim/itinerary: -frameworks/kf5umbrella
+kde/pim/itinerary: frameworks/kholidays
+kde/pim/itinerary: frameworks/kirigami
+kde/pim/itinerary: frameworks/knotifications
 kde/pim/itinerary: frameworks/prison
 kde/pim/itinerary: kde/pim/kitinerary
 
