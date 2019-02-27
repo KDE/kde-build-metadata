@@ -614,12 +614,15 @@ kde/pim/kitinerary: kde/pim/kmime
 kde/pim/kitinerary: kde/pim/kpkpass
 kde/pim/kitinerary: kde/pim/kcontacts
 
-kde/pim/itinerary: -frameworks/kf5umbrella
-kde/pim/itinerary: frameworks/kholidays
-kde/pim/itinerary: frameworks/kirigami
-kde/pim/itinerary: frameworks/knotifications
-kde/pim/itinerary: frameworks/prison
-kde/pim/itinerary: kde/pim/kitinerary
+playground/pim/kpublictransport: -framework/kf5umbrella
+
+playground/pim/itinerary: -frameworks/kf5umbrella
+playground/pim/itinerary: frameworks/kholidays
+playground/pim/itinerary: frameworks/kirigami
+playground/pim/itinerary: frameworks/knotifications
+playground/pim/itinerary: frameworks/prison
+playground/pim/itinerary: playground/pim/kpublictransport
+playground/pim/itinerary: kde/pim/kitinerary
 
 # Gravatar support libraries
 kde/pim/libgravatar: kde/pim/pimcommon
