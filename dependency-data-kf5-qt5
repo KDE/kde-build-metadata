@@ -514,7 +514,7 @@ kde/applications/konsole: kdesupport/phonon/phonon
 
 # Accessibility!
 # KMag
-kde/kdeaccessibility/kmag: kdereview/libqaccessibilityclient
+kde/kdeaccessibility/kmag: extragear/libs/libqaccessibilityclient
 
 # KDE Utils!
 # KGpg
