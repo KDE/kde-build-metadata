@@ -1362,8 +1362,6 @@ playground/multimedia/vvave: playground/libs/mauikit
 
 ### KDE Review ###
 
-kdereview/kdots: kde/kdegames/libkdegames
-
 ### Global Rules ###
 # This section is not to be modified under any circumstances
 # Unless previously discussed with bcooksley and mpyne
