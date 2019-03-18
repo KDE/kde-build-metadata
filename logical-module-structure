@@ -1360,7 +1360,7 @@
             "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": "Applications/18.12"
+            "stable-kf5-qt5": "Applications/19.04"
         },
         "kde/kdemultimedia/kwave": {
             "stable-qt4": "",
