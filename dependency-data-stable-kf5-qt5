@@ -15,6 +15,7 @@
 # Everything needs Qt 5 and ECM
 *: Qt5
 *: frameworks/extra-cmake-modules
+Qt5: -frameworks/extra-cmake-modules
 
 ### Frameworks ###
 
@@ -64,6 +65,7 @@ frameworks/kcmutils: frameworks/kiconthemes
 frameworks/kcmutils: frameworks/kservice
 frameworks/kcmutils: frameworks/kxmlgui
 frameworks/kcmutils: frameworks/kdeclarative
+frameworks/kcmutils: frameworks/kauth
 frameworks/kconfigwidgets: frameworks/kauth
 frameworks/kconfigwidgets: frameworks/kcoreaddons
 frameworks/kconfigwidgets: frameworks/kcodecs
@@ -495,7 +497,7 @@ kde/workspace/plasma-tests: kde/workspace/plasma-desktop
 kde/workspace/systemsettings:kde/workspace/plasma-workspace
 
 # Breeze GTK
-kde/workspace/breeze-gtk: kde/workspace/breeze
+kde/workspace/breeze-gtk:kde/workspace/breeze
 
 ### Main Applications ###
 
@@ -613,8 +615,15 @@ kde/pim/kitinerary: kde/pim/kmime
 kde/pim/kitinerary: kde/pim/kpkpass
 kde/pim/kitinerary: kde/pim/kcontacts
 
-kde/pim/itinerary: frameworks/prison
-kde/pim/itinerary: kde/pim/kitinerary
+playground/pim/kpublictransport: -framework/kf5umbrella
+
+playground/pim/itinerary: -frameworks/kf5umbrella
+playground/pim/itinerary: frameworks/kholidays
+playground/pim/itinerary: frameworks/kirigami
+playground/pim/itinerary: frameworks/knotifications
+playground/pim/itinerary: frameworks/prison
+playground/pim/itinerary: playground/pim/kpublictransport
+playground/pim/itinerary: kde/pim/kitinerary
 
 # Gravatar support libraries
 kde/pim/libgravatar: kde/pim/pimcommon
@@ -1251,6 +1260,12 @@ extragear/office/tellico: kde/kdegraphics/libs/libksane
 extragear/office/tellico: kde/kdemultimedia/libkcddb
 extragear/office/tellico: frameworks/kfilemetadata
 extragear/office/alkimia: -frameworks/kf5umbrella
+extragear/office/alkimia: frameworks/kconfig
+extragear/office/alkimia: frameworks/kcoreaddons
+extragear/office/alkimia: frameworks/knewstuff
+extragear/office/alkimia: frameworks/kpackage
+extragear/office/alkimia: frameworks/plasma-framework
+extragear/office/alkimia: frameworks/kdelibs4support
 extragear/office/kile: kde/kdegraphics/okular
 extragear/office/kbibtex: kdesupport/qca
 
@@ -1273,6 +1288,14 @@ extragear/sysadmin/partitionmanager: extragear/sysadmin/kpmcore
 extragear/sysadmin/apper: kde/workspace/plasma-workspace
 
 # Extragear Utils
+extragear/utils/keurocalc: frameworks/kconfig
+extragear/utils/keurocalc: frameworks/kconfigwidgets
+extragear/utils/keurocalc: frameworks/kcoreaddons
+extragear/utils/keurocalc: frameworks/kdoctools
+extragear/utils/keurocalc: frameworks/ki18n
+extragear/utils/keurocalc: frameworks/kio
+extragear/utils/keurocalc: frameworks/kwidgetaddons
+extragear/utils/keurocalc: frameworks/kxmlgui
 extragear/utils/yakuake: kde/applications/konsole
 extragear/utils/plasma-mycroft: frameworks/kcoreaddons
 extragear/utils/plasma-mycroft: frameworks/plasma-framework
@@ -1297,16 +1320,20 @@ playground/devtools/plugins/kdev-xdebug: playground/devtools/plugins/kdev-execut
 ### Calligra ###
 
 # Calligra - Main Suite
-calligra/calligra: frameworks/kholidays
 calligra/calligra: extragear/graphics/kdiagram
 calligra/calligra: kde/pim/kcalcore
 calligra/calligra: kde/pim/kcontacts
 calligra/calligra: kde/pim/akonadi
-calligra/calligra: kde/pim/akonadi-contacts
 calligra/calligra: kde/kdeedu/marble
 calligra/calligra: kde/kdegraphics/okular
 calligra/calligra: kdesupport/qca
 calligra/calligra: kdesupport/phonon/phonon
+
+# calligraplan
+calligra/calligraplan: frameworks/kholidays
+calligra/calligraplan: extragear/graphics/kdiagram
+calligra/calligraplan: kde/pim/kcalcore
+calligra/calligraplan: kde/pim/akonadi-contacts
 
 # Kexi
 calligra/kexi: extragear/libs/kdb
@@ -1329,6 +1356,10 @@ playground/pim/kube: playground/pim/sink
 playground/pim/kube: kde/pim/kmime
 playground/pim/kube: kde/pim/kcontacts
 playground/pim/kube: kde/pim/messagelib
+
+# playground/libs/mauikit: -frameworks/kf5umbrella
+# playground/multimedia/vvave: -frameworks/kf5umbrella
+playground/multimedia/vvave: playground/libs/mauikit
 
 ### KDE Review ###
 
