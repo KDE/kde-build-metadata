@@ -13,11 +13,32 @@
 # Don't bother listing frameworks or Qt as dependencies - they're handled automatically
 
 # Everything needs Qt 5 and ECM
-*: Qt5
+*: third-party/Qt5
 *: frameworks/extra-cmake-modules
-Qt5: -frameworks/extra-cmake-modules
+
+#
+# Well, almost: not everything actually needs ECM
+#
+third-party/Qt5: -frameworks/extra-cmake-modules
+third-party/libdbusmenu-qt: -frameworks/extra-cmake-modules
+third-party/libgpg-error: -frameworks/extra-cmake-modules
+third-party/taglib: -frameworks/extra-cmake-modules
+third-party/grantlee: -frameworks/extra-cmake-modules
+third-party/telepathy-qt: -frameworks/extra-cmake-modules
+third-party/telepathy-accounts-signon: -frameworks/extra-cmake-modules
+kdesupport/qca: -frameworks/extra-cmake-modules
+
+#
+# And a few things don't even need Qt
+#
+third-party/libgpg-error: -third-party/Qt5
+third-party/taglib: -third-party/Qt5
+third-party/telepathy-accounts-signon: -third-party/Qt5
 
 ### Frameworks ###
+
+# Frameworks, tier1
+frameworks/syntax-highlighting: third-party/taglib
 
 # Frameworks, tier2
 frameworks/kauth: frameworks/kcoreaddons
@@ -31,6 +52,7 @@ frameworks/kdoctools: frameworks/ki18n
 frameworks/kfilemetadata: frameworks/ki18n
 frameworks/kfilemetadata: frameworks/karchive
 frameworks/kfilemetadata: frameworks/kcoreaddons
+frameworks/kfilemetadata: third-party/taglib
 frameworks/kimageformats: frameworks/karchive
 frameworks/kjobwidgets: frameworks/kcoreaddons
 frameworks/kjobwidgets: frameworks/kwidgetsaddons
@@ -43,6 +65,7 @@ frameworks/knotifications: frameworks/kconfig
 frameworks/knotifications: frameworks/kcodecs
 frameworks/knotifications: frameworks/kcoreaddons
 frameworks/knotifications: kdesupport/phonon/phonon
+frameworks/knotifications: third-party/libdbusmenu-qt
 frameworks/kpackage: frameworks/karchive
 frameworks/kpackage: frameworks/kcoreaddons
 frameworks/kpackage: frameworks/ki18n
@@ -213,6 +236,7 @@ frameworks/kwallet: frameworks/knotifications
 frameworks/kwallet: frameworks/kservice
 frameworks/kwallet: frameworks/kwindowsystem
 frameworks/kwallet: frameworks/kwidgetsaddons
+frameworks/kwallet: third-party/gpgme
 frameworks/kactivities: frameworks/kconfig
 frameworks/kactivities: frameworks/kwindowsystem
 frameworks/kactivities: frameworks/kcoreaddons
@@ -311,6 +335,8 @@ frameworks/kdelibs4support: frameworks/knotifications
 frameworks/kdelibs4support: frameworks/kparts
 frameworks/kdelibs4support: frameworks/kdesignerplugin
 frameworks/kdelibs4support: frameworks/kglobalaccel
+frameworks/kdelibs4support: third-party/taglib
+frameworks/kdelibs4support: kdesupport/polkit-qt-1
 frameworks/krunner: frameworks/solid
 frameworks/krunner: frameworks/kio
 frameworks/krunner: frameworks/kconfig
@@ -522,6 +548,12 @@ kde/kdeaccessibility/kmag: extragear/libs/libqaccessibilityclient
 kde/kdeutils/kgpg: kde/pim/akonadi-contacts
 
 # KDE PIM!
+
+kde/pim/kpimtextedit: third-party/grantlee
+kde/pim/pimcommon: third-party/grantlee
+kde/pim/grantleetheme: third-party/grantlee
+kde/pim/kcalutils: third-party/grantlee
+
 # Akonadi Calendar
 kde/pim/akonadi-calendar: kde/pim/akonadi
 kde/pim/akonadi-calendar: kde/pim/akonadi-contacts
@@ -712,6 +744,7 @@ kde/pim/kdepim-apps-libs: kde/pim/grantleetheme
 kde/pim/kdepim-apps-libs: kde/pim/kcontacts
 kde/pim/kdepim-apps-libs: kde/pim/libkleo
 kde/pim/kdepim-apps-libs: kde/pim/pimcommon
+kde/pim/kdepim-apps-libs: third-party/grantlee
 
 # Common mail handling libraries
 kde/pim/mailcommon: kde/pim/akonadi
@@ -741,6 +774,7 @@ kde/pim/messagelib: kde/pim/libgravatar
 kde/pim/messagelib: kde/pim/libkdepim
 kde/pim/messagelib: kde/pim/libkleo
 kde/pim/messagelib: kde/pim/pimcommon
+kde/pim/messagelib: third-party/grantlee
 
 # KMail
 kde/pim/kmail: kde/pim/akonadi
@@ -776,6 +810,7 @@ kde/pim/kaddressbook: kde/pim/kpimtextedit
 kde/pim/kaddressbook: kde/pim/libkdepim
 kde/pim/kaddressbook: kde/pim/libkleo
 kde/pim/kaddressbook: kde/pim/pimcommon
+kde/pim/kaddressbook: third-party/grantlee
 
 # KNotes
 kde/pim/knotes: kde/pim/akonadi
@@ -787,6 +822,7 @@ kde/pim/knotes: kde/pim/kontactinterface
 kde/pim/knotes: kde/pim/kpimtextedit
 kde/pim/knotes: kde/pim/libkdepim
 kde/pim/knotes: kde/pim/pimcommon
+kde/pim/knotes: third-party/grantlee
 
 # Akonadiconsole
 kde/pim/akonadiconsole: kde/pim/akonadi
@@ -838,6 +874,7 @@ kde/pim/akregator: kde/pim/libkleo
 kde/pim/akregator: kde/pim/messagelib
 kde/pim/akregator: kde/pim/pimcommon
 kde/pim/akregator: frameworks/syndication
+kde/pim/akregator: third-party/grantlee
 
 # KAlarm
 kde/pim/kalarm: frameworks/kholidays
@@ -901,6 +938,7 @@ kde/pim/grantlee-editor: kde/pim/kpimtextedit
 kde/pim/grantlee-editor: kde/pim/libkleo
 kde/pim/grantlee-editor: kde/pim/messagelib
 kde/pim/grantlee-editor: kde/pim/pimcommon
+kde/pim/grantlee-editor: third-party/grantlee
 
 # Kontact
 kde/pim/kontact: kde/pim/akonadi
@@ -909,6 +947,7 @@ kde/pim/kontact: kde/pim/kdepim-apps-libs
 kde/pim/kontact: kde/pim/kontactinterface
 kde/pim/kontact: kde/pim/kpimtextedit
 kde/pim/kontact: kde/pim/libkdepim
+kde/pim/kontact: third-party/grantlee
 
 # Akonadi Import Wizard
 kde/pim/akonadi-import-wizard: kde/pim/akonadi
@@ -948,6 +987,7 @@ kde/pim/kdepim-runtime: kde/pim/kmbox
 kde/pim/kdepim-runtime: kde/pim/kmime
 kde/pim/kdepim-runtime: kde/pim/libkgapi
 kde/pim/kdepim-runtime: kde/pim/pimcommon
+kde/pim/kdepim-runtime: third-party/libkolab
 
 # PIM Addons
 kde/pim/kdepim-addons: kde/pim/akonadi
@@ -976,6 +1016,7 @@ kde/pim/kdepim-addons: kde/pim/messagelib
 kde/pim/kdepim-addons: kde/pim/pimcommon
 kde/pim/kdepim-addons: kde/pim/kpkpass
 kde/pim/kdepim-addons: kde/pim/kitinerary
+kde/pim/kdepim-addons: third-party/grantlee
 
 # KSmtp libraries
 kde/pim/ksmtp: kde/pim/kmime
@@ -1127,6 +1168,9 @@ kde/kdeedu/minuet: frameworks/ki18n
 kde/kdeedu/minuet: frameworks/kcrash
 kde/kdeedu/minuet: frameworks/kdoctools
 
+# Rocs
+kde/kdeedu/rocs: third-party/grantlee
+
 # GCompris
 extragear/edu/gcompris: -frameworks/kf5umbrella
 extragear/edu/gcompris: frameworks/kdoctools
@@ -1144,6 +1188,8 @@ kde/kdenetwork/kopete: kde/pim/libkleo
 
 # KDE Telepathy - Common Internals
 kde/kdenetwork/ktp-common-internals: kde/kdenetwork/kaccounts-integration
+kde/kdenetwork/ktp-common-internals: third-party/telepathy-qt
+kde/kdenetwork/ktp-common-internals: third-party/telepathy-accounts-signon
 
 # KDE Telepathy - Common Dependencies for all
 kde/kdenetwork/ktp*: kde/kdenetwork/ktp-common-internals
@@ -1155,12 +1201,14 @@ kde/kdenetwork/ktp-kded-module: kde/kdenetwork/ktp-common-internals
 kde/kdenetwork/ktp-auth-handler: kde/kdenetwork/ktp-common-internals
 kde/kdenetwork/ktp-auth-handler: kdesupport/qca
 kde/kdenetwork/ktp-auth-handler: kde/kdenetwork/kaccounts-integration
+kde/kdenetwork/ktp-auth-handler: third-party/telepathy-qt
 
 # KDE Telepathy Call UI
 kde/kdenetwork/ktp-call-ui: kde/kdenetwork/ktp-common-internals
 
 # KDE Telepathy Contact List
 kde/kdenetwork/ktp-contact-list: kde/kdenetwork/ktp-common-internals
+kde/kdenetwork/ktp-contact-list: third-party/telepathy-qt
 
 # KDE Telepathy File Transfer Handler
 kde/kdenetwork/ktp-filetransfer-handler: kde/kdenetwork/ktp-common-internals
@@ -1177,6 +1225,7 @@ kde/kdenetwork/ktp-contact-runner: kde/kdenetwork/ktp-common-internals
 # KDE Telepathy - Accounts KCM
 kde/kdenetwork/ktp-accounts-kcm: kde/kdenetwork/ktp-common-internals
 kde/kdenetwork/ktp-accounts-kcm: kde/kdenetwork/kaccounts-integration
+kde/kdenetwork/ktp-accounts-kcm: third-party/telepathy-qt
 
 # KDE Telepathy - Desktop Applet
 kde/kdenetwork/ktp-desktop-applets: kde/kdenetwork/ktp-common-internals
@@ -1304,7 +1353,10 @@ extragear/utils/plasma-mycroft: frameworks/knotifications
 
 ### KDevelop ###
 
+extragear/kdevelop/kdevplatform: third-party/grantlee
+
 # KDevelop main application
+extragear/kdevelop/kdevelop: extragear/kdevelop/kdevplatform
 extragear/kdevelop/kdevelop: kde/kdesdk/libkomparediff2
 extragear/kdevelop/kdevelop: extragear/utils/okteta
 extragear/kdevelop/kdevelop: kde/workspace/libksysguard
@@ -1360,6 +1412,11 @@ playground/pim/kube: kde/pim/messagelib
 # playground/libs/mauikit: -frameworks/kf5umbrella
 # playground/multimedia/vvave: -frameworks/kf5umbrella
 playground/multimedia/vvave: playground/libs/mauikit
+
+
+### Kolab ###
+
+third-party/libkolab: frameworks/kf5umbrella
 
 ### KDE Review ###
 

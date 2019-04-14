@@ -19,3 +19,6 @@ kdesupport/phonon/phonon-quicktime: kdesupport/phonon/phonon
 kdesupport/phonon/phonon-vlc: kdesupport/phonon/phonon
 kdesupport/phonon/phonon-waveout: kdesupport/phonon/phonon
 kdesupport/phonon/phonon-xine: kdesupport/phonon/phonon
+
+third-party/gpgme: third-party/libgpg-error
+third-party/libkolab: third-party/libkolabxml
