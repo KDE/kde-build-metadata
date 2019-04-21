@@ -987,7 +987,7 @@ kde/pim/kdepim-runtime: kde/pim/kmbox
 kde/pim/kdepim-runtime: kde/pim/kmime
 kde/pim/kdepim-runtime: kde/pim/libkgapi
 kde/pim/kdepim-runtime: kde/pim/pimcommon
-kde/pim/kdepim-runtime: third-party/libkolab
+kde/pim/kdepim-runtime: third-party/libkolabxml
 
 # PIM Addons
 kde/pim/kdepim-addons: kde/pim/akonadi
