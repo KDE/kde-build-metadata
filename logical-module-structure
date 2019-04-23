@@ -2178,7 +2178,7 @@
             "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         },
-        "kdereview/rkward": {
+        "playground/edu/rkward": {
             "stable-qt4": "releases/0.6.4",
             "latest-qt4": "releases/0.6.4",
             "kf5-qt5": "master",
