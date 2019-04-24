@@ -1069,6 +1069,9 @@ kde/kdegraphics/libs/libkgeomap: kde/kdegraphics/libs/libkexiv2
 kde/kdegraphics/libs/libkipi: kde/kdegraphics/libs/libkdcraw
 kde/kdegraphics/libs/libkipi: kde/kdegraphics/libs/libkexiv2
 
+# Kipi Plugins
+kde/kdegraphics/kipi-plugins: kde/kdegraphics/libs/libkipi
+
 # Peruse
 kde/kdegraphics/peruse: kde/kdegraphics/okular
 
@@ -1214,8 +1217,6 @@ kde/kdebindings/ruby/qtruby: kde/kdebindings/smoke/smokegen
 # Extragear Games
 
 # Extragear Graphics
-extragear/graphics/kipi-plugins: kde/kdegraphics/libs/libkipi
-extragear/graphics/kipi-plugins/kipi-plugins-doc: extragear/graphics/kipi-plugins
 extragear/graphics/skanlite: kde/kdegraphics/libs/libksane
 extragear/graphics/kphotoalbum: kde/kdeedu/marble
 extragear/graphics/kphotoalbum: kde/kdegraphics/libs/libkdcraw

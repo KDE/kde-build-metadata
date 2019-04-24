@@ -1992,7 +1992,7 @@
             "kf5-qt5": "master",
             "stable-kf5-qt5": "master"
         },
-        "extragear/graphics/kipi-plugins": {
+        "kde/kdegraphics/kipi-plugins": {
             "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master",
