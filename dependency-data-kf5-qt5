@@ -1357,7 +1357,6 @@ extragear/utils/plasma-mycroft: frameworks/knotifications
 extragear/kdevelop/kdevplatform: third-party/grantlee
 
 # KDevelop main application
-extragear/kdevelop/kdevelop: extragear/kdevelop/kdevplatform
 extragear/kdevelop/kdevelop: kde/kdesdk/libkomparediff2
 extragear/kdevelop/kdevelop: extragear/utils/okteta
 extragear/kdevelop/kdevelop: kde/workspace/libksysguard
