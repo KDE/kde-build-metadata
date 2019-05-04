@@ -823,6 +823,7 @@ kde/pim/knotes: kde/pim/kpimtextedit
 kde/pim/knotes: kde/pim/libkdepim
 kde/pim/knotes: kde/pim/pimcommon
 kde/pim/knotes: third-party/grantlee
+kde/pim/knotes: kde/pim/grantleetheme
 
 # Akonadiconsole
 kde/pim/akonadiconsole: kde/pim/akonadi
