@@ -1298,6 +1298,7 @@ extragear/network/libktorrent: kdesupport/qca
 extragear/network/ktorrent: extragear/network/libktorrent
 extragear/network/ktorrent: frameworks/syndication
 extragear/network/kdeconnect-kde: kdesupport/qca
+extragear/network/kdeconnect-kde: extragear/libs/pulseaudio-qt
 
 # Extragear Office
 extragear/office/kmymoney: extragear/graphics/kdiagram
