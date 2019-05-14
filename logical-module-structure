@@ -954,6 +954,12 @@
             "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         },
+        "extragear/libs/pulseaudio-qt": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "master"
+        },
         "extragear/office/alkimia": {
             "stable-qt4": "5.0",
             "latest-qt4": "5.0",
