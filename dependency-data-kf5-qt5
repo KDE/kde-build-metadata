@@ -1281,6 +1281,14 @@ extragear/graphics/digikam: kde/pim/akonadi-contacts
 extragear/graphics/digikam: kde/pim/akonadi # I believe this is it wants for akonadi contacts
 extragear/graphics/digikam/digikam-doc: extragear/graphics/digikam
 
+# Extragear Kaffeine
+extragear/multimedia/kaffeine: frameworks/oxygen-icons5
+extragear/multimedia/kaffeine: frameworks/kdoctools
+extragear/multimedia/kaffeine: frameworks/kxmlgui
+extragear/multimedia/kaffeine: frameworks/kio
+extragear/multimedia/kaffeine: frameworks/kwindowsystem
+extragear/multimedia/kaffeine: frameworks/kdbusaddons
+
 # Extragear Libraries
 extragear/libs/kreport: extragear/libs/kproperty
 
