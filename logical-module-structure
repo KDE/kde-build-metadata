@@ -1012,7 +1012,7 @@
             "stable-qt4": "1.1",
             "latest-qt4": "1.1",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": "2.0"
+            "stable-kf5-qt5": "2.2"
         },
         "extragear/multimedia/kaffeine": {
             "stable-qt4": "",
