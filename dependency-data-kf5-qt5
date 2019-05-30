@@ -1419,6 +1419,8 @@ playground/pim/kube: kde/pim/kmime
 playground/pim/kube: kde/pim/kcontacts
 playground/pim/kube: kde/pim/messagelib
 
+playground/pim/ktimetracker: kde/pim/kcalcore
+
 # playground/libs/mauikit: -frameworks/kf5umbrella
 # playground/multimedia/vvave: -frameworks/kf5umbrella
 playground/multimedia/vvave: playground/libs/mauikit
