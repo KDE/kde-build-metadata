@@ -923,6 +923,8 @@ kde/pim/pim-data-exporter: kde/pim/kpimtextedit
 kde/pim/pim-data-exporter: kde/pim/libkdepim
 kde/pim/pim-data-exporter: kde/pim/mailcommon
 kde/pim/pim-data-exporter: kde/pim/pimcommon
+kde/pim/pim-data-exporter: kde/pim/akonadi-notes
+kde/pim/pim-data-exporter: kde/pim/kcalcore
 
 # MBox Importer
 kde/pim/mbox-importer: kde/pim/akonadi
