@@ -658,19 +658,19 @@
             "stable-kf5-qt5": "Applications/19.04"
         },
         "kde/pim/libgravatar": {
-        	"stable-qt4": "",
+            "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/19.04"
         },
         "kde/pim/pimcommon": {
-        	"stable-qt4": "",
+            "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/19.04"
         },
         "kde/pim/libkdepim": {
-        	"stable-qt4": "",
+            "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Applications/19.04"
@@ -705,12 +705,6 @@
             "kf5-qt5": "develop",
             "stable-kf5-qt5": "master"
         },
-        "kde/pim/libgravatar": {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "Applications/19.04"
-        },
         "kde/pim/calendarsupport": {
             "stable-qt4": "",
             "latest-qt4": "",
@@ -735,12 +729,6 @@
             "kf5-qt5": "",
             "stable-kf5-qt5": "Applications/16.08"
         },
-        "kde/pim/libkdepim": {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "Applications/19.04"
-        },
         "kde/pim/libkleo": {
             "stable-qt4": "",
             "latest-qt4": "",
@@ -760,12 +748,6 @@
             "stable-kf5-qt5": "Applications/19.04"
         },
         "kde/pim/mailimporter": {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "Applications/19.04"
-        },
-        "kde/pim/pimcommon": {
             "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master",
@@ -2037,12 +2019,6 @@
         "extragear/base/atcore": {
             "stable-qt4": "",
             "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": ""
-        },
-        "extragear/office/kbibtex": {
-            "stable-qt4": "kbibtex/0.6",
-            "latest-qt4": "kbibtex/0.7",
             "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         },
