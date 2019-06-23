@@ -539,6 +539,7 @@ kde/applications/dolphin: kde/applications/baloo-widgets
 
 # Konsole
 kde/applications/konsole: kdesupport/phonon/phonon
+kde/applications/yakuake: kde/applications/konsole
 
 # Accessibility!
 # KMag
@@ -1359,7 +1360,6 @@ extragear/utils/keurocalc: frameworks/ki18n
 extragear/utils/keurocalc: frameworks/kio
 extragear/utils/keurocalc: frameworks/kwidgetaddons
 extragear/utils/keurocalc: frameworks/kxmlgui
-extragear/utils/yakuake: kde/applications/konsole
 extragear/utils/plasma-mycroft: frameworks/kcoreaddons
 extragear/utils/plasma-mycroft: frameworks/plasma-framework
 extragear/utils/plasma-mycroft: frameworks/ki18n
