@@ -155,6 +155,7 @@ kde/kdegraphics/ksaneplugin: kde/kdegraphics/libs/libksane
 kde/kdegraphics/kdegraphics-thumbnailers: kde/kdegraphics/libs/libkexiv2
 kde/kdegraphics/kdegraphics-thumbnailers: kde/kdegraphics/libs/libkdcraw
 kde/kdegraphics/gwenview: frameworks/baloo
+kde/kdegraphics/gwenview: frameworks/purpose
 kde/kdegraphics/gwenview: kde/applications/kde-baseapps
 kde/kdegraphics/gwenview: kde/kdegraphics/libs/libkexiv2
 kde/kdegraphics/gwenview: kde/kdegraphics/libs/libkipi
