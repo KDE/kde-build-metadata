@@ -1090,6 +1090,7 @@ kde/kdegames/picmi: kde/kdegames/libkdegames
 
 # KDE Graphics
 # Gwenview
+kde/kdegraphics/gwenview: frameworks/purpose
 kde/kdegraphics/gwenview: kde/kdegraphics/libs/libkdcraw
 kde/kdegraphics/gwenview: kde/kdegraphics/libs/libkipi
 kde/kdegraphics/gwenview: kde/kdenetwork/kio-extras
