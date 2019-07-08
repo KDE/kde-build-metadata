@@ -1398,7 +1398,6 @@ calligra/calligra: kdesupport/phonon/phonon
 # calligraplan
 calligra/calligraplan: frameworks/kholidays
 calligra/calligraplan: extragear/graphics/kdiagram
-calligra/calligraplan: kde/pim/akonadi-contacts
 
 # Kexi
 calligra/kexi: extragear/libs/kdb
