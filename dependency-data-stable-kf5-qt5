@@ -100,7 +100,6 @@ frameworks/kconfigwidgets: frameworks/kwidgetsaddons
 frameworks/kdesignerplugin: frameworks/kplotting
 frameworks/kdesignerplugin: frameworks/kdoctools
 frameworks/kdesignerplugin: frameworks/kio
-frameworks/kdesignerplugin: frameworks/kdewebkit
 frameworks/kemoticons: frameworks/karchive
 frameworks/kemoticons: frameworks/kservice
 frameworks/kjs: frameworks/kdoctools
@@ -214,6 +213,7 @@ frameworks/kdewebkit: frameworks/kwallet
 frameworks/kdewebkit: frameworks/kio
 frameworks/kdewebkit: frameworks/knotifications
 frameworks/kdewebkit: frameworks/kparts
+frameworks/kdewebkit: frameworks/kdesignerplugin
 frameworks/kdesu: frameworks/kcoreaddons
 frameworks/kdesu: frameworks/kservice
 frameworks/kdesu: frameworks/kpty
