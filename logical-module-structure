@@ -1000,7 +1000,7 @@
             "stable-qt4": "4.7",
             "latest-qt4": "4.7",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": "5.3"
+            "stable-kf5-qt5": "5.4"
         },
         "extragear/kdevelop/utilities/kdevelop-pg-qt": {
             "stable-qt4": "1.1",
@@ -1090,13 +1090,13 @@
             "stable-qt4": "1.7",
             "latest-qt4": "1.7",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": "5.3"
+            "stable-kf5-qt5": "5.4"
         },
         "extragear/kdevelop/plugins/kdev-python": {
             "stable-qt4": "1.7",
             "latest-qt4": "1.7-py3",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": "5.3"
+            "stable-kf5-qt5": "5.4"
         },
         "playground/devtools/plugins/kdev-executebrowser": {
             "stable-qt4": "1.7",
