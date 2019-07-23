@@ -438,7 +438,6 @@ frameworks/kf5umbrella: frameworks/kitemviews
 frameworks/kf5umbrella: frameworks/kirigami
 frameworks/kf5umbrella: frameworks/kimageformats
 frameworks/kf5umbrella: frameworks/kfilemetadata
-frameworks/kf5umbrella: frameworks/kdewebkit
 frameworks/kf5umbrella: frameworks/bluez-qt
 frameworks/kf5umbrella: frameworks/baloo
 frameworks/kf5umbrella: frameworks/modemmanager-qt
@@ -1269,6 +1268,9 @@ kde/kdebindings/ruby/qtruby: kde/kdebindings/smoke/smokegen
 
 ### Extragear ###
 
+# Extragear Base
+extragear/base/kwebkitpart: frameworks/kdewebkit
+
 # Extragear Games
 
 # Extragear Graphics
@@ -1296,6 +1298,7 @@ extragear/multimedia/kaffeine: frameworks/kdbusaddons
 
 # Extragear Libraries
 extragear/libs/kreport: extragear/libs/kproperty
+extragear/libs/libkvkontakte: frameworks/kdewebkit
 
 # Extragear Multimedia
 extragear/multimedia/kaudiocreator: kde/kdemultimedia/libkcddb
@@ -1307,16 +1310,20 @@ extragear/network/kio-gdrive: kde/pim/libkgapi
 extragear/network/kio-gdrive: kde/kdenetwork/kaccounts-integration
 extragear/network/konversation: kdesupport/qca
 extragear/network/choqok: kdesupport/qca
+extragear/network/choqok: frameworks/kdewebkit
 extragear/network/libktorrent: kdesupport/qca
 extragear/network/ktorrent: extragear/network/libktorrent
 extragear/network/ktorrent: frameworks/syndication
+extragear/network/ktorrent: frameworks/kdewebkit
 extragear/network/kdeconnect-kde: kdesupport/qca
 extragear/network/kdeconnect-kde: extragear/libs/pulseaudio-qt
+extragear/network/rekonq: frameworks/kdewebkit
 
 # Extragear Office
 extragear/office/kmymoney: extragear/graphics/kdiagram
 extragear/office/kmymoney: extragear/office/alkimia
 extragear/office/kmymoney: frameworks/kholidays
+extragear/office/kmymoney: frameworks/kdewebkit
 extragear/office/kmymoney: kde/pim/kidentitymanagement
 extragear/office/kmymoney: kde/pim/kcontacts
 extragear/office/kmymoney: kde/pim/akonadi
@@ -1412,6 +1419,9 @@ playground/base/ktrip: -frameworks/kf5umbrella
 playground/base/ktrip: playground/pim/kpublictransport
 playground/base/ktrip: frameworks/kirigami
 playground/base/ktrip: frameworks/ki18n
+
+# Playground EDU
+playground/edu/rkward: frameworks/kdewebkit
 
 # Playground PIM
 playground/pim/sink: playground/libs/kasync
