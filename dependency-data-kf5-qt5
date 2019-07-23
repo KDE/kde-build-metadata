@@ -398,7 +398,6 @@ frameworks/kf5umbrella: frameworks/ki18n
 frameworks/kf5umbrella: frameworks/kiconthemes
 frameworks/kf5umbrella: frameworks/kidletime
 frameworks/kf5umbrella: frameworks/kinit
-frameworks/kf5umbrella: frameworks/kjsembed
 frameworks/kf5umbrella: frameworks/kio
 frameworks/kf5umbrella: frameworks/kitemmodels
 frameworks/kf5umbrella: frameworks/kjobwidgets
@@ -483,6 +482,7 @@ kde/workspace/oxygen: kde/workspace/kdecoration
 
 # Plasma Workspace
 kde/workspace/plasma-workspace: frameworks/kholidays
+kde/workspace/plasma-workspace: frameworks/kjsembed
 kde/workspace/plasma-workspace: kde/applications/khelpcenter
 kde/workspace/plasma-workspace: kde/kdenetwork/kio-extras
 kde/workspace/plasma-workspace: kde/workspace/libksysguard
