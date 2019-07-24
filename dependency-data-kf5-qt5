@@ -433,7 +433,6 @@ frameworks/kf5umbrella: frameworks/krunner
 frameworks/kf5umbrella: frameworks/kpty
 frameworks/kf5umbrella: frameworks/kplotting
 frameworks/kf5umbrella: frameworks/kpeople
-frameworks/kf5umbrella: frameworks/kmediaplayer
 frameworks/kf5umbrella: frameworks/kitemviews
 frameworks/kf5umbrella: frameworks/kirigami
 frameworks/kf5umbrella: frameworks/kimageformats
@@ -1304,6 +1303,7 @@ extragear/libs/libkvkontakte: frameworks/kdewebkit
 extragear/multimedia/kaudiocreator: kde/kdemultimedia/libkcddb
 extragear/multimedia/kaudiocreator: kde/kdemultimedia/libkcompactdisc
 extragear/multimedia/kmplayer: kdesupport/phonon/phonon
+extragear/multimedia/kmplayer: frameworks/kmediaplayer
 
 # Extragear Network
 extragear/network/kio-gdrive: kde/pim/libkgapi
