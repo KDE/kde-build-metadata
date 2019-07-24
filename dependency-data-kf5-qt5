@@ -406,7 +406,6 @@ frameworks/kf5umbrella: frameworks/knotifyconfig
 frameworks/kf5umbrella: frameworks/frameworkintegration
 frameworks/kf5umbrella: frameworks/kdesu
 frameworks/kf5umbrella: frameworks/kparts
-frameworks/kf5umbrella: frameworks/kross
 frameworks/kf5umbrella: frameworks/kservice
 frameworks/kf5umbrella: frameworks/ktexteditor
 frameworks/kf5umbrella: frameworks/ktextwidgets
@@ -510,6 +509,7 @@ kde/workspace/kscreen: kde/workspace/libkscreen
 kde/workspace/powerdevil: kde/workspace/plasma-workspace
 
 # Plasma Addons
+kde/workspace/kdeplasma-addons: frameworks/kross
 kde/workspace/kdeplasma-addons: kde/workspace/plasma-workspace
 
 # plasma-tests - depend on all of kde/workspace
@@ -901,6 +901,7 @@ kde/pim/pim-sieve-editor: kde/pim/libksieve
 kde/pim/pim-sieve-editor: kde/pim/pimcommon
 
 # KMail Account Wizard
+kde/pim/kmail-account-wizard: frameworks/kross
 kde/pim/kmail-account-wizard: kde/pim/akonadi
 kde/pim/kmail-account-wizard: kde/pim/akonadi-mime
 kde/pim/kmail-account-wizard: kde/pim/kidentitymanagement
@@ -1157,6 +1158,7 @@ kde/kdeedu/kanagram: kde/kdeedu/kdeedu-data
 
 # Parley
 kde/kdeedu/parley: kde/kdeedu/libkeduvocdocument
+kde/kdeedu/parley: frameworks/kross
 
 # KHangman
 kde/kdeedu/khangman: kde/kdeedu/libkeduvocdocument
@@ -1259,6 +1261,9 @@ kde/kdesdk/dolphin-plugins: kde/applications/dolphin
 kde/kdesdk/kirigami-gallery: -frameworks/kf5umbrella
 kde/kdesdk/kirigami-gallery: frameworks/kirigami
 
+# Lokalize
+kde/kdesdk/lokalize: frameworks/kross
+
 # Web Development Tools!
 
 # Bindings!
@@ -1315,6 +1320,7 @@ extragear/network/libktorrent: kdesupport/qca
 extragear/network/ktorrent: extragear/network/libktorrent
 extragear/network/ktorrent: frameworks/syndication
 extragear/network/ktorrent: frameworks/kdewebkit
+extragear/network/ktorrent: frameworks/kross
 extragear/network/kdeconnect-kde: kdesupport/qca
 extragear/network/kdeconnect-kde: extragear/libs/pulseaudio-qt
 extragear/network/rekonq: frameworks/kdewebkit
@@ -1395,6 +1401,7 @@ playground/devtools/plugins/kdev-xdebug: playground/devtools/plugins/kdev-execut
 ### Calligra ###
 
 # Calligra - Main Suite
+calligra/calligra: frameworks/kross
 calligra/calligra: extragear/graphics/kdiagram
 calligra/calligra: kde/pim/kcalcore
 calligra/calligra: kde/pim/kcontacts
