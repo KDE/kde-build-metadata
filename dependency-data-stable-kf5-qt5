@@ -262,7 +262,6 @@ frameworks/plasma-framework: frameworks/kiconthemes
 frameworks/plasma-framework: frameworks/kidletime
 frameworks/plasma-framework: frameworks/kitemmodels
 frameworks/plasma-framework: frameworks/kitemviews
-frameworks/plasma-framework: frameworks/kjs
 frameworks/plasma-framework: frameworks/kjobwidgets
 frameworks/plasma-framework: frameworks/kio
 frameworks/plasma-framework: frameworks/kross
@@ -398,11 +397,9 @@ frameworks/kf5umbrella: frameworks/ki18n
 frameworks/kf5umbrella: frameworks/kiconthemes
 frameworks/kf5umbrella: frameworks/kidletime
 frameworks/kf5umbrella: frameworks/kinit
-frameworks/kf5umbrella: frameworks/kjsembed
 frameworks/kf5umbrella: frameworks/kio
 frameworks/kf5umbrella: frameworks/kitemmodels
 frameworks/kf5umbrella: frameworks/kjobwidgets
-frameworks/kf5umbrella: frameworks/kjs
 frameworks/kf5umbrella: frameworks/knewstuff
 frameworks/kf5umbrella: frameworks/knotifications
 frameworks/kf5umbrella: frameworks/knotifyconfig
@@ -434,12 +431,10 @@ frameworks/kf5umbrella: frameworks/krunner
 frameworks/kf5umbrella: frameworks/kpty
 frameworks/kf5umbrella: frameworks/kplotting
 frameworks/kf5umbrella: frameworks/kpeople
-frameworks/kf5umbrella: frameworks/kmediaplayer
 frameworks/kf5umbrella: frameworks/kitemviews
 frameworks/kf5umbrella: frameworks/kirigami
 frameworks/kf5umbrella: frameworks/kimageformats
 frameworks/kf5umbrella: frameworks/kfilemetadata
-frameworks/kf5umbrella: frameworks/kdewebkit
 frameworks/kf5umbrella: frameworks/bluez-qt
 frameworks/kf5umbrella: frameworks/baloo
 frameworks/kf5umbrella: frameworks/modemmanager-qt
@@ -483,6 +478,7 @@ kde/workspace/oxygen: kde/workspace/kdecoration
 
 # Plasma Workspace
 kde/workspace/plasma-workspace: frameworks/kholidays
+kde/workspace/plasma-workspace: frameworks/kjsembed
 kde/workspace/plasma-workspace: kde/applications/khelpcenter
 kde/workspace/plasma-workspace: kde/kdenetwork/kio-extras
 kde/workspace/plasma-workspace: kde/workspace/libksysguard
@@ -1100,6 +1096,7 @@ kde/kdegraphics/kolourpaint: kde/kdegraphics/libs/libksane
 
 # Okular
 kde/kdegraphics/okular: frameworks/purpose
+kde/kdegraphics/okular: frameworks/kjs
 kde/kdegraphics/okular: kdesupport/phonon/phonon
 kde/kdegraphics/okular: kde/kdegraphics/libs/libkexiv2
 kde/kdegraphics/okular: kde/kdegraphics/kdegraphics-mobipocket
@@ -1269,6 +1266,9 @@ kde/kdebindings/ruby/qtruby: kde/kdebindings/smoke/smokegen
 
 ### Extragear ###
 
+# Extragear Base
+extragear/base/kwebkitpart: frameworks/kdewebkit
+
 # Extragear Games
 
 # Extragear Graphics
@@ -1288,26 +1288,32 @@ extragear/graphics/digikam/digikam-doc: extragear/graphics/digikam
 
 # Extragear Libraries
 extragear/libs/kreport: extragear/libs/kproperty
+extragear/libs/libkvkontakte: frameworks/kdewebkit
 
 # Extragear Multimedia
 extragear/multimedia/kaudiocreator: kde/kdemultimedia/libkcddb
 extragear/multimedia/kaudiocreator: kde/kdemultimedia/libkcompactdisc
 extragear/multimedia/kmplayer: kdesupport/phonon/phonon
+extragear/multimedia/kmplayer: frameworks/kmediaplayer
 
 # Extragear Network
 extragear/network/kio-gdrive: kde/pim/libkgapi
 extragear/network/kio-gdrive: kde/kdenetwork/kaccounts-integration
 extragear/network/konversation: kdesupport/qca
 extragear/network/choqok: kdesupport/qca
+extragear/network/choqok: frameworks/kdewebkit
 extragear/network/libktorrent: kdesupport/qca
 extragear/network/ktorrent: extragear/network/libktorrent
 extragear/network/ktorrent: frameworks/syndication
+extragear/network/ktorrent: frameworks/kdewebkit
 extragear/network/kdeconnect-kde: kdesupport/qca
+extragear/network/rekonq: frameworks/kdewebkit
 
 # Extragear Office
 extragear/office/kmymoney: extragear/graphics/kdiagram
 extragear/office/kmymoney: extragear/office/alkimia
 extragear/office/kmymoney: frameworks/kholidays
+extragear/office/kmymoney: frameworks/kdewebkit
 extragear/office/kmymoney: kde/pim/kidentitymanagement
 extragear/office/kmymoney: kde/pim/kcontacts
 extragear/office/kmymoney: kde/pim/akonadi
@@ -1357,6 +1363,8 @@ extragear/utils/plasma-mycroft: frameworks/plasma-framework
 extragear/utils/plasma-mycroft: frameworks/ki18n
 extragear/utils/plasma-mycroft: frameworks/knotifications
 
+extragear/utils/krename: frameworks/kjs
+
 ### KDevelop ###
 
 # KDevelop main application
@@ -1399,6 +1407,9 @@ calligra/kexi: kde/kdeedu/marble
 ### Playground ###
 
 playground/base/atelier: playground/base/atcore
+
+# Playground EDU
+playground/edu/rkward: frameworks/kdewebkit
 
 # Playground PIM
 playground/pim/sink: playground/libs/kasync
