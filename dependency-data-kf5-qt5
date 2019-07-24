@@ -262,7 +262,6 @@ frameworks/plasma-framework: frameworks/kiconthemes
 frameworks/plasma-framework: frameworks/kidletime
 frameworks/plasma-framework: frameworks/kitemmodels
 frameworks/plasma-framework: frameworks/kitemviews
-frameworks/plasma-framework: frameworks/kjs
 frameworks/plasma-framework: frameworks/kjobwidgets
 frameworks/plasma-framework: frameworks/kio
 frameworks/plasma-framework: frameworks/kross
@@ -401,7 +400,6 @@ frameworks/kf5umbrella: frameworks/kinit
 frameworks/kf5umbrella: frameworks/kio
 frameworks/kf5umbrella: frameworks/kitemmodels
 frameworks/kf5umbrella: frameworks/kjobwidgets
-frameworks/kf5umbrella: frameworks/kjs
 frameworks/kf5umbrella: frameworks/knewstuff
 frameworks/kf5umbrella: frameworks/knotifications
 frameworks/kf5umbrella: frameworks/knotifyconfig
@@ -1098,6 +1096,7 @@ kde/kdegraphics/kolourpaint: kde/kdegraphics/libs/libksane
 
 # Okular
 kde/kdegraphics/okular: frameworks/purpose
+kde/kdegraphics/okular: frameworks/kjs
 kde/kdegraphics/okular: kdesupport/phonon/phonon
 kde/kdegraphics/okular: kde/kdegraphics/libs/libkexiv2
 kde/kdegraphics/okular: kde/kdegraphics/kdegraphics-mobipocket
@@ -1372,6 +1371,8 @@ extragear/utils/plasma-mycroft: frameworks/kcoreaddons
 extragear/utils/plasma-mycroft: frameworks/plasma-framework
 extragear/utils/plasma-mycroft: frameworks/ki18n
 extragear/utils/plasma-mycroft: frameworks/knotifications
+
+extragear/utils/krename: frameworks/kjs
 
 ### KDevelop ###
 
