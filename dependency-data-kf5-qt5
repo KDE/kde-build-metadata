@@ -1005,6 +1005,7 @@ kde/pim/kdepim-addons: kde/pim/kdepim-apps-libs
 kde/pim/kdepim-addons: kde/pim/kidentitymanagement
 kde/pim/kdepim-addons: kde/pim/kimap
 kde/pim/kdepim-addons: kde/pim/kmailtransport
+kde/pim/kdepim-addons: kde/pim/kontactinterface
 kde/pim/kdepim-addons: kde/pim/kpimtextedit
 kde/pim/kdepim-addons: kde/pim/ktnef
 kde/pim/kdepim-addons: kde/pim/libgravatar
