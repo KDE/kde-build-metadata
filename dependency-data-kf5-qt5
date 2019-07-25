@@ -476,7 +476,6 @@ kde/workspace/oxygen: kde/workspace/kdecoration
 
 # Plasma Workspace
 kde/workspace/plasma-workspace: frameworks/kholidays
-kde/workspace/plasma-workspace: frameworks/kjsembed
 kde/workspace/plasma-workspace: kde/applications/khelpcenter
 kde/workspace/plasma-workspace: kde/kdenetwork/kio-extras
 kde/workspace/plasma-workspace: kde/workspace/libksysguard
