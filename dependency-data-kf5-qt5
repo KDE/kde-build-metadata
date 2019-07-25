@@ -392,7 +392,6 @@ frameworks/kf5umbrella: frameworks/kemoticons
 frameworks/kf5umbrella: frameworks/kdoctools
 frameworks/kf5umbrella: frameworks/kglobalaccel
 frameworks/kf5umbrella: frameworks/kguiaddons
-frameworks/kf5umbrella: frameworks/khtml
 frameworks/kf5umbrella: frameworks/ki18n
 frameworks/kf5umbrella: frameworks/kiconthemes
 frameworks/kf5umbrella: frameworks/kidletime
@@ -518,15 +517,17 @@ kde/workspace/plasma-tests: kde/workspace/plasma-desktop
 
 # System settings
 kde/workspace/systemsettings:kde/workspace/plasma-workspace
+kde/workspace/systemsettings: frameworks/khtml
 
 # Breeze GTK
 kde/workspace/breeze-gtk:kde/workspace/breeze
 
+
 ### Main Applications ###
 
 # General Applications!
-# Konqueror
-# (Unit Tests use Dolphin's KPart)
+# Konqueror (Unit Tests use Dolphin's KPart)
+kde/applications/konqueror: frameworks/khtml
 kde/applications/konqueror: kde/applications/dolphin
 
 # Dolphin
@@ -536,6 +537,9 @@ kde/applications/dolphin: kde/applications/baloo-widgets
 # Konsole
 kde/applications/konsole: kdesupport/phonon/phonon
 kde/applications/yakuake: kde/applications/konsole
+
+# khelpcenter
+kde/applications/khelpcenter: frameworks/khtml
 
 # Accessibility!
 # KMag
@@ -1097,6 +1101,7 @@ kde/kdegraphics/gwenview: kde/kdenetwork/kio-extras
 kde/kdegraphics/kolourpaint: kde/kdegraphics/libs/libksane
 
 # Okular
+kde/kdegraphics/okular: frameworks/khtml
 kde/kdegraphics/okular: frameworks/purpose
 kde/kdegraphics/okular: frameworks/kjs
 kde/kdegraphics/okular: kdesupport/phonon/phonon
@@ -1180,6 +1185,10 @@ kde/kdeedu/minuet: frameworks/kdoctools
 # Rocs
 kde/kdeedu/rocs: third-party/grantlee
 
+kde/kdeedu/kalzium: frameworks/khtml
+kde/kdeedu/kiten: frameworks/khtml
+kde/kdeedu/step: frameworks/khtml
+
 # GCompris
 extragear/edu/gcompris: -frameworks/kf5umbrella
 extragear/edu/gcompris: frameworks/kdoctools
@@ -1246,6 +1255,8 @@ kde/kdenetwork/kaccounts-mobile: kde/pim/libkgapi
 
 # KAccounts Providers
 kde/kdenetwork/kaccounts-providers: kde/kdenetwork/kaccounts-integration
+
+kde/kdenetwork/kio-extras: frameworks/khtml
 
 # SDK Applications
 # Kompare
@@ -1334,6 +1345,7 @@ extragear/office/kmymoney: kde/pim/kidentitymanagement
 extragear/office/kmymoney: kde/pim/kcontacts
 extragear/office/kmymoney: kde/pim/akonadi
 extragear/office/skrooge: kdesupport/qca
+extragear/office/tellico: frameworks/khtml
 extragear/office/tellico: kde/kdegraphics/libs/libksane
 extragear/office/tellico: kde/kdemultimedia/libkcddb
 extragear/office/tellico: frameworks/kfilemetadata
@@ -1344,6 +1356,7 @@ extragear/office/alkimia: frameworks/knewstuff
 extragear/office/alkimia: frameworks/kpackage
 extragear/office/alkimia: frameworks/plasma-framework
 extragear/office/alkimia: frameworks/kdelibs4support
+extragear/office/kile: frameworks/khtml
 extragear/office/kile: kde/kdegraphics/okular
 extragear/office/kbibtex: kdesupport/qca
 
@@ -1401,6 +1414,7 @@ playground/devtools/plugins/kdev-xdebug: playground/devtools/plugins/kdev-execut
 ### Calligra ###
 
 # Calligra - Main Suite
+calligra/calligra: frameworks/khtml
 calligra/calligra: frameworks/kross
 calligra/calligra: extragear/graphics/kdiagram
 calligra/calligra: kde/pim/kcalcore
@@ -1428,6 +1442,8 @@ playground/base/ktrip: -frameworks/kf5umbrella
 playground/base/ktrip: playground/pim/kpublictransport
 playground/base/ktrip: frameworks/kirigami
 playground/base/ktrip: frameworks/ki18n
+
+playground/devtools/ktechlab: frameworks/khtml
 
 # Playground EDU
 playground/edu/rkward: frameworks/kdewebkit
