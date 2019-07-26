@@ -1275,6 +1275,8 @@ kde/kdesdk/kirigami-gallery: frameworks/kirigami
 kde/kdesdk/lokalize: frameworks/kross
 
 # Web Development Tools!
+# KImageMapEditor
+kde/kdewebdev/kimagemapeditor: frameworks/khtml
 
 # Bindings!
 kde/kdebindings/smoke/smokeqt: kde/kdebindings/smoke/smokegen
