@@ -522,6 +522,7 @@ kde/workspace/systemsettings: frameworks/khtml
 # Breeze GTK
 kde/workspace/breeze-gtk:kde/workspace/breeze
 
+
 ### Main Applications ###
 
 # General Applications!
@@ -1275,6 +1276,8 @@ kde/kdesdk/kirigami-gallery: frameworks/kirigami
 kde/kdesdk/lokalize: frameworks/kross
 
 # Web Development Tools!
+# KImageMapEditor
+kde/kdewebdev/kimagemapeditor: frameworks/khtml
 
 # Bindings!
 kde/kdebindings/smoke/smokeqt: kde/kdebindings/smoke/smokegen
@@ -1302,6 +1305,14 @@ extragear/graphics/digikam: kde/pim/akonadi-contacts
 extragear/graphics/digikam: kde/pim/akonadi # I believe this is it wants for akonadi contacts
 extragear/graphics/digikam/digikam-doc: extragear/graphics/digikam
 
+# Extragear Kaffeine
+extragear/multimedia/kaffeine: frameworks/oxygen-icons5
+extragear/multimedia/kaffeine: frameworks/kdoctools
+extragear/multimedia/kaffeine: frameworks/kxmlgui
+extragear/multimedia/kaffeine: frameworks/kio
+extragear/multimedia/kaffeine: frameworks/kwindowsystem
+extragear/multimedia/kaffeine: frameworks/kdbusaddons
+
 # Extragear Libraries
 extragear/libs/kreport: extragear/libs/kproperty
 extragear/libs/libkvkontakte: frameworks/kdewebkit
@@ -1324,6 +1335,7 @@ extragear/network/ktorrent: frameworks/syndication
 extragear/network/ktorrent: frameworks/kdewebkit
 extragear/network/ktorrent: frameworks/kross
 extragear/network/kdeconnect-kde: kdesupport/qca
+extragear/network/kdeconnect-kde: extragear/libs/pulseaudio-qt
 extragear/network/rekonq: frameworks/kdewebkit
 
 # Extragear Office
@@ -1386,6 +1398,8 @@ extragear/utils/krename: frameworks/kjs
 
 ### KDevelop ###
 
+extragear/kdevelop/kdevplatform: third-party/grantlee
+
 # KDevelop main application
 extragear/kdevelop/kdevelop: kde/kdesdk/libkomparediff2
 extragear/kdevelop/kdevelop: extragear/utils/okteta
@@ -1416,8 +1430,6 @@ calligra/calligra: kdesupport/phonon/phonon
 # calligraplan
 calligra/calligraplan: frameworks/kholidays
 calligra/calligraplan: extragear/graphics/kdiagram
-calligra/calligraplan: kde/pim/kcalcore
-calligra/calligraplan: kde/pim/akonadi-contacts
 
 # Kexi
 calligra/kexi: extragear/libs/kdb
@@ -1428,6 +1440,12 @@ calligra/kexi: kde/kdeedu/marble
 ### Playground ###
 
 playground/base/atelier: playground/base/atcore
+playground/base/ktrip: -frameworks/kf5umbrella
+playground/base/ktrip: playground/pim/kpublictransport
+playground/base/ktrip: frameworks/kirigami
+playground/base/ktrip: frameworks/ki18n
+
+playground/devtools/ktechlab: frameworks/khtml
 
 # Playground EDU
 playground/edu/rkward: frameworks/kdewebkit
@@ -1444,9 +1462,16 @@ playground/pim/kube: kde/pim/kmime
 playground/pim/kube: kde/pim/kcontacts
 playground/pim/kube: kde/pim/messagelib
 
+playground/pim/ktimetracker: kde/pim/kcalcore
+
 # playground/libs/mauikit: -frameworks/kf5umbrella
 # playground/multimedia/vvave: -frameworks/kf5umbrella
 playground/multimedia/vvave: playground/libs/mauikit
+
+
+### Kolab ###
+
+third-party/libkolab: frameworks/kf5umbrella
 
 ### KDE Review ###
 
