@@ -1427,6 +1427,7 @@ calligra/calligra: kdesupport/qca
 calligra/calligra: kdesupport/phonon/phonon
 
 # calligraplan
+calligra/calligraplan: frameworks/khtml
 calligra/calligraplan: frameworks/kholidays
 calligra/calligraplan: extragear/graphics/kdiagram
 
