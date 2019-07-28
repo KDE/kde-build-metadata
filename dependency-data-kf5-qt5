@@ -1199,6 +1199,7 @@ kde/kdenetwork/kget: extragear/network/libktorrent
 
 # Kopete
 kde/kdenetwork/kopete: kdesupport/qca
+kde/kdenetwork/kopete: frameworks/khtml
 kde/kdenetwork/kopete: kde/pim/kcontacts
 kde/kdenetwork/kopete: kde/pim/kidentitymanagement
 kde/kdenetwork/kopete: kde/pim/libkleo
