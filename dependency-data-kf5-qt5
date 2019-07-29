@@ -435,7 +435,6 @@ frameworks/kf5umbrella: frameworks/kimageformats
 frameworks/kf5umbrella: frameworks/kfilemetadata
 frameworks/kf5umbrella: frameworks/bluez-qt
 frameworks/kf5umbrella: frameworks/baloo
-frameworks/kf5umbrella: frameworks/modemmanager-qt
 frameworks/kf5umbrella: frameworks/networkmanager-qt
 
 # As yet unmigrated frameworks
@@ -496,6 +495,7 @@ kde/workspace/plasma-desktop: kde/workspace/plasma-workspace
 
 # Plasma NM
 kde/workspace/plasma-nm: kdesupport/qca
+kde/workspace/plasma-nm: frameworks/modemmanager-qt
 
 # Polkit Policy Agent
 kde/workspace/polkit-kde-agent-1: kdesupport/polkit-qt-1
@@ -1244,6 +1244,7 @@ kde/kdenetwork/ktp-contact-runner: kde/kdenetwork/ktp-common-internals
 kde/kdenetwork/ktp-accounts-kcm: kde/kdenetwork/ktp-common-internals
 kde/kdenetwork/ktp-accounts-kcm: kde/kdenetwork/kaccounts-integration
 kde/kdenetwork/ktp-accounts-kcm: third-party/telepathy-qt
+kde/kdenetwork/ktp-accounts-kcm: frameworks/modemmanager-qt
 
 # KDE Telepathy - Desktop Applet
 kde/kdenetwork/ktp-desktop-applets: kde/kdenetwork/ktp-common-internals
