@@ -1470,6 +1470,7 @@ playground/pim/ktimetracker: kde/pim/kcalcore
 # playground/multimedia/vvave: -frameworks/kf5umbrella
 playground/multimedia/vvave: playground/libs/mauikit
 
+playground/mobile/calindori: kde/pim/kcalcore
 
 ### Kolab ###
 
