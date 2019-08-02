@@ -213,7 +213,6 @@ frameworks/kdewebkit: frameworks/kwallet
 frameworks/kdewebkit: frameworks/kio
 frameworks/kdewebkit: frameworks/knotifications
 frameworks/kdewebkit: frameworks/kparts
-frameworks/kdewebkit: frameworks/kdesignerplugin
 frameworks/kdesu: frameworks/kcoreaddons
 frameworks/kdesu: frameworks/kservice
 frameworks/kdesu: frameworks/kpty
