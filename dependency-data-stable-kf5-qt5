@@ -1447,6 +1447,8 @@ playground/base/ktrip: frameworks/ki18n
 
 playground/devtools/ktechlab: frameworks/khtml
 
+playground/mobile/calindori: kde/pim/kcalcore
+
 # Playground EDU
 playground/edu/rkward: frameworks/kdewebkit
 
