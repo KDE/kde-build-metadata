@@ -385,7 +385,6 @@ frameworks/kf5umbrella: frameworks/kdbusaddons
 frameworks/kf5umbrella: frameworks/kdelibs4support
 frameworks/kf5umbrella: frameworks/kdeclarative
 frameworks/kf5umbrella: frameworks/kded
-frameworks/kf5umbrella: frameworks/kdesignerplugin
 frameworks/kf5umbrella: frameworks/kdnssd
 frameworks/kf5umbrella: frameworks/kemoticons
 frameworks/kf5umbrella: frameworks/kdoctools
@@ -550,9 +549,13 @@ kde/kdeutils/kgpg: kde/pim/akonadi-contacts
 # KDE PIM!
 
 kde/pim/kpimtextedit: third-party/grantlee
+kde/pim/kpimtextedit: frameworks/kdesignerplugin
 kde/pim/pimcommon: third-party/grantlee
 kde/pim/grantleetheme: third-party/grantlee
 kde/pim/kcalutils: third-party/grantlee
+
+# Akonadi
+kde/pim/akonadi: frameworks/kdesignerplugin
 
 # Akonadi Calendar
 kde/pim/akonadi-calendar: kde/pim/akonadi
@@ -661,6 +664,7 @@ playground/pim/itinerary: kde/pim/kitinerary
 kde/pim/libgravatar: kde/pim/pimcommon
 
 # KDE PIM Common Components
+kde/pim/pimcommon: frameworks/kdesignerplugin
 kde/pim/pimcommon: frameworks/purpose
 kde/pim/pimcommon: kde/pim/akonadi
 kde/pim/pimcommon: kde/pim/akonadi-contacts
@@ -694,6 +698,7 @@ kde/pim/kleopatra: kde/pim/kmime
 kde/pim/kleopatra: kde/pim/libkleo
 
 # General PIM libraries
+kde/pim/libkdepim: frameworks/kdesignerplugin
 kde/pim/libkdepim: kde/pim/akonadi
 kde/pim/libkdepim: kde/pim/akonadi-contacts
 kde/pim/libkdepim: kde/pim/akonadi-search
@@ -747,6 +752,7 @@ kde/pim/kdepim-apps-libs: kde/pim/pimcommon
 kde/pim/kdepim-apps-libs: third-party/grantlee
 
 # Common mail handling libraries
+kde/pim/mailcommon: frameworks/kdesignerplugin
 kde/pim/mailcommon: kde/pim/akonadi
 kde/pim/mailcommon: kde/pim/akonadi-mime
 kde/pim/mailcommon: kde/pim/kmailtransport
