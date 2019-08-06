@@ -97,9 +97,9 @@ frameworks/kconfigwidgets: frameworks/kdoctools
 frameworks/kconfigwidgets: frameworks/kguiaddons
 frameworks/kconfigwidgets: frameworks/ki18n
 frameworks/kconfigwidgets: frameworks/kwidgetsaddons
-frameworks/kdesignerplugin: frameworks/kplotting
+frameworks/kdesignerplugin: frameworks/kcoreaddons
+frameworks/kdesignerplugin: frameworks/kconfig
 frameworks/kdesignerplugin: frameworks/kdoctools
-frameworks/kdesignerplugin: frameworks/kio
 frameworks/kemoticons: frameworks/karchive
 frameworks/kemoticons: frameworks/kservice
 frameworks/kjs: frameworks/kdoctools
