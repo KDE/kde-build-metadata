@@ -1453,7 +1453,14 @@ playground/base/ktrip: frameworks/ki18n
 
 playground/devtools/ktechlab: frameworks/khtml
 
+playground/mobile/calindori: -frameworks/kf5umbrella
 playground/mobile/calindori: kde/pim/kcalcore
+playground/mobile/calindori: frameworks/kconfig
+playground/mobile/calindori: frameworks/kirigami
+playground/mobile/calindori: frameworks/ki18n
+playground/mobile/calindori: frameworks/kdbusaddons
+playground/mobile/calindori: frameworks/knotifications
+playground/mobile/calindori: frameworks/kservice
 
 # Playground EDU
 playground/edu/rkward: frameworks/kdewebkit

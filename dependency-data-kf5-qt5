@@ -1475,7 +1475,14 @@ playground/pim/ktimetracker: kde/pim/kcalcore
 # playground/multimedia/vvave: -frameworks/kf5umbrella
 playground/multimedia/vvave: playground/libs/mauikit
 
+playground/mobile/calindori: -frameworks/kf5umbrella
 playground/mobile/calindori: kde/pim/kcalcore
+playground/mobile/calindori: frameworks/kconfig
+playground/mobile/calindori: frameworks/kirigami
+playground/mobile/calindori: frameworks/ki18n
+playground/mobile/calindori: frameworks/kdbusaddons
+playground/mobile/calindori: frameworks/knotifications
+playground/mobile/calindori: frameworks/kservice
 
 ### Kolab ###
 
