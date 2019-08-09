@@ -1293,6 +1293,25 @@ kde/kdebindings/ruby/qtruby: kde/kdebindings/smoke/smokegen
 
 # Extragear Base
 extragear/base/kwebkitpart: frameworks/kdewebkit
+extragear/office/latte-dock: -frameworks/kf5umbrella
+extragear/office/latte-dock: frameworks/kactivities
+extragear/office/latte-dock: frameworks/karchive
+extragear/office/latte-dock: frameworks/kcoreaddons
+extragear/office/latte-dock: frameworks/kcrash
+extragear/office/latte-dock: frameworks/kdbusaddons
+extragear/office/latte-dock: frameworks/kdeclarative
+extragear/office/latte-dock: frameworks/kglobalaccel
+extragear/office/latte-dock: frameworks/kguiaddons
+extragear/office/latte-dock: frameworks/kconfigwidgets
+extragear/office/latte-dock: frameworks/ki18n
+extragear/office/latte-dock: frameworks/kiconthemes
+extragear/office/latte-dock: frameworks/knewstuff
+extragear/office/latte-dock: frameworks/knotifications
+extragear/office/latte-dock: frameworks/plasma-framework
+extragear/office/latte-dock: frameworks/kwayland
+extragear/office/latte-dock: frameworks/kwindowsystem
+extragear/office/latte-dock: frameworks/kxmlgui
+extragear/office/latte-dock: kde/workspace/libksysguard
 
 # Extragear Games
 
