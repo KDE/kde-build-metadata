@@ -1474,6 +1474,7 @@ playground/base/ktrip: frameworks/ki18n
 playground/base/plasma-phonebook: -frameworks/kf5umbrella
 playground/base/plasma-phonebook: frameworks/kirigami
 playground/base/plasma-phonebook: frameworks/kpeople
+playground/base/plasma-phonebook: frameworks/ki18n
 playground/base/plasma-phonebook: kde/pim/kcontacts
 
 playground/devtools/ktechlab: frameworks/khtml
