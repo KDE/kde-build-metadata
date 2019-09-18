@@ -286,7 +286,6 @@ frameworks/purpose: frameworks/kconfig
 frameworks/purpose: frameworks/ki18n
 frameworks/purpose: frameworks/kio
 frameworks/purpose: frameworks/kirigami
-frameworks/purpose: kde/kdenetwork/kaccounts-integration
 frameworks/kxmlrpcclient: frameworks/kio
 frameworks/kpeople: frameworks/kcoreaddons
 frameworks/kpeople: frameworks/kwidgetsaddons
