@@ -488,6 +488,7 @@ kde/workspace/plasma-workspace: kde/workspace/libkscreen
 kde/workspace/plasma-workspace: kde/workspace/kscreenlocker
 kde/workspace/plasma-workspace: kde/workspace/kactivitymanagerd
 kde/workspace/plasma-workspace: frameworks/prison
+kde/workspace/plasma-workspace: frameworks/kjsembed
 
 # Plasma Desktop
 kde/workspace/plasma-desktop: kde/workspace/systemsettings
