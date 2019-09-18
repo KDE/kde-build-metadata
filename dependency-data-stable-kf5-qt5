@@ -293,6 +293,10 @@ frameworks/kpeople: frameworks/kwidgetsaddons
 frameworks/kpeople: frameworks/ki18n
 frameworks/kpeople: frameworks/kitemviews
 frameworks/kpeople: frameworks/kservice
+frameworks/kcontacts: frameworks/kcoreaddons
+frameworks/kcontacts: frameworks/ki18n
+frameworks/kcontacts: frameworks/kconfig
+frameworks/kcontacts: frameworks/kcodecs
 
 # Frameworks, tier4
 frameworks/frameworkintegration: frameworks/ki18n
@@ -369,6 +373,10 @@ frameworks/khtml: kdesupport/phonon/phonon
 
 # Lie about kf5umbrella: it doesn't depend on anything, but we use it as way to depend on all frameworks
 frameworks/kf5umbrella: frameworks/attica
+frameworks/kf5umbrella: frameworks/baloo
+frameworks/kf5umbrella: frameworks/bluez-qt
+frameworks/kf5umbrella: frameworks/breeze-icons
+frameworks/kf5umbrella: frameworks/frameworkintegration
 frameworks/kf5umbrella: frameworks/kactivities
 frameworks/kf5umbrella: frameworks/kactivities-stats
 frameworks/kf5umbrella: frameworks/karchive
@@ -382,59 +390,57 @@ frameworks/kf5umbrella: frameworks/kconfigwidgets
 frameworks/kf5umbrella: frameworks/kcoreaddons
 frameworks/kf5umbrella: frameworks/kcrash
 frameworks/kf5umbrella: frameworks/kdbusaddons
-frameworks/kf5umbrella: frameworks/kdelibs4support
 frameworks/kf5umbrella: frameworks/kdeclarative
 frameworks/kf5umbrella: frameworks/kded
+frameworks/kf5umbrella: frameworks/kdelibs4support
+frameworks/kf5umbrella: frameworks/kdesu
 frameworks/kf5umbrella: frameworks/kdnssd
-frameworks/kf5umbrella: frameworks/kemoticons
 frameworks/kf5umbrella: frameworks/kdoctools
+frameworks/kf5umbrella: frameworks/kemoticons
+frameworks/kf5umbrella: frameworks/kfilemetadata
 frameworks/kf5umbrella: frameworks/kglobalaccel
 frameworks/kf5umbrella: frameworks/kguiaddons
+frameworks/kf5umbrella: frameworks/kholidays
 frameworks/kf5umbrella: frameworks/ki18n
 frameworks/kf5umbrella: frameworks/kiconthemes
 frameworks/kf5umbrella: frameworks/kidletime
+frameworks/kf5umbrella: frameworks/kimageformats
 frameworks/kf5umbrella: frameworks/kinit
 frameworks/kf5umbrella: frameworks/kio
+frameworks/kf5umbrella: frameworks/kirigami
 frameworks/kf5umbrella: frameworks/kitemmodels
+frameworks/kf5umbrella: frameworks/kitemviews
 frameworks/kf5umbrella: frameworks/kjobwidgets
 frameworks/kf5umbrella: frameworks/knewstuff
 frameworks/kf5umbrella: frameworks/knotifications
 frameworks/kf5umbrella: frameworks/knotifyconfig
-frameworks/kf5umbrella: frameworks/frameworkintegration
-frameworks/kf5umbrella: frameworks/kdesu
+frameworks/kf5umbrella: frameworks/kpackage
 frameworks/kf5umbrella: frameworks/kparts
+frameworks/kf5umbrella: frameworks/kpeople
+frameworks/kf5umbrella: frameworks/kplotting
+frameworks/kf5umbrella: frameworks/kpty
+frameworks/kf5umbrella: frameworks/krunner
 frameworks/kf5umbrella: frameworks/kservice
 frameworks/kf5umbrella: frameworks/ktexteditor
 frameworks/kf5umbrella: frameworks/ktextwidgets
+frameworks/kf5umbrella: frameworks/kunitconversion
 frameworks/kf5umbrella: frameworks/kwallet
+frameworks/kf5umbrella: frameworks/kwayland
+frameworks/kf5umbrella: frameworks/kwidgetsaddons
 frameworks/kf5umbrella: frameworks/kwindowsystem
 frameworks/kf5umbrella: frameworks/kxmlgui
+frameworks/kf5umbrella: frameworks/kxmlrpcclient
+frameworks/kf5umbrella: frameworks/networkmanager-qt
+frameworks/kf5umbrella: frameworks/oxygen-icons5
+frameworks/kf5umbrella: frameworks/plasma-framework
+frameworks/kf5umbrella: frameworks/prison
+frameworks/kf5umbrella: frameworks/purpose
+frameworks/kf5umbrella: frameworks/qqc2-desktop-style
 frameworks/kf5umbrella: frameworks/solid
 frameworks/kf5umbrella: frameworks/sonnet
-frameworks/kf5umbrella: frameworks/threadweaver
-frameworks/kf5umbrella: frameworks/plasma-framework
-frameworks/kf5umbrella: frameworks/kpackage
-frameworks/kf5umbrella: frameworks/kxmlrpcclient
-frameworks/kf5umbrella: frameworks/breeze-icons
-frameworks/kf5umbrella: frameworks/kwayland
+frameworks/kf5umbrella: frameworks/syndication
 frameworks/kf5umbrella: frameworks/syntax-highlighting
-frameworks/kf5umbrella: frameworks/qqc2-desktop-style
-frameworks/kf5umbrella: frameworks/prison
-frameworks/kf5umbrella: frameworks/oxygen-icons5
-frameworks/kf5umbrella: frameworks/kwidgetsaddons
-frameworks/kf5umbrella: frameworks/kunitconversion
-frameworks/kf5umbrella: frameworks/krunner
-frameworks/kf5umbrella: frameworks/kpty
-frameworks/kf5umbrella: frameworks/kplotting
-frameworks/kf5umbrella: frameworks/kpeople
-frameworks/kf5umbrella: frameworks/kitemviews
-frameworks/kf5umbrella: frameworks/kirigami
-frameworks/kf5umbrella: frameworks/kimageformats
-frameworks/kf5umbrella: frameworks/kfilemetadata
-frameworks/kf5umbrella: frameworks/bluez-qt
-frameworks/kf5umbrella: frameworks/baloo
-frameworks/kf5umbrella: frameworks/modemmanager-qt
-frameworks/kf5umbrella: frameworks/networkmanager-qt
+frameworks/kf5umbrella: frameworks/threadweaver
 
 # As yet unmigrated frameworks
 frameworks/baloo: frameworks/krunner
@@ -458,15 +464,9 @@ kde/workspace/kmenuedit: kde/workspace/plasma-workspace
 # KSysGuard
 kde/workspace/ksysguard: kde/workspace/libksysguard
 
-# kwayland-integration
-kde/workspace/kwayland-integration: frameworks/kwindowsystem
-kde/workspace/kwayland-integration: frameworks/kidletime
-kde/workspace/kwayland-integration: frameworks/kguiaddons
-
 # KWin
 kde/workspace/kwin: kde/workspace/kdecoration
 kde/workspace/kwin: kde/workspace/kscreenlocker
-kde/workspace/kwin: kde/workspace/kwayland-integration
 kde/workspace/kwin: kde/workspace/breeze
 
 # plasma-integration
@@ -479,8 +479,6 @@ kde/workspace/breeze: kde/workspace/kdecoration
 kde/workspace/oxygen: kde/workspace/kdecoration
 
 # Plasma Workspace
-kde/workspace/plasma-workspace: frameworks/kholidays
-kde/workspace/plasma-workspace: frameworks/kjsembed
 kde/workspace/plasma-workspace: kde/applications/khelpcenter
 kde/workspace/plasma-workspace: kde/kdenetwork/kio-extras
 kde/workspace/plasma-workspace: kde/workspace/libksysguard
@@ -501,6 +499,7 @@ kde/workspace/plasma-desktop: kde/workspace/plasma-workspace
 
 # Plasma NM
 kde/workspace/plasma-nm: kdesupport/qca
+kde/workspace/plasma-nm: frameworks/modemmanager-qt
 
 # Polkit Policy Agent
 kde/workspace/polkit-kde-agent-1: kdesupport/polkit-qt-1
@@ -565,26 +564,26 @@ kde/pim/kcalutils: third-party/grantlee
 kde/pim/akonadi: frameworks/kdesignerplugin
 
 # Akonadi Calendar
+kde/pim/akonadi-calendar: frameworks/kcontacts
+kde/pim/akonadi-calendar: frameworks/kcalendarcore
 kde/pim/akonadi-calendar: kde/pim/akonadi
 kde/pim/akonadi-calendar: kde/pim/akonadi-contacts
-kde/pim/akonadi-calendar: kde/pim/kcalcore
 kde/pim/akonadi-calendar: kde/pim/kcalutils
-kde/pim/akonadi-calendar: kde/pim/kcontacts
 kde/pim/akonadi-calendar: kde/pim/kidentitymanagement
 kde/pim/akonadi-calendar: kde/pim/kmailtransport
 
 # Akonadi Search
+kde/pim/akonadi-search: frameworks/kcontacts
+kde/pim/akonadi-search: frameworks/kcalendarcore
 kde/pim/akonadi-search: kde/pim/akonadi
 kde/pim/akonadi-search: kde/pim/akonadi-mime
-kde/pim/akonadi-search: kde/pim/kcalcore
-kde/pim/akonadi-search: kde/pim/kcontacts
 kde/pim/akonadi-search: kde/pim/kmime
 
 # Akonadi Contacts
-kde/pim/akonadi-contacts: kde/pim/akonadi
-kde/pim/akonadi-contacts: kde/pim/kcontacts
-kde/pim/akonadi-contacts: kde/pim/kmime
+kde/pim/akonadi-contacts: frameworks/kcontacts
 kde/pim/akonadi-contacts: frameworks/prison
+kde/pim/akonadi-contacts: kde/pim/akonadi
+kde/pim/akonadi-contacts: kde/pim/kmime
 
 # Akonadi Notes
 kde/pim/akonadi-notes: kde/pim/akonadi
@@ -598,9 +597,8 @@ kde/pim/akonadi-mime: kde/pim/kmime
 kde/pim/kimap: kde/pim/kmime
 
 # KAlarm Calendar Support
-kde/pim/kalarmcal: frameworks/kholidays
+kde/pim/kalarmcal: frameworks/kcalendarcore
 kde/pim/kalarmcal: kde/pim/akonadi
-kde/pim/kalarmcal: kde/pim/kcalcore
 kde/pim/kalarmcal: kde/pim/kcalutils
 kde/pim/kalarmcal: kde/pim/kidentitymanagement
 
@@ -615,15 +613,7 @@ kde/pim/kmailtransport: kde/pim/libkgapi
 kde/pim/kidentitymanagement: kde/pim/kpimtextedit
 
 # KBlog
-kde/pim/kblog: kde/pim/kcalcore
-kde/pim/kblog: frameworks/syndication
-
-# KContacts
-kde/pim/kcontacts: -frameworks/kf5umbrella
-kde/pim/kcontacts: frameworks/kcoreaddons
-kde/pim/kcontacts: frameworks/ki18n
-kde/pim/kcontacts: frameworks/kconfig
-kde/pim/kcontacts: frameworks/kcodecs
+kde/pim/kblog: frameworks/kcalendarcore
 
 # KMime
 kde/pim/kmime: -frameworks/kf5umbrella
@@ -638,24 +628,21 @@ kde/pim/kpkpass: -frameworks/kf5umbrella
 kde/pim/kpkpass: frameworks/karchive
 
 # KTNEF
-kde/pim/ktnef: kde/pim/kcalcore
+kde/pim/ktnef: frameworks/kcontacts
+kde/pim/ktnef: frameworks/kcalendarcore
 kde/pim/ktnef: kde/pim/kcalutils
-kde/pim/ktnef: kde/pim/kcontacts
-
-# KCalCore
-kde/pim/kcalcore: -frameworks/kf5umbrella
 
 # KCalUtils
-kde/pim/kcalutils: kde/pim/kcalcore
+kde/pim/kcalutils: frameworks/kcalendarcore
 kde/pim/kcalutils: kde/pim/kidentitymanagement
 
 # KItinerary
 kde/pim/kitinerary: -frameworks/kf5umbrella
 kde/pim/kitinerary: frameworks/ki18n
-kde/pim/kitinerary: kde/pim/kcalcore
+kde/pim/kitinerary: frameworks/kcontacts
+kde/pim/kitinerary: frameworks/kcalendarcore
 kde/pim/kitinerary: kde/pim/kmime
 kde/pim/kitinerary: kde/pim/kpkpass
-kde/pim/kitinerary: kde/pim/kcontacts
 
 playground/pim/kpublictransport: -framework/kf5umbrella
 
@@ -672,10 +659,9 @@ kde/pim/libgravatar: kde/pim/pimcommon
 
 # KDE PIM Common Components
 kde/pim/pimcommon: frameworks/kdesignerplugin
-kde/pim/pimcommon: frameworks/purpose
+kde/pim/pimcommon: frameworks/kcontacts
 kde/pim/pimcommon: kde/pim/akonadi
 kde/pim/pimcommon: kde/pim/akonadi-contacts
-kde/pim/pimcommon: kde/pim/kcontacts
 kde/pim/pimcommon: kde/pim/kimap
 kde/pim/pimcommon: kde/pim/kmime
 kde/pim/pimcommon: kde/pim/kpimtextedit
@@ -688,11 +674,11 @@ kde/pim/mailimporter: kde/pim/kmime
 kde/pim/mailimporter: kde/pim/libkdepim
 
 # Event Views
+kde/pim/eventviews: frameworks/kcalendarcore
 kde/pim/eventviews: extragear/graphics/kdiagram
 kde/pim/eventviews: kde/pim/akonadi
 kde/pim/eventviews: kde/pim/akonadi-calendar
 kde/pim/eventviews: kde/pim/calendarsupport
-kde/pim/eventviews: kde/pim/kcalcore
 kde/pim/eventviews: kde/pim/kcalutils
 kde/pim/eventviews: kde/pim/kmime
 kde/pim/eventviews: kde/pim/libkdepim
@@ -706,14 +692,13 @@ kde/pim/kleopatra: kde/pim/libkleo
 
 # General PIM libraries
 kde/pim/libkdepim: frameworks/kdesignerplugin
+kde/pim/libkdepim: frameworks/kcontacts
 kde/pim/libkdepim: kde/pim/akonadi
 kde/pim/libkdepim: kde/pim/akonadi-contacts
 kde/pim/libkdepim: kde/pim/akonadi-search
-kde/pim/libkdepim: kde/pim/kcontacts
 kde/pim/libkdepim: kde/pim/kldap
 
 # Sieve handling libraries
-kde/pim/libksieve: frameworks/purpose
 kde/pim/libksieve: kde/pim/kidentitymanagement
 kde/pim/libksieve: kde/pim/kimap
 kde/pim/libksieve: kde/pim/kmailtransport
@@ -723,11 +708,10 @@ kde/pim/libksieve: kde/pim/libkdepim
 kde/pim/libksieve: kde/pim/pimcommon
 
 # Calendar Support
-kde/pim/calendarsupport: frameworks/kholidays
+kde/pim/calendarsupport: frameworks/kcalendarcore
 kde/pim/calendarsupport: kde/pim/akonadi
 kde/pim/calendarsupport: kde/pim/akonadi-calendar
 kde/pim/calendarsupport: kde/pim/akonadi-mime
-kde/pim/calendarsupport: kde/pim/kcalcore
 kde/pim/calendarsupport: kde/pim/kcalutils
 kde/pim/calendarsupport: kde/pim/kdepim-apps-libs
 kde/pim/calendarsupport: kde/pim/kidentitymanagement
@@ -736,12 +720,12 @@ kde/pim/calendarsupport: kde/pim/kmime
 kde/pim/calendarsupport: kde/pim/pimcommon
 
 # Incidence Editor
+kde/pim/incidenceeditor: frameworks/kcalendarcore
 kde/pim/incidenceeditor: extragear/graphics/kdiagram
 kde/pim/incidenceeditor: kde/pim/akonadi
 kde/pim/incidenceeditor: kde/pim/akonadi-mime
 kde/pim/incidenceeditor: kde/pim/calendarsupport
 kde/pim/incidenceeditor: kde/pim/eventviews
-kde/pim/incidenceeditor: kde/pim/kcalcore
 kde/pim/incidenceeditor: kde/pim/kcalutils
 kde/pim/incidenceeditor: kde/pim/kdepim-apps-libs
 kde/pim/incidenceeditor: kde/pim/kldap
@@ -750,10 +734,10 @@ kde/pim/incidenceeditor: kde/pim/kmime
 kde/pim/incidenceeditor: kde/pim/libkdepim
 
 # PIM Application Libraries
+kde/pim/kdepim-apps-libs: frameworks/kcontacts
 kde/pim/kdepim-apps-libs: kde/pim/akonadi
 kde/pim/kdepim-apps-libs: kde/pim/akonadi-contacts
 kde/pim/kdepim-apps-libs: kde/pim/grantleetheme
-kde/pim/kdepim-apps-libs: kde/pim/kcontacts
 kde/pim/kdepim-apps-libs: kde/pim/libkleo
 kde/pim/kdepim-apps-libs: kde/pim/pimcommon
 kde/pim/kdepim-apps-libs: third-party/grantlee
@@ -770,12 +754,12 @@ kde/pim/mailcommon: kde/pim/messagelib
 kde/pim/mailcommon: kde/pim/pimcommon
 
 # Message handling libraries
+kde/pim/messagelib: frameworks/kcontacts
 kde/pim/messagelib: kde/pim/akonadi
 kde/pim/messagelib: kde/pim/akonadi-contacts
 kde/pim/messagelib: kde/pim/akonadi-mime
 kde/pim/messagelib: kde/pim/akonadi-search
 kde/pim/messagelib: kde/pim/grantleetheme
-kde/pim/messagelib: kde/pim/kcontacts
 kde/pim/messagelib: kde/pim/kdepim-apps-libs
 kde/pim/messagelib: kde/pim/kidentitymanagement
 kde/pim/messagelib: kde/pim/kldap
@@ -790,13 +774,13 @@ kde/pim/messagelib: kde/pim/pimcommon
 kde/pim/messagelib: third-party/grantlee
 
 # KMail
+kde/pim/kmail: frameworks/kcontacts
+kde/pim/kmail: frameworks/kcalendarcore
 kde/pim/kmail: kde/pim/akonadi
 kde/pim/kmail: kde/pim/akonadi-contacts
 kde/pim/kmail: kde/pim/akonadi-mime
 kde/pim/kmail: kde/pim/akonadi-search
-kde/pim/kmail: kde/pim/kcalcore
 kde/pim/kmail: kde/pim/kcalutils
-kde/pim/kmail: kde/pim/kcontacts
 kde/pim/kmail: kde/pim/kdepim-apps-libs
 kde/pim/kmail: kde/pim/kidentitymanagement
 kde/pim/kmail: kde/pim/kldap
@@ -839,13 +823,13 @@ kde/pim/knotes: third-party/grantlee
 kde/pim/knotes: kde/pim/grantleetheme
 
 # Akonadiconsole
+kde/pim/akonadiconsole: frameworks/kcontacts
+kde/pim/akonadiconsole: frameworks/kcalendarcore
 kde/pim/akonadiconsole: kde/pim/akonadi
 kde/pim/akonadiconsole: kde/pim/akonadi-contacts
 kde/pim/akonadiconsole: kde/pim/akonadi-mime
 kde/pim/akonadiconsole: kde/pim/akonadi-search
 kde/pim/akonadiconsole: kde/pim/calendarsupport
-kde/pim/akonadiconsole: kde/pim/kcalcore
-kde/pim/akonadiconsole: kde/pim/kcontacts
 kde/pim/akonadiconsole: kde/pim/kimap
 kde/pim/akonadiconsole: kde/pim/kmime
 kde/pim/akonadiconsole: kde/pim/kpimtextedit
@@ -854,8 +838,9 @@ kde/pim/akonadiconsole: kde/pim/libkleo
 kde/pim/akonadiconsole: kde/pim/messagelib
 
 # KOrganizer
+kde/pim/korganizer: frameworks/kcontacts
+kde/pim/korganizer: frameworks/kcalendarcore
 kde/pim/korganizer: extragear/graphics/kdiagram
-kde/pim/korganizer: frameworks/kholidays
 kde/pim/korganizer: kde/pim/akonadi
 kde/pim/korganizer: kde/pim/akonadi-calendar
 kde/pim/korganizer: kde/pim/akonadi-contacts
@@ -865,9 +850,7 @@ kde/pim/korganizer: kde/pim/akonadi-search
 kde/pim/korganizer: kde/pim/calendarsupport
 kde/pim/korganizer: kde/pim/eventviews
 kde/pim/korganizer: kde/pim/incidenceeditor
-kde/pim/korganizer: kde/pim/kcalcore
 kde/pim/korganizer: kde/pim/kcalutils
-kde/pim/korganizer: kde/pim/kcontacts
 kde/pim/korganizer: kde/pim/kdepim-apps-libs
 kde/pim/korganizer: kde/pim/kidentitymanagement
 kde/pim/korganizer: kde/pim/kldap
@@ -887,16 +870,14 @@ kde/pim/akregator: kde/pim/libkdepim
 kde/pim/akregator: kde/pim/libkleo
 kde/pim/akregator: kde/pim/messagelib
 kde/pim/akregator: kde/pim/pimcommon
-kde/pim/akregator: frameworks/syndication
 kde/pim/akregator: third-party/grantlee
 
 # KAlarm
-kde/pim/kalarm: frameworks/kholidays
+kde/pim/kalarm: frameworks/kcalendarcore
 kde/pim/kalarm: kde/pim/akonadi
 kde/pim/kalarm: kde/pim/akonadi-contacts
 kde/pim/kalarm: kde/pim/akonadi-mime
 kde/pim/kalarm: kde/pim/kalarmcal
-kde/pim/kalarm: kde/pim/kcalcore
 kde/pim/kalarm: kde/pim/kcalutils
 kde/pim/kalarm: kde/pim/kdepim-apps-libs
 kde/pim/kalarm: kde/pim/kidentitymanagement
@@ -928,8 +909,9 @@ kde/pim/kmail-account-wizard: kde/pim/libkleo
 kde/pim/kmail-account-wizard: kde/pim/pimcommon
 
 # PIM Data Exporter
+kde/pim/pim-data-exporter: frameworks/kcontacts
+kde/pim/pim-data-exporter: frameworks/kcalendarcore
 kde/pim/pim-data-exporter: kde/pim/akonadi
-kde/pim/pim-data-exporter: kde/pim/kcontacts
 kde/pim/pim-data-exporter: kde/pim/kidentitymanagement
 kde/pim/pim-data-exporter: kde/pim/kmailtransport
 kde/pim/pim-data-exporter: kde/pim/kmime
@@ -938,7 +920,6 @@ kde/pim/pim-data-exporter: kde/pim/libkdepim
 kde/pim/pim-data-exporter: kde/pim/mailcommon
 kde/pim/pim-data-exporter: kde/pim/pimcommon
 kde/pim/pim-data-exporter: kde/pim/akonadi-notes
-kde/pim/pim-data-exporter: kde/pim/kcalcore
 
 # MBox Importer
 kde/pim/mbox-importer: kde/pim/akonadi
@@ -967,8 +948,8 @@ kde/pim/kontact: kde/pim/libkdepim
 kde/pim/kontact: third-party/grantlee
 
 # Akonadi Import Wizard
+kde/pim/akonadi-import-wizard: frameworks/kcontacts
 kde/pim/akonadi-import-wizard: kde/pim/akonadi
-kde/pim/akonadi-import-wizard: kde/pim/kcontacts
 kde/pim/akonadi-import-wizard: kde/pim/kidentitymanagement
 kde/pim/akonadi-import-wizard: kde/pim/kmailtransport
 kde/pim/akonadi-import-wizard: kde/pim/libkdepim
@@ -979,23 +960,23 @@ kde/pim/akonadi-import-wizard: kde/pim/pimcommon
 
 # Akonadi Calendar Tools
 kde/pim/akonadi-calendar-tools: frameworks/kdelibs4support
+kde/pim/akonadi-calendar-tools: frameworks/kcalendarcore
 kde/pim/akonadi-calendar-tools: kde/pim/akonadi
 kde/pim/akonadi-calendar-tools: kde/pim/akonadi-calendar
 kde/pim/akonadi-calendar-tools: kde/pim/calendarsupport
-kde/pim/akonadi-calendar-tools: kde/pim/kcalcore
 kde/pim/akonadi-calendar-tools: kde/pim/kcalutils
 kde/pim/akonadi-calendar-tools: kde/pim/libkdepim
 
 # PIM Runtime Components
+kde/pim/kdepim-runtime: frameworks/kcontacts
+kde/pim/kdepim-runtime: frameworks/kcalendarcore
 kde/pim/kdepim-runtime: kde/pim/akonadi
 kde/pim/kdepim-runtime: kde/pim/akonadi-calendar
 kde/pim/kdepim-runtime: kde/pim/akonadi-contacts
 kde/pim/kdepim-runtime: kde/pim/akonadi-mime
 kde/pim/kdepim-runtime: kde/pim/akonadi-notes
 kde/pim/kdepim-runtime: kde/pim/kalarmcal
-kde/pim/kdepim-runtime: kde/pim/kcalcore
 kde/pim/kdepim-runtime: kde/pim/kcalutils
-kde/pim/kdepim-runtime: kde/pim/kcontacts
 kde/pim/kdepim-runtime: kde/pim/kdav
 kde/pim/kdepim-runtime: kde/pim/kidentitymanagement
 kde/pim/kdepim-runtime: kde/pim/kimap
@@ -1040,8 +1021,8 @@ kde/pim/kdepim-addons: third-party/grantlee
 kde/pim/ksmtp: kde/pim/kmime
 
 # Google API Libraries
-kde/pim/libkgapi: kde/pim/kcalcore
-kde/pim/libkgapi: kde/pim/kcontacts
+kde/pim/libkgapi: frameworks/kcontacts
+kde/pim/libkgapi: frameworks/kcalendarcore
 
 # KDE Games
 # General KDE Games Libraries
@@ -1103,7 +1084,6 @@ kde/kdegames/picmi: kde/kdegames/libkdegames
 
 # KDE Graphics
 # Gwenview
-kde/kdegraphics/gwenview: frameworks/purpose
 kde/kdegraphics/gwenview: kde/kdegraphics/libs/libkdcraw
 kde/kdegraphics/gwenview: kde/kdegraphics/libs/libkipi
 kde/kdegraphics/gwenview: kde/kdenetwork/kio-extras
@@ -1113,7 +1093,6 @@ kde/kdegraphics/kolourpaint: kde/kdegraphics/libs/libksane
 
 # Okular
 kde/kdegraphics/okular: frameworks/khtml
-kde/kdegraphics/okular: frameworks/purpose
 kde/kdegraphics/okular: frameworks/kjs
 kde/kdegraphics/okular: kdesupport/phonon/phonon
 kde/kdegraphics/okular: kde/kdegraphics/libs/libkexiv2
@@ -1150,9 +1129,6 @@ kde/kdemultimedia/k3b: kde/kdemultimedia/libkcddb
 
 # KSCD
 kde/kdemultimedia/kscd: kdesupport/phonon/phonon
-
-# Kamoso
-kde/kdemultimedia/kamoso: frameworks/purpose
 
 # KDE Edu!
 # Cantor
@@ -1212,7 +1188,7 @@ kde/kdenetwork/kget: extragear/network/libktorrent
 # Kopete
 kde/kdenetwork/kopete: kdesupport/qca
 kde/kdenetwork/kopete: frameworks/khtml
-kde/kdenetwork/kopete: kde/pim/kcontacts
+kde/kdenetwork/kopete: frameworks/kcontacts
 kde/kdenetwork/kopete: kde/pim/kidentitymanagement
 kde/kdenetwork/kopete: kde/pim/libkleo
 
@@ -1256,13 +1232,14 @@ kde/kdenetwork/ktp-contact-runner: kde/kdenetwork/ktp-common-internals
 kde/kdenetwork/ktp-accounts-kcm: kde/kdenetwork/ktp-common-internals
 kde/kdenetwork/ktp-accounts-kcm: kde/kdenetwork/kaccounts-integration
 kde/kdenetwork/ktp-accounts-kcm: third-party/telepathy-qt
+kde/kdenetwork/ktp-accounts-kcm: frameworks/modemmanager-qt
 
 # KDE Telepathy - Desktop Applet
 kde/kdenetwork/ktp-desktop-applets: kde/kdenetwork/ktp-common-internals
 
 # KAccounts Mobile Components
+kde/kdenetwork/kaccounts-mobile: frameworks/kcontacts
 kde/kdenetwork/kaccounts-mobile: kde/kdenetwork/kaccounts-integration
-kde/kdenetwork/kaccounts-mobile: kde/pim/kcontacts
 kde/kdenetwork/kaccounts-mobile: kde/pim/libkgapi
 
 # KAccounts Providers
@@ -1362,7 +1339,6 @@ extragear/network/choqok: kdesupport/qca
 extragear/network/choqok: frameworks/kdewebkit
 extragear/network/libktorrent: kdesupport/qca
 extragear/network/ktorrent: extragear/network/libktorrent
-extragear/network/ktorrent: frameworks/syndication
 extragear/network/ktorrent: frameworks/kdewebkit
 extragear/network/ktorrent: frameworks/kross
 extragear/network/kdeconnect-kde: kdesupport/qca
@@ -1372,10 +1348,9 @@ extragear/network/rekonq: frameworks/kdewebkit
 # Extragear Office
 extragear/office/kmymoney: extragear/graphics/kdiagram
 extragear/office/kmymoney: extragear/office/alkimia
-extragear/office/kmymoney: frameworks/kholidays
 extragear/office/kmymoney: frameworks/kdewebkit
+extragear/office/kmymoney: frameworks/kcontacts
 extragear/office/kmymoney: kde/pim/kidentitymanagement
-extragear/office/kmymoney: kde/pim/kcontacts
 extragear/office/kmymoney: kde/pim/akonadi
 extragear/office/skrooge: kdesupport/qca
 extragear/office/tellico: frameworks/khtml
@@ -1449,9 +1424,9 @@ playground/devtools/plugins/kdev-xdebug: playground/devtools/plugins/kdev-execut
 # Calligra - Main Suite
 calligra/calligra: frameworks/khtml
 calligra/calligra: frameworks/kross
+calligra/calligra: frameworks/kcontacts
+calligra/calligra: frameworks/kcalendarcore
 calligra/calligra: extragear/graphics/kdiagram
-calligra/calligra: kde/pim/kcalcore
-calligra/calligra: kde/pim/kcontacts
 calligra/calligra: kde/pim/akonadi
 calligra/calligra: kde/kdeedu/marble
 calligra/calligra: kde/kdegraphics/okular
@@ -1459,7 +1434,7 @@ calligra/calligra: kdesupport/qca
 calligra/calligra: kdesupport/phonon/phonon
 
 # calligraplan
-calligra/calligraplan: frameworks/kholidays
+calligra/calligraplan: frameworks/khtml
 calligra/calligraplan: extragear/graphics/kdiagram
 
 # Kexi
@@ -1476,38 +1451,49 @@ playground/base/ktrip: playground/pim/kpublictransport
 playground/base/ktrip: frameworks/kirigami
 playground/base/ktrip: frameworks/ki18n
 
+playground/pim/kpeoplevcard: -frameworks/kf5umbrella
+playground/pim/kpeoplevcard: frameworks/kcoreaddons
+playground/pim/kpeoplevcard: frameworks/kpeople
+playground/pim/kpeoplevcard: frameworks/ki18n
+playground/pim/kpeoplevcard: frameworks/kcontacts
+
+playground/base/plasma-phonebook: -frameworks/kf5umbrella
+playground/base/plasma-phonebook: frameworks/kirigami
+playground/base/plasma-phonebook: frameworks/kpeople
+playground/base/plasma-phonebook: frameworks/ki18n
+playground/base/plasma-phonebook: frameworks/kcontacts
+playground/base/plasma-phonebook: playground/pim/kpeoplevcard
+
+# Playground DevTools
 playground/devtools/ktechlab: frameworks/khtml
 
+# Playground EDU
+playground/edu/rkward: frameworks/kdewebkit
+
+# Playground PIM
+playground/pim/sink: frameworks/kcontacts
+playground/pim/sink: playground/libs/kasync
+playground/pim/sink: playground/libs/kimap2
+playground/pim/sink: kde/pim/kdav
+playground/pim/sink: kde/pim/kmime
+
+playground/pim/kube: frameworks/kcontacts
+playground/pim/kube: playground/pim/sink
+playground/pim/kube: kde/pim/kmime
+playground/pim/kube: kde/pim/messagelib
+
+playground/pim/ktimetracker: frameworks/kcalendarcore
+
+playground/multimedia/vvave: playground/libs/mauikit
+
 playground/mobile/calindori: -frameworks/kf5umbrella
-playground/mobile/calindori: kde/pim/kcalcore
+playground/mobile/calindori: frameworks/kcalendarcore
 playground/mobile/calindori: frameworks/kconfig
 playground/mobile/calindori: frameworks/kirigami
 playground/mobile/calindori: frameworks/ki18n
 playground/mobile/calindori: frameworks/kdbusaddons
 playground/mobile/calindori: frameworks/knotifications
 playground/mobile/calindori: frameworks/kservice
-
-# Playground EDU
-playground/edu/rkward: frameworks/kdewebkit
-
-# Playground PIM
-playground/pim/sink: playground/libs/kasync
-playground/pim/sink: playground/libs/kimap2
-playground/pim/sink: kde/pim/kdav
-playground/pim/sink: kde/pim/kmime
-playground/pim/sink: kde/pim/kcontacts
-
-playground/pim/kube: playground/pim/sink
-playground/pim/kube: kde/pim/kmime
-playground/pim/kube: kde/pim/kcontacts
-playground/pim/kube: kde/pim/messagelib
-
-playground/pim/ktimetracker: kde/pim/kcalcore
-
-# playground/libs/mauikit: -frameworks/kf5umbrella
-# playground/multimedia/vvave: -frameworks/kf5umbrella
-playground/multimedia/vvave: playground/libs/mauikit
-
 
 ### Kolab ###
 
