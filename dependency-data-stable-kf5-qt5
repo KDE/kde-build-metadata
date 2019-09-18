@@ -1475,6 +1475,7 @@ playground/pim/sink: playground/libs/kasync
 playground/pim/sink: playground/libs/kimap2
 playground/pim/sink: kde/pim/kdav
 playground/pim/sink: kde/pim/kmime
+playground/pim/sink: playground/pim/kdav2
 
 playground/pim/kube: frameworks/kcontacts
 playground/pim/kube: playground/pim/sink
