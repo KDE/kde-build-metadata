@@ -396,6 +396,7 @@ frameworks/kf5umbrella: frameworks/kemoticons
 frameworks/kf5umbrella: frameworks/kfilemetadata
 frameworks/kf5umbrella: frameworks/kglobalaccel
 frameworks/kf5umbrella: frameworks/kguiaddons
+frameworks/kf5umbrella: frameworks/kholidays
 frameworks/kf5umbrella: frameworks/ki18n
 frameworks/kf5umbrella: frameworks/kiconthemes
 frameworks/kf5umbrella: frameworks/kidletime
@@ -429,9 +430,11 @@ frameworks/kf5umbrella: frameworks/networkmanager-qt
 frameworks/kf5umbrella: frameworks/oxygen-icons5
 frameworks/kf5umbrella: frameworks/plasma-framework
 frameworks/kf5umbrella: frameworks/prison
+frameworks/kf5umbrella: frameworks/purpose
 frameworks/kf5umbrella: frameworks/qqc2-desktop-style
 frameworks/kf5umbrella: frameworks/solid
 frameworks/kf5umbrella: frameworks/sonnet
+frameworks/kf5umbrella: frameworks/syndication
 frameworks/kf5umbrella: frameworks/syntax-highlighting
 frameworks/kf5umbrella: frameworks/threadweaver
 
