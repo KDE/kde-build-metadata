@@ -475,7 +475,6 @@ kde/workspace/breeze: kde/workspace/kdecoration
 kde/workspace/oxygen: kde/workspace/kdecoration
 
 # Plasma Workspace
-kde/workspace/plasma-workspace: frameworks/kholidays
 kde/workspace/plasma-workspace: kde/applications/khelpcenter
 kde/workspace/plasma-workspace: kde/kdenetwork/kio-extras
 kde/workspace/plasma-workspace: kde/workspace/libksysguard
@@ -594,7 +593,6 @@ kde/pim/akonadi-mime: kde/pim/kmime
 kde/pim/kimap: kde/pim/kmime
 
 # KAlarm Calendar Support
-kde/pim/kalarmcal: frameworks/kholidays
 kde/pim/kalarmcal: kde/pim/akonadi
 kde/pim/kalarmcal: kde/pim/kcalcore
 kde/pim/kalarmcal: kde/pim/kcalutils
@@ -612,7 +610,6 @@ kde/pim/kidentitymanagement: kde/pim/kpimtextedit
 
 # KBlog
 kde/pim/kblog: kde/pim/kcalcore
-kde/pim/kblog: frameworks/syndication
 
 # KContacts
 kde/pim/kcontacts: -frameworks/kf5umbrella
@@ -668,7 +665,6 @@ kde/pim/libgravatar: kde/pim/pimcommon
 
 # KDE PIM Common Components
 kde/pim/pimcommon: frameworks/kdesignerplugin
-kde/pim/pimcommon: frameworks/purpose
 kde/pim/pimcommon: kde/pim/akonadi
 kde/pim/pimcommon: kde/pim/akonadi-contacts
 kde/pim/pimcommon: kde/pim/kcontacts
@@ -709,7 +705,6 @@ kde/pim/libkdepim: kde/pim/kcontacts
 kde/pim/libkdepim: kde/pim/kldap
 
 # Sieve handling libraries
-kde/pim/libksieve: frameworks/purpose
 kde/pim/libksieve: kde/pim/kidentitymanagement
 kde/pim/libksieve: kde/pim/kimap
 kde/pim/libksieve: kde/pim/kmailtransport
@@ -719,7 +714,6 @@ kde/pim/libksieve: kde/pim/libkdepim
 kde/pim/libksieve: kde/pim/pimcommon
 
 # Calendar Support
-kde/pim/calendarsupport: frameworks/kholidays
 kde/pim/calendarsupport: kde/pim/akonadi
 kde/pim/calendarsupport: kde/pim/akonadi-calendar
 kde/pim/calendarsupport: kde/pim/akonadi-mime
@@ -851,7 +845,6 @@ kde/pim/akonadiconsole: kde/pim/messagelib
 
 # KOrganizer
 kde/pim/korganizer: extragear/graphics/kdiagram
-kde/pim/korganizer: frameworks/kholidays
 kde/pim/korganizer: kde/pim/akonadi
 kde/pim/korganizer: kde/pim/akonadi-calendar
 kde/pim/korganizer: kde/pim/akonadi-contacts
@@ -883,11 +876,9 @@ kde/pim/akregator: kde/pim/libkdepim
 kde/pim/akregator: kde/pim/libkleo
 kde/pim/akregator: kde/pim/messagelib
 kde/pim/akregator: kde/pim/pimcommon
-kde/pim/akregator: frameworks/syndication
 kde/pim/akregator: third-party/grantlee
 
 # KAlarm
-kde/pim/kalarm: frameworks/kholidays
 kde/pim/kalarm: kde/pim/akonadi
 kde/pim/kalarm: kde/pim/akonadi-contacts
 kde/pim/kalarm: kde/pim/akonadi-mime
@@ -1099,7 +1090,6 @@ kde/kdegames/picmi: kde/kdegames/libkdegames
 
 # KDE Graphics
 # Gwenview
-kde/kdegraphics/gwenview: frameworks/purpose
 kde/kdegraphics/gwenview: kde/kdegraphics/libs/libkdcraw
 kde/kdegraphics/gwenview: kde/kdegraphics/libs/libkipi
 kde/kdegraphics/gwenview: kde/kdenetwork/kio-extras
@@ -1109,7 +1099,6 @@ kde/kdegraphics/kolourpaint: kde/kdegraphics/libs/libksane
 
 # Okular
 kde/kdegraphics/okular: frameworks/khtml
-kde/kdegraphics/okular: frameworks/purpose
 kde/kdegraphics/okular: frameworks/kjs
 kde/kdegraphics/okular: kdesupport/phonon/phonon
 kde/kdegraphics/okular: kde/kdegraphics/libs/libkexiv2
@@ -1146,9 +1135,6 @@ kde/kdemultimedia/k3b: kde/kdemultimedia/libkcddb
 
 # KSCD
 kde/kdemultimedia/kscd: kdesupport/phonon/phonon
-
-# Kamoso
-kde/kdemultimedia/kamoso: frameworks/purpose
 
 # KDE Edu!
 # Cantor
@@ -1359,7 +1345,6 @@ extragear/network/choqok: kdesupport/qca
 extragear/network/choqok: frameworks/kdewebkit
 extragear/network/libktorrent: kdesupport/qca
 extragear/network/ktorrent: extragear/network/libktorrent
-extragear/network/ktorrent: frameworks/syndication
 extragear/network/ktorrent: frameworks/kdewebkit
 extragear/network/ktorrent: frameworks/kross
 extragear/network/kdeconnect-kde: kdesupport/qca
@@ -1369,7 +1354,6 @@ extragear/network/rekonq: frameworks/kdewebkit
 # Extragear Office
 extragear/office/kmymoney: extragear/graphics/kdiagram
 extragear/office/kmymoney: extragear/office/alkimia
-extragear/office/kmymoney: frameworks/kholidays
 extragear/office/kmymoney: frameworks/kdewebkit
 extragear/office/kmymoney: kde/pim/kidentitymanagement
 extragear/office/kmymoney: kde/pim/kcontacts
@@ -1457,7 +1441,6 @@ calligra/calligra: kdesupport/phonon/phonon
 
 # calligraplan
 calligra/calligraplan: frameworks/khtml
-calligra/calligraplan: frameworks/kholidays
 calligra/calligraplan: extragear/graphics/kdiagram
 
 # Kexi
