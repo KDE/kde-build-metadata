@@ -562,6 +562,7 @@ kde/pim/kcalutils: third-party/grantlee
 
 # Akonadi
 kde/pim/akonadi: frameworks/kdesignerplugin
+kde/pim/akonadi: kde/kdenetwork/kaccounts-integration
 
 # Akonadi Calendar
 kde/pim/akonadi-calendar: frameworks/kcontacts
