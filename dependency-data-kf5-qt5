@@ -1276,6 +1276,11 @@ kde/kdebindings/ruby/qtruby: kde/kdebindings/smoke/smokegen
 ### Extragear ###
 
 # Extragear Base
+extragear/base/plasma-camera: -frameworks/kf5umbrella
+extragear/base/plasma-camera: frameworks/kirigami
+extragear/base/plasma-camera: frameworks/ki18n
+extragear/base/plasma-camera: frameworks/kcoreaddons
+
 extragear/base/kwebkitpart: frameworks/kdewebkit
 extragear/office/latte-dock: -frameworks/kf5umbrella
 extragear/office/latte-dock: frameworks/kactivities
