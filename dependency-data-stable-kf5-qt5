@@ -470,6 +470,7 @@ kde/workspace/ksysguard: kde/workspace/libksysguard
 # KWin
 kde/workspace/kwin: kde/workspace/kdecoration
 kde/workspace/kwin: kde/workspace/kscreenlocker
+kde/workspace/kwin: kde/workspace/kwayland-integration
 kde/workspace/kwin: kde/workspace/breeze
 
 # plasma-integration
