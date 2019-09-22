@@ -296,6 +296,15 @@ frameworks/kcontacts: frameworks/kcoreaddons
 frameworks/kcontacts: frameworks/ki18n
 frameworks/kcontacts: frameworks/kconfig
 frameworks/kcontacts: frameworks/kcodecs
+frameworks/baloo: frameworks/kfilemetadata
+frameworks/baloo: frameworks/kcoreaddons
+frameworks/baloo: frameworks/kconfig
+frameworks/baloo: frameworks/kdbusaddons
+frameworks/baloo: frameworks/ki18n
+frameworks/baloo: frameworks/kidletime
+frameworks/baloo: frameworks/solid
+frameworks/baloo: frameworks/kcrash
+frameworks/baloo: frameworks/kio
 
 # Frameworks, tier4
 frameworks/frameworkintegration: frameworks/ki18n
@@ -440,11 +449,6 @@ frameworks/kf5umbrella: frameworks/sonnet
 frameworks/kf5umbrella: frameworks/syndication
 frameworks/kf5umbrella: frameworks/syntax-highlighting
 frameworks/kf5umbrella: frameworks/threadweaver
-
-# As yet unmigrated frameworks
-frameworks/baloo: frameworks/krunner
-frameworks/baloo: frameworks/kfilemetadata
-frameworks/baloo: frameworks/kdelibs4support
 
 ### Plasma Workspaces! ###
 
