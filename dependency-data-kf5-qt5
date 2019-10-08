@@ -531,6 +531,8 @@ kde/workspace/systemsettings: frameworks/khtml
 # Breeze GTK
 kde/workspace/breeze-gtk:kde/workspace/breeze
 
+# Discover
+kde/workspace/discover: extragear/libs/kuserfeedback
 
 ### Main Applications ###
 
