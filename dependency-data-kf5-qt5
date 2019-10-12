@@ -1499,7 +1499,10 @@ playground/pim/kube: kde/pim/messagelib
 
 playground/pim/ktimetracker: frameworks/kcalendarcore
 
+# Maui
 playground/multimedia/vvave: playground/libs/mauikit
+
+playground/base/index-fm: playground/libs/mauikit
 
 playground/mobile/calindori: -frameworks/kf5umbrella
 playground/mobile/calindori: frameworks/kcalendarcore
