@@ -781,6 +781,7 @@ kde/pim/messagelib: kde/pim/libkdepim
 kde/pim/messagelib: kde/pim/libkleo
 kde/pim/messagelib: kde/pim/pimcommon
 kde/pim/messagelib: third-party/grantlee
+kde/pim/messagelib: kdesupport/qca
 
 # KMail
 kde/pim/kmail: frameworks/kcontacts
