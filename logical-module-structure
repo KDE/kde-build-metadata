@@ -1362,6 +1362,12 @@
             "kf5-qt5": "master",
             "stable-kf5-qt5": "release/19.12"
         },
+        "kde/kdemultimedia/elisa" : {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
         "extragear/utils/kronometer": {
             "stable-qt4": "",
             "latest-qt4": "",
@@ -2195,12 +2201,6 @@
             "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": ""
-        },
-        "extragear/multimedia/elisa" : {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
         },
         "extragear/utils/keurocalc" : {
             "stable-qt4": "",
