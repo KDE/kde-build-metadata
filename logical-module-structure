@@ -1412,7 +1412,7 @@
         },
         "calligra/calligraplan": {
             "kf5-qt5": "master",
-            "stable-kf5-qt5": ""
+            "stable-kf5-qt5": "3.2"
         },
         "calligra/kexi-extras": {
             "stable-qt4": "",
