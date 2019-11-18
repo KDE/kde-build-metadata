@@ -124,7 +124,6 @@ frameworks/ktextwidgets: frameworks/kcompletion
 frameworks/ktextwidgets: frameworks/kconfig
 frameworks/ktextwidgets: frameworks/kconfigwidgets
 frameworks/ktextwidgets: frameworks/ki18n
-frameworks/ktextwidgets: frameworks/kiconthemes
 frameworks/ktextwidgets: frameworks/kservice
 frameworks/ktextwidgets: frameworks/kwidgetsaddons
 frameworks/ktextwidgets: frameworks/kwindowsystem
