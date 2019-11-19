@@ -1498,8 +1498,6 @@ playground/pim/kube: playground/pim/sink
 playground/pim/kube: kde/pim/kmime
 playground/pim/kube: kde/pim/messagelib
 
-playground/pim/ktimetracker: frameworks/kcalendarcore
-
 # Maui
 playground/multimedia/vvave: playground/libs/mauikit
 
@@ -1519,6 +1517,8 @@ playground/mobile/calindori: frameworks/kservice
 third-party/libkolab: frameworks/kf5umbrella
 
 ### KDE Review ###
+
+kdereview/ktimetracker: frameworks/kcalendarcore
 
 ### Global Rules ###
 # This section is not to be modified under any circumstances

@@ -693,7 +693,7 @@
             "kf5-qt5": "develop",
             "stable-kf5-qt5": "master"
         },
-        "playground/pim/ktimetracker": {
+        "kdereview/ktimetracker": {
             "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master",
