@@ -1312,11 +1312,8 @@ extragear/graphics/kphotoalbum: kde/kdegraphics/libs/libkexiv2
 extragear/graphics/kphotoalbum: kde/kdegraphics/libs/libkface
 extragear/graphics/kphotoalbum: kde/kdegraphics/libs/libkgeomap
 extragear/graphics/kphotoalbum: kde/kdegraphics/libs/libkipi
-extragear/graphics/digikam: kde/kdegraphics/libs/libkipi
 extragear/graphics/digikam: kde/kdegraphics/libs/libksane
 extragear/graphics/digikam: kde/kdeedu/marble
-extragear/graphics/digikam: kde/pim/akonadi-contacts
-extragear/graphics/digikam: kde/pim/akonadi # I believe this is it wants for akonadi contacts
 extragear/graphics/digikam/digikam-doc: extragear/graphics/digikam
 
 # Extragear Kaffeine
