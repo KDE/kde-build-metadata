@@ -77,8 +77,10 @@ frameworks/syndication: frameworks/kcodecs
 # Frameworks, tier3
 frameworks/kbookmarks: frameworks/kconfigwidgets
 frameworks/kbookmarks: frameworks/kcoreaddons
+frameworks/kbookmarks: frameworks/kcodecs
+frameworks/kbookmarks: frameworks/kconfig
 frameworks/kbookmarks: frameworks/kiconthemes
-frameworks/kbookmarks: frameworks/kwidgetsaddons
+frameworks/kbookmarks: frameworks/kconfigwidgets
 frameworks/kbookmarks: frameworks/kxmlgui
 frameworks/kcmutils: frameworks/kitemviews
 frameworks/kcmutils: frameworks/kconfigwidgets
