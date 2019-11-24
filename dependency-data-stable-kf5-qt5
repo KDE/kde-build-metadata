@@ -141,7 +141,7 @@ frameworks/kglobalaccel: frameworks/kconfig
 frameworks/kglobalaccel: frameworks/kcoreaddons
 frameworks/kglobalaccel: frameworks/kcrash
 frameworks/kglobalaccel: frameworks/kdbusaddons
-frameworks/kglobalaccel: frameworks/kservice
+frameworks/kglobalaccel: frameworks/kwindowsystem
 frameworks/kxmlgui: frameworks/attica
 frameworks/kxmlgui: frameworks/kitemviews
 frameworks/kxmlgui: frameworks/kconfig
