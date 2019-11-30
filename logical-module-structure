@@ -2231,6 +2231,12 @@
             "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": ""
+        },
+        "playground/multimedia/subtitlecomposer": {
+            "stable-qt4": "kde4",
+            "latest-qt4": "kde4",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/0.7"
         }
    }
 }
