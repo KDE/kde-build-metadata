@@ -798,7 +798,19 @@
 
 
 
-        "kdesupport/phonon/*": {
+        "kdesupport/phonon": {
+            "stable-qt4": "master",
+            "latest-qt4": "master",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "master"
+        },
+        "kdesupport/phonon-gstreamer": {
+            "stable-qt4": "master",
+            "latest-qt4": "master",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "master"
+        },
+        "kdesupport/phonon-vlc": {
             "stable-qt4": "master",
             "latest-qt4": "master",
             "kf5-qt5": "master",

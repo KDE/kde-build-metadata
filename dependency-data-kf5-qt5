@@ -64,7 +64,7 @@ frameworks/knotifications: frameworks/kwindowsystem
 frameworks/knotifications: frameworks/kconfig
 frameworks/knotifications: frameworks/kcodecs
 frameworks/knotifications: frameworks/kcoreaddons
-frameworks/knotifications: kdesupport/phonon/phonon
+frameworks/knotifications: kdesupport/phonon
 frameworks/knotifications: third-party/libdbusmenu-qt
 frameworks/kpackage: frameworks/karchive
 frameworks/kpackage: frameworks/kcoreaddons
@@ -377,7 +377,7 @@ frameworks/khtml: frameworks/kparts
 frameworks/khtml: frameworks/kio
 frameworks/khtml: frameworks/kwallet
 frameworks/khtml: frameworks/kglobalaccel
-frameworks/khtml: kdesupport/phonon/phonon
+frameworks/khtml: kdesupport/phonon
 
 # Lie about kf5umbrella: it doesn't depend on anything, but we use it as way to depend on all frameworks
 frameworks/kf5umbrella: frameworks/attica
@@ -542,11 +542,11 @@ kde/applications/konqueror: frameworks/khtml
 kde/applications/konqueror: kde/applications/dolphin
 
 # Dolphin
-kde/applications/dolphin: kdesupport/phonon/phonon
+kde/applications/dolphin: kdesupport/phonon
 kde/applications/dolphin: kde/applications/baloo-widgets
 
 # Konsole
-kde/applications/konsole: kdesupport/phonon/phonon
+kde/applications/konsole: kdesupport/phonon
 kde/applications/yakuake: kde/applications/konsole
 
 # khelpcenter
@@ -1104,7 +1104,7 @@ kde/kdegraphics/kolourpaint: kde/kdegraphics/libs/libksane
 # Okular
 kde/kdegraphics/okular: frameworks/khtml
 kde/kdegraphics/okular: frameworks/kjs
-kde/kdegraphics/okular: kdesupport/phonon/phonon
+kde/kdegraphics/okular: kdesupport/phonon
 kde/kdegraphics/okular: kde/kdegraphics/libs/libkexiv2
 kde/kdegraphics/okular: kde/kdegraphics/kdegraphics-mobipocket
 
@@ -1138,7 +1138,7 @@ kde/kdemultimedia/audiocd-kio: kde/kdemultimedia/libkcompactdisc
 kde/kdemultimedia/k3b: kde/kdemultimedia/libkcddb
 
 # KSCD
-kde/kdemultimedia/kscd: kdesupport/phonon/phonon
+kde/kdemultimedia/kscd: kdesupport/phonon
 
 # KDE Edu!
 # Cantor
@@ -1170,7 +1170,7 @@ kde/kdeedu/khangman: kde/kdeedu/kdeedu-data
 kde/kdeedu/kwordquiz: kde/kdeedu/libkeduvocdocument
 
 # Marble
-kde/kdeedu/marble: kdesupport/phonon/phonon
+kde/kdeedu/marble: kdesupport/phonon
 
 # Minuet
 kde/kdeedu/minuet: -frameworks/kf5umbrella
@@ -1340,7 +1340,7 @@ extragear/libs/libkvkontakte: frameworks/kdewebkit
 # Extragear Multimedia
 extragear/multimedia/kaudiocreator: kde/kdemultimedia/libkcddb
 extragear/multimedia/kaudiocreator: kde/kdemultimedia/libkcompactdisc
-extragear/multimedia/kmplayer: kdesupport/phonon/phonon
+extragear/multimedia/kmplayer: kdesupport/phonon
 extragear/multimedia/kmplayer: frameworks/kmediaplayer
 
 # Extragear Network
@@ -1443,7 +1443,7 @@ calligra/calligra: kde/pim/akonadi
 calligra/calligra: kde/kdeedu/marble
 calligra/calligra: kde/kdegraphics/okular
 calligra/calligra: kdesupport/qca
-calligra/calligra: kdesupport/phonon/phonon
+calligra/calligra: kdesupport/phonon
 
 # calligraplan
 calligra/calligraplan: frameworks/khtml

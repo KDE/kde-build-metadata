@@ -22,7 +22,7 @@ kde/*: kde/kdelibs
 *: kdesupport/automoc[master]
 
 kde/kdelibs: frameworks/attica[qt4]
-kde/kdelibs: kdesupport/phonon/phonon[master]
+kde/kdelibs: kdesupport/phonon[master]
 kde/kdelibs: kdesupport/strigi/libstreams[master]
 kde/kdelibs: kdesupport/strigi/libstreamanalyzer[master]
 kde/kdelibs: kdesupport/strigi/strigiclient[master]
