@@ -693,7 +693,7 @@
             "kf5-qt5": "develop",
             "stable-kf5-qt5": "master"
         },
-        "kdereview/ktimetracker": {
+        "extragear/pim/ktimetracker": {
             "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master",

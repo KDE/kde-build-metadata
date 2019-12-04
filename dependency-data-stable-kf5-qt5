@@ -1373,6 +1373,7 @@ extragear/office/kile: kde/kdegraphics/okular
 extragear/office/kbibtex: kdesupport/qca
 
 # Extragear PIM
+extragear/pim/ktimetracker: frameworks/kcalendarcore
 extragear/pim/trojita: -frameworks/kf5umbrella
 extragear/pim/zanshin: kde/pim/akonadi-notes
 extragear/pim/zanshin: kde/pim/akonadi-calendar
@@ -1503,8 +1504,6 @@ playground/mobile/calindori: frameworks/kservice
 third-party/libkolab: frameworks/kf5umbrella
 
 ### KDE Review ###
-
-kdereview/ktimetracker: frameworks/kcalendarcore
 
 ### Global Rules ###
 # This section is not to be modified under any circumstances
