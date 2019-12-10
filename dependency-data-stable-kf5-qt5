@@ -1475,6 +1475,8 @@ playground/devtools/ktechlab: frameworks/khtml
 # Playground EDU
 playground/edu/rkward: frameworks/kdewebkit
 
+playground/edu/khipu: kde/kdeedu/analitza
+
 # Playground PIM
 playground/pim/sink: frameworks/kcontacts
 playground/pim/sink: playground/libs/kasync
