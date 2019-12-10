@@ -1502,6 +1502,8 @@ playground/multimedia/vvave: playground/libs/mauikit
 
 playground/base/index-fm: playground/libs/mauikit
 
+playground/base/nota: playground/libs/mauikit
+
 playground/mobile/calindori: -frameworks/kf5umbrella
 playground/mobile/calindori: frameworks/kcalendarcore
 playground/mobile/calindori: frameworks/kconfig
