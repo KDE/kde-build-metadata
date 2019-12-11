@@ -1254,6 +1254,10 @@ kde/kdenetwork/kaccounts-providers: kde/kdenetwork/kaccounts-integration
 
 kde/kdenetwork/kio-extras: frameworks/khtml
 
+# KDE Connect
+kde/kdenetwork/kdeconnect-kde: kdesupport/qca
+kde/kdenetwork/kdeconnect-kde: extragear/libs/pulseaudio-qt
+
 # SDK Applications
 # Kompare
 kde/kdesdk/kompare: kde/kdesdk/libkomparediff2
@@ -1345,8 +1349,6 @@ extragear/network/libktorrent: kdesupport/qca
 extragear/network/ktorrent: extragear/network/libktorrent
 extragear/network/ktorrent: frameworks/kdewebkit
 extragear/network/ktorrent: frameworks/kross
-extragear/network/kdeconnect-kde: kdesupport/qca
-extragear/network/kdeconnect-kde: extragear/libs/pulseaudio-qt
 extragear/network/rekonq: frameworks/kdewebkit
 
 # Extragear Office
