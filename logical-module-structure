@@ -199,6 +199,18 @@
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Plasma/5.17"
         },
+        "kde/workspace/plasma-nano" : {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
+        },
+        "kde/workspace/plasma-phone-components" : {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
+        },
         "kde/workspace/breeze" : {
             "stable-qt4": "Plasma/5.17",
             "latest-qt4": "master",
