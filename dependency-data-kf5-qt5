@@ -494,6 +494,7 @@ kde/workspace/plasma-workspace: kde/workspace/kscreenlocker
 kde/workspace/plasma-workspace: kde/workspace/kactivitymanagerd
 kde/workspace/plasma-workspace: frameworks/prison
 kde/workspace/plasma-workspace: frameworks/kjsembed
+kde/workspace/plasma-workspace: frameworks/kquickcharts
 kde/workspace/plasma-workspace: extragear/libs/kuserfeedback
 
 # Plasma Desktop
