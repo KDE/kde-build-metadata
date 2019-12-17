@@ -1467,6 +1467,7 @@ playground/base/ktrip: playground/pim/kpublictransport
 playground/base/ktrip: frameworks/kirigami
 playground/base/ktrip: frameworks/ki18n
 playground/base/ktrip: frameworks/kitemmodels
+playground/base/ktrip: frameworks/kconfig
 
 playground/pim/kpeoplevcard: -frameworks/kf5umbrella
 playground/pim/kpeoplevcard: frameworks/kcoreaddons
