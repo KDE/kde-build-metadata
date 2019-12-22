@@ -30,11 +30,20 @@
             "kf5-minimum": "5.4",
             "stable-kf5-qt5": "5.6"
         },
+
+
+
         "frameworks/*" : {
             "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master",
             "kf5-minimum": "master",
+            "stable-kf5-qt5": "master"
+        },
+        "frameworks/baloo" : {
+            "stable-qt4": "KDE/4.14",
+            "latest-qt4": "KDE/4.14",
+            "kf5-qt5": "master",
             "stable-kf5-qt5": "master"
         },
         "frameworks/kpeople" : {
@@ -65,36 +74,6 @@
             "kf5-minimum": "master",
             "stable-kf5-qt5": "master"
         },
-        "kde/*" : {
-            "stable-qt4": "Applications/17.08",
-            "latest-qt4": "master",
-            "kf5-qt5": "frameworks",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "kde/kdewebdev/*" : {
-            "stable-qt4": "Applications/17.08",
-            "latest-qt4": "master",
-            "kf5-qt5": "",
-            "stable-kf5-qt5": ""
-        },
-        "kde/kdewebdev/kimagemapeditor" : {
-            "stable-qt4": "Applications/17.08",
-            "latest-qt4": "Applications/17.08",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "kde/kdelibs" : {
-            "stable-qt4": "KDE/4.14",
-            "latest-qt4": "KDE/4.14",
-            "kf5-qt5": "",
-            "stable-kf5-qt5": ""
-        },
-         "kde/kde-runtime" : {
-            "stable-qt4": "Applications/17.08",
-            "latest-qt4": "master",
-            "kf5-qt5": "",
-            "stable-kf5-qt5": ""
-        },
         "frameworks/kactivities" : {
             "stable-qt4": "KDE/4.13",
             "latest-qt4": "KDE/4.13",
@@ -115,120 +94,180 @@
             "kf5-qt5": "master",
             "stable-kf5-qt5": "master"
         },
-        "kde/kdepim" : {
-            "stable-qt4": "KDE/4.14",
-            "latest-qt4": "KDE/4.14",
-            "kf5-qt5": "",
-            "stable-kf5-qt5": ""
-        },
-        "unmaintained/kdepimlibs" : {
-            "stable-qt4": "KDE/4.14",
-            "latest-qt4": "KDE/4.14",
-            "kf5-qt5": "",
-            "stable-kf5-qt5": ""
-        },
-        "kde/pim/*" : {
-            "stable-qt4": "",
-            "latest-qt4": "",
+        "frameworks/attica": {
+            "stable-qt4": "qt4",
+            "latest-qt4": "qt4",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
+            "kf5-minimum": "master",
+            "stable-kf5-qt5": "master"
         },
-        "kde/pim/kdepim-runtime" : {
-            "stable-qt4": "KDE/4.14",
-            "latest-qt4": "KDE/4.14",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "unmaintained/gpgmepp" : {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "Applications/16.08"
-        },
-        "playground/libs/libechonest" : {
-            "stable-qt4": "stable-v1",
+        "frameworks/extra-cmake-modules": {
+            "stable-qt4": "master",
             "latest-qt4": "master",
-            "kf5-qt5": "",
-            "stable-kf5-qt5": ""
+            "kf5-qt5": "master",
+            "kf5-minimum": "master",
+            "stable-kf5-qt5": "master"
         },
-        "playground/libs/kasync" : {
+        "frameworks/plasma-framework": {
             "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": ""
+            "kf5-minimum": "master",
+            "stable-kf5-qt5": "master"
         },
-        "playground/libs/kimap2": {
-            "stable-qt4": "",
-            "latest-qt4": "",
+        "frameworks/prison": {
+            "stable-qt4": "qt4",
+            "latest-qt4": "qt4",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": ""
+            "stable-kf5-qt5": "master"
         },
-        "extragear/libs/libqaccessibilityclient": {
+
+
+
+        "kdesupport/kdewin": {
             "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "master"
         },
-        "frameworks/baloo" : {
-            "stable-qt4": "KDE/4.14",
-            "latest-qt4": "KDE/4.14",
+        "kdesupport/phonon": {
+            "stable-qt4": "master",
+            "latest-qt4": "master",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "master"
         },
+        "kdesupport/phonon-gstreamer": {
+            "stable-qt4": "master",
+            "latest-qt4": "master",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "master"
+        },
+        "kdesupport/phonon-vlc": {
+            "stable-qt4": "master",
+            "latest-qt4": "master",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "master"
+        },
+        "kdesupport/polkit-qt-1": {
+            "stable-qt4": "master",
+            "latest-qt4": "master",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "master"
+        },
+        "kdesupport/craft": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
+        },
+        "kdesupport/qca": {
+            "stable-qt4": "master",
+            "latest-qt4": "master",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "master"
+        },
+
+
+
+        "kde/*" : {
+            "stable-qt4": "Applications/17.08",
+            "latest-qt4": "master",
+            "kf5-qt5": "frameworks",
+            "stable-kf5-qt5": "release/19.12"
+        },
+
         "kde/applications/baloo-widgets" : {
             "stable-qt4": "KDE/4.14",
             "latest-qt4": "KDE/4.14",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "release/19.12"
         },
-        "kde/kdelibs/nepomuk-core" : {
+        "kde/applications/kate" : {
             "stable-qt4": "KDE/4.14",
             "latest-qt4": "KDE/4.14",
-            "kf5-qt5": "",
-            "stable-kf5-qt5": ""
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
         },
-        "kde/kdelibs/nepomuk-widgets" : {
+        "kde/applications/konsole" : {
             "stable-qt4": "KDE/4.14",
             "latest-qt4": "KDE/4.14",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
+        "kde/applications/yakuake": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
+        "kde/applications/dolphin" : {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
+        "kde/applications/khelpcenter" : {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
+        "kde/applications/konqueror" : {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
+        "kde/applications/kdialog" : {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
+        "kde/applications/keditbookmarks" : {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
+        "kde/applications/kfind" : {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
+
+        "kde/kdeaccessibility/kmag": {
+            "stable-qt4": "Applications/17.04",
+            "latest-qt4": "Applications/17.04",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
+        "kde/kdeaccessibility/kmousetool": {
+            "stable-qt4": "Applications/17.04",
+            "latest-qt4": "Applications/17.04",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
+        "kde/kdeaccessibility/kaccessible": {
+            "stable-qt4": "Applications/17.08",
+            "latest-qt4": "master",
             "kf5-qt5": "",
             "stable-kf5-qt5": ""
         },
-        "kde/workspace/*" : {
-            "stable-qt4": "",
-            "latest-qt4": "",
+        "kde/kdeaccessibility/kmouth": {
+            "stable-qt4": "Applications/17.08",
+            "latest-qt4": "Applications/17.08",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": "Plasma/5.17"
+            "stable-kf5-qt5": "release/19.12"
         },
-        "kde/workspace/plasma-nano" : {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": ""
-        },
-        "kde/workspace/plasma-phone-components" : {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": ""
-        },
-        "kde/workspace/breeze" : {
-            "stable-qt4": "Plasma/5.17",
+        "kde/kdeaccessibility/jovie": {
+            "stable-qt4": "Applications/17.08",
             "latest-qt4": "master",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "Plasma/5.17"
-        },
-        "kde/kde-workspace" : {
-            "stable-qt4": "KDE/4.11",
-            "latest-qt4": "KDE/4.11",
             "kf5-qt5": "",
             "stable-kf5-qt5": ""
         },
-        "kde/kdeexamples" : {
-            "stable-qt4": "master",
-            "latest-qt4": "master",
-            "kf5-qt5": "frameworks-scratch",
-            "stable-kf5-qt5": ""
-        },
+
         "kde/kdeadmin/kcron" : {
             "stable-qt4": "Applications/14.12",
             "latest-qt4": "Applications/14.12",
@@ -241,72 +280,86 @@
             "kf5-qt5": "",
             "stable-kf5-qt5": ""
         },
-        "kde/kdegraphics/libs/*" : {
+        "kde/kdeadmin/ksystemlog": {
             "stable-qt4": "Applications/15.08",
-            "latest-qt4": "Applications/15.08",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "kde/kdegraphics/libs/libkgeomap" : {
-            "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "release/19.12"
         },
-        "kde/kdegraphics/gwenview" : {
+
+        "kde/kdebindings/kross-interpreters": {
             "stable-qt4": "KDE/4.14",
-            "latest-qt4": "KDE/4.14",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "kde/kdegraphics/kruler" : {
-            "stable-qt4": "Applications/14.12",
-            "latest-qt4": "Applications/14.12",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "kde/kdegraphics/spectacle" : {
-            "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "release/19.12"
         },
-        "kde/kdegraphics/okular" : {
-            "stable-qt4": "Applications/16.08",
-            "latest-qt4": "Applications/16.08",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
-	"kde/kdegraphics/peruse" : {
-	    "stable-qt4" : "",
-	    "latest-qt4" : "",
-            "kf5-qt5" : "master",
-            "stable-kf5-qt5" : ""
-	},
-        "kde/kdegraphics/kolourpaint" : {
-            "stable-qt4": "Applications/16.04",
-            "latest-qt4": "Applications/16.04",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "kde/kdegraphics/svgpart" : {
-            "stable-qt4": "Applications/16.08",
-            "latest-qt4": "Applications/16.08",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "kde/kdegraphics/kdegraphics-mobipocket" : {
-            "stable-qt4": "Applications/16.08",
-            "latest-qt4": "Applications/16.08",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "kde/kdegraphics/kdegraphics-strigi-analyzer" : {
-            "stable-qt4": "Applications/16.04",
+        "kde/kdebindings/csharp/kimono": {
+            "stable-qt4": "KDE/4.14",
             "latest-qt4": "master",
             "kf5-qt5": "",
             "stable-kf5-qt5": ""
         },
+        "kde/kdebindings/csharp/qyoto": {
+            "stable-qt4": "KDE/4.14",
+            "latest-qt4": "master",
+            "kf5-qt5": "",
+            "stable-kf5-qt5": ""
+        },
+        "kde/kdebindings/ruby/qtruby": {
+            "stable-qt4": "KDE/4.14",
+            "latest-qt4": "master",
+            "kf5-qt5": "qtruby-3.0-qt5",
+            "stable-kf5-qt5": ""
+        },
+        "kde/kdebindings/smoke/smokeqt": {
+            "stable-qt4": "KDE/4.14",
+            "latest-qt4": "master",
+            "kf5-qt5": "Qt5",
+            "stable-kf5-qt5": ""
+        },
+        "kde/kdebindings/smoke/smokekde": {
+            "stable-qt4": "KDE/4.14",
+            "latest-qt4": "master",
+            "kf5-qt5": "",
+            "stable-kf5-qt5": ""
+        },
+        "kde/kdebindings/smoke/smokegen": {
+            "stable-qt4": "KDE/4.14",
+            "latest-qt4": "master",
+            "kf5-qt5": "Qt5",
+            "stable-kf5-qt5": ""
+        },
+        "kde/kdebindings/perl/perlqt": {
+            "stable-qt4": "Applications/14.12",
+            "latest-qt4": "master",
+            "kf5-qt5": "",
+            "stable-kf5-qt5": ""
+        },
+        "kde/kdebindings/perl/perlkde": {
+            "stable-qt4": "Applications/14.12",
+            "latest-qt4": "master",
+            "kf5-qt5": "",
+            "stable-kf5-qt5": ""
+        },
+        "kde/kdebindings/python/pykde4": {
+            "stable-qt4": "KDE/4.14",
+            "latest-qt4": "master",
+            "kf5-qt5": "",
+            "stable-kf5-qt5": ""
+        },
+        "kde/kdebindings/python/pykde5": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
+        },
+        "kde/kdebindings/ruby/korundum": {
+            "stable-qt4": "KDE/4.14",
+            "latest-qt4": "master",
+            "kf5-qt5": "",
+            "stable-kf5-qt5": ""
+        },
+
         "kde/kdeedu/analitza": {
             "stable-qt4": "KDE/4.14",
             "latest-qt4": "KDE/4.14",
@@ -455,1138 +508,6 @@
             "kf5-qt5": "master",
             "stable-kf5-qt5": "release/19.12"
         },
-        "kde/kdesdk/kapptemplate" : {
-            "stable-qt4": "KDE/4.14",
-            "latest-qt4": "KDE/4.14",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "kde/kdesdk/lokalize" : {
-            "stable-qt4": "Applications/14.12",
-            "latest-qt4": "Applications/14.12",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "extragear/utils/okteta" : {
-            "stable-qt4": "KDE/4.14",
-            "latest-qt4": "KDE/4.14",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "0.26"
-        },
-        "kde/kdesdk/kde-dev-scripts" : {
-            "stable-qt4": "Applications/17.08",
-            "latest-qt4": "Applications/17.08",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "kde/kdesdk/kdesdk-thumbnailers" : {
-            "stable-qt4": "Applications/15.08",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "kde/kdesdk/umbrello" : {
-            "stable-qt4": "Applications/17.04",
-            "latest-qt4": "Applications/17.04",
-            "kf5-qt5": "frameworks",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "kde/kdesdk/cervisia" : {
-            "stable-qt4": "Applications/16.04",
-            "latest-qt4": "Applications/16.04",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "kde/kdesdk/kirigami-gallery" : {
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "kde/kdeutils/kteatime" : {
-            "stable-qt4": "Applications/14.12",
-            "latest-qt4": "Applications/14.12",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "kde/kdetoys/amor" : {
-            "stable-qt4": "Applications/15.08",
-            "latest-qt4": "qt4",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "master"
-        },
-        "kde/kdetoys/ktux" : {
-            "stable-qt4": "Applications/15.08",
-            "latest-qt4": "master",
-            "kf5-qt5": "",
-            "stable-kf5-qt5": ""
-        },
-        "kde/kdeutils/ark" : {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "kde/kdeutils/filelight" : {
-            "stable-qt4": "Applications/14.12",
-            "latest-qt4": "Applications/14.12",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "kde/kdeutils/kcalc" : {
-            "stable-qt4": "Applications/14.12",
-            "latest-qt4": "Applications/14.12",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "kde/kdeutils/kcharselect" : {
-            "stable-qt4": "Applications/14.12",
-            "latest-qt4": "Applications/14.12",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "kde/kdeutils/kdf" : {
-            "stable-qt4": "Applications/16.04",
-            "latest-qt4": "Applications/16.04",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "kde/kdeutils/kremotecontrol" : {
-            "stable-qt4": "Applications/17.08",
-            "latest-qt4": "master",
-            "kf5-qt5": "",
-            "stable-kf5-qt5": ""
-        },
-        "kde/kdeutils/kfloppy" : {
-            "stable-qt4": "Applications/15.12",
-            "latest-qt4": "Applications/15.12",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "kde/kdeutils/kgpg" : {
-            "stable-qt4": "Applications/16.08",
-            "latest-qt4": "Applications/16.08",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "kde/kdeutils/superkaramba" : {
-            "stable-qt4": "Applications/15.08",
-            "latest-qt4": "master",
-            "kf5-qt5": "",
-            "stable-kf5-qt5": ""
-        },
-        "kde/kdeutils/sweeper" : {
-            "stable-qt4": "Applications/17.08",
-            "latest-qt4": "Applications/17.08",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "kde/kdeutils/ktimer" : {
-            "stable-qt4": "Applications/14.12",
-            "latest-qt4": "Applications/14.12",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "kde/kdeutils/print-manager" : {
-            "stable-qt4": "Applications/14.12",
-            "latest-qt4": "Applications/14.12",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "kde/kdeutils/kwalletmanager" : {
-            "stable-qt4": "Applications/15.04",
-            "latest-qt4": "Applications/15.04",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "kde/kdeutils/kbackup" : {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "kde/pim/akonadi": {
-            "stable-qt4": "1.13",
-            "latest-qt4": "1.13",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "kde/pim/akonadi-notes": {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "kde/pim/akonadi-contacts": {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "kde/pim/akonadi-mime": {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "kdesupport/soprano": {
-            "stable-qt4": "2.9",
-            "latest-qt4": "2.9",
-            "kf5-qt5": "",
-            "stable-kf5-qt5": ""
-        },
-        "kdesupport/kdewin": {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "master"
-        },
-        "kdesupport/automoc": {
-            "stable-qt4": "master",
-            "latest-qt4": "master",
-            "kf5-qt5": "",
-            "stable-kf5-qt5": ""
-        },
-        "extragear/pim/zanshin": {
-            "stable-qt4": "0.3",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "master"
-        },
-        "kde/pim/kdav": {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "kde/pim/kleopatra": {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "kde/pim/kdepim-addons": {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "kde/pim/libgravatar": {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "kde/pim/pimcommon": {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "kde/pim/libkdepim": {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "playground/lib/kasync": {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": ""
-        },
-        "playground/pim/kube": {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "develop",
-            "stable-kf5-qt5": "master"
-        },
-        "extragear/pim/ktimetracker": {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": ""
-        },
-        "kdereview": {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "master"
-        },
-        "playground/pim/sink": {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "develop",
-            "stable-kf5-qt5": "master"
-        },
-        "kde/pim/calendarsupport": {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "kde/pim/grantleetheme": {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "kde/pim/incidenceeditor": {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "kde/pim/kdgantt2": {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "",
-            "stable-kf5-qt5": "Applications/16.08"
-        },
-        "kde/pim/libkleo": {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "kde/pim/libksieve": {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "kde/pim/mailcommon": {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "kde/pim/mailimporter": {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "kde/pim/eventviews": {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "kde/pim/messagelib": {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "kde/pim/kdepim-apps-libs": {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "kde/pim/libkgapi": {
-            "stable-qt4": "LibKGAPI/2.1",
-            "latest-qt4": "LibKGAPI/2.1",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "kde/pim/kitinerary": {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "kde/pim/kpkpass": {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "kdesupport/phonon": {
-            "stable-qt4": "master",
-            "latest-qt4": "master",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "master"
-        },
-        "kdesupport/phonon-gstreamer": {
-            "stable-qt4": "master",
-            "latest-qt4": "master",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "master"
-        },
-        "kdesupport/phonon-vlc": {
-            "stable-qt4": "master",
-            "latest-qt4": "master",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "master"
-        },
-        "kdesupport/polkit-qt-1": {
-            "stable-qt4": "master",
-            "latest-qt4": "master",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "master"
-        },
-        "kdesupport/craft": {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": ""
-        },
-        "kdesupport/qca": {
-            "stable-qt4": "master",
-            "latest-qt4": "master",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "master"
-        },
-        "extragear/accessibility/simon": {
-            "stable-qt4": "0.5",
-            "latest-qt4": "master",
-            "kf5-qt5": "kf5",
-            "stable-kf5-qt5": ""
-        },
-        "extragear/base/kwebkitpart": {
-            "stable-qt4": "qt4",
-            "latest-qt4": "qt4",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "master"
-        },
-        "extragear/base/mangonel": {
-            "stable-qt4": "master",
-            "latest-qt4": "master",
-            "kf5-qt5": "frameworks",
-            "stable-kf5-qt5": ""
-        },
-        "extragear/base/milou": {
-            "stable-qt4": "milou/0.1",
-            "latest-qt4": "milou/0.1",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "Plasma/5.17"
-        },
-        "extragear/base/plasma-mobile": {
-            "stable-qt4": "Active/4",
-            "latest-qt4": "Active/4",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": ""
-        },
-        "extragear/base/wacomtablet": {
-            "stable-qt4": "releng2.1",
-            "latest-qt4": "releng2.1",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": ""
-        },
-        "extragear/graphics/*": {
-            "stable-qt4": "master",
-            "latest-qt4": "master",
-            "kf5-qt5": "frameworks",
-            "stable-kf5-qt5": ""
-        },
-        "extragear/graphics/skanlite": {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": ""
-        },
-        "extragear/graphics/kcoloredit": {
-            "stable-qt4": "master",
-            "latest-qt4": "master",
-            "kf5-qt5": "",
-            "stable-kf5-qt5": ""
-        },
-        "extragear/graphics/kdiagram": {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "2.6"
-        },
-        "extragear/graphics/kgraphviewer": {
-            "stable-qt4": "2.2",
-            "latest-qt4": "2.2",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": ""
-        },
-        "extragear/graphics/kphotoalbum": {
-            "stable-qt4": "4.7",
-            "latest-qt4": "4.7",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "master"
-        },
-        "extragear/graphics/krita": {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "krita/4.2"
-        },
-        "extragear/graphics/ksnapshot" : {
-            "stable-qt4": "Applications/15.08",
-            "latest-qt4": "master",
-            "kf5-qt5": "frameworks",
-            "stable-kf5-qt5": ""
-        },
-        "extragear/graphics/kst-plot": {
-            "stable-qt4": "master",
-            "latest-qt4": "master",
-            "kf5-qt5": "",
-            "stable-kf5-qt5": ""
-        },
-        "extragear/graphics/kxstitch": {
-            "stable-qt4": "release-1.3.0",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": ""
-        },
-        "extragear/graphics/symboleditor": {
-            "stable-qt4": "release-1.5.0",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release-2.0.0"
-        },
-        "kde/kdegames/knights": {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "extragear/libs/libkfbapi": {
-            "stable-qt4": "kfbapi-1.0",
-            "latest-qt4": "master",
-            "kf5-qt5": "frameworks",
-            "stable-kf5-qt5": ""
-        },
-        "extragear/libs/libkvkontakte": {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": ""
-        },
-        "extragear/libs/libmediawiki": {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "master"
-        },
-        "extragear/libs/pulseaudio-qt": {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "master"
-        },
-        "extragear/office/alkimia": {
-            "stable-qt4": "5.0",
-            "latest-qt4": "5.0",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "7.0"
-        },
-        "extragear/edu/gcompris": {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "KDE/0.97"
-        },
-        "extragear/office/kile": {
-            "stable-qt4": "2.1",
-            "latest-qt4": "livepreview-kde4",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": ""
-        },
-        "extragear/office/kbibtex": {
-            "stable-qt4": "kbibtex/0.6",
-            "latest-qt4": "kbibtex/0.7",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": ""
-        },
-        "extragear/kdevelop/*": {
-            "stable-qt4": "1.7",
-            "latest-qt4": "1.7",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": ""
-        },
-        "extragear/kdevelop/kdev-www": {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "",
-            "stable-kf5-qt5": ""
-        },
-        "extragear/kdevelop/kdevplatform": {
-            "stable-qt4": "1.7",
-            "latest-qt4": "1.7",
-            "kf5-qt5": "",
-            "stable-kf5-qt5": ""
-        },
-        "extragear/kdevelop/kdevelop": {
-            "stable-qt4": "4.7",
-            "latest-qt4": "4.7",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "5.4"
-        },
-        "extragear/kdevelop/utilities/kdevelop-pg-qt": {
-            "stable-qt4": "1.1",
-            "latest-qt4": "1.1",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "2.2"
-        },
-        "extragear/multimedia/kaffeine": {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": ""
-        },
-        "extragear/utils/krusader": {
-            "stable-qt4": "kde4",
-            "latest-qt4": "kde4",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "master"
-        },
-        "extragear/utils/rsibreak": {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": ""
-        },
-        "extragear/utils/kmarkdownwebview": {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": ""
-        },
-        "extragear/utils/kdiff3": {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "1.8"
-        },
-        "playground/devtools/plugins/*": {
-            "stable-qt4": "master",
-            "latest-qt4": "master",
-            "kf5-qt5": "",
-            "stable-kf5-qt5": ""
-        },
-        "playground/devtools/plugins/kdev-css": {
-            "stable-qt4": "1.7",
-            "latest-qt4": "1.7",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": ""
-        },
-        "playground/devtools/plugins/kdev-embedded": {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": ""
-        },
-        "playground/devtools/plugins/kdev-krazy2": {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": ""
-        },
-        "playground/devtools/plugins/kdev-mercurial": {
-            "stable-qt4": "1.7",
-            "latest-qt4": "1.7",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": ""
-        },
-        "playground/devtools/plugins/kdev-ruby": {
-            "stable-qt4": "1.7",
-            "latest-qt4": "1.7",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": ""
-        },
-        "playground/devtools/plugins/kdev-valgrind": {
-            "stable-qt4": "1.7",
-            "latest-qt4": "1.7",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": ""
-        },
-        "playground/devtools/plugins/kdev-verapp": {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": ""
-        },
-        "extragear/kdevelop/plugins/kdev-php": {
-            "stable-qt4": "1.7",
-            "latest-qt4": "1.7",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "5.4"
-        },
-        "extragear/kdevelop/plugins/kdev-python": {
-            "stable-qt4": "1.7",
-            "latest-qt4": "1.7-py3",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "5.4"
-        },
-        "playground/devtools/plugins/kdev-executebrowser": {
-            "stable-qt4": "1.7",
-            "latest-qt4": "1.7",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": ""
-        },
-        "playground/devtools/plugins/kdev-upload": {
-            "stable-qt4": "1.7",
-            "latest-qt4": "1.7",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": ""
-        },
-        "playground/devtools/plugins/kdev-xdebug": {
-            "stable-qt4": "1.7",
-            "latest-qt4": "1.7",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": ""
-        },
-        "extragear/sdk/massif-visualizer": {
-            "stable-qt4": "0.4",
-            "latest-qt4": "0.4",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "0.6"
-        },
-        "extragear/network/telepathy/*": {
-            "stable-qt4": "kde-telepathy-0.9",
-            "latest-qt4": "kde-telepathy-0.9",
-            "kf5-qt5": "",
-            "stable-kf5-qt5": ""
-        },
-        "extragear/network/smb4k": {
-            "stable-qt4": "1.2",
-            "latest-qt4": "1.2",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "3.0"
-        },
-        "kde/kdenetwork/ktp*": {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "kde/kdenetwork/ktp-call-ui": {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "kde/kdenetwork/kdenetwork-filesharing": {
-            "stable-qt4": "Applications/15.08",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "kde/kdenetwork/kio-extras": {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "extragear/network/libktorrent": {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "2.1"
-        },
-        "extragear/network/ktorrent": {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "5.1"
-        },
-        "kde/kdenetwork/kdenetwork-strigi-analyzers": {
-            "stable-qt4": "Applications/16.04",
-            "latest-qt4": "master",
-            "kf5-qt5": "",
-            "stable-kf5-qt5": ""
-        },
-        "kde/kdenetwork/kppp": {
-            "stable-qt4": "Applications/17.08",
-            "latest-qt4": "master",
-            "kf5-qt5": "",
-            "stable-kf5-qt5": ""
-        },
-        "kde/kdenetwork/krfb": {
-            "stable-qt4": "Applications/15.08",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "kde/kdebindings/kross-interpreters": {
-            "stable-qt4": "KDE/4.14",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "kde/kdebindings/csharp/kimono": {
-            "stable-qt4": "KDE/4.14",
-            "latest-qt4": "master",
-            "kf5-qt5": "",
-            "stable-kf5-qt5": ""
-        },
-        "kde/kdebindings/csharp/qyoto": {
-            "stable-qt4": "KDE/4.14",
-            "latest-qt4": "master",
-            "kf5-qt5": "",
-            "stable-kf5-qt5": ""
-        },
-        "kde/kdebindings/ruby/qtruby": {
-            "stable-qt4": "KDE/4.14",
-            "latest-qt4": "master",
-            "kf5-qt5": "qtruby-3.0-qt5",
-            "stable-kf5-qt5": ""
-        },
-        "kde/kdebindings/smoke/smokeqt": {
-            "stable-qt4": "KDE/4.14",
-            "latest-qt4": "master",
-            "kf5-qt5": "Qt5",
-            "stable-kf5-qt5": ""
-        },
-        "kde/kdebindings/smoke/smokekde": {
-            "stable-qt4": "KDE/4.14",
-            "latest-qt4": "master",
-            "kf5-qt5": "",
-            "stable-kf5-qt5": ""
-        },
-        "kde/kdebindings/smoke/smokegen": {
-            "stable-qt4": "KDE/4.14",
-            "latest-qt4": "master",
-            "kf5-qt5": "Qt5",
-            "stable-kf5-qt5": ""
-        },
-        "kde/kdebindings/perl/perlqt": {
-            "stable-qt4": "Applications/14.12",
-            "latest-qt4": "master",
-            "kf5-qt5": "",
-            "stable-kf5-qt5": ""
-        },
-        "kde/kdebindings/perl/perlkde": {
-            "stable-qt4": "Applications/14.12",
-            "latest-qt4": "master",
-            "kf5-qt5": "",
-            "stable-kf5-qt5": ""
-        },
-        "kde/kdebindings/python/pykde4": {
-            "stable-qt4": "KDE/4.14",
-            "latest-qt4": "master",
-            "kf5-qt5": "",
-            "stable-kf5-qt5": ""
-        },
-        "kde/kdebindings/python/pykde5": {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": ""
-        },
-        "kde/kdebindings/ruby/korundum": {
-            "stable-qt4": "KDE/4.14",
-            "latest-qt4": "master",
-            "kf5-qt5": "",
-            "stable-kf5-qt5": ""
-        },
-        "extragear/network/telepathy/telepathy-logger-qt": {
-            "stable-qt4": "kde-telepathy-0.5",
-            "latest-qt4": "kde-telepathy-0.5",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "Applications/15.04"
-        },
-        "extragear/network/kio-gopher": {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": ""
-        },
-        "extragear/network/rekonq": {
-            "stable-qt4": "master",
-            "latest-qt4": "master",
-            "kf5-qt5": "frameworks",
-            "stable-kf5-qt5": ""
-        },
-        "extragear/multimedia/plasma-mediacenter": {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": ""
-        },
-        "kde/kdemultimedia/kamoso": {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "kde/kdemultimedia/mplayerthumbs": {
-            "stable-qt4": "Applications/16.04",
-            "latest-qt4": "master",
-            "kf5-qt5": "",
-            "stable-kf5-qt5": ""
-        },
-        "kde/kdemultimedia/ffmpegthumbs": {
-            "stable-qt4": "Applications/15.08",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "kde/kdemultimedia/libkcddb": {
-            "stable-qt4": "Applications/16.08",
-            "latest-qt4": "Applications/16.08",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "kde/kdemultimedia/kmix": {
-            "stable-qt4": "Applications/17.08",
-            "latest-qt4": "Applications/17.08",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "kde/kdemultimedia/dragon": {
-            "stable-qt4": "Applications/15.04",
-            "latest-qt4": "Applications/15.04",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "kde/kdemultimedia/audiocd-kio": {
-            "stable-qt4": "Applications/16.08",
-            "latest-qt4": "Applications/16.08",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "kde/kdemultimedia/juk": {
-            "stable-qt4": "Applications/17.08",
-            "latest-qt4": "Applications/17.08",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "kde/kdemultimedia/kscd": {
-            "stable-qt4": "Applications/17.08",
-            "latest-qt4": "master",
-            "kf5-qt5": "kf5",
-            "stable-kf5-qt5": "kf5"
-        },
-        "kde/kdemultimedia/libkcompactdisc": {
-            "stable-qt4": "Applications/16.08",
-            "latest-qt4": "Applications/16.08",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "kde/kdemultimedia/k3b": {
-            "stable-qt4": "2.0",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "kde/kdemultimedia/kdenlive": {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "kde/kdemultimedia/kwave": {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "kde/kdemultimedia/elisa" : {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "extragear/utils/kronometer": {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "2.2"
-        },
-        "extragear/sysadmin/partitionmanager": {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": ""
-        },
-        "extragear/sysadmin/apper": {
-            "stable-qt4": "stable",
-            "latest-qt4": "stable",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "master"
-        },
-        "extragear/office/kmymoney": {
-            "stable-qt4": "4.8",
-            "latest-qt4": "4.8",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "5.0"
-        },
-        "extragear/office/skrooge": {
-            "stable-qt4": "qt4",
-            "latest-qt4": "qt4",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "master"
-        },
-         "extragear/pim/trojita": {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": ""
-        },
-        "calligra/calligra": {
-            "stable-qt4": "calligra/2.9",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "calligra/3.1"
-        },
-        "calligra/calligraplan": {
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "3.2"
-        },
-        "calligra/kexi-extras": {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "master"
-        },
-        "calligra/kexi": {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "3.2"
-        },
-        "frameworks/attica": {
-            "stable-qt4": "qt4",
-            "latest-qt4": "qt4",
-            "kf5-qt5": "master",
-            "kf5-minimum": "master",
-            "stable-kf5-qt5": "master"
-        },
-        "frameworks/extra-cmake-modules": {
-            "stable-qt4": "master",
-            "latest-qt4": "master",
-            "kf5-qt5": "master",
-            "kf5-minimum": "master",
-            "stable-kf5-qt5": "master"
-        },
-        "kdesupport/strigi/*": {
-            "stable-qt4": "master",
-            "latest-qt4": "master",
-            "kf5-qt5": "",
-            "stable-kf5-qt5": ""
-        },
-        "frameworks/plasma-framework": {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "kf5-minimum": "master",
-            "stable-kf5-qt5": "master"
-        },
-        "frameworks/prison": {
-            "stable-qt4": "qt4",
-            "latest-qt4": "qt4",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "master"
-        },
-        "extragear/network/konversation": {
-            "stable-qt4": "1.5",
-            "latest-qt4": "1.5",
-            "stable-kf5-qt5": "1.7",
-            "kf5-qt5": "master"
-        },
-        "extragear/pim/ring-kde": {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": ""
-        },
-        "kde/applications/kate" : {
-            "stable-qt4": "KDE/4.14",
-            "latest-qt4": "KDE/4.14",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "kde/applications/konsole" : {
-            "stable-qt4": "KDE/4.14",
-            "latest-qt4": "KDE/4.14",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "kde/applications/yakuake": {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "kde/applications/dolphin" : {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "unmaintained/kde-baseapps" : {
-            "stable-qt4": "Applications/16.08",
-            "latest-qt4": "Applications/16.08",
-            "kf5-qt5": "",
-            "stable-kf5-qt5": ""
-        },
-        "kde/applications/khelpcenter" : {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "kde/applications/konqueror" : {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "kde/applications/kdialog" : {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "kde/applications/keditbookmarks" : {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "kde/applications/kfind" : {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "extragear/libs/kproperty" : {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "3.2"
-        },
-        "extragear/libs/kreport" : {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "3.2"
-        },
-        "extragear/libs/kdb" : {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "3.2"
-        },
-        "playground/libs/libqgit2" : {
-            "stable-qt4": "master",
-            "latest-qt4": "master",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "master"
-        },
-        "playground/base/qtcurve" : {
-            "latest-qt4": "master",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": ""
-        },
-        "playground/base/kio-mtp" : {
-            "stable-qt4": "master",
-            "latest-qt4": "master",
-            "kf5-qt5": "frameworks",
-            "stable-kf5-qt5": ""
-        },
-        "extragear/edu/kstars": {
-            "stable-qt4": "Applications/14.12",
-            "latest-qt4": "Applications/14.12",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "master"
-        },
         "kde/kdeedu/kalzium": {
             "stable-qt4": "Applications/16.08",
             "latest-qt4": "Applications/16.08",
@@ -1599,37 +520,98 @@
             "kf5-qt5": "master",
             "stable-kf5-qt5": "release/19.12"
         },
-        "kde/kdesdk/kompare": {
+
+        "kde/kdegames/kigo": {
+            "stable-qt4": "Applications/17.04",
+            "latest-qt4": "Applications/17.04",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
+        "kde/kdegames/lskat": {
+            "stable-qt4": "Applications/17.04",
+            "latest-qt4": "Applications/17.04",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
+        "kde/kdegames/kgoldrunner": {
+            "stable-qt4": "Applications/17.04",
+            "latest-qt4": "Applications/17.04",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
+        "kde/kdegames/kreversi": {
+            "stable-qt4": "Applications/17.04",
+            "latest-qt4": "Applications/17.04",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
+        "kde/kdegames/kspaceduel": {
+            "stable-qt4": "Applications/17.04",
+            "latest-qt4": "Applications/17.04",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
+        "kde/kdegames/ksnakeduel": {
+            "stable-qt4": "Applications/17.04",
+            "latest-qt4": "Applications/17.04",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
+        "kde/kdegames/ksudoku": {
+            "stable-qt4": "Applications/17.04",
+            "latest-qt4": "Applications/17.04",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
+        "kde/kdegames/kubrick": {
+            "stable-qt4": "Applications/17.04",
+            "latest-qt4": "Applications/17.04",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
+        "kde/kdegames/ksirk": {
+            "stable-qt4": "Applications/17.08",
+            "latest-qt4": "Applications/17.08",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
+        "kde/kdegames/palapeli": {
+            "stable-qt4": "Applications/17.08",
+            "latest-qt4": "Applications/17.08",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
+        "kde/kdegames/knights": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
+        "kde/kdegames/konquest": {
+            "stable-qt4": "Applications/17.04",
+            "latest-qt4": "Applications/17.04",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
+        "kde/kdegames/ksquares": {
             "stable-qt4": "Applications/14.12",
             "latest-qt4": "Applications/14.12",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "release/19.12"
         },
-        "kde/kdesdk/libkomparediff2": {
+        "kde/kdegames/kpat": {
             "stable-qt4": "Applications/14.12",
             "latest-qt4": "Applications/14.12",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "release/19.12"
         },
-        "kde/kdesdk/dolphin-plugins": {
-            "stable-qt4": "Applications/15.04",
-            "latest-qt4": "",
+        "kde/kdegames/kfourinline": {
+            "stable-qt4": "Applications/14.12",
+            "latest-qt4": "Applications/14.12",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "release/19.12"
         },
-        "kde/kdesdk/poxml": {
-            "stable-qt4": "Applications/15.08",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "kde/kdesdk/kdesdk-kioslaves": {
-            "stable-qt4": "Applications/16.12",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "kde/kdegames/libkdegames": {
+        "kde/kdegames/granatier": {
             "stable-qt4": "Applications/14.12",
             "latest-qt4": "Applications/14.12",
             "kf5-qt5": "master",
@@ -1785,6 +767,225 @@
             "kf5-qt5": "master",
             "stable-kf5-qt5": "release/19.12"
         },
+        "kde/kdegames/libkdegames": {
+            "stable-qt4": "Applications/14.12",
+            "latest-qt4": "Applications/14.12",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
+
+        "kde/kdegraphics/libs/*" : {
+            "stable-qt4": "Applications/15.08",
+            "latest-qt4": "Applications/15.08",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
+        "kde/kdegraphics/libs/libkgeomap" : {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
+        "kde/kdegraphics/kipi-plugins": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
+        "kde/kdegraphics/gwenview" : {
+            "stable-qt4": "KDE/4.14",
+            "latest-qt4": "KDE/4.14",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
+        "kde/kdegraphics/kruler" : {
+            "stable-qt4": "Applications/14.12",
+            "latest-qt4": "Applications/14.12",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
+        "kde/kdegraphics/spectacle" : {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
+        "kde/kdegraphics/okular" : {
+            "stable-qt4": "Applications/16.08",
+            "latest-qt4": "Applications/16.08",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
+        "kde/kdegraphics/peruse" : {
+            "stable-qt4" : "",
+            "latest-qt4" : "",
+            "kf5-qt5" : "master",
+            "stable-kf5-qt5" : ""
+        },
+        "kde/kdegraphics/kolourpaint" : {
+            "stable-qt4": "Applications/16.04",
+            "latest-qt4": "Applications/16.04",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
+        "kde/kdegraphics/svgpart" : {
+            "stable-qt4": "Applications/16.08",
+            "latest-qt4": "Applications/16.08",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
+        "kde/kdegraphics/kdegraphics-mobipocket" : {
+            "stable-qt4": "Applications/16.08",
+            "latest-qt4": "Applications/16.08",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
+        "kde/kdegraphics/kdegraphics-thumbnailers": {
+            "stable-qt4": "Applications/15.08",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
+        "kde/kdegraphics/kamera": {
+            "stable-qt4": "Applications/15.08",
+            "latest-qt4": "Applications/15.08",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
+        "kde/kdegraphics/kcolorchooser": {
+            "stable-qt4": "Applications/15.12",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
+        "kde/kdegraphics/ksaneplugin": {
+            "stable-qt4": "Applications/17.08",
+            "latest-qt4": "master",
+            "kf5-qt5": "",
+            "stable-kf5-qt5": ""
+        },
+
+        "kde/kdemultimedia/kamoso": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
+        "kde/kdemultimedia/mplayerthumbs": {
+            "stable-qt4": "Applications/16.04",
+            "latest-qt4": "master",
+            "kf5-qt5": "",
+            "stable-kf5-qt5": ""
+        },
+        "kde/kdemultimedia/ffmpegthumbs": {
+            "stable-qt4": "Applications/15.08",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
+        "kde/kdemultimedia/libkcddb": {
+            "stable-qt4": "Applications/16.08",
+            "latest-qt4": "Applications/16.08",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
+        "kde/kdemultimedia/kmix": {
+            "stable-qt4": "Applications/17.08",
+            "latest-qt4": "Applications/17.08",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
+        "kde/kdemultimedia/dragon": {
+            "stable-qt4": "Applications/15.04",
+            "latest-qt4": "Applications/15.04",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
+        "kde/kdemultimedia/audiocd-kio": {
+            "stable-qt4": "Applications/16.08",
+            "latest-qt4": "Applications/16.08",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
+        "kde/kdemultimedia/juk": {
+            "stable-qt4": "Applications/17.08",
+            "latest-qt4": "Applications/17.08",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
+        "kde/kdemultimedia/kscd": {
+            "stable-qt4": "Applications/17.08",
+            "latest-qt4": "master",
+            "kf5-qt5": "kf5",
+            "stable-kf5-qt5": "kf5"
+        },
+        "kde/kdemultimedia/libkcompactdisc": {
+            "stable-qt4": "Applications/16.08",
+            "latest-qt4": "Applications/16.08",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
+        "kde/kdemultimedia/k3b": {
+            "stable-qt4": "2.0",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
+        "kde/kdemultimedia/kdenlive": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
+        "kde/kdemultimedia/kwave": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
+        "kde/kdemultimedia/elisa" : {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
+
+        "kde/kdenetwork/ktp*": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
+        "kde/kdenetwork/ktp-call-ui": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
+        "kde/kdenetwork/kdenetwork-filesharing": {
+            "stable-qt4": "Applications/15.08",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
+        "kde/kdenetwork/kio-extras": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
+        "kde/kdenetwork/kppp": {
+            "stable-qt4": "Applications/17.08",
+            "latest-qt4": "master",
+            "kf5-qt5": "",
+            "stable-kf5-qt5": ""
+        },
+        "kde/kdenetwork/krfb": {
+            "stable-qt4": "Applications/15.08",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
         "kde/kdenetwork/kget": {
             "stable-qt4": "Applications/17.08",
             "latest-qt4": "",
@@ -1821,78 +1022,6 @@
             "kf5-qt5": "master",
             "stable-kf5-qt5": "1.4"
         },
-        "extragear/utils/krecipes": {
-            "stable-qt4": "2.0",
-            "latest-qt4": "master",
-            "kf5-qt5": "",
-            "stable-kf5-qt5": ""
-        },
-        "kde/kdegames/ksquares": {
-            "stable-qt4": "Applications/14.12",
-            "latest-qt4": "Applications/14.12",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "kde/kdegames/kpat": {
-            "stable-qt4": "Applications/14.12",
-            "latest-qt4": "Applications/14.12",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "kde/kdegames/kfourinline": {
-            "stable-qt4": "Applications/14.12",
-            "latest-qt4": "Applications/14.12",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "kde/kdegames/granatier": {
-            "stable-qt4": "Applications/14.12",
-            "latest-qt4": "Applications/14.12",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "kdereview/rust-qt-binding-generator": {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": ""
-        },
-        "kdereview/plasma-active-window-control": {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": ""
-        },
-        "kde/kdeaccessibility/kmag": {
-            "stable-qt4": "Applications/17.04",
-            "latest-qt4": "Applications/17.04",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "kde/kdeaccessibility/kmousetool": {
-            "stable-qt4": "Applications/17.04",
-            "latest-qt4": "Applications/17.04",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "kde/kdeaccessibility/kaccessible": {
-            "stable-qt4": "Applications/17.08",
-            "latest-qt4": "master",
-            "kf5-qt5": "",
-            "stable-kf5-qt5": ""
-        },
-        "kde/kdeaccessibility/kmouth": {
-            "stable-qt4": "Applications/17.08",
-            "latest-qt4": "Applications/17.08",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "kde/kdeaccessibility/jovie": {
-            "stable-qt4": "Applications/17.08",
-            "latest-qt4": "master",
-            "kf5-qt5": "",
-            "stable-kf5-qt5": ""
-        },
         "kde/kdenetwork/kopete": {
             "stable-qt4": "Applications/17.08",
             "latest-qt4": "Applications/17.08",
@@ -1905,41 +1034,18 @@
             "kf5-qt5": "master",
             "stable-kf5-qt5": "release/19.12"
         },
-        "kde/kdeadmin/ksystemlog": {
-            "stable-qt4": "Applications/15.08",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
         "kde/kdenetwork/zeroconf-ioslave": {
             "stable-qt4": "Applications/17.08",
             "latest-qt4": "Applications/17.08",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "release/19.12"
         },
-        "kde/kdegraphics/kdegraphics-thumbnailers": {
-            "stable-qt4": "Applications/15.08",
-            "latest-qt4": "",
+
+        "kde/kdesdk/kapptemplate" : {
+            "stable-qt4": "KDE/4.14",
+            "latest-qt4": "KDE/4.14",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "release/19.12"
-        },
-        "kde/kdegraphics/kamera": {
-            "stable-qt4": "Applications/15.08",
-            "latest-qt4": "Applications/15.08",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "kde/kdegraphics/kcolorchooser": {
-            "stable-qt4": "Applications/15.12",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "kde/kdegraphics/ksaneplugin": {
-            "stable-qt4": "Applications/17.08",
-            "latest-qt4": "master",
-            "kf5-qt5": "",
-            "stable-kf5-qt5": ""
         },
         "kde/kdesdk/kcachegrind": {
             "stable-qt4": "Applications/16.12",
@@ -1953,17 +1059,708 @@
             "kf5-qt5": "master",
             "stable-kf5-qt5": "release/19.12"
         },
-        "kde/kdesdk/kdesdk-strigi-analyzers": {
+        "kde/kdesdk/lokalize" : {
+            "stable-qt4": "Applications/14.12",
+            "latest-qt4": "Applications/14.12",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
+        "kde/kdesdk/kde-dev-scripts" : {
+            "stable-qt4": "Applications/17.08",
+            "latest-qt4": "Applications/17.08",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
+        "kde/kdesdk/kdesdk-thumbnailers" : {
+            "stable-qt4": "Applications/15.08",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
+        "kde/kdesdk/umbrello" : {
+            "stable-qt4": "Applications/17.04",
+            "latest-qt4": "Applications/17.04",
+            "kf5-qt5": "frameworks",
+            "stable-kf5-qt5": "release/19.12"
+        },
+        "kde/kdesdk/cervisia" : {
             "stable-qt4": "Applications/16.04",
+            "latest-qt4": "Applications/16.04",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
+        "kde/kdesdk/kirigami-gallery" : {
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
+       "kde/kdesdk/kompare": {
+            "stable-qt4": "Applications/14.12",
+            "latest-qt4": "Applications/14.12",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
+        "kde/kdesdk/libkomparediff2": {
+            "stable-qt4": "Applications/14.12",
+            "latest-qt4": "Applications/14.12",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
+        "kde/kdesdk/dolphin-plugins": {
+            "stable-qt4": "Applications/15.04",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
+        "kde/kdesdk/poxml": {
+            "stable-qt4": "Applications/15.08",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
+        "kde/kdesdk/kdesdk-kioslaves": {
+            "stable-qt4": "Applications/16.12",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
+
+        "kde/kdetoys/amor" : {
+            "stable-qt4": "Applications/15.08",
+            "latest-qt4": "qt4",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "master"
+        },
+        "kde/kdetoys/ktux" : {
+            "stable-qt4": "Applications/15.08",
             "latest-qt4": "master",
             "kf5-qt5": "",
             "stable-kf5-qt5": ""
+        },
+
+        "kde/kdeutils/ark" : {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
+        "kde/kdeutils/filelight" : {
+            "stable-qt4": "Applications/14.12",
+            "latest-qt4": "Applications/14.12",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
+        "kde/kdeutils/kcalc" : {
+            "stable-qt4": "Applications/14.12",
+            "latest-qt4": "Applications/14.12",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
+        "kde/kdeutils/kcharselect" : {
+            "stable-qt4": "Applications/14.12",
+            "latest-qt4": "Applications/14.12",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
         },
         "kde/kdeutils/kdebugsettings": {
             "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "release/19.12"
+        },
+        "kde/kdeutils/kdf" : {
+            "stable-qt4": "Applications/16.04",
+            "latest-qt4": "Applications/16.04",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
+        "kde/kdeutils/kremotecontrol" : {
+            "stable-qt4": "Applications/17.08",
+            "latest-qt4": "master",
+            "kf5-qt5": "",
+            "stable-kf5-qt5": ""
+        },
+        "kde/kdeutils/kteatime" : {
+            "stable-qt4": "Applications/14.12",
+            "latest-qt4": "Applications/14.12",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
+        "kde/kdeutils/kfloppy" : {
+            "stable-qt4": "Applications/15.12",
+            "latest-qt4": "Applications/15.12",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
+        "kde/kdeutils/kgpg" : {
+            "stable-qt4": "Applications/16.08",
+            "latest-qt4": "Applications/16.08",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
+        "kde/kdeutils/superkaramba" : {
+            "stable-qt4": "Applications/15.08",
+            "latest-qt4": "master",
+            "kf5-qt5": "",
+            "stable-kf5-qt5": ""
+        },
+        "kde/kdeutils/sweeper" : {
+            "stable-qt4": "Applications/17.08",
+            "latest-qt4": "Applications/17.08",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
+        "kde/kdeutils/ktimer" : {
+            "stable-qt4": "Applications/14.12",
+            "latest-qt4": "Applications/14.12",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
+        "kde/kdeutils/print-manager" : {
+            "stable-qt4": "Applications/14.12",
+            "latest-qt4": "Applications/14.12",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
+        "kde/kdeutils/kwalletmanager" : {
+            "stable-qt4": "Applications/15.04",
+            "latest-qt4": "Applications/15.04",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
+        "kde/kdeutils/kbackup" : {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
+
+        "kde/kdewebdev/kimagemapeditor" : {
+            "stable-qt4": "Applications/17.08",
+            "latest-qt4": "Applications/17.08",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
+
+        "kde/pim/*" : {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
+        "kde/pim/kdepim-runtime" : {
+            "stable-qt4": "KDE/4.14",
+            "latest-qt4": "KDE/4.14",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
+        "kde/pim/ksmtp": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
+        "kde/pim/blogilo" : {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "Applications/17.08"
+        },
+        "kde/pim/akonadi": {
+            "stable-qt4": "1.13",
+            "latest-qt4": "1.13",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
+        "kde/pim/akonadi-notes": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
+        "kde/pim/akonadi-contacts": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
+        "kde/pim/akonadi-mime": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
+        "kde/pim/kdav": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
+        "kde/pim/kleopatra": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
+        "kde/pim/kdepim-addons": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
+        "kde/pim/libgravatar": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
+        "kde/pim/pimcommon": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
+        "kde/pim/libkdepim": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
+        "kde/pim/calendarsupport": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
+        "kde/pim/grantleetheme": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
+        "kde/pim/incidenceeditor": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
+        "kde/pim/kdgantt2": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "",
+            "stable-kf5-qt5": "Applications/16.08"
+        },
+        "kde/pim/libkleo": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
+        "kde/pim/libksieve": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
+        "kde/pim/mailcommon": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
+        "kde/pim/mailimporter": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
+        "kde/pim/eventviews": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
+        "kde/pim/messagelib": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
+        "kde/pim/kdepim-apps-libs": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
+        "kde/pim/libkgapi": {
+            "stable-qt4": "LibKGAPI/2.1",
+            "latest-qt4": "LibKGAPI/2.1",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
+        "kde/pim/kitinerary": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
+        "kde/pim/kpkpass": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release/19.12"
+        },
+
+        "kde/workspace/*" : {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "Plasma/5.17"
+        },
+        "kde/workspace/plasma-nano" : {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
+        },
+        "kde/workspace/plasma-phone-components" : {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
+        },
+        "kde/workspace/breeze" : {
+            "stable-qt4": "Plasma/5.17",
+            "latest-qt4": "master",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "Plasma/5.17"
+        },
+
+
+
+        "calligra/calligra": {
+            "stable-qt4": "calligra/2.9",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "calligra/3.1"
+        },
+        "calligra/calligraplan": {
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "3.2"
+        },
+        "calligra/kexi-extras": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "master"
+        },
+        "calligra/kexi": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "3.2"
+        },
+
+
+
+        "extragear/sdk/massif-visualizer": {
+            "stable-qt4": "0.4",
+            "latest-qt4": "0.4",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "0.6"
+        },
+        "extragear/network/telepathy/*": {
+            "stable-qt4": "kde-telepathy-0.9",
+            "latest-qt4": "kde-telepathy-0.9",
+            "kf5-qt5": "",
+            "stable-kf5-qt5": ""
+        },
+        "extragear/network/smb4k": {
+            "stable-qt4": "1.2",
+            "latest-qt4": "1.2",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "3.0"
+        },
+        "extragear/utils/kronometer": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "2.2"
+        },
+        "extragear/sysadmin/partitionmanager": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
+        },
+        "extragear/sysadmin/apper": {
+            "stable-qt4": "stable",
+            "latest-qt4": "stable",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "master"
+        },
+        "extragear/office/kmymoney": {
+            "stable-qt4": "4.8",
+            "latest-qt4": "4.8",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "5.0"
+        },
+        "extragear/office/skrooge": {
+            "stable-qt4": "qt4",
+            "latest-qt4": "qt4",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "master"
+        },
+         "extragear/pim/trojita": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
+        },
+        "extragear/network/konversation": {
+            "stable-qt4": "1.5",
+            "latest-qt4": "1.5",
+            "stable-kf5-qt5": "1.7",
+            "kf5-qt5": "master"
+        },
+        "extragear/pim/ring-kde": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
+        },
+        "extragear/utils/krecipes": {
+            "stable-qt4": "2.0",
+            "latest-qt4": "master",
+            "kf5-qt5": "",
+            "stable-kf5-qt5": ""
+        },
+        "extragear/kdevelop/plugins/kdev-php": {
+            "stable-qt4": "1.7",
+            "latest-qt4": "1.7",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "5.4"
+        },
+        "extragear/kdevelop/plugins/kdev-python": {
+            "stable-qt4": "1.7",
+            "latest-qt4": "1.7-py3",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "5.4"
+        },
+        "extragear/accessibility/simon": {
+            "stable-qt4": "0.5",
+            "latest-qt4": "master",
+            "kf5-qt5": "kf5",
+            "stable-kf5-qt5": ""
+        },
+        "extragear/base/kwebkitpart": {
+            "stable-qt4": "qt4",
+            "latest-qt4": "qt4",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "master"
+        },
+        "extragear/base/mangonel": {
+            "stable-qt4": "master",
+            "latest-qt4": "master",
+            "kf5-qt5": "frameworks",
+            "stable-kf5-qt5": ""
+        },
+        "extragear/base/milou": {
+            "stable-qt4": "milou/0.1",
+            "latest-qt4": "milou/0.1",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "Plasma/5.17"
+        },
+        "extragear/base/plasma-mobile": {
+            "stable-qt4": "Active/4",
+            "latest-qt4": "Active/4",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
+        },
+        "extragear/base/wacomtablet": {
+            "stable-qt4": "releng2.1",
+            "latest-qt4": "releng2.1",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
+        },
+        "extragear/graphics/*": {
+            "stable-qt4": "master",
+            "latest-qt4": "master",
+            "kf5-qt5": "frameworks",
+            "stable-kf5-qt5": ""
+        },
+        "extragear/graphics/skanlite": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
+        },
+        "extragear/graphics/kcoloredit": {
+            "stable-qt4": "master",
+            "latest-qt4": "master",
+            "kf5-qt5": "",
+            "stable-kf5-qt5": ""
+        },
+        "extragear/graphics/kdiagram": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "2.6"
+        },
+        "extragear/graphics/kgraphviewer": {
+            "stable-qt4": "2.2",
+            "latest-qt4": "2.2",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
+        },
+        "extragear/graphics/kphotoalbum": {
+            "stable-qt4": "4.7",
+            "latest-qt4": "4.7",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "master"
+        },
+        "extragear/graphics/krita": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "krita/4.2"
+        },
+        "extragear/graphics/ksnapshot" : {
+            "stable-qt4": "Applications/15.08",
+            "latest-qt4": "master",
+            "kf5-qt5": "frameworks",
+            "stable-kf5-qt5": ""
+        },
+        "extragear/graphics/kst-plot": {
+            "stable-qt4": "master",
+            "latest-qt4": "master",
+            "kf5-qt5": "",
+            "stable-kf5-qt5": ""
+        },
+        "extragear/graphics/kxstitch": {
+            "stable-qt4": "release-1.3.0",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
+        },
+        "extragear/graphics/symboleditor": {
+            "stable-qt4": "release-1.5.0",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "release-2.0.0"
+        },
+        "extragear/libs/libkfbapi": {
+            "stable-qt4": "kfbapi-1.0",
+            "latest-qt4": "master",
+            "kf5-qt5": "frameworks",
+            "stable-kf5-qt5": ""
+        },
+        "extragear/libs/libkvkontakte": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
+        },
+        "extragear/libs/libmediawiki": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "master"
+        },
+        "extragear/libs/pulseaudio-qt": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "master"
+        },
+        "extragear/office/alkimia": {
+            "stable-qt4": "5.0",
+            "latest-qt4": "5.0",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "7.0"
+        },
+        "extragear/edu/gcompris": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "KDE/0.97"
+        },
+        "extragear/office/kile": {
+            "stable-qt4": "2.1",
+            "latest-qt4": "livepreview-kde4",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
+        },
+        "extragear/office/kbibtex": {
+            "stable-qt4": "kbibtex/0.6",
+            "latest-qt4": "kbibtex/0.7",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
+        },
+        "extragear/kdevelop/*": {
+            "stable-qt4": "1.7",
+            "latest-qt4": "1.7",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
+        },
+        "extragear/kdevelop/kdev-www": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "",
+            "stable-kf5-qt5": ""
+        },
+        "extragear/kdevelop/kdevplatform": {
+            "stable-qt4": "1.7",
+            "latest-qt4": "1.7",
+            "kf5-qt5": "",
+            "stable-kf5-qt5": ""
+        },
+        "extragear/kdevelop/kdevelop": {
+            "stable-qt4": "4.7",
+            "latest-qt4": "4.7",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "5.4"
+        },
+        "extragear/kdevelop/utilities/kdevelop-pg-qt": {
+            "stable-qt4": "1.1",
+            "latest-qt4": "1.1",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "2.2"
+        },
+        "extragear/multimedia/kaffeine": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
+        },
+        "extragear/utils/krusader": {
+            "stable-qt4": "kde4",
+            "latest-qt4": "kde4",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "master"
+        },
+        "extragear/utils/rsibreak": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
+        },
+        "extragear/utils/okteta" : {
+            "stable-qt4": "KDE/4.14",
+            "latest-qt4": "KDE/4.14",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "0.26"
+        },
+        "extragear/utils/kmarkdownwebview": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
+        },
+        "extragear/utils/kdiff3": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "1.8"
         },
         "extragear/network/choqok": {
             "stable-qt4": "",
@@ -2007,35 +1804,11 @@
             "kf5-qt5": "master",
             "stable-kf5-qt5": "master"
         },
-        "kde/kdegraphics/kipi-plugins": {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "playground/www/qmlweb": {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "development/qmlweb2",
-            "stable-kf5-qt5": ""
-        },
-        "playground/libs/snorenotify": {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": ""
-        },
         "extragear/utils/krename": {
             "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "5.0"
-        },
-        "playground/utils/kairo": {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "master"
         },
         "extragear/network/kio-gdrive": {
             "stable-qt4": "",
@@ -2049,27 +1822,9 @@
             "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         },
-        "playground/devtools/ktechlab": {
-            "stable-qt4": "",
-            "latest-qt4": "master-kde4",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": ""
-        },
         "extragear/edu/labplot": {
             "stable-qt4": "",
             "latest-qt4": "legacy",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": ""
-        },
-        "kde/kdegames/konquest": {
-            "stable-qt4": "Applications/17.04",
-            "latest-qt4": "Applications/17.04",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "playground/base/atelier": {
-            "stable-qt4": "",
-            "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         },
@@ -2091,66 +1846,6 @@
             "kf5-qt5": "master",
             "stable-kf5-qt5": "1.6"
         },
-        "kde/kdegames/kigo": {
-            "stable-qt4": "Applications/17.04",
-            "latest-qt4": "Applications/17.04",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "kde/kdegames/lskat": {
-            "stable-qt4": "Applications/17.04",
-            "latest-qt4": "Applications/17.04",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "kde/kdegames/kgoldrunner": {
-            "stable-qt4": "Applications/17.04",
-            "latest-qt4": "Applications/17.04",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "kde/kdegames/kreversi": {
-            "stable-qt4": "Applications/17.04",
-            "latest-qt4": "Applications/17.04",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "kde/kdegames/kspaceduel": {
-            "stable-qt4": "Applications/17.04",
-            "latest-qt4": "Applications/17.04",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "kde/kdegames/ksnakeduel": {
-            "stable-qt4": "Applications/17.04",
-            "latest-qt4": "Applications/17.04",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "kde/kdegames/ksudoku": {
-            "stable-qt4": "Applications/17.04",
-            "latest-qt4": "Applications/17.04",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "kde/kdegames/kubrick": {
-            "stable-qt4": "Applications/17.04",
-            "latest-qt4": "Applications/17.04",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "kde/kdegames/ksirk": {
-            "stable-qt4": "Applications/17.08",
-            "latest-qt4": "Applications/17.08",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
-        "kde/kdegames/palapeli": {
-            "stable-qt4": "Applications/17.08",
-            "latest-qt4": "Applications/17.08",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
         "extragear/utils/isoimagewriter": {
             "stable-qt4": "",
             "latest-qt4": "",
@@ -2163,18 +1858,6 @@
             "kf5-qt5": "master",
             "stable-kf5-qt5": "0.12"
         },
-        "playground/utils/kregexpeditor": {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "master"
-        },
-        "kde/pim/ksmtp": {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "release/19.12"
-        },
         "extragear/libs/kuserfeedback": {
             "stable-qt4": "",
             "latest-qt4": "",
@@ -2186,18 +1869,6 @@
             "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": ""
-        },
-        "playground/edu/rkward": {
-            "stable-qt4": "releases/0.6.4",
-            "latest-qt4": "releases/0.6.4",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": ""
-        },
-        "kde/pim/blogilo" : {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": "Applications/17.08"
         },
         "extragear/network/falkon" : {
             "stable-qt4": "",
@@ -2223,12 +1894,6 @@
             "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         },
-        "playground/games/ksokoban" : {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": ""
-        },
         "extragear/sysadmin/kcm-grub2" : {
             "stable-qt4": "",
             "latest-qt4": "",
@@ -2241,17 +1906,394 @@
             "kf5-qt5": "master",
             "stable-kf5-qt5": "v0.9"
         },
+        "extragear/libs/libqaccessibilityclient": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "master"
+        },
+        "extragear/network/libktorrent": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "2.1"
+        },
+        "extragear/network/ktorrent": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "5.1"
+        },
+        "extragear/pim/zanshin": {
+            "stable-qt4": "0.3",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "master"
+        },
+        "extragear/pim/ktimetracker": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
+        },
+        "extragear/libs/kproperty" : {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "3.2"
+        },
+        "extragear/libs/kreport" : {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "3.2"
+        },
+        "extragear/libs/kdb" : {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "3.2"
+        },
+        "extragear/edu/kstars": {
+            "stable-qt4": "Applications/14.12",
+            "latest-qt4": "Applications/14.12",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "master"
+        },
+        "extragear/network/telepathy/telepathy-logger-qt": {
+            "stable-qt4": "kde-telepathy-0.5",
+            "latest-qt4": "kde-telepathy-0.5",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "Applications/15.04"
+        },
+        "extragear/network/kio-gopher": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
+        },
+        "extragear/network/rekonq": {
+            "stable-qt4": "master",
+            "latest-qt4": "master",
+            "kf5-qt5": "frameworks",
+            "stable-kf5-qt5": ""
+        },
+        "extragear/multimedia/plasma-mediacenter": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
+        },
+
+
+
+        "kdereview": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "master"
+        },
+        "kdereview/rust-qt-binding-generator": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
+        },
+        "kdereview/plasma-active-window-control": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
+        },
+
+
+
+        "playground/libs/libqgit2" : {
+            "stable-qt4": "master",
+            "latest-qt4": "master",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "master"
+        },
+        "playground/base/qtcurve" : {
+            "latest-qt4": "master",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
+        },
+        "playground/base/kio-mtp" : {
+            "stable-qt4": "master",
+            "latest-qt4": "master",
+            "kf5-qt5": "frameworks",
+            "stable-kf5-qt5": ""
+        },
         "playground/base/kirogi" : {
             "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         },
+        "playground/lib/kasync": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
+        },
+        "playground/pim/kube": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "develop",
+            "stable-kf5-qt5": "master"
+        },
         "playground/multimedia/subtitlecomposer": {
             "stable-qt4": "kde4",
             "latest-qt4": "kde4",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "release/0.7"
-        }
+        },
+        "playground/libs/libechonest" : {
+            "stable-qt4": "stable-v1",
+            "latest-qt4": "master",
+            "kf5-qt5": "",
+            "stable-kf5-qt5": ""
+        },
+        "playground/libs/kasync" : {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
+        },
+        "playground/libs/kimap2": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
+        },
+        "playground/www/qmlweb": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "development/qmlweb2",
+            "stable-kf5-qt5": ""
+        },
+        "playground/libs/snorenotify": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
+        },
+        "playground/edu/rkward": {
+            "stable-qt4": "releases/0.6.4",
+            "latest-qt4": "releases/0.6.4",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
+        },
+        "playground/utils/kregexpeditor": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "master"
+        },
+        "playground/games/ksokoban" : {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
+        },
+        "playground/utils/kairo": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "master"
+        },
+        "playground/devtools/ktechlab": {
+            "stable-qt4": "",
+            "latest-qt4": "master-kde4",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
+        },
+        "playground/base/atelier": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
+        },
+        "playground/pim/sink": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "develop",
+            "stable-kf5-qt5": "master"
+        },
+        "playground/devtools/plugins/*": {
+            "stable-qt4": "master",
+            "latest-qt4": "master",
+            "kf5-qt5": "",
+            "stable-kf5-qt5": ""
+        },
+        "playground/devtools/plugins/kdev-css": {
+            "stable-qt4": "1.7",
+            "latest-qt4": "1.7",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
+        },
+        "playground/devtools/plugins/kdev-embedded": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
+        },
+        "playground/devtools/plugins/kdev-krazy2": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
+        },
+        "playground/devtools/plugins/kdev-mercurial": {
+            "stable-qt4": "1.7",
+            "latest-qt4": "1.7",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
+        },
+        "playground/devtools/plugins/kdev-ruby": {
+            "stable-qt4": "1.7",
+            "latest-qt4": "1.7",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
+        },
+        "playground/devtools/plugins/kdev-valgrind": {
+            "stable-qt4": "1.7",
+            "latest-qt4": "1.7",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
+        },
+        "playground/devtools/plugins/kdev-verapp": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
+        },
+        "playground/devtools/plugins/kdev-executebrowser": {
+            "stable-qt4": "1.7",
+            "latest-qt4": "1.7",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
+        },
+        "playground/devtools/plugins/kdev-upload": {
+            "stable-qt4": "1.7",
+            "latest-qt4": "1.7",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
+        },
+        "playground/devtools/plugins/kdev-xdebug": {
+            "stable-qt4": "1.7",
+            "latest-qt4": "1.7",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
+        },
+
+
+
+        "kde/kdewebdev/*" : {
+            "stable-qt4": "Applications/17.08",
+            "latest-qt4": "master",
+            "kf5-qt5": "",
+            "stable-kf5-qt5": ""
+        },
+        "kde/kdelibs" : {
+            "stable-qt4": "KDE/4.14",
+            "latest-qt4": "KDE/4.14",
+            "kf5-qt5": "",
+            "stable-kf5-qt5": ""
+        },
+         "kde/kde-runtime" : {
+            "stable-qt4": "Applications/17.08",
+            "latest-qt4": "master",
+            "kf5-qt5": "",
+            "stable-kf5-qt5": ""
+        },
+        "kde/kdepim" : {
+            "stable-qt4": "KDE/4.14",
+            "latest-qt4": "KDE/4.14",
+            "kf5-qt5": "",
+            "stable-kf5-qt5": ""
+        },
+        "kde/kdelibs/nepomuk-core" : {
+            "stable-qt4": "KDE/4.14",
+            "latest-qt4": "KDE/4.14",
+            "kf5-qt5": "",
+            "stable-kf5-qt5": ""
+        },
+        "kde/kdelibs/nepomuk-widgets" : {
+            "stable-qt4": "KDE/4.14",
+            "latest-qt4": "KDE/4.14",
+            "kf5-qt5": "",
+            "stable-kf5-qt5": ""
+        },
+        "kdesupport/soprano": {
+            "stable-qt4": "2.9",
+            "latest-qt4": "2.9",
+            "kf5-qt5": "",
+            "stable-kf5-qt5": ""
+        },
+        "kdesupport/automoc": {
+            "stable-qt4": "master",
+            "latest-qt4": "master",
+            "kf5-qt5": "",
+            "stable-kf5-qt5": ""
+        },
+        "unmaintained/kdepimlibs" : {
+            "stable-qt4": "KDE/4.14",
+            "latest-qt4": "KDE/4.14",
+            "kf5-qt5": "",
+            "stable-kf5-qt5": ""
+        },
+        "unmaintained/kde-baseapps" : {
+            "stable-qt4": "Applications/16.08",
+            "latest-qt4": "Applications/16.08",
+            "kf5-qt5": "",
+            "stable-kf5-qt5": ""
+        },
+        "kdesupport/strigi/*": {
+            "stable-qt4": "master",
+            "latest-qt4": "master",
+            "kf5-qt5": "",
+            "stable-kf5-qt5": ""
+        },
+        "kde/kde-workspace" : {
+            "stable-qt4": "KDE/4.11",
+            "latest-qt4": "KDE/4.11",
+            "kf5-qt5": "",
+            "stable-kf5-qt5": ""
+        },
+        "kde/kdesdk/kdesdk-strigi-analyzers": {
+            "stable-qt4": "Applications/16.04",
+            "latest-qt4": "master",
+            "kf5-qt5": "",
+            "stable-kf5-qt5": ""
+        },
+        "kde/kdegraphics/kdegraphics-strigi-analyzer" : {
+            "stable-qt4": "Applications/16.04",
+            "latest-qt4": "master",
+            "kf5-qt5": "",
+            "stable-kf5-qt5": ""
+        },
+        "kde/kdenetwork/kdenetwork-strigi-analyzers": {
+            "stable-qt4": "Applications/16.04",
+            "latest-qt4": "master",
+            "kf5-qt5": "",
+            "stable-kf5-qt5": ""
+        },
+        "kde/kdeexamples" : {
+            "stable-qt4": "master",
+            "latest-qt4": "master",
+            "kf5-qt5": "frameworks-scratch",
+            "stable-kf5-qt5": ""
+        },
+
+
+
+        "unmaintained/gpgmepp" : {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": "Applications/16.08"
+        },
    }
 }
