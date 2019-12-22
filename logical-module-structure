@@ -801,9 +801,6 @@
             "kf5-qt5": "master",
             "stable-kf5-qt5": "release/19.12"
         },
-
-
-
         "kdesupport/phonon": {
             "stable-qt4": "master",
             "latest-qt4": "master",
