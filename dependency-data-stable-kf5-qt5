@@ -1502,6 +1502,11 @@ playground/mobile/calindori: frameworks/kdbusaddons
 playground/mobile/calindori: frameworks/knotifications
 playground/mobile/calindori: frameworks/kservice
 
+### Keysmith ###
+
+kdereview/keysmith: -frameworks/kf5umbrella
+kdereview/keysmith: frameworks/kirigami
+
 ### Kolab ###
 
 third-party/libkolab: frameworks/kf5umbrella
