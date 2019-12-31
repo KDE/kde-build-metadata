@@ -651,14 +651,6 @@ kde/pim/kitinerary: kde/pim/kpkpass
 
 playground/pim/kpublictransport: -framework/kf5umbrella
 
-playground/pim/itinerary: -frameworks/kf5umbrella
-playground/pim/itinerary: frameworks/kholidays
-playground/pim/itinerary: frameworks/kirigami
-playground/pim/itinerary: frameworks/knotifications
-playground/pim/itinerary: frameworks/prison
-playground/pim/itinerary: playground/pim/kpublictransport
-playground/pim/itinerary: kde/pim/kitinerary
-
 # Gravatar support libraries
 kde/pim/libgravatar: kde/pim/pimcommon
 
@@ -1383,6 +1375,13 @@ extragear/pim/zanshin: kde/pim/kldap
 extragear/pim/zanshin: kde/pim/kidentitymanagement
 extragear/pim/zanshin: kde/pim/kontactinterface
 extragear/pim/zanshin: kde/pim/kdepim-runtime
+extragear/pim/itinerary: -frameworks/kf5umbrella
+extragear/pim/itinerary: frameworks/kholidays
+extragear/pim/itinerary: frameworks/kirigami
+extragear/pim/itinerary: frameworks/knotifications
+extragear/pim/itinerary: frameworks/prison
+extragear/pim/itinerary: playground/pim/kpublictransport
+extragear/pim/itinerary: kde/pim/kitinerary
 
 # Extragear SDK
 extragear/sdk/massif-visualizer: extragear/graphics/kdiagram
