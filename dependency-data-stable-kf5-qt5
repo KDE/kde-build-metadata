@@ -1505,6 +1505,7 @@ playground/mobile/calindori: frameworks/kservice
 
 kdereview/keysmith: -frameworks/kf5umbrella
 kdereview/keysmith: frameworks/kirigami
+kdereview/keysmith: frameworks/ki18n
 
 ### Kolab ###
 
