@@ -1496,14 +1496,29 @@ playground/pim/kube: kde/pim/kmime
 playground/pim/kube: kde/pim/messagelib
 
 # Maui
+playground/libs/mauikit: -frameworks/kf5umbrella
+playground/libs/mauikit: frameworks/ki18n
+playground/libs/mauikit: frameworks/knotifications
+playground/libs/mauikit: frameworks/kconfig
+playground/libs/mauikit: frameworks/kservice
+playground/libs/mauikit: frameworks/kio
+playground/libs/mauikit: frameworks/kconfigwidgets
+playground/libs/mauikit: frameworks/attia
+playground/libs/mauikit: frameworks/syntaxhighlighting
+
+playground/multimedia/vvave: -frameworks/kf5umbrella
 playground/multimedia/vvave: playground/libs/mauikit
 
+playground/multimedia/index-fm: -frameworks/kf5umbrella
 playground/base/index-fm: playground/libs/mauikit
 
+playground/multimedia/nota: -frameworks/kf5umbrella
 playground/base/nota: playground/libs/mauikit
 
+playground/multimedia/buho: -frameworks/kf5umbrella
 playground/base/buho: playground/libs/mauikit
 
+playground/multimedia/maui-pix: -frameworks/kf5umbrella
 playground/base/maui-pix: playground/libs/mauikit
 
 playground/mobile/calindori: -frameworks/kf5umbrella
