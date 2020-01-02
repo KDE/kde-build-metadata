@@ -1504,6 +1504,8 @@ playground/base/nota: playground/libs/mauikit
 
 playground/base/buho: playground/libs/mauikit
 
+playground/base/maui-pix: playground/libs/mauikit
+
 playground/mobile/calindori: -frameworks/kf5umbrella
 playground/mobile/calindori: frameworks/kcalendarcore
 playground/mobile/calindori: frameworks/kconfig
