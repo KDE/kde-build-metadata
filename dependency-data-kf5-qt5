@@ -127,7 +127,6 @@ frameworks/ktextwidgets: frameworks/kconfig
 frameworks/ktextwidgets: frameworks/kconfigwidgets
 frameworks/ktextwidgets: frameworks/ki18n
 frameworks/ktextwidgets: frameworks/kwidgetsaddons
-frameworks/ktextwidgets: frameworks/kwindowsystem
 frameworks/ktextwidgets: frameworks/sonnet
 frameworks/kparts: frameworks/kio
 frameworks/kparts: frameworks/kxmlgui
