@@ -23,6 +23,7 @@ third-party/Qt5: -frameworks/extra-cmake-modules
 third-party/libdbusmenu-qt: -frameworks/extra-cmake-modules
 third-party/libgpg-error: -frameworks/extra-cmake-modules
 third-party/taglib: -frameworks/extra-cmake-modules
+third-party/grantlee: -frameworks/extra-cmake-modules
 third-party/telepathy-qt: -frameworks/extra-cmake-modules
 third-party/telepathy-accounts-signon: -frameworks/extra-cmake-modules
 kdesupport/qca: -frameworks/extra-cmake-modules
@@ -558,11 +559,11 @@ kde/kdeutils/kgpg: kde/pim/akonadi-contacts
 
 # KDE PIM!
 
-kde/pim/kpimtextedit: kdereview/grantlee
+kde/pim/kpimtextedit: third-party/grantlee
 kde/pim/kpimtextedit: frameworks/kdesignerplugin
-kde/pim/pimcommon: kdereview/grantlee
-kde/pim/grantleetheme: kdereview/grantlee
-kde/pim/kcalutils: kdereview/grantlee
+kde/pim/pimcommon: third-party/grantlee
+kde/pim/grantleetheme: third-party/grantlee
+kde/pim/kcalutils: third-party/grantlee
 
 # Akonadi
 kde/pim/akonadi: frameworks/kdesignerplugin
@@ -737,7 +738,7 @@ kde/pim/kdepim-apps-libs: kde/pim/akonadi-contacts
 kde/pim/kdepim-apps-libs: kde/pim/grantleetheme
 kde/pim/kdepim-apps-libs: kde/pim/libkleo
 kde/pim/kdepim-apps-libs: kde/pim/pimcommon
-kde/pim/kdepim-apps-libs: kdereview/grantlee
+kde/pim/kdepim-apps-libs: third-party/grantlee
 
 # Common mail handling libraries
 kde/pim/mailcommon: frameworks/kdesignerplugin
@@ -768,7 +769,7 @@ kde/pim/messagelib: kde/pim/libgravatar
 kde/pim/messagelib: kde/pim/libkdepim
 kde/pim/messagelib: kde/pim/libkleo
 kde/pim/messagelib: kde/pim/pimcommon
-kde/pim/messagelib: kdereview/grantlee
+kde/pim/messagelib: third-party/grantlee
 kde/pim/messagelib: kdesupport/qca
 
 # KMail
@@ -805,7 +806,7 @@ kde/pim/kaddressbook: kde/pim/kpimtextedit
 kde/pim/kaddressbook: kde/pim/libkdepim
 kde/pim/kaddressbook: kde/pim/libkleo
 kde/pim/kaddressbook: kde/pim/pimcommon
-kde/pim/kaddressbook: kdereview/grantlee
+kde/pim/kaddressbook: third-party/grantlee
 
 # KNotes
 kde/pim/knotes: kde/pim/akonadi
@@ -817,7 +818,7 @@ kde/pim/knotes: kde/pim/kontactinterface
 kde/pim/knotes: kde/pim/kpimtextedit
 kde/pim/knotes: kde/pim/libkdepim
 kde/pim/knotes: kde/pim/pimcommon
-kde/pim/knotes: kdereview/grantlee
+kde/pim/knotes: third-party/grantlee
 kde/pim/knotes: kde/pim/grantleetheme
 
 # Akonadiconsole
@@ -868,7 +869,7 @@ kde/pim/akregator: kde/pim/libkdepim
 kde/pim/akregator: kde/pim/libkleo
 kde/pim/akregator: kde/pim/messagelib
 kde/pim/akregator: kde/pim/pimcommon
-kde/pim/akregator: kdereview/grantlee
+kde/pim/akregator: third-party/grantlee
 
 # KAlarm
 kde/pim/kalarm: frameworks/kcalendarcore
@@ -934,7 +935,7 @@ kde/pim/grantlee-editor: kde/pim/kpimtextedit
 kde/pim/grantlee-editor: kde/pim/libkleo
 kde/pim/grantlee-editor: kde/pim/messagelib
 kde/pim/grantlee-editor: kde/pim/pimcommon
-kde/pim/grantlee-editor: kdereview/grantlee
+kde/pim/grantlee-editor: third-party/grantlee
 
 # Kontact
 kde/pim/kontact: kde/pim/akonadi
@@ -943,7 +944,7 @@ kde/pim/kontact: kde/pim/kdepim-apps-libs
 kde/pim/kontact: kde/pim/kontactinterface
 kde/pim/kontact: kde/pim/kpimtextedit
 kde/pim/kontact: kde/pim/libkdepim
-kde/pim/kontact: kdereview/grantlee
+kde/pim/kontact: third-party/grantlee
 
 # Akonadi Import Wizard
 kde/pim/akonadi-import-wizard: frameworks/kcontacts
@@ -1013,7 +1014,7 @@ kde/pim/kdepim-addons: kde/pim/messagelib
 kde/pim/kdepim-addons: kde/pim/pimcommon
 kde/pim/kdepim-addons: kde/pim/kpkpass
 kde/pim/kdepim-addons: kde/pim/kitinerary
-kde/pim/kdepim-addons: kdereview/grantlee
+kde/pim/kdepim-addons: third-party/grantlee
 
 # KSmtp libraries
 kde/pim/ksmtp: kde/pim/kmime
@@ -1168,7 +1169,7 @@ kde/kdeedu/minuet: frameworks/kcrash
 kde/kdeedu/minuet: frameworks/kdoctools
 
 # Rocs
-kde/kdeedu/rocs: kdereview/grantlee
+kde/kdeedu/rocs: third-party/grantlee
 
 kde/kdeedu/kalzium: frameworks/khtml
 kde/kdeedu/kiten: frameworks/khtml
@@ -1409,7 +1410,7 @@ extragear/utils/krename: frameworks/kjs
 
 ### KDevelop ###
 
-extragear/kdevelop/kdevplatform: kdereview/grantlee
+extragear/kdevelop/kdevplatform: third-party/grantlee
 
 # KDevelop main application
 extragear/kdevelop/kdevelop: kde/kdesdk/libkomparediff2
