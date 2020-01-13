@@ -290,7 +290,6 @@ frameworks/kpeople: frameworks/kcoreaddons
 frameworks/kpeople: frameworks/kwidgetsaddons
 frameworks/kpeople: frameworks/ki18n
 frameworks/kpeople: frameworks/kitemviews
-frameworks/kpeople: frameworks/kservice
 frameworks/kcontacts: frameworks/kcoreaddons
 frameworks/kcontacts: frameworks/ki18n
 frameworks/kcontacts: frameworks/kconfig
