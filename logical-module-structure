@@ -1414,7 +1414,7 @@
             "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": "Plasma/5.17"
+            "stable-kf5-qt5": "Plasma/5.18"
         },
         "kde/workspace/plasma-nano" : {
             "stable-qt4": "",
@@ -1429,10 +1429,10 @@
             "stable-kf5-qt5": ""
         },
         "kde/workspace/breeze" : {
-            "stable-qt4": "Plasma/5.17",
+            "stable-qt4": "Plasma/5.18",
             "latest-qt4": "master",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": "Plasma/5.17"
+            "stable-kf5-qt5": "Plasma/5.18"
         },
 
 
@@ -1568,7 +1568,7 @@
             "stable-qt4": "milou/0.1",
             "latest-qt4": "milou/0.1",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": "Plasma/5.17"
+            "stable-kf5-qt5": "Plasma/5.18"
         },
         "extragear/base/plasma-mobile": {
             "stable-qt4": "Active/4",
