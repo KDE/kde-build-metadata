@@ -62,7 +62,6 @@ frameworks/kunitconversion: frameworks/ki18n
 frameworks/kunitconversion: frameworks/kconfig
 frameworks/knotifications: frameworks/kwindowsystem
 frameworks/knotifications: frameworks/kconfig
-frameworks/knotifications: frameworks/kcodecs
 frameworks/knotifications: frameworks/kcoreaddons
 frameworks/knotifications: kdesupport/phonon
 frameworks/knotifications: third-party/libdbusmenu-qt
