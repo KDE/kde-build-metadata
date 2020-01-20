@@ -1538,13 +1538,13 @@
             "stable-qt4": "1.7",
             "latest-qt4": "1.7",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": "5.4"
+            "stable-kf5-qt5": "5.5"
         },
         "extragear/kdevelop/plugins/kdev-python": {
             "stable-qt4": "1.7",
             "latest-qt4": "1.7-py3",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": "5.4"
+            "stable-kf5-qt5": "5.5"
         },
         "extragear/accessibility/simon": {
             "stable-qt4": "0.5",
@@ -1718,7 +1718,7 @@
             "stable-qt4": "4.7",
             "latest-qt4": "4.7",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": "5.4"
+            "stable-kf5-qt5": "5.5"
         },
         "extragear/kdevelop/utilities/kdevelop-pg-qt": {
             "stable-qt4": "1.1",
