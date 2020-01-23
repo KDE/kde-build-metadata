@@ -1505,9 +1505,9 @@ playground/mobile/calindori: frameworks/kservice
 
 ### Keysmith ###
 
-kdereview/keysmith: -frameworks/kf5umbrella
-kdereview/keysmith: frameworks/kirigami
-kdereview/keysmith: frameworks/ki18n
+extragear/utils/keysmith: -frameworks/kf5umbrella
+extragear/utils/keysmith: frameworks/kirigami
+extragear/utils/keysmith: frameworks/ki18n
 
 ### Kolab ###
 
