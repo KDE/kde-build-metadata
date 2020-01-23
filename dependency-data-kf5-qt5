@@ -1414,6 +1414,14 @@ extragear/utils/plasma-mycroft: frameworks/knotifications
 
 extragear/utils/krename: frameworks/kjs
 
+extragear/utils/ktrip: -frameworks/kf5umbrella
+extragear/utils/ktrip: playground/pim/kpublictransport
+extragear/utils/ktrip: frameworks/kirigami
+extragear/utils/ktrip: frameworks/ki18n
+extragear/utils/ktrip: frameworks/kitemmodels
+extragear/utils/ktrip: frameworks/kconfig
+extragear/utils/ktrip: frameworks/kcoreaddons
+
 ### KDevelop ###
 
 extragear/kdevelop/kdevplatform: third-party/grantlee
@@ -1458,14 +1466,6 @@ calligra/kexi: kde/kdeedu/marble
 ### Playground ###
 
 playground/base/atelier: playground/base/atcore
-
-playground/base/ktrip: -frameworks/kf5umbrella
-playground/base/ktrip: playground/pim/kpublictransport
-playground/base/ktrip: frameworks/kirigami
-playground/base/ktrip: frameworks/ki18n
-playground/base/ktrip: frameworks/kitemmodels
-playground/base/ktrip: frameworks/kconfig
-playground/base/ktrip: frameworks/kcoreaddons
 
 playground/pim/kpeoplevcard: -frameworks/kf5umbrella
 playground/pim/kpeoplevcard: frameworks/kcoreaddons
