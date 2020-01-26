@@ -1421,6 +1421,7 @@ extragear/utils/ktrip: frameworks/ki18n
 extragear/utils/ktrip: frameworks/kitemmodels
 extragear/utils/ktrip: frameworks/kconfig
 extragear/utils/ktrip: frameworks/kcoreaddons
+extragear/utils/ktrip: frameworks/kcontacts
 
 ### KDevelop ###
 
