@@ -1502,6 +1502,9 @@ playground/pim/kube: playground/pim/sink
 playground/pim/kube: kde/pim/kmime
 playground/pim/kube: kde/pim/messagelib
 
+#kongress
+playground/utils/kongress: frameworks/kcalendarcore
+
 # Maui
 playground/libs/mauikit: -frameworks/kf5umbrella
 playground/libs/mauikit: frameworks/ki18n
