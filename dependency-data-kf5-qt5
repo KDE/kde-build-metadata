@@ -1537,6 +1537,15 @@ playground/mobile/calindori: frameworks/kdbusaddons
 playground/mobile/calindori: frameworks/knotifications
 playground/mobile/calindori: frameworks/kservice
 
+playground/utils/kongress: -frameworks/kf5umbrella
+playground/utils/kongress: frameworks/kcalendarcore
+playground/utils/kongress: frameworks/kconfig
+playground/utils/kongress: frameworks/kirigami
+playground/utils/kongress: frameworks/ki18n
+playground/utils/kongress: frameworks/kdbusaddons
+playground/utils/kongress: frameworks/knotifications
+playground/utils/kongress: frameworks/kservice
+
 ### Keysmith ###
 
 extragear/utils/keysmith: -frameworks/kf5umbrella
