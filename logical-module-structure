@@ -1738,12 +1738,6 @@
             "kf5-qt5": "master",
             "stable-kf5-qt5": ""
         },
-        "extragear/utils/kongress": {
-            "stable-qt4": "",
-            "latest-qt4": "",
-            "kf5-qt5": "master",
-            "stable-kf5-qt5": ""
-        },
         "extragear/utils/krusader": {
             "stable-qt4": "kde4",
             "latest-qt4": "kde4",
@@ -2102,6 +2096,12 @@
             "latest-qt4": "",
             "kf5-qt5": "master",
             "stable-kf5-qt5": "master"
+        },
+        "playground/utils/kongress": {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
         },
         "playground/games/ksokoban" : {
             "stable-qt4": "",
