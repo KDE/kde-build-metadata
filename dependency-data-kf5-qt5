@@ -1549,6 +1549,8 @@ playground/utils/kongress: frameworks/kdbusaddons
 playground/utils/kongress: frameworks/knotifications
 playground/utils/kongress: frameworks/kservice
 
+playground/mobile/qrca: frameworks/kcontacts
+
 ### Keysmith ###
 
 extragear/utils/keysmith: -frameworks/kf5umbrella
