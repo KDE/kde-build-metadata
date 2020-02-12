@@ -1549,7 +1549,12 @@ playground/utils/kongress: frameworks/kdbusaddons
 playground/utils/kongress: frameworks/knotifications
 playground/utils/kongress: frameworks/kservice
 
+playground/mobile/qrca: -frameworks/kf5umbrella
 playground/mobile/qrca: frameworks/kcontacts
+playground/mobile/qrca: frameworks/kirigami
+playground/mobile/qrca: frameworks/purpose
+playground/mobile/qrca: frameworks/ki18n
+playground/mobile/qrca: frameworks/kcoreaddons
 
 ### Keysmith ###
 
