@@ -1514,7 +1514,7 @@ playground/libs/mauikit: frameworks/kservice
 playground/libs/mauikit: frameworks/kio
 playground/libs/mauikit: frameworks/kconfigwidgets
 playground/libs/mauikit: frameworks/attia
-playground/libs/mauikit: frameworks/syntaxhighlighting
+playground/libs/mauikit: frameworks/syntax-highlighting
 
 playground/multimedia/vvave: -frameworks/kf5umbrella
 playground/multimedia/vvave: playground/libs/mauikit
