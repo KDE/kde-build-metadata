@@ -53,6 +53,7 @@ frameworks/kfilemetadata: frameworks/ki18n
 frameworks/kfilemetadata: frameworks/karchive
 frameworks/kfilemetadata: frameworks/kcoreaddons
 frameworks/kfilemetadata: third-party/taglib
+frameworks/kfilemetadata: third-party/poppler
 frameworks/kimageformats: frameworks/karchive
 frameworks/kjobwidgets: frameworks/kcoreaddons
 frameworks/kjobwidgets: frameworks/kwidgetsaddons
@@ -149,6 +150,7 @@ frameworks/kxmlgui: frameworks/kglobalaccel
 frameworks/kxmlgui: frameworks/kconfigwidgets
 frameworks/kxmlgui: frameworks/ki18n
 frameworks/kxmlgui: frameworks/kiconthemes
+frameworks/kxmlgui: frameworks/ktextwidgets
 frameworks/kxmlgui: frameworks/kwidgetsaddons
 frameworks/kxmlgui: frameworks/kwindowsystem
 frameworks/kxmlgui: frameworks/breeze-icons
