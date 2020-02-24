@@ -1391,6 +1391,7 @@ extragear/pim/itinerary: frameworks/knotifications
 extragear/pim/itinerary: frameworks/prison
 extragear/pim/itinerary: playground/pim/kpublictransport
 extragear/pim/itinerary: kde/pim/kitinerary
+extragear/pim/itinerary: frameworks/kdbusaddons
 
 # Extragear SDK
 extragear/sdk/massif-visualizer: extragear/graphics/kdiagram
