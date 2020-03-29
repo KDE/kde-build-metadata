@@ -717,6 +717,7 @@ kde/pim/calendarsupport: kde/pim/kidentitymanagement
 kde/pim/calendarsupport: kde/pim/kimap
 kde/pim/calendarsupport: kde/pim/kmime
 kde/pim/calendarsupport: kde/pim/pimcommon
+kde/pim/calendarsupport: kde/pim/akonadi-notes
 
 # Incidence Editor
 kde/pim/incidenceeditor: frameworks/kcalendarcore
