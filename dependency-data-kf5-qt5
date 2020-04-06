@@ -1469,6 +1469,17 @@ calligra/kexi: extragear/libs/kproperty
 calligra/kexi: extragear/libs/kreport
 calligra/kexi: kde/kdeedu/marble
 
+### KDE Review ###
+
+kdereview/calindori: -frameworks/kf5umbrella
+kdereview/calindori: frameworks/kcalendarcore
+kdereview/calindori: frameworks/kconfig
+kdereview/calindori: frameworks/kirigami
+kdereview/calindori: frameworks/ki18n
+kdereview/calindori: frameworks/kdbusaddons
+kdereview/calindori: frameworks/knotifications
+kdereview/calindori: frameworks/kservice
+
 ### Playground ###
 
 playground/base/atelier: playground/base/atcore
@@ -1536,15 +1547,6 @@ playground/base/buho: playground/libs/mauikit
 
 playground/multimedia/maui-pix: -frameworks/kf5umbrella
 playground/base/maui-pix: playground/libs/mauikit
-
-playground/mobile/calindori: -frameworks/kf5umbrella
-playground/mobile/calindori: frameworks/kcalendarcore
-playground/mobile/calindori: frameworks/kconfig
-playground/mobile/calindori: frameworks/kirigami
-playground/mobile/calindori: frameworks/ki18n
-playground/mobile/calindori: frameworks/kdbusaddons
-playground/mobile/calindori: frameworks/knotifications
-playground/mobile/calindori: frameworks/kservice
 
 playground/utils/kongress: -frameworks/kf5umbrella
 playground/utils/kongress: frameworks/kcalendarcore
