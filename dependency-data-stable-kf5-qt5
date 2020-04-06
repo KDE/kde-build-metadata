@@ -53,6 +53,7 @@ frameworks/kfilemetadata: frameworks/ki18n
 frameworks/kfilemetadata: frameworks/karchive
 frameworks/kfilemetadata: frameworks/kcoreaddons
 frameworks/kfilemetadata: third-party/taglib
+frameworks/kfilemetadata: third-party/poppler
 frameworks/kimageformats: frameworks/karchive
 frameworks/kjobwidgets: frameworks/kcoreaddons
 frameworks/kjobwidgets: frameworks/kwidgetsaddons
@@ -62,7 +63,6 @@ frameworks/kunitconversion: frameworks/ki18n
 frameworks/kunitconversion: frameworks/kconfig
 frameworks/knotifications: frameworks/kwindowsystem
 frameworks/knotifications: frameworks/kconfig
-frameworks/knotifications: frameworks/kcodecs
 frameworks/knotifications: frameworks/kcoreaddons
 frameworks/knotifications: kdesupport/phonon
 frameworks/knotifications: third-party/libdbusmenu-qt
@@ -78,8 +78,10 @@ frameworks/syndication: frameworks/kcodecs
 # Frameworks, tier3
 frameworks/kbookmarks: frameworks/kconfigwidgets
 frameworks/kbookmarks: frameworks/kcoreaddons
+frameworks/kbookmarks: frameworks/kcodecs
+frameworks/kbookmarks: frameworks/kconfig
 frameworks/kbookmarks: frameworks/kiconthemes
-frameworks/kbookmarks: frameworks/kwidgetsaddons
+frameworks/kbookmarks: frameworks/kconfigwidgets
 frameworks/kbookmarks: frameworks/kxmlgui
 frameworks/kcmutils: frameworks/kitemviews
 frameworks/kcmutils: frameworks/kconfigwidgets
@@ -125,9 +127,7 @@ frameworks/ktextwidgets: frameworks/kcompletion
 frameworks/ktextwidgets: frameworks/kconfig
 frameworks/ktextwidgets: frameworks/kconfigwidgets
 frameworks/ktextwidgets: frameworks/ki18n
-frameworks/ktextwidgets: frameworks/kservice
 frameworks/ktextwidgets: frameworks/kwidgetsaddons
-frameworks/ktextwidgets: frameworks/kwindowsystem
 frameworks/ktextwidgets: frameworks/sonnet
 frameworks/kparts: frameworks/kio
 frameworks/kparts: frameworks/kxmlgui
@@ -291,7 +291,6 @@ frameworks/kpeople: frameworks/kcoreaddons
 frameworks/kpeople: frameworks/kwidgetsaddons
 frameworks/kpeople: frameworks/ki18n
 frameworks/kpeople: frameworks/kitemviews
-frameworks/kpeople: frameworks/kservice
 frameworks/kcontacts: frameworks/kcoreaddons
 frameworks/kcontacts: frameworks/ki18n
 frameworks/kcontacts: frameworks/kconfig
@@ -494,6 +493,7 @@ kde/workspace/plasma-workspace: kde/workspace/kscreenlocker
 kde/workspace/plasma-workspace: kde/workspace/kactivitymanagerd
 kde/workspace/plasma-workspace: frameworks/prison
 kde/workspace/plasma-workspace: frameworks/kjsembed
+kde/workspace/plasma-workspace: frameworks/kquickcharts
 kde/workspace/plasma-workspace: extragear/libs/kuserfeedback
 
 # Plasma Desktop
@@ -531,6 +531,8 @@ kde/workspace/systemsettings: frameworks/khtml
 # Breeze GTK
 kde/workspace/breeze-gtk:kde/workspace/breeze
 
+# Discover
+kde/workspace/discover: extragear/libs/kuserfeedback
 
 ### Main Applications ###
 
@@ -1280,6 +1282,11 @@ kde/kdebindings/ruby/qtruby: kde/kdebindings/smoke/smokegen
 ### Extragear ###
 
 # Extragear Base
+extragear/base/plasma-camera: -frameworks/kf5umbrella
+extragear/base/plasma-camera: frameworks/kirigami
+extragear/base/plasma-camera: frameworks/ki18n
+extragear/base/plasma-camera: frameworks/kcoreaddons
+
 extragear/base/kwebkitpart: frameworks/kdewebkit
 extragear/office/latte-dock: -frameworks/kf5umbrella
 extragear/office/latte-dock: frameworks/kactivities
@@ -1385,6 +1392,8 @@ extragear/pim/itinerary: frameworks/knotifications
 extragear/pim/itinerary: frameworks/prison
 extragear/pim/itinerary: playground/pim/kpublictransport
 extragear/pim/itinerary: kde/pim/kitinerary
+extragear/pim/itinerary: frameworks/kdbusaddons
+extragear/pim/itinerary: frameworks/solid
 
 # Extragear SDK
 extragear/sdk/massif-visualizer: extragear/graphics/kdiagram
@@ -1409,6 +1418,15 @@ extragear/utils/plasma-mycroft: frameworks/ki18n
 extragear/utils/plasma-mycroft: frameworks/knotifications
 
 extragear/utils/krename: frameworks/kjs
+
+extragear/utils/ktrip: -frameworks/kf5umbrella
+extragear/utils/ktrip: playground/pim/kpublictransport
+extragear/utils/ktrip: frameworks/kirigami
+extragear/utils/ktrip: frameworks/ki18n
+extragear/utils/ktrip: frameworks/kitemmodels
+extragear/utils/ktrip: frameworks/kconfig
+extragear/utils/ktrip: frameworks/kcoreaddons
+extragear/utils/ktrip: frameworks/kcontacts
 
 ### KDevelop ###
 
@@ -1451,13 +1469,20 @@ calligra/kexi: extragear/libs/kproperty
 calligra/kexi: extragear/libs/kreport
 calligra/kexi: kde/kdeedu/marble
 
+### KDE Review ###
+
+kdereview/calindori: -frameworks/kf5umbrella
+kdereview/calindori: frameworks/kcalendarcore
+kdereview/calindori: frameworks/kconfig
+kdereview/calindori: frameworks/kirigami
+kdereview/calindori: frameworks/ki18n
+kdereview/calindori: frameworks/kdbusaddons
+kdereview/calindori: frameworks/knotifications
+kdereview/calindori: frameworks/kservice
+
 ### Playground ###
 
 playground/base/atelier: playground/base/atcore
-playground/base/ktrip: -frameworks/kf5umbrella
-playground/base/ktrip: playground/pim/kpublictransport
-playground/base/ktrip: frameworks/kirigami
-playground/base/ktrip: frameworks/ki18n
 
 playground/pim/kpeoplevcard: -frameworks/kf5umbrella
 playground/pim/kpeoplevcard: frameworks/kcoreaddons
@@ -1493,16 +1518,51 @@ playground/pim/kube: playground/pim/sink
 playground/pim/kube: kde/pim/kmime
 playground/pim/kube: kde/pim/messagelib
 
+#kongress
+playground/utils/kongress: frameworks/kcalendarcore
+
+# Maui
+playground/libs/mauikit: -frameworks/kf5umbrella
+playground/libs/mauikit: frameworks/ki18n
+playground/libs/mauikit: frameworks/knotifications
+playground/libs/mauikit: frameworks/kconfig
+playground/libs/mauikit: frameworks/kservice
+playground/libs/mauikit: frameworks/kio
+playground/libs/mauikit: frameworks/kconfigwidgets
+playground/libs/mauikit: frameworks/attia
+playground/libs/mauikit: frameworks/syntax-highlighting
+playground/libs/mauikit: frameworks/kirigami
+
+playground/multimedia/vvave: -frameworks/kf5umbrella
 playground/multimedia/vvave: playground/libs/mauikit
 
-playground/mobile/calindori: -frameworks/kf5umbrella
-playground/mobile/calindori: frameworks/kcalendarcore
-playground/mobile/calindori: frameworks/kconfig
-playground/mobile/calindori: frameworks/kirigami
-playground/mobile/calindori: frameworks/ki18n
-playground/mobile/calindori: frameworks/kdbusaddons
-playground/mobile/calindori: frameworks/knotifications
-playground/mobile/calindori: frameworks/kservice
+playground/multimedia/index-fm: -frameworks/kf5umbrella
+playground/base/index-fm: playground/libs/mauikit
+
+playground/multimedia/nota: -frameworks/kf5umbrella
+playground/base/nota: playground/libs/mauikit
+
+playground/multimedia/buho: -frameworks/kf5umbrella
+playground/base/buho: playground/libs/mauikit
+
+playground/multimedia/maui-pix: -frameworks/kf5umbrella
+playground/base/maui-pix: playground/libs/mauikit
+
+playground/utils/kongress: -frameworks/kf5umbrella
+playground/utils/kongress: frameworks/kcalendarcore
+playground/utils/kongress: frameworks/kconfig
+playground/utils/kongress: frameworks/kirigami
+playground/utils/kongress: frameworks/ki18n
+playground/utils/kongress: frameworks/kdbusaddons
+playground/utils/kongress: frameworks/knotifications
+playground/utils/kongress: frameworks/kservice
+
+playground/mobile/qrca: -frameworks/kf5umbrella
+playground/mobile/qrca: frameworks/kcontacts
+playground/mobile/qrca: frameworks/kirigami
+playground/mobile/qrca: frameworks/purpose
+playground/mobile/qrca: frameworks/ki18n
+playground/mobile/qrca: frameworks/kcoreaddons
 
 ### Keysmith ###
 
