@@ -1427,6 +1427,7 @@ extragear/utils/ktrip: frameworks/kitemmodels
 extragear/utils/ktrip: frameworks/kconfig
 extragear/utils/ktrip: frameworks/kcoreaddons
 extragear/utils/ktrip: frameworks/kcontacts
+extragear/utils/ktrip: playground/libs/kirigami-addons
 
 ### KDevelop ###
 
