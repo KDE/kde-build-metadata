@@ -1565,6 +1565,10 @@ playground/mobile/qrca: frameworks/purpose
 playground/mobile/qrca: frameworks/ki18n
 playground/mobile/qrca: frameworks/kcoreaddons
 
+playground/libs/kirigami-addons: -frameworks/kf5umbrella
+playground/libs/kirigami-addons: frameworks/kirigami
+playground/libs/kirigami-addons: frameworks/ki18n
+
 ### Keysmith ###
 
 extragear/utils/keysmith: -frameworks/kf5umbrella
