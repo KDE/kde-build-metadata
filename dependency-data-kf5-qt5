@@ -1569,6 +1569,13 @@ playground/libs/kirigami-addons: -frameworks/kf5umbrella
 playground/libs/kirigami-addons: frameworks/kirigami
 playground/libs/kirigami-addons: frameworks/ki18n
 
+playground/network/alligator: -frameworks/kf5umbrella
+playground/network/alligator: frameworks/kcoreaddons
+playground/network/alligator: frameworks/kconfig
+playground/network/alligator: frameworks/ki18n
+playground/network/alligator: frameworks/syndication
+playground/network/alligator: frameworks/kirigami
+
 ### Keysmith ###
 
 extragear/utils/keysmith: -frameworks/kf5umbrella
