@@ -1429,7 +1429,7 @@
             "stable-qt4": "calligra/2.9",
             "latest-qt4": "",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": "calligra/3.1"
+            "stable-kf5-qt5": "calligra/3.2"
         },
         "calligra/calligraplan": {
             "kf5-qt5": "master",
