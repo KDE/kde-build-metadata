@@ -467,7 +467,7 @@ kde/workspace/kmenuedit: kde/workspace/plasma-workspace
 kde/workspace/ksysguard: kde/workspace/libksysguard
 
 # KWaylandServer
-kde/workspace/kwayland-server: frameworks/plasma-wayland-protocol
+kde/workspace/kwayland-server: kdesupport/plasma-wayland-protocol
 
 # KWin
 kde/workspace/kwin: kde/workspace/kdecoration
