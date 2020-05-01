@@ -1428,6 +1428,12 @@
             "kf5-qt5": "master",
             "stable-kf5-qt5": "Plasma/5.18"
         },
+        "kde/workspace/kwayland-server" : {
+            "stable-qt4": "",
+            "latest-qt4": "",
+            "kf5-qt5": "master",
+            "stable-kf5-qt5": ""
+        },
 
 
 
@@ -1598,7 +1604,7 @@
             "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": "2.7"
+            "stable-kf5-qt5": "2.8"
         },
         "extragear/graphics/kgraphviewer": {
             "stable-qt4": "2.2",
