@@ -117,6 +117,7 @@ frameworks/knewstuff: frameworks/solid
 frameworks/knewstuff: frameworks/kbookmarks
 frameworks/knewstuff: frameworks/kio
 frameworks/knewstuff: frameworks/kirigami
+frameworks/knewstuff: frameworks/kpackage
 frameworks/kservice: frameworks/kconfig
 frameworks/kservice: frameworks/kcoreaddons
 frameworks/kservice: frameworks/kcrash
