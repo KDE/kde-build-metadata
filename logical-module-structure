@@ -1778,7 +1778,7 @@
             "stable-qt4": "2.3",
             "latest-qt4": "2.3",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": "3.2"
+            "stable-kf5-qt5": "3.3"
         },
         "extragear/sdk/kdesvn": {
             "stable-qt4": "rel_1.7",
