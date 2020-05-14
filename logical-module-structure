@@ -1420,13 +1420,13 @@
             "stable-qt4": "",
             "latest-qt4": "",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": "Plasma/5.18"
+            "stable-kf5-qt5": "Plasma/5.19"
         },
         "kde/workspace/breeze" : {
-            "stable-qt4": "Plasma/5.18",
+            "stable-qt4": "Plasma/5.19",
             "latest-qt4": "master",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": "Plasma/5.18"
+            "stable-kf5-qt5": "Plasma/5.19"
         },
         "kde/workspace/kwayland-server" : {
             "stable-qt4": "",
@@ -1568,7 +1568,7 @@
             "stable-qt4": "milou/0.1",
             "latest-qt4": "milou/0.1",
             "kf5-qt5": "master",
-            "stable-kf5-qt5": "Plasma/5.18"
+            "stable-kf5-qt5": "Plasma/5.19"
         },
         "extragear/base/plasma-mobile": {
             "stable-qt4": "Active/4",
